@@ -1,0 +1,23 @@
+---
+title: "Course Team"
+---
+
+## Instructor
+
+Dr. Danielle Sass is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. She received her Ph.D in Statistics from the University of Illinois at Urbana-Champaign. Her passion and focus is curriculum and content development for undergraduate students.
+
+| Office hours | Location |
+|--------------|----------|
+| TBD          | ZOOM     |
+
+## Teaching assistants
+
+All office hours will be held on-line via Zoom.
+
+| Name | Office hours |
+|------|--------------|
+| TBD  | TBD          |
+| TBD  | TBD          |
+| TBD  | TBD          |
+| TBD  | TBD          |
+| TBD  | TBD          |

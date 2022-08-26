@@ -1,0 +1,120 @@
+---
+title: "Multiple Regression <br> Chapter 6.2)"
+institute: "Department of Statistics and Data Science <br> STAT 202"
+
+logo: nu_logo.png
+format: 
+  revealjs:
+    theme: [default, nu_theme.scss]
+    chalkboard:
+      theme: whiteboard
+      toggleNotesButton: false
+    menu:
+        side: right
+    code-line-numbers: false
+
+execute:
+  message: false
+  warning: false
+  echo: true
+---
+
+```{r}
+#| include: false
+library(tidyverse)
+library(palmerpenguins)
+```
+
+
+## Today's goals {background-image="images_comics/correlation.png" background-size="400px" background-opacity="50%" background-position="85% 50%"}
+
+<br/>
+
+::: columns
+::: {.column width="60%"}
+1.  Multiple regression with one numerical and one categorical variables
+2.  Understand intercept, slope, offset in intercept, and offset in slope
+3.  Parallel slopes vs interaction model
+:::
+:::
+
+
+## Multiple Regression Goal and Example
+
+**Goal**: build a model with one numerical and one categorical explanatory variable.
+
+Using the `penguins` dataset, we want to determine how flipper_length impacts body_mass. But we also think body_mass varies by `sex`. Build a model that predicts `body_mass_g` using `flipper_length_mm` and `sex` as explanatory variables. In this dataset `sex` has 2 levels: {male, female}
+
+## Data
+
+```{r}
+glimpse(penguins)
+```
+
+
+## "Same slope model"
+
+```{r same-slope}
+#| echo: true
+model_parallel <- lm(body_mass_g ~ flipper_length_mm + sex, data=penguins)
+
+summary(model_parallel)
+```
+
+
+## Same Slopes Model Output
+
+**Equation**: $\widehat{bodymass} = -5410.3 + 46.98*flipper + 347.85*\mathbb{1}_{male}(x)$
+
+-   What is the reference level (baseline) for sex?
+-   Interpretation of $b_0$ : expected value of y for the baseline; the expected body mass for female penguins when flipper length is 0 is -5410.3
+-   Interpretation of $b_1$ : slope of flipper length for both categories
+-   Interpretation of $b_2$ : offset in intercept for males (level = male)
+
+## Same Slopes Model Output
+
+-   You can think of each 'level' having a different line (equation).
+
+-   The equation of the line for penguins who are female (ie: sex = female):
+
+$$-5410.3 + 46.98*flipper + 347.85*0$$
+$$ -5410.3 + 46.98*flipper$$
+
+-   The equation of the line for penguins who are male (ie: sex = male):
+
+$$-5410.3 + 46.98*flipper + 347.85*1$$
+$$ -5062.45 + 46.98*flipper$$
+
+## "Interaction Model"
+
+
+```{r interaction}
+#| echo: true
+model_interaction <- lm(body_mass_g ~ flipper_length_mm + sex +flipper_length_mm*sex, data=penguins)
+
+summary(model_interaction)
+```
+
+
+## Interaction Model Output
+
+**Equation**: $$\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*\mathbb{1}_{male}(x) $$ 
+$$- 0.29*flipper*\mathbb{1}_{male}(x)$$
+
+
+-   $b_0$ : intercept for baseline
+-   $b_1$ : slope of flipper length for
+-   $b_2$ : offset of intercept for 
+-   $b_3$ : offset in slope of flipper length for 
+
+## Interaction Model Output
+
+You can think of each 'level' having a different line (equation).
+
+Equation of the line for female penguins:
+
+<br>
+<br>
+Equation of the line for male penguins:
+
+

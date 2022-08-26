@@ -1,0 +1,105 @@
+---
+title: "Tidy Data <br> Chapter 4"
+institute: "Department of Statistics and Data Science <br> STAT 202"
+
+logo: nu_logo.png
+format: 
+  revealjs:
+    theme: [default, nu_theme.scss]
+    chalkboard:
+      theme: whiteboard
+      toggleNotesButton: false
+    menu:
+        side: right
+    code-line-numbers: false
+
+execute:
+  message: false
+  warning: false
+  echo: true
+---
+
+
+```{r}
+#| include: false
+library(tidyverse)
+library(palmerpenguins)
+```
+
+
+## Today's goals {background-image="images_horst/tidyverse_celestial.png" background-size="400px" background-opacity="50%" background-position="85% 50%"}
+
+<br/>
+
+::: columns
+::: {.column width="60%"}
+1.  Import datasets
+2.  Can you determine if a dataset is tidy or messy?
+3. Conduct an EDA
+:::
+:::
+
+
+::: {.absolute top="80%" left="90%" width="500"}
+::: {style="opacity:0.75; font-size: 0.5em"}
+Artwork by @allison_horst
+:::
+:::
+
+
+## Importing Data
+
+Use the `tidyverse` and `readxl` packages to import data.
+
+```{r}
+#| eval: false
+#Import .csv
+filename <- read_csv("data/filename.csv")
+#Import .xlsx 
+filename <- read_excel("data/filename.xlsx")
+#Import .rds
+filename <- read_RDS("data/filename.rds")
+#Load .rda 
+load("data/filename.rda")
+```
+
+
+Computers are not smart! It can only access files that are sitting in your `working directory`. You must direct the computer to the file your data is located in!
+
+## Tidy Data
+
+There are three interrelated rules which make a dataset tidy:
+
+-   Each variable must have its own column.
+-   Each observation must have its own row.
+-   Each value must have its own cell.
+
+## Tidy Data (continued)
+
+Which of the following are tidy and which are messy?
+
+::: {layout="[50,50]"}
+![](images_lecture/tidy5.PNG)
+
+![](images_lecture/tidy6.PNG)
+:::
+
+
+## EDA
+
+Before using your data to make inferences, you should conduct an exploratory data analysis.
+
+You do this by:
+
+-   looking at the raw data: `skim(data)`
+-   looking at the summary stats: mean, sd, median, min, max, missing values
+-   and visualizing the data: `ggplot()`
+
+This helps you understand the data, form hypothesis, and aid in interpreting results.
+
+## Example: EDA {.scrollable .smaller}
+
+```{r}
+library(skimr)
+skim(penguins)
+```

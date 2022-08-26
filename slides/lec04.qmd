@@ -1,0 +1,223 @@
+---
+title: "Data Visualization <br> Sections 2.7 - 2.9"
+institute: "Department of Statistics and Data Science <br> STAT 202"
+
+logo: nu_logo.png
+format: 
+  revealjs:
+    theme: [default, nu_theme.scss]
+    chalkboard:
+      theme: whiteboard
+      toggleNotesButton: false
+    menu:
+        side: right
+    code-line-numbers: false
+
+execute:
+  message: false
+  warning: false
+  echo: true
+---
+
+
+```{r}
+#| include: false
+library(tidyverse)
+library(ISDSdatasets)
+```
+
+## Today's goals {background-image="images_horst/r_first_then.png" background-size="400px" background-opacity="50%" background-position="80% 50%"}
+
+<br/>
+
+::: columns
+::: {.column width="60%"}
+1.  Create a boxplot
+2.  Create a barplot
+3.  Properly describe a boxplot and barplot
+4.  Display barplots in various ways by category
+:::
+:::
+
+::: {.absolute top="85%" left="80%" width="500"}
+::: {style="opacity:0.75; font-size: 0.5em"}
+Artwork by @allison_horst
+:::
+:::
+
+## 5NG#4: Boxplots {.smaller}
+
+-   A boxplot is used to visualize the **distribution** of a single **numerical** variable.
+
+-   Grouped boxplots are particularly useful for comparing the distribution of a numerical variable across a **categorical** variable. ie: shows the relationship between a numerical and a categorical variable.
+
+<br>
+
+**Boxplot syntax in R:**
+
+```{r boxplot}
+#| echo: true
+#| eval: false
+ggplot(data= my_data, aes(x = (optional categorical variable),  y = var1)) +
+  geom_boxplot()
+```
+
+If you switch x and y, it will just change the orientation of the boxplot (personal preference).
+
+## 5NG#4: Boxplots
+
+::: columns
+
+::: {.column width="40%"}
+
+<img src="images_lecture/box_plot.png" style="float: left;"/>
+
+:::
+
+::: {.column width="60%"}
+
+There are 3 things that we typically focus on and describe/compare when inspecting a boxplot:
+
+-   center
+-   spread
+-   shape and outliers
+
+:::
+:::
+
+
+## Binary Variables
+
+Sometimes a survey or dataset will code categorical responses with numbers. This is particularly common for binary categories (two choices).
+
+```{r}
+titanic %>% 
+  select(PassengerId, Survived, Sex) %>%
+  glimpse()
+```
+
+
+How can we change `Survived` to be treated as a categorical variable?
+
+
+
+## 5NG#5: Barplots
+
+A barplot is used to visualize the distribution (frequencies) of a single categorical variable.
+
+-   `geom_bar()` is used when we have the raw data and counting how many observations are in each category has to be done (list not yet counted).
+
+-   `geom_col()` is used when we directly have counts of each category in our dataset (pre-counted).
+
+**Barplot syntax in R:**
+
+```{r barplot}
+#| echo: true
+#| eval: false
+ggplot(data= my_data, aes(x = var1)) +
+  geom_bar()
+```
+
+## 5NG#5: Barplots continued
+
+When describing a barplot we look for...
+
+-   Disparities in the height of the bars.
+-   Bar with the most observations.
+-   Bar with the least observations.
+-   If all the bars are about equal height, then the distribution is uniform.
+
+
+## Example 1: Barplots {.scrollable .smaller}
+
+Consider the Palmer Penguins dataset.
+
+```{r}
+library(palmerpenguins)
+head(penguins)
+```
+
+We are interested in plotting the distribution of `species`.
+
+Are we using `geom_bar()` or `geom_col()`?
+
+<br>
+
+
+::: {.fragment}
+
+What would pre-counted data look like?
+
+::: {.panel-tabset}
+
+## Data
+
+```{r}
+#| include: false
+penguins_counted <- penguins %>% 
+  count(species)
+```
+
+
+```{r}
+penguins_counted
+```
+
+## Code
+
+```{r}
+penguins_counted <- penguins %>% 
+  count(species)
+```
+
+:::
+:::
+
+## Example 2: Barplots {.scrollable .smaller}
+
+What if we want to visualize the distribution of `sex` in each of the `species`. There are 4 main ways to visualize multiple levels within a categorical data:
+
+
+```{r cat-barplot}
+#| echo: true
+#| out.width: 50%
+ggplot(data=penguins, aes(x = species, fill = sex)) +
+  geom_bar()
+  
+```
+
+```{r proportion-barplot}
+#| echo: true
+#| out.width: 50%
+ggplot(data=penguins, aes(x = species, fill = sex)) +
+  geom_bar(position = "fill") +
+  ylab("proportion")
+  
+```
+
+
+```{r side-by-side-barplot}
+#| echo: true
+#| out.width: 50%
+ggplot(data=penguins, aes(x = species, fill = sex)) +
+  geom_bar(position = "dodge")
+ 
+```
+
+
+```{r faceted-barplot}
+#| echo: true
+#| out.width: 50%
+ggplot(data=penguins, aes(x = species))+
+  geom_bar() +
+  facet_wrap(~ sex)
+```
+
+
+## Extra information and resources {.scrollable}
+
+**"factor" vs "character" variable**
+
+- factor has predefined levels and the observation must be one of those levels (limited response options).
+- character can take on any string value (think open response options)
+- [Factors in R](https://www.stat.berkeley.edu/~s133/factors.html)

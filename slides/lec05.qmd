@@ -1,0 +1,338 @@
+---
+title: "Data Wrangling <br> Chapter 3.0 - 3.3"
+institute: "Department of Statistics and Data Science <br> STAT 202"
+
+logo: nu_logo.png
+format: 
+  revealjs:
+    theme: [default, nu_theme.scss]
+    chalkboard:
+      theme: whiteboard
+      toggleNotesButton: false
+    menu:
+        side: right
+    code-line-numbers: false
+
+execute:
+  message: false
+  warning: false
+  echo: true
+---
+
+```{r}
+#| include: false
+library(tidyverse)
+library(palmerpenguins)
+```
+
+## Today's goals {background-image="images_horst/dplyr_wrangling.png" background-size="400px" background-opacity="50%" background-position="85% 50%"}
+
+<br/>
+
+::: columns
+::: {.column width="60%"}
+1.  Understand the pipe operator
+2.  Subset rows of a dataset based on conditions
+3.  Calculate summary statistics of a variable
+:::
+:::
+
+::: {.absolute top="77%" left="85%" width="500"}
+::: {style="opacity:0.75; font-size: 0.5em"}
+Artwork by @allison_horst
+:::
+:::
+
+## Data Wrangling
+
+In real data applications it is rare that data will be in the "perfect" form for us to use. We will typically need to manipulate or wrangle data into a form that is useful using the `dplyr` library.
+
+-   The pipe operator `%>%` : takes the output of one function and passes it into another function as an argument.
+
+```{r}
+#| eval: false
+data %>% 
+  step 1 %>% 
+  step 2
+```
+
+## filter()
+
+-   `filter()` is used to subset a data frame, retaining all **rows** that satisfy your conditions.
+
+Operators for the `filter` Function
+
+::: columns
+::: {.column width="50%"}
+| **Operator** | **Definition**           |
+|--------------|--------------------------|
+| `==`         | equal                    |
+| `>`          | greater than             |
+| `>=`         | greater than or equal to |
+:::
+
+::: {.column width="50%"}
+| **Operator** | **Definition**        |
+|--------------|-----------------------|
+| `!=`         | not equal             |
+| `<`          | less than             |
+| `<=`         | less than or equal to |
+:::
+:::
+
+## Example 1 {auto-animate="true"}
+
+Consider the `penguins` dataset.
+
+Subset the dataset to only include 'male' penguins.
+
+::: panel-tabset
+## Code
+
+```{r}
+#| eval: false
+penguins %>% 
+  filter(            )
+```
+
+## Data
+
+```{r}
+glimpse(penguins)
+```
+:::
+
+## Example 1 {auto-animate="true"}
+
+Consider the `penguins` dataset.
+
+Subset the dataset to only include 'male' penguins.
+
+::: panel-tabset
+## Code
+
+```{r}
+#| eval: false
+penguins %>% 
+  filter(sex == "male")
+```
+
+## Data
+
+```{r}
+glimpse(penguins)
+```
+:::
+
+<br>
+
+::: fragment
+Remember to store your data with a new meaningful name.
+:::
+
+## Example 1 {auto-animate="true"}
+
+Consider the `penguins` dataset.
+
+Subset the dataset to only include 'male' penguins.
+
+::: panel-tabset
+## Code
+
+```{r}
+penguins_male <- penguins %>% 
+  filter(sex == "male")
+```
+
+## New Data
+
+```{r}
+glimpse(penguins_male)
+```
+:::
+
+<br>
+
+Remember to store your data with a new meaningful name.
+
+## Example 2 {.smaller auto-animate="true"}
+
+Subset the dataset to only include 'male' penguins that weigh more than 4000 grams.
+
+::: panel-tabset
+## Code
+
+```{r}
+penguins_male <- penguins %>% 
+  filter(sex == "male")
+```
+
+## Data
+
+```{r}
+glimpse(penguins)
+```
+:::
+
+## Example 2 {.smaller auto-animate="true"}
+
+Subset the dataset to only include 'male' penguins that weigh more than 4000 grams.
+
+::: panel-tabset
+## Code
+
+```{r}
+penguins_heavy_m <- penguins %>% 
+  filter(sex == "male", body_mass_g > 4000)
+```
+
+## Alternate Code
+
+**and** can be represented by either a comma **,** or the **&** symbol
+
+```{r}
+#| eval: false
+penguins_heavy_m <- penguins %>% 
+  filter(sex == "male" & body_mass_g > 4000)
+```
+
+<br>
+
+Note: Since we already created an only males dataset you could have started with that and proceeded to filter based on weight.
+
+```{r}
+#| eval: false
+penguins_heavy_m <- penguins_male %>% 
+  filter(body_mass_g > 4000)
+```
+
+## New Data
+
+```{r}
+glimpse(penguins_heavy_m)
+```
+:::
+
+<br>
+
+::: fragment
+ALWAYS inspect your new dataset to make sure everything is as expected.
+:::
+
+## summarize()
+
+`summarize()` function reduces a data frame to a summary of just the specified variable.
+
+<br>
+
+**Useful summary statistics**:
+
+```{r}
+#| eval: false
+data_sumamry <- data %>% 
+  summarize(mean = mean(variable),
+            median = median(variable),
+            sd = sd(variable),
+            iqr = IQR(variable),
+            count = n())
+```
+
+## Example 3 {.scrollable auto-animate="true"}
+
+Consider the `penguins` dataset.
+
+<font size="6">Summarize the average `flipper_length_mm` and count for penguins that are either "Adelie" `species` or "Gentoo" `species`. 
+Which of the following is correct?</font>
+
+```{r}
+#| eval: false
+# a)
+penguins_summary_a <- penguins %>% 
+  filter(species == "Adelie" | "Gentoo") %>% 
+  summarize(mean = mean(flipper_length_mm),
+            count = n() )
+# b)
+penguins_summary_b <- penguins %>% 
+  filter(species == "Adelie" | species == "Gentoo") %>% 
+  summarize(mean = mean(flipper_length_mm),
+            count = n() )
+#c)
+penguins_summary_c <- penguins %>% 
+  summarize(mean = mean(flipper_length_mm),
+            count = n() ) %>% 
+  filter(species == "Adelie" & species == "Gentoo")
+#d)
+penguins_summary_d <- penguins %>% 
+  filter(species == "Adelie" & species == "Gentoo") %>% 
+  summarize(mean = mean(flipper_length_mm),
+            count = n(flipper_length_mm) )
+```
+
+<br>
+
+
+## Example 3 {.scrollable auto-animate="true"}
+
+Consider the `penguins` dataset.
+
+<font size="6">Summarize the average `flipper_length_mm` and count for penguins that are either "Adelie" `species` or "Gentoo" `species`. 
+Which of the following is correct?</font>
+
+```{r}
+#| eval: false
+#| code-line-numbers: "6-10"
+# a)
+penguins_summary_a <- penguins %>% 
+  filter(species == "Adelie" | "Gentoo") %>% 
+  summarize(mean = mean(flipper_length_mm),
+            count = n() )
+# b)
+penguins_summary_b <- penguins %>% 
+  filter(species == "Adelie" | species == "Gentoo") %>% 
+  summarize(mean = mean(flipper_length_mm),
+            count = n() )
+#c)
+penguins_summary_c <- penguins %>% 
+  summarize(mean = mean(flipper_length_mm),
+            count = n(flipper_length_mm) ) %>% 
+  filter(species == "Adelie" | species == "Gentoo")
+#d)
+penguins_summary_d <- penguins %>% 
+  filter(species == "Adelie" & species == "Gentoo") %>% 
+  summarize(mean = mean(flipper_length_mm),
+            count = n() )
+```
+
+
+## Example 3 (continued) {auto-animate="true"}
+
+Print the data summary.
+
+```{r}
+penguins_summary_b <- penguins %>% 
+  filter(species == "Adelie" | species == "Gentoo") %>% 
+  summarize(mean = mean(flipper_length_mm),
+            count = n() )
+penguins_summary_b
+```
+
+
+
+## Example 3 (continued) {auto-animate="true"}
+
+Print the data summary.
+
+```{r}
+#| code-line-numbers: "3"
+penguins_summary_b <- penguins %>% 
+  filter(species == "Adelie" | species == "Gentoo") %>% 
+  summarize(mean = mean(flipper_length_mm, na.rm = TRUE),
+            count = n() )
+penguins_summary_b
+```
+
+## Important information
+
+- Order of pipe operations matters!
+-   If you are using `&` and `|` in the same filter be very careful and use parenthesis.
+-   Missing data is entered as `NA` in a data frame cell and can produce an error when using `summarize` unless you set na.rm=TRUE (ie: remove the NA values).

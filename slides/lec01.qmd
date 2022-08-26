@@ -1,0 +1,114 @@
+---
+title: "Introducing R Studio <br> Preface - Chapter 1"
+institute: "Department of Statistics and Data Science <br> STAT 202"
+
+logo: nu_logo.png
+format: 
+  revealjs:
+    theme: [default, nu_theme.scss]
+    chalkboard:
+      theme: whiteboard
+      toggleNotesButton: false
+    menu:
+        side: right
+    code-line-numbers: false
+
+execute:
+  echo: true
+---
+
+## Today's goals {background-image="images_horst/horst_rstudio_air.png" background-size="400px" background-opacity="50%" background-position="80% 50%"}
+
+<br/>
+
+::: columns
+::: {.column width="60%"}
+1.  Change the `yaml` heading on a document
+2.  Create your first code chunk!
+3.  Learn the code chunk settings
+4.  Assign values to a variable
+:::
+:::
+
+::: {.absolute top="77%" left="85%" width="500"}
+::: {style="opacity:0.75; font-size: 0.5em"}
+Artwork by @allison_horst
+:::
+:::
+
+<!-- ::: footer -->
+
+<!-- Artwork by @allison_horst -->
+
+<!-- ::: -->
+
+## RStudio interface
+
+::: {.absolute top="10%" left="0" width="1031" height="529"}
+::: {style="text-align: center"}
+![](images_lecture/rstudio_interface.png)
+:::
+:::
+
+. . .
+
+::: {.absolute top="30%" left="22%" width="300"}
+::: {style="color: #cc0000"}
+code and text for report go here
+:::
+:::
+
+. . .
+
+::: {.absolute top="30%" left="55%"}
+::: {style="color: #cc0000"}
+stored variables and data shows up here
+:::
+:::
+
+. . .
+
+::: {.absolute top="85%" left="55%"}
+::: {style="color: #cc0000"}
+your working directory project files are here
+:::
+:::
+
+. . .
+
+::: {.absolute top="90%" left="0%" width="500"}
+::: {style="color: #cc0000; font-size: 0.7em"}
+CONSOLE PANE one time code that does *not* appear in document can go here
+:::
+:::
+
+## Useful Buttons
+
+::: {layout="[50,50]"}
+![Change view output settings](images_lecture/rstudio_viewer.png)
+
+![Export html to submit](images_lecture/rstudio_export.png)
+:::
+
+## Useful code chunk settings {.scrollable}
+
+::: columns
+::: {.column width="32%"}
+``` {{r}}
+#| message: false
+#| warning: false
+#| eval: false
+#| echo: false
+#| include: false
+```
+:::
+
+::: {.column width="68%"}
+-   `message: false` prevents messages from appearing in knitted doc
+-   `warning: false` prevents warnings from appearing in knitted doc
+:::
+:::
+
+-   `eval: false` includes the code chunk in the knitted document but prevents the code chunk from being run
+-   `echo: false` prevents code itself from printing but includes the results of the code
+-   `include: false` prevents code and its results from printing but still runs the code when knitted

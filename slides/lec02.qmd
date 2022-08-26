@@ -1,0 +1,252 @@
+---
+title: "Data Visualization <br> Sections 2.0 - 2.3"
+institute: "Department of Statistics and Data Science <br> STAT 202"
+
+logo: nu_logo.png
+format: 
+  revealjs:
+    theme: [default, nu_theme.scss]
+    chalkboard:
+      theme: whiteboard
+      toggleNotesButton: false
+    menu:
+        side: right
+    code-line-numbers: false
+
+execute:
+  message: false
+  warning: false
+  echo: true
+---
+
+```{r}
+#| include: false
+library(tidyverse)
+library(gt)
+library(gtExtras)
+library(palmerpenguins)
+```
+
+## Today's goals {background-image="images_horst/ggplot2_exploratory.png" background-size="400px" background-opacity="50%" background-position="80% 50%"}
+
+<br/>
+
+::: columns
+::: {.column width="60%"}
+1.  Create a scatterplot
+2.  Properly describe a scatterplot
+3.  Change aesthetics such as color and shape in your plot
+4.  Solve overplotting issues
+:::
+:::
+
+::: {.absolute top="79%" left="85%" width="500"}
+::: {style="opacity:0.75; font-size: 0.5em"}
+Artwork by @allison_horst
+:::
+:::
+
+## The Grammar of Graphics {.smaller}
+
+::: {.absolute top="0%" left="85%"}
+![](images_lecture/grammar_graphics.png){#id .class width="300px" height="200px"}
+:::
+
+::: columns
+::: {.column width="85%"}
+Defines a set of rules for constructing statistical graphics by combining different types of **layers**.
+
+```{r}
+#| echo: false
+grammar <- tibble(Layer = c("Data", "Aesthetics", "Geometries", "Facets", "Statistics", "Coordinates", "Theme"),
+                  Function =c("ggplot( )", "aes( )", "geom_*( )", "facet_*( )", "stat_*( )", "coord_*( )", "theme( )"), Explanation = c("initialize plot and define dataset first", "how variables are mapped", "how data is conveyed", "separates plots by categories", "statistical transformations", "customize coord system", "customize non-data components"))
+
+grammar %>% 
+  gt::gt() %>%
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_body(rows = Layer %in% c("Data", "Aesthetics", "Geometries")
+  ) )%>%
+  tab_style(
+    style = cell_text(color = "blue"),
+    locations = cells_body(
+      columns = "Function",
+      rows = Layer %in% c("Data", "Aesthetics", "Geometries")
+  ) ) %>%
+  tab_style(
+    style = cell_text(color = "gray40"),
+    locations = cells_body(rows = !Layer %in% c("Data", "Aesthetics", "Geometries")
+  ) )  %>%
+  tab_style(
+    style = "padding-left:40px;padding-right:40px;",
+    locations = cells_body()
+  ) %>% 
+  tab_options(
+    table.font.size = 24,
+    column_labels.background.color = "lightgray",
+    column_labels.font.weight = "bold"
+  )
+```
+:::
+:::
+
+<br>
+
+Only the *first three* layers are essential components that must be defined when building a graphic.
+
+## The 5 named graphs (5NG)
+
+-   scatterplot
+-   linegraph
+-   histogram
+-   boxplot
+-   bargraph
+
+## 5NG#1: Scatterplots
+
+<br>
+
+Scatterplots allow you to visualize the **relationship** between 2 **numerical** variables.
+
+<br>
+
+**Scatterplot syntax in R:**
+
+```{r scatterplot}
+#| echo: true
+#| eval: false
+ggplot(data= my_data, mapping = aes(x = var1, y = var2)) +
+  geom_point()
+
+```
+
+<br>
+
+**Scatterplot language:** Construct a scatterplot of **Y by X**.
+
+## 5NG#1: Scatterplots
+
+When describing scatterplots...
+
+-   Look for pattern going from left to right.
+-   Classify association as positive, negative, or no association.
+-   Classify strength of association: strong, moderate, weak.
+-   Describe overall pattern: linear, nonlinear, etc.
+-   Check for overplotting issues.
+
+## Example:
+
+```{r}
+library(palmerpenguins)
+head(penguins)
+```
+
+::: {.absolute top="60%" left="10%"}
+![](images_horst/palmer_penguin_species.png){#id .class width="400px" height="300px"}
+:::
+
+::: {.absolute top="60%" left="70%"}
+![](images_horst/palmer_penguin.png){#id .class width="300px" height="250px"}
+:::
+
+::: {.absolute top="85%" left="85%" width="500"}
+::: {style="opacity:0.75; font-size: 0.5em"}
+Artwork by @allison_horst
+:::
+:::
+
+## Example 1: Describing scatterplots
+
+```{r}
+#| out.width: 700px
+#| out.height: 450px
+ggplot(penguins, aes(x=flipper_length_mm, y=bill_length_mm)) +
+  geom_point()
+```
+
+## Example 2: Describing scatterplots {auto-animate="true"}
+
+```{r}
+#| out.width: 700px
+#| out.height: 450px
+ggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm)) +
+  geom_point()
+```
+
+## Example 2: Describing scatterplots {auto-animate="true"}
+
+```{r}
+#| out.width: 700px
+#| out.height: 450px
+ggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm, color = sex)) +
+  geom_point()
+```
+
+## Example 2: Describing scatterplots {auto-animate="true"}
+
+```{r}
+#| out.width: 700px
+#| out.height: 450px
+ggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm, color = species)) +
+  geom_point()
+```
+
+## Common Coding Errors {.scrollable}
+
+1.  
+
+```{r}
+#| eval: false
+ggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm)) +
+  geom_point() +
+```
+
+::: fragment
+![](images_lecture/error_2a.png){width="900px" height="100px"}
+:::
+
+::: fragment
+Plus sign to nowhere. What would happen if you type "1+2+" into a calculator? An error!
+:::
+
+2.  
+
+```{r}
+#| eval: false
+ggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm) +
+  geom_point()
+```
+
+::: fragment
+![](images_lecture/error_2b.png){width="900px" height="100px"}
+:::
+
+::: fragment
+All parenthesis must me closed!
+:::
+
+3.  
+
+```{r}
+#| eval: false
+ggplot(Penguins, aes(x=Flipper_length_mm, y=Bill_depth_mm) +
+  geom_point()
+```
+
+::: fragment
+![](images_lecture/error_2c.png){width="900px" height="100px"}
+:::
+
+::: fragment
+R is case sensitive! Make sure the data and variable names match EXACTLY.
+:::
+
+## Extra information and resources {.scrollable}
+
+<br>
+
+-   [ggplot2 cheatsheet link](https://www.rstudio.com/resources/cheatsheets/)
+
+-   Numerical vs Categorical data examples:
+
+![](images_lecture/data_types.png){#id .class width="500px" height="300px"}

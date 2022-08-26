@@ -1,0 +1,208 @@
+---
+title: "Data Wrangling <br> Chapter 3.4 - 3.9"
+institute: "Department of Statistics and Data Science <br> STAT 202"
+
+logo: nu_logo.png
+format: 
+  revealjs:
+    theme: [default, nu_theme.scss]
+    chalkboard:
+      theme: whiteboard
+      toggleNotesButton: false
+    menu:
+        side: right
+    code-line-numbers: false
+
+execute:
+  message: false
+  warning: false
+  echo: true
+---
+
+
+```{r}
+#| include: false
+library(tidyverse)
+library(palmerpenguins)
+library(nycflights13)
+```
+
+
+## Today's goals {background-image="images_horst/dplyr_mutate.png" background-size="400px" background-opacity="50%" background-position="85% 50%"}
+
+<br/>
+
+::: columns
+::: {.column width="60%"}
+1.  More piping!
+2.  group data based on variables
+3.  create a new variable using mutate
+4.  subset a dataset based on columns
+5.  arrange data in both ascending and descending order
+:::
+:::
+
+
+::: {.absolute top="77%" left="85%" width="500"}
+::: {style="opacity:0.75; font-size: 0.5em"}
+Artwork by @allison_horst
+:::
+:::
+
+
+## Data Wrangling
+
+In conjunction with past tools (`filter()` and `summarize()`) we will use:
+
+- `group_by()`
+- `mutate()`
+- `arrange()`
+- `select()`
+- and a few others. 
+
+Rarely do we only use one of these tools in isolation. We "pipe" them together to wrangle data.
+
+
+## `group_by()`
+
+`group_by(variable)` takes an existing data frame and converts it into a grouped data frame
+
+-   operations are performed by group
+-   must be used in conjunction with another operator, Ex: summarize()
+-   can group by multiple criteria but must be included in the **same** function call
+
+## Example: `group_by()` {.scrollable}
+
+Calculate the average body mass of penguins by species.
+
+::: panel-tabset
+## Code
+
+```{r groupby}
+#| echo: true
+penguins %>% 
+  group_by(species) %>% 
+  summarize(mean_mass = mean(body_mass_g, na.rm = TRUE))
+```
+
+## Data
+
+```{r}
+head(penguins)
+```
+
+:::
+
+:::{.fragment}
+Calculate the average body mass of male and female penguins for each species. (ie: calculate the average body mass of penguins by species and sex.)
+
+```{r groupby2}
+#| echo: true
+penguins %>% 
+  group_by(species, sex) %>% 
+  summarize(mean_mass = mean(body_mass_g))
+```
+:::
+
+## `mutate()` {.scrollable}
+
+`mutate( )` create a new variable (in the **same** dataset)
+
+**Example:**
+
+Create a new variable `body_mass_lb` where we calculate the penguins weight in pounds.
+Hint: $pounds \approx grams/453.6$
+
+
+::: panel-tabset
+## Code
+```{r mutate}
+#| echo: true
+#| eval: false
+penguins <- penguins %>%
+  mutate(body_mass_lb = body_mass_g/453.6)
+
+```
+
+## Data
+```{r}
+#| echo: false
+penguins <- penguins %>%
+  mutate(body_mass_lb = body_mass_g/453.6)
+```
+```{r}
+glimpse(penguins)
+```
+
+:::
+
+Notice we overwrote the `penguins` dataset. You can ONLY overwrite the original data if you are **not changing** any of the original information. Otherwise store it as something NEW.
+
+## `arrange()` {.scrollable}
+
+-   `arrange(variable)` sorts data in ascending (low to high; A to Z) order by default.\
+-   `arrange(desc(variable))` sorts data in descending (high to low; Z to A) order.
+
+**Example:**
+
+```{r arrange}
+#| echo: true
+penguins %>%
+  arrange(desc(body_mass_g))
+
+```
+
+## `select()`
+
+`select()` subsets the dataset based on named columns
+
+<font size="6">Sometimes datasets contain a LOT of information that you do not need for your analysis. `select()` will help us simplify the dataset and make it easier to use.</font>
+
+In the penguins dataset, say we are only interested in the body measurement columns.
+
+
+::: panel-tabset
+## Code
+```{r select}
+#| echo: true
+penguins_body <- penguins %>% 
+  select(bill_length_mm, bill_depth_mm, flipper_length_mm, body_mass_g)
+
+```
+## Alternate Code
+```{r select2}
+#| echo: true
+# specify variables to remove
+penguins_body <- penguins %>% 
+  select(-species, -island, -sex, -year)
+# same thing different notation
+penguins_body <- penguins %>% 
+  select(-c(species, island, sex, year) )
+```
+
+## Data
+```{r}
+head(penguins_body)
+```
+
+:::
+## Other Useful Data Wrangling Functions
+
+-   `count(variable)` : shortcut to `group_by %>% summarize(n())`
+-   `top_n(n = 1, variable)` : return the largest value
+-   `top_n(n = -1, variable)` : return the smallest value
+
+
+## Data Wrangling Example
+
+```{r Example}
+#| echo: true
+#| eval: false
+penguins %>% 
+  filter(!is.na(sex)) %>% 
+  group_by(species) %>% 
+  summarize(count = n()) %>% 
+  arrange(count)
+```
+
+**We can read this as**: take `penguins`, then keep only observations that are not missing, and then group by species, and then calculate the summary statistics per species, and then order the dataset according to our chosen variable count.

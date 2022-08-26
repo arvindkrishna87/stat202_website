@@ -1,0 +1,50 @@
+---
+title: "STAT 202: Introduction to Statistics and Data Science"
+tbl-colwidths: [5,10,30,10,5,5,5]
+editor_options: 
+  chunk_output_type: console
+---
+
+This page contains an outline of the topics, content, and assignments for the quarter.
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+library(tidyverse)
+library(gt)
+library(gtExtras)
+library(lubridate)
+
+agenda_final <- read_csv("documents/agenda_final.csv") %>% 
+  select(-c(due_ymd, date_ymd, callout, agenda1, agenda2, agenda3, agenda4, reading_hw)) %>% 
+  mutate(Week = as.character(Week))
+
+agenda_final[is.na(agenda_final)] <- " " 
+
+agenda_final %>% 
+  mutate(Slides = map(Slides, glue::glue), 
+         Activity = map(Activity, glue::glue),
+         submit_act = map(submit_act, glue::glue),
+         Tutorial = map(Tutorial, glue::glue),
+         Project = map(Project, glue::glue)) %>% 
+  gt() %>% 
+  cols_move_to_start(
+    columns = Week) %>% 
+  fmt_markdown(columns = c(Week, Reading, Slides, Activity, submit_act, Tutorial, Project) ) %>% 
+  gt_theme_espn() %>% 
+  tab_options(table.width = pct(100),
+              table_body.hlines.color = "#4E2A84",
+              column_labels.background.color = "#4E2A84",
+             row_group.background.color = "#D8D6D6")  %>% 
+  tab_spanner(
+    label = "Prepare",
+    columns = c(Reading)
+  ) %>% 
+  tab_spanner(
+    label = "Agenda",
+    columns = c(Slides, Activity)
+  ) %>% 
+  tab_spanner(
+    label = "Homework",
+    columns = c(submit_act, Tutorial, Project, due)
+  ) 
+```
+
