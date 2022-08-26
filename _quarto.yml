@@ -1,0 +1,40 @@
+project:
+  type: website
+
+website:
+  page-navigation: true
+  title: "STAT 202"
+  
+  sidebar:
+    background: "#BBB8B8"
+    logo: "images/logo.png"
+    pinned: true
+    align: center
+    tools:
+      - icon: person-fill
+        text: "Campuswire"
+        url: https://campuswire.com/c/G88B46A25
+         
+    style: "docked"
+    search: true
+    contents:
+          - href: index.qmd
+            text: Today's agenda
+          - href: course-schedule.qmd
+            text: Schedule
+          - href: course-syllabus.qmd
+            text: Syllabus
+          - href: course-team.qmd
+            text: Office hours
+          - href: course-links.qmd
+            text: Useful links
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
