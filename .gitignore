@@ -4,6 +4,6 @@
 .Ruserdata
 
 /.quarto/
-_site/
+/_site/
 *.key
 *speaker.html
