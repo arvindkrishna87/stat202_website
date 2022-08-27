@@ -6,7 +6,7 @@ website:
   title: "STAT 202"
   
   sidebar:
-    background: "#BBB8B8"
+    background: "dark"
     logo: "images/logo.png"
     pinned: true
     align: center
