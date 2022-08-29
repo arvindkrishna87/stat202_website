@@ -33,14 +33,22 @@ jobs:
         uses: r-lib/actions/setup-renv@v2
         with:
           cache-version: 1
-  
-      - name: "Install Quarto and render"
-        uses: pommevilla/quarto-render@main
-
-      - name: Publish to GitHub Pages (and render)
-        uses: quarto-dev/quarto-actions/publish@v2
+          
+      - name: Build site 🔧
+        run: |
+          R -e 'quarto::quarto_render(".", as_job = FALSE)'
+        
+      - name: Deploy 🚀
+        if: github.event_name != 'pull_request'
+        uses: JamesIves/github-pages-deploy-action@4.1.7
         with:
-          target: gh-pages
+          branch: gh-pages # The branch the action should deploy to.
+          folder: docs # The folder the action should deploy.
+
+#      - name: Publish to GitHub Pages (and render)
+#        uses: quarto-dev/quarto-actions/publish@v2
+#        with:
+#          target: gh-pages
           
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
