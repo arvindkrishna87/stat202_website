@@ -21,14 +21,12 @@ execute:
 server: shiny
 ---
 
-
 ```{r}
 #| include: false
 library(tidyverse)
 library(shiny)
 library(palmerpenguins)
 ```
-
 
 ## Today's goals {background-image="www/ggplot2_masterpiece.png" background-size="400px" background-opacity="50%" background-position="85% 50%"}
 
@@ -43,13 +41,11 @@ library(palmerpenguins)
 :::
 :::
 
-
 ::: {.absolute top="77%" left="85%" width="500"}
 ::: {style="opacity:0.75; font-size: 0.5em"}
 Artwork by @allison_horst
 :::
 :::
-
 
 ## 5NG#2: Linegraphs
 
@@ -71,7 +67,6 @@ ggplot(data= my_data, mapping = aes(x = var1, y = var2)) +
 
 ```
 
-
 ## 5NG#2: Linegraphs
 
 When describing linegraphs...
@@ -81,7 +76,6 @@ When describing linegraphs...
 -   Classify relationship as linear or non linear.
 -   Check x and y scales to make sure they are appropriate.
 
-
 ## 5NG#3: Histograms
 
 -   Histograms are used to visualize the **distribution** of a single **numerical** variable.
@@ -89,7 +83,6 @@ When describing linegraphs...
 -   Histograms display **numerical** data by grouping data into bins of equal width.
 
 -   There is **no** 'y' position aesthetic for `geom_histogram()` because we are investigating a single variable.
-
 
 ## 5NG#3: Histograms {.smaller}
 
@@ -108,11 +101,12 @@ ggplot(data= my_data, aes(x = var1)) +
 There are 3 things we look and describe when inspecting a histogram:
 
 -   shape (skew and modality)
+
 -   center (mean or median)
+
 -   spread (range, IQR, or standard deviation)
 
-- not all distributions have a simple recognizable shape
-
+-   not all distributions have a simple recognizable shape
 
 ::: footer
 Type `colors()` in the **console** to view all possible colors.
@@ -127,13 +121,11 @@ Type `colors()` in the **console** to view all possible colors.
 
 ![](www/fig_03unimodal3.png)
 
-
 ![](www/fig_03bimodal1.png)
 
 ![](www/fig_03bimodal3.png)
 
 ![](www/fig_03bimodal2.png)
-
 
 ![](www/fig_03multimodal1.png)
 
@@ -146,8 +138,7 @@ Type `colors()` in the **console** to view all possible colors.
 
 Choosing an appropriate bin size and describe the distribution of penguin body mass.
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ## Plot
 
 ```{r}
@@ -174,7 +165,6 @@ p("Is 30 bins appropriate?")
 plotOutput("Ex1Plot")
 ```
 
-
 ```{r}
 #| context: server
 library(palmerpenguins)
@@ -197,18 +187,17 @@ glimpse(penguins)
 ```
 :::
 
-
 <br>
 
 Helpful guidelines:
 
-- Larger number of observations generally correspond to larger number of bins needed.
+-   Larger number of observations generally correspond to larger number of bins needed.
 
-- You will generally need to test **several** different number of bins to learn about the data and find an appropriate value.
+-   You will generally need to test **several** different number of bins to learn about the data and find an appropriate value.
 
-- Sturges Rule of Thumb for unimodal symmetric distributions: bins = 1 + 3.322*log(n)
+-   Sturges Rule of Thumb for unimodal symmetric distributions: bins = 1 + 3.322\*log(n)
 
--  Sturge’s rule is not great if the data is severely skewed, multi-modal, or for an extremely large number of observations. But it could give you a starting place and then you will want to increase the number of bins until you can properly see the shape.
+-   Sturge's rule is not great if the data is severely skewed, multi-modal, or for an extremely large number of observations. But it could give you a starting place and then you will want to increase the number of bins until you can properly see the shape.
 
 ## Example 2: Histogram bins {.scrollable}
 
@@ -232,7 +221,6 @@ br()
 p("Is 25 bins appropriate?")
 ```
 
-
 ```{r}
 #| panel: fill
 #| echo: false
@@ -254,14 +242,13 @@ output$Ex2Plot <- renderPlot({
 })
 ```
 
-
 ## Faceting {.scrollable .smaller}
 
-- Faceting is used to make the same plot for different subgroups of the dataset.
+-   Faceting is used to make the same plot for different subgroups of the dataset.
 
-- This is useful for comparing the same variable across different subgroups in the dataset.
+-   This is useful for comparing the same variable across different subgroups in the dataset.
 
-- `facet_wrap(~var)` can be added on to ANY plot type (scatterplot, linegraph, histogram, boxplot, barplot)
+-   `facet_wrap(~var)` can be added on to ANY plot type (scatterplot, linegraph, histogram, boxplot, barplot)
 
 <br>
 
@@ -274,11 +261,9 @@ ggplot(penguins, aes(x=flipper_length_mm)) +
 
 ![](www/fig_03facet.png){#id .class width="800px" height="600px"}
 
-
 ## Common Coding Errors {.scrollable}
 
 Which of the following are correct?
-
 
 ```{r}
 #| eval: false
@@ -309,7 +294,6 @@ ggplot(penguins) +
 ggplot(penguins) +
   geom_histogram(aes(x = flipper_length_mm) , color = "white")
 ```
-
 
 ## Extra information and resources {.scrollable}
 
