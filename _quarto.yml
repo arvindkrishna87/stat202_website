@@ -10,7 +10,6 @@ website:
   repo-url: https://github.com/dsass1/stat202_website
   repo-actions: [edit, issue]
 
-  opengraph: true
   page-footer:
     right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
   
@@ -23,11 +22,11 @@ website:
       - icon: person-fill
         href: https://campuswire.com/c/G88B46A25
         text: "Campuswire"
-         
     style: "docked"
     search: true
-    collapse-level: 1
     contents:
+      - section: "Overview"
+        contents:
           - href: index.qmd
             text: Today's agenda
           - href: course-schedule.qmd
