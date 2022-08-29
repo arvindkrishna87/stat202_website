@@ -1,6 +1,11 @@
 on:
   push:
     branches: main
+  # to be able to trigger a manual build
+  workflow_dispatch:
+  schedule:
+    # run every day at 12 AM
+    - cron: '0 0 * * *'
 
 name: Render and Publish
 
