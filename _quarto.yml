@@ -4,6 +4,15 @@ project:
 website:
   page-navigation: true
   title: "STAT 202"
+  description: "Homepage for STAT 202"
+  site-url: "https://stat202_website.github.io/website/"
+
+  repo-url: https://github.com/dsass1/stat202_website
+  repo-actions: [edit, issue]
+
+  opengraph: true
+  page-footer:
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
   
   sidebar:
     background: "#BBB8B8"
@@ -12,11 +21,12 @@ website:
     align: center
     tools:
       - icon: person-fill
+        href: https://campuswire.com/c/G88B46A25
         text: "Campuswire"
-        url: https://campuswire.com/c/G88B46A25
          
     style: "docked"
     search: true
+    collapse-level: 1
     contents:
           - href: index.qmd
             text: Today's agenda
@@ -29,11 +39,9 @@ website:
           - href: course-links.qmd
             text: Useful links
 
-
 format:
   html:
     theme: cosmo
-    css: styles.css
     toc: true
 
 freeze: auto
