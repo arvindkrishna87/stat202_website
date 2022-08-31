@@ -5,9 +5,9 @@
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-0.9.565">
+  <meta name="generator" content="quarto-1.1.168">
 
   <title>STAT 202 - Data Visualization  Sections 2.0 - 2.3</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -18,10 +18,15 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     pre > code.sourceCode { white-space: pre; position: relative; }
     pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -379,7 +384,7 @@
     }
   </style>
 </head>
-<body>
+<body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
@@ -418,12 +423,12 @@
 <div class="cell">
 <div class="cell-output-display">
 
-<div id="gfollzozua" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="vdpouchfba" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#gfollzozua .gt_table {
+:where(#vdpouchfba) .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -448,7 +453,7 @@
   border-left-color: #D3D3D3;
 }
 
-#gfollzozua .gt_heading {
+:where(#vdpouchfba) .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -460,7 +465,7 @@
   border-right-color: #D3D3D3;
 }
 
-#gfollzozua .gt_title {
+:where(#vdpouchfba) .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -472,7 +477,7 @@
   border-bottom-width: 0;
 }
 
-#gfollzozua .gt_subtitle {
+:where(#vdpouchfba) .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -484,13 +489,13 @@
   border-top-width: 0;
 }
 
-#gfollzozua .gt_bottom_border {
+:where(#vdpouchfba) .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#gfollzozua .gt_col_headings {
+:where(#vdpouchfba) .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -505,7 +510,7 @@
   border-right-color: #D3D3D3;
 }
 
-#gfollzozua .gt_col_heading {
+:where(#vdpouchfba) .gt_col_heading {
   color: #333333;
   background-color: #D3D3D3;
   font-size: 100%;
@@ -525,7 +530,7 @@
   overflow-x: hidden;
 }
 
-#gfollzozua .gt_column_spanner_outer {
+:where(#vdpouchfba) .gt_column_spanner_outer {
   color: #333333;
   background-color: #D3D3D3;
   font-size: 100%;
@@ -537,15 +542,15 @@
   padding-right: 4px;
 }
 
-#gfollzozua .gt_column_spanner_outer:first-child {
+:where(#vdpouchfba) .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#gfollzozua .gt_column_spanner_outer:last-child {
+:where(#vdpouchfba) .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#gfollzozua .gt_column_spanner {
+:where(#vdpouchfba) .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -557,7 +562,7 @@
   width: 100%;
 }
 
-#gfollzozua .gt_group_heading {
+:where(#vdpouchfba) .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -582,7 +587,7 @@
   vertical-align: middle;
 }
 
-#gfollzozua .gt_empty_group_heading {
+:where(#vdpouchfba) .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -597,15 +602,15 @@
   vertical-align: middle;
 }
 
-#gfollzozua .gt_from_md > :first-child {
+:where(#vdpouchfba) .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#gfollzozua .gt_from_md > :last-child {
+:where(#vdpouchfba) .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#gfollzozua .gt_row {
+:where(#vdpouchfba) .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -624,7 +629,7 @@
   overflow-x: hidden;
 }
 
-#gfollzozua .gt_stub {
+:where(#vdpouchfba) .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -637,7 +642,7 @@
   padding-right: 5px;
 }
 
-#gfollzozua .gt_stub_row_group {
+:where(#vdpouchfba) .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -651,11 +656,11 @@
   vertical-align: top;
 }
 
-#gfollzozua .gt_row_group_first td {
+:where(#vdpouchfba) .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#gfollzozua .gt_summary_row {
+:where(#vdpouchfba) .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -665,16 +670,16 @@
   padding-right: 5px;
 }
 
-#gfollzozua .gt_first_summary_row {
+:where(#vdpouchfba) .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#gfollzozua .gt_first_summary_row.thick {
+:where(#vdpouchfba) .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#gfollzozua .gt_last_summary_row {
+:where(#vdpouchfba) .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -684,7 +689,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#gfollzozua .gt_grand_summary_row {
+:where(#vdpouchfba) .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -694,7 +699,7 @@
   padding-right: 5px;
 }
 
-#gfollzozua .gt_first_grand_summary_row {
+:where(#vdpouchfba) .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -704,11 +709,11 @@
   border-top-color: #D3D3D3;
 }
 
-#gfollzozua .gt_striped {
+:where(#vdpouchfba) .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#gfollzozua .gt_table_body {
+:where(#vdpouchfba) .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -717,7 +722,7 @@
   border-bottom-color: #D3D3D3;
 }
 
-#gfollzozua .gt_footnotes {
+:where(#vdpouchfba) .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -731,7 +736,7 @@
   border-right-color: #D3D3D3;
 }
 
-#gfollzozua .gt_footnote {
+:where(#vdpouchfba) .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -740,7 +745,7 @@
   padding-right: 5px;
 }
 
-#gfollzozua .gt_sourcenotes {
+:where(#vdpouchfba) .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -754,7 +759,7 @@
   border-right-color: #D3D3D3;
 }
 
-#gfollzozua .gt_sourcenote {
+:where(#vdpouchfba) .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -762,81 +767,74 @@
   padding-right: 5px;
 }
 
-#gfollzozua .gt_left {
+:where(#vdpouchfba) .gt_left {
   text-align: left;
 }
 
-#gfollzozua .gt_center {
+:where(#vdpouchfba) .gt_center {
   text-align: center;
 }
 
-#gfollzozua .gt_right {
+:where(#vdpouchfba) .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#gfollzozua .gt_font_normal {
+:where(#vdpouchfba) .gt_font_normal {
   font-weight: normal;
 }
 
-#gfollzozua .gt_font_bold {
+:where(#vdpouchfba) .gt_font_bold {
   font-weight: bold;
 }
 
-#gfollzozua .gt_font_italic {
+:where(#vdpouchfba) .gt_font_italic {
   font-style: italic;
 }
 
-#gfollzozua .gt_super {
+:where(#vdpouchfba) .gt_super {
   font-size: 65%;
 }
 
-#gfollzozua .gt_two_val_uncert {
-  display: inline-block;
-  line-height: 1em;
-  text-align: right;
-  font-size: 60%;
-  vertical-align: -0.25em;
-  margin-left: 0.1em;
-}
-
-#gfollzozua .gt_footnote_marks {
+:where(#vdpouchfba) .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-#gfollzozua .gt_asterisk {
+:where(#vdpouchfba) .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#gfollzozua .gt_slash_mark {
-  font-size: 0.7em;
-  line-height: 0.7em;
-  vertical-align: 0.15em;
+:where(#vdpouchfba) .gt_indent_1 {
+  text-indent: 5px;
 }
 
-#gfollzozua .gt_fraction_numerator {
-  font-size: 0.6em;
-  line-height: 0.6em;
-  vertical-align: 0.45em;
+:where(#vdpouchfba) .gt_indent_2 {
+  text-indent: 10px;
 }
 
-#gfollzozua .gt_fraction_denominator {
-  font-size: 0.6em;
-  line-height: 0.6em;
-  vertical-align: -0.05em;
+:where(#vdpouchfba) .gt_indent_3 {
+  text-indent: 15px;
+}
+
+:where(#vdpouchfba) .gt_indent_4 {
+  text-indent: 20px;
+}
+
+:where(#vdpouchfba) .gt_indent_5 {
+  text-indent: 25px;
 }
 </style>
 <table class="gt_table">
   
   <thead class="gt_col_headings">
     <tr>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Layer</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Function</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">Explanation</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col">Layer</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col">Function</th>
+      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col">Explanation</th>
     </tr>
   </thead>
   <tbody class="gt_table_body">
@@ -926,10 +924,10 @@
 </div>
 </div>
 <div class="absolute" style="top: 60%; left: 10%; ">
-<p><img data-src="images_horst/palmer_penguin_species.png" id="id" class="class" width="400" height="300"></p>
+<p><img data-src="images_horst/palmer_penguin_species.png" class="class" width="400" height="300"></p>
 </div>
 <div class="absolute" style="top: 60%; left: 70%; ">
-<p><img data-src="images_horst/palmer_penguin.png" id="id" class="class" width="300" height="250"></p>
+<p><img data-src="images_horst/palmer_penguin.png" class="class" width="300" height="250"></p>
 </div>
 <div class="absolute" style="top: 85%; left: 85%; width: 500px; ">
 <div style="opacity:0.75; font-size: 0.5em">
@@ -1026,7 +1024,7 @@
 <li><p><a href="https://www.rstudio.com/resources/cheatsheets/">ggplot2 cheatsheet link</a></p></li>
 <li><p>Numerical vs Categorical data examples:</p></li>
 </ul>
-<p><img data-src="images_lecture/data_types.png" id="id" class="class" width="500" height="300"></p>
+<p><img data-src="images_lecture/data_types.png" class="class" width="500" height="300"></p>
 
 <p><img src="nu_logo.png" class="slide-logo"></p>
 <div class="footer footer-default">
@@ -1253,12 +1251,12 @@
       // slide changes (different for each slide format).
       (function () {
         function fireSlideChanged(previousSlide, currentSlide) {
-
+    
           // dispatch for htmlwidgets
           const event = window.document.createEvent("Event");
           event.initEvent("slideenter", true, true);
           window.document.dispatchEvent(event);
-
+    
           // dispatch for shiny
           if (window.jQuery) {
             if (previousSlide) {
@@ -1269,14 +1267,14 @@
             }
           }
         }
-
+    
         // hookup for reveal
         if (window.Reveal) {
           window.Reveal.addEventListener("slidechanged", function(event) {
             fireSlideChanged(event.previousSlide, event.currentSlide);
           });
         }
-
+    
         // hookup for slidy
         if (window.w3c_slidy) {
           window.w3c_slidy.add_observer(function (slide_num) {
@@ -1284,12 +1282,30 @@
             fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
           });
         }
-
+    
       })();
     </script>
-
+    
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
       const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
       tabsets.forEach(function(tabset) {
         const tabby = new Tabby('#' + tabset.id);
@@ -1338,7 +1354,8 @@
       for (var i=0; i<noterefs.length; i++) {
         const ref = noterefs[i];
         tippyHover(ref, function() {
-          let href = ref.getAttribute('href');
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);

@@ -5,9 +5,9 @@
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-0.9.565">
+  <meta name="generator" content="quarto-1.1.168">
 
   <title>STAT 202 - Multiple Regression  Chapter 6.2)</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -18,10 +18,15 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
     pre > code.sourceCode { white-space: pre; position: relative; }
     pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -379,7 +384,7 @@
     }
   </style>
 </head>
-<body>
+<body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
@@ -413,14 +418,14 @@
 <div class="cell-output cell-output-stdout">
 <pre><code>Rows: 344
 Columns: 8
-$ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~
-$ island            &lt;fct&gt; Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~
-$ bill_length_mm    &lt;dbl&gt; 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~
-$ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~
-$ flipper_length_mm &lt;int&gt; 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~
-$ body_mass_g       &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~
-$ sex               &lt;fct&gt; male, female, female, NA, female, male, female, male~
-$ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~</code></pre>
+$ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel…
+$ island            &lt;fct&gt; Torgersen, Torgersen, Torgersen, Torgersen, Torgerse…
+$ bill_length_mm    &lt;dbl&gt; 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, …
+$ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, …
+$ flipper_length_mm &lt;int&gt; 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186…
+$ body_mass_g       &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, …
+$ sex               &lt;fct&gt; male, female, female, NA, female, male, female, male…
+$ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…</code></pre>
 </div>
 </div>
 </section>
@@ -470,13 +475,11 @@ F-statistic: 684.8 on 2 and 330 DF,  p-value: &lt; 2.2e-16</code></pre>
 <li><p>You can think of each ‘level’ having a different line (equation).</p></li>
 <li><p>The equation of the line for penguins who are female (ie: sex = female):</p></li>
 </ul>
-<p><span class="math display">\[-5410.3 + 46.98*flipper + 347.85*0\]</span></p>
-<p><span class="math display">\[ -5410.3 + 46.98*flipper\]</span></p>
+<p><span class="math display">\[-5410.3 + 46.98*flipper + 347.85*0\]</span> <span class="math display">\[ -5410.3 + 46.98*flipper\]</span></p>
 <ul>
 <li>The equation of the line for penguins who are male (ie: sex = male):</li>
 </ul>
-<p><span class="math display">\[-5410.3 + 46.98*flipper + 347.85*1\]</span></p>
-<p><span class="math display">\[ -5062.45 + 46.98*flipper\]</span></p>
+<p><span class="math display">\[-5410.3 + 46.98*flipper + 347.85*1\]</span> <span class="math display">\[ -5062.45 + 46.98*flipper\]</span></p>
 </section>
 <section id="interaction-model" class="slide level2">
 <h2>“Interaction Model”</h2>
@@ -512,8 +515,7 @@ F-statistic: 455.2 on 3 and 329 DF,  p-value: &lt; 2.2e-16</code></pre>
 </section>
 <section id="interaction-model-output" class="slide level2">
 <h2>Interaction Model Output</h2>
-<p><strong>Equation</strong>: <span class="math display">\[\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*\mathbb{1}_{male}(x) \]</span></p>
-<p><span class="math display">\[- 0.29*flipper*\mathbb{1}_{male}(x)\]</span></p>
+<p><strong>Equation</strong>: <span class="math display">\[\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*\mathbb{1}_{male}(x) \]</span> <span class="math display">\[- 0.29*flipper*\mathbb{1}_{male}(x)\]</span></p>
 <ul>
 <li><span class="math inline">\(b_0\)</span> : intercept for baseline</li>
 <li><span class="math inline">\(b_1\)</span> : slope of flipper length for</li>
@@ -789,6 +791,24 @@ F-statistic: 455.2 on 3 and 329 DF,  p-value: &lt; 2.2e-16</code></pre>
 
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
       const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
       tabsets.forEach(function(tabset) {
         const tabby = new Tabby('#' + tabset.id);
@@ -837,7 +857,8 @@ F-statistic: 455.2 on 3 and 329 DF,  p-value: &lt; 2.2e-16</code></pre>
       for (var i=0; i<noterefs.length; i++) {
         const ref = noterefs[i];
         tippyHover(ref, function() {
-          let href = ref.getAttribute('href');
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
