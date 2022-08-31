@@ -16,8 +16,8 @@ execute:
   warning: false
   echo: true
 editor_options: 
-  chunk_output_type: console
   
+  chunk_output_type: console
 server: shiny
 ---
 

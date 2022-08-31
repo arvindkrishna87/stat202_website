@@ -24,7 +24,6 @@ execute:
 #| include: false
 library(tidyverse)
 library(palmerpenguins)
-library(nycflights13)
 ```
 
 
