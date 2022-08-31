@@ -21,10 +21,10 @@ execute:
 
 ```{r}
 #| include: false
-library(tidyverse)
+library(ggplot2)
+library(dplyr)
 library(palmerpenguins)
 ```
-
 
 ## Today's goals {background-image="images_comics/last_line_defense.png" background-size="400px" background-opacity="50%" background-position="85% 50%"}
 
@@ -41,20 +41,17 @@ library(palmerpenguins)
 
 -   **Definition**: Simple Categorical Linear Regression models the relationship between a response (y) variable and one categorical explanatory (x) variable.
 
+-   Now the model will give us differences by **categories** relative to a **baseline** for comparison.
 
-- Now the model will give us differences by **categories** relative to a **baseline** for comparison.
+## Example {.scrollable auto-animate="true"}
 
-## Example {auto-animate="true" .scrollable}
-
-Consider the Palmer Penguins dataset. 
+Consider the Palmer Penguins dataset.
 
 We want to use `species` to predict `body_mass_g`. In other words we think penguins body mass varies by species.
 
 Recall our dataset has 3 species: Adelie, Gentoo, Chinstrap
 
-
 ::: panel-tabset
-
 ## Model
 
 ```{r}
@@ -65,24 +62,21 @@ model_species <- lm(body_mass_g ~ species, data = penguins)
 ```
 
 ## Data
+
 ```{r}
 glimpse(penguins)
 ```
-
 :::
 
+## Example {.scrollable auto-animate="true"}
 
-## Example {auto-animate="true" .scrollable}
-
-Consider the Palmer Penguins dataset. 
+Consider the Palmer Penguins dataset.
 
 We want to use `species` to predict `body_mass_g`. In other words we think penguins body mass varies by species.
 
 Recall our dataset has 3 species: Adelie, Gentoo, Chinstrap
 
-
 ::: panel-tabset
-
 ## Model
 
 ```{r}
@@ -94,15 +88,16 @@ summary(model_species)
 ```
 
 ## Data
+
 ```{r}
 glimpse(penguins)
 ```
-
 :::
 
 ## Regression Equation {.scrollable}
 
 Below is the summary output.
+
 ```{r}
 summary(model_species)$coefficients
 ```
@@ -113,23 +108,22 @@ What is the **baseline** species?
 
 What is the regression equation?
 
-
-
-
 ## Indicator function {.scrollable}
 
 Will take on either the value of "1" or "0" depending if the condition is true.
 
+```{=tex}
 \begin{equation}
 \mathbb{1}_{gentoo}(x) = \begin{cases}
         1 & \text{if x is Gentoo}\\
         0 & \text{if x is NOT Gentoo}
     \end{cases}
 \end{equation}
-
+```
 <br>
 
 Consider 3 randomly sampled Penguins below.
+
 ```{r}
 #| echo: false
 set.seed(13)
@@ -145,9 +139,10 @@ When using the model equation which of the penguins would you set $\mathbb{1}_{g
 $$\widehat{bodymass} = b_0 + b_1*\mathbb{1}_{chinstrap}(x)+ b_2*\mathbb{1}_{gentoo}(x)$$
 
 -   Interpretation of $b_0$: expected value of y for the baseline; the expected body mass for Adelie species is 3700.7
--   Interpretation of $b_1$ : offset in intercept; expected body mass for Chinstrap species is 32.4 **more** on **average** than Adelie species
--   Interpretation of $b_2$ : offset in intercept; expected body mass for Gentoo species is 1375.4 **more** on **average** than Adelie species.
 
+-   Interpretation of $b_1$ : offset in intercept; expected body mass for Chinstrap species is 32.4 **more** on **average** than Adelie species
+
+-   Interpretation of $b_2$ : offset in intercept; expected body mass for Gentoo species is 1375.4 **more** on **average** than Adelie species.
 
 -   Which penguin species weighs the least **on average**?
 
@@ -155,9 +150,8 @@ $$\widehat{bodymass} = b_0 + b_1*\mathbb{1}_{chinstrap}(x)+ b_2*\mathbb{1}_{gent
 
 ## Extra information
 
-- There will always be $n-1$ coefficients for the categorical variable, where $n$ is the number of categories.
+-   There will always be $n-1$ coefficients for the categorical variable, where $n$ is the number of categories.
 
-  - The penguins had 3 species categories so there were 2 species coefficients.
+    -   The penguins had 3 species categories so there were 2 species coefficients.
 
-- Categorical variable coefficients will always be an **offset** to either the intercept or slope. Because you can't multiply 32.42*gentoo!
-
+-   Categorical variable coefficients will always be an **offset** to either the intercept or slope. Because you can't multiply 32.42\*gentoo!

@@ -23,7 +23,8 @@ server: shiny
 
 ```{r}
 #| include: false
-library(tidyverse)
+library(ggplot2)
+library(dplyr)
 library(shiny)
 library(palmerpenguins)
 
@@ -31,7 +32,6 @@ penguin_sub <- penguins %>%
   filter(sex == "male", species == "Chinstrap", island == "Dream") %>% 
   mutate(id = seq(1:34))
 ```
-
 
 ## Today's goals {background-image="www/tidydata_5.png" background-size="600px" background-opacity="70%" background-position="95% 50%"}
 
@@ -46,7 +46,6 @@ penguin_sub <- penguins %>%
 :::
 :::
 
-
 ::: {.absolute top="72%" left="85%" width="500"}
 ::: {style="opacity:0.75; font-size: 0.5em"}
 Artwork by @allison_horst
@@ -57,7 +56,7 @@ Artwork by @allison_horst
 
 <br>
 
-Remember that, BEFORE building a model, you should conduct an **exploratory data analysis**. 
+Remember that, BEFORE building a model, you should conduct an **exploratory data analysis**.
 
 <br>
 
@@ -75,36 +74,31 @@ For this lessons example we will be using a subset of the `penguins` dataset tha
 
 Match the following graphs with the most appropriate correlation coefficient:
 
-:::{.fragment}
-1.     a) -0.2     b) 0     c) 0.4     d) 0.7
+::: fragment
+1.      a) -0.2     b) 0     c) 0.4     d) 0.7
 
 ![](www/cor_0.4.png)
 :::
 
-
-:::{.fragment}
-2.     a) -1     b) -0.75     c) -0.9     d) 1
+::: fragment
+2.      a) -1     b) -0.75     c) -0.9     d) 1
 
 ![](www/cor_-1.png)
 :::
 
-:::{.fragment}
-3. Distance traveled vs the amount of gas in the car.
+::: fragment
+3.  Distance traveled vs the amount of gas in the car.
 
-a) Exactly -1     b) Between -1 and 0     c) About 0 
+a) Exactly -1     b) Between -1 and 0     c) About 0
 
 d) Between 0 and 1     e) Exactly 1
-
 :::
 
-
-## Correlation Coefficient (continued){.scrollable}
+## Correlation Coefficient (continued) {.scrollable}
 
 The following code shows three different options for calculating the correlation between two variables within the `penguins` dataset.
 
-
 ::: panel-tabset
-
 ## Correlation
 
 ```{r cor}
@@ -121,7 +115,6 @@ penguin_sub %>%
 cor(penguins$flipper_length_mm, penguins$body_mass_g)
 ```
 
-
 ## Data: penguin_sub
 
 ```{r}
@@ -133,7 +126,7 @@ glimpse(penguin_sub)
 ```
 :::
 
-:::{.fragment}
+::: fragment
 You will most likely need to filter out missing data beforehand OR set `use = "complete.obs"` inside the `cor()` function. This is the equivalent of when we set `na.rm = TRUE` in other summary functions.
 :::
 
@@ -145,14 +138,13 @@ You will most likely need to filter out missing data beforehand OR set `use = "c
 
 ## SLR (continued)
 
-**Equation** of a regression line:
-$$\hat{y} = b_0 + b_1*x$$
+**Equation** of a regression line: $$\hat{y} = b_0 + b_1*x$$
 
 <br>
 
 -   $b_0$ : intercept; the **expected** value of $\hat{y}$ when $x = 0$
 
--   $b_1$ : slope; for every 1 unit increase in x, then $\hat{y}$ increases **on average** by $b_1$ 
+-   $b_1$ : slope; for every 1 unit increase in x, then $\hat{y}$ increases **on average** by $b_1$
 
 -   **fitted values**: $\hat{y}$; the predicted value on the regression line
 
@@ -163,7 +155,6 @@ $$\hat{y} = b_0 + b_1*x$$
 Consider a subset of the `penguins` dataset that only includes `male` penguins from the `Chinstrap` species and `Dream` island. This is stored in `penguin_sub`.
 
 ::: panel-tabset
-
 ## Model
 
 Predict a penguin's `body_mass_g` using `flipper_length_mm`.
@@ -186,12 +177,11 @@ glimpse(penguin_sub)
 ```
 :::
 
-## Example 1: Model {auto-animate="true" .scrollable}
+## Example 1: Model {.scrollable auto-animate="true"}
 
 Consider a subset of the `penguins` dataset that only includes `male` penguins from the `Chinstrap` species and `Dream` island. This is stored in `penguin_sub`.
 
 ::: panel-tabset
-
 ## Model
 
 Predict a penguin's `body_mass_g` using `flipper_length_mm`.
@@ -221,15 +211,14 @@ glimpse(penguin_sub)
 ## Example 1: Plot regression line
 
 ::: panel-tabset
-
 ## Plot
+
 ```{r}
 #| echo: true
 # Plot relationship of variables
 ggplot(penguin_sub, aes(x = flipper_length_mm, y = body_mass_g))+
     geom_point()
 ```
-
 
 ## Model
 
@@ -241,9 +230,7 @@ summary(model_penguin)$coefficients
 
 ## Example 1: Plot regression line {.scrollable}
 
-
 ::: panel-tabset
-
 ## Plot
 
 ```{r}
@@ -263,12 +250,9 @@ summary(model_penguin)$coefficients
 ```
 :::
 
-
 ## Example 1: Residuals {.scrollable}
 
-
 ::: panel-tabset
-
 ## Visualizing
 
 ```{r}
@@ -301,7 +285,6 @@ span(textOutput("error"),
 #| echo: false
 plotOutput("Ex1Plot")
 ```
-
 
 ```{r}
 #| context: server
@@ -396,12 +379,11 @@ penguin_sub <- penguin_sub %>%
 
 glimpse(penguin_sub)
 ```
-
 :::
 
 ## Example 1: Predicting
 
-Recall the equation of the regression line is 
+Recall the equation of the regression line is
 
 $$\widehat{\hbox{body_mass_g} } = -4111.3 + 40.3*\hbox{flipper_length}$$
 
@@ -409,9 +391,8 @@ $$\widehat{\hbox{body_mass_g} } = -4111.3 + 40.3*\hbox{flipper_length}$$
 
 You find a new `male` penguin from the `Chinstrap` species and `Dream` island that has a flipper length of 220 mm. What do you predict his weight to be in grams?
 
-:::{.fragment}
+::: fragment
 ```{r}
 -4111.3 + 40.3*220
 ```
 :::
-

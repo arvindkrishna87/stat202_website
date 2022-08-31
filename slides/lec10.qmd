@@ -21,10 +21,10 @@ execute:
 
 ```{r}
 #| include: false
-library(tidyverse)
+library(ggplot2)
+library(dplyr)
 library(palmerpenguins)
 ```
-
 
 ## Today's goals {background-image="images_comics/graphing_relationship.png" background-size="400px" background-opacity="50%" background-position="85% 50%"}
 
@@ -37,8 +37,6 @@ library(palmerpenguins)
 3.  Make predictions with a model
 :::
 :::
-
-
 
 ## Multiple Regression
 
@@ -60,6 +58,7 @@ penguins %>%
   select(body_mass_g, flipper_length_mm, bill_length_mm) %>%
   cor()
 ```
+
 <br>
 
 **Causation**: any change in the value of one variable will cause a change in the value of another variable, which means one variable makes the other happen.
@@ -85,7 +84,6 @@ Predict body mass based on both flipper length and bill length.
 model_penguins <- lm(body_mass_g ~ flipper_length_mm + bill_length_mm, data = penguins)
 summary(model_penguins)$coefficients
 ```
-
 
 $$\widehat{bodymass} = b_0 +b_1*\text{flipper} + b_2*\text{bill_length}$$
 

@@ -375,7 +375,7 @@
     "href": "slides/lec04.html#binary-variables",
     "title": "Data Visualization  Sections 2.7 - 2.9",
     "section": "Binary Variables",
-    "text": "Binary Variables\nSometimes a survey or dataset will code categorical responses with numbers. This is particularly common for binary categories (two choices).\n\ntitanic %>% \n  select(PassengerId, Survived, Sex) %>%\n  glimpse()\n\nRows: 418\nColumns: 3\n$ PassengerId <dbl> 892, 893, 894, 895, 896, 897, 898, 899, 900, 901, 902, 903~\n$ Survived    <dbl> 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1~\n$ Sex         <chr> \"male\", \"female\", \"male\", \"male\", \"female\", \"male\", \"femal~\n\n\nHow can we change Survived to be treated as a categorical variable?"
+    "text": "Binary Variables\nSometimes a survey or dataset will code categorical responses with numbers. This is particularly common for binary categories (two choices).\n\ntitanic %>% \n  select(PassengerId, Survived, Sex) %>%\n  glimpse()\n\nHow can we change Survived to be treated as a categorical variable?"
   },
   {
     "objectID": "slides/lec04.html#ng5-barplots",
@@ -550,7 +550,7 @@
     "href": "slides/lec06.html#arrange",
     "title": "Data Wrangling  Chapter 3.4 - 3.9",
     "section": "arrange()",
-    "text": "arrange()\n\narrange(variable) sorts data in ascending (low to high; A to Z) order by default.\n\narrange(desc(variable)) sorts data in descending (high to low; Z to A) order.\n\nExample:\n\npenguins %>%\n  arrange(desc(body_mass_g))\n\n# A tibble: 344 x 9\n   species island bill_length_mm bill_dept~1 flipp~2 body_~3 sex    year body_~4\n   <fct>   <fct>           <dbl>       <dbl>   <int>   <int> <fct> <int>   <dbl>\n 1 Gentoo  Biscoe           49.2        15.2     221    6300 male   2007    13.9\n 2 Gentoo  Biscoe           59.6        17       230    6050 male   2007    13.3\n 3 Gentoo  Biscoe           51.1        16.3     220    6000 male   2008    13.2\n 4 Gentoo  Biscoe           48.8        16.2     222    6000 male   2009    13.2\n 5 Gentoo  Biscoe           45.2        16.4     223    5950 male   2008    13.1\n 6 Gentoo  Biscoe           49.8        15.9     229    5950 male   2009    13.1\n 7 Gentoo  Biscoe           48.4        14.6     213    5850 male   2007    12.9\n 8 Gentoo  Biscoe           49.3        15.7     217    5850 male   2007    12.9\n 9 Gentoo  Biscoe           55.1        16       230    5850 male   2009    12.9\n10 Gentoo  Biscoe           49.5        16.2     229    5800 male   2008    12.8\n# ... with 334 more rows, and abbreviated variable names 1: bill_depth_mm,\n#   2: flipper_length_mm, 3: body_mass_g, 4: body_mass_lb\n# i Use `print(n = ...)` to see more rows"
+    "text": "arrange()\n\narrange(variable) sorts data in ascending (low to high; A to Z) order by default.\n\narrange(desc(variable)) sorts data in descending (high to low; Z to A) order.\n\nExample:\n\npenguins %>%\n  arrange(desc(body_mass_g))\n\n# A tibble: 344 x 9\n   species island bill_length_mm bill_dept~1 flipp~2 body_~3 sex    year body_~4\n   <fct>   <fct>           <dbl>       <dbl>   <int>   <int> <fct> <int>   <dbl>\n 1 Gentoo  Biscoe           49.2        15.2     221    6300 male   2007    13.9\n 2 Gentoo  Biscoe           59.6        17       230    6050 male   2007    13.3\n 3 Gentoo  Biscoe           51.1        16.3     220    6000 male   2008    13.2\n 4 Gentoo  Biscoe           48.8        16.2     222    6000 male   2009    13.2\n 5 Gentoo  Biscoe           45.2        16.4     223    5950 male   2008    13.1\n 6 Gentoo  Biscoe           49.8        15.9     229    5950 male   2009    13.1\n 7 Gentoo  Biscoe           48.4        14.6     213    5850 male   2007    12.9\n 8 Gentoo  Biscoe           49.3        15.7     217    5850 male   2007    12.9\n 9 Gentoo  Biscoe           55.1        16       230    5850 male   2009    12.9\n10 Gentoo  Biscoe           49.5        16.2     229    5800 male   2008    12.8\n# ... with 334 more rows, and abbreviated variable names 1: bill_depth_mm,\n#   2: flipper_length_mm, 3: body_mass_g, 4: body_mass_lb"
   },
   {
     "objectID": "slides/lec06.html#select",
@@ -655,7 +655,7 @@
     "href": "slides/lec08.html#slr-continued",
     "title": "Regression  Chapter 5.0 - 5.1",
     "section": "SLR (continued)",
-    "text": "SLR (continued)\nEquation of a regression line:\n\\[\\hat{y} = b_0 + b_1*x\\]\n\n\n\\(b_0\\) : intercept; the expected value of \\(\\hat{y}\\) when \\(x = 0\\)\n\\(b_1\\) : slope; for every 1 unit increase in x, then \\(\\hat{y}\\) increases on average by \\(b_1\\)\nfitted values: \\(\\hat{y}\\); the predicted value on the regression line\nresiduals: \\(y - \\hat{y}\\); error in prediction"
+    "text": "SLR (continued)\nEquation of a regression line: \\[\\hat{y} = b_0 + b_1*x\\]\n\n\n\\(b_0\\) : intercept; the expected value of \\(\\hat{y}\\) when \\(x = 0\\)\n\\(b_1\\) : slope; for every 1 unit increase in x, then \\(\\hat{y}\\) increases on average by \\(b_1\\)\nfitted values: \\(\\hat{y}\\); the predicted value on the regression line\nresiduals: \\(y - \\hat{y}\\); error in prediction"
   },
   {
     "objectID": "slides/lec08.html#example-1-model",
@@ -844,7 +844,7 @@
     "href": "slides/lec11.html#same-slopes-model-output-1",
     "title": "Multiple Regression  Chapter 6.2)",
     "section": "Same Slopes Model Output",
-    "text": "Same Slopes Model Output\n\nYou can think of each ‘level’ having a different line (equation).\nThe equation of the line for penguins who are female (ie: sex = female):\n\n\\[-5410.3 + 46.98*flipper + 347.85*0\\]\n\\[ -5410.3 + 46.98*flipper\\]\n\nThe equation of the line for penguins who are male (ie: sex = male):\n\n\\[-5410.3 + 46.98*flipper + 347.85*1\\]\n\\[ -5062.45 + 46.98*flipper\\]"
+    "text": "Same Slopes Model Output\n\nYou can think of each ‘level’ having a different line (equation).\nThe equation of the line for penguins who are female (ie: sex = female):\n\n\\[-5410.3 + 46.98*flipper + 347.85*0\\] \\[ -5410.3 + 46.98*flipper\\]\n\nThe equation of the line for penguins who are male (ie: sex = male):\n\n\\[-5410.3 + 46.98*flipper + 347.85*1\\] \\[ -5062.45 + 46.98*flipper\\]"
   },
   {
     "objectID": "slides/lec11.html#interaction-model",
@@ -858,7 +858,7 @@
     "href": "slides/lec11.html#interaction-model-output",
     "title": "Multiple Regression  Chapter 6.2)",
     "section": "Interaction Model Output",
-    "text": "Interaction Model Output\nEquation: \\[\\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*\\mathbb{1}_{male}(x) \\]\n\\[- 0.29*flipper*\\mathbb{1}_{male}(x)\\]\n\n\\(b_0\\) : intercept for baseline\n\\(b_1\\) : slope of flipper length for\n\\(b_2\\) : offset of intercept for\n\\(b_3\\) : offset in slope of flipper length for"
+    "text": "Interaction Model Output\nEquation: \\[\\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*\\mathbb{1}_{male}(x) \\] \\[- 0.29*flipper*\\mathbb{1}_{male}(x)\\]\n\n\\(b_0\\) : intercept for baseline\n\\(b_1\\) : slope of flipper length for\n\\(b_2\\) : offset of intercept for\n\\(b_3\\) : offset in slope of flipper length for"
   },
   {
     "objectID": "slides/lec11.html#interaction-model-output-1",

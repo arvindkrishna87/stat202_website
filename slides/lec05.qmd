@@ -21,7 +21,8 @@ execute:
 
 ```{r}
 #| include: false
-library(tidyverse)
+library(ggplot2)
+library(dplyr)
 library(palmerpenguins)
 ```
 
@@ -241,8 +242,7 @@ data_sumamry <- data %>%
 
 Consider the `penguins` dataset.
 
-<font size="6">Summarize the average `flipper_length_mm` and count for penguins that are either "Adelie" `species` or "Gentoo" `species`. 
-Which of the following is correct?</font>
+<font size="6">Summarize the average `flipper_length_mm` and count for penguins that are either "Adelie" `species` or "Gentoo" `species`. Which of the following is correct?</font>
 
 ```{r}
 #| eval: false
@@ -270,13 +270,11 @@ penguins_summary_d <- penguins %>%
 
 <br>
 
-
 ## Example 3 {.scrollable auto-animate="true"}
 
 Consider the `penguins` dataset.
 
-<font size="6">Summarize the average `flipper_length_mm` and count for penguins that are either "Adelie" `species` or "Gentoo" `species`. 
-Which of the following is correct?</font>
+<font size="6">Summarize the average `flipper_length_mm` and count for penguins that are either "Adelie" `species` or "Gentoo" `species`. Which of the following is correct?</font>
 
 ```{r}
 #| eval: false
@@ -303,7 +301,6 @@ penguins_summary_d <- penguins %>%
             count = n() )
 ```
 
-
 ## Example 3 (continued) {auto-animate="true"}
 
 Print the data summary.
@@ -315,8 +312,6 @@ penguins_summary_b <- penguins %>%
             count = n() )
 penguins_summary_b
 ```
-
-
 
 ## Example 3 (continued) {auto-animate="true"}
 
@@ -333,6 +328,6 @@ penguins_summary_b
 
 ## Important information
 
-- Order of pipe operations matters!
+-   Order of pipe operations matters!
 -   If you are using `&` and `|` in the same filter be very careful and use parenthesis.
 -   Missing data is entered as `NA` in a data frame cell and can produce an error when using `summarize` unless you set na.rm=TRUE (ie: remove the NA values).

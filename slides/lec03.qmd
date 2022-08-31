@@ -23,7 +23,8 @@ server: shiny
 
 ```{r}
 #| include: false
-library(tidyverse)
+library(ggplot2)
+library(dplyr)
 library(shiny)
 library(palmerpenguins)
 ```

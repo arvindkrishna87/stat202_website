@@ -19,13 +19,12 @@ execute:
   echo: true
 ---
 
-
 ```{r}
 #| include: false
-library(tidyverse)
+library(ggplot2)
+library(dplyr)
 library(palmerpenguins)
 ```
-
 
 ## Today's goals {background-image="images_horst/tidyverse_celestial.png" background-size="400px" background-opacity="50%" background-position="85% 50%"}
 
@@ -35,17 +34,15 @@ library(palmerpenguins)
 ::: {.column width="60%"}
 1.  Import datasets
 2.  Can you determine if a dataset is tidy or messy?
-3. Conduct an EDA
+3.  Conduct an EDA
 :::
 :::
-
 
 ::: {.absolute top="80%" left="90%" width="500"}
 ::: {style="opacity:0.75; font-size: 0.5em"}
 Artwork by @allison_horst
 :::
 :::
-
 
 ## Importing Data
 
@@ -62,7 +59,6 @@ filename <- read_RDS("data/filename.rds")
 #Load .rda 
 load("data/filename.rda")
 ```
-
 
 Computers are not smart! It can only access files that are sitting in your `working directory`. You must direct the computer to the file your data is located in!
 
@@ -83,7 +79,6 @@ Which of the following are tidy and which are messy?
 
 ![](images_lecture/tidy6.PNG)
 :::
-
 
 ## EDA
 

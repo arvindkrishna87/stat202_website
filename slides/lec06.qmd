@@ -19,13 +19,12 @@ execute:
   echo: true
 ---
 
-
 ```{r}
 #| include: false
-library(tidyverse)
+library(ggplot2)
+library(dplyr)
 library(palmerpenguins)
 ```
-
 
 ## Today's goals {background-image="images_horst/dplyr_mutate.png" background-size="400px" background-opacity="50%" background-position="85% 50%"}
 
@@ -41,26 +40,23 @@ library(palmerpenguins)
 :::
 :::
 
-
 ::: {.absolute top="77%" left="85%" width="500"}
 ::: {style="opacity:0.75; font-size: 0.5em"}
 Artwork by @allison_horst
 :::
 :::
 
-
 ## Data Wrangling
 
 In conjunction with past tools (`filter()` and `summarize()`) we will use:
 
-- `group_by()`
-- `mutate()`
-- `arrange()`
-- `select()`
-- and a few others. 
+-   `group_by()`
+-   `mutate()`
+-   `arrange()`
+-   `select()`
+-   and a few others.
 
 Rarely do we only use one of these tools in isolation. We "pipe" them together to wrangle data.
-
 
 ## `group_by()`
 
@@ -89,10 +85,9 @@ penguins %>%
 ```{r}
 head(penguins)
 ```
-
 :::
 
-:::{.fragment}
+::: fragment
 Calculate the average body mass of male and female penguins for each species. (ie: calculate the average body mass of penguins by species and sex.)
 
 ```{r groupby2}
@@ -109,12 +104,11 @@ penguins %>%
 
 **Example:**
 
-Create a new variable `body_mass_lb` where we calculate the penguins weight in pounds.
-Hint: $pounds \approx grams/453.6$
-
+Create a new variable `body_mass_lb` where we calculate the penguins weight in pounds. Hint: $pounds \approx grams/453.6$
 
 ::: panel-tabset
 ## Code
+
 ```{r mutate}
 #| echo: true
 #| eval: false
@@ -124,15 +118,16 @@ penguins <- penguins %>%
 ```
 
 ## Data
+
 ```{r}
 #| echo: false
 penguins <- penguins %>%
   mutate(body_mass_lb = body_mass_g/453.6)
 ```
+
 ```{r}
 glimpse(penguins)
 ```
-
 :::
 
 Notice we overwrote the `penguins` dataset. You can ONLY overwrite the original data if you are **not changing** any of the original information. Otherwise store it as something NEW.
@@ -159,16 +154,18 @@ penguins %>%
 
 In the penguins dataset, say we are only interested in the body measurement columns.
 
-
 ::: panel-tabset
 ## Code
+
 ```{r select}
 #| echo: true
 penguins_body <- penguins %>% 
   select(bill_length_mm, bill_depth_mm, flipper_length_mm, body_mass_g)
 
 ```
+
 ## Alternate Code
+
 ```{r select2}
 #| echo: true
 # specify variables to remove
@@ -180,17 +177,17 @@ penguins_body <- penguins %>%
 ```
 
 ## Data
+
 ```{r}
 head(penguins_body)
 ```
-
 :::
+
 ## Other Useful Data Wrangling Functions
 
 -   `count(variable)` : shortcut to `group_by %>% summarize(n())`
 -   `top_n(n = 1, variable)` : return the largest value
 -   `top_n(n = -1, variable)` : return the smallest value
-
 
 ## Data Wrangling Example
 

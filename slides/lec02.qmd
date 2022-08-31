@@ -21,7 +21,8 @@ execute:
 
 ```{r}
 #| include: false
-library(tidyverse)
+library(ggplot2)
+library(dplyr)
 library(gt)
 library(gtExtras)
 library(palmerpenguins)
@@ -142,11 +143,11 @@ head(penguins)
 ```
 
 ::: {.absolute top="60%" left="10%"}
-![](images_horst/palmer_penguin_species.png){#id .class width="400px" height="300px"}
+![](images_horst/palmer_penguin_species.png){.class width="400px" height="300px"}
 :::
 
 ::: {.absolute top="60%" left="70%"}
-![](images_horst/palmer_penguin.png){#id .class width="300px" height="250px"}
+![](images_horst/palmer_penguin.png){.class width="300px" height="250px"}
 :::
 
 ::: {.absolute top="85%" left="85%" width="500"}
@@ -249,4 +250,4 @@ R is case sensitive! Make sure the data and variable names match EXACTLY.
 
 -   Numerical vs Categorical data examples:
 
-![](images_lecture/data_types.png){#id .class width="500px" height="300px"}
+![](images_lecture/data_types.png){.class width="500px" height="300px"}

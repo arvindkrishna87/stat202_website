@@ -19,10 +19,10 @@ execute:
   echo: true
 ---
 
-
 ```{r}
 #| include: false
-library(tidyverse)
+library(ggplot2)
+library(dplyr)
 #library(ISDSdatasets)
 ```
 
@@ -67,24 +67,18 @@ If you switch x and y, it will just change the orientation of the boxplot (perso
 ## 5NG#4: Boxplots
 
 ::: columns
-
 ::: {.column width="40%"}
-
 <img src="images_lecture/box_plot.png" style="float: left;"/>
-
 :::
 
 ::: {.column width="60%"}
-
 There are 3 things that we typically focus on and describe/compare when inspecting a boxplot:
 
 -   center
 -   spread
 -   shape and outliers
-
 :::
 :::
-
 
 ## Binary Variables
 
@@ -97,10 +91,7 @@ titanic %>%
   glimpse()
 ```
 
-
 How can we change `Survived` to be treated as a categorical variable?
-
-
 
 ## 5NG#5: Barplots
 
@@ -128,7 +119,6 @@ When describing a barplot we look for...
 -   Bar with the least observations.
 -   If all the bars are about equal height, then the distribution is uniform.
 
-
 ## Example 1: Barplots {.scrollable .smaller}
 
 Consider the Palmer Penguins dataset.
@@ -144,13 +134,10 @@ Are we using `geom_bar()` or `geom_col()`?
 
 <br>
 
-
-::: {.fragment}
-
+::: fragment
 What would pre-counted data look like?
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ## Data
 
 ```{r}
@@ -158,7 +145,6 @@ What would pre-counted data look like?
 penguins_counted <- penguins %>% 
   count(species)
 ```
-
 
 ```{r}
 penguins_counted
@@ -170,14 +156,12 @@ penguins_counted
 penguins_counted <- penguins %>% 
   count(species)
 ```
-
 :::
 :::
 
 ## Example 2: Barplots {.scrollable .smaller}
 
 What if we want to visualize the distribution of `sex` in each of the `species`. There are 4 main ways to visualize multiple levels within a categorical data:
-
 
 ```{r cat-barplot}
 #| echo: true
@@ -196,7 +180,6 @@ ggplot(data=penguins, aes(x = species, fill = sex)) +
   
 ```
 
-
 ```{r side-by-side-barplot}
 #| echo: true
 #| out.width: 50%
@@ -204,7 +187,6 @@ ggplot(data=penguins, aes(x = species, fill = sex)) +
   geom_bar(position = "dodge")
  
 ```
-
 
 ```{r faceted-barplot}
 #| echo: true
@@ -214,11 +196,10 @@ ggplot(data=penguins, aes(x = species))+
   facet_wrap(~ sex)
 ```
 
-
 ## Extra information and resources {.scrollable}
 
 **"factor" vs "character" variable**
 
-- factor has predefined levels and the observation must be one of those levels (limited response options).
-- character can take on any string value (think open response options)
-- [Factors in R](https://www.stat.berkeley.edu/~s133/factors.html)
+-   factor has predefined levels and the observation must be one of those levels (limited response options).
+-   character can take on any string value (think open response options)
+-   [Factors in R](https://www.stat.berkeley.edu/~s133/factors.html)

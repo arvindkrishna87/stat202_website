@@ -21,10 +21,10 @@ execute:
 
 ```{r}
 #| include: false
-library(tidyverse)
+library(ggplot2)
+library(dplyr)
 library(palmerpenguins)
 ```
-
 
 ## Today's goals {background-image="images_comics/correlation.png" background-size="400px" background-opacity="50%" background-position="85% 50%"}
 
@@ -38,7 +38,6 @@ library(palmerpenguins)
 :::
 :::
 
-
 ## Multiple Regression Goal and Example
 
 **Goal**: build a model with one numerical and one categorical explanatory variable.
@@ -51,7 +50,6 @@ Using the `penguins` dataset, we want to determine how flipper_length impacts bo
 glimpse(penguins)
 ```
 
-
 ## "Same slope model"
 
 ```{r same-slope}
@@ -60,7 +58,6 @@ model_parallel <- lm(body_mass_g ~ flipper_length_mm + sex, data=penguins)
 
 summary(model_parallel)
 ```
-
 
 ## Same Slopes Model Output
 
@@ -77,16 +74,13 @@ summary(model_parallel)
 
 -   The equation of the line for penguins who are female (ie: sex = female):
 
-$$-5410.3 + 46.98*flipper + 347.85*0$$
-$$ -5410.3 + 46.98*flipper$$
+$$-5410.3 + 46.98*flipper + 347.85*0$$ $$ -5410.3 + 46.98*flipper$$
 
 -   The equation of the line for penguins who are male (ie: sex = male):
 
-$$-5410.3 + 46.98*flipper + 347.85*1$$
-$$ -5062.45 + 46.98*flipper$$
+$$-5410.3 + 46.98*flipper + 347.85*1$$ $$ -5062.45 + 46.98*flipper$$
 
 ## "Interaction Model"
-
 
 ```{r interaction}
 #| echo: true
@@ -95,17 +89,14 @@ model_interaction <- lm(body_mass_g ~ flipper_length_mm + sex +flipper_length_mm
 summary(model_interaction)
 ```
 
-
 ## Interaction Model Output
 
-**Equation**: $$\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*\mathbb{1}_{male}(x) $$ 
-$$- 0.29*flipper*\mathbb{1}_{male}(x)$$
-
+**Equation**: $$\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*\mathbb{1}_{male}(x) $$ $$- 0.29*flipper*\mathbb{1}_{male}(x)$$
 
 -   $b_0$ : intercept for baseline
 -   $b_1$ : slope of flipper length for
--   $b_2$ : offset of intercept for 
--   $b_3$ : offset in slope of flipper length for 
+-   $b_2$ : offset of intercept for
+-   $b_3$ : offset in slope of flipper length for
 
 ## Interaction Model Output
 
@@ -113,8 +104,4 @@ You can think of each 'level' having a different line (equation).
 
 Equation of the line for female penguins:
 
-<br>
-<br>
-Equation of the line for male penguins:
-
-
+<br> <br> Equation of the line for male penguins:
