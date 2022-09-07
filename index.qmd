@@ -9,10 +9,12 @@ execute:
 ---
 
 <!-- ::: callout-important -->
-<!-- Classes are virtual this week. -->
-<!-- Find Zoom links -->
-<!-- ::: -->
 
+<!-- Classes are virtual this week. -->
+
+<!-- Find Zoom links -->
+
+<!-- ::: -->
 
 ```{r}
 library(tidyverse)
@@ -33,7 +35,7 @@ agenda_today <- agenda_final %>% filter(time == val)
 
 ```
 
-## <span style="color: #4E2A84;"> Class:  `r agenda_today$Date` </span> 
+## [Class: `r agenda_today$Date`]{style="color: #4E2A84;"}
 
 ```{r}
 agenda_today %>% 
@@ -52,7 +54,6 @@ agenda_today %>%
               table_body.hlines.color = "white",
               table.width = pct(100))
 ```
-
 
 ## Prepare
 
@@ -102,7 +103,6 @@ agenda_today %>%
 
 ```
 
-
 ## Homework Due `r agenda_today$due` 11:59pm
 
 ```{r}
@@ -126,7 +126,6 @@ agenda_today %>%
               table.width = pct(100))
 
 ```
-
 
 <br><br>
 
