@@ -6,8 +6,9 @@ website:
   page-navigation: true
   title: "STAT 202"
   description: "Homepage for STAT 202"
-  site-url: "https://stat202_website.github.io/website/"
-
+  #site-url: "https://stat202_website.github.io/website/"
+  site-url: "https://dsass1.github.io/stat202_website/"
+  
   repo-url: https://github.com/dsass1/stat202_website
   repo-actions: [edit, issue]
 
@@ -27,18 +28,16 @@ website:
     style: "docked"
     search: true
     contents:
-      - section: "Overview"
-        contents:
-          - href: index.qmd
-            text: Today's agenda
-          - href: course-schedule.qmd
-            text: Schedule
-          - href: course-syllabus.qmd
-            text: Syllabus
-          - href: course-team.qmd
-            text: Office hours
-          - href: course-links.qmd
-            text: Useful links
+        - href: index.qmd
+          text: Today's agenda
+        - href: course-schedule.qmd
+          text: Schedule
+        - href: course-syllabus.qmd
+          text: Syllabus
+        - href: course-team.qmd
+          text: Office hours
+        - href: course-links.qmd
+          text: Useful links
 
 format:
   html:

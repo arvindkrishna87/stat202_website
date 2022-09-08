@@ -77,17 +77,38 @@ agenda_today %>%
 
 <br>
 
+## Participate
+
+```{r}
+agenda_today %>% 
+  select(participate) %>% 
+  gt() %>% 
+  fmt_markdown(columns = c(participate) )%>%
+  cols_align(align = "left") %>% 
+  tab_options(column_labels.hidden = TRUE,
+              table.align = "left",
+              table_body.border.top.color = "white",
+              table_body.border.bottom.color = "white",
+              table_body.hlines.color = "white",
+              table.width = pct(100))
+```
+
+![](images/qr_202part1.png){height="1.5in"}
+
+<br>
+
 ## Agenda
 
 ```{r}
 agenda_today %>% 
-  select(agenda1, agenda2, agenda3, agenda4, Slides, Activity) %>% 
+  select(agenda1, agenda2, agenda3, agenda4, agenda5, Slides, Activity) %>% 
   mutate(Slides = ifelse(!is.na(Slides), map(paste0("Section notes: ", Slides), glue::glue), "NA"),
          Activity = ifelse(!is.na(Activity), map(paste0("Daily activity: ", Activity), glue::glue), "NA"),
          agenda1 = map(agenda1, glue::glue),
          agenda2 = map(agenda2, glue::glue),
          agenda3 = map(agenda3, glue::glue),
-         agenda4 = map(agenda4, glue::glue)) %>% 
+         agenda4 = map(agenda4, glue::glue),
+         agenda5 = map(agenda5, glue::glue)) %>% 
   t() %>% 
   as.data.frame() %>% 
   filter(V1 != "NA") %>% 
@@ -107,11 +128,10 @@ agenda_today %>%
 
 ```{r}
 agenda_today %>% 
-  select(submit_act,reading_hw, Tutorial, Project) %>% 
+  select(submit_act,reading_hw, Tutorial) %>% 
   mutate(submit_act = ifelse(!is.na(submit_act), map(paste0("Complete and submit ", submit_act), glue::glue), "NA"), 
          reading_hw = ifelse(!is.na(reading_hw), map(paste0({fontawesome::fa('book-open')} ," Read ", reading_hw), glue::glue), "NA"),
-         Tutorial = ifelse(!is.na(Tutorial), map(paste0("Complete and submit ", Tutorial), glue::glue), "NA"),
-         Project = ifelse(!is.na(Project), map(paste0("Complete and submit ", Project), glue::glue), "NA") ) %>% 
+         Tutorial = ifelse(!is.na(Tutorial), map(paste0("Complete and submit ", Tutorial), glue::glue), "NA") ) %>% 
   t() %>% 
   as.data.frame() %>% 
   filter(V1 != "NA") %>% 

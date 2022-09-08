@@ -56,11 +56,10 @@ agenda_final <- agenda %>%
   mutate(Slides = paste0(slide_icon, slide_link),
          Activity = paste0(activity_icon, activity_link),
          submit_act = paste0(submit_icon, submit_link),
-         Tutorial = paste0(tutorial_icon, tutorial_link),
-         Project = paste0(project_icon, project_link)) %>% 
+         Tutorial = paste0(tutorial_icon, tutorial_link)) %>% 
   select(-c(ReadingLink, slide_icon, slide_link, activity_icon, 
          activity_link, submit_icon, submit_link, tutorial_icon, 
-         tutorial_link, project_icon, project_link))
+         tutorial_link))
 
 agenda_final$reading_hw <- c(agenda_final$Reading[-1], "")
 

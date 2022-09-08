@@ -14,7 +14,7 @@ library(gtExtras)
 library(lubridate)
 
 agenda_final <- read_csv("documents/agenda_final.csv") %>% 
-  select(-c(due_ymd, date_ymd, callout, agenda1, agenda2, agenda3, agenda4, reading_hw)) %>% 
+  select(-c(due_ymd, date_ymd, participate, callout, agenda1, agenda2, agenda3, agenda4, agenda5, reading_hw)) %>% 
   mutate(Week = as.character(Week))
 
 agenda_final[is.na(agenda_final)] <- " " 
@@ -23,12 +23,11 @@ agenda_final %>%
   mutate(Slides = map(Slides, glue::glue), 
          Activity = map(Activity, glue::glue),
          submit_act = map(submit_act, glue::glue),
-         Tutorial = map(Tutorial, glue::glue),
-         Project = map(Project, glue::glue)) %>% 
+         Tutorial = map(Tutorial, glue::glue)) %>% 
   gt() %>% 
   cols_move_to_start(
     columns = Week) %>% 
-  fmt_markdown(columns = c(Week, Reading, Slides, Activity, submit_act, Tutorial, Project) ) %>% 
+  fmt_markdown(columns = c(Week, Reading, Slides, Activity, submit_act, Tutorial) ) %>% 
   gt_theme_espn() %>% 
   tab_options(table.width = pct(100),
               table_body.hlines.color = "#4E2A84",
@@ -44,7 +43,6 @@ agenda_final %>%
   ) %>% 
   tab_spanner(
     label = "Homework",
-    columns = c(submit_act, Tutorial, Project, due)
+    columns = c(submit_act, Tutorial, due)
   ) 
 ```
-
