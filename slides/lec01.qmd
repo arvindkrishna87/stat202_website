@@ -41,6 +41,11 @@ Artwork by @allison_horst
 <!-- Artwork by @allison_horst -->
 
 <!-- ::: -->
+## Agenda
+
+- Complete today's activity first!
+
+- These slides just include helpful reminders that you may find useful to refer back to when working on later activities.
 
 ## RStudio interface
 

@@ -1,0 +1,30 @@
+---
+title: "Welcome to STAT 202"
+institute: "Department of Statistics and Data Science <br> STAT 202"
+
+logo: nu_logo.png
+format: 
+  revealjs:
+    theme: [default, nu_theme.scss]
+    chalkboard:
+      theme: whiteboard
+      toggleNotesButton: false
+    menu:
+        side: right
+    code-line-numbers: false
+
+execute:
+  echo: true
+---
+
+## Today's agenda {.scrollable}
+
+Make sure you have completed the following agenda items by the end of class!
+
+1.  Review the syllabus
+2.  Visit the course's [Campuswire page](https://campuswire.com/p/G88B46A25) using your @u.northwestern.edu email. Enrollment code: 7930
+3.  Gain access to the RStudio Cloud Class Workspace (link on Canvas)
+4.  We will be using [AHA slides](https://ahaslides.com/202PART1) for participation this quarter.
+5.  Complete the [google survey](https://docs.google.com/forms/d/e/1FAIpQLSfdKddsg7CoaY7WwM2gc9iiUKr8mtSRbKQ8oLAgD9cv0ugJRw/viewform?usp=sf_link) - we will use this data later.
+6.  Test out the homework system Reading Check 01 (RC 01).
+7.  Login/create your [Northwestern Zoom Account](https://northwestern.zoom.us/) if you do not have one. This will be used for office hours or requested appointments.
