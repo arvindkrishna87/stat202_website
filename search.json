@@ -105,60 +105,53 @@
     "text": "The Grammar of Graphics\n\n\n\n\n\nDefines a set of rules for constructing statistical graphics by combining different types of layers.\n\n\n\n\n\n\n  \n  \n    \n      Layer\n      Function\n      Explanation\n    \n  \n  \n    Data\nggplot( )\ninitialize plot and define dataset first\n    Aesthetics\naes( )\nhow variables are mapped\n    Geometries\ngeom_*( )\nhow data is conveyed\n    Facets\nfacet_*( )\nseparates plots by categories\n    Statistics\nstat_*( )\nstatistical transformations\n    Coordinates\ncoord_*( )\ncustomize coord system\n    Theme\ntheme( )\ncustomize non-data components\n  \n  \n  \n\n\n\n\n\n\n\nOnly the first three layers are essential components that must be defined when building a graphic."
   },
   {
-    "objectID": "slides/lec02.html#the-5-named-graphs-5ng",
-    "href": "slides/lec02.html#the-5-named-graphs-5ng",
-    "title": "Data Visualization  Sections 2.0 - 2.3",
-    "section": "The 5 named graphs (5NG)",
-    "text": "The 5 named graphs (5NG)\n\nscatterplot\nlinegraph\nhistogram\nboxplot\nbargraph"
-  },
-  {
     "objectID": "slides/lec02.html#ng1-scatterplots",
     "href": "slides/lec02.html#ng1-scatterplots",
     "title": "Data Visualization  Sections 2.0 - 2.3",
     "section": "5NG#1: Scatterplots",
-    "text": "5NG#1: Scatterplots\n\nScatterplots allow you to visualize the relationship between 2 numerical variables.\n\nScatterplot syntax in R:\n\nggplot(data= my_data, mapping = aes(x = var1, y = var2)) +\n  geom_point()\n\n\nScatterplot language: Construct a scatterplot of Y by X."
+    "text": "5NG#1: Scatterplots\n\nScatterplots allow you to visualize the relationship between 2 numerical variables.\n\n\nScatterplot syntax in R:\n\nggplot(data= my_data, mapping = aes(x = var1, y = var2)) +\n  geom_point()\n\n\n\n\nScatterplot language: Construct a scatterplot of Y by X."
   },
   {
     "objectID": "slides/lec02.html#ng1-scatterplots-1",
     "href": "slides/lec02.html#ng1-scatterplots-1",
     "title": "Data Visualization  Sections 2.0 - 2.3",
     "section": "5NG#1: Scatterplots",
-    "text": "5NG#1: Scatterplots\nWhen describing scatterplots…\n\nLook for pattern going from left to right.\nClassify association as positive, negative, or no association.\nClassify strength of association: strong, moderate, weak.\nDescribe overall pattern: linear, nonlinear, etc.\nCheck for overplotting issues."
+    "text": "5NG#1: Scatterplots\nWhen describing scatterplots…\n\n\nLook for pattern going from left to right.\nClassify association as positive, negative, or no association.\nClassify strength of association: strong, moderate, weak.\nDescribe overall pattern: linear, nonlinear, etc.\nCheck for overplotting issues."
   },
   {
-    "objectID": "slides/lec02.html#example",
-    "href": "slides/lec02.html#example",
+    "objectID": "slides/lec02.html#the-palmer-penguins-dataset",
+    "href": "slides/lec02.html#the-palmer-penguins-dataset",
     "title": "Data Visualization  Sections 2.0 - 2.3",
-    "section": "Example:",
-    "text": "Example:\n\nlibrary(palmerpenguins)\nhead(penguins)\n\n# A tibble: 6 x 8\n  species island    bill_length_mm bill_depth_mm flipper_l~1 body_~2 sex    year\n  <fct>   <fct>              <dbl>         <dbl>       <int>   <int> <fct> <int>\n1 Adelie  Torgersen           39.1          18.7         181    3750 male   2007\n2 Adelie  Torgersen           39.5          17.4         186    3800 fema~  2007\n3 Adelie  Torgersen           40.3          18           195    3250 fema~  2007\n4 Adelie  Torgersen           NA            NA            NA      NA <NA>   2007\n5 Adelie  Torgersen           36.7          19.3         193    3450 fema~  2007\n6 Adelie  Torgersen           39.3          20.6         190    3650 male   2007\n# ... with abbreviated variable names 1: flipper_length_mm, 2: body_mass_g\n\n\n\n\n\n\n\n\n\n\nArtwork by @allison_horst"
+    "section": "The Palmer Penguins Dataset:",
+    "text": "The Palmer Penguins Dataset:\n\nlibrary(palmerpenguins)\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel…\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse…\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, …\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, …\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186…\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, …\n$ sex               <fct> male, female, female, NA, female, male, female, male…\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…\n\n\n\n\n\n\n\n\n\n\nArtwork by @allison_horst"
   },
   {
     "objectID": "slides/lec02.html#example-1-describing-scatterplots",
     "href": "slides/lec02.html#example-1-describing-scatterplots",
     "title": "Data Visualization  Sections 2.0 - 2.3",
     "section": "Example 1: Describing scatterplots",
-    "text": "Example 1: Describing scatterplots\n\nggplot(penguins, aes(x=flipper_length_mm, y=bill_length_mm)) +\n  geom_point()"
+    "text": "Example 1: Describing scatterplots\n\n\n\n\nPlotData\n\n\n\nggplot(penguins, aes(x=flipper_length_mm, y=bill_length_mm)) +\n  geom_point()\n\n\n\n\nFig A\n\n\n\n\n\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel…\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse…\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, …\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, …\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186…\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, …\n$ sex               <fct> male, female, female, NA, female, male, female, male…\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…"
   },
   {
     "objectID": "slides/lec02.html#example-2-describing-scatterplots",
     "href": "slides/lec02.html#example-2-describing-scatterplots",
     "title": "Data Visualization  Sections 2.0 - 2.3",
     "section": "Example 2: Describing scatterplots",
-    "text": "Example 2: Describing scatterplots\n\nggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm)) +\n  geom_point()"
+    "text": "Example 2: Describing scatterplots\n\n\n\n\nPlotData\n\n\n\nggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm)) +\n  geom_point()\n\n\n\n\nFig B\n\n\n\n\n\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel…\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse…\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, …\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, …\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186…\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, …\n$ sex               <fct> male, female, female, NA, female, male, female, male…\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…"
   },
   {
     "objectID": "slides/lec02.html#example-2-describing-scatterplots-1",
     "href": "slides/lec02.html#example-2-describing-scatterplots-1",
     "title": "Data Visualization  Sections 2.0 - 2.3",
     "section": "Example 2: Describing scatterplots",
-    "text": "Example 2: Describing scatterplots\n\nggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm, color = sex)) +\n  geom_point()"
+    "text": "Example 2: Describing scatterplots\n\nPlotData\n\n\n\nggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm, color = sex)) +\n  geom_point()\n\n\n\n\nFig C\n\n\n\n\n\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel…\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse…\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, …\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, …\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186…\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, …\n$ sex               <fct> male, female, female, NA, female, male, female, male…\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…"
   },
   {
     "objectID": "slides/lec02.html#example-2-describing-scatterplots-2",
     "href": "slides/lec02.html#example-2-describing-scatterplots-2",
     "title": "Data Visualization  Sections 2.0 - 2.3",
     "section": "Example 2: Describing scatterplots",
-    "text": "Example 2: Describing scatterplots\n\nggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm, color = species)) +\n  geom_point()"
+    "text": "Example 2: Describing scatterplots\n\nPlotData\n\n\n\nggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm, color = species)) +\n  geom_point()\n\n\n\n\nFig D\n\n\n\n\n\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel…\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse…\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, …\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, …\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186…\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, …\n$ sex               <fct> male, female, female, NA, female, male, female, male…\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…"
   },
   {
     "objectID": "slides/lec02.html#common-coding-errors",
