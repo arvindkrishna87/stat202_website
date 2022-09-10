@@ -95,14 +95,6 @@ grammar %>%
 
 Only the *first three* layers are essential components that must be defined when building a graphic.
 
-## The 5 named graphs (5NG)
-
--   scatterplot
--   linegraph
--   histogram
--   boxplot
--   bargraph
-
 ## 5NG#1: Scatterplots
 
 <br>
@@ -110,6 +102,8 @@ Only the *first three* layers are essential components that must be defined when
 Scatterplots allow you to visualize the **relationship** between 2 **numerical** variables.
 
 <br>
+
+. . .
 
 **Scatterplot syntax in R:**
 
@@ -123,23 +117,27 @@ ggplot(data= my_data, mapping = aes(x = var1, y = var2)) +
 
 <br>
 
+. . .
+
 **Scatterplot language:** Construct a scatterplot of **Y by X**.
 
 ## 5NG#1: Scatterplots
 
 When describing scatterplots...
 
+::: {.incremental}
 -   Look for pattern going from left to right.
 -   Classify association as positive, negative, or no association.
 -   Classify strength of association: strong, moderate, weak.
 -   Describe overall pattern: linear, nonlinear, etc.
 -   Check for overplotting issues.
+:::
 
-## Example:
+## The Palmer Penguins Dataset:
 
 ```{r}
 library(palmerpenguins)
-head(penguins)
+glimpse(penguins)
 ```
 
 ::: {.absolute top="60%" left="10%"}
@@ -156,41 +154,99 @@ Artwork by @allison_horst
 :::
 :::
 
-## Example 1: Describing scatterplots
+## Example 1: Describing scatterplots {.scrollable}
+
+
+::: {.absolute top="0%" left="80%" width="200"}
+![](images_lecture/participate_icon.png)
+:::
+
+::: panel-tabset
+## Plot
 
 ```{r}
 #| out.width: 700px
 #| out.height: 450px
+#| fig-cap: "Fig A"
 ggplot(penguins, aes(x=flipper_length_mm, y=bill_length_mm)) +
   geom_point()
 ```
 
-## Example 2: Describing scatterplots {auto-animate="true"}
+## Data
+
+```{r}
+glimpse(penguins)
+```
+:::
+
+
+## Example 2: Describing scatterplots {.scrollable auto-animate="true"}
+
+::: {.absolute top="0%" left="80%" width="200"}
+![](images_lecture/participate_icon.png)
+:::
+
+::: panel-tabset
+## Plot
 
 ```{r}
 #| out.width: 700px
 #| out.height: 450px
+#| fig-cap: "Fig B"
 ggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm)) +
   geom_point()
 ```
 
-## Example 2: Describing scatterplots {auto-animate="true"}
+
+## Data
+
+```{r}
+glimpse(penguins)
+```
+:::
+
+
+## Example 2: Describing scatterplots {.scrollable auto-animate="true"}
+
+::: panel-tabset
+## Plot
 
 ```{r}
 #| out.width: 700px
 #| out.height: 450px
+#| fig-cap: "Fig C"
 ggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm, color = sex)) +
   geom_point()
 ```
 
-## Example 2: Describing scatterplots {auto-animate="true"}
 
+## Data
+
+```{r}
+glimpse(penguins)
+```
+:::
+
+
+## Example 2: Describing scatterplots {.scrollable auto-animate="true"}
+
+::: panel-tabset
+## Plot
 ```{r}
 #| out.width: 700px
 #| out.height: 450px
+#| fig-cap: "Fig D"
 ggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm, color = species)) +
   geom_point()
 ```
+
+
+## Data
+
+```{r}
+glimpse(penguins)
+```
+:::
 
 ## Common Coding Errors {.scrollable}
 
