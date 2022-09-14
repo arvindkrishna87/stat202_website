@@ -2,14 +2,14 @@
 title: "Syllabus"
 ---
 
-
-[**Click here**](/documents/stat202_fa22_syllabus.pdf "PDF of syllabus") **to download a PDF copy of the syllabus.**
+[**Click here**](/documents/syllabus_stat202_2022fa.pdf) **to download a PDF copy of the syllabus.**
 
 ## Course info
 
-|           | Day       | Time              | Location                       |
-|-----------|-----------|-------------------|--------------------------------|
-| Lectures  | MWF | 9:00 am - 9:50 am | Swift 107      |
+|            | Day | Time              | Location  |
+|------------|-----|-------------------|-----------|
+| Section 20 | MWF | 9:00 am - 9:50 am | Swift 107 |
+| Section 21 | MWF | 1:00 pm - 1:50 pm | Swift 107 |
 
 **Prerequisite:** High School Algebra
 
@@ -17,12 +17,13 @@ title: "Syllabus"
 
 By the end of the quarter, you will be able to...
 
-
 1.  Use statistical software to manage and process data.
 2.  Use statistical software to perform exploratory data analyses. That is, explore data numerically and visually to gain understanding through data and generate hypotheses and inferences to later test.
+
 ```{r, echo=FALSE, out.width='50%', fig.margin=TRUE}
 knitr::include_graphics('images/cartoon3308.png', dpi = NA)
 ```
+
 3.  Recognize the importance of data collection, identify limitations in data collection methods, and determine how they affect the scope of inference.
 4.  Build a conceptual understanding of the unified nature of statistical inference.
 5.  Apply estimation and testing methods to analyze single variables or the relationship between two variables in order to understand natural phenomena and make data-based decisions.
@@ -30,11 +31,9 @@ knitr::include_graphics('images/cartoon3308.png', dpi = NA)
 7.  Interpret results in context without relying on statistical jargon.
 8.  Critique and evaluate data-based claims and decisions.
 
-
 ## Course Structure
 
 The bulk of this course will follow a flipped or active learning design. Meaning the majority of each lecture will be dedicated to working on activities. A lot of what you do in this course will involve writing code, and coding is a skill that is best learned by doing. A typical class will devote 10-15 minutes to discussion/lecture with the remainder of the class devoted to working on activities where students will either work by themselves or in groups. Throughout the class we will discuss and review the work on the activities. In many cases we may come together to work on parts of an activity as a class.
-
 
 ## Textbooks
 
@@ -48,67 +47,69 @@ We will be using/introducing the free statistical software [RStudio Cloud](https
 
 Students will need a laptop or Chromebook to be able to follow lectures and to work with RStudio Cloud to complete activities. If access to a laptop is an issue, then please contact the course instructor and we will work to find an accommodation.
 
-
 ## Assessment
 
-Assessment for the course is comprised of six components: attendance, reading checks, activities, projects, midterm exam, and final exam.
+Assessment for the course is comprised of five components: participation, reading checks, activities, projects, midterm exam, and final exam.
 
-### Attendance
+### Participation
 
+We will be recording participation through [AHA slides](https://ahaslides.com/). Various times throughout the class we may take a poll or ask a question that you will respond to. The link to the site is provided on the "home page" each day. Participation grades will be curved to 80%. Meaning at the end of the quarter, if you participate at least 80% of the time your participation grade will be 100% (but will not exceed 100%). If you participate 70% of the time, at the end of the quarter your grade will be 70%/80%.
+
+*If you have an extenuating circumstance that requires you to miss more than 80% of classes then you should contact your advisor or Accessible NU for an accommodation request.*
 
 ### Reading Checks
 
-*The lowest three grades will be dropped at the end of the semester.*
+Reading checks will be completed using "Tutorials" on RStudio Cloud and uploaded to the course Canvas page. Each reading check will be scaled to be worth 10 points.
+
+*The lowest three grades will be dropped at the end of the quarter.*
 
 ### Activities
 
-*The lowest homework grade will be dropped at the end of the semester.*
+All daily activities will be graded for completion (10 points fully complete; 5 points partially complete; 0 not complete). This doesn't mean that your solutions are correct, so make sure that you check them against the solutions.
 
-### Projects
+*The lowest three grades will be dropped at the end of the quarter.*
 
-The projects will focus on practical application of course material. More information about the project will be provided during the quarter.
 
-### Midterm Exam
+### Exams
 
-The midterm exam will focus on conceptual knowledge of course material and be taken in-class through the IMathAS software. Students will be allowed one 8.5 x 11 inch cheat sheet (front & back) on the in-class exams. 
+There will be 3 in-class exams; they will be structured very similarly to your reading checks. Half of it will focus on conceptual knowledge and half will focus on practical applications. Students will be allowed one 8.5 x 11 inch cheat sheet (front & back) on each in-class exams. The exams are not cumulative.
 
-### Final Exam
+### Project
 
-The final exam will be structured similarly and taken in-class through the IMathAS software. Students will be allowed one 8.5 x 11 inch cheat sheet (front & back) on the in-class exams.
+The final project will be completed in groups of 3-5 people and allow you to explore a dataset of your choice. More information will be provided later in the quarter.
 
-### Midterm Exam Improvement Policy
+### Exam Improvement Policy
 
-We have worked to develop a policy geared towards a growth mindset. That is, we want a policy where students clearly demonstrate that they have used the midterm as a diagnostic tool to learn from and improve their understanding of statistics. Since the final is cumulative we have settled on a policy where we will replace your in-class midterm score with your in-class final score --- only in cases where it is an improvement
+We have worked to develop a policy geared towards a growth mindset. That is, we want a policy where students clearly demonstrate that they have used the exam as a diagnostic tool to learn from and improve their understanding of statistics. There is NO final cumulative exam during the designated final exam time, instead you may choose to retake 1 exam during the exam time. This exam will replace your old score --- only in cases where it is an improvement. You must be on-campus to take the exam.
 
 ## Grading
 
 The final course grade will be calculated as follows:
 
-| Category              | Percentage      |
-|-----------------------|-----------------|
-| Reading Checks        | 25%             |
-| Activities            | 15%             |
-| Project 1             | 10%             |
-| Project 2             | 10%             |
-| Midterm Exam          | 20%             |
-| Final Exam            | 20%             |
+| Category       | Percentage |
+|----------------|------------|
+| Participation  |  5%        |
+| Reading Checks | 15%        |
+| Activities     | 10%        |
+| Exam 1         | 20%        |
+| Exam 2         | 20%        |
+| Exam 3         | 20%        |
+| Final Project  | 10%        |
 
 The final letter grade will be determined based on the following thresholds:
 
 | Letter Grade | Final Course Grade |
 |--------------|--------------------|
 | A            | \>= 93             |
-| A-           | 90 - 92.99         |
-| B+           | 87 - 89.99         |
-| B            | 83 - 86.99         |
-| B-           | 80 - 82.99         |
-| C+           | 77 - 79.99         |
-| C            | 73 - 76.99         |
-| C-           | 70 - 72.99         |
-| D+           | 67 - 69.99         |
-| D            | 63 - 66.99         |
-| D-           | 60 - 62.99         |
-| F            | \< 60              |
+| A-           | 90 - 92.9          |
+| B+           | 87 - 89.9          |
+| B            | 83 - 86.9          |
+| B-           | 80 - 82.9          |
+| C+           | 77 - 79.9          |
+| C            | 73 - 76.9          |
+| C-           | 70 - 72.9          |
+| D            | 60 - 69.9          |
+| F            | \< 59.9            |
 
 ## Tips for success
 
@@ -119,114 +120,123 @@ The final letter grade will be determined based on the following thresholds:
 -   Contribute to a welcoming and inclusive learning environment.
 -   Don't be afraid to make mistakes, you learn from mistakes.
 
-
 ## Asking Questions & Course Communication
 
-This term we will be using [Campuswire](https://campuswire.com/p/GDD23C511) ("Enrollment Code: 6232") as our preferred platform for questions about activities, reading checks, and general course questions. The system is highly catered to getting you help quickly and efficiently from classmates and the instructional team. Rather than emailing questions to the instructional team, you should post your questions on Campuswire.
+This term we will be using [Campuswire](https://campuswire.com/p/G88B46A25) ("Enrollment Code: 7930") as our preferred platform for questions about activities, reading checks, and general course questions. The system is highly catered to getting you help quickly and efficiently from classmates and the instructional team. Rather than emailing questions to the instructional team, you should post your questions on Campuswire.
 
 The instructional team will check Campuswire periodically and answer questions, but we strongly encourage students to answer each other's questions. To this end, student will be able to earn bonus points --- see Canvas for details.
 
 Please do not expect answers during weekends and evenings.
 
-
-
 ## Academic Resources
 
 [Quarter-Long Study Groups](http://www.northwestern.edu/searle/programs-events/undergrad/group-study/peer-guided-study-groups/index.html) offers peer-led academic support in a small-group setting for students enrolled in this course. If you join the program, you will meet weekly with about 5 to 8 other students and a peer facilitator. During sessions, students review concepts, work through practice problems, raise questions, and work together to develop answers. Students register for the full quarter on CAESAR and weekly attendance is expected. Study Groups sessions are listed below course lecture and discussion sections (e.g., STAT 202-SG Peer-Guided Study Group: Introduction to Statistics).
 
-Contact Borislava Miltcheva (borislava.miltcheva@northwestern.edu) with any questions.
+Contact Borislava Miltcheva (pgsg@northwestern.edu) with any questions.
 
 ### Drop-In Support (No Appointment Needed)
 
 [Drop-In Peer Tutoring](https://www.northwestern.edu/academic-support-learning/course-support/drop-in-peer-tutoring.html) is set up such that students can drop in to study alone or with others and ask questions of a peer leader who has done well in the class. Tutoring is provided for many of the introductory courses in Biology, Chemistry, Economics, Engineering, Mathematics, Physics, and **Statistics**. Check their website for a complete list of supported courses.
 
-Contact Krystal Wilson (krystal.wilson@northwestern.edu) with any questions.
-
+Contact Valerie Wolf (valerie.wolf@northwestern.edu) with any questions.
 
 ## COVID-19 Policies
 
 ### Classroom Expectations
 
-Students, faculty, and staff must comply with University expectations regarding appropriate classroom behavior, including those outlined below and in the [COVID-19 Code of Conduct](https://www.northwestern.edu/communitystandards/about-us/northwestern-university-student-expectations-covid-19-code-of-conduct.html)^[Internet search: "Northwestern Code of Conduct"]. With respect to classroom procedures, this includes:
+Students, faculty, and staff must comply with University expectations regarding appropriate classroom behavior, including those outlined below and in the [COVID-19 Code of Conduct](https://www.northwestern.edu/communitystandards/about-us/northwestern-university-student-expectations-covid-19-code-of-conduct.html)[^1]. With respect to classroom procedures, this includes:
 
-- Policies regarding masking and social distancing evolve as the public health situation changes. Students are responsible for understanding and complying with current masking, testing, Symptom Tracking, and social distancing requirements.
-- In some classes, masking and/or social distancing may be required as a result of an Americans with Disabilities Act (ADA) accommodation for the instructor or a student in the class even when not generally required on campus. In such cases, the instructor will notify the class.
-- No food is allowed inside classrooms. Drinks are permitted, but please keep your face covering on and use a straw.
-- Faculty may assign seats in some classes to help facilitate contact tracing in the event that a student tests positive for COVID-19. Students must sit in their assigned seats.
- 
-\noindent If a student fails to comply with the  [COVID-19 Code of Conduct](https://www.northwestern.edu/communitystandards/about-us/northwestern-university-student-expectations-covid-19-code-of-conduct.html) or other University expectations related to COVID-19, the instructor may ask the student to leave the class. The instructor is asked to report the incident to the Office of Community Standards for additional follow-up.
+[^1]: Internet search: "Northwestern Code of Conduct"
+
+-   Policies regarding masking and social distancing evolve as the public health situation changes. Students are responsible for understanding and complying with current masking, testing, Symptom Tracking, and social distancing requirements.
+-   In some classes, masking and/or social distancing may be required as a result of an Americans with Disabilities Act (ADA) accommodation for the instructor or a student in the class even when not generally required on campus. In such cases, the instructor will notify the class.
+-   No food is allowed inside classrooms. Drinks are permitted, but please keep your face covering on and use a straw.
+-   Faculty may assign seats in some classes to help facilitate contact tracing in the event that a student tests positive for COVID-19. Students must sit in their assigned seats.
+
+\noindent If a student fails to comply with the [COVID-19 Code of Conduct](https://www.northwestern.edu/communitystandards/about-us/northwestern-university-student-expectations-covid-19-code-of-conduct.html) or other University expectations related to COVID-19, the instructor may ask the student to leave the class. The instructor is asked to report the incident to the Office of Community Standards for additional follow-up.
 
 ### Class Attendance
 
 Class sessions for this course will occur in person. Individual students will not be granted permission to attend remotely except as the result of an Americans with Disabilities Act (ADA) accommodation as determined by AccessibleNU.
 
-\noindent Maintaining the health of the community remains our priority. If you are experiencing any symptoms of COVID **do not attend class** and update your Symptom Tracker application right away to connect with Northwestern’s Case Management Team for guidance on next steps. Also contact the instructor as soon as possible to arrange to complete coursework. We plan to record sessions for students that miss to to COVID-19 related issues.
+\noindent Maintaining the health of the community remains our priority. If you are experiencing any symptoms of COVID **do not attend class** and update your Symptom Tracker application right away to connect with Northwestern's Case Management Team for guidance on next steps. Also contact the instructor as soon as possible to arrange to complete coursework. We plan to record sessions for students that miss to to COVID-19 related issues.
 
 \noindent Students who experience a personal emergency should contact the instructor as soon as possible to arrange to complete coursework.
 
-
 \noindent Should public health recommendations prevent in person class from being held on a given day, the instructor or the university will notify students.
-
 
 ## Course policies
 
-
 ### Accommodations
 
-Any student requesting accommodations related to a disability or other condition must register with AccessibleNU^[For more info visit [http://www.northwestern.edu/accessiblenu/](http://www.northwestern.edu/accessiblenu/) or contact accessiblenu@northwestern.edu; 847.467.5530.] and provide the instructor with an accommodation notification from AccessibleNU, preferably within the first two weeks of class. All information will remain confidential.  
+Any student requesting accommodations related to a disability or other condition must register with AccessibleNU[^2] and provide the instructor with an accommodation notification from AccessibleNU, preferably within the first two weeks of class. All information will remain confidential.
 
-
+[^2]: For more info visit <http://www.northwestern.edu/accessiblenu/> or contact accessiblenu\@northwestern.edu; 847.467.5530.
 
 ### Recording
 
-Unauthorized student recording of classroom or other academic activities is prohibited.^[Including advising sessions or office hours.] Unauthorized recording is unethical and may also be a violation of University policy and state law. 
+Unauthorized student recording of classroom or other academic activities is prohibited.[^3] Unauthorized recording is unethical and may also be a violation of University policy and state law.
 
-Students requesting the use of assistive technology as an accommodation should contact [AccessibleNU](https://www.northwestern.edu/accessiblenu/). Unauthorized use of classroom recordings --- including distributing or posting them --- is also prohibited. 
+[^3]: Including advising sessions or office hours.
+
+Students requesting the use of assistive technology as an accommodation should contact [AccessibleNU](https://www.northwestern.edu/accessiblenu/). Unauthorized use of classroom recordings --- including distributing or posting them --- is also prohibited.
 
 Under the University's [Copyright Policy](https://www.invo.northwestern.edu/invention-disclosure/policies-forms/copyright-policy/), faculty own the copyright to instructional materials --- including those resources created specifically for the purposes of instruction, such as syllabi, lectures and lecture notes, and presentations. Students cannot copy, reproduce, display, or distribute these materials. Students who engage in unauthorized recording, unauthorized use of a recording, or unauthorized distribution of instructional materials will be referred to the appropriate University office for follow-up.
 
 ### Academic Integrity
 
-Students are responsible for reading and understanding [Northwestern's academic integrity policy](http://www.northwestern.edu/provost/students/integrity/)^[Found at [http://www.northwestern.edu/provost/students/integrity/](http://www.northwestern.edu/provost/students/integrity/)]. Suspected violations of academic integrity will be reported to the Weinberg College Dean's Office^[See your school's policies for more details, for example [WCAS Policies](http://www.weinberg.northwestern.edu/handbook/integrity/index.html).].  
+Students are responsible for reading and understanding [Northwestern's academic integrity policy](http://www.northwestern.edu/provost/students/integrity/)[^4]. Suspected violations of academic integrity will be reported to the Weinberg College Dean's Office[^5].
+
+[^4]: Found at <http://www.northwestern.edu/provost/students/integrity/>
+
+[^5]: See your school's policies for more details, for example [WCAS Policies](http://www.weinberg.northwestern.edu/handbook/integrity/index.html).
 
 ### Sexual Misconduct & Reporting
 
-Northwestern University is committed to fostering an environment where students are safe and free from sexual misconduct. Confidential resources are available to those who have experienced sexual misconduct.^[ See [http://www.northwestern.edu/sexual-misconduct/get-help/confidential-support.html](http://www.northwestern.edu/sexual-misconduct/get-help/confidential-support.html) for details.] 
+Northwestern University is committed to fostering an environment where students are safe and free from sexual misconduct. Confidential resources are available to those who have experienced sexual misconduct.[^6]
+
+[^6]:  See <http://www.northwestern.edu/sexual-misconduct/get-help/confidential-support.html> for details.
 
 Faculty, instructors, and TAs are **not** confidential resources and are required to report incidents of sexual misconduct, whether discussed in your assignments or in person, to the Title IX Coordinator, who can provide information about resources and options.
- 
-We encourage students who have experienced sexual misconduct to talk with someone to get support. For more information, including how to request interim protective measures and academic accommodations or file a complaint, visit the [Get Help](http://www.northwestern.edu/sexual-misconduct/get-help/index.html)^[[http://www.northwestern.edu/sexual-misconduct/get-help/index.html](http://www.northwestern.edu/sexual-misconduct/get-help/index.html)].
+
+We encourage students who have experienced sexual misconduct to talk with someone to get support. For more information, including how to request interim protective measures and academic accommodations or file a complaint, visit the [Get Help](http://www.northwestern.edu/sexual-misconduct/get-help/index.html)[^7].
+
+[^7]: <http://www.northwestern.edu/sexual-misconduct/get-help/index.html>
 
 ### Discrimination & Sexual Harassment
 
-Northwestern University's policies on Discrimination, Harassment, and Sexual Harassment apply to all members of the University community, including students, staff, and faculty. Any student, staff, or faculty member who believes that they have been discriminated against or harassed on the basis of his or her race, color, religion, national origin, sex, sexual orientation, gender identity, gender expression, parental status, marital status, age, disability, citizenship, veteran status, genetic information or any other classification protected by law, should contact the Office of Equal Opportunity and Access^[847.491.7458] or the Sexual Harassment Prevention Office^[847.467.6571]. 
+Northwestern University's policies on Discrimination, Harassment, and Sexual Harassment apply to all members of the University community, including students, staff, and faculty. Any student, staff, or faculty member who believes that they have been discriminated against or harassed on the basis of his or her race, color, religion, national origin, sex, sexual orientation, gender identity, gender expression, parental status, marital status, age, disability, citizenship, veteran status, genetic information or any other classification protected by law, should contact the Office of Equal Opportunity and Access[^8] or the Sexual Harassment Prevention Office[^9].
 
-Additional information about the University's discrimination and harassment policies, including the campus resources available to assist individuals with discrimination or harassment concerns, is available online on the [Human Resources Equal Opportunity and Access website](http://www.northwestern.edu/hr/equlopp-access/index.html)^[ [http://www.northwestern.edu/hr/equlopp-access/index.html](http://www.northwestern.edu/hr/equlopp-access/index.html)].
+[^8]: 847.491.7458
 
+[^9]: 847.467.6571
 
-\noindent Northwestern strictly prohibits retaliation against any member of its community for reporting or inquiring about wrongful or unlawful activity. For more details see [https://policies.northwestern.edu/docs/non-retaliation-policy-FINAL.pdf](https://policies.northwestern.edu/docs/non-retaliation-policy-FINAL.pdf).
+Additional information about the University's discrimination and harassment policies, including the campus resources available to assist individuals with discrimination or harassment concerns, is available online on the [Human Resources Equal Opportunity and Access website](http://www.northwestern.edu/hr/equlopp-access/index.html)[^10].
 
+[^10]:  <http://www.northwestern.edu/hr/equlopp-access/index.html>
+
+\noindent Northwestern strictly prohibits retaliation against any member of its community for reporting or inquiring about wrongful or unlawful activity. For more details see <https://policies.northwestern.edu/docs/non-retaliation-policy-FINAL.pdf>.
 
 ### Wellness & Mental Health Resources
 
-Northwestern University is committed to supporting the wellness of our students. Student Affairs has multiple resources to support student wellness and mental health.  If you are feeling distressed or overwhelmed, please reach out for help. Students can access confidential resources through the Counseling and Psychological Services (CAPS), Religious and Spiritual Life (RSL) and the Center for Awareness, Response and Education (CARE). Additional information on all of the resources mentioned above can be found here:
+Northwestern University is committed to supporting the wellness of our students. Student Affairs has multiple resources to support student wellness and mental health. If you are feeling distressed or overwhelmed, please reach out for help. Students can access confidential resources through the Counseling and Psychological Services (CAPS), Religious and Spiritual Life (RSL) and the Center for Awareness, Response and Education (CARE). Additional information on all of the resources mentioned above can be found here:
 
-- [https://www.northwestern.edu/counseling/](https://www.northwestern.edu/counseling/)
-- [https://www.northwestern.edu/religious-life/](https://www.northwestern.edu/religious-life/)
-- [https://www.northwestern.edu/care/](https://www.northwestern.edu/care/)
+-   <https://www.northwestern.edu/counseling/>
+-   <https://www.northwestern.edu/religious-life/>
+-   <https://www.northwestern.edu/care/>
 
 ### Student Resources
 
-Student Enrichment Services (SES) partners with FGLI students – pronounced figly – who are first-generation, lower-income, and/or DACA/Undocumented. SES works with these students to foster identity development, navigate campus resources, and build community. Through campus-wide partnerships and advocacy, SES strives to build an inclusive Northwestern community that is welcoming, supportive, and accessible for all students. SES can connect you to a number of resources (emergency aid assistance, books, supplies, laptops, food accessibility and much more!) both within the SES office and across campus. For more information please visit [https://www.northwestern.edu/enrichment](https://www.northwestern.edu/enrichment/).
+Student Enrichment Services (SES) partners with FGLI students -- pronounced figly -- who are first-generation, lower-income, and/or DACA/Undocumented. SES works with these students to foster identity development, navigate campus resources, and build community. Through campus-wide partnerships and advocacy, SES strives to build an inclusive Northwestern community that is welcoming, supportive, and accessible for all students. SES can connect you to a number of resources (emergency aid assistance, books, supplies, laptops, food accessibility and much more!) both within the SES office and across campus. For more information please visit [https://www.northwestern.edu/enrichment](https://www.northwestern.edu/enrichment/).
 
 ## Important dates
 
 -   **September 20:** Classes begin
--   **October 12 and 14:** 9am class is remote on Zoom
+-   **October 12 and 14:** Section 20 (9am) class is remote on Zoom
 -   **October 28:** Last day to drop a class
 -   **November 23-27:** Thanksgiving Break, no classes
 -   **November 28-December 4**: Reading period
--   **December 8**: 1pm class: Final exam 9am-11am
--   **December 8**: 9am class: Final exam 3pm-5pm
+-   **December 8**: 1pm class: Optional in-person final exam 9am-11am
+-   **December 8**: 9am class: Optional in-person final exam 3pm-5pm
 
 Click [here](https://www.registrar.northwestern.edu/calendars/academic-calendars/) for the full academic calendar.

@@ -2,22 +2,22 @@
 title: "Course Team"
 ---
 
-## Instructor
+## Instructors
 
-Dr. Danielle Sass is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. She received her Ph.D in Statistics from the University of Illinois at Urbana-Champaign. Her passion and focus is curriculum and content development for undergraduate students.
+**Section 20: Dr. Danielle Sass** is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. She received her Ph.D in Statistics from the University of Illinois at Urbana-Champaign. Her passion and focus is curriculum and content development for undergraduate students. Office hours can be made by appointment by emailing danielle.sass\@northwestern.edu
 
-| Office hours | Location |
-|--------------|----------|
-| TBD          | ZOOM     |
+**Section 21: Dr. Arvind Krishna** is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. He received his Ph.D in Statistics from Georgia Institute of Technology. Office hours can be made by appointment by emailing krish\@northwestern.edu
 
 ## Teaching assistants
 
-All office hours will be held on-line via Zoom.
+All office hours will be held on-line via [Zoom 998 6392 3813](https://northwestern.zoom.us/j/99863923813).
 
-| Name | Office hours |
-|------|--------------|
-| TBD  | TBD          |
-| TBD  | TBD          |
-| TBD  | TBD          |
-| TBD  | TBD          |
-| TBD  | TBD          |
+| Name            | Email                                                                                                | Office hours |
+|------------------------|------------------------|------------------------|
+| Kayla Schroeder | [[KaylaSchroeder2026\@u.northwestern.edu]{.underline}](mailto:KaylaSchroeder2026@u.northwestern.edu) | TBD          |
+| Shirya Kata     | shriyakata2025\@u.northwestern.edu                                                                   | TBD          |
+| Divya Narayan   | divyanarayan2025\@u.northwestern.edu                                                                 | TBD          |
+| Alex Tun        | alextun2023\@u.northwestern.edu                                                                      | TBD          |
+| Kole Butterer   | [[kolebutterer2023\@u.northwestern.edu]{.underline}](mailto:kolebutterer2023@u.northwestern.edu)     | TBD          |
+| Jules Wathieu   | juleswathieu2024\@u.northwestern.edu                                                                 | TBD          |
+| Kabeer Kishore  | kabeerkishore2023\@u.northwestern.edu                                                                | TBD          |

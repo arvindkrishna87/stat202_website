@@ -25,6 +25,9 @@ website:
       - icon: person-fill
         href: https://campuswire.com/c/G88B46A25
         text: "Campuswire"
+      - icon: laptop
+        href: https://northwestern.zoom.us/j/99863923813
+        text: "Zoom"
     style: "docked"
     search: true
     contents:

@@ -1,83 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://stat202_website.github.io/website/course-links.html</loc>
-    <lastmod>2022-09-07T21:39:17.985Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat202_website.github.io/website/course-schedule.html</loc>
-    <lastmod>2022-09-08T13:04:02.341Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat202_website.github.io/website/course-syllabus.html</loc>
-    <lastmod>2022-09-07T21:39:19.511Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat202_website.github.io/website/course-team.html</loc>
-    <lastmod>2022-09-07T21:39:19.895Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat202_website.github.io/website/index.html</loc>
-    <lastmod>2022-09-08T13:05:59.049Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat202_website.github.io/website/slides/lec01.html</loc>
-    <lastmod>2022-09-07T21:39:20.868Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat202_website.github.io/website/slides/lec02.html</loc>
-    <lastmod>2022-09-07T21:39:21.620Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat202_website.github.io/website/slides/lec03.html</loc>
-    <lastmod>2022-09-07T21:39:22.244Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat202_website.github.io/website/slides/lec04.html</loc>
-    <lastmod>2022-09-07T21:39:22.840Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat202_website.github.io/website/slides/lec05.html</loc>
-    <lastmod>2022-09-07T21:39:23.528Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat202_website.github.io/website/slides/lec06.html</loc>
-    <lastmod>2022-09-07T21:39:24.172Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat202_website.github.io/website/slides/lec07.html</loc>
-    <lastmod>2022-09-07T21:39:24.759Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat202_website.github.io/website/slides/lec08.html</loc>
-    <lastmod>2022-09-07T21:39:25.499Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat202_website.github.io/website/slides/lec09.html</loc>
-    <lastmod>2022-09-07T21:39:26.085Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat202_website.github.io/website/slides/lec10.html</loc>
-    <lastmod>2022-09-07T21:39:26.617Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stat202_website.github.io/website/slides/lec11.html</loc>
-    <lastmod>2022-09-07T21:39:27.169Z</lastmod>
-  </url>
-  <url>
-    <loc>https://dsass1.github.io/stat202_website/index.html</loc>
-    <lastmod>2022-09-09T20:27:57.580Z</lastmod>
+    <loc>https://dsass1.github.io/stat202_website/course-links.html</loc>
+    <lastmod>2022-09-14T17:17:11.482Z</lastmod>
   </url>
   <url>
     <loc>https://dsass1.github.io/stat202_website/course-schedule.html</loc>
-    <lastmod>2022-09-09T20:27:47.692Z</lastmod>
+    <lastmod>2022-09-14T17:04:32.717Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dsass1.github.io/stat202_website/course-syllabus.html</loc>
+    <lastmod>2022-09-14T17:03:54.449Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dsass1.github.io/stat202_website/course-team.html</loc>
+    <lastmod>2022-09-14T17:21:12.656Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dsass1.github.io/stat202_website/index.html</loc>
+    <lastmod>2022-09-14T17:17:14.029Z</lastmod>
   </url>
   <url>
     <loc>https://dsass1.github.io/stat202_website/slides/lec00.html</loc>
-    <lastmod>2022-09-09T17:55:31.296Z</lastmod>
+    <lastmod>2022-09-14T17:03:55.905Z</lastmod>
   </url>
   <url>
     <loc>https://dsass1.github.io/stat202_website/slides/lec01.html</loc>
-    <lastmod>2022-09-09T17:54:56.005Z</lastmod>
+    <lastmod>2022-09-14T17:03:56.259Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dsass1.github.io/stat202_website/slides/lec02.html</loc>
+    <lastmod>2022-09-14T17:03:56.983Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dsass1.github.io/stat202_website/slides/lec03.html</loc>
+    <lastmod>2022-09-14T17:03:57.620Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dsass1.github.io/stat202_website/slides/lec04.html</loc>
+    <lastmod>2022-09-14T17:03:58.227Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dsass1.github.io/stat202_website/slides/lec05.html</loc>
+    <lastmod>2022-09-14T17:03:58.870Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dsass1.github.io/stat202_website/slides/lec06.html</loc>
+    <lastmod>2022-09-14T17:03:59.437Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dsass1.github.io/stat202_website/slides/lec07.html</loc>
+    <lastmod>2022-09-14T17:03:59.968Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dsass1.github.io/stat202_website/slides/lec08.html</loc>
+    <lastmod>2022-09-14T17:04:00.646Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dsass1.github.io/stat202_website/slides/lec09.html</loc>
+    <lastmod>2022-09-14T17:04:01.166Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dsass1.github.io/stat202_website/slides/lec10.html</loc>
+    <lastmod>2022-09-14T17:04:01.707Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dsass1.github.io/stat202_website/slides/lec11.html</loc>
+    <lastmod>2022-09-14T17:04:02.211Z</lastmod>
   </url>
 </urlset>
