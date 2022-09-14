@@ -423,15 +423,17 @@
 <section id="group_by" class="slide level2">
 <h2><code>group_by()</code></h2>
 <p><code>group_by(variable)</code> takes an existing data frame and converts it into a grouped data frame</p>
+<div>
 <ul>
-<li>operations are performed by group</li>
-<li>must be used in conjunction with another operator, Ex: summarize()</li>
-<li>can group by multiple criteria but must be included in the <strong>same</strong> function call</li>
+<li class="fragment">operations are performed by group</li>
+<li class="fragment">must be used in conjunction with another operator, Ex: summarize()</li>
+<li class="fragment">can group by multiple criteria but must be included in the <strong>same</strong> function call</li>
 </ul>
+</div>
 </section>
 <section id="example-group_by" class="slide level2 scrollable">
 <h2>Example: <code>group_by()</code></h2>
-<p>Calculate the average body mass of penguins by species.</p>
+<p><font size="6"> Calculate the average body mass of penguins by species. </font></p>
 <div class="panel-tabset">
 <ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Code</a></li><li><a href="#tabset-1-2">Data</a></li></ul>
 <div class="tab-content">
@@ -470,7 +472,9 @@
 </div>
 </div>
 <div class="fragment">
-<p>Calculate the average body mass of male and female penguins for each species. (ie: calculate the average body mass of penguins by species and sex.)</p>
+<p><font size="6"> Calculate the average body mass of male and female penguins for each species. (ie: calculate the average body mass of penguins by species and sex.) </font></p>
+</div>
+<div class="fragment">
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span> </span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(species, sex) <span class="sc">%&gt;%</span> </span>
@@ -495,8 +499,11 @@
 <section id="mutate" class="slide level2 scrollable">
 <h2><code>mutate()</code></h2>
 <p><code>mutate( )</code> create a new variable (in the <strong>same</strong> dataset)</p>
+<div class="fragment">
 <p><strong>Example:</strong></p>
 <p>Create a new variable <code>body_mass_lb</code> where we calculate the penguins weight in pounds. Hint: <span class="math inline">\(pounds \approx grams/453.6\)</span></p>
+</div>
+<div class="fragment">
 <div class="panel-tabset">
 <ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">Code</a></li><li><a href="#tabset-2-2">Data</a></li></ul>
 <div class="tab-content">
@@ -529,7 +536,10 @@ $ body_mass_lb      &lt;dbl&gt; 8.267196, 8.377425, 7.164903, NA, 7.605820, 8.04
 </div>
 </div>
 </div>
-<p>Notice we overwrote the <code>penguins</code> dataset. You can ONLY overwrite the original data if you are <strong>not changing</strong> any of the original information. Otherwise store it as something NEW.</p>
+</div>
+<div class="fragment">
+<p><font size="6"> Notice we overwrote the <code>penguins</code> dataset. You can ONLY overwrite the original data if you are <strong>not changing</strong> any of the original information. Otherwise store it as something NEW. </font></p>
+</div>
 </section>
 <section id="arrange" class="slide level2 scrollable">
 <h2><code>arrange()</code></h2>
@@ -538,36 +548,38 @@ $ body_mass_lb      &lt;dbl&gt; 8.267196, 8.377425, 7.164903, NA, 7.605820, 8.04
 </li>
 <li><code>arrange(desc(variable))</code> sorts data in descending (high to low; Z to A) order.</li>
 </ul>
+<div class="fragment">
 <p><strong>Example:</strong></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span></span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(body_mass_g))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(bill_length_mm))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 344 x 9
-   species island bill_length_mm bill_dept~1 flipp~2 body_~3 sex    year body_~4
-   &lt;fct&gt;   &lt;fct&gt;           &lt;dbl&gt;       &lt;dbl&gt;   &lt;int&gt;   &lt;int&gt; &lt;fct&gt; &lt;int&gt;   &lt;dbl&gt;
- 1 Gentoo  Biscoe           49.2        15.2     221    6300 male   2007    13.9
- 2 Gentoo  Biscoe           59.6        17       230    6050 male   2007    13.3
- 3 Gentoo  Biscoe           51.1        16.3     220    6000 male   2008    13.2
- 4 Gentoo  Biscoe           48.8        16.2     222    6000 male   2009    13.2
- 5 Gentoo  Biscoe           45.2        16.4     223    5950 male   2008    13.1
- 6 Gentoo  Biscoe           49.8        15.9     229    5950 male   2009    13.1
- 7 Gentoo  Biscoe           48.4        14.6     213    5850 male   2007    12.9
- 8 Gentoo  Biscoe           49.3        15.7     217    5850 male   2007    12.9
- 9 Gentoo  Biscoe           55.1        16       230    5850 male   2009    12.9
-10 Gentoo  Biscoe           49.5        16.2     229    5800 male   2008    12.8
+   species   island bill_length_mm bill_de~1 flipp~2 body_~3 sex    year body_~4
+   &lt;fct&gt;     &lt;fct&gt;           &lt;dbl&gt;     &lt;dbl&gt;   &lt;int&gt;   &lt;int&gt; &lt;fct&gt; &lt;int&gt;   &lt;dbl&gt;
+ 1 Gentoo    Biscoe           59.6      17       230    6050 male   2007   13.3 
+ 2 Chinstrap Dream            58        17.8     181    3700 fema~  2007    8.16
+ 3 Gentoo    Biscoe           55.9      17       228    5600 male   2009   12.3 
+ 4 Chinstrap Dream            55.8      19.8     207    4000 male   2009    8.82
+ 5 Gentoo    Biscoe           55.1      16       230    5850 male   2009   12.9 
+ 6 Gentoo    Biscoe           54.3      15.7     231    5650 male   2008   12.5 
+ 7 Chinstrap Dream            54.2      20.8     201    4300 male   2008    9.48
+ 8 Chinstrap Dream            53.5      19.9     205    4500 male   2008    9.92
+ 9 Gentoo    Biscoe           53.4      15.8     219    5500 male   2009   12.1 
+10 Chinstrap Dream            52.8      20       205    4550 male   2008   10.0 
 # ... with 334 more rows, and abbreviated variable names 1: bill_depth_mm,
 #   2: flipper_length_mm, 3: body_mass_g, 4: body_mass_lb</code></pre>
 </div>
 </div>
+</div>
 </section>
-<section id="select" class="slide level2">
+<section id="select" class="slide level2 scrollable">
 <h2><code>select()</code></h2>
-<p><code>select()</code> subsets the dataset based on named columns</p>
-<p><font size="6">Sometimes datasets contain a LOT of information that you do not need for your analysis. <code>select()</code> will help us simplify the dataset and make it easier to use.</font></p>
-<p>In the penguins dataset, say we are only interested in the body measurement columns.</p>
+<p><font size="6"> <code>select()</code> subsets the dataset based on named columns</font></p><font size="6">
+<p>Sometimes datasets contain a LOT of information that you do not need for your analysis. <code>select()</code> will help us simplify the dataset and make it easier to use.</p>
+</font><p><font size="6">In the penguins dataset, say we are only interested in the body measurement columns. </font></p>
 <div class="panel-tabset">
-<ul id="tabset-3" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-3-1">Code</a></li><li><a href="#tabset-3-2">Alternate Code</a></li><li><a href="#tabset-3-3">Data</a></li></ul>
+<ul id="tabset-3" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-3-1">Code</a></li><li><a href="#tabset-3-2">Alternate Code</a></li><li><a href="#tabset-3-3">New Data</a></li></ul>
 <div class="tab-content">
 <div id="tabset-3-1">
 <div class="cell">
@@ -612,19 +624,48 @@ $ body_mass_lb      &lt;dbl&gt; 8.267196, 8.377425, 7.164903, NA, 7.605820, 8.04
 <li><code>top_n(n = -1, variable)</code> : return the smallest value</li>
 </ul>
 </section>
-<section id="data-wrangling-example" class="slide level2">
+<section id="data-wrangling-example" class="slide level2 scrollable">
 <h2>Data Wrangling Example</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(sex)) <span class="sc">%&gt;%</span> </span>
-<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(species) <span class="sc">%&gt;%</span> </span>
-<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>()) <span class="sc">%&gt;%</span> </span>
-<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(count)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="absolute" style="top: 0%; left: 90%; width: 100px; ">
+<p><img data-src="images_lecture/participate_icon.png"></p>
 </div>
-<p><strong>We can read this as</strong>: take <code>penguins</code>, then keep only observations that are not missing, and then group by species, and then calculate the summary statistics per species, and then order the dataset according to our chosen variable count.</p>
+<p>What if we want to start with our <code>penguins</code> dataset, then keep only observations that are not missing their <code>body_mass_g</code>, and then calculate the count by species, and then order the dataset from low to high.</p>
+<pre><code>a)</code></pre>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(body_mass_g)) <span class="sc">%&gt;%</span> </span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(species) <span class="sc">%&gt;%</span> </span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>()) <span class="sc">%&gt;%</span> </span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(count)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<pre><code>b)</code></pre>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(body_mass_g) <span class="sc">%&gt;%</span> </span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(species) <span class="sc">%&gt;%</span> </span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>()) <span class="sc">%&gt;%</span> </span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(count)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<pre><code>c)</code></pre>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(body_mass_g)) <span class="sc">%&gt;%</span> </span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(species) <span class="sc">%&gt;%</span> </span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>()) <span class="sc">%&gt;%</span> </span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(count))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<pre><code>d)</code></pre>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">!</span><span class="fu">is.na</span>(body_mass_g)) <span class="sc">%&gt;%</span> </span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>()) <span class="sc">%&gt;%</span> </span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(species) <span class="sc">%&gt;%</span> </span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(count)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><br></p>
 
-
-<img src="nu_logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
+<p><img src="nu_logo.png" class="slide-logo"></p>
+<div class="footer footer-default">
 
 </div>
 </section>

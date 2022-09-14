@@ -2,7 +2,7 @@
 title: "Data Visualization <br> Sections 2.4 - 2.6"
 institute: "Department of Statistics and Data Science <br> STAT 202"
 
-logo: "www/nu_logo.png"
+logo: nu_logo.png
 format: 
   revealjs:
     theme: [default, nu_theme.scss]
@@ -17,19 +17,16 @@ execute:
   message: false
   warning: false
   echo: true
-  
-server: shiny
 ---
 
 ```{r}
 #| include: false
 library(ggplot2)
 library(dplyr)
-library(shiny)
 library(palmerpenguins)
 ```
 
-## Today's goals {background-image="www/ggplot2_masterpiece.png" background-size="400px" background-opacity="50%" background-position="85% 50%"}
+## Today's goals {background-image="images_horst/ggplot2_masterpiece.png" background-size="400px" background-opacity="50%" background-position="85% 50%"}
 
 <br/>
 
@@ -130,128 +127,118 @@ Type `colors()` in the **console** to view all possible colors.
 ## 5NG#3: Histograms
 
 ::: {layout="[30,-5,30,-5,30],[30,-5,30,-5,30],[30,-5,30,-5,30]"}
-![](www/fig_03unimodal1.png)
+![](images_lecture/fig_03unimodal1.png)
 
-![](www/fig_03unimodal2.png)
+![](images_lecture/fig_03unimodal2.png)
 
-![](www/fig_03unimodal3.png)
+![](images_lecture/fig_03unimodal3.png)
 
-![](www/fig_03bimodal1.png)
+![](images_lecture/fig_03bimodal1.png)
 
-![](www/fig_03bimodal3.png)
+![](images_lecture/fig_03bimodal3.png)
 
-![](www/fig_03bimodal2.png)
+![](images_lecture/fig_03bimodal2.png)
 
-![](www/fig_03multimodal1.png)
+![](images_lecture/fig_03multimodal1.png)
 
-![](www/fig_03multimodal2.png)
+![](images_lecture/fig_03multimodal2.png)
 
-![](www/fig_03uniform.png)
+![](images_lecture/fig_03uniform.png)
 :::
 
 ## Example 1: Histogram bins {.scrollable .smaller}
 
-Choosing an appropriate bin size and describe the distribution of penguin body mass.
+Which bin size is most appropriate and describe the distribution of penguin body mass.
 
-::: {.absolute top="-12%" left="85%" width="200"}
-![](www/participate_icon.png)
+::: {.absolute top="0%" left="90%" width="100"}
+![](images_lecture/participate_icon.png)
 :::
 
 ::: panel-tabset
-## Plot
+
+## Bins = 7
 
 ```{r}
-#| panel: sidebar
-#| echo: false
-sliderInput("bin1", "Number of bins:", 
-            min = 1, max = 50, value = 5)
-br()
-
-p("Is 5 bins appropriate?")
-
-br()
-
-br()
-
-p("Is 30 bins appropriate?")
-
-
-```
-
-```{r}
-#| panel: fill
-#| echo: false
-plotOutput("Ex1Plot")
-```
-
-```{r}
-#| context: server
-library(palmerpenguins)
-library(tidyverse)
-output$Ex1Plot <- renderPlot({
-  x <- penguins$body_mass_g 
-  ggplot(penguins, aes(x=x)) +
+ggplot(penguins, aes(x=penguins$body_mass_g)) +
     geom_histogram(color = "white", 
                    fill = "lightblue", 
-                   bins = input$bin1)+
+                   bins = 7)+
     labs(title = "Palmer Penguins Distribution of Body Mass",
            x = "Body Mass (g)")
-})
 ```
 
-## Data
+## Bins = 18
 
 ```{r}
-glimpse(penguins)
+ggplot(penguins, aes(x=penguins$body_mass_g)) +
+    geom_histogram(color = "white", 
+                   fill = "lightblue", 
+                   bins = 18)+
+    labs(title = "Palmer Penguins Distribution of Body Mass",
+           x = "Body Mass (g)")
+```
+
+## Bins = 29
+
+```{r}
+ggplot(penguins, aes(x=penguins$body_mass_g)) +
+    geom_histogram(color = "white", 
+                   fill = "lightblue", 
+                   bins = 29)+
+    labs(title = "Palmer Penguins Distribution of Body Mass",
+           x = "Body Mass (g)")
 ```
 :::
 
-## Example 2: Histogram bins {.scrollable}
-
-::: {.absolute top="-12%" left="85%" width="200"}
-![](www/participate_icon.png)
+::: footer
+https://northwestern-university.shinyapps.io/lec03_histogram/
 :::
 
-Choosing an appropriate bin size and describe the distribution of penguin flipper length.
+## Example 2: Histogram bins {.scrollable .smaller}
+
+::: {.absolute top="0%" left="90%" width="100"}
+![](images_lecture/participate_icon.png)
+:::
+
+Which bin size is most appropriate and describe the distribution of penguin flipper length.
+
+::: panel-tabset
+## Bins = 15
 
 ```{r}
-#| echo: false
-#| panel: sidebar
-sliderInput("bin2", "Number of bins:", 
-            min = 1, max = 50, value = 10)
-br()
 
-p("Is 10 bins appropriate?")
-
-br()
-
-p("Is 15 bins appropriate?")
-
-br()
-
-p("Is 25 bins appropriate?")
-```
-
-```{r}
-#| panel: fill
-#| echo: false
-plotOutput("Ex2Plot")
-```
-
-```{r}
-#| context: server
-library(palmerpenguins)
-library(tidyverse)
-output$Ex2Plot <- renderPlot({
-  x <- penguins$flipper_length_mm 
-  ggplot(penguins, aes(x=x)) +
+  ggplot(penguins, aes(x=penguins$flipper_length_mm )) +
     geom_histogram(color = "white", 
                    fill = "tomato1", 
-                   bins = input$bin2)+
+                   bins = 15)+
     labs(title = "Palmer Penguins Distribution of Flipper Length",
            x = "Flipper Length (mm)")
-})
 ```
+
+## Bins = 25
+
+```{r}
+
+  ggplot(penguins, aes(x=penguins$flipper_length_mm )) +
+    geom_histogram(color = "white", 
+                   fill = "tomato1", 
+                   bins = 25)+
+    labs(title = "Palmer Penguins Distribution of Flipper Length",
+           x = "Flipper Length (mm)")
+```
+
+## Bins = 35
+
+```{r}
+
+  ggplot(penguins, aes(x=penguins$flipper_length_mm )) +
+    geom_histogram(color = "white", 
+                   fill = "tomato1", 
+                   bins = 35)+
+    labs(title = "Palmer Penguins Distribution of Flipper Length",
+           x = "Flipper Length (mm)")
+```
+:::
 
 ## Faceting {.scrollable .smaller}
 
@@ -270,12 +257,12 @@ ggplot(penguins, aes(x=flipper_length_mm)) +
     facet_wrap(~ species)
 ```
 
-![](www/fig_03facet.png){#id .class width="800px" height="600px"}
+![](images_lecture/fig_03facet.png){#id .class width="800px" height="600px"}
 
 ## Common Coding Errors {.scrollable}
 
-::: {.absolute top="-12%" left="85%" width="200"}
-![](www/participate_icon.png)
+::: {.absolute top="0%" left="90%" width="100"}
+![](images_lecture/participate_icon.png)
 :::
 
 Which of the following are correct?
@@ -312,7 +299,7 @@ ggplot(penguins) +
   geom_histogram(aes(x = flipper_length_mm) , color = "white")
 ```
 
-## Extra information and resources {.scrollable}
+## Extra information and resources {.scrollable .smaller}
 
 [Wikipedia bin size info](https://en.wikipedia.org/wiki/Histogram#Number_of_bins_and_width)
 

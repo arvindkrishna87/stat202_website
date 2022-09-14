@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://dsass1.github.io/stat202_website/course-links.html</loc>
-    <lastmod>2022-09-14T18:49:43.431Z</lastmod>
+    <lastmod>2022-09-14T20:46:34.405Z</lastmod>
   </url>
   <url>
     <loc>https://dsass1.github.io/stat202_website/course-schedule.html</loc>
-    <lastmod>2022-09-14T18:51:16.872Z</lastmod>
+    <lastmod>2022-09-14T22:01:55.634Z</lastmod>
   </url>
   <url>
     <loc>https://dsass1.github.io/stat202_website/course-syllabus.html</loc>
-    <lastmod>2022-09-14T18:49:44.896Z</lastmod>
+    <lastmod>2022-09-14T20:47:05.436Z</lastmod>
   </url>
   <url>
     <loc>https://dsass1.github.io/stat202_website/course-team.html</loc>
@@ -34,23 +34,23 @@
   </url>
   <url>
     <loc>https://dsass1.github.io/stat202_website/slides/lec03.html</loc>
-    <lastmod>2022-09-14T19:01:25.039Z</lastmod>
+    <lastmod>2022-09-14T20:40:47.118Z</lastmod>
   </url>
   <url>
     <loc>https://dsass1.github.io/stat202_website/slides/lec04.html</loc>
-    <lastmod>2022-09-14T19:04:21.528Z</lastmod>
+    <lastmod>2022-09-14T20:43:25.855Z</lastmod>
   </url>
   <url>
     <loc>https://dsass1.github.io/stat202_website/slides/lec05.html</loc>
-    <lastmod>2022-09-14T19:05:40.977Z</lastmod>
+    <lastmod>2022-09-14T22:01:53.476Z</lastmod>
   </url>
   <url>
     <loc>https://dsass1.github.io/stat202_website/slides/lec06.html</loc>
-    <lastmod>2022-09-14T18:50:04.663Z</lastmod>
+    <lastmod>2022-09-14T21:42:50.056Z</lastmod>
   </url>
   <url>
     <loc>https://dsass1.github.io/stat202_website/slides/lec07.html</loc>
-    <lastmod>2022-09-14T18:50:05.515Z</lastmod>
+    <lastmod>2022-09-14T21:56:00.867Z</lastmod>
   </url>
   <url>
     <loc>https://dsass1.github.io/stat202_website/slides/lec08.html</loc>
@@ -67,5 +67,9 @@
   <url>
     <loc>https://dsass1.github.io/stat202_website/slides/lec11.html</loc>
     <lastmod>2022-09-14T18:50:09.111Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dsass1.github.io/stat202_website/slides/lec03b.html</loc>
+    <lastmod>2022-09-14T20:32:14.581Z</lastmod>
   </url>
 </urlset>

@@ -12,6 +12,7 @@ format:
     menu:
         side: right
     code-line-numbers: false
+    fig-cap-location: top
 
 execute:
   message: false
@@ -72,12 +73,12 @@ There are three interrelated rules which make a dataset tidy:
 
 ## Tidy Data (continued)
 
-Which of the following are tidy and which are messy?
+Which of the following are tidy?
 
-::: {layout="[50,50]"}
-![](images_lecture/tidy5.PNG)
+::: {layout-ncol=2}
+![a)](images_lecture/tidy5.PNG)
 
-![](images_lecture/tidy6.PNG)
+![b)](images_lecture/tidy6.PNG)
 :::
 
 ## EDA

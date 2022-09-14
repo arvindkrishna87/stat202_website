@@ -89,7 +89,7 @@ There are 3 things that we typically focus on and describe/compare when inspecti
 ## Binary Variables {.scrollable}
 
 ::: {.absolute top="0%" left="90%" width="100"}
-![](www/participate_icon.png)
+![](images_lecture/participate_icon.png)
 :::
 
 <font size="6"> Consider the `titanic` dataset, which contains information about passengers on the titanic. If a passenger survived, then the variable `Survived = 1`. </font>
@@ -151,7 +151,7 @@ When describing a barplot we look for...
 ## Example 1: Barplots {.scrollable .smaller}
 
 ::: {.absolute top="0%" left="90%" width="100"}
-![](www/participate_icon.png)
+![](images_lecture/participate_icon.png)
 :::
 
 Consider the Palmer Penguins dataset.

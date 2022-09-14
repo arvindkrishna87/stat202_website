@@ -41,7 +41,7 @@ We will be using [Introduction to Statistics and Data Science](https://nustat.gi
 
 ## Software
 
-We will be using/introducing the free statistical software [RStudio Cloud](https://rstuido.cloud/).
+We will be using/introducing the free statistical software [RStudio Cloud](https://rstudio.cloud/).
 
 ## Hardware
 
@@ -49,7 +49,7 @@ Students will need a laptop or Chromebook to be able to follow lectures and to w
 
 ## Assessment
 
-Assessment for the course is comprised of five components: participation, reading checks, activities, projects, midterm exam, and final exam.
+Assessment for the course is comprised of five components: participation, reading checks, activities, 3 exams, and a final project.
 
 ### Participation
 

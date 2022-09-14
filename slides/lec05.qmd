@@ -87,10 +87,6 @@ Operators for the `filter` Function
 
 ## Example 1 {auto-animate="true"}
 
-::: {.absolute top="0%" left="90%" width="100"}
-![](www/participate_icon.png)
-:::
-
 Consider the `penguins` dataset.
 
 Subset the dataset to only include 'male' penguins.
@@ -167,7 +163,7 @@ Remember to store your data with a new meaningful name.
 ## Example 2 {.scrollable auto-animate="true"}
 
 ::: {.absolute top="0%" left="90%" width="100"}
-![](www/participate_icon.png)
+![](images_lecture/participate_icon.png)
 :::
 
 <font size="6"> Subset the dataset to only include 'male' penguins that weigh more than 4000 grams. </font>
@@ -232,7 +228,7 @@ glimpse(penguins_heavy_m)
 ALWAYS inspect your new dataset to make sure everything is as expected.
 :::
 
-## summarize()
+## summarize() {.scollable}
 
 `summarize()` function reduces a data frame to a summary of just the specified variable.
 
@@ -250,15 +246,41 @@ data_sumamry <- data %>%
             count = n())
 ```
 
+. . .
+
+Now we can add calculations to describe the center and spread of our distribution plots!
+
+## Understanding summary statistics
+
+::: {.absolute top="0%" left="90%" width="100"}
+![](images_lecture/participate_icon.png)
+:::
+
+Which of the following summary statistics are invariant to outliers?
+
+    a) mean     
+    b) median   
+    c) sd    
+    d) IQR
+
+. . .
+
+How would the standard deviation of a distribution change if the maximum value was doubled?
+
+    a) increase
+    b) decrease
+    c) stay the same
+    d) not enough information
+
 ## Example 3 {.scrollable auto-animate="true"}
 
 ::: {.absolute top="0%" left="90%" width="100"}
-![](www/participate_icon.png)
+![](images_lecture/participate_icon.png)
 :::
 
-Consider the `penguins` dataset.
+<font size="6"> Consider the `penguins` dataset.
 
-<font size="6">Summarize the average `flipper_length_mm` and count for penguins that are either "Adelie" `species` or "Gentoo" `species`. Which of the following is correct?</font>
+Summarize the average `flipper_length_mm` and count for penguins that are either "Adelie" `species` or "Gentoo" `species`. Which of the following is correct?</font>
 
 ```{r}
 #| eval: false
