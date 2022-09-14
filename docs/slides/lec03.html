@@ -9,7 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-0.9.565">
 
-  <title>STAT 202 - Data Visualization  Chapter 2.4 - 2.6</title>
+  <title>STAT 202 - Data Visualization  Sections 2.4 - 2.6</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -384,7 +384,7 @@
     <div class="slides">
 
 <section id="title-slide" class="center">
-  <h1 class="title">Data Visualization <br> Chapter 2.4 - 2.6</h1>
+  <h1 class="title">Data Visualization <br> Sections 2.4 - 2.6</h1>
   <p class="institute">Department of Statistics and Data Science <br> STAT 202</p>
 </section>
 
@@ -411,33 +411,47 @@
 <h2>5NG#2: Linegraphs</h2>
 <p>Linegraphs show the <strong>relationship</strong> between 2 <strong>numerical</strong> variables.</p>
 <p><br></p>
-<p>The explanatory (x-axis) variable <strong>must be of</strong> sequential ordering. Ex:</p>
+<div class="fragment">
+<p>The explanatory (x-axis) variable <strong>must be of</strong> sequential ordering.</p>
 <p><br></p>
+</div>
+<div class="fragment">
 <p><strong>Linegraph syntax in R:</strong></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data=</span> my_data, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> var1, <span class="at">y =</span> var2)) <span class="sc">+</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+</div>
 </section>
 <section id="ng2-linegraphs-1" class="slide level2">
 <h2>5NG#2: Linegraphs</h2>
 <p>When describing linegraphs…</p>
+<div>
 <ul>
-<li>Look for pattern going from left to right.</li>
-<li>Classify association as positive, negative, or no association.</li>
-<li>Classify relationship as linear or non linear.</li>
-<li>Check x and y scales to make sure they are appropriate.</li>
+<li class="fragment">Look for pattern going from left to right.</li>
+<li class="fragment">Classify association as positive, negative, or no association.</li>
+<li class="fragment">Classify relationship as linear or non linear.</li>
+<li class="fragment">Check x and y scales to make sure they are appropriate.</li>
 </ul>
+</div>
 </section>
 <section id="ng3-histograms" class="slide level2">
 <h2>5NG#3: Histograms</h2>
 <ul>
-<li><p>Histograms are used to visualize the <strong>distribution</strong> of a single <strong>numerical</strong> variable.</p></li>
-<li><p>Histograms display <strong>numerical</strong> data by grouping data into bins of equal width.</p></li>
-<li><p>There is <strong>no</strong> ‘y’ position aesthetic for <code>geom_histogram()</code> because we are investigating a single variable.</p></li>
+<li>Histograms are used to visualize the <strong>distribution</strong> of a single <strong>numerical</strong> variable.</li>
 </ul>
+<div class="fragment">
+<ul>
+<li>Histograms display <strong>numerical</strong> data by grouping data into bins of equal width.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
+<li>There is <strong>no</strong> ‘y’ position aesthetic for <code>geom_histogram()</code> because we are investigating a single variable.</li>
+</ul>
+</div>
 </section>
-<section id="ng3-histograms-1" class="slide level2 smaller">
+<section id="ng3-histograms-1" class="slide level2">
 <h2>5NG#3: Histograms</h2>
 <p><strong>Histogram syntax in R:</strong></p>
 <div class="cell">
@@ -445,15 +459,19 @@
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">color =</span> <span class="st">"white"</span>, <span class="at">fill =</span> <span class="st">"blue"</span>, <span class="at">bins =</span> <span class="dv">10</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><br></p>
-<p>There are 3 things we look and describe when inspecting a histogram:</p>
+<div class="fragment">
+<p><font size="6"> There are 3 things we look and describe when inspecting a histogram:</font></p><font size="6">
 <ul>
 <li><p>shape (skew and modality)</p></li>
 <li><p>center (mean or median)</p></li>
 <li><p>spread (range, IQR, or standard deviation)</p></li>
-<li><p>not all distributions have a simple recognizable shape</p></li>
 </ul>
+</font></div><font size="6">
+</font><div class="fragment"><font size="6">
+</font><p><font size="6">Not all distributions have a simple recognizable shape!</font></p>
 <div class="footer">
 <p>Type <code>colors()</code> in the <strong>console</strong> to view all possible colors.</p>
+</div>
 </div>
 </section>
 <section id="ng3-histograms-2" class="slide level2">
@@ -515,6 +533,9 @@
 <section id="example-1-histogram-bins" class="slide level2 scrollable smaller">
 <h2>Example 1: Histogram bins</h2>
 <p>Choosing an appropriate bin size and describe the distribution of penguin body mass.</p>
+<div class="absolute" style="top: -12%; left: 85%; width: 200px; ">
+<p><img data-src="www/participate_icon.png"></p>
+</div>
 <div class="panel-tabset">
 <ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Plot</a></li><li><a href="#tabset-1-2">Data</a></li></ul>
 <div class="tab-content">
@@ -524,7 +545,7 @@
 <div class="cell-output-display">
 <div class="form-group shiny-input-container">
 <label class="control-label" id="bin1-label" for="bin1">Number of bins:</label>
-<input class="js-range-slider" id="bin1" data-skin="shiny" data-min="1" data-max="50" data-from="30" data-step="1" data-grid="true" data-grid-num="9.8" data-grid-snap="false" data-prettify-separator="," data-prettify-enabled="true" data-keyboard="true" data-data-type="number">
+<input class="js-range-slider" id="bin1" data-skin="shiny" data-min="1" data-max="50" data-from="5" data-step="1" data-grid="true" data-grid-num="9.8" data-grid-snap="false" data-prettify-separator="," data-prettify-enabled="true" data-keyboard="true" data-data-type="number">
 </div>
 </div>
 <div class="cell-output-display">
@@ -572,24 +593,19 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
 </div>
 </div>
 </div>
-<p><br></p>
-<p>Helpful guidelines:</p>
-<ul>
-<li><p>Larger number of observations generally correspond to larger number of bins needed.</p></li>
-<li><p>You will generally need to test <strong>several</strong> different number of bins to learn about the data and find an appropriate value.</p></li>
-<li><p>Sturges Rule of Thumb for unimodal symmetric distributions: bins = 1 + 3.322*log(n)</p></li>
-<li><p>Sturge’s rule is not great if the data is severely skewed, multi-modal, or for an extremely large number of observations. But it could give you a starting place and then you will want to increase the number of bins until you can properly see the shape.</p></li>
-</ul>
 </section>
 <section id="example-2-histogram-bins" class="slide level2 scrollable">
 <h2>Example 2: Histogram bins</h2>
+<div class="absolute" style="top: -12%; left: 85%; width: 200px; ">
+<p><img data-src="www/participate_icon.png"></p>
+</div>
 <p>Choosing an appropriate bin size and describe the distribution of penguin flipper length.</p>
 <div class="layout-sidebar layout-sidebar-left">
 <div class="cell panel-sidebar">
 <div class="cell-output-display">
 <div class="form-group shiny-input-container">
 <label class="control-label" id="bin2-label" for="bin2">Number of bins:</label>
-<input class="js-range-slider" id="bin2" data-skin="shiny" data-min="1" data-max="50" data-from="30" data-step="1" data-grid="true" data-grid-num="9.8" data-grid-snap="false" data-prettify-separator="," data-prettify-enabled="true" data-keyboard="true" data-data-type="number">
+<input class="js-range-slider" id="bin2" data-skin="shiny" data-min="1" data-max="50" data-from="10" data-step="1" data-grid="true" data-grid-num="9.8" data-grid-snap="false" data-prettify-separator="," data-prettify-enabled="true" data-keyboard="true" data-data-type="number">
 </div>
 </div>
 <div class="cell-output-display">
@@ -632,37 +648,47 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(penguins, <span class="fu">aes</span>(<span class="at">x=</span>flipper_length_mm)) <span class="sc">+</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_histogram</span>(<span class="at">color =</span> <span class="st">"white"</span>, <span class="at">fill =</span> <span class="st">"tomato1"</span>, <span class="at">bins =</span> <span class="dv">11</span>) <span class="sc">+</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> species)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">facet_wrap</span>(<span class="sc">~</span> species)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><img data-src="www/fig_03facet.png" id="id" class="class" width="800" height="600"></p>
 </section>
 <section id="common-coding-errors" class="slide level2 scrollable">
 <h2>Common Coding Errors</h2>
-<p>Which of the following are correct?</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(penguins, <span class="fu">aes</span>(<span class="at">x=</span>flipper_length_mm)) <span class="sc">+</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="fu">aes</span>(<span class="at">color =</span> <span class="st">"white"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="absolute" style="top: -12%; left: 85%; width: 200px; ">
+<p><img data-src="www/participate_icon.png"></p>
 </div>
-<p><br></p>
+<p>Which of the following are correct?</p>
+<pre><code>a)  </code></pre>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(penguins, <span class="fu">aes</span>(<span class="at">x=</span>flipper_length_mm)) <span class="sc">+</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">color =</span> <span class="st">"white"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="fu">aes</span>(<span class="at">color =</span> <span class="st">"white"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p><br></p>
+<pre><code>b)  </code></pre>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(penguins) <span class="sc">+</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">x =</span> flipper_length_mm, <span class="at">color =</span> <span class="st">"white"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(penguins, <span class="fu">aes</span>(<span class="at">x=</span>flipper_length_mm)) <span class="sc">+</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">color =</span> <span class="st">"white"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p><br></p>
+<pre><code>c)  </code></pre>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(penguins) <span class="sc">+</span></span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="fu">aes</span>(<span class="at">x =</span> flipper_length_mm) , <span class="at">color =</span> <span class="st">"white"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(penguins) <span class="sc">+</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">x =</span> flipper_length_mm, <span class="at">color =</span> <span class="st">"white"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<pre><code>d)  </code></pre>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(penguins) <span class="sc">+</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="fu">aes</span>(<span class="at">x =</span> flipper_length_mm) , <span class="at">color =</span> <span class="st">"white"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="extra-information-and-resources" class="slide level2 scrollable">
 <h2>Extra information and resources</h2>
-<p><br></p>
 <p><a href="https://en.wikipedia.org/wiki/Histogram#Number_of_bins_and_width">Wikipedia bin size info</a></p>
+<p>Helpful guidelines:</p>
+<ul>
+<li><p>Larger number of observations generally correspond to larger number of bins needed.</p></li>
+<li><p>You will generally need to test <strong>several</strong> different number of bins to learn about the data and find an appropriate value.</p></li>
+<li><p>Sturges Rule of Thumb for unimodal symmetric distributions: bins = 1 + 3.322*log(n)</p></li>
+<li><p>Sturge’s rule is not great if the data is severely skewed, multi-modal, or for an extremely large number of observations. But it could give you a starting place and then you will want to increase the number of bins until you can properly see the shape.</p></li>
+</ul>
 <p>
 <script type="application/shiny-prerendered" data-context="server">
 library(palmerpenguins)

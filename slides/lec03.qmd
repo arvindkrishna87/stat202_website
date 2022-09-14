@@ -58,7 +58,6 @@ Linegraphs show the **relationship** between 2 **numerical** variables.
 
 The explanatory (x-axis) variable **must be of** sequential ordering.
 
-
 <br>
 
 . . .
@@ -112,8 +111,7 @@ ggplot(data= my_data, aes(x = var1)) +
 
 . . .
 
-<font size="6">
-There are 3 things we look and describe when inspecting a histogram:
+<font size="6"> There are 3 things we look and describe when inspecting a histogram:
 
 -   shape (skew and modality)
 
@@ -154,7 +152,6 @@ Type `colors()` in the **console** to view all possible colors.
 ## Example 1: Histogram bins {.scrollable .smaller}
 
 Choosing an appropriate bin size and describe the distribution of penguin body mass.
-
 
 ::: {.absolute top="-12%" left="85%" width="200"}
 ![](www/participate_icon.png)
@@ -208,8 +205,6 @@ output$Ex1Plot <- renderPlot({
 glimpse(penguins)
 ```
 :::
-
-
 
 ## Example 2: Histogram bins {.scrollable}
 
@@ -279,7 +274,6 @@ ggplot(penguins, aes(x=flipper_length_mm)) +
 
 ## Common Coding Errors {.scrollable}
 
-
 ::: {.absolute top="-12%" left="85%" width="200"}
 ![](www/participate_icon.png)
 :::
@@ -319,7 +313,6 @@ ggplot(penguins) +
 ```
 
 ## Extra information and resources {.scrollable}
-
 
 [Wikipedia bin size info](https://en.wikipedia.org/wiki/Histogram#Number_of_bins_and_width)
 

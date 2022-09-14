@@ -88,12 +88,11 @@ There are 3 things that we typically focus on and describe/compare when inspecti
 
 ## Binary Variables {.scrollable}
 
-::: {.absolute top="-12%" left="85%" width="200"}
+::: {.absolute top="0%" left="90%" width="100"}
 ![](www/participate_icon.png)
 :::
 
-<font size="6">
-Consider the `titanic` dataset, which contains information about passengers on the titanic. If a passenger survived, then the variable `Survived = 1`. </font>
+<font size="6"> Consider the `titanic` dataset, which contains information about passengers on the titanic. If a passenger survived, then the variable `Survived = 1`. </font>
 
 ```{r}
 titanic %>% 
@@ -103,8 +102,7 @@ titanic %>%
 
 . . .
 
-<font size="6">
-Is `Survived` a categorical or numerical variable?
+<font size="6"> Is `Survived` a categorical or numerical variable?
 
 . . .
 
@@ -112,10 +110,9 @@ Is `Survived` a categorical or numerical variable?
 
 . . .
 
-To fix this we need to use the `factor()` function. 
+To fix this we need to use the `factor()` function.
 
-Typing `factor(Survived)` would turn the variable into a "factor".
-</font>
+Typing `factor(Survived)` would turn the variable into a "factor". </font>
 
 ## 5NG#5: Barplots
 
@@ -144,7 +141,7 @@ ggplot(data= my_data, aes(x = var1)) +
 
 When describing a barplot we look for...
 
-:::{.incremental}
+::: incremental
 -   Disparities in the height of the bars.
 -   Bar with the most observations.
 -   Bar with the least observations.
@@ -153,7 +150,7 @@ When describing a barplot we look for...
 
 ## Example 1: Barplots {.scrollable .smaller}
 
-::: {.absolute top="-12%" left="85%" width="200"}
+::: {.absolute top="0%" left="90%" width="100"}
 ![](www/participate_icon.png)
 :::
 

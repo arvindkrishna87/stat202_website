@@ -409,13 +409,17 @@
 <section id="data-wrangling" class="slide level2">
 <h2>Data Wrangling</h2>
 <p>In real data applications it is rare that data will be in the “perfect” form for us to use. We will typically need to manipulate or wrangle data into a form that is useful using the <code>dplyr</code> library.</p>
+<div class="fragment">
 <ul>
 <li>The pipe operator <code>%&gt;%</code> : takes the output of one function and passes it into another function as an argument.</li>
 </ul>
+</div>
+<div class="fragment">
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>data <span class="sc">%&gt;%</span> </span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  step <span class="dv">1</span> <span class="sc">%&gt;%</span> </span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  step <span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </div>
 </section>
 <section id="filter" class="slide level2">
@@ -476,6 +480,9 @@
 </section>
 <section id="example-1" class="slide level2" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Example 1</h2>
+<div class="absolute" style="top: 0%; left: 90%; width: 100px; ">
+<p><img data-src="www/participate_icon.png"></p>
+</div>
 <p>Consider the <code>penguins</code> dataset.</p>
 <p>Subset the dataset to only include ‘male’ penguins.</p>
 <div class="panel-tabset">
@@ -579,9 +586,12 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
 <p><br></p>
 <p>Remember to store your data with a new meaningful name.</p>
 </section>
-<section id="example-2" class="slide level2 smaller" data-auto-animate="true">
+<section id="example-2" class="slide level2 scrollable" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Example 2</h2>
-<p>Subset the dataset to only include ‘male’ penguins that weigh more than 4000 grams.</p>
+<div class="absolute" style="top: 0%; left: 90%; width: 100px; ">
+<p><img data-src="www/participate_icon.png"></p>
+</div>
+<p><font size="6"> Subset the dataset to only include ‘male’ penguins that weigh more than 4000 grams. </font></p>
 <div class="panel-tabset">
 <ul id="tabset-4" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-4-1">Code</a></li><li><a href="#tabset-4-2">Data</a></li></ul>
 <div class="tab-content">
@@ -611,9 +621,9 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
 </div>
 </div>
 </section>
-<section id="example-2-1" class="slide level2 smaller" data-auto-animate="true">
+<section id="example-2-1" class="slide level2 scrollable" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Example 2</h2>
-<p>Subset the dataset to only include ‘male’ penguins that weigh more than 4000 grams.</p>
+<p><font size="6"> Subset the dataset to only include ‘male’ penguins that weigh more than 4000 grams.</font></p>
 <div class="panel-tabset">
 <ul id="tabset-5" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-5-1">Code</a></li><li><a href="#tabset-5-2">Alternate Code</a></li><li><a href="#tabset-5-3">New Data</a></li></ul>
 <div class="tab-content">
@@ -676,6 +686,9 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
 </section>
 <section id="example-3" class="slide level2 scrollable" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Example 3</h2>
+<div class="absolute" style="top: 0%; left: 90%; width: 100px; ">
+<p><img data-src="www/participate_icon.png"></p>
+</div>
 <p>Consider the <code>penguins</code> dataset.</p>
 <p><font size="6">Summarize the average <code>flipper_length_mm</code> and count for penguins that are either “Adelie” <code>species</code> or “Gentoo” <code>species</code>. Which of the following is correct?</font></p>
 <div class="cell">

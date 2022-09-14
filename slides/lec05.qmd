@@ -87,7 +87,7 @@ Operators for the `filter` Function
 
 ## Example 1 {auto-animate="true"}
 
-::: {.absolute top="-12%" left="85%" width="200"}
+::: {.absolute top="0%" left="90%" width="100"}
 ![](www/participate_icon.png)
 :::
 
@@ -166,12 +166,11 @@ Remember to store your data with a new meaningful name.
 
 ## Example 2 {.scrollable auto-animate="true"}
 
-::: {.absolute top="-12%" left="85%" width="200"}
+::: {.absolute top="0%" left="90%" width="100"}
 ![](www/participate_icon.png)
 :::
 
-<font size="6">
-Subset the dataset to only include 'male' penguins that weigh more than 4000 grams. </font>
+<font size="6"> Subset the dataset to only include 'male' penguins that weigh more than 4000 grams. </font>
 
 ::: panel-tabset
 ## Code
@@ -190,8 +189,7 @@ glimpse(penguins)
 
 ## Example 2 {.scrollable auto-animate="true"}
 
-<font size="6">
-Subset the dataset to only include 'male' penguins that weigh more than 4000 grams.</font>
+<font size="6"> Subset the dataset to only include 'male' penguins that weigh more than 4000 grams.</font>
 
 ::: panel-tabset
 ## Code
@@ -254,7 +252,7 @@ data_sumamry <- data %>%
 
 ## Example 3 {.scrollable auto-animate="true"}
 
-::: {.absolute top="-12%" left="85%" width="200"}
+::: {.absolute top="0%" left="90%" width="100"}
 ![](www/participate_icon.png)
 :::
 

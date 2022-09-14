@@ -125,7 +125,7 @@ ggplot(data= my_data, mapping = aes(x = var1, y = var2)) +
 
 When describing scatterplots...
 
-::: {.incremental}
+::: incremental
 -   Look for pattern going from left to right.
 -   Classify association as positive, negative, or no association.
 -   Classify strength of association: strong, moderate, weak.
@@ -156,8 +156,7 @@ Artwork by @allison_horst
 
 ## Example 1: Describing scatterplots {.scrollable}
 
-
-::: {.absolute top="0%" left="80%" width="200"}
+::: {.absolute top="10%" left="90%" width="100"}
 ![](images_lecture/participate_icon.png)
 :::
 
@@ -179,10 +178,9 @@ glimpse(penguins)
 ```
 :::
 
-
 ## Example 2: Describing scatterplots {.scrollable auto-animate="true"}
 
-::: {.absolute top="0%" left="80%" width="200"}
+::: {.absolute top="10%" left="90%" width="100"}
 ![](images_lecture/participate_icon.png)
 :::
 
@@ -197,14 +195,12 @@ ggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm)) +
   geom_point()
 ```
 
-
 ## Data
 
 ```{r}
 glimpse(penguins)
 ```
 :::
-
 
 ## Example 2: Describing scatterplots {.scrollable auto-animate="true"}
 
@@ -219,7 +215,6 @@ ggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm, color = sex)) +
   geom_point()
 ```
 
-
 ## Data
 
 ```{r}
@@ -227,11 +222,11 @@ glimpse(penguins)
 ```
 :::
 
-
 ## Example 2: Describing scatterplots {.scrollable auto-animate="true"}
 
 ::: panel-tabset
 ## Plot
+
 ```{r}
 #| out.width: 700px
 #| out.height: 450px
@@ -239,7 +234,6 @@ glimpse(penguins)
 ggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm, color = species)) +
   geom_point()
 ```
-
 
 ## Data
 
