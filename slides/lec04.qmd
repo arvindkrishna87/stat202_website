@@ -23,7 +23,7 @@ execute:
 #| include: false
 library(ggplot2)
 library(dplyr)
-#library(ISDSdatasets)
+library(ISDSdatasets)
 ```
 
 ## Today's goals {background-image="images_horst/r_first_then.png" background-size="400px" background-opacity="50%" background-position="80% 50%"}
@@ -45,13 +45,19 @@ Artwork by @allison_horst
 :::
 :::
 
-## 5NG#4: Boxplots {.smaller}
+## 5NG#4: Boxplots
+
+<font size="6">
 
 -   A boxplot is used to visualize the **distribution** of a single **numerical** variable.
 
--   Grouped boxplots are particularly useful for comparing the distribution of a numerical variable across a **categorical** variable. ie: shows the relationship between a numerical and a categorical variable.
+. . .
+
+-   Grouped boxplots are particularly useful for comparing the distribution of a numerical variable across a **categorical** variable. ie: shows the relationship between a numerical and a categorical variable. </font>
 
 <br>
+
+. . .
 
 **Boxplot syntax in R:**
 
@@ -80,26 +86,50 @@ There are 3 things that we typically focus on and describe/compare when inspecti
 :::
 :::
 
-## Binary Variables
+## Binary Variables {.scrollable}
 
-Sometimes a survey or dataset will code categorical responses with numbers. This is particularly common for binary categories (two choices).
+::: {.absolute top="-12%" left="85%" width="200"}
+![](www/participate_icon.png)
+:::
+
+<font size="6">
+Consider the `titanic` dataset, which contains information about passengers on the titanic. If a passenger survived, then the variable `Survived = 1`. </font>
 
 ```{r}
-#| eval: false
 titanic %>% 
   select(PassengerId, Survived, Sex) %>%
   glimpse()
 ```
 
-How can we change `Survived` to be treated as a categorical variable?
+. . .
+
+<font size="6">
+Is `Survived` a categorical or numerical variable?
+
+. . .
+
+`R` will read in numerical columns as "numbers" even though these numbers are supposed to represent "categories".
+
+. . .
+
+To fix this we need to use the `factor()` function. 
+
+Typing `factor(Survived)` would turn the variable into a "factor".
+</font>
 
 ## 5NG#5: Barplots
 
 A barplot is used to visualize the distribution (frequencies) of a single categorical variable.
 
+. . .
+
 -   `geom_bar()` is used when we have the raw data and counting how many observations are in each category has to be done (list not yet counted).
 
+. . .
+
 -   `geom_col()` is used when we directly have counts of each category in our dataset (pre-counted).
+
+. . .
 
 **Barplot syntax in R:**
 
@@ -114,12 +144,18 @@ ggplot(data= my_data, aes(x = var1)) +
 
 When describing a barplot we look for...
 
+:::{.incremental}
 -   Disparities in the height of the bars.
 -   Bar with the most observations.
 -   Bar with the least observations.
 -   If all the bars are about equal height, then the distribution is uniform.
+:::
 
 ## Example 1: Barplots {.scrollable .smaller}
+
+::: {.absolute top="-12%" left="85%" width="200"}
+![](www/participate_icon.png)
+:::
 
 Consider the Palmer Penguins dataset.
 

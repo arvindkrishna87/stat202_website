@@ -58,7 +58,7 @@ Artwork by @allison_horst
 . . .
 
 ::: {.absolute top="30%" left="22%" width="300"}
-::: {style="color: #cc0000"}
+::: {style="color: #4E2A84"}
 code and text for report go here
 :::
 :::
@@ -66,7 +66,7 @@ code and text for report go here
 . . .
 
 ::: {.absolute top="30%" left="55%"}
-::: {style="color: #cc0000"}
+::: {style="color: #4E2A84"}
 stored variables and data shows up here
 :::
 :::
@@ -74,7 +74,7 @@ stored variables and data shows up here
 . . .
 
 ::: {.absolute top="85%" left="55%"}
-::: {style="color: #cc0000"}
+::: {style="color: #4E2A84"}
 your working directory project files are here
 :::
 :::
@@ -82,7 +82,7 @@ your working directory project files are here
 . . .
 
 ::: {.absolute top="90%" left="0%" width="500"}
-::: {style="color: #cc0000; font-size: 0.7em"}
+::: {style="color: #4E2A84; font-size: 0.7em"}
 CONSOLE PANE one time code that does *not* appear in document can go here
 :::
 :::

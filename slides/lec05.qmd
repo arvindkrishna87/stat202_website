@@ -48,7 +48,11 @@ Artwork by @allison_horst
 
 In real data applications it is rare that data will be in the "perfect" form for us to use. We will typically need to manipulate or wrangle data into a form that is useful using the `dplyr` library.
 
+. . .
+
 -   The pipe operator `%>%` : takes the output of one function and passes it into another function as an argument.
+
+. . .
 
 ```{r}
 #| eval: false
@@ -82,6 +86,10 @@ Operators for the `filter` Function
 :::
 
 ## Example 1 {auto-animate="true"}
+
+::: {.absolute top="-12%" left="85%" width="200"}
+![](www/participate_icon.png)
+:::
 
 Consider the `penguins` dataset.
 
@@ -156,9 +164,14 @@ glimpse(penguins_male)
 
 Remember to store your data with a new meaningful name.
 
-## Example 2 {.smaller auto-animate="true"}
+## Example 2 {.scrollable auto-animate="true"}
 
-Subset the dataset to only include 'male' penguins that weigh more than 4000 grams.
+::: {.absolute top="-12%" left="85%" width="200"}
+![](www/participate_icon.png)
+:::
+
+<font size="6">
+Subset the dataset to only include 'male' penguins that weigh more than 4000 grams. </font>
 
 ::: panel-tabset
 ## Code
@@ -175,9 +188,10 @@ glimpse(penguins)
 ```
 :::
 
-## Example 2 {.smaller auto-animate="true"}
+## Example 2 {.scrollable auto-animate="true"}
 
-Subset the dataset to only include 'male' penguins that weigh more than 4000 grams.
+<font size="6">
+Subset the dataset to only include 'male' penguins that weigh more than 4000 grams.</font>
 
 ::: panel-tabset
 ## Code
@@ -239,6 +253,10 @@ data_sumamry <- data %>%
 ```
 
 ## Example 3 {.scrollable auto-animate="true"}
+
+::: {.absolute top="-12%" left="85%" width="200"}
+![](www/participate_icon.png)
+:::
 
 Consider the `penguins` dataset.
 

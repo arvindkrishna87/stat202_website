@@ -1,5 +1,5 @@
 ---
-title: "Data Visualization <br> Chapter 2.4 - 2.6"
+title: "Data Visualization <br> Sections 2.4 - 2.6"
 institute: "Department of Statistics and Data Science <br> STAT 202"
 
 logo: "www/nu_logo.png"
@@ -17,7 +17,7 @@ execute:
   message: false
   warning: false
   echo: true
-
+  
 server: shiny
 ---
 
@@ -54,9 +54,14 @@ Linegraphs show the **relationship** between 2 **numerical** variables.
 
 <br>
 
-The explanatory (x-axis) variable **must be of** sequential ordering. Ex:
+. . .
+
+The explanatory (x-axis) variable **must be of** sequential ordering.
+
 
 <br>
+
+. . .
 
 **Linegraph syntax in R:**
 
@@ -72,20 +77,26 @@ ggplot(data= my_data, mapping = aes(x = var1, y = var2)) +
 
 When describing linegraphs...
 
+::: incremental
 -   Look for pattern going from left to right.
 -   Classify association as positive, negative, or no association.
 -   Classify relationship as linear or non linear.
 -   Check x and y scales to make sure they are appropriate.
+:::
 
 ## 5NG#3: Histograms
 
 -   Histograms are used to visualize the **distribution** of a single **numerical** variable.
 
+. . .
+
 -   Histograms display **numerical** data by grouping data into bins of equal width.
+
+. . .
 
 -   There is **no** 'y' position aesthetic for `geom_histogram()` because we are investigating a single variable.
 
-## 5NG#3: Histograms {.smaller}
+## 5NG#3: Histograms
 
 **Histogram syntax in R:**
 
@@ -99,6 +110,9 @@ ggplot(data= my_data, aes(x = var1)) +
 
 <br>
 
+. . .
+
+<font size="6">
 There are 3 things we look and describe when inspecting a histogram:
 
 -   shape (skew and modality)
@@ -107,7 +121,9 @@ There are 3 things we look and describe when inspecting a histogram:
 
 -   spread (range, IQR, or standard deviation)
 
--   not all distributions have a simple recognizable shape
+. . .
+
+Not all distributions have a simple recognizable shape!</font>
 
 ::: footer
 Type `colors()` in the **console** to view all possible colors.
@@ -139,6 +155,11 @@ Type `colors()` in the **console** to view all possible colors.
 
 Choosing an appropriate bin size and describe the distribution of penguin body mass.
 
+
+::: {.absolute top="-12%" left="85%" width="200"}
+![](www/participate_icon.png)
+:::
+
 ::: panel-tabset
 ## Plot
 
@@ -146,7 +167,7 @@ Choosing an appropriate bin size and describe the distribution of penguin body m
 #| panel: sidebar
 #| echo: false
 sliderInput("bin1", "Number of bins:", 
-            min = 1, max = 50, value = 30)
+            min = 1, max = 50, value = 5)
 br()
 
 p("Is 5 bins appropriate?")
@@ -188,19 +209,13 @@ glimpse(penguins)
 ```
 :::
 
-<br>
 
-Helpful guidelines:
-
--   Larger number of observations generally correspond to larger number of bins needed.
-
--   You will generally need to test **several** different number of bins to learn about the data and find an appropriate value.
-
--   Sturges Rule of Thumb for unimodal symmetric distributions: bins = 1 + 3.322\*log(n)
-
--   Sturge's rule is not great if the data is severely skewed, multi-modal, or for an extremely large number of observations. But it could give you a starting place and then you will want to increase the number of bins until you can properly see the shape.
 
 ## Example 2: Histogram bins {.scrollable}
+
+::: {.absolute top="-12%" left="85%" width="200"}
+![](www/participate_icon.png)
+:::
 
 Choosing an appropriate bin size and describe the distribution of penguin flipper length.
 
@@ -208,7 +223,7 @@ Choosing an appropriate bin size and describe the distribution of penguin flippe
 #| echo: false
 #| panel: sidebar
 sliderInput("bin2", "Number of bins:", 
-            min = 1, max = 50, value = 30)
+            min = 1, max = 50, value = 10)
 br()
 
 p("Is 10 bins appropriate?")
@@ -257,14 +272,21 @@ output$Ex2Plot <- renderPlot({
 #| eval: false
 ggplot(penguins, aes(x=flipper_length_mm)) +
     geom_histogram(color = "white", fill = "tomato1", bins = 11) +
-  facet_wrap(~ species)
+    facet_wrap(~ species)
 ```
 
 ![](www/fig_03facet.png){#id .class width="800px" height="600px"}
 
 ## Common Coding Errors {.scrollable}
 
+
+::: {.absolute top="-12%" left="85%" width="200"}
+![](www/participate_icon.png)
+:::
+
 Which of the following are correct?
+
+    a)  
 
 ```{r}
 #| eval: false
@@ -272,7 +294,7 @@ ggplot(penguins, aes(x=flipper_length_mm)) +
   geom_histogram(aes(color = "white"))
 ```
 
-<br>
+    b)  
 
 ```{r}
 #| eval: false
@@ -280,7 +302,7 @@ ggplot(penguins, aes(x=flipper_length_mm)) +
   geom_histogram(color = "white")
 ```
 
-<br>
+    c)  
 
 ```{r}
 #| eval: false
@@ -288,7 +310,7 @@ ggplot(penguins) +
   geom_histogram(x = flipper_length_mm, color = "white")
 ```
 
-<br>
+    d)  
 
 ```{r}
 #| eval: false
@@ -298,6 +320,15 @@ ggplot(penguins) +
 
 ## Extra information and resources {.scrollable}
 
-<br>
 
 [Wikipedia bin size info](https://en.wikipedia.org/wiki/Histogram#Number_of_bins_and_width)
+
+Helpful guidelines:
+
+-   Larger number of observations generally correspond to larger number of bins needed.
+
+-   You will generally need to test **several** different number of bins to learn about the data and find an appropriate value.
+
+-   Sturges Rule of Thumb for unimodal symmetric distributions: bins = 1 + 3.322\*log(n)
+
+-   Sturge's rule is not great if the data is severely skewed, multi-modal, or for an extremely large number of observations. But it could give you a starting place and then you will want to increase the number of bins until you can properly see the shape.
