@@ -5,7 +5,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-This page contains an outline of the topics, content, and assignments for the quarter.
+This page contains an outline of the topics, content, and assignments for the quarter. If you miss a class it is **your responsibility** to catch up on missed work. That means review the slides, complete the activity, submit any homework and attend office hours if you need help.
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 library(tidyverse)
@@ -15,7 +15,8 @@ library(lubridate)
 
 agenda_final <- read_csv("documents/agenda_final.csv") %>% 
   select(-c(due_ymd, date_ymd, participate, callout, agenda1, agenda2, agenda3, agenda4, agenda5, reading_hw)) %>% 
-  mutate(Week = as.character(Week))
+  mutate(Week = as.character(Week)) %>% 
+  mutate(due = ifelse(is.na(submit_act) & is.na(Tutorial), " ", due) )
 
 agenda_final[is.na(agenda_final)] <- " " 
 

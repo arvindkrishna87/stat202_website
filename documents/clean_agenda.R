@@ -7,7 +7,8 @@ library(lubridate)
 # update these two files each quarter
 schedule <- read_csv("documents/course-schedule.csv")
 
-imp_dates <- read_csv("documents/dates-calendar.csv")
+imp_dates <- read_csv("documents/dates-calendar.csv") %>% 
+  mutate(Date = as.Date(Date, "%m/%d/%Y"))
 
 class_start <- imp_dates$Date[1]
 class_end <- imp_dates$Date[2]
