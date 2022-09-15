@@ -155,7 +155,6 @@ Which bin size is most appropriate and describe the distribution of penguin body
 :::
 
 ::: panel-tabset
-
 ## Bins = 7
 
 ```{r}

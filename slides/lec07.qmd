@@ -75,7 +75,7 @@ There are three interrelated rules which make a dataset tidy:
 
 Which of the following are tidy?
 
-::: {layout-ncol=2}
+::: {layout-ncol="2"}
 ![a)](images_lecture/tidy5.PNG)
 
 ![b)](images_lecture/tidy6.PNG)
