@@ -5,7 +5,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-This page contains an outline of the topics, content, and assignments for the quarter. If you miss a class it is **your responsibility** to catch up on missed work. That means review the slides, complete the activity, submit any homework and attend office hours if you need help.
+This page contains an outline of the topics, content, and assignments for the quarter. If you miss a class it is **your responsibility** to catch up on missed work. That means review the slides, complete the activity, submit any homework, and attend office hours if you need help.
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 library(tidyverse)
