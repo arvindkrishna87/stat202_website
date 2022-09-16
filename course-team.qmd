@@ -31,7 +31,7 @@ All office hours will be held on-line via [Zoom 998 6392 3813](https://northwest
 | Name            |                                    | Email                                                                                                | Office hours |
 |------------------|--------------------|-----------------------------|------------------------|
 | Kayla Schroeder | ![](images/ta/profile_kayla.jpg){height=1in} | KaylaSchroeder2026\@u.northwestern.edu | TBD          |
-| Shirya Kata     | ![](images/ta/profile_shriya.jpg){height=1in}   | shriyakata2025\@u.northwestern.edu                                                                   | TBD          |
+| Shriya Kata     | ![](images/ta/profile_shriya.jpg){height=1in}   | shriyakata2025\@u.northwestern.edu                                                                   | TBD          |
 | Divya Narayan   | ![](images/ta/profile_divya.jpg){height=1in}  | divyanarayan2025\@u.northwestern.edu                                                                 | TBD          |
 | Alex Tun        |                                    | alextun2023\@u.northwestern.edu                                                                      | TBD          |
 | Kole Butterer   | ![](images/ta/profile_kole.jpg){height=1in}    | kolebutterer2023\@u.northwestern.edu  | TBD          |
