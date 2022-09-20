@@ -1,6 +1,5 @@
 ---
 title: "STAT 202: Introduction to Statistics and Data Science"
-tbl-colwidths: [5,10,30,10,5,5,5]
 editor_options: 
   chunk_output_type: console
 ---
