@@ -3,8 +3,8 @@ title: "Course Links"
 ---
 
 |                    |                                                                                        |
-|-----------------------|------------------------------------------------|
-| Textbook           | [Introduction to Statistics and Data Science](https://nustat.github.io/intro-stat-ds/) |
+|------------------------|------------------------------------------------|
+| Textbook           | [Introduction to Statistics and Data Science](https://nustat.github.io/intro-stat-data-sci/) |
 | Campuswire         | [Post questions here!](https://campuswire.com/c/G88B46A25/)                            |
 | RStudio Cloud      | [RStudio Cloud](https://rstudio.cloud/spaces/272766/content/all?sort=name_asc)         |
 | Lecture recordings | 🔗 on [Panopto](https://canvas.northwestern.edu/courses/173924/external_tools/14501)   |
