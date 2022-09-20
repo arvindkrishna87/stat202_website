@@ -69,7 +69,6 @@ All daily activities will be graded for completion (10 points fully complete; 5 
 
 *The lowest three grades will be dropped at the end of the quarter.*
 
-
 ### Exams
 
 There will be 3 in-class exams; they will be structured very similarly to your reading checks. Half of it will focus on conceptual knowledge and half will focus on practical applications. Students will be allowed one 8.5 x 11 inch cheat sheet (front & back) on each in-class exams. The exams are not cumulative.
@@ -88,7 +87,7 @@ The final course grade will be calculated as follows:
 
 | Category       | Percentage |
 |----------------|------------|
-| Participation  |  5%        |
+| Participation  | 5%         |
 | Reading Checks | 15%        |
 | Activities     | 10%        |
 | Exam 1         | 20%        |
@@ -132,13 +131,13 @@ Please do not expect answers during weekends and evenings.
 
 [Quarter-Long Study Groups](http://www.northwestern.edu/searle/programs-events/undergrad/group-study/peer-guided-study-groups/index.html) offers peer-led academic support in a small-group setting for students enrolled in this course. If you join the program, you will meet weekly with about 5 to 8 other students and a peer facilitator. During sessions, students review concepts, work through practice problems, raise questions, and work together to develop answers. Students register for the full quarter on CAESAR and weekly attendance is expected. Study Groups sessions are listed below course lecture and discussion sections (e.g., STAT 202-SG Peer-Guided Study Group: Introduction to Statistics).
 
-Contact Borislava Miltcheva (pgsg@northwestern.edu) with any questions.
+Contact Borislava Miltcheva (pgsg\@northwestern.edu) with any questions.
 
 ### Drop-In Support (No Appointment Needed)
 
 [Drop-In Peer Tutoring](https://www.northwestern.edu/academic-support-learning/course-support/drop-in-peer-tutoring.html) is set up such that students can drop in to study alone or with others and ask questions of a peer leader who has done well in the class. Tutoring is provided for many of the introductory courses in Biology, Chemistry, Economics, Engineering, Mathematics, Physics, and **Statistics**. Check their website for a complete list of supported courses.
 
-Contact Valerie Wolf (valerie.wolf@northwestern.edu) with any questions.
+Contact Valerie Wolf (valerie.wolf\@northwestern.edu) with any questions.
 
 ## COVID-19 Policies
 
@@ -195,7 +194,7 @@ Students are responsible for reading and understanding [Northwestern's academic 
 
 Northwestern University is committed to fostering an environment where students are safe and free from sexual misconduct. Confidential resources are available to those who have experienced sexual misconduct.[^6]
 
-[^6]:  See <http://www.northwestern.edu/sexual-misconduct/get-help/confidential-support.html> for details.
+[^6]: See <http://www.northwestern.edu/sexual-misconduct/get-help/confidential-support.html> for details.
 
 Faculty, instructors, and TAs are **not** confidential resources and are required to report incidents of sexual misconduct, whether discussed in your assignments or in person, to the Title IX Coordinator, who can provide information about resources and options.
 
@@ -213,7 +212,7 @@ Northwestern University's policies on Discrimination, Harassment, and Sexual Har
 
 Additional information about the University's discrimination and harassment policies, including the campus resources available to assist individuals with discrimination or harassment concerns, is available online on the [Human Resources Equal Opportunity and Access website](http://www.northwestern.edu/hr/equlopp-access/index.html)[^10].
 
-[^10]:  <http://www.northwestern.edu/hr/equlopp-access/index.html>
+[^10]: <http://www.northwestern.edu/hr/equlopp-access/index.html>
 
 \noindent Northwestern strictly prohibits retaliation against any member of its community for reporting or inquiring about wrongful or unlawful activity. For more details see <https://policies.northwestern.edu/docs/non-retaliation-policy-FINAL.pdf>.
 
