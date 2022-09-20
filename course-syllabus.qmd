@@ -37,7 +37,7 @@ The bulk of this course will follow a flipped or active learning design. Meaning
 
 ## Textbooks
 
-We will be using [Introduction to Statistics and Data Science](https://nustat.github.io/intro-stat-ds/) which is a free online book that we have been developing for this course.
+We will be using [Introduction to Statistics and Data Science](https://nustat.github.io/intro-stat-data-sci/) which is a free online book that we have been developing for this course.
 
 ## Software
 
@@ -139,94 +139,76 @@ Contact Borislava Miltcheva (pgsg\@northwestern.edu) with any questions.
 
 Contact Valerie Wolf (valerie.wolf\@northwestern.edu) with any questions.
 
+
+## Accessibility & Accommodations
+
+Northwestern University is committed to providing the most accessible learning environment as possible for students with disabilities. Should you anticipate or experience disability-related barriers in the academic setting, please contact [AccessibleNU](https://www.northwestern.edu/accessiblenu/) to move forward with the university’s established accommodation process^[email: accessiblenu@northwestern.edu; phoone: 847-467-5530]. If you already have established accommodations with AccessibleNU, please let me know as soon as possible, preferably within the first two weeks of the term, so we can work together to implement your disability accommodations. Disability information, including academic accommodations, is confidential under the Family Educational Rights and Privacy Act.
+
 ## COVID-19 Policies
 
 ### Classroom Expectations
 
-Students, faculty, and staff must comply with University expectations regarding appropriate classroom behavior, including those outlined below and in the [COVID-19 Code of Conduct](https://www.northwestern.edu/communitystandards/about-us/northwestern-university-student-expectations-covid-19-code-of-conduct.html)[^1]. With respect to classroom procedures, this includes:
+\textsc{Students, faculty, and staff must comply} with University expectations regarding appropriate classroom behavior, including those outlined below and in the [COVID-19 Expectations for Students](https://www.northwestern.edu/communitystandards/about-us/northwestern-university-student-expectations-covid-19.html). With respect to classroom procedures, this includes:
 
-[^1]: Internet search: "Northwestern Code of Conduct"
-
--   Policies regarding masking and social distancing evolve as the public health situation changes. Students are responsible for understanding and complying with current masking, testing, Symptom Tracking, and social distancing requirements.
--   In some classes, masking and/or social distancing may be required as a result of an Americans with Disabilities Act (ADA) accommodation for the instructor or a student in the class even when not generally required on campus. In such cases, the instructor will notify the class.
--   No food is allowed inside classrooms. Drinks are permitted, but please keep your face covering on and use a straw.
--   Faculty may assign seats in some classes to help facilitate contact tracing in the event that a student tests positive for COVID-19. Students must sit in their assigned seats.
-
-\noindent If a student fails to comply with the [COVID-19 Code of Conduct](https://www.northwestern.edu/communitystandards/about-us/northwestern-university-student-expectations-covid-19-code-of-conduct.html) or other University expectations related to COVID-19, the instructor may ask the student to leave the class. The instructor is asked to report the incident to the Office of Community Standards for additional follow-up.
+- Policies regarding masking, social distancing and other public health measures evolve as the situation changes. Students are responsible for understanding and complying with current University, state and city requirements.
+- In some classes, masking and/or social distancing may be required as a result of an Americans with Disabilities Act (ADA) accommodation for the instructor or a student in the class even when not generally required on campus. In such cases, the instructor will notify the class.
+ 
+\noindent \textsc{If a student fails to comply} with the [COVID-19 Expectations for Students](https://www.northwestern.edu/communitystandards/about-us/northwestern-university-student-expectations-covid-19.html) or other University expectations related to COVID-19, the instructor may ask the student to leave the class. The instructor is asked to report the incident to the Office of Community Standards for additional follow-up.
 
 ### Class Attendance
 
 Class sessions for this course will occur in person. Individual students will not be granted permission to attend remotely except as the result of an Americans with Disabilities Act (ADA) accommodation as determined by AccessibleNU.
 
-\noindent Maintaining the health of the community remains our priority. If you are experiencing any symptoms of COVID **do not attend class** and update your Symptom Tracker application right away to connect with Northwestern's Case Management Team for guidance on next steps. Also contact the instructor as soon as possible to arrange to complete coursework. We plan to record sessions for students that miss to to COVID-19 related issues.
+Maintaining the health of the community remains our priority. If you are experiencing any symptoms of COVID \textbf{do not attend class} and update your Symptom Tracker application right away to connect with Northwestern’s Case Management Team for guidance on next steps. Also contact the instructor as soon as possible to arrange to complete coursework. We plan to record sessions for students that miss to to COVID-19 related issues.
 
-\noindent Students who experience a personal emergency should contact the instructor as soon as possible to arrange to complete coursework.
 
-\noindent Should public health recommendations prevent in person class from being held on a given day, the instructor or the university will notify students.
+Students who experience a personal emergency should contact the instructor as soon as possible to arrange to complete coursework.
 
-## Course policies
 
-### Accommodations
+Should public health recommendations prevent in person class from being held on a given day, the instructor or the university will notify students.
 
-Any student requesting accommodations related to a disability or other condition must register with AccessibleNU[^2] and provide the instructor with an accommodation notification from AccessibleNU, preferably within the first two weeks of class. All information will remain confidential.
 
-[^2]: For more info visit <http://www.northwestern.edu/accessiblenu/> or contact accessiblenu\@northwestern.edu; 847.467.5530.
+## Recording
 
-### Recording
+Unauthorized student recording of classroom or other academic activities is prohibited.^[Including advising sessions or office hours.] Unauthorized recording is unethical and may also be a violation of University policy and state law. 
 
-Unauthorized student recording of classroom or other academic activities is prohibited.[^3] Unauthorized recording is unethical and may also be a violation of University policy and state law.
-
-[^3]: Including advising sessions or office hours.
-
-Students requesting the use of assistive technology as an accommodation should contact [AccessibleNU](https://www.northwestern.edu/accessiblenu/). Unauthorized use of classroom recordings --- including distributing or posting them --- is also prohibited.
+Students requesting the use of assistive technology as an accommodation should contact [AccessibleNU](https://www.northwestern.edu/accessiblenu/). Unauthorized use of classroom recordings --- including distributing or posting them --- is also prohibited. 
 
 Under the University's [Copyright Policy](https://www.invo.northwestern.edu/invention-disclosure/policies-forms/copyright-policy/), faculty own the copyright to instructional materials --- including those resources created specifically for the purposes of instruction, such as syllabi, lectures and lecture notes, and presentations. Students cannot copy, reproduce, display, or distribute these materials. Students who engage in unauthorized recording, unauthorized use of a recording, or unauthorized distribution of instructional materials will be referred to the appropriate University office for follow-up.
 
-### Academic Integrity
+This class or portions of this class will be recorded by the instructor for educational purposes. Your instructor will communicate how members of the class can access the recordings. Portions of the course that contain images, questions or commentary/discussion by students will be edited out of any recordings that are saved beyond the current term.
 
-Students are responsible for reading and understanding [Northwestern's academic integrity policy](http://www.northwestern.edu/provost/students/integrity/)[^4]. Suspected violations of academic integrity will be reported to the Weinberg College Dean's Office[^5].
+## Academic Integrity
 
-[^4]: Found at <http://www.northwestern.edu/provost/students/integrity/>
+Students in this course are required to comply with the policies found in the booklet, "Academic Integrity at Northwestern University: A Basic Guide". All papers submitted for credit in this course must be submitted electronically unless otherwise instructed by the professor. Your written work may be tested for plagiarized content. For details regarding academic integrity at Northwestern or to download the guide, visit: [https://www.northwestern.edu/provost/policies-procedures/academic-integrity/index.html](https://www.northwestern.edu/provost/policies-procedures/academic-integrity/index.html)
 
-[^5]: See your school's policies for more details, for example [WCAS Policies](http://www.weinberg.northwestern.edu/handbook/integrity/index.html).
+## Sexual Misconduct & Reporting
 
-### Sexual Misconduct & Reporting
-
-Northwestern University is committed to fostering an environment where students are safe and free from sexual misconduct. Confidential resources are available to those who have experienced sexual misconduct.[^6]
-
-[^6]: See <http://www.northwestern.edu/sexual-misconduct/get-help/confidential-support.html> for details.
+Northwestern University is committed to fostering an environment where students are safe and free from sexual misconduct. Confidential resources are available to those who have experienced sexual misconduct.^[ See [http://www.northwestern.edu/sexual-misconduct/get-help/confidential-support.html](http://www.northwestern.edu/sexual-misconduct/get-help/confidential-support.html) for details.] 
 
 Faculty, instructors, and TAs are **not** confidential resources and are required to report incidents of sexual misconduct, whether discussed in your assignments or in person, to the Title IX Coordinator, who can provide information about resources and options.
+ 
+We encourage students who have experienced sexual misconduct to talk with someone to get support. For more information visit the [Get Help](http://www.northwestern.edu/sexual-misconduct/get-help/index.html)^[[http://www.northwestern.edu/sexual-misconduct/get-help/index.html](http://www.northwestern.edu/sexual-misconduct/get-help/index.html)].
 
-We encourage students who have experienced sexual misconduct to talk with someone to get support. For more information, including how to request interim protective measures and academic accommodations or file a complaint, visit the [Get Help](http://www.northwestern.edu/sexual-misconduct/get-help/index.html)[^7].
+## Discrimination & Sexual Harassment
 
-[^7]: <http://www.northwestern.edu/sexual-misconduct/get-help/index.html>
+Northwestern University's policies on Discrimination, Harassment, and Sexual Harassment apply to all members of the University community, including students, staff, and faculty. Any student, staff, or faculty member who believes that they have been discriminated against or harassed on the basis of his or her race, color, religion, national origin, sex, sexual orientation, gender identity, gender expression, parental status, marital status, age, disability, citizenship, veteran status, genetic information or any other classification protected by law, should contact the Office of Equal Opportunity and Access^[847.491.7458] or the Sexual Harassment Prevention Office^[847.467.6571]. 
 
-### Discrimination & Sexual Harassment
+Additional information about the University's discrimination and harassment policies, including the campus resources available to assist individuals with discrimination or harassment concerns, is available online on the [Human Resources Equal Opportunity and Access website](http://www.northwestern.edu/hr/equlopp-access/index.html)^[ [http://www.northwestern.edu/hr/equlopp-access/index.html](http://www.northwestern.edu/hr/equlopp-access/index.html)].
 
-Northwestern University's policies on Discrimination, Harassment, and Sexual Harassment apply to all members of the University community, including students, staff, and faculty. Any student, staff, or faculty member who believes that they have been discriminated against or harassed on the basis of his or her race, color, religion, national origin, sex, sexual orientation, gender identity, gender expression, parental status, marital status, age, disability, citizenship, veteran status, genetic information or any other classification protected by law, should contact the Office of Equal Opportunity and Access[^8] or the Sexual Harassment Prevention Office[^9].
+Northwestern strictly prohibits retaliation against any member of its community for reporting or inquiring about wrongful or unlawful activity. For more details see [https://policies.northwestern.edu/docs/non-retaliation-policy-FINAL.pdf](https://policies.northwestern.edu/docs/non-retaliation-policy-FINAL.pdf).
 
-[^8]: 847.491.7458
+## Wellness & Mental Health Resources
 
-[^9]: 847.467.6571
+Northwestern University is committed to supporting the wellness of our students. Student Affairs has multiple resources to support student wellness and mental health.  If you are feeling distressed or overwhelmed, please reach out for help. Students can access confidential resources through the Counseling and Psychological Services (CAPS), Religious and Spiritual Life (RSL) and the Center for Awareness, Response and Education (CARE). Additional information on all of the resources mentioned above can be found here:
 
-Additional information about the University's discrimination and harassment policies, including the campus resources available to assist individuals with discrimination or harassment concerns, is available online on the [Human Resources Equal Opportunity and Access website](http://www.northwestern.edu/hr/equlopp-access/index.html)[^10].
+- [https://www.northwestern.edu/counseling/](https://www.northwestern.edu/counseling/)
+- [https://www.northwestern.edu/religious-life/](https://www.northwestern.edu/religious-life/)
+- [https://www.northwestern.edu/care/](https://www.northwestern.edu/care/)
 
-[^10]: <http://www.northwestern.edu/hr/equlopp-access/index.html>
+## Student Resources
 
-\noindent Northwestern strictly prohibits retaliation against any member of its community for reporting or inquiring about wrongful or unlawful activity. For more details see <https://policies.northwestern.edu/docs/non-retaliation-policy-FINAL.pdf>.
-
-### Wellness & Mental Health Resources
-
-Northwestern University is committed to supporting the wellness of our students. Student Affairs has multiple resources to support student wellness and mental health. If you are feeling distressed or overwhelmed, please reach out for help. Students can access confidential resources through the Counseling and Psychological Services (CAPS), Religious and Spiritual Life (RSL) and the Center for Awareness, Response and Education (CARE). Additional information on all of the resources mentioned above can be found here:
-
--   <https://www.northwestern.edu/counseling/>
--   <https://www.northwestern.edu/religious-life/>
--   <https://www.northwestern.edu/care/>
-
-### Student Resources
-
-Student Enrichment Services (SES) partners with FGLI students -- pronounced figly -- who are first-generation, lower-income, and/or DACA/Undocumented. SES works with these students to foster identity development, navigate campus resources, and build community. Through campus-wide partnerships and advocacy, SES strives to build an inclusive Northwestern community that is welcoming, supportive, and accessible for all students. SES can connect you to a number of resources (emergency aid assistance, books, supplies, laptops, food accessibility and much more!) both within the SES office and across campus. For more information please visit [https://www.northwestern.edu/enrichment](https://www.northwestern.edu/enrichment/).
+\textsc{Student Enrichment Services (SES) partners} with FGLI students – pronounced figly – who are first-generation, lower-income, and/or DACA/Undocumented. SES works with these students to foster identity development, navigate campus resources, and build community. Through campus-wide partnerships and advocacy, SES strives to build an inclusive Northwestern community that is welcoming, supportive, and accessible for all students. SES can connect you to a number of resources (emergency aid assistance, books, supplies, laptops, food accessibility and much more!) both within the SES office and across campus. For more information please visit [https://www.northwestern.edu/enrichment](https://www.northwestern.edu/enrichment/).
 
 ## Important dates
 
