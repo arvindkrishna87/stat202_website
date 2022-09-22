@@ -186,7 +186,7 @@ Students in this course are required to comply with the policies found in the bo
 
 Northwestern University is committed to fostering an environment where students are safe and free from sexual misconduct. Confidential resources are available to those who have experienced sexual misconduct.[^3]
 
-[^3]:  See <http://www.northwestern.edu/sexual-misconduct/get-help/confidential-support.html> for details.
+[^3]: See <http://www.northwestern.edu/sexual-misconduct/get-help/confidential-support.html> for details.
 
 Faculty, instructors, and TAs are **not** confidential resources and are required to report incidents of sexual misconduct, whether discussed in your assignments or in person, to the Title IX Coordinator, who can provide information about resources and options.
 
@@ -204,7 +204,7 @@ Northwestern University's policies on Discrimination, Harassment, and Sexual Har
 
 Additional information about the University's discrimination and harassment policies, including the campus resources available to assist individuals with discrimination or harassment concerns, is available online on the [Human Resources Equal Opportunity and Access website](http://www.northwestern.edu/hr/equlopp-access/index.html)[^7].
 
-[^7]:  <http://www.northwestern.edu/hr/equlopp-access/index.html>
+[^7]: <http://www.northwestern.edu/hr/equlopp-access/index.html>
 
 Northwestern strictly prohibits retaliation against any member of its community for reporting or inquiring about wrongful or unlawful activity. For more details see <https://policies.northwestern.edu/docs/non-retaliation-policy-FINAL.pdf>.
 
