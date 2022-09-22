@@ -79,21 +79,10 @@ agenda_today %>%
 
 ## Participate
 
-```{r}
-agenda_today %>% 
-  select(participate) %>% 
-  gt() %>% 
-  fmt_markdown(columns = c(participate) )%>%
-  cols_align(align = "left") %>% 
-  tab_options(column_labels.hidden = TRUE,
-              table.align = "left",
-              table_body.border.top.color = "white",
-              table_body.border.bottom.color = "white",
-              table_body.hlines.color = "white",
-              table.width = pct(100))
-```
-
-![](images/qr_202part1.png){height="1.5in"}
+| Sec 20 (Sass 9am)                                            | Sec 21 (Krish 1pm)                            |
+|--------------------------------------------------------------|-----------------------------------------------|
+| [https://ahaslides.com/SASS1](https://ahaslides.com/SASS1) | [https://ahaslides.com/KRISH1](https://ahaslides.com/KRISH1)   |
+| ![](images/qr_sasspart1.png){height="1in"}                 | ![](images/qr_krishpart1.png){height="1in"} |
 
 <br>
 
