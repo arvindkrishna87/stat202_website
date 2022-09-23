@@ -12,7 +12,6 @@ execute:
 
 <!-- Classes are virtual this week. -->
 
-<!-- Find Zoom links -->
 
 <!-- ::: -->
 
