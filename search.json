@@ -1,255 +1,17 @@
 [
   {
-    "objectID": "course-schedule.html",
-    "href": "course-schedule.html",
-    "title": "STAT 202: Introduction to Statistics and Data Science",
+    "objectID": "course-team.html",
+    "href": "course-team.html",
+    "title": "Course Team",
     "section": "",
-    "text": "Week\n      Date\n      Topic\n      \n        Prepare\n      \n      \n        Agenda\n      \n      \n        Homework\n      \n    \n    \n      Reading\n      Slides\n      Activity\n      submit_act\n      Tutorial\n      due\n    \n  \n  \n    1\n\nWed Sep 21\nIntroduction\nSyllabus\n\n\n\n practice\n\n\n RC_01\n\nThu Sep 22\n    \nFri Sep 23\nRstudio Cloud\nPreface & Ch 1\n\n\n\n act_01\n\n act_01\n\n RC_02\n\nSun Sep 25\n    2\n\nMon Sep 26\nData Visualization\nSections 2.0 - 2.3\n\n\n\n act_02\n\n act_02\n\n RC_03\n\nTue Sep 27\n    \nWed Sep 28\nData Visualization\nSections 2.4 - 2.6\n\n\n\n act_03\n\n act_03\n\n RC_04\n\nThu Sep 29\n    \nFri Sep 30\nData Visualization\nSections 2.7 - 2.9\n\n\n\n act_04\n\n act_04\n\n RC_05\n\nSun Oct 02\n    3\n\nMon Oct 03\nData Wrangling\nSections 3.0 - 3.3\n\n\n\n act_05\n\n act_05\n\n RC_06\n\nTue Oct 04\n    \nWed Oct 05\nData Wrangling\nSections 3.4 - 3.9\n\n\n\n act_06\n\n act_06\n\n RC_07\n\nThu Oct 06\n    \nFri Oct 07\nTidy Data\nChapter 4\n\n\n\n act_07\n\n act_07\n\n\nSun Oct 09\n    4\n\nMon Oct 10\nExam 1\n\n\n\n\n\n \n    \nWed Oct 12\nBasic Regression\nSections 5.0 - 5.1\n\n\n\n act_08\n\n act_08\n\n RC_08\n\nThu Oct 13\n    \nFri Oct 14\nBasic Regression\nSections 5.2 - 5.4\n\n\n\n act_09\n\n act_09\n\n RC_09\n\nSun Oct 16\n    5\n\nMon Oct 17\nMultiple Regression\nSections 6.0 - 6.1\n\n\n\n act_10\n\n act_10\n\n RC_10\n\nTue Oct 18\n    \nWed Oct 19\nMultiple Regression\nSections 6.2 - 6.4\n\n\n\n act_11\n\n act_11\n\n RC_11\n\nThu Oct 20\n    \nFri Oct 21\nRandomization & Causality\nChapter 7\n\n\n\n act_12\n\n act_12\n\n RC_12\n\nSun Oct 23\n    6\n\nMon Oct 24\nPop & Generalizability\nChapter 8\n\n\n\n act_13\n\n act_13\n\n RC_13\n\nTue Oct 25\n    \nWed Oct 26\nNormal Distributions\nSections 9.0 - 9.1\n\n\n\n act_14\n\n act_14\n\n RC_14\n\nThu Oct 27\n    \nFri Oct 28\nSampling Distributions\nSections 9.2 - 9.3\n\n\n\n act_15\n\n\n\n \n    7\n\nMon Oct 31\nExam 2\n\n\n\n act_15\n\n RC_15\n\nTue Nov 01\n    \nWed Nov 02\nSampling Distributions\nSections 9.4 - 9.7\n\n\n\n act_16\n\n act_16\n\n RC_16\n\nThu Nov 03\n    \nFri Nov 04\nConfidence Intervals\nChapter 10\n\n\n\n act_17\n\n\n RC_17\n\nSun Nov 06\n    8\n\nMon Nov 07\nConfidence Intervals\n\n\n\n act_17 (cont'd)\n\n act_17\n\n\nTue Nov 08\n    \nWed Nov 09\nP-values\nChapter 11\n\n\n\n act_18\n\n act_18\n\n RC_18\n\nThu Nov 10\n    \nFri Nov 11\nHypothesis Testing I\nChapter 12\n\n\n\n act_19\n\n act_19\n\n RC_19\n\nSun Nov 13\n    9\n\nMon Nov 14\nHypothesis Testing II\n\n\n\n act_20\n\n\n\n \n    \nWed Nov 16\nHypothesis Testing III\n\n\n act_20 (cont'd)\n\n act_20\n\n\nThu Nov 17\n    \nFri Nov 18\nPutting it all together I\nChapter 13\n\n\n\n\n\n \n    10\n\nMon Nov 21\nExam 3\n\n\n\n\n\n \n    \nWed Nov 23\nThanksgiving - No Class\n\n\n\n\n\n \n    \nFri Nov 25\nThanksgiving - No Class\n\n\n\n\n\n \n    11\n\nMon Nov 28\nReading Week - No Class\n\n\n\n\n\n \n    \nWed Nov 30\nReading Week - No Class\n\n\n\n\n\n \n    \nFri Dec 02\nReading Week - No Class\n\n\n\n\n\n \n    12\n\nThu Dec 08\nOptional Final Exam: 9-10am or 3 - 4pm"
+    "text": "Section 20: Dr. Danielle Sass is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. She received her Ph.D in Statistics from the University of Illinois at Urbana-Champaign. Her passion and focus is curriculum and content development for undergraduate students. Office hours can be made by appointment by emailing danielle.sass@northwestern.edu\n\n\n\n\n\n\nSection 21: Dr. Arvind Krishna is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. He received his Ph.D in Statistics from Georgia Institute of Technology. Office hours can be made by appointment by emailing krish@northwestern.edu"
   },
   {
-    "objectID": "course-links.html",
-    "href": "course-links.html",
-    "title": "Course Links",
-    "section": "",
-    "text": "Textbook\nIntroduction to Statistics and Data Science\n\n\nCampuswire\nPost questions here!\n\n\nRStudio Cloud\nRStudio Cloud\n\n\nLecture recordings\n🔗 on Panopto\n\n\nVirtual meetings\nZoom"
-  },
-  {
-    "objectID": "slides/lec03.html#todays-goals",
-    "href": "slides/lec03.html#todays-goals",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "Today’s goals",
-    "text": "Today’s goals\n\n\n\n\nCreate a linegraph\nCreate a histogram\nProperly describe a linegraph and histogram\nFacet graphs based on subgroups\n\n\n\n\n\nArtwork by @allison_horst"
-  },
-  {
-    "objectID": "slides/lec03.html#ng2-linegraphs",
-    "href": "slides/lec03.html#ng2-linegraphs",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "5NG#2: Linegraphs",
-    "text": "5NG#2: Linegraphs\nLinegraphs show the relationship between 2 numerical variables.\n\n\nThe explanatory (x-axis) variable must be of sequential ordering.\n\n\n\nLinegraph syntax in R:\n\nggplot(data= my_data, mapping = aes(x = var1, y = var2)) +\n  geom_line()"
-  },
-  {
-    "objectID": "slides/lec03.html#ng2-linegraphs-1",
-    "href": "slides/lec03.html#ng2-linegraphs-1",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "5NG#2: Linegraphs",
-    "text": "5NG#2: Linegraphs\nWhen describing linegraphs…\n\n\nLook for pattern going from left to right.\nClassify association as positive, negative, or no association.\nClassify relationship as linear or non linear.\nCheck x and y scales to make sure they are appropriate."
-  },
-  {
-    "objectID": "slides/lec03.html#ng3-histograms",
-    "href": "slides/lec03.html#ng3-histograms",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "5NG#3: Histograms",
-    "text": "5NG#3: Histograms\n\nHistograms are used to visualize the distribution of a single numerical variable.\n\n\n\nHistograms display numerical data by grouping data into bins of equal width.\n\n\n\n\nThere is no ‘y’ position aesthetic for geom_histogram() because we are investigating a single variable."
-  },
-  {
-    "objectID": "slides/lec03.html#ng3-histograms-1",
-    "href": "slides/lec03.html#ng3-histograms-1",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "5NG#3: Histograms",
-    "text": "5NG#3: Histograms\nHistogram syntax in R:\n\nggplot(data= my_data, aes(x = var1)) +\n  geom_histogram(color = \"white\", fill = \"blue\", bins = 10)\n\n\n\n There are 3 things we look and describe when inspecting a histogram:\n\nshape (skew and modality)\ncenter (mean or median)\nspread (range, IQR, or standard deviation)\n\n\n\nNot all distributions have a simple recognizable shape!\n\nType colors() in the console to view all possible colors."
-  },
-  {
-    "objectID": "slides/lec03.html#ng3-histograms-2",
-    "href": "slides/lec03.html#ng3-histograms-2",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "5NG#3: Histograms",
-    "text": "5NG#3: Histograms"
-  },
-  {
-    "objectID": "slides/lec03.html#example-1-histogram-bins",
-    "href": "slides/lec03.html#example-1-histogram-bins",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "Example 1: Histogram bins",
-    "text": "Example 1: Histogram bins\nWhich bin size is most appropriate and describe the distribution of penguin body mass.\n\n\n\n\nBins = 7Bins = 18Bins = 29\n\n\n\nggplot(penguins, aes(x=penguins$body_mass_g)) +\n    geom_histogram(color = \"white\", \n                   fill = \"lightblue\", \n                   bins = 7)+\n    labs(title = \"Palmer Penguins Distribution of Body Mass\",\n           x = \"Body Mass (g)\")\n\n\n\n\n\n\n\nggplot(penguins, aes(x=penguins$body_mass_g)) +\n    geom_histogram(color = \"white\", \n                   fill = \"lightblue\", \n                   bins = 18)+\n    labs(title = \"Palmer Penguins Distribution of Body Mass\",\n           x = \"Body Mass (g)\")\n\n\n\n\n\n\n\nggplot(penguins, aes(x=penguins$body_mass_g)) +\n    geom_histogram(color = \"white\", \n                   fill = \"lightblue\", \n                   bins = 29)+\n    labs(title = \"Palmer Penguins Distribution of Body Mass\",\n           x = \"Body Mass (g)\")\n\n\n\n\n\n\n\n\nhttps://northwestern-university.shinyapps.io/lec03_histogram/"
-  },
-  {
-    "objectID": "slides/lec03.html#example-2-histogram-bins",
-    "href": "slides/lec03.html#example-2-histogram-bins",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "Example 2: Histogram bins",
-    "text": "Example 2: Histogram bins\n\n\n\nWhich bin size is most appropriate and describe the distribution of penguin flipper length.\n\nBins = 15Bins = 25Bins = 35\n\n\n\n  ggplot(penguins, aes(x=penguins$flipper_length_mm )) +\n    geom_histogram(color = \"white\", \n                   fill = \"tomato1\", \n                   bins = 15)+\n    labs(title = \"Palmer Penguins Distribution of Flipper Length\",\n           x = \"Flipper Length (mm)\")\n\n\n\n\n\n\n\n  ggplot(penguins, aes(x=penguins$flipper_length_mm )) +\n    geom_histogram(color = \"white\", \n                   fill = \"tomato1\", \n                   bins = 25)+\n    labs(title = \"Palmer Penguins Distribution of Flipper Length\",\n           x = \"Flipper Length (mm)\")\n\n\n\n\n\n\n\n  ggplot(penguins, aes(x=penguins$flipper_length_mm )) +\n    geom_histogram(color = \"white\", \n                   fill = \"tomato1\", \n                   bins = 35)+\n    labs(title = \"Palmer Penguins Distribution of Flipper Length\",\n           x = \"Flipper Length (mm)\")"
-  },
-  {
-    "objectID": "slides/lec03.html#faceting",
-    "href": "slides/lec03.html#faceting",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "Faceting",
-    "text": "Faceting\n\nFaceting is used to make the same plot for different subgroups of the dataset.\nThis is useful for comparing the same variable across different subgroups in the dataset.\nfacet_wrap(~var) can be added on to ANY plot type (scatterplot, linegraph, histogram, boxplot, barplot)\n\n\n\nggplot(penguins, aes(x=flipper_length_mm)) +\n    geom_histogram(color = \"white\", fill = \"tomato1\", bins = 11) +\n    facet_wrap(~ species)"
-  },
-  {
-    "objectID": "slides/lec03.html#common-coding-errors",
-    "href": "slides/lec03.html#common-coding-errors",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "Common Coding Errors",
-    "text": "Common Coding Errors\n\n\n\nWhich of the following are correct?\na)  \n\nggplot(penguins, aes(x=flipper_length_mm)) +\n  geom_histogram(aes(color = \"white\"))\n\nb)  \n\nggplot(penguins, aes(x=flipper_length_mm)) +\n  geom_histogram(color = \"white\")\n\nc)  \n\nggplot(penguins) +\n  geom_histogram(x = flipper_length_mm, color = \"white\")\n\nd)  \n\nggplot(penguins) +\n  geom_histogram(aes(x = flipper_length_mm) , color = \"white\")"
-  },
-  {
-    "objectID": "slides/lec03.html#extra-information-and-resources",
-    "href": "slides/lec03.html#extra-information-and-resources",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "Extra information and resources",
-    "text": "Extra information and resources\nWikipedia bin size info\nHelpful guidelines:\n\nLarger number of observations generally correspond to larger number of bins needed.\nYou will generally need to test several different number of bins to learn about the data and find an appropriate value.\nSturges Rule of Thumb for unimodal symmetric distributions: bins = 1 + 3.322*log(n)\nSturge’s rule is not great if the data is severely skewed, multi-modal, or for an extremely large number of observations. But it could give you a starting place and then you will want to increase the number of bins until you can properly see the shape."
-  },
-  {
-    "objectID": "slides/lec02.html#todays-goals",
-    "href": "slides/lec02.html#todays-goals",
-    "title": "Data Visualization  Sections 2.0 - 2.3",
-    "section": "Today’s goals",
-    "text": "Today’s goals\n\n\n\n\nCreate a scatterplot\nProperly describe a scatterplot\nChange aesthetics such as color and shape in your plot\nSolve overplotting issues\n\n\n\n\n\nArtwork by @allison_horst"
-  },
-  {
-    "objectID": "slides/lec02.html#the-grammar-of-graphics",
-    "href": "slides/lec02.html#the-grammar-of-graphics",
-    "title": "Data Visualization  Sections 2.0 - 2.3",
-    "section": "The Grammar of Graphics",
-    "text": "The Grammar of Graphics\n\n\n\n\n\nDefines a set of rules for constructing statistical graphics by combining different types of layers.\n\n\n\n\n\n\n  \n  \n    \n      Layer\n      Function\n      Explanation\n    \n  \n  \n    Data\nggplot( )\ninitialize plot and define dataset first\n    Aesthetics\naes( )\nhow variables are mapped\n    Geometries\ngeom_*( )\nhow data is conveyed\n    Facets\nfacet_*( )\nseparates plots by categories\n    Statistics\nstat_*( )\nstatistical transformations\n    Coordinates\ncoord_*( )\ncustomize coord system\n    Theme\ntheme( )\ncustomize non-data components\n  \n  \n  \n\n\n\n\n\n\n\nOnly the first three layers are essential components that must be defined when building a graphic."
-  },
-  {
-    "objectID": "slides/lec02.html#ng1-scatterplots",
-    "href": "slides/lec02.html#ng1-scatterplots",
-    "title": "Data Visualization  Sections 2.0 - 2.3",
-    "section": "5NG#1: Scatterplots",
-    "text": "5NG#1: Scatterplots\n\nScatterplots allow you to visualize the relationship between 2 numerical variables.\n\n\nScatterplot syntax in R:\n\nggplot(data= my_data, mapping = aes(x = var1, y = var2)) +\n  geom_point()\n\n\n\n\nScatterplot language: Construct a scatterplot of Y by X."
-  },
-  {
-    "objectID": "slides/lec02.html#ng1-scatterplots-1",
-    "href": "slides/lec02.html#ng1-scatterplots-1",
-    "title": "Data Visualization  Sections 2.0 - 2.3",
-    "section": "5NG#1: Scatterplots",
-    "text": "5NG#1: Scatterplots\nWhen describing scatterplots…\n\n\nLook for pattern going from left to right.\nClassify association as positive, negative, or no association.\nClassify strength of association: strong, moderate, weak.\nDescribe overall pattern: linear, nonlinear, etc.\nCheck for overplotting issues."
-  },
-  {
-    "objectID": "slides/lec02.html#the-palmer-penguins-dataset",
-    "href": "slides/lec02.html#the-palmer-penguins-dataset",
-    "title": "Data Visualization  Sections 2.0 - 2.3",
-    "section": "The Palmer Penguins Dataset:",
-    "text": "The Palmer Penguins Dataset:\n\nlibrary(palmerpenguins)\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~\n$ sex               <fct> male, female, female, NA, female, male, female, male~\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~\n\n\n\n\n\n\n\n\n\n\nArtwork by @allison_horst"
-  },
-  {
-    "objectID": "slides/lec02.html#example-1-describing-scatterplots",
-    "href": "slides/lec02.html#example-1-describing-scatterplots",
-    "title": "Data Visualization  Sections 2.0 - 2.3",
-    "section": "Example 1: Describing scatterplots",
-    "text": "Example 1: Describing scatterplots\n\n\n\n\nPlotData\n\n\n\nggplot(penguins, aes(x=flipper_length_mm, y=bill_length_mm)) +\n  geom_point()\n\n\n\n\nFig A\n\n\n\n\n\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~\n$ sex               <fct> male, female, female, NA, female, male, female, male~\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~"
-  },
-  {
-    "objectID": "slides/lec02.html#example-2-describing-scatterplots",
-    "href": "slides/lec02.html#example-2-describing-scatterplots",
-    "title": "Data Visualization  Sections 2.0 - 2.3",
-    "section": "Example 2: Describing scatterplots",
-    "text": "Example 2: Describing scatterplots\n\n\n\n\nPlotData\n\n\n\nggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm)) +\n  geom_point()\n\n\n\n\nFig B\n\n\n\n\n\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~\n$ sex               <fct> male, female, female, NA, female, male, female, male~\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~"
-  },
-  {
-    "objectID": "slides/lec02.html#example-2-describing-scatterplots-1",
-    "href": "slides/lec02.html#example-2-describing-scatterplots-1",
-    "title": "Data Visualization  Sections 2.0 - 2.3",
-    "section": "Example 2: Describing scatterplots",
-    "text": "Example 2: Describing scatterplots\n\nPlotData\n\n\n\nggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm, color = sex)) +\n  geom_point()\n\n\n\n\nFig C\n\n\n\n\n\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~\n$ sex               <fct> male, female, female, NA, female, male, female, male~\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~"
-  },
-  {
-    "objectID": "slides/lec02.html#example-2-describing-scatterplots-2",
-    "href": "slides/lec02.html#example-2-describing-scatterplots-2",
-    "title": "Data Visualization  Sections 2.0 - 2.3",
-    "section": "Example 2: Describing scatterplots",
-    "text": "Example 2: Describing scatterplots\n\nPlotData\n\n\n\nggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm, color = species)) +\n  geom_point()\n\n\n\n\nFig D\n\n\n\n\n\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~\n$ sex               <fct> male, female, female, NA, female, male, female, male~\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~"
-  },
-  {
-    "objectID": "slides/lec02.html#common-coding-errors",
-    "href": "slides/lec02.html#common-coding-errors",
-    "title": "Data Visualization  Sections 2.0 - 2.3",
-    "section": "Common Coding Errors",
-    "text": "Common Coding Errors\n\n\n\n\nggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm)) +\n  geom_point() +\n\n\n\n\n\nPlus sign to nowhere. What would happen if you type “1+2+” into a calculator? An error!\n\n\n\n\n\nggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm) +\n  geom_point()\n\n\n\n\n\nAll parenthesis must me closed!\n\n\n\n\n\nggplot(Penguins, aes(x=Flipper_length_mm, y=Bill_depth_mm) +\n  geom_point()\n\n\n\n\n\nR is case sensitive! Make sure the data and variable names match EXACTLY."
-  },
-  {
-    "objectID": "slides/lec02.html#extra-information-and-resources",
-    "href": "slides/lec02.html#extra-information-and-resources",
-    "title": "Data Visualization  Sections 2.0 - 2.3",
-    "section": "Extra information and resources",
-    "text": "Extra information and resources\n\n\nggplot2 cheatsheet link\nNumerical vs Categorical data examples:"
-  },
-  {
-    "objectID": "slides/lec08.html#todays-goals",
-    "href": "slides/lec08.html#todays-goals",
-    "title": "Regression  Chapter 5.0 - 5.1",
-    "section": "Today’s goals",
-    "text": "Today’s goals\n\n\n\n\nFind the correlation between two variables\nBuild and interpret a linear regression model\nMake predictions using a linear regression model\nPlot the line of best fit on a scatterplot\n\n\n\n\n\nArtwork by @allison_horst"
-  },
-  {
-    "objectID": "slides/lec08.html#a-note-about-regression",
-    "href": "slides/lec08.html#a-note-about-regression",
-    "title": "Regression  Chapter 5.0 - 5.1",
-    "section": "A Note about Regression",
-    "text": "A Note about Regression\n\nRemember that, BEFORE building a model, you should conduct an exploratory data analysis.\n\nYou will almost certainly need to do some data wrangling and visualizations before the model analysis.\n\nFor this lessons example we will be using a subset of the penguins dataset that only includes male penguins from the Chinstrap species and Dream island. This is stored in penguin_sub."
-  },
-  {
-    "objectID": "slides/lec08.html#correlation-coefficient",
-    "href": "slides/lec08.html#correlation-coefficient",
-    "title": "Regression  Chapter 5.0 - 5.1",
-    "section": "Correlation Coefficient",
-    "text": "Correlation Coefficient\nCorrelation coefficient: a number between -1 and 1 indicating the strength of the linear relationship between two numerical variables.\n\nMatch the following graphs with the most appropriate correlation coefficient:\n\n\n    a) -0.2     b) 0     c) 0.4     d) 0.7\n\n\n\n\n\n    a) -1     b) -0.75     c) -0.9     d) 1\n\n\n\n\n\nDistance traveled vs the amount of gas in the car.\n\na) Exactly -1     b) Between -1 and 0     c) About 0\nd) Between 0 and 1     e) Exactly 1"
-  },
-  {
-    "objectID": "slides/lec08.html#correlation-coefficient-continued",
-    "href": "slides/lec08.html#correlation-coefficient-continued",
-    "title": "Regression  Chapter 5.0 - 5.1",
-    "section": "Correlation Coefficient (continued)",
-    "text": "Correlation Coefficient (continued)\nThe following code shows three different options for calculating the correlation between two variables within the penguins dataset.\n\nCorrelationData: penguin_sub\n\n\n\n# Option 1\npenguin_sub %>%\n  select(flipper_length_mm, body_mass_g) %>% \n  cor()\n# Option 2\npenguin_sub %>%\n    summarize(cor = cor(flipper_length_mm, body_mass_g) )\n# Option 3\ncor(penguins$flipper_length_mm, penguins$body_mass_g)\n\n\n\n\npenguin_sub <- penguins %>% \n  filter(sex == \"male\", species == \"Chinstrap\", island == \"Dream\") %>% \n  mutate(id = seq(1:34))\n\nglimpse(penguin_sub)\n\nRows: 34\nColumns: 9\n$ species           <fct> Chinstrap, Chinstrap, Chinstrap, Chinstrap, Chinstra…\n$ island            <fct> Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dre…\n$ bill_length_mm    <dbl> 50.0, 51.3, 52.7, 51.3, 51.3, 51.7, 52.0, 50.5, 50.3…\n$ bill_depth_mm     <dbl> 19.5, 19.2, 19.8, 18.2, 19.9, 20.3, 18.1, 19.6, 20.0…\n$ flipper_length_mm <int> 196, 193, 197, 197, 198, 194, 201, 201, 197, 195, 19…\n$ body_mass_g       <int> 3900, 3650, 3725, 3750, 3700, 3775, 4050, 4050, 3300…\n$ sex               <fct> male, male, male, male, male, male, male, male, male…\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…\n$ id                <int> 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1…\n\n\n\n\n\n\nYou will most likely need to filter out missing data beforehand OR set use = \"complete.obs\" inside the cor() function. This is the equivalent of when we set na.rm = TRUE in other summary functions."
-  },
-  {
-    "objectID": "slides/lec08.html#simple-linear-regression-slr",
-    "href": "slides/lec08.html#simple-linear-regression-slr",
-    "title": "Regression  Chapter 5.0 - 5.1",
-    "section": "Simple Linear Regression (SLR)",
-    "text": "Simple Linear Regression (SLR)\n\nDefinition: Simple linear regression: models the relationship between a response (y) variable and one explanatory (x) variable.\nEssentially, we are finding the line of best fit for a scatterplot between ‘x’ and ‘y’."
-  },
-  {
-    "objectID": "slides/lec08.html#slr-continued",
-    "href": "slides/lec08.html#slr-continued",
-    "title": "Regression  Chapter 5.0 - 5.1",
-    "section": "SLR (continued)",
-    "text": "SLR (continued)\nEquation of a regression line: \\[\\hat{y} = b_0 + b_1*x\\]\n\n\n\\(b_0\\) : intercept; the expected value of \\(\\hat{y}\\) when \\(x = 0\\)\n\\(b_1\\) : slope; for every 1 unit increase in x, then \\(\\hat{y}\\) increases on average by \\(b_1\\)\nfitted values: \\(\\hat{y}\\); the predicted value on the regression line\nresiduals: \\(y - \\hat{y}\\); error in prediction"
-  },
-  {
-    "objectID": "slides/lec08.html#example-1-model",
-    "href": "slides/lec08.html#example-1-model",
-    "title": "Regression  Chapter 5.0 - 5.1",
-    "section": "Example 1: Model",
-    "text": "Example 1: Model\nConsider a subset of the penguins dataset that only includes male penguins from the Chinstrap species and Dream island. This is stored in penguin_sub.\n\nModelData: penguin_sub\n\n\nPredict a penguin’s body_mass_g using flipper_length_mm.\n\n#Build a model\nmodel_penguin <- lm(body_mass_g ~ flipper_length_mm, data = penguin_sub)\n\n\n\n\npenguin_sub <- penguins %>% \n  filter(sex == \"male\", species == \"Chinstrap\", island == \"Dream\")%>% \n  mutate(id = seq(1:34))\n\nglimpse(penguin_sub)\n\nRows: 34\nColumns: 9\n$ species           <fct> Chinstrap, Chinstrap, Chinstrap, Chinstrap, Chinstra…\n$ island            <fct> Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dre…\n$ bill_length_mm    <dbl> 50.0, 51.3, 52.7, 51.3, 51.3, 51.7, 52.0, 50.5, 50.3…\n$ bill_depth_mm     <dbl> 19.5, 19.2, 19.8, 18.2, 19.9, 20.3, 18.1, 19.6, 20.0…\n$ flipper_length_mm <int> 196, 193, 197, 197, 198, 194, 201, 201, 197, 195, 19…\n$ body_mass_g       <int> 3900, 3650, 3725, 3750, 3700, 3775, 4050, 4050, 3300…\n$ sex               <fct> male, male, male, male, male, male, male, male, male…\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…\n$ id                <int> 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1…"
-  },
-  {
-    "objectID": "slides/lec08.html#example-1-model-1",
-    "href": "slides/lec08.html#example-1-model-1",
-    "title": "Regression  Chapter 5.0 - 5.1",
-    "section": "Example 1: Model",
-    "text": "Example 1: Model\nConsider a subset of the penguins dataset that only includes male penguins from the Chinstrap species and Dream island. This is stored in penguin_sub.\n\nModelData: penguin_sub\n\n\nPredict a penguin’s body_mass_g using flipper_length_mm.\n\n#Build a model\n\nmodel_penguin <- lm(body_mass_g ~ flipper_length_mm, data = penguin_sub)\n\n#Summarize the model\nsummary(model_penguin)\n\n\nCall:\nlm(formula = body_mass_g ~ flipper_length_mm, data = penguin_sub)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-521.72 -177.33  -23.06  117.51  658.82 \n\nCoefficients:\n                   Estimate Std. Error t value Pr(>|t|)    \n(Intercept)       -4111.348   1600.726  -2.568   0.0151 *  \nflipper_length_mm    40.269      8.004   5.031 1.81e-05 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 274.8 on 32 degrees of freedom\nMultiple R-squared:  0.4417,    Adjusted R-squared:  0.4242 \nF-statistic: 25.31 on 1 and 32 DF,  p-value: 1.814e-05\n\n\n\n\n\npenguin_sub <- penguins %>% \n  filter(sex == \"male\", species == \"Chinstrap\", island == \"Dream\") %>% \n  mutate(id = seq(1:34))\n\nglimpse(penguin_sub)\n\nRows: 34\nColumns: 9\n$ species           <fct> Chinstrap, Chinstrap, Chinstrap, Chinstrap, Chinstra…\n$ island            <fct> Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dre…\n$ bill_length_mm    <dbl> 50.0, 51.3, 52.7, 51.3, 51.3, 51.7, 52.0, 50.5, 50.3…\n$ bill_depth_mm     <dbl> 19.5, 19.2, 19.8, 18.2, 19.9, 20.3, 18.1, 19.6, 20.0…\n$ flipper_length_mm <int> 196, 193, 197, 197, 198, 194, 201, 201, 197, 195, 19…\n$ body_mass_g       <int> 3900, 3650, 3725, 3750, 3700, 3775, 4050, 4050, 3300…\n$ sex               <fct> male, male, male, male, male, male, male, male, male…\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…\n$ id                <int> 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1…"
-  },
-  {
-    "objectID": "slides/lec08.html#example-1-plot-regression-line",
-    "href": "slides/lec08.html#example-1-plot-regression-line",
-    "title": "Regression  Chapter 5.0 - 5.1",
-    "section": "Example 1: Plot regression line",
-    "text": "Example 1: Plot regression line\n\nPlotModel\n\n\n\n# Plot relationship of variables\nggplot(penguin_sub, aes(x = flipper_length_mm, y = body_mass_g))+\n    geom_point()\n\n\n\n\n\n\n\nsummary(model_penguin)$coefficients\n\n                     Estimate  Std. Error   t value     Pr(>|t|)\n(Intercept)       -4111.34753 1600.725516 -2.568428 1.508617e-02\nflipper_length_mm    40.26936    8.003689  5.031349 1.814086e-05"
-  },
-  {
-    "objectID": "slides/lec08.html#example-1-plot-regression-line-1",
-    "href": "slides/lec08.html#example-1-plot-regression-line-1",
-    "title": "Regression  Chapter 5.0 - 5.1",
-    "section": "Example 1: Plot regression line",
-    "text": "Example 1: Plot regression line\n\nPlotModel\n\n\n\n# Add line of best fit\nggplot(penguin_sub, aes(x = flipper_length_mm, y = body_mass_g))+\n    geom_point() +\n  geom_smooth(method = \"lm\", se = FALSE)\n\n\n\n\n\n\n\nsummary(model_penguin)$coefficients\n\n                     Estimate  Std. Error   t value     Pr(>|t|)\n(Intercept)       -4111.34753 1600.725516 -2.568428 1.508617e-02\nflipper_length_mm    40.26936    8.003689  5.031349 1.814086e-05"
-  },
-  {
-    "objectID": "slides/lec08.html#example-1-residuals",
-    "href": "slides/lec08.html#example-1-residuals",
-    "title": "Regression  Chapter 5.0 - 5.1",
-    "section": "Example 1: Residuals",
-    "text": "Example 1: Residuals\n\nVisualizingCalculating\n\n\n\n\n\n\nPick a penguin:\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n\n\n\n\n\n\n\n\nObserved weight (y):\n\n\n\n\n\n\n\n\n\n\nPredicted weight (fitted value):\n\n\n\n\n\n\n\n\n\n\nResidual (error):\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPredict a penguin’s body_mass_g using flipper_length_mm.\n\npenguin_sub <- penguin_sub %>% \n  mutate(fitted = fitted(model_penguin),\n         residuals = residuals(model_penguin))\n\nglimpse(penguin_sub)\n\nRows: 34\nColumns: 11\n$ species           <fct> Chinstrap, Chinstrap, Chinstrap, Chinstrap, Chinstra…\n$ island            <fct> Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dre…\n$ bill_length_mm    <dbl> 50.0, 51.3, 52.7, 51.3, 51.3, 51.7, 52.0, 50.5, 50.3…\n$ bill_depth_mm     <dbl> 19.5, 19.2, 19.8, 18.2, 19.9, 20.3, 18.1, 19.6, 20.0…\n$ flipper_length_mm <int> 196, 193, 197, 197, 198, 194, 201, 201, 197, 195, 19…\n$ body_mass_g       <int> 3900, 3650, 3725, 3750, 3700, 3775, 4050, 4050, 3300…\n$ sex               <fct> male, male, male, male, male, male, male, male, male…\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…\n$ id                <int> 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1…\n$ fitted            <dbl> 3781.446, 3660.638, 3821.716, 3821.716, 3861.985, 37…\n$ residuals         <dbl> 118.55366, -10.63827, -96.71570, -71.71570, -161.985…"
-  },
-  {
-    "objectID": "slides/lec08.html#example-1-predicting",
-    "href": "slides/lec08.html#example-1-predicting",
-    "title": "Regression  Chapter 5.0 - 5.1",
-    "section": "Example 1: Predicting",
-    "text": "Example 1: Predicting\nRecall the equation of the regression line is\n\\[\\widehat{\\hbox{body_mass_g} } = -4111.3 + 40.3*\\hbox{flipper_length}\\]\n\nYou find a new male penguin from the Chinstrap species and Dream island that has a flipper length of 220 mm. What do you predict his weight to be in grams?\n\n\n-4111.3 + 40.3*220\n\n[1] 4754.7"
+    "objectID": "course-team.html#teaching-assistants",
+    "href": "course-team.html#teaching-assistants",
+    "title": "Course Team",
+    "section": "Teaching assistants",
+    "text": "Teaching assistants\nAll office hours will be held on-line via Zoom 998 6392 3813 on\n\nTuesdays 12-2pm and 4-6pm\nThursdays 11-1pm and 2-4pm\nSundays 1-4pm\n\n\n\n\n\n\n\n\n\n\nName\n\nEmail\nOffice hours\n\n\n\n\nKayla Schroeder (grader)\n\nKaylaSchroeder2026@u.northwestern.edu\nBy appointment\n\n\nDivya Narayan\n\ndivyanarayan2025@u.northwestern.edu\nTuesday 12-2pm\n\n\nJules Wathieu\n\njuleswathieu2024@u.northwestern.edu\nTuesday 4-6pm\n\n\nAlex Tun\n\nalextun2023@u.northwestern.edu\nThursday 11-1pm\n\n\nKole Butterer\n\nkolebutterer2023@u.northwestern.edu\nThursday 2-4pm\n\n\nShriya Kata\n\nshriyakata2025@u.northwestern.edu\nSunday 1-3pm\n\n\nKabeer Kishore\n\nkabeerkishore2023@u.northwestern.edu\nSunday 2-4pm"
   },
   {
     "objectID": "slides/lec05.html#todays-goals",
@@ -357,55 +119,6 @@
     "text": "Important information\n\nOrder of pipe operations matters!\nIf you are using & and | in the same filter be very careful and use parenthesis.\nMissing data is entered as NA in a data frame cell and can produce an error when using summarize unless you set na.rm=TRUE (ie: remove the NA values)."
   },
   {
-    "objectID": "slides/lec00.html#todays-agenda",
-    "href": "slides/lec00.html#todays-agenda",
-    "title": "Welcome to STAT 202",
-    "section": "Today’s agenda",
-    "text": "Today’s agenda\nMake sure you have completed the following agenda items by the end of class!\n\nReview the syllabus\nVisit the course’s Campuswire page using your @u.northwestern.edu email. Enrollment code: 7930\nGain access to the RStudio Cloud Class Workspace (link on Canvas)\nWe will be using AHA slides for participation this quarter.\nComplete the google survey - we will use this data later.\nTest out the homework system Reading Check 01 (RC 01).\nLogin/create your Northwestern Zoom Account if you do not have one. This will be used for office hours or requested appointments."
-  },
-  {
-    "objectID": "slides/lec07.html#todays-goals",
-    "href": "slides/lec07.html#todays-goals",
-    "title": "Tidy Data  Chapter 4",
-    "section": "Today’s goals",
-    "text": "Today’s goals\n\n\n\n\nImport datasets\nCan you determine if a dataset is tidy or messy?\nConduct an EDA\n\n\n\n\n\nArtwork by @allison_horst"
-  },
-  {
-    "objectID": "slides/lec07.html#importing-data",
-    "href": "slides/lec07.html#importing-data",
-    "title": "Tidy Data  Chapter 4",
-    "section": "Importing Data",
-    "text": "Importing Data\nUse the tidyverse and readxl packages to import data.\n\n#Import .csv\nfilename <- read_csv(\"data/filename.csv\")\n#Import .xlsx \nfilename <- read_excel(\"data/filename.xlsx\")\n#Import .rds\nfilename <- read_RDS(\"data/filename.rds\")\n#Load .rda \nload(\"data/filename.rda\")\n\nComputers are not smart! It can only access files that are sitting in your working directory. You must direct the computer to the file your data is located in!"
-  },
-  {
-    "objectID": "slides/lec07.html#tidy-data",
-    "href": "slides/lec07.html#tidy-data",
-    "title": "Tidy Data  Chapter 4",
-    "section": "Tidy Data",
-    "text": "Tidy Data\nThere are three interrelated rules which make a dataset tidy:\n\nEach variable must have its own column.\nEach observation must have its own row.\nEach value must have its own cell."
-  },
-  {
-    "objectID": "slides/lec07.html#tidy-data-continued",
-    "href": "slides/lec07.html#tidy-data-continued",
-    "title": "Tidy Data  Chapter 4",
-    "section": "Tidy Data (continued)",
-    "text": "Tidy Data (continued)\nWhich of the following are tidy?\n\n\n\n\n\na)\n\n\n\n\n\n\n\nb)"
-  },
-  {
-    "objectID": "slides/lec07.html#eda",
-    "href": "slides/lec07.html#eda",
-    "title": "Tidy Data  Chapter 4",
-    "section": "EDA",
-    "text": "EDA\nBefore using your data to make inferences, you should conduct an exploratory data analysis.\nYou do this by:\n\nlooking at the raw data: skim(data)\nlooking at the summary stats: mean, sd, median, min, max, missing values\nand visualizing the data: ggplot()\n\nThis helps you understand the data, form hypothesis, and aid in interpreting results."
-  },
-  {
-    "objectID": "slides/lec07.html#example-eda",
-    "href": "slides/lec07.html#example-eda",
-    "title": "Tidy Data  Chapter 4",
-    "section": "Example: EDA",
-    "text": "Example: EDA\n\nlibrary(skimr)\nskim(penguins)\n\n\nData summary\n\n\nName\npenguins\n\n\nNumber of rows\n344\n\n\nNumber of columns\n8\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\nfactor\n3\n\n\nnumeric\n5\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: factor\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nordered\nn_unique\ntop_counts\n\n\n\n\nspecies\n0\n1.00\nFALSE\n3\nAde: 152, Gen: 124, Chi: 68\n\n\nisland\n0\n1.00\nFALSE\n3\nBis: 168, Dre: 124, Tor: 52\n\n\nsex\n11\n0.97\nFALSE\n2\nmal: 168, fem: 165\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\nhist\n\n\n\n\nbill_length_mm\n2\n0.99\n43.92\n5.46\n32.1\n39.23\n44.45\n48.5\n59.6\n▃▇▇▆▁\n\n\nbill_depth_mm\n2\n0.99\n17.15\n1.97\n13.1\n15.60\n17.30\n18.7\n21.5\n▅▅▇▇▂\n\n\nflipper_length_mm\n2\n0.99\n200.92\n14.06\n172.0\n190.00\n197.00\n213.0\n231.0\n▂▇▃▅▂\n\n\nbody_mass_g\n2\n0.99\n4201.75\n801.95\n2700.0\n3550.00\n4050.00\n4750.0\n6300.0\n▃▇▆▃▂\n\n\nyear\n0\n1.00\n2008.03\n0.82\n2007.0\n2007.00\n2008.00\n2009.0\n2009.0\n▇▁▇▁▇"
-  },
-  {
     "objectID": "slides/lec06.html#todays-goals",
     "href": "slides/lec06.html#todays-goals",
     "title": "Data Wrangling  Chapter 3.4 - 3.9",
@@ -469,39 +182,46 @@
     "text": "Data Wrangling Example\n\n\n\nWhat if we want to start with our penguins dataset, then keep only observations that are not missing their body_mass_g, and then calculate the count by species, and then order the dataset from low to high.\na)\n\npenguins %>% \n  filter(!is.na(body_mass_g)) %>% \n  group_by(species) %>% \n  summarize(count = n()) %>% \n  arrange(count)\n\nb)\n\npenguins %>% \n  select(body_mass_g) %>% \n  group_by(species) %>% \n  summarize(count = n()) %>% \n  arrange(count)\n\nc)\n\npenguins %>% \n  filter(!is.na(body_mass_g)) %>% \n  group_by(species) %>% \n  summarize(count = n()) %>% \n  arrange(desc(count))\n\nd)\n\npenguins %>% \n  select(!is.na(body_mass_g)) %>% \n  summarize(count = n()) %>% \n  group_by(species) %>% \n  arrange(count)"
   },
   {
-    "objectID": "slides/lec01.html#todays-goals",
-    "href": "slides/lec01.html#todays-goals",
-    "title": "Introducing R Studio  Preface - Chapter 1",
+    "objectID": "slides/lec07.html#todays-goals",
+    "href": "slides/lec07.html#todays-goals",
+    "title": "Tidy Data  Chapter 4",
     "section": "Today’s goals",
-    "text": "Today’s goals\n\n\n\n\nChange the yaml heading on a document\nCreate your first code chunk!\nLearn the code chunk settings\nAssign values to a variable\n\n\n\n\n\nArtwork by @allison_horst"
+    "text": "Today’s goals\n\n\n\n\nImport datasets\nCan you determine if a dataset is tidy or messy?\nConduct an EDA\n\n\n\n\n\nArtwork by @allison_horst"
   },
   {
-    "objectID": "slides/lec01.html#agenda",
-    "href": "slides/lec01.html#agenda",
-    "title": "Introducing R Studio  Preface - Chapter 1",
-    "section": "Agenda",
-    "text": "Agenda\n\nComplete today’s activity first!\nThese slides just include helpful reminders that you may find useful to refer back to when working on later activities."
+    "objectID": "slides/lec07.html#importing-data",
+    "href": "slides/lec07.html#importing-data",
+    "title": "Tidy Data  Chapter 4",
+    "section": "Importing Data",
+    "text": "Importing Data\nUse the tidyverse and readxl packages to import data.\n\n#Import .csv\nfilename <- read_csv(\"data/filename.csv\")\n#Import .xlsx \nfilename <- read_excel(\"data/filename.xlsx\")\n#Import .rds\nfilename <- read_RDS(\"data/filename.rds\")\n#Load .rda \nload(\"data/filename.rda\")\n\nComputers are not smart! It can only access files that are sitting in your working directory. You must direct the computer to the file your data is located in!"
   },
   {
-    "objectID": "slides/lec01.html#rstudio-interface",
-    "href": "slides/lec01.html#rstudio-interface",
-    "title": "Introducing R Studio  Preface - Chapter 1",
-    "section": "RStudio interface",
-    "text": "RStudio interface\n\n\n\n\n\n\n\n\ncode and text for report go here\n\n\n\n\n\n\nstored variables and data shows up here\n\n\n\n\n\n\nyour working directory project files are here\n\n\n\n\n\n\nCONSOLE PANE one time code that does not appear in document can go here"
+    "objectID": "slides/lec07.html#tidy-data",
+    "href": "slides/lec07.html#tidy-data",
+    "title": "Tidy Data  Chapter 4",
+    "section": "Tidy Data",
+    "text": "Tidy Data\nThere are three interrelated rules which make a dataset tidy:\n\nEach variable must have its own column.\nEach observation must have its own row.\nEach value must have its own cell."
   },
   {
-    "objectID": "slides/lec01.html#useful-buttons",
-    "href": "slides/lec01.html#useful-buttons",
-    "title": "Introducing R Studio  Preface - Chapter 1",
-    "section": "Useful Buttons",
-    "text": "Useful Buttons\n\n\n\n\n\n\nChange view output settings\n\n\n\n\n\n\n\nExport html to submit"
+    "objectID": "slides/lec07.html#tidy-data-continued",
+    "href": "slides/lec07.html#tidy-data-continued",
+    "title": "Tidy Data  Chapter 4",
+    "section": "Tidy Data (continued)",
+    "text": "Tidy Data (continued)\nWhich of the following are tidy?\n\n\n\n\n\na)\n\n\n\n\n\n\n\nb)"
   },
   {
-    "objectID": "slides/lec01.html#useful-code-chunk-settings",
-    "href": "slides/lec01.html#useful-code-chunk-settings",
-    "title": "Introducing R Studio  Preface - Chapter 1",
-    "section": "Useful code chunk settings",
-    "text": "Useful code chunk settings\n\n\n```{r}\n#| message: false\n#| warning: false\n#| eval: false\n#| echo: false\n#| include: false\n```\n\n\nmessage: false prevents messages from appearing in knitted doc\nwarning: false prevents warnings from appearing in knitted doc\n\n\n\n\neval: false includes the code chunk in the knitted document but prevents the code chunk from being run\necho: false prevents code itself from printing but includes the results of the code\ninclude: false prevents code and its results from printing but still runs the code when knitted"
+    "objectID": "slides/lec07.html#eda",
+    "href": "slides/lec07.html#eda",
+    "title": "Tidy Data  Chapter 4",
+    "section": "EDA",
+    "text": "EDA\nBefore using your data to make inferences, you should conduct an exploratory data analysis.\nYou do this by:\n\nlooking at the raw data: skim(data)\nlooking at the summary stats: mean, sd, median, min, max, missing values\nand visualizing the data: ggplot()\n\nThis helps you understand the data, form hypothesis, and aid in interpreting results."
+  },
+  {
+    "objectID": "slides/lec07.html#example-eda",
+    "href": "slides/lec07.html#example-eda",
+    "title": "Tidy Data  Chapter 4",
+    "section": "Example: EDA",
+    "text": "Example: EDA\n\nlibrary(skimr)\nskim(penguins)\n\n\nData summary\n\n\nName\npenguins\n\n\nNumber of rows\n344\n\n\nNumber of columns\n8\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\nfactor\n3\n\n\nnumeric\n5\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: factor\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nordered\nn_unique\ntop_counts\n\n\n\n\nspecies\n0\n1.00\nFALSE\n3\nAde: 152, Gen: 124, Chi: 68\n\n\nisland\n0\n1.00\nFALSE\n3\nBis: 168, Dre: 124, Tor: 52\n\n\nsex\n11\n0.97\nFALSE\n2\nmal: 168, fem: 165\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\nhist\n\n\n\n\nbill_length_mm\n2\n0.99\n43.92\n5.46\n32.1\n39.23\n44.45\n48.5\n59.6\n▃▇▇▆▁\n\n\nbill_depth_mm\n2\n0.99\n17.15\n1.97\n13.1\n15.60\n17.30\n18.7\n21.5\n▅▅▇▇▂\n\n\nflipper_length_mm\n2\n0.99\n200.92\n14.06\n172.0\n190.00\n197.00\n213.0\n231.0\n▂▇▃▅▂\n\n\nbody_mass_g\n2\n0.99\n4201.75\n801.95\n2700.0\n3550.00\n4050.00\n4750.0\n6300.0\n▃▇▆▃▂\n\n\nyear\n0\n1.00\n2008.03\n0.82\n2007.0\n2007.00\n2008.00\n2009.0\n2009.0\n▇▁▇▁▇"
   },
   {
     "objectID": "slides/lec04.html#todays-goals",
@@ -565,6 +285,272 @@
     "title": "Data Visualization  Sections 2.7 - 2.9",
     "section": "Extra information and resources",
     "text": "Extra information and resources\n“factor” vs “character” variable\n\nfactor has predefined levels and the observation must be one of those levels (limited response options).\ncharacter can take on any string value (think open response options)\nFactors in R"
+  },
+  {
+    "objectID": "slides/lec00.html#todays-agenda",
+    "href": "slides/lec00.html#todays-agenda",
+    "title": "Welcome to STAT 202",
+    "section": "Today’s agenda",
+    "text": "Today’s agenda\nMake sure you have completed the following agenda items by the end of class!\n\nReview the syllabus\nVisit the course’s Campuswire page using your @u.northwestern.edu email. Enrollment code: 7930\nGain access to the RStudio Cloud Class Workspace (link on Canvas)\nWe will be using AHA slides for participation this quarter.\nComplete the google survey - we will use this data later.\nTest out the homework system Reading Check 01 (RC 01).\nLogin/create your Northwestern Zoom Account if you do not have one. This will be used for office hours or requested appointments."
+  },
+  {
+    "objectID": "slides/lec02.html#todays-goals",
+    "href": "slides/lec02.html#todays-goals",
+    "title": "Data Visualization  Sections 2.0 - 2.3",
+    "section": "Today’s goals",
+    "text": "Today’s goals\n\n\n\n\nCreate a scatterplot\nProperly describe a scatterplot\nChange aesthetics such as color and shape in your plot\nSolve overplotting issues\n\n\n\n\n\nArtwork by @allison_horst"
+  },
+  {
+    "objectID": "slides/lec02.html#the-grammar-of-graphics",
+    "href": "slides/lec02.html#the-grammar-of-graphics",
+    "title": "Data Visualization  Sections 2.0 - 2.3",
+    "section": "The Grammar of Graphics",
+    "text": "The Grammar of Graphics\n\n\n\n\n\nDefines a set of rules for constructing statistical graphics by combining different types of layers.\n\n\n\n\n\n\n  \n  \n    \n      Layer\n      Function\n      Explanation\n    \n  \n  \n    Data\nggplot( )\ninitialize plot and define dataset first\n    Aesthetics\naes( )\nhow variables are mapped\n    Geometries\ngeom_*( )\nhow data is conveyed\n    Facets\nfacet_*( )\nseparates plots by categories\n    Statistics\nstat_*( )\nstatistical transformations\n    Coordinates\ncoord_*( )\ncustomize coord system\n    Theme\ntheme( )\ncustomize non-data components\n  \n  \n  \n\n\n\n\n\n\n\nOnly the first three layers are essential components that must be defined when building a graphic."
+  },
+  {
+    "objectID": "slides/lec02.html#ng1-scatterplots",
+    "href": "slides/lec02.html#ng1-scatterplots",
+    "title": "Data Visualization  Sections 2.0 - 2.3",
+    "section": "5NG#1: Scatterplots",
+    "text": "5NG#1: Scatterplots\n\nScatterplots allow you to visualize the relationship between 2 numerical variables.\n\n\nScatterplot syntax in R:\n\nggplot(data= my_data, mapping = aes(x = var1, y = var2)) +\n  geom_point()\n\n\n\n\nScatterplot language: Construct a scatterplot of Y by X."
+  },
+  {
+    "objectID": "slides/lec02.html#ng1-scatterplots-1",
+    "href": "slides/lec02.html#ng1-scatterplots-1",
+    "title": "Data Visualization  Sections 2.0 - 2.3",
+    "section": "5NG#1: Scatterplots",
+    "text": "5NG#1: Scatterplots\nWhen describing scatterplots…\n\n\nLook for pattern going from left to right.\nClassify association as positive, negative, or no association.\nClassify strength of association: strong, moderate, weak.\nDescribe overall pattern: linear, nonlinear, etc.\nCheck for overplotting issues."
+  },
+  {
+    "objectID": "slides/lec02.html#the-palmer-penguins-dataset",
+    "href": "slides/lec02.html#the-palmer-penguins-dataset",
+    "title": "Data Visualization  Sections 2.0 - 2.3",
+    "section": "The Palmer Penguins Dataset:",
+    "text": "The Palmer Penguins Dataset:\n\nlibrary(palmerpenguins)\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~\n$ sex               <fct> male, female, female, NA, female, male, female, male~\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~\n\n\n\n\n\n\n\n\n\n\nArtwork by @allison_horst"
+  },
+  {
+    "objectID": "slides/lec02.html#example-1-describing-scatterplots",
+    "href": "slides/lec02.html#example-1-describing-scatterplots",
+    "title": "Data Visualization  Sections 2.0 - 2.3",
+    "section": "Example 1: Describing scatterplots",
+    "text": "Example 1: Describing scatterplots\n\n\n\n\nPlotData\n\n\n\nggplot(penguins, aes(x=flipper_length_mm, y=bill_length_mm)) +\n  geom_point()\n\n\n\n\nFig A\n\n\n\n\n\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~\n$ sex               <fct> male, female, female, NA, female, male, female, male~\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~"
+  },
+  {
+    "objectID": "slides/lec02.html#example-2-describing-scatterplots",
+    "href": "slides/lec02.html#example-2-describing-scatterplots",
+    "title": "Data Visualization  Sections 2.0 - 2.3",
+    "section": "Example 2: Describing scatterplots",
+    "text": "Example 2: Describing scatterplots\n\n\n\n\nPlotData\n\n\n\nggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm)) +\n  geom_point()\n\n\n\n\nFig B\n\n\n\n\n\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~\n$ sex               <fct> male, female, female, NA, female, male, female, male~\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~"
+  },
+  {
+    "objectID": "slides/lec02.html#example-2-describing-scatterplots-1",
+    "href": "slides/lec02.html#example-2-describing-scatterplots-1",
+    "title": "Data Visualization  Sections 2.0 - 2.3",
+    "section": "Example 2: Describing scatterplots",
+    "text": "Example 2: Describing scatterplots\n\nPlotData\n\n\n\nggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm, color = sex)) +\n  geom_point()\n\n\n\n\nFig C\n\n\n\n\n\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~\n$ sex               <fct> male, female, female, NA, female, male, female, male~\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~"
+  },
+  {
+    "objectID": "slides/lec02.html#example-2-describing-scatterplots-2",
+    "href": "slides/lec02.html#example-2-describing-scatterplots-2",
+    "title": "Data Visualization  Sections 2.0 - 2.3",
+    "section": "Example 2: Describing scatterplots",
+    "text": "Example 2: Describing scatterplots\n\nPlotData\n\n\n\nggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm, color = species)) +\n  geom_point()\n\n\n\n\nFig D\n\n\n\n\n\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~\n$ sex               <fct> male, female, female, NA, female, male, female, male~\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~"
+  },
+  {
+    "objectID": "slides/lec02.html#common-coding-errors",
+    "href": "slides/lec02.html#common-coding-errors",
+    "title": "Data Visualization  Sections 2.0 - 2.3",
+    "section": "Common Coding Errors",
+    "text": "Common Coding Errors\n\n\n\n\nggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm)) +\n  geom_point() +\n\n\n\n\n\nPlus sign to nowhere. What would happen if you type “1+2+” into a calculator? An error!\n\n\n\n\n\nggplot(penguins, aes(x=flipper_length_mm, y=bill_depth_mm) +\n  geom_point()\n\n\n\n\n\nAll parenthesis must me closed!\n\n\n\n\n\nggplot(Penguins, aes(x=Flipper_length_mm, y=Bill_depth_mm) +\n  geom_point()\n\n\n\n\n\nR is case sensitive! Make sure the data and variable names match EXACTLY."
+  },
+  {
+    "objectID": "slides/lec02.html#extra-information-and-resources",
+    "href": "slides/lec02.html#extra-information-and-resources",
+    "title": "Data Visualization  Sections 2.0 - 2.3",
+    "section": "Extra information and resources",
+    "text": "Extra information and resources\n\n\nggplot2 cheatsheet link\nNumerical vs Categorical data examples:"
+  },
+  {
+    "objectID": "slides/lec01.html#todays-goals",
+    "href": "slides/lec01.html#todays-goals",
+    "title": "Introducing R Studio  Preface - Chapter 1",
+    "section": "Today’s goals",
+    "text": "Today’s goals\n\n\n\n\nChange the yaml heading on a document\nCreate your first code chunk!\nLearn the code chunk settings\nAssign values to a variable\n\n\n\n\n\nArtwork by @allison_horst"
+  },
+  {
+    "objectID": "slides/lec01.html#agenda",
+    "href": "slides/lec01.html#agenda",
+    "title": "Introducing R Studio  Preface - Chapter 1",
+    "section": "Agenda",
+    "text": "Agenda\n\nComplete today’s activity first!\nThese slides just include helpful reminders that you may find useful to refer back to when working on later activities."
+  },
+  {
+    "objectID": "slides/lec01.html#rstudio-interface",
+    "href": "slides/lec01.html#rstudio-interface",
+    "title": "Introducing R Studio  Preface - Chapter 1",
+    "section": "RStudio interface",
+    "text": "RStudio interface\n\n\n\n\n\n\n\n\ncode and text for report go here\n\n\n\n\n\n\nstored variables and data shows up here\n\n\n\n\n\n\nyour working directory project files are here\n\n\n\n\n\n\nCONSOLE PANE one time code that does not appear in document can go here"
+  },
+  {
+    "objectID": "slides/lec01.html#useful-buttons",
+    "href": "slides/lec01.html#useful-buttons",
+    "title": "Introducing R Studio  Preface - Chapter 1",
+    "section": "Useful Buttons",
+    "text": "Useful Buttons\n\n\n\n\n\n\nChange view output settings\n\n\n\n\n\n\n\nExport html to submit"
+  },
+  {
+    "objectID": "slides/lec01.html#useful-code-chunk-settings",
+    "href": "slides/lec01.html#useful-code-chunk-settings",
+    "title": "Introducing R Studio  Preface - Chapter 1",
+    "section": "Useful code chunk settings",
+    "text": "Useful code chunk settings\n\n\n```{r}\n#| message: false\n#| warning: false\n#| eval: false\n#| echo: false\n#| include: false\n```\n\n\nmessage: false prevents messages from appearing in knitted doc\nwarning: false prevents warnings from appearing in knitted doc\n\n\n\n\neval: false includes the code chunk in the knitted document but prevents the code chunk from being run\necho: false prevents code itself from printing but includes the results of the code\ninclude: false prevents code and its results from printing but still runs the code when knitted"
+  },
+  {
+    "objectID": "slides/lec08.html#todays-goals",
+    "href": "slides/lec08.html#todays-goals",
+    "title": "Regression  Chapter 5.0 - 5.1",
+    "section": "Today’s goals",
+    "text": "Today’s goals\n\n\n\n\nFind the correlation between two variables\nBuild and interpret a linear regression model\nMake predictions using a linear regression model\nPlot the line of best fit on a scatterplot\n\n\n\n\n\nArtwork by @allison_horst"
+  },
+  {
+    "objectID": "slides/lec08.html#a-note-about-regression",
+    "href": "slides/lec08.html#a-note-about-regression",
+    "title": "Regression  Chapter 5.0 - 5.1",
+    "section": "A Note about Regression",
+    "text": "A Note about Regression\n\nRemember that, BEFORE building a model, you should conduct an exploratory data analysis.\n\nYou will almost certainly need to do some data wrangling and visualizations before the model analysis.\n\nFor this lessons example we will be using a subset of the penguins dataset that only includes male penguins from the Chinstrap species and Dream island. This is stored in penguin_sub."
+  },
+  {
+    "objectID": "slides/lec08.html#correlation-coefficient",
+    "href": "slides/lec08.html#correlation-coefficient",
+    "title": "Regression  Chapter 5.0 - 5.1",
+    "section": "Correlation Coefficient",
+    "text": "Correlation Coefficient\nCorrelation coefficient: a number between -1 and 1 indicating the strength of the linear relationship between two numerical variables.\n\nMatch the following graphs with the most appropriate correlation coefficient:\n\n\n    a) -0.2     b) 0     c) 0.4     d) 0.7\n\n\n\n\n\n    a) -1     b) -0.75     c) -0.9     d) 1\n\n\n\n\n\nDistance traveled vs the amount of gas in the car.\n\na) Exactly -1     b) Between -1 and 0     c) About 0\nd) Between 0 and 1     e) Exactly 1"
+  },
+  {
+    "objectID": "slides/lec08.html#correlation-coefficient-continued",
+    "href": "slides/lec08.html#correlation-coefficient-continued",
+    "title": "Regression  Chapter 5.0 - 5.1",
+    "section": "Correlation Coefficient (continued)",
+    "text": "Correlation Coefficient (continued)\nThe following code shows three different options for calculating the correlation between two variables within the penguins dataset.\n\nCorrelationData: penguin_sub\n\n\n\n# Option 1\npenguin_sub %>%\n  select(flipper_length_mm, body_mass_g) %>% \n  cor()\n# Option 2\npenguin_sub %>%\n    summarize(cor = cor(flipper_length_mm, body_mass_g) )\n# Option 3\ncor(penguins$flipper_length_mm, penguins$body_mass_g)\n\n\n\n\npenguin_sub <- penguins %>% \n  filter(sex == \"male\", species == \"Chinstrap\", island == \"Dream\") %>% \n  mutate(id = seq(1:34))\n\nglimpse(penguin_sub)\n\nRows: 34\nColumns: 9\n$ species           <fct> Chinstrap, Chinstrap, Chinstrap, Chinstrap, Chinstra…\n$ island            <fct> Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dre…\n$ bill_length_mm    <dbl> 50.0, 51.3, 52.7, 51.3, 51.3, 51.7, 52.0, 50.5, 50.3…\n$ bill_depth_mm     <dbl> 19.5, 19.2, 19.8, 18.2, 19.9, 20.3, 18.1, 19.6, 20.0…\n$ flipper_length_mm <int> 196, 193, 197, 197, 198, 194, 201, 201, 197, 195, 19…\n$ body_mass_g       <int> 3900, 3650, 3725, 3750, 3700, 3775, 4050, 4050, 3300…\n$ sex               <fct> male, male, male, male, male, male, male, male, male…\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…\n$ id                <int> 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1…\n\n\n\n\n\n\nYou will most likely need to filter out missing data beforehand OR set use = \"complete.obs\" inside the cor() function. This is the equivalent of when we set na.rm = TRUE in other summary functions."
+  },
+  {
+    "objectID": "slides/lec08.html#simple-linear-regression-slr",
+    "href": "slides/lec08.html#simple-linear-regression-slr",
+    "title": "Regression  Chapter 5.0 - 5.1",
+    "section": "Simple Linear Regression (SLR)",
+    "text": "Simple Linear Regression (SLR)\n\nDefinition: Simple linear regression: models the relationship between a response (y) variable and one explanatory (x) variable.\nEssentially, we are finding the line of best fit for a scatterplot between ‘x’ and ‘y’."
+  },
+  {
+    "objectID": "slides/lec08.html#slr-continued",
+    "href": "slides/lec08.html#slr-continued",
+    "title": "Regression  Chapter 5.0 - 5.1",
+    "section": "SLR (continued)",
+    "text": "SLR (continued)\nEquation of a regression line: \\[\\hat{y} = b_0 + b_1*x\\]\n\n\n\\(b_0\\) : intercept; the expected value of \\(\\hat{y}\\) when \\(x = 0\\)\n\\(b_1\\) : slope; for every 1 unit increase in x, then \\(\\hat{y}\\) increases on average by \\(b_1\\)\nfitted values: \\(\\hat{y}\\); the predicted value on the regression line\nresiduals: \\(y - \\hat{y}\\); error in prediction"
+  },
+  {
+    "objectID": "slides/lec08.html#example-1-model",
+    "href": "slides/lec08.html#example-1-model",
+    "title": "Regression  Chapter 5.0 - 5.1",
+    "section": "Example 1: Model",
+    "text": "Example 1: Model\nConsider a subset of the penguins dataset that only includes male penguins from the Chinstrap species and Dream island. This is stored in penguin_sub.\n\nModelData: penguin_sub\n\n\nPredict a penguin’s body_mass_g using flipper_length_mm.\n\n#Build a model\nmodel_penguin <- lm(body_mass_g ~ flipper_length_mm, data = penguin_sub)\n\n\n\n\npenguin_sub <- penguins %>% \n  filter(sex == \"male\", species == \"Chinstrap\", island == \"Dream\")%>% \n  mutate(id = seq(1:34))\n\nglimpse(penguin_sub)\n\nRows: 34\nColumns: 9\n$ species           <fct> Chinstrap, Chinstrap, Chinstrap, Chinstrap, Chinstra…\n$ island            <fct> Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dre…\n$ bill_length_mm    <dbl> 50.0, 51.3, 52.7, 51.3, 51.3, 51.7, 52.0, 50.5, 50.3…\n$ bill_depth_mm     <dbl> 19.5, 19.2, 19.8, 18.2, 19.9, 20.3, 18.1, 19.6, 20.0…\n$ flipper_length_mm <int> 196, 193, 197, 197, 198, 194, 201, 201, 197, 195, 19…\n$ body_mass_g       <int> 3900, 3650, 3725, 3750, 3700, 3775, 4050, 4050, 3300…\n$ sex               <fct> male, male, male, male, male, male, male, male, male…\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…\n$ id                <int> 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1…"
+  },
+  {
+    "objectID": "slides/lec08.html#example-1-model-1",
+    "href": "slides/lec08.html#example-1-model-1",
+    "title": "Regression  Chapter 5.0 - 5.1",
+    "section": "Example 1: Model",
+    "text": "Example 1: Model\nConsider a subset of the penguins dataset that only includes male penguins from the Chinstrap species and Dream island. This is stored in penguin_sub.\n\nModelData: penguin_sub\n\n\nPredict a penguin’s body_mass_g using flipper_length_mm.\n\n#Build a model\n\nmodel_penguin <- lm(body_mass_g ~ flipper_length_mm, data = penguin_sub)\n\n#Summarize the model\nsummary(model_penguin)\n\n\nCall:\nlm(formula = body_mass_g ~ flipper_length_mm, data = penguin_sub)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-521.72 -177.33  -23.06  117.51  658.82 \n\nCoefficients:\n                   Estimate Std. Error t value Pr(>|t|)    \n(Intercept)       -4111.348   1600.726  -2.568   0.0151 *  \nflipper_length_mm    40.269      8.004   5.031 1.81e-05 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 274.8 on 32 degrees of freedom\nMultiple R-squared:  0.4417,    Adjusted R-squared:  0.4242 \nF-statistic: 25.31 on 1 and 32 DF,  p-value: 1.814e-05\n\n\n\n\n\npenguin_sub <- penguins %>% \n  filter(sex == \"male\", species == \"Chinstrap\", island == \"Dream\") %>% \n  mutate(id = seq(1:34))\n\nglimpse(penguin_sub)\n\nRows: 34\nColumns: 9\n$ species           <fct> Chinstrap, Chinstrap, Chinstrap, Chinstrap, Chinstra…\n$ island            <fct> Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dre…\n$ bill_length_mm    <dbl> 50.0, 51.3, 52.7, 51.3, 51.3, 51.7, 52.0, 50.5, 50.3…\n$ bill_depth_mm     <dbl> 19.5, 19.2, 19.8, 18.2, 19.9, 20.3, 18.1, 19.6, 20.0…\n$ flipper_length_mm <int> 196, 193, 197, 197, 198, 194, 201, 201, 197, 195, 19…\n$ body_mass_g       <int> 3900, 3650, 3725, 3750, 3700, 3775, 4050, 4050, 3300…\n$ sex               <fct> male, male, male, male, male, male, male, male, male…\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…\n$ id                <int> 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1…"
+  },
+  {
+    "objectID": "slides/lec08.html#example-1-plot-regression-line",
+    "href": "slides/lec08.html#example-1-plot-regression-line",
+    "title": "Regression  Chapter 5.0 - 5.1",
+    "section": "Example 1: Plot regression line",
+    "text": "Example 1: Plot regression line\n\nPlotModel\n\n\n\n# Plot relationship of variables\nggplot(penguin_sub, aes(x = flipper_length_mm, y = body_mass_g))+\n    geom_point()\n\n\n\n\n\n\n\nsummary(model_penguin)$coefficients\n\n                     Estimate  Std. Error   t value     Pr(>|t|)\n(Intercept)       -4111.34753 1600.725516 -2.568428 1.508617e-02\nflipper_length_mm    40.26936    8.003689  5.031349 1.814086e-05"
+  },
+  {
+    "objectID": "slides/lec08.html#example-1-plot-regression-line-1",
+    "href": "slides/lec08.html#example-1-plot-regression-line-1",
+    "title": "Regression  Chapter 5.0 - 5.1",
+    "section": "Example 1: Plot regression line",
+    "text": "Example 1: Plot regression line\n\nPlotModel\n\n\n\n# Add line of best fit\nggplot(penguin_sub, aes(x = flipper_length_mm, y = body_mass_g))+\n    geom_point() +\n  geom_smooth(method = \"lm\", se = FALSE)\n\n\n\n\n\n\n\nsummary(model_penguin)$coefficients\n\n                     Estimate  Std. Error   t value     Pr(>|t|)\n(Intercept)       -4111.34753 1600.725516 -2.568428 1.508617e-02\nflipper_length_mm    40.26936    8.003689  5.031349 1.814086e-05"
+  },
+  {
+    "objectID": "slides/lec08.html#example-1-residuals",
+    "href": "slides/lec08.html#example-1-residuals",
+    "title": "Regression  Chapter 5.0 - 5.1",
+    "section": "Example 1: Residuals",
+    "text": "Example 1: Residuals\n\nVisualizingCalculating\n\n\n\n\n\n\nPick a penguin:\n\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n\n\n\n\n\n\n\n\nObserved weight (y):\n\n\n\n\n\n\n\n\n\n\nPredicted weight (fitted value):\n\n\n\n\n\n\n\n\n\n\nResidual (error):\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPredict a penguin’s body_mass_g using flipper_length_mm.\n\npenguin_sub <- penguin_sub %>% \n  mutate(fitted = fitted(model_penguin),\n         residuals = residuals(model_penguin))\n\nglimpse(penguin_sub)\n\nRows: 34\nColumns: 11\n$ species           <fct> Chinstrap, Chinstrap, Chinstrap, Chinstrap, Chinstra…\n$ island            <fct> Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dre…\n$ bill_length_mm    <dbl> 50.0, 51.3, 52.7, 51.3, 51.3, 51.7, 52.0, 50.5, 50.3…\n$ bill_depth_mm     <dbl> 19.5, 19.2, 19.8, 18.2, 19.9, 20.3, 18.1, 19.6, 20.0…\n$ flipper_length_mm <int> 196, 193, 197, 197, 198, 194, 201, 201, 197, 195, 19…\n$ body_mass_g       <int> 3900, 3650, 3725, 3750, 3700, 3775, 4050, 4050, 3300…\n$ sex               <fct> male, male, male, male, male, male, male, male, male…\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…\n$ id                <int> 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1…\n$ fitted            <dbl> 3781.446, 3660.638, 3821.716, 3821.716, 3861.985, 37…\n$ residuals         <dbl> 118.55366, -10.63827, -96.71570, -71.71570, -161.985…"
+  },
+  {
+    "objectID": "slides/lec08.html#example-1-predicting",
+    "href": "slides/lec08.html#example-1-predicting",
+    "title": "Regression  Chapter 5.0 - 5.1",
+    "section": "Example 1: Predicting",
+    "text": "Example 1: Predicting\nRecall the equation of the regression line is\n\\[\\widehat{\\hbox{body_mass_g} } = -4111.3 + 40.3*\\hbox{flipper_length}\\]\n\nYou find a new male penguin from the Chinstrap species and Dream island that has a flipper length of 220 mm. What do you predict his weight to be in grams?\n\n\n-4111.3 + 40.3*220\n\n[1] 4754.7"
+  },
+  {
+    "objectID": "slides/lec11.html#todays-goals",
+    "href": "slides/lec11.html#todays-goals",
+    "title": "Multiple Regression  Chapter 6.2)",
+    "section": "Today’s goals",
+    "text": "Today’s goals\n\n\n\n\nMultiple regression with one numerical and one categorical variables\nUnderstand intercept, slope, offset in intercept, and offset in slope\nParallel slopes vs interaction model"
+  },
+  {
+    "objectID": "slides/lec11.html#multiple-regression-goal-and-example",
+    "href": "slides/lec11.html#multiple-regression-goal-and-example",
+    "title": "Multiple Regression  Chapter 6.2)",
+    "section": "Multiple Regression Goal and Example",
+    "text": "Multiple Regression Goal and Example\nGoal: build a model with one numerical and one categorical explanatory variable.\nUsing the penguins dataset, we want to determine how flipper_length impacts body_mass. But we also think body_mass varies by sex. Build a model that predicts body_mass_g using flipper_length_mm and sex as explanatory variables. In this dataset sex has 2 levels: {male, female}"
+  },
+  {
+    "objectID": "slides/lec11.html#data",
+    "href": "slides/lec11.html#data",
+    "title": "Multiple Regression  Chapter 6.2)",
+    "section": "Data",
+    "text": "Data\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel…\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse…\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, …\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, …\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186…\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, …\n$ sex               <fct> male, female, female, NA, female, male, female, male…\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…"
+  },
+  {
+    "objectID": "slides/lec11.html#same-slope-model",
+    "href": "slides/lec11.html#same-slope-model",
+    "title": "Multiple Regression  Chapter 6.2)",
+    "section": "“Same slope model”",
+    "text": "“Same slope model”\n\nmodel_parallel <- lm(body_mass_g ~ flipper_length_mm + sex, data=penguins)\n\nsummary(model_parallel)\n\n\nCall:\nlm(formula = body_mass_g ~ flipper_length_mm + sex, data = penguins)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-910.28 -243.89   -2.94  238.85 1067.73 \n\nCoefficients:\n                   Estimate Std. Error t value Pr(>|t|)    \n(Intercept)       -5410.300    285.798 -18.931  < 2e-16 ***\nflipper_length_mm    46.982      1.441  32.598  < 2e-16 ***\nsexmale             347.850     40.342   8.623 2.78e-16 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 355.9 on 330 degrees of freedom\n  (11 observations deleted due to missingness)\nMultiple R-squared:  0.8058,    Adjusted R-squared:  0.8047 \nF-statistic: 684.8 on 2 and 330 DF,  p-value: < 2.2e-16"
+  },
+  {
+    "objectID": "slides/lec11.html#same-slopes-model-output",
+    "href": "slides/lec11.html#same-slopes-model-output",
+    "title": "Multiple Regression  Chapter 6.2)",
+    "section": "Same Slopes Model Output",
+    "text": "Same Slopes Model Output\nEquation: \\(\\widehat{bodymass} = -5410.3 + 46.98*flipper + 347.85*\\mathbb{1}_{male}(x)\\)\n\nWhat is the reference level (baseline) for sex?\nInterpretation of \\(b_0\\) : expected value of y for the baseline; the expected body mass for female penguins when flipper length is 0 is -5410.3\nInterpretation of \\(b_1\\) : slope of flipper length for both categories\nInterpretation of \\(b_2\\) : offset in intercept for males (level = male)"
+  },
+  {
+    "objectID": "slides/lec11.html#same-slopes-model-output-1",
+    "href": "slides/lec11.html#same-slopes-model-output-1",
+    "title": "Multiple Regression  Chapter 6.2)",
+    "section": "Same Slopes Model Output",
+    "text": "Same Slopes Model Output\n\nYou can think of each ‘level’ having a different line (equation).\nThe equation of the line for penguins who are female (ie: sex = female):\n\n\\[-5410.3 + 46.98*flipper + 347.85*0\\] \\[ -5410.3 + 46.98*flipper\\]\n\nThe equation of the line for penguins who are male (ie: sex = male):\n\n\\[-5410.3 + 46.98*flipper + 347.85*1\\] \\[ -5062.45 + 46.98*flipper\\]"
+  },
+  {
+    "objectID": "slides/lec11.html#interaction-model",
+    "href": "slides/lec11.html#interaction-model",
+    "title": "Multiple Regression  Chapter 6.2)",
+    "section": "“Interaction Model”",
+    "text": "“Interaction Model”\n\nmodel_interaction <- lm(body_mass_g ~ flipper_length_mm + sex +flipper_length_mm*sex, data=penguins)\n\nsummary(model_interaction)\n\n\nCall:\nlm(formula = body_mass_g ~ flipper_length_mm + sex + flipper_length_mm * \n    sex, data = penguins)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-909.36 -246.58   -3.13  237.18 1065.19 \n\nCoefficients:\n                            Estimate Std. Error t value Pr(>|t|)    \n(Intercept)               -5443.9607   440.2829 -12.365   <2e-16 ***\nflipper_length_mm            47.1527     2.2264  21.179   <2e-16 ***\nsexmale                     406.8015   587.3029   0.693    0.489    \nflipper_length_mm:sexmale    -0.2942     2.9242  -0.101    0.920    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 356.4 on 329 degrees of freedom\n  (11 observations deleted due to missingness)\nMultiple R-squared:  0.8058,    Adjusted R-squared:  0.8041 \nF-statistic: 455.2 on 3 and 329 DF,  p-value: < 2.2e-16"
+  },
+  {
+    "objectID": "slides/lec11.html#interaction-model-output",
+    "href": "slides/lec11.html#interaction-model-output",
+    "title": "Multiple Regression  Chapter 6.2)",
+    "section": "Interaction Model Output",
+    "text": "Interaction Model Output\nEquation: \\[\\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*\\mathbb{1}_{male}(x) \\] \\[- 0.29*flipper*\\mathbb{1}_{male}(x)\\]\n\n\\(b_0\\) : intercept for baseline\n\\(b_1\\) : slope of flipper length for\n\\(b_2\\) : offset of intercept for\n\\(b_3\\) : offset in slope of flipper length for"
+  },
+  {
+    "objectID": "slides/lec11.html#interaction-model-output-1",
+    "href": "slides/lec11.html#interaction-model-output-1",
+    "title": "Multiple Regression  Chapter 6.2)",
+    "section": "Interaction Model Output",
+    "text": "Interaction Model Output\nYou can think of each ‘level’ having a different line (equation).\nEquation of the line for female penguins:\n  Equation of the line for male penguins:"
   },
   {
     "objectID": "slides/lec10.html#todays-goals",
@@ -672,81 +658,95 @@
     "text": "Extra information\n\nThere will always be \\(n-1\\) coefficients for the categorical variable, where \\(n\\) is the number of categories.\n\nThe penguins had 3 species categories so there were 2 species coefficients.\n\nCategorical variable coefficients will always be an offset to either the intercept or slope. Because you can’t multiply 32.42*gentoo!"
   },
   {
-    "objectID": "slides/lec11.html#todays-goals",
-    "href": "slides/lec11.html#todays-goals",
-    "title": "Multiple Regression  Chapter 6.2)",
+    "objectID": "slides/lec03.html#todays-goals",
+    "href": "slides/lec03.html#todays-goals",
+    "title": "Data Visualization  Sections 2.4 - 2.6",
     "section": "Today’s goals",
-    "text": "Today’s goals\n\n\n\n\nMultiple regression with one numerical and one categorical variables\nUnderstand intercept, slope, offset in intercept, and offset in slope\nParallel slopes vs interaction model"
+    "text": "Today’s goals\n\n\n\n\nCreate a linegraph\nCreate a histogram\nProperly describe a linegraph and histogram\nFacet graphs based on subgroups\n\n\n\n\n\nArtwork by @allison_horst"
   },
   {
-    "objectID": "slides/lec11.html#multiple-regression-goal-and-example",
-    "href": "slides/lec11.html#multiple-regression-goal-and-example",
-    "title": "Multiple Regression  Chapter 6.2)",
-    "section": "Multiple Regression Goal and Example",
-    "text": "Multiple Regression Goal and Example\nGoal: build a model with one numerical and one categorical explanatory variable.\nUsing the penguins dataset, we want to determine how flipper_length impacts body_mass. But we also think body_mass varies by sex. Build a model that predicts body_mass_g using flipper_length_mm and sex as explanatory variables. In this dataset sex has 2 levels: {male, female}"
+    "objectID": "slides/lec03.html#ng2-linegraphs",
+    "href": "slides/lec03.html#ng2-linegraphs",
+    "title": "Data Visualization  Sections 2.4 - 2.6",
+    "section": "5NG#2: Linegraphs",
+    "text": "5NG#2: Linegraphs\nLinegraphs show the relationship between 2 numerical variables.\n\n\nThe explanatory (x-axis) variable must be of sequential ordering.\n\n\n\nLinegraph syntax in R:\n\nggplot(data= my_data, mapping = aes(x = var1, y = var2)) +\n  geom_line()"
   },
   {
-    "objectID": "slides/lec11.html#data",
-    "href": "slides/lec11.html#data",
-    "title": "Multiple Regression  Chapter 6.2)",
-    "section": "Data",
-    "text": "Data\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel…\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse…\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, …\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, …\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186…\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, …\n$ sex               <fct> male, female, female, NA, female, male, female, male…\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…"
+    "objectID": "slides/lec03.html#ng2-linegraphs-1",
+    "href": "slides/lec03.html#ng2-linegraphs-1",
+    "title": "Data Visualization  Sections 2.4 - 2.6",
+    "section": "5NG#2: Linegraphs",
+    "text": "5NG#2: Linegraphs\nWhen describing linegraphs…\n\n\nLook for pattern going from left to right.\nClassify association as positive, negative, or no association.\nClassify relationship as linear or non linear.\nCheck x and y scales to make sure they are appropriate."
   },
   {
-    "objectID": "slides/lec11.html#same-slope-model",
-    "href": "slides/lec11.html#same-slope-model",
-    "title": "Multiple Regression  Chapter 6.2)",
-    "section": "“Same slope model”",
-    "text": "“Same slope model”\n\nmodel_parallel <- lm(body_mass_g ~ flipper_length_mm + sex, data=penguins)\n\nsummary(model_parallel)\n\n\nCall:\nlm(formula = body_mass_g ~ flipper_length_mm + sex, data = penguins)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-910.28 -243.89   -2.94  238.85 1067.73 \n\nCoefficients:\n                   Estimate Std. Error t value Pr(>|t|)    \n(Intercept)       -5410.300    285.798 -18.931  < 2e-16 ***\nflipper_length_mm    46.982      1.441  32.598  < 2e-16 ***\nsexmale             347.850     40.342   8.623 2.78e-16 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 355.9 on 330 degrees of freedom\n  (11 observations deleted due to missingness)\nMultiple R-squared:  0.8058,    Adjusted R-squared:  0.8047 \nF-statistic: 684.8 on 2 and 330 DF,  p-value: < 2.2e-16"
+    "objectID": "slides/lec03.html#ng3-histograms",
+    "href": "slides/lec03.html#ng3-histograms",
+    "title": "Data Visualization  Sections 2.4 - 2.6",
+    "section": "5NG#3: Histograms",
+    "text": "5NG#3: Histograms\n\nHistograms are used to visualize the distribution of a single numerical variable.\n\n\n\nHistograms display numerical data by grouping data into bins of equal width.\n\n\n\n\nThere is no ‘y’ position aesthetic for geom_histogram() because we are investigating a single variable."
   },
   {
-    "objectID": "slides/lec11.html#same-slopes-model-output",
-    "href": "slides/lec11.html#same-slopes-model-output",
-    "title": "Multiple Regression  Chapter 6.2)",
-    "section": "Same Slopes Model Output",
-    "text": "Same Slopes Model Output\nEquation: \\(\\widehat{bodymass} = -5410.3 + 46.98*flipper + 347.85*\\mathbb{1}_{male}(x)\\)\n\nWhat is the reference level (baseline) for sex?\nInterpretation of \\(b_0\\) : expected value of y for the baseline; the expected body mass for female penguins when flipper length is 0 is -5410.3\nInterpretation of \\(b_1\\) : slope of flipper length for both categories\nInterpretation of \\(b_2\\) : offset in intercept for males (level = male)"
+    "objectID": "slides/lec03.html#ng3-histograms-1",
+    "href": "slides/lec03.html#ng3-histograms-1",
+    "title": "Data Visualization  Sections 2.4 - 2.6",
+    "section": "5NG#3: Histograms",
+    "text": "5NG#3: Histograms\nHistogram syntax in R:\n\nggplot(data= my_data, aes(x = var1)) +\n  geom_histogram(color = \"white\", fill = \"blue\", bins = 10)\n\n\n\n There are 3 things we look and describe when inspecting a histogram:\n\nshape (skew and modality)\ncenter (mean or median)\nspread (range, IQR, or standard deviation)\n\n\n\nNot all distributions have a simple recognizable shape!\n\nType colors() in the console to view all possible colors."
   },
   {
-    "objectID": "slides/lec11.html#same-slopes-model-output-1",
-    "href": "slides/lec11.html#same-slopes-model-output-1",
-    "title": "Multiple Regression  Chapter 6.2)",
-    "section": "Same Slopes Model Output",
-    "text": "Same Slopes Model Output\n\nYou can think of each ‘level’ having a different line (equation).\nThe equation of the line for penguins who are female (ie: sex = female):\n\n\\[-5410.3 + 46.98*flipper + 347.85*0\\] \\[ -5410.3 + 46.98*flipper\\]\n\nThe equation of the line for penguins who are male (ie: sex = male):\n\n\\[-5410.3 + 46.98*flipper + 347.85*1\\] \\[ -5062.45 + 46.98*flipper\\]"
+    "objectID": "slides/lec03.html#ng3-histograms-2",
+    "href": "slides/lec03.html#ng3-histograms-2",
+    "title": "Data Visualization  Sections 2.4 - 2.6",
+    "section": "5NG#3: Histograms",
+    "text": "5NG#3: Histograms"
   },
   {
-    "objectID": "slides/lec11.html#interaction-model",
-    "href": "slides/lec11.html#interaction-model",
-    "title": "Multiple Regression  Chapter 6.2)",
-    "section": "“Interaction Model”",
-    "text": "“Interaction Model”\n\nmodel_interaction <- lm(body_mass_g ~ flipper_length_mm + sex +flipper_length_mm*sex, data=penguins)\n\nsummary(model_interaction)\n\n\nCall:\nlm(formula = body_mass_g ~ flipper_length_mm + sex + flipper_length_mm * \n    sex, data = penguins)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-909.36 -246.58   -3.13  237.18 1065.19 \n\nCoefficients:\n                            Estimate Std. Error t value Pr(>|t|)    \n(Intercept)               -5443.9607   440.2829 -12.365   <2e-16 ***\nflipper_length_mm            47.1527     2.2264  21.179   <2e-16 ***\nsexmale                     406.8015   587.3029   0.693    0.489    \nflipper_length_mm:sexmale    -0.2942     2.9242  -0.101    0.920    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 356.4 on 329 degrees of freedom\n  (11 observations deleted due to missingness)\nMultiple R-squared:  0.8058,    Adjusted R-squared:  0.8041 \nF-statistic: 455.2 on 3 and 329 DF,  p-value: < 2.2e-16"
+    "objectID": "slides/lec03.html#example-1-histogram-bins",
+    "href": "slides/lec03.html#example-1-histogram-bins",
+    "title": "Data Visualization  Sections 2.4 - 2.6",
+    "section": "Example 1: Histogram bins",
+    "text": "Example 1: Histogram bins\nWhich bin size is most appropriate and describe the distribution of penguin body mass.\n\n\n\n\nBins = 7Bins = 18Bins = 29\n\n\n\nggplot(penguins, aes(x=penguins$body_mass_g)) +\n    geom_histogram(color = \"white\", \n                   fill = \"lightblue\", \n                   bins = 7)+\n    labs(title = \"Palmer Penguins Distribution of Body Mass\",\n           x = \"Body Mass (g)\")\n\n\n\n\n\n\n\nggplot(penguins, aes(x=penguins$body_mass_g)) +\n    geom_histogram(color = \"white\", \n                   fill = \"lightblue\", \n                   bins = 18)+\n    labs(title = \"Palmer Penguins Distribution of Body Mass\",\n           x = \"Body Mass (g)\")\n\n\n\n\n\n\n\nggplot(penguins, aes(x=penguins$body_mass_g)) +\n    geom_histogram(color = \"white\", \n                   fill = \"lightblue\", \n                   bins = 29)+\n    labs(title = \"Palmer Penguins Distribution of Body Mass\",\n           x = \"Body Mass (g)\")\n\n\n\n\n\n\n\n\nhttps://northwestern-university.shinyapps.io/lec03_histogram/"
   },
   {
-    "objectID": "slides/lec11.html#interaction-model-output",
-    "href": "slides/lec11.html#interaction-model-output",
-    "title": "Multiple Regression  Chapter 6.2)",
-    "section": "Interaction Model Output",
-    "text": "Interaction Model Output\nEquation: \\[\\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*\\mathbb{1}_{male}(x) \\] \\[- 0.29*flipper*\\mathbb{1}_{male}(x)\\]\n\n\\(b_0\\) : intercept for baseline\n\\(b_1\\) : slope of flipper length for\n\\(b_2\\) : offset of intercept for\n\\(b_3\\) : offset in slope of flipper length for"
+    "objectID": "slides/lec03.html#example-2-histogram-bins",
+    "href": "slides/lec03.html#example-2-histogram-bins",
+    "title": "Data Visualization  Sections 2.4 - 2.6",
+    "section": "Example 2: Histogram bins",
+    "text": "Example 2: Histogram bins\n\n\n\nWhich bin size is most appropriate and describe the distribution of penguin flipper length.\n\nBins = 15Bins = 25Bins = 35\n\n\n\n  ggplot(penguins, aes(x=penguins$flipper_length_mm )) +\n    geom_histogram(color = \"white\", \n                   fill = \"tomato1\", \n                   bins = 15)+\n    labs(title = \"Palmer Penguins Distribution of Flipper Length\",\n           x = \"Flipper Length (mm)\")\n\n\n\n\n\n\n\n  ggplot(penguins, aes(x=penguins$flipper_length_mm )) +\n    geom_histogram(color = \"white\", \n                   fill = \"tomato1\", \n                   bins = 25)+\n    labs(title = \"Palmer Penguins Distribution of Flipper Length\",\n           x = \"Flipper Length (mm)\")\n\n\n\n\n\n\n\n  ggplot(penguins, aes(x=penguins$flipper_length_mm )) +\n    geom_histogram(color = \"white\", \n                   fill = \"tomato1\", \n                   bins = 35)+\n    labs(title = \"Palmer Penguins Distribution of Flipper Length\",\n           x = \"Flipper Length (mm)\")"
   },
   {
-    "objectID": "slides/lec11.html#interaction-model-output-1",
-    "href": "slides/lec11.html#interaction-model-output-1",
-    "title": "Multiple Regression  Chapter 6.2)",
-    "section": "Interaction Model Output",
-    "text": "Interaction Model Output\nYou can think of each ‘level’ having a different line (equation).\nEquation of the line for female penguins:\n  Equation of the line for male penguins:"
+    "objectID": "slides/lec03.html#faceting",
+    "href": "slides/lec03.html#faceting",
+    "title": "Data Visualization  Sections 2.4 - 2.6",
+    "section": "Faceting",
+    "text": "Faceting\n\nFaceting is used to make the same plot for different subgroups of the dataset.\nThis is useful for comparing the same variable across different subgroups in the dataset.\nfacet_wrap(~var) can be added on to ANY plot type (scatterplot, linegraph, histogram, boxplot, barplot)\n\n\n\nggplot(penguins, aes(x=flipper_length_mm)) +\n    geom_histogram(color = \"white\", fill = \"tomato1\", bins = 11) +\n    facet_wrap(~ species)"
   },
   {
-    "objectID": "index.html#class-fri-sep-23",
-    "href": "index.html#class-fri-sep-23",
+    "objectID": "slides/lec03.html#common-coding-errors",
+    "href": "slides/lec03.html#common-coding-errors",
+    "title": "Data Visualization  Sections 2.4 - 2.6",
+    "section": "Common Coding Errors",
+    "text": "Common Coding Errors\n\n\n\nWhich of the following are correct?\na)  \n\nggplot(penguins, aes(x=flipper_length_mm)) +\n  geom_histogram(aes(color = \"white\"))\n\nb)  \n\nggplot(penguins, aes(x=flipper_length_mm)) +\n  geom_histogram(color = \"white\")\n\nc)  \n\nggplot(penguins) +\n  geom_histogram(x = flipper_length_mm, color = \"white\")\n\nd)  \n\nggplot(penguins) +\n  geom_histogram(aes(x = flipper_length_mm) , color = \"white\")"
+  },
+  {
+    "objectID": "slides/lec03.html#extra-information-and-resources",
+    "href": "slides/lec03.html#extra-information-and-resources",
+    "title": "Data Visualization  Sections 2.4 - 2.6",
+    "section": "Extra information and resources",
+    "text": "Extra information and resources\nWikipedia bin size info\nHelpful guidelines:\n\nLarger number of observations generally correspond to larger number of bins needed.\nYou will generally need to test several different number of bins to learn about the data and find an appropriate value.\nSturges Rule of Thumb for unimodal symmetric distributions: bins = 1 + 3.322*log(n)\nSturge’s rule is not great if the data is severely skewed, multi-modal, or for an extremely large number of observations. But it could give you a starting place and then you will want to increase the number of bins until you can properly see the shape."
+  },
+  {
+    "objectID": "index.html#class-mon-sep-26",
+    "href": "index.html#class-mon-sep-26",
     "title": "Today’s Agenda",
-    "section": "Class: Fri Sep 23",
-    "text": "Class: Fri Sep 23"
+    "section": "Class: Mon Sep 26",
+    "text": "Class: Mon Sep 26"
   },
   {
     "objectID": "index.html#prepare",
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Preface & Ch 1"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 2.0 - 2.3"
   },
   {
     "objectID": "index.html#participate",
@@ -760,14 +760,28 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    Section notes: \n\n    Daily activity:  act_01"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    Section notes: \n\n    Daily activity:  act_02"
   },
   {
-    "objectID": "index.html#homework-due-sun-sep-25-1159pm",
-    "href": "index.html#homework-due-sun-sep-25-1159pm",
+    "objectID": "index.html#homework-due-tue-sep-27-1159pm",
+    "href": "index.html#homework-due-tue-sep-27-1159pm",
     "title": "Today’s Agenda",
-    "section": "Homework Due Sun Sep 25 11:59pm",
-    "text": "Homework Due Sun Sep 25 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_01\n\n     Read Sections 2.0 - 2.3\n\n    Complete and submit  RC_02"
+    "section": "Homework Due Tue Sep 27 11:59pm",
+    "text": "Homework Due Tue Sep 27 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_02\n\n     Read Sections 2.4 - 2.6\n\n    Complete and submit  RC_03"
+  },
+  {
+    "objectID": "course-links.html",
+    "href": "course-links.html",
+    "title": "Course Links",
+    "section": "",
+    "text": "Textbook\nIntroduction to Statistics and Data Science\n\n\nCampuswire\nPost questions here!\n\n\nRStudio Cloud\nRStudio Cloud\n\n\nLecture recordings\n🔗 on Panopto\n\n\nVirtual meetings\nZoom"
+  },
+  {
+    "objectID": "course-schedule.html",
+    "href": "course-schedule.html",
+    "title": "STAT 202: Introduction to Statistics and Data Science",
+    "section": "",
+    "text": "Week\n      Date\n      Topic\n      \n        Prepare\n      \n      \n        Agenda\n      \n      \n        Homework\n      \n    \n    \n      Reading\n      Slides\n      Activity\n      submit_act\n      Tutorial\n      due\n    \n  \n  \n    1\n\nWed Sep 21\nIntroduction\nSyllabus\n\n\n\n practice\n\n\n RC_01\n\nThu Sep 22\n    \nFri Sep 23\nRstudio Cloud\nPreface & Ch 1\n\n\n\n act_01\n\n act_01\n\n RC_02\n\nSun Sep 25\n    2\n\nMon Sep 26\nData Visualization\nSections 2.0 - 2.3\n\n\n\n act_02\n\n act_02\n\n RC_03\n\nTue Sep 27\n    \nWed Sep 28\nData Visualization\nSections 2.4 - 2.6\n\n\n\n act_03\n\n act_03\n\n RC_04\n\nThu Sep 29\n    \nFri Sep 30\nData Visualization\nSections 2.7 - 2.9\n\n\n\n act_04\n\n act_04\n\n RC_05\n\nSun Oct 02\n    3\n\nMon Oct 03\nData Wrangling\nSections 3.0 - 3.3\n\n\n\n act_05\n\n act_05\n\n RC_06\n\nTue Oct 04\n    \nWed Oct 05\nData Wrangling\nSections 3.4 - 3.9\n\n\n\n act_06\n\n act_06\n\n RC_07\n\nThu Oct 06\n    \nFri Oct 07\nTidy Data\nChapter 4\n\n\n\n act_07\n\n act_07\n\n\nSun Oct 09\n    4\n\nMon Oct 10\nExam 1\n\n\n\n\n\n \n    \nWed Oct 12\nBasic Regression\nSections 5.0 - 5.1\n\n\n\n act_08\n\n act_08\n\n RC_08\n\nThu Oct 13\n    \nFri Oct 14\nBasic Regression\nSections 5.2 - 5.4\n\n\n\n act_09\n\n act_09\n\n RC_09\n\nSun Oct 16\n    5\n\nMon Oct 17\nMultiple Regression\nSections 6.0 - 6.1\n\n\n\n act_10\n\n act_10\n\n RC_10\n\nTue Oct 18\n    \nWed Oct 19\nMultiple Regression\nSections 6.2 - 6.4\n\n\n\n act_11\n\n act_11\n\n RC_11\n\nThu Oct 20\n    \nFri Oct 21\nRandomization & Causality\nChapter 7\n\n\n\n act_12\n\n act_12\n\n RC_12\n\nSun Oct 23\n    6\n\nMon Oct 24\nPop & Generalizability\nChapter 8\n\n\n\n act_13\n\n act_13\n\n RC_13\n\nTue Oct 25\n    \nWed Oct 26\nNormal Distributions\nSections 9.0 - 9.1\n\n\n\n act_14\n\n act_14\n\n RC_14\n\nThu Oct 27\n    \nFri Oct 28\nSampling Distributions\nSections 9.2 - 9.3\n\n\n\n act_15\n\n\n\n \n    7\n\nMon Oct 31\nExam 2\n\n\n\n act_15\n\n RC_15\n\nTue Nov 01\n    \nWed Nov 02\nSampling Distributions\nSections 9.4 - 9.7\n\n\n\n act_16\n\n act_16\n\n RC_16\n\nThu Nov 03\n    \nFri Nov 04\nConfidence Intervals\nChapter 10\n\n\n\n act_17\n\n\n RC_17\n\nSun Nov 06\n    8\n\nMon Nov 07\nConfidence Intervals\n\n\n\n act_17 (cont'd)\n\n act_17\n\n\nTue Nov 08\n    \nWed Nov 09\nP-values\nChapter 11\n\n\n\n act_18\n\n act_18\n\n RC_18\n\nThu Nov 10\n    \nFri Nov 11\nHypothesis Testing I\nChapter 12\n\n\n\n act_19\n\n act_19\n\n RC_19\n\nSun Nov 13\n    9\n\nMon Nov 14\nHypothesis Testing II\n\n\n\n act_20\n\n\n\n \n    \nWed Nov 16\nHypothesis Testing III\n\n\n act_20 (cont'd)\n\n act_20\n\n\nThu Nov 17\n    \nFri Nov 18\nPutting it all together I\nChapter 13\n\n\n\n\n\n \n    10\n\nMon Nov 21\nExam 3\n\n\n\n\n\n \n    \nWed Nov 23\nThanksgiving - No Class\n\n\n\n\n\n \n    \nFri Nov 25\nThanksgiving - No Class\n\n\n\n\n\n \n    11\n\nMon Nov 28\nReading Week - No Class\n\n\n\n\n\n \n    \nWed Nov 30\nReading Week - No Class\n\n\n\n\n\n \n    \nFri Dec 02\nReading Week - No Class\n\n\n\n\n\n \n    12\n\nThu Dec 08\nOptional Final Exam: 9-10am or 3 - 4pm"
   },
   {
     "objectID": "course-syllabus.html",
@@ -915,19 +929,5 @@
     "title": "Syllabus",
     "section": "Important dates",
     "text": "Important dates\n\nSeptember 20: Classes begin\nOctober 12 and 14: Section 20 (9am) class is remote on Zoom\nOctober 28: Last day to drop a class\nNovember 23-27: Thanksgiving Break, no classes\nNovember 28-December 4: Reading period\nDecember 8: 1pm class: Optional in-person final exam 9am-11am\nDecember 8: 9am class: Optional in-person final exam 3pm-5pm\n\nClick here for the full academic calendar."
-  },
-  {
-    "objectID": "course-team.html",
-    "href": "course-team.html",
-    "title": "Course Team",
-    "section": "",
-    "text": "Section 20: Dr. Danielle Sass is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. She received her Ph.D in Statistics from the University of Illinois at Urbana-Champaign. Her passion and focus is curriculum and content development for undergraduate students. Office hours can be made by appointment by emailing danielle.sass@northwestern.edu\n\n\n\n\n\n\nSection 21: Dr. Arvind Krishna is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. He received his Ph.D in Statistics from Georgia Institute of Technology. Office hours can be made by appointment by emailing krish@northwestern.edu"
-  },
-  {
-    "objectID": "course-team.html#teaching-assistants",
-    "href": "course-team.html#teaching-assistants",
-    "title": "Course Team",
-    "section": "Teaching assistants",
-    "text": "Teaching assistants\nAll office hours will be held on-line via Zoom 998 6392 3813 on\n\nTuesdays 12-2pm and 4-6pm\nThursdays 11-1pm and 2-4pm\nSundays 1-4pm\n\n\n\n\n\n\n\n\n\n\nName\n\nEmail\nOffice hours\n\n\n\n\nKayla Schroeder (grader)\n\nKaylaSchroeder2026@u.northwestern.edu\nBy appointment\n\n\nDivya Narayan\n\ndivyanarayan2025@u.northwestern.edu\nTuesday 12-2pm\n\n\nJules Wathieu\n\njuleswathieu2024@u.northwestern.edu\nTuesday 4-6pm\n\n\nAlex Tun\n\nalextun2023@u.northwestern.edu\nThursday 11-1pm\n\n\nKole Butterer\n\nkolebutterer2023@u.northwestern.edu\nThursday 2-4pm\n\n\nShriya Kata\n\nshriyakata2025@u.northwestern.edu\nSunday 1-3pm\n\n\nKabeer Kishore\n\nkabeerkishore2023@u.northwestern.edu\nSunday 2-4pm"
   }
 ]
