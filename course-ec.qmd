@@ -1,0 +1,41 @@
+---
+title: "Course Extra Credit Opportunities"
+---
+
+## EC Opportunity 1 - Textbook Solutions
+
+At the end of each Chapter of the [textbook](https://nustat.github.io/intro-stat-data-sci/) we are writing practice Exercises, however the Exercises do not have solutions yet. If you complete the Exercises at the end of a Chapter and submit your solutions (in a .qmd document) to Canvas by the due date you will receive 2 points toward the `Activity` section of your grade per Chapter. The due dates are set so that I can post the odd problem solutions in the textbook before the Exam for everyone.
+
+| Chapter Exercise Solutions   | Due Date              |
+|---------------------|-----------------------|
+| Chapter 1 Solutions | Sunday, October 2nd   |
+| Chapter 2 Solutions | Thursday, October 6th |
+| Chapter 3 Solutions | Saturday, October 8th |
+| Chapter 4 Solutions | Sunday, October 9th   |
+
+
+## EC Opportunity 2 - Campuswire
+
+We use Campuswire (see syllabus or welcome page for enrollment code) as our preferred platform for announcements and questions about activities, reading checks, or general course-related questions. (Questions about individual grades or appointments should be addressed through email.)
+
+The Campuswire system is designed to get you help quickly and efficiently from your classmates and the instructional team. Rather than emailing your questions to the instructional team, you should post your questions on Campuswire. If a member of the team receives a course-related question via email, they will ask that you post on Campuswire. You can post questions anonymously.
+
+The instructional team will check Campuswire periodically to answer students' questions (do not expect this on weekends or after 5 PM on weekdays). However, we strongly encourage students to answer each other's questions. Students who participate actively on Campuswire will receive bonus final exam points at the end of the quarter.
+
+We measure student participation using the built-in Campuswire reputation system, which awards reputation points based on questions asked, answers given, and upvotes. The levels are as follows:
+
+Students gaining Lvl 1: Starter status by the end of the course will have earned 1 bonus final project point;
+
+Students gaining Lvl 2: Intermediate status by the end of the course will have earned 2 bonus final project points;
+
+Students gaining Lvl 3: Advanced status by the end of the course will have earned 3 bonus final project points.
+
+Note that the highest level requires upvotes. It benefits all students to upvote their peers for responses that they find useful.
+
+In addition, Campuswire provides a list of the top contributors in the class. At the end of the course, the top 3 contributors will have the bonus final project points they earned doubled.
+
+This means that a student who is among the top 3 and has the rank of Lvl 3 (Advanced) will receive 6 bonus final project points. If they are top 3 and have a rank of Lvl 2 (Intermediate) they will receive 4 bonus final project points.
+
+DISCLAIMER
+
+Students attempting or participating in an attempt to game the system will be ineligible for bonus points.

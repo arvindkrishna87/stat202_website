@@ -41,6 +41,8 @@ website:
           text: Office hours
         - href: course-links.qmd
           text: Useful links
+        - href: course-ec.qmd
+          text: Extra Credit
 
 format:
   html:
