@@ -10,7 +10,7 @@ execute:
 
 <!-- ::: callout-important -->
 
-<!-- Classes are virtual this week -->
+<!-- Classes are virtual this week. -->
 
 
 <!-- ::: -->
