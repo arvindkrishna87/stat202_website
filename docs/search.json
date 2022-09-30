@@ -144,7 +144,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 2.4 - 2.6"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 2.7 - 2.9"
   },
   {
     "objectID": "index.html#participate",
@@ -158,7 +158,7 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    Section notes: \n\n    Daily activity:  act_03"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    Section notes: \n\n    Daily activity:  act_04"
   },
   {
     "objectID": "index.html#homework-due-thu-sep-22-1159pm",
@@ -1138,7 +1138,7 @@
     "href": "course-ec.html",
     "title": "Course Extra Credit Opportunities",
     "section": "",
-    "text": "At the end of each Chapter of the textbook we are writing practice Exercises, however the Exercises do not have solutions yet. If you complete the Exercises at the end of a Chapter and submit your solutions (in a .qmd document) to Canvas by the due date you will receive 2 points toward the Activity section of your grade per Chapter. The due dates are set so that I can post the odd problem solutions in the textbook before the Exam for everyone.\n\n\n\nChapter Exercise Solutions\nDue Date\n\n\n\n\nChapter 1 Solutions\nSunday, October 2nd\n\n\nChapter 2 Solutions\nThursday, October 6th\n\n\nChapter 3 Solutions\nSaturday, October 8th\n\n\nChapter 4 Solutions\nSunday, October 9th"
+    "text": "At the end of each Chapter of the textbook we are writing practice Exercises, however the Exercises do not have solutions yet. If you complete the Exercises at the end of a Chapter and submit your solutions (in a .qmd document) to Canvas by the due date you will receive 2 points toward the Activity section of your grade per Chapter. The due dates are set so that I can post the odd problem solutions in the textbook before the Exam for everyone.\n\n\n\nChapter Exercise Solutions\nDue Date\n\n\n\n\nChapter 1 Solutions\nSunday, October 2nd\n\n\nChapter 2 Solutions\nThursday, October 6th\n\n\nChapter 3 Solutions\nSaturday, October 8th\n\n\nNO Ch 4 Exercises\n\n\n\nChapter 5 Solutions\nSunday, October 23rd\n\n\nChapter 6 Solutions\nSunday, October 23rd"
   },
   {
     "objectID": "course-ec.html#ec-opportunity-2",
@@ -1174,5 +1174,19 @@
     "title": "Today’s Agenda",
     "section": "Homework Due Thu Sep 29 11:59pm",
     "text": "Homework Due Thu Sep 29 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_03\n\n     Read Sections 2.7 - 2.9\n\n    Complete and submit  RC_04"
+  },
+  {
+    "objectID": "index.html#class-fri-sep-30",
+    "href": "index.html#class-fri-sep-30",
+    "title": "Today’s Agenda",
+    "section": "Class: Fri Sep 30",
+    "text": "Class: Fri Sep 30"
+  },
+  {
+    "objectID": "index.html#homework-due-sun-oct-02-1159pm",
+    "href": "index.html#homework-due-sun-oct-02-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Sun Oct 02 11:59pm",
+    "text": "Homework Due Sun Oct 02 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_04\n\n     Read Sections 3.0 - 3.3\n\n    Complete and submit  RC_05"
   }
 ]
