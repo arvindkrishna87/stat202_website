@@ -10,8 +10,7 @@ execute:
 
 <!-- ::: callout-important -->
 
-<!-- Classes are virtual this week -->
-
+<!-- Classes are virtual this week. -->
 
 <!-- ::: -->
 
@@ -78,10 +77,10 @@ agenda_today %>%
 
 ## Participate
 
-| Sec 20 (Sass 9am)                                            | Sec 21 (Krish 1pm)                            |
-|--------------------------------------------------------------|-----------------------------------------------|
-| [https://ahaslides.com/SASS1](https://ahaslides.com/SASS1) | [https://ahaslides.com/KRISH1](https://ahaslides.com/KRISH1)   |
-| ![](images/qr_sasspart1.png){height="1in"}                 | ![](images/qr_krishpart1.png){height="1in"} |
+| Sec 20 (Sass 9am)                          | Sec 21 (Krish 1pm)                          |
+|-----------------------------------------|-------------------------------|
+| <https://ahaslides.com/SASS1>              | <https://ahaslides.com/KRISH1>              |
+| ![](images/qr_sasspart1.png){height="1in"} | ![](images/qr_krishpart1.png){height="1in"} |
 
 <br>
 

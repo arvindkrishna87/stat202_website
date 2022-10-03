@@ -6,4 +6,4 @@ title: "Activity Solutions"
 Activities are graded for completion! It is your responsibility and should be a part of your learning habit to review your activities for correctness.
 
 - [Solution - Activity 01](documents/solutions/solution_act_01.html)
-
+- [Solution - Activity 02](documents/solutions/solution_act_02.html)
