@@ -1,7 +1,7 @@
 ---
 title: "Regression <br> Chapter 5.0 - 5.1"
 institute: "Department of Statistics and Data Science <br> STAT 202"
-logo: "www/nu_logo.png"
+logo: nu_logo.png
 format: 
   revealjs:
     theme: [default, nu_theme.scss]
@@ -11,14 +11,13 @@ format:
     menu:
         side: right
     code-line-numbers: false
+    scrollable: true
 execute:
   message: false
   warning: false
   echo: true
 editor_options: 
-  
   chunk_output_type: console
-server: shiny
 ---
 
 ```{r}
@@ -33,12 +32,12 @@ penguin_sub <- penguins %>%
   mutate(id = seq(1:34))
 ```
 
-## Today's goals {background-image="www/tidydata_5.png" background-size="600px" background-opacity="70%" background-position="95% 50%"}
+## Today's goals {.smaller background-image="images_horst/tidydata_5.png" background-size="400px" background-opacity="70%" background-position="50% 75%"}
 
 <br/>
 
 ::: columns
-::: {.column width="60%"}
+::: {.column width="80%"}
 1.  Find the correlation between two variables
 2.  Build and interpret a linear regression model
 3.  Make predictions using a linear regression model
@@ -46,7 +45,7 @@ penguin_sub <- penguins %>%
 :::
 :::
 
-::: {.absolute top="72%" left="85%" width="500"}
+::: {.absolute top="80%" left="50%" width="500"}
 ::: {style="opacity:0.75; font-size: 0.5em"}
 Artwork by @allison_horst
 :::
@@ -60,43 +59,67 @@ Remember that, BEFORE building a model, you should conduct an **exploratory data
 
 <br>
 
+. . .
+
 You will almost certainly need to do some data wrangling and visualizations before the model analysis.
 
 <br>
 
+. . .
+
 For this lessons example we will be using a subset of the `penguins` dataset that only includes `male` penguins from the `Chinstrap` species and `Dream` island. This is stored in `penguin_sub`.
 
-## Correlation Coefficient {.scrollable}
+## Correlation Coefficient (Ex1)
 
-**Correlation coefficient**: a number between -1 and 1 indicating the strength of the linear relationship between two numerical variables.
+::: {.absolute top="0%" left="90%" width="100"}
+![](images_lecture/participate_icon.png)
+:::
 
-<br>
+<font size="6"> **Correlation coefficient**: a number between -1 and 1 indicating the strength of the linear relationship between two numerical variables.
 
-Match the following graphs with the most appropriate correlation coefficient:
+Match the following graphs with the most appropriate correlation coefficient: </font>
 
 ::: fragment
 1.      a) -0.2     b) 0     c) 0.4     d) 0.7
 
-![](www/cor_0.4.png)
+![](images_lecture/cor_0.4.png){height="3in"}
 :::
 
-::: fragment
+## Correlation Coefficient (Ex2)
+
+::: {.absolute top="0%" left="90%" width="100"}
+![](images_lecture/participate_icon.png)
+:::
+
+<font size="6"> Match the following graph with the most appropriate correlation coefficient: </font>
+
 2.      a) -1     b) -0.75     c) -0.9     d) 1
 
-![](www/cor_-1.png)
+![](images_lecture/cor_-1.png){height="3in"}
+
+## Correlation Coefficient (Ex3)
+
+::: {.absolute top="0%" left="90%" width="100"}
+![](images_lecture/participate_icon.png)
 :::
 
-::: fragment
+<font size="6"> Match the following graph with the most appropriate correlation coefficient: </font>
+
 3.  Distance traveled vs the amount of gas in the car.
-
-a) Exactly -1     b) Between -1 and 0     c) About 0
-
-d) Between 0 and 1     e) Exactly 1
-:::
+    
+     a . Exactly -1
+     
+     b . Between -1 and 0
+     
+     c . About 0
+     
+     d . Between 0 and 1
+     
+     e . Exactly 1
 
 ## Correlation Coefficient (continued) {.scrollable}
 
-The following code shows three different options for calculating the correlation between two variables within the `penguins` dataset.
+<font size="6"> The following code shows three different options for calculating the correlation between two variables within the `penguins` dataset. </font>
 
 ::: panel-tabset
 ## Correlation
@@ -127,12 +150,14 @@ glimpse(penguin_sub)
 :::
 
 ::: fragment
-You will most likely need to filter out missing data beforehand OR set `use = "complete.obs"` inside the `cor()` function. This is the equivalent of when we set `na.rm = TRUE` in other summary functions.
+<font size="6"> You will most likely need to filter out missing data beforehand OR set `use = "complete.obs"` inside the `cor()` function. This is the equivalent of when we set `na.rm = TRUE` in other summary functions. </font>
 :::
 
 ## Simple Linear Regression (SLR)
 
 -   **Definition**: Simple linear regression: models the relationship between a response (y) variable and one explanatory (x) variable.
+
+. . .
 
 -   Essentially, we are finding the **line of best fit** for a scatterplot between 'x' and 'y'.
 
@@ -142,6 +167,7 @@ You will most likely need to filter out missing data beforehand OR set `use = "c
 
 <br>
 
+::: incremental
 -   $b_0$ : intercept; the **expected** value of $\hat{y}$ when $x = 0$
 
 -   $b_1$ : slope; for every 1 unit increase in x, then $\hat{y}$ increases **on average** by $b_1$
@@ -149,10 +175,13 @@ You will most likely need to filter out missing data beforehand OR set `use = "c
 -   **fitted values**: $\hat{y}$; the predicted value on the regression line
 
 -   **residuals**: $y - \hat{y}$; error in prediction
+:::
 
 ## Example 1: Model {auto-animate="true"}
 
 Consider a subset of the `penguins` dataset that only includes `male` penguins from the `Chinstrap` species and `Dream` island. This is stored in `penguin_sub`.
+
+. . .
 
 ::: panel-tabset
 ## Model
@@ -255,117 +284,7 @@ summary(model_penguin)$coefficients
 ::: panel-tabset
 ## Visualizing
 
-```{r}
-#| panel: sidebar
-#| echo: false
-selectInput("pick1", "Pick a penguin:", 
-            choices = penguin_sub$id)
-br()
-
-p("Observed weight (y):")
-span(textOutput("obs"),
-     style="color:#009E73")
-
-br()
-
-p("Predicted weight (fitted value):")
-span(textOutput("pred"),
-     style="color:red")
-
-br()
-
-p("Residual (error):")
-span(textOutput("error"),
-     style="color:#E69F00")
-
-```
-
-```{r}
-#| panel: fill
-#| echo: false
-plotOutput("Ex1Plot")
-```
-
-```{r}
-#| context: server
-library(palmerpenguins)
-library(tidyverse)
-
-
-  penguin_sub <- penguins %>% 
-  filter(sex == "male", species == "Chinstrap", island == "Dream") %>% 
-  mutate(id = seq(1:34))
-
-    model_penguin <- lm(body_mass_g ~ flipper_length_mm, data = penguin_sub)
-
-    penguin_sub <- penguin_sub %>% 
-  mutate(fitted_val = fitted(model_penguin),
-         residual_val = residuals(model_penguin))
-    
-output$obs <- renderText({
-  one_peng <- penguin_sub %>% 
-    filter(id == input$pick1)
-  
-  return(round(one_peng$body_mass_g,1))
-})
-
-output$pred <- renderText({
-  one_peng <- penguin_sub %>% 
-    filter(id == input$pick1)
-  
-  return(round(one_peng$fitted_val,1))
-})
-
-
-output$error <- renderText({
-  one_peng <- penguin_sub %>% 
-    filter(id == input$pick1)
-  
-  paste0(round(one_peng$body_mass_g), " - ", round(one_peng$fitted_val,1), " = ", round( round(one_peng$body_mass_g)-round(one_peng$fitted_val,1), 1) )
-})
-    
-output$Ex1Plot <- renderPlot({
-  
-
-  one_peng <- penguin_sub %>% 
-    filter(id == input$pick1)
-  
-  
-  ggplot(penguin_sub, 
-         aes(x = flipper_length_mm, 
-             y = body_mass_g))+
-    geom_point(color = "#999999") +
-    geom_point(data = one_peng, 
-               color = "#009E73", size =4) +
-    annotate("text", label = "y",
-             x = one_peng$flipper_length_mm-0.5,
-             y = one_peng$body_mass_g,
-             color = "#009E73",
-             size =4) +
-    geom_point(data = one_peng, 
-               aes(y = fitted_val), 
-               color = "red", size = 4)+
-    annotate("text", label = expression(hat("y")),
-             x = one_peng$flipper_length_mm-0.5,
-             y = one_peng$fitted_val,
-             color = "red",
-             size = 4) +
-    geom_segment(data = one_peng, 
-                 aes(x =flipper_length_mm,
-                     xend = flipper_length_mm,
-                     y = fitted_val,
-                     yend = body_mass_g),
-                 color = "#E69F00",
-                 size =2)+
-    scale_y_continuous(
-      breaks = seq(3250, 4750, 250))+
-    scale_x_continuous(
-      breaks = seq(186, 214, 2))+
-  geom_smooth(method = "lm", se = FALSE) +
-    theme_minimal()
-  
-})
-```
+<https://northwestern-university.shinyapps.io/lec08_regression/>
 
 ## Calculating
 
@@ -383,6 +302,10 @@ glimpse(penguin_sub)
 
 ## Example 1: Predicting
 
+::: {.absolute top="0%" left="90%" width="100"}
+![](images_lecture/participate_icon.png)
+:::
+
 Recall the equation of the regression line is
 
 $$\widehat{\hbox{body_mass_g} } = -4111.3 + 40.3*\hbox{flipper_length}$$
@@ -393,6 +316,7 @@ You find a new `male` penguin from the `Chinstrap` species and `Dream` island th
 
 ::: fragment
 ```{r}
+#| echo: fenced
 -4111.3 + 40.3*220
 ```
 :::

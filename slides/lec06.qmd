@@ -62,7 +62,7 @@ Rarely do we only use one of these tools in isolation. We "pipe" them together t
 
 `group_by(variable)` takes an existing data frame and converts it into a grouped data frame
 
-:::{.incremental}
+::: incremental
 -   operations are performed by group
 -   must be used in conjunction with another operator, Ex: summarize()
 -   can group by multiple criteria but must be included in the **same** function call
@@ -91,9 +91,7 @@ head(penguins)
 
 . . .
 
-<font size="6">
-Calculate the average body mass of male and female penguins for each species. (ie: calculate the average body mass of penguins by species and sex.)
-</font>
+<font size="6"> Calculate the average body mass of male and female penguins for each species. (ie: calculate the average body mass of penguins by species and sex.) </font>
 
 . . .
 
@@ -103,7 +101,6 @@ penguins %>%
   group_by(species, sex) %>% 
   summarize(mean_mass = mean(body_mass_g))
 ```
-
 
 ## `mutate()` {.scrollable}
 
@@ -143,9 +140,7 @@ glimpse(penguins)
 
 . . .
 
-<font size="6">
-Notice we overwrote the `penguins` dataset. You can ONLY overwrite the original data if you are **not changing** any of the original information. Otherwise store it as something NEW.
-</font>
+<font size="6"> Notice we overwrote the `penguins` dataset. You can ONLY overwrite the original data if you are **not changing** any of the original information. Otherwise store it as something NEW. </font>
 
 ## `arrange()` {.scrollable}
 
@@ -165,13 +160,11 @@ penguins %>%
 
 ## `select()` {.scrollable}
 
-<font size="6">
-`select()` subsets the dataset based on named columns
+<font size="6"> `select()` subsets the dataset based on named columns
 
 Sometimes datasets contain a LOT of information that you do not need for your analysis. `select()` will help us simplify the dataset and make it easier to use.
 
-In the penguins dataset, say we are only interested in the body measurement columns.
-</font>
+In the penguins dataset, say we are only interested in the body measurement columns. </font>
 
 ::: panel-tabset
 ## Code
@@ -214,10 +207,10 @@ head(penguins_body)
 ![](images_lecture/participate_icon.png)
 :::
 
-
 What if we want to start with our `penguins` dataset, then keep only observations that are not missing their `body_mass_g`, and then calculate the count by species, and then order the dataset from low to high.
 
     a)
+
 ```{r Example1}
 #| echo: true
 #| eval: false
@@ -227,8 +220,9 @@ penguins %>%
   summarize(count = n()) %>% 
   arrange(count)
 ```
-   
+
     b)
+
 ```{r Example2}
 #| echo: true
 #| eval: false
@@ -238,8 +232,9 @@ penguins %>%
   summarize(count = n()) %>% 
   arrange(count)
 ```
-    
+
     c)
+
 ```{r Example3}
 #| echo: true
 #| eval: false
@@ -249,8 +244,9 @@ penguins %>%
   summarize(count = n()) %>% 
   arrange(desc(count))
 ```
-    
+
     d)
+
 ```{r Example4}
 #| echo: true
 #| eval: false
@@ -260,5 +256,5 @@ penguins %>%
   group_by(species) %>% 
   arrange(count)
 ```
-<br>
 
+<br>
