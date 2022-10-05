@@ -388,7 +388,7 @@
   <p class="institute">Department of Statistics and Data Science <br> STAT 202</p>
 </section>
 
-<section id="todays-goals" class="slide level2" data-background-image="images_comics/last_line_defense.png" data-background-size="400px" data-background-opacity="50%" data-background-position="85% 50%">
+<section id="todays-goals" class="slide level2" data-background-image="images_horst/comics/last_line_defense.png" data-background-size="400px" data-background-opacity="50%" data-background-position="85% 50%">
 <h2>Today’s goals</h2>
 <p><br></p>
 <div class="columns">
@@ -403,15 +403,20 @@
 <section id="simple-categorical-linear-regression" class="slide level2">
 <h2>Simple Categorical Linear Regression</h2>
 <ul>
-<li><p><strong>Definition</strong>: Simple Categorical Linear Regression models the relationship between a response (y) variable and one categorical explanatory (x) variable.</p></li>
-<li><p>Now the model will give us differences by <strong>categories</strong> relative to a <strong>baseline</strong> for comparison.</p></li>
+<li><strong>Definition</strong>: Simple Categorical Linear Regression models the relationship between a response (y) variable and one categorical explanatory (x) variable.</li>
 </ul>
+<div class="fragment">
+<ul>
+<li>Now the model will give us differences by <strong>categories</strong> relative to a <strong>baseline</strong> for comparison.</li>
+</ul>
+</div>
 </section>
 <section id="example" class="slide level2 scrollable" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Example</h2>
 <p>Consider the Palmer Penguins dataset.</p>
 <p>We want to use <code>species</code> to predict <code>body_mass_g</code>. In other words we think penguins body mass varies by species.</p>
 <p>Recall our dataset has 3 species: Adelie, Gentoo, Chinstrap</p>
+<div class="fragment">
 <div class="panel-tabset">
 <ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Model</a></li><li><a href="#tabset-1-2">Data</a></li></ul>
 <div class="tab-content">
@@ -435,6 +440,7 @@ $ flipper_length_mm &lt;int&gt; 181, 186, 195, NA, 193, 190, 181, 195, 193, 190,
 $ body_mass_g       &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~
 $ sex               &lt;fct&gt; male, female, female, NA, female, male, female, male~
 $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~</code></pre>
+</div>
 </div>
 </div>
 </div>
@@ -501,7 +507,10 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
 </section>
 <section id="regression-equation" class="slide level2 scrollable">
 <h2>Regression Equation</h2>
-<p>Below is the summary output.</p>
+<div class="absolute" style="top: 0%; left: 90%; width: 100px; ">
+<p><img data-src="images_lecture/participate_icon.png"></p>
+</div>
+<p>Below is the condensed summary output.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(model_species)<span class="sc">$</span>coefficients</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
@@ -511,11 +520,15 @@ speciesChinstrap   32.42598   67.51168  0.4803018  6.313226e-01
 speciesGentoo    1375.35401   56.14797 24.4951686  5.420612e-77</code></pre>
 </div>
 </div>
+<div class="fragment">
 <p>What is the <strong>baseline</strong> species?</p>
 <p><br></p>
+</div>
+<div class="fragment">
 <p>What is the regression equation?</p>
+</div>
 </section>
-<section id="indicator-function" class="slide level2 scrollable">
+<section id="indicator-function" class="slide level2">
 <h2>Indicator function</h2>
 <p>Will take on either the value of “1” or “0” depending if the condition is true.</p>
 <span class="math display">\[\begin{equation}
@@ -524,7 +537,11 @@ speciesGentoo    1375.35401   56.14797 24.4951686  5.420612e-77</code></pre>
         0 &amp; \text{if x is NOT Gentoo}
     \end{cases}
 \end{equation}\]</span>
-<p><br></p>
+</section>
+<section id="indicator-function-1" class="slide level2 scrollable smaller">
+<h2>Indicator function</h2>
+<p>Recall our model:</p>
+<p><span class="math display">\[\widehat{bodymass} = b_0 + b_1*\mathbb{1}_{chinstrap}(x)+ b_2*\mathbb{1}_{gentoo}(x)\]</span></p>
 <p>Consider 3 randomly sampled Penguins below.</p>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
@@ -537,18 +554,22 @@ speciesGentoo    1375.35401   56.14797 24.4951686  5.420612e-77</code></pre>
 # ... with abbreviated variable name 1: body_mass_g</code></pre>
 </div>
 </div>
-<p>When using the model equation which of the penguins would you set <span class="math inline">\(\mathbb{1}_{gentoo}(x) = 1?\)</span> What about <span class="math inline">\(\mathbb{1}_{chinstrap}(x) = 1?\)</span></p>
+<div class="fragment">
+<p>When using the model equation which of the above penguins would you set <span class="math inline">\(\mathbb{1}_{gentoo}(x) = 1?\)</span> What about <span class="math inline">\(\mathbb{1}_{chinstrap}(x) = 1?\)</span></p>
+</div>
 </section>
 <section id="interpretation" class="slide level2 scrollable">
 <h2>Interpretation</h2>
 <p><span class="math display">\[\widehat{bodymass} = b_0 + b_1*\mathbb{1}_{chinstrap}(x)+ b_2*\mathbb{1}_{gentoo}(x)\]</span></p>
+<div>
 <ul>
-<li><p>Interpretation of <span class="math inline">\(b_0\)</span>: expected value of y for the baseline; the expected body mass for Adelie species is 3700.7</p></li>
-<li><p>Interpretation of <span class="math inline">\(b_1\)</span> : offset in intercept; expected body mass for Chinstrap species is 32.4 <strong>more</strong> on <strong>average</strong> than Adelie species</p></li>
-<li><p>Interpretation of <span class="math inline">\(b_2\)</span> : offset in intercept; expected body mass for Gentoo species is 1375.4 <strong>more</strong> on <strong>average</strong> than Adelie species.</p></li>
-<li><p>Which penguin species weighs the least <strong>on average</strong>?</p></li>
-<li><p>Which penguin species weighs the most <strong>on average</strong>?</p></li>
+<li class="fragment"><p>Interpretation of <span class="math inline">\(b_0\)</span>: expected value of y for the baseline; the expected body mass for Adelie species is 3700.7</p></li>
+<li class="fragment"><p>Interpretation of <span class="math inline">\(b_1\)</span> : offset in intercept; expected body mass for Chinstrap species is 32.4 <strong>more</strong> on <strong>average</strong> than Adelie species</p></li>
+<li class="fragment"><p>Interpretation of <span class="math inline">\(b_2\)</span> : offset in intercept; expected body mass for Gentoo species is 1375.4 <strong>more</strong> on <strong>average</strong> than Adelie species.</p></li>
+<li class="fragment"><p>Which penguin species weighs the least <strong>on average</strong>?</p></li>
+<li class="fragment"><p>Which penguin species weighs the most <strong>on average</strong>?</p></li>
 </ul>
+</div>
 </section>
 <section id="extra-information" class="slide level2">
 <h2>Extra information</h2>

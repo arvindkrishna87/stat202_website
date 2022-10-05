@@ -725,14 +725,14 @@
     "href": "slides/lec09.html#simple-categorical-linear-regression",
     "title": "Regression  Chapter 5.2 - 5.4",
     "section": "Simple Categorical Linear Regression",
-    "text": "Simple Categorical Linear Regression\n\nDefinition: Simple Categorical Linear Regression models the relationship between a response (y) variable and one categorical explanatory (x) variable.\nNow the model will give us differences by categories relative to a baseline for comparison."
+    "text": "Simple Categorical Linear Regression\n\nDefinition: Simple Categorical Linear Regression models the relationship between a response (y) variable and one categorical explanatory (x) variable.\n\n\n\nNow the model will give us differences by categories relative to a baseline for comparison."
   },
   {
     "objectID": "slides/lec09.html#example",
     "href": "slides/lec09.html#example",
     "title": "Regression  Chapter 5.2 - 5.4",
     "section": "Example",
-    "text": "Example\nConsider the Palmer Penguins dataset.\nWe want to use species to predict body_mass_g. In other words we think penguins body mass varies by species.\nRecall our dataset has 3 species: Adelie, Gentoo, Chinstrap\n\nModelData\n\n\n\n#Build a model\nmodel_species <- lm(body_mass_g ~ species, data = penguins)\n\n\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~\n$ sex               <fct> male, female, female, NA, female, male, female, male~\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~"
+    "text": "Example\nConsider the Palmer Penguins dataset.\nWe want to use species to predict body_mass_g. In other words we think penguins body mass varies by species.\nRecall our dataset has 3 species: Adelie, Gentoo, Chinstrap\n\n\nModelData\n\n\n\n#Build a model\nmodel_species <- lm(body_mass_g ~ species, data = penguins)\n\n\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~\n$ sex               <fct> male, female, female, NA, female, male, female, male~\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~"
   },
   {
     "objectID": "slides/lec09.html#example-1",
@@ -746,21 +746,21 @@
     "href": "slides/lec09.html#regression-equation",
     "title": "Regression  Chapter 5.2 - 5.4",
     "section": "Regression Equation",
-    "text": "Regression Equation\nBelow is the summary output.\n\nsummary(model_species)$coefficients\n\n                   Estimate Std. Error    t value      Pr(>|t|)\n(Intercept)      3700.66225   37.61935 98.3712321 2.488024e-251\nspeciesChinstrap   32.42598   67.51168  0.4803018  6.313226e-01\nspeciesGentoo    1375.35401   56.14797 24.4951686  5.420612e-77\n\n\nWhat is the baseline species?\n\nWhat is the regression equation?"
+    "text": "Regression Equation\n\n\n\nBelow is the condensed summary output.\n\nsummary(model_species)$coefficients\n\n                   Estimate Std. Error    t value      Pr(>|t|)\n(Intercept)      3700.66225   37.61935 98.3712321 2.488024e-251\nspeciesChinstrap   32.42598   67.51168  0.4803018  6.313226e-01\nspeciesGentoo    1375.35401   56.14797 24.4951686  5.420612e-77\n\n\n\nWhat is the baseline species?\n\n\n\nWhat is the regression equation?"
   },
   {
     "objectID": "slides/lec09.html#indicator-function",
     "href": "slides/lec09.html#indicator-function",
     "title": "Regression  Chapter 5.2 - 5.4",
     "section": "Indicator function",
-    "text": "Indicator function\nWill take on either the value of “1” or “0” depending if the condition is true.\n\\[\\begin{equation}\n\\mathbb{1}_{gentoo}(x) = \\begin{cases}\n        1 & \\text{if x is Gentoo}\\\\\n        0 & \\text{if x is NOT Gentoo}\n    \\end{cases}\n\\end{equation}\\]\n\nConsider 3 randomly sampled Penguins below.\n\n\n# A tibble: 3 x 7\n  species island    bill_length_mm bill_depth_mm flipper_length_mm body_~1 sex  \n  <fct>   <fct>              <dbl>         <dbl>             <int>   <int> <fct>\n1 Gentoo  Biscoe              41.7          14.7               210    4700 fema~\n2 Adelie  Torgersen           45.8          18.9               197    4150 male \n3 Gentoo  Biscoe              45.1          14.4               210    4400 fema~\n# ... with abbreviated variable name 1: body_mass_g\n\n\nWhen using the model equation which of the penguins would you set \\(\\mathbb{1}_{gentoo}(x) = 1?\\) What about \\(\\mathbb{1}_{chinstrap}(x) = 1?\\)"
+    "text": "Indicator function\nWill take on either the value of “1” or “0” depending if the condition is true.\n\\[\\begin{equation}\n\\mathbb{1}_{gentoo}(x) = \\begin{cases}\n        1 & \\text{if x is Gentoo}\\\\\n        0 & \\text{if x is NOT Gentoo}\n    \\end{cases}\n\\end{equation}\\]"
   },
   {
     "objectID": "slides/lec09.html#interpretation",
     "href": "slides/lec09.html#interpretation",
     "title": "Regression  Chapter 5.2 - 5.4",
     "section": "Interpretation",
-    "text": "Interpretation\n\\[\\widehat{bodymass} = b_0 + b_1*\\mathbb{1}_{chinstrap}(x)+ b_2*\\mathbb{1}_{gentoo}(x)\\]\n\nInterpretation of \\(b_0\\): expected value of y for the baseline; the expected body mass for Adelie species is 3700.7\nInterpretation of \\(b_1\\) : offset in intercept; expected body mass for Chinstrap species is 32.4 more on average than Adelie species\nInterpretation of \\(b_2\\) : offset in intercept; expected body mass for Gentoo species is 1375.4 more on average than Adelie species.\nWhich penguin species weighs the least on average?\nWhich penguin species weighs the most on average?"
+    "text": "Interpretation\n\\[\\widehat{bodymass} = b_0 + b_1*\\mathbb{1}_{chinstrap}(x)+ b_2*\\mathbb{1}_{gentoo}(x)\\]\n\n\nInterpretation of \\(b_0\\): expected value of y for the baseline; the expected body mass for Adelie species is 3700.7\nInterpretation of \\(b_1\\) : offset in intercept; expected body mass for Chinstrap species is 32.4 more on average than Adelie species\nInterpretation of \\(b_2\\) : offset in intercept; expected body mass for Gentoo species is 1375.4 more on average than Adelie species.\nWhich penguin species weighs the least on average?\nWhich penguin species weighs the most on average?"
   },
   {
     "objectID": "slides/lec09.html#extra-information",
@@ -1272,5 +1272,12 @@
     "title": "Today’s Agenda",
     "section": "Homework Due Thu Oct 06 11:59pm",
     "text": "Homework Due Thu Oct 06 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_06\n\n     Read Chapter 4\n\n    Complete and submit  RC_07"
+  },
+  {
+    "objectID": "slides/lec09.html#indicator-function-1",
+    "href": "slides/lec09.html#indicator-function-1",
+    "title": "Regression  Chapter 5.2 - 5.4",
+    "section": "Indicator function",
+    "text": "Indicator function\nRecall our model:\n\\[\\widehat{bodymass} = b_0 + b_1*\\mathbb{1}_{chinstrap}(x)+ b_2*\\mathbb{1}_{gentoo}(x)\\]\nConsider 3 randomly sampled Penguins below.\n\n\n# A tibble: 3 x 7\n  species island    bill_length_mm bill_depth_mm flipper_length_mm body_~1 sex  \n  <fct>   <fct>              <dbl>         <dbl>             <int>   <int> <fct>\n1 Gentoo  Biscoe              41.7          14.7               210    4700 fema~\n2 Adelie  Torgersen           45.8          18.9               197    4150 male \n3 Gentoo  Biscoe              45.1          14.4               210    4400 fema~\n# ... with abbreviated variable name 1: body_mass_g\n\n\n\nWhen using the model equation which of the above penguins would you set \\(\\mathbb{1}_{gentoo}(x) = 1?\\) What about \\(\\mathbb{1}_{chinstrap}(x) = 1?\\)"
   }
 ]

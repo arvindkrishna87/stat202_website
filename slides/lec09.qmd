@@ -26,7 +26,7 @@ library(dplyr)
 library(palmerpenguins)
 ```
 
-## Today's goals {background-image="images_comics/last_line_defense.png" background-size="400px" background-opacity="50%" background-position="85% 50%"}
+## Today's goals {background-image="images_horst/comics/last_line_defense.png" background-size="400px" background-opacity="50%" background-position="85% 50%"}
 
 <br/>
 
@@ -41,6 +41,8 @@ library(palmerpenguins)
 
 -   **Definition**: Simple Categorical Linear Regression models the relationship between a response (y) variable and one categorical explanatory (x) variable.
 
+. . .
+
 -   Now the model will give us differences by **categories** relative to a **baseline** for comparison.
 
 ## Example {.scrollable auto-animate="true"}
@@ -50,6 +52,8 @@ Consider the Palmer Penguins dataset.
 We want to use `species` to predict `body_mass_g`. In other words we think penguins body mass varies by species.
 
 Recall our dataset has 3 species: Adelie, Gentoo, Chinstrap
+
+. . .
 
 ::: panel-tabset
 ## Model
@@ -64,7 +68,7 @@ model_species <- lm(body_mass_g ~ species, data = penguins)
 ## Data
 
 ```{r}
-glimpse(penguins)
+skim(penguins)
 ```
 :::
 
@@ -90,25 +94,33 @@ summary(model_species)
 ## Data
 
 ```{r}
-glimpse(penguins)
+skim(penguins)
 ```
 :::
 
 ## Regression Equation {.scrollable}
 
-Below is the summary output.
+::: {.absolute top="0%" left="90%" width="100"}
+![](images_lecture/participate_icon.png)
+:::
+
+Below is the condensed summary output.
 
 ```{r}
 summary(model_species)$coefficients
 ```
 
+. . .
+
 What is the **baseline** species?
 
 <br>
 
+. . .
+
 What is the regression equation?
 
-## Indicator function {.scrollable}
+## Indicator function
 
 Will take on either the value of "1" or "0" depending if the condition is true.
 
@@ -120,7 +132,12 @@ Will take on either the value of "1" or "0" depending if the condition is true.
     \end{cases}
 \end{equation}
 ```
-<br>
+
+## Indicator function {.scrollable .smaller}
+
+Recall our model:
+
+$$\widehat{bodymass} = b_0 + b_1*\mathbb{1}_{chinstrap}(x)+ b_2*\mathbb{1}_{gentoo}(x)$$
 
 Consider 3 randomly sampled Penguins below.
 
@@ -132,12 +149,15 @@ x %>%
   select(-year)
 ```
 
-When using the model equation which of the penguins would you set $\mathbb{1}_{gentoo}(x) = 1?$ What about $\mathbb{1}_{chinstrap}(x) = 1?$
+. . .
+
+When using the model equation which of the above penguins would you set $\mathbb{1}_{gentoo}(x) = 1?$ What about $\mathbb{1}_{chinstrap}(x) = 1?$
 
 ## Interpretation {.scrollable}
 
 $$\widehat{bodymass} = b_0 + b_1*\mathbb{1}_{chinstrap}(x)+ b_2*\mathbb{1}_{gentoo}(x)$$
 
+:::{.incremental}
 -   Interpretation of $b_0$: expected value of y for the baseline; the expected body mass for Adelie species is 3700.7
 
 -   Interpretation of $b_1$ : offset in intercept; expected body mass for Chinstrap species is 32.4 **more** on **average** than Adelie species
@@ -147,6 +167,7 @@ $$\widehat{bodymass} = b_0 + b_1*\mathbb{1}_{chinstrap}(x)+ b_2*\mathbb{1}_{gent
 -   Which penguin species weighs the least **on average**?
 
 -   Which penguin species weighs the most **on average**?
+:::
 
 ## Extra information
 
