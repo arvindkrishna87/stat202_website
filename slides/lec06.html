@@ -625,8 +625,8 @@ $ body_mass_lb      &lt;dbl&gt; 8.267196, 8.377425, 7.164903, NA, 7.605820, 8.04
 <h2>Other Useful Data Wrangling Functions</h2>
 <ul>
 <li><code>count(variable)</code> : shortcut to <code>group_by %&gt;% summarize(n())</code></li>
-<li><code>top_n(n = 1, variable)</code> : return the largest value</li>
-<li><code>top_n(n = -1, variable)</code> : return the smallest value</li>
+<li><code>slice_max(variable, n = 1)</code> : return the largest “n” values</li>
+<li><code>slice_min(variable, n = 1)</code> : return the smallest “n” values</li>
 </ul>
 </section>
 <section id="data-wrangling-example" class="slide level2 scrollable">

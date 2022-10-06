@@ -172,7 +172,7 @@
     "href": "slides/lec06.html#other-useful-data-wrangling-functions",
     "title": "Data Wrangling  Chapter 3.4 - 3.9",
     "section": "Other Useful Data Wrangling Functions",
-    "text": "Other Useful Data Wrangling Functions\n\ncount(variable) : shortcut to group_by %>% summarize(n())\ntop_n(n = 1, variable) : return the largest value\ntop_n(n = -1, variable) : return the smallest value"
+    "text": "Other Useful Data Wrangling Functions\n\ncount(variable) : shortcut to group_by %>% summarize(n())\nslice_max(variable, n = 1) : return the largest “n” values\nslice_min(variable, n = 1) : return the smallest “n” values"
   },
   {
     "objectID": "slides/lec06.html#data-wrangling-example",
