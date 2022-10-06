@@ -24,6 +24,7 @@ execute:
 library(ggplot2)
 library(dplyr)
 library(palmerpenguins)
+library(skimr)
 ```
 
 ## Today's goals {background-image="images_horst/comics/last_line_defense.png" background-size="400px" background-opacity="50%" background-position="85% 50%"}
