@@ -198,8 +198,8 @@ head(penguins_body)
 ## Other Useful Data Wrangling Functions
 
 -   `count(variable)` : shortcut to `group_by %>% summarize(n())`
--   `top_n(n = 1, variable)` : return the largest value
--   `top_n(n = -1, variable)` : return the smallest value
+-   `slice_max(variable, n = 1)` : return the largest "n" values
+-   `slice_min(variable, n = 1)` : return the smallest "n" values
 
 ## Data Wrangling Example {.scrollable}
 
