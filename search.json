@@ -756,18 +756,18 @@
     "text": "Extra information and resources\nWikipedia bin size info\nHelpful guidelines:\n\nLarger number of observations generally correspond to larger number of bins needed.\nYou will generally need to test several different number of bins to learn about the data and find an appropriate value.\nSturges Rule of Thumb for unimodal symmetric distributions: bins = 1 + 3.322*log(n)\nSturge’s rule is not great if the data is severely skewed, multi-modal, or for an extremely large number of observations. But it could give you a starting place and then you will want to increase the number of bins until you can properly see the shape."
   },
   {
-    "objectID": "index.html#class-wed-oct-05",
-    "href": "index.html#class-wed-oct-05",
+    "objectID": "index.html#class-fri-oct-07",
+    "href": "index.html#class-fri-oct-07",
     "title": "Today’s Agenda",
-    "section": "Class: Wed Oct 05",
-    "text": "Class: Wed Oct 05"
+    "section": "Class: Fri Oct 07",
+    "text": "Class: Fri Oct 07\n\n\n\n\n\n\n  \n  \n  \n    Study for Exam 1"
   },
   {
     "objectID": "index.html#prepare",
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 3.4 - 3.9"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Chapter 4"
   },
   {
     "objectID": "index.html#participate",
@@ -781,14 +781,14 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    Section notes: \n\n    Daily activity:  act_06"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    Section notes: \n\n    Daily activity:  act_07"
   },
   {
-    "objectID": "index.html#homework-due-thu-oct-06-1159pm",
-    "href": "index.html#homework-due-thu-oct-06-1159pm",
+    "objectID": "index.html#homework-due-sun-oct-09-1159pm",
+    "href": "index.html#homework-due-sun-oct-09-1159pm",
     "title": "Today’s Agenda",
-    "section": "Homework Due Thu Oct 06 11:59pm",
-    "text": "Homework Due Thu Oct 06 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_06\n\n     Read Chapter 4\n\n    Complete and submit  RC_07"
+    "section": "Homework Due Sun Oct 09 11:59pm",
+    "text": "Homework Due Sun Oct 09 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_07"
   },
   {
     "objectID": "course-links.html",
