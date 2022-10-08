@@ -15,14 +15,16 @@ execute:
 <!-- ::: -->
 
 ```{r}
-library(tidyverse)
+#library(tidyverse)
+library(dplyr)
+library(purrr)
 library(gt)
 today_ymd <- Sys.Date()
 today <- format(today_ymd,"%a %b %d")
 
 
-agenda_final <- read_csv("documents/agenda_final.csv")%>% 
-  mutate(time = today_ymd - date_ymd)
+agenda_final <- read.csv("documents/agenda_final.csv")%>% 
+  mutate(time = today_ymd - as.Date(date_ymd) )
 
 val <- ifelse(max(agenda_final$time)<0,
               max(agenda_final$time),

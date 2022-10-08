@@ -1,13 +1,14 @@
 # clean dates, organize calendar and write agenda_final
-library(tidyverse)
+#library(tidyverse)
 library(gt)
 library(gtExtras)
 library(lubridate)
+library(dplyr)
 
 # update these two files each quarter
-schedule <- read_csv("documents/course-schedule.csv")
+schedule <- read.csv("documents/course-schedule.csv")
 
-imp_dates <- read_csv("documents/dates-calendar.csv") %>% 
+imp_dates <- read.csv("documents/dates-calendar.csv") %>% 
   mutate(Date = as.Date(Date, "%m/%d/%Y"))
 
 class_start <- imp_dates$Date[1]
@@ -64,4 +65,4 @@ agenda_final <- agenda %>%
 
 agenda_final$reading_hw <- c(agenda_final$Reading[-1], "")
 
-write_csv(agenda_final, "documents/agenda_final.csv")
+write.csv(agenda_final, "documents/agenda_final.csv", row.names = FALSE)
