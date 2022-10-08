@@ -10,3 +10,4 @@ Activities are graded for completion! It is your responsibility and should be a 
 -   [Solution - Activity 04](documents/solutions/solution_act_04.html)
 -   [Solution - Activity 05](documents/solutions/solution_act_05.html)
 -   [Solution - Activity 06](documents/solutions/solution_act_06.html)
+-   [Solution - Activity 07](documents/solutions/solution_act_07.html)
