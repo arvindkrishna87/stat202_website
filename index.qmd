@@ -11,6 +11,7 @@ execute:
 ::: callout-important
 
 9am Class Only: We are on zoom for class 10/12 and 10/14
+https://northwestern.zoom.us/j/99863923813
 
 :::
 
@@ -81,8 +82,8 @@ agenda_today %>%
 
 | Sec 20 (Sass 9am)                          | Sec 21 (Krish 1pm)                          |
 |-----------------------------------------|-------------------------------|
-| <https://ahaslides.com/SASS1>              | <https://ahaslides.com/KRISH1>              |
-| ![](images/qr_sasspart1.png){height="1in"} | ![](images/qr_krishpart1.png){height="1in"} |
+| <https://ahaslides.com/SASS2>              | <https://ahaslides.com/KRISH2>              |
+| ![](images/qr_sasspart2.png){height="1in"} | ![](images/qr_krishpart2.png){height="1in"} |
 
 <br>
 
