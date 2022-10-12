@@ -8,7 +8,10 @@ library(dplyr)
 # update these two files each quarter
 schedule <- read.csv("documents/course-schedule.csv")
 
-imp_dates <- read.csv("documents/dates-calendar.csv") %>% 
+imp_dates <- read.csv("documents/dates-calendar.csv")
+colnames(imp_dates) = c("Date", "Topic")
+
+imp_dates <- imp_dates %>% 
   mutate(Date = as.Date(Date, "%m/%d/%Y"))
 
 class_start <- imp_dates$Date[1]
