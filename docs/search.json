@@ -816,7 +816,7 @@
     "href": "slides/lec10.html#example-interpretations",
     "title": "Multiple Regression  Chapter 6.0 - 6.1",
     "section": "Example: interpretations",
-    "text": "Example: interpretations\n\\[\\widehat{bodymass} = -5736.9 + 48.14*\\text{flipper} + 6.05*\\text{bill_length}\\]\n\n\n\\(b_0\\): intercept; the predicted/expected body mass when a penguin has flipper length 0 and bill length 0\n\\(b_1\\): slope of flipper length; taking into account all other explanatory variables, for every 1 mm increase in flipper length, the expected body mass increases by \\(48.14\\)\n\\(b_2\\): slope of bill length; taking into account all other explanatory variables, for every 1 mm increase in bill length, the expected body mass increases by \\(6.05\\)"
+    "text": "Example: interpretations\n\\[\\widehat{bodymass} = -5736.9 + 48.14*\\text{flipper} + 6.05*\\text{bill_length}\\]\n\n\n\\(b_0\\) intercept; the predicted/expected body mass when a penguin has flipper length 0 and bill length 0\n\\(b_1\\) slope of flipper length; taking into account all other explanatory variables, for every 1 mm increase in flipper length, the expected body mass increases by \\(48.14\\)\n\\(b_2\\) slope of bill length; taking into account all other explanatory variables, for every 1 mm increase in bill length, the expected body mass increases by \\(6.05\\)"
   },
   {
     "objectID": "slides/lec11.html#todays-goals",
