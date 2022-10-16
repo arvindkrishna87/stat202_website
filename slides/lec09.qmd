@@ -133,7 +133,6 @@ Will take on either the value of "1" or "0" depending if the condition is true.
     \end{cases}
 \end{equation}
 ```
-
 ## Indicator function {.scrollable .smaller}
 
 Recall our model:
@@ -158,7 +157,7 @@ When using the model equation which of the above penguins would you set $\mathbb
 
 $$\widehat{bodymass} = b_0 + b_1*\mathbb{1}_{chinstrap}(x)+ b_2*\mathbb{1}_{gentoo}(x)$$
 
-:::{.incremental}
+::: incremental
 -   Interpretation of $b_0$: expected value of y for the baseline; the expected body mass for Adelie species is 3700.7
 
 -   Interpretation of $b_1$ : offset in intercept; expected body mass for Chinstrap species is 32.4 **more** on **average** than Adelie species

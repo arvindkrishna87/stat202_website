@@ -1,0 +1,75 @@
+Data collected from survey given to Norwestern STAT 202 students during the Fall 2021, Winter 2022, Spring 2022, Summer 2022, and Fall 2022 quarters. Some students chose not to answer all questions, meaning some questions/variables will have missing responses (missing data).
+
+Removed students that identified gender as other to protect against the possibility of having their responses identified by other students. The number of those identifying as other is small enough that someone might be able to figure out their responses. 
+
+New variables introduced in Spring 2022: fav_drink, num_party, personality, fav_sport, hrs_sleep, procrastinator, 
+birth_order, birth_month, netflix, hulu, amazon_prime, hbo_max, disney_plus, fav_season, campus_housing, 
+num_clubs, region, political
+New variables introduced in Winter 2022: father_height and mother_height.
+
+Variables:
+
+quarter -- Identifies in which quarter the student took stat 202
+fav_drink -- "What is your alcoholic drink of choice?"
+num_party -- "On average (approx.) how many parties a month do you attend?"
+party_bin -- This is num_party transformed into a categorical variable.
+smoke_cig -- Do you smoke cigarettes? (Yes, No, Occasionally)
+smoke_weed -- Do you smoke weed? (Yes, No, Occasionally)
+campus_housing -- "Where do you live on campus?"
+personality -- "Are you more of an introvert or extrovert?"
+num_followers -- How many followers do you have on Instagram (approx.)?
+salary -- "What do you expect your starting salary to be after graduation, to the nearest thousand dollars?"
+exercise -- "Approximately, how many minutes do you spend exercising per week?"
+love_first_sight -- Do you believe in love at first sight?
+learning_style -- "What is your learning style?"
+brain_type -- "Do you consider yourself more "left" or "right" -brained?"
+myer_briggs -- "What is your Myer Briggs personality type?"
+fav_sport -- "What is your favorite sport?"
+fav_letter -- "What's your favorite letter?" 
+fav_num -- "What's your favorite number?"
+hrs_sleep -- "Average number of hours of sleep you get each night?"
+procrastinator -- "Do you consider yourself a procrastinator?"
+only_child -- "Are you an only child?"
+birth_month -- "What month were you born in?"
+birth_date -- "Is your birthdate an odd or even number?"
+childhood_us -- "Did you spend the majority of your childhood in the United States?"
+age_years -- "How old are you?"
+gender_ident -- "Which do you identify as:"
+marry -- "At what age do you think you will marry?" (In the case, missing response indicates that student had no plans for marriage.)
+school_year -- "What year are you in school?"
+height_inches -- "How tall are you? (in inches)"
+father_height -- "How tall is your birth father? (in inches)"
+mother_height -- "How tall is your birth mother? (in inches)"
+hand -- "Which hand is your dominant hand?"
+happy -- "How happy are you?"
+athlete -- "Are you a student athlete?"
+ap_stat -- "Did you take AP statistics?"
+r_exp -- "Have you used R before?"
+num_major -- "How many majors and minors (combined) do you have?"
+hum -- computed variable; student checked a major (expected or declared) in "Humanities / Communications"
+socsci -- computed variable; student checked a major (expected or declared) in "Social Sciences / Education"
+physsci -- computed variable; student checked a major (expected or declared) in "Physical Sciences / Natural Sciences / Engineering"
+math -- computed variable; student checked a major (expected or declared) in "Math / Statistics / Computer Science"
+other -- computed variable; student checked a major (expected or declared) in "Other"
+facebook -- computed variable; student checked that they actively use Facebook
+instagram -- computed variable; student checked that they actively use Instagram
+twitter -- computed variable; student checked that they actively use Twitter
+snapchat -- computed variable; student checked that they actively use Snapchat
+tiktok -- computed variable; student checked that they actively use TikTok
+netflix -- computed variable; student checked that they actively use Netflix
+hulu -- computed variable; student checked that they actively use Hulu
+amazon_prime -- computed variable; student checked that they actively use Amazon Prime
+hbo_max -- computed variable; student checked that they actively use HBO Max
+disney_plus -- computed variable; student checked that they actively use Disney+
+distance -- "Estimate (to the nearest mile) the farthest distance you have ever traveled from home (tip: you might want to use Google Maps to help)."
+internet_hrs -- "On a typical *day*, how many hours have you been spending on the internet (excluding work and school) over the last month?"
+fav_season -- "What is your favorite season"
+gpa_hs -- "What was your high school GPA? If unknown type NA."
+gpa_nu -- "What is your current GPA at NU? If unknown type NA."
+num_clubs -- "How many clubs/activities are you involved in?"
+region -- "What region do you live in (ie: home when not at Northwestern)?"
+political -- "What best describes your political affiliation?"
+static_ability -- "You have a certain amount of math ability and can't do much to change it."
+change_ability -- "You can greatly change your ability to do math."
+genetic -- "Math ability is mostly genetic."
+talent -- "Having to put much effort into something usually indicates a lack of talent in that area."

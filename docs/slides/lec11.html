@@ -9,7 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-0.9.565">
 
-  <title>STAT 202 - Multiple Regression  Chapter 6.2)</title>
+  <title>STAT 202 - Multiple Regression  Chapter 6.2 - 6.4</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -302,6 +302,7 @@
     }
     .reveal .slide:not(.center) {
       height: 100%;
+      overflow-y: auto;
     }
     .reveal .slide.scrollable {
       overflow-y: auto;
@@ -384,11 +385,11 @@
     <div class="slides">
 
 <section id="title-slide" class="center">
-  <h1 class="title">Multiple Regression <br> Chapter 6.2)</h1>
+  <h1 class="title">Multiple Regression <br> Chapter 6.2 - 6.4</h1>
   <p class="institute">Department of Statistics and Data Science <br> STAT 202</p>
 </section>
 
-<section id="todays-goals" class="slide level2" data-background-image="images_comics/correlation.png" data-background-size="400px" data-background-opacity="50%" data-background-position="85% 50%">
+<section id="todays-goals" class="slide level2" data-background-image="images_horst/comics/correlation.png" data-background-size="400px" data-background-opacity="50%" data-background-position="85% 50%">
 <h2>Today’s goals</h2>
 <p><br></p>
 <div class="columns">
@@ -404,32 +405,25 @@
 <section id="multiple-regression-goal-and-example" class="slide level2">
 <h2>Multiple Regression Goal and Example</h2>
 <p><strong>Goal</strong>: build a model with one numerical and one categorical explanatory variable.</p>
-<p>Using the <code>penguins</code> dataset, we want to determine how flipper_length impacts body_mass. But we also think body_mass varies by <code>sex</code>. Build a model that predicts <code>body_mass_g</code> using <code>flipper_length_mm</code> and <code>sex</code> as explanatory variables. In this dataset <code>sex</code> has 2 levels: {male, female}</p>
-</section>
-<section id="data" class="slide level2">
-<h2>Data</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(penguins)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Rows: 344
-Columns: 8
-$ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~
-$ island            &lt;fct&gt; Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~
-$ bill_length_mm    &lt;dbl&gt; 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~
-$ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~
-$ flipper_length_mm &lt;int&gt; 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~
-$ body_mass_g       &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~
-$ sex               &lt;fct&gt; male, female, female, NA, female, male, female, male~
-$ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~</code></pre>
+<div class="fragment">
+<p>Using the <code>penguins</code> dataset, we want to determine how <code>flipper_length_mm</code> impacts <code>body_mass_g</code>. But we also think <code>body_mass_g</code> varies by <code>sex</code>.</p>
+<p><br></p>
 </div>
+<div class="fragment">
+<p>Build a model that predicts <code>body_mass_g</code> using <code>flipper_length_mm</code> and <code>sex</code> as explanatory variables. In this dataset <code>sex</code> has 2 levels: {male, female}</p>
 </div>
 </section>
-<section id="same-slope-model" class="slide level2">
-<h2>“Same slope model”</h2>
+<section id="model-1" class="slide level2">
+<h2>Model 1</h2>
+<p>First, let’s assume that <code>sex</code> has no impact on the rate of change between <code>flipper_length</code> and <code>body_mass</code>.</p>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">“Same slopes model”</a></li><li><a href="#tabset-1-2">Data</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>model_parallel <span class="ot">&lt;-</span> <span class="fu">lm</span>(body_mass_g <span class="sc">~</span> flipper_length_mm <span class="sc">+</span> sex, <span class="at">data=</span>penguins)</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(model_parallel)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>model_parallel <span class="ot">&lt;-</span> <span class="fu">lm</span>(body_mass_g <span class="sc">~</span> flipper_length_mm <span class="sc">+</span> sex, <span class="at">data=</span>penguins)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(model_parallel)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>
 Call:
@@ -453,31 +447,71 @@ Multiple R-squared:  0.8058,    Adjusted R-squared:  0.8047
 F-statistic: 684.8 on 2 and 330 DF,  p-value: &lt; 2.2e-16</code></pre>
 </div>
 </div>
+</div>
+<div id="tabset-1-2">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(penguins)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 344
+Columns: 8
+$ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~
+$ island            &lt;fct&gt; Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~
+$ bill_length_mm    &lt;dbl&gt; 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~
+$ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~
+$ flipper_length_mm &lt;int&gt; 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~
+$ body_mass_g       &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~
+$ sex               &lt;fct&gt; male, female, female, NA, female, male, female, male~
+$ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="same-slopes-model-output" class="slide level2">
 <h2>Same Slopes Model Output</h2>
+<div class="absolute" style="top: 0%; left: 90%; width: 100px; ">
+<p><img data-src="images_lecture/participate_icon.png"></p>
+</div>
 <p><strong>Equation</strong>: <span class="math inline">\(\widehat{bodymass} = -5410.3 + 46.98*flipper + 347.85*\mathbb{1}_{male}(x)\)</span></p>
+<div>
 <ul>
-<li>What is the reference level (baseline) for sex?</li>
-<li>Interpretation of <span class="math inline">\(b_0\)</span> : expected value of y for the baseline; the expected body mass for female penguins when flipper length is 0 is -5410.3</li>
-<li>Interpretation of <span class="math inline">\(b_1\)</span> : slope of flipper length for both categories</li>
-<li>Interpretation of <span class="math inline">\(b_2\)</span> : offset in intercept for males (level = male)</li>
+<li class="fragment">What is the reference level (baseline) for sex?</li>
+<li class="fragment">Interpretation of <span class="math inline">\(b_0\)</span> : expected body mass for female penguins (the baseline) when flipper length is 0 is -5410.3</li>
+<li class="fragment">Interpretation of <span class="math inline">\(b_1\)</span> : slope of flipper length for both categories</li>
+<li class="fragment">Interpretation of <span class="math inline">\(b_2\)</span> : offset in intercept for males (level = male)</li>
 </ul>
+</div>
 </section>
 <section id="same-slopes-model-output-1" class="slide level2">
 <h2>Same Slopes Model Output</h2>
+<div class="fragment">
 <ul>
-<li><p>You can think of each ‘level’ having a different line (equation).</p></li>
-<li><p>The equation of the line for penguins who are female (ie: sex = female):</p></li>
+<li>You can think of each ‘level’ having a different line (equation).</li>
 </ul>
-<p><span class="math display">\[-5410.3 + 46.98*flipper + 347.85*0\]</span> <span class="math display">\[ -5410.3 + 46.98*flipper\]</span></p>
+</div>
+<div class="fragment">
 <ul>
-<li>The equation of the line for penguins who are male (ie: sex = male):</li>
+<li>The equation of the line for penguins who are female:</li>
 </ul>
-<p><span class="math display">\[-5410.3 + 46.98*flipper + 347.85*1\]</span> <span class="math display">\[ -5062.45 + 46.98*flipper\]</span></p>
+<p><span class="math display">\[-5410.3 + 46.98*flipper + 347.85*0\]</span></p>
+<p><span class="math display">\[ = -5410.3 + 46.98*flipper\]</span></p>
+</div>
+<div class="fragment">
+<ul>
+<li>The equation of the line for penguins who are male</li>
+</ul>
+<p><span class="math display">\[-5410.3 + 46.98*flipper + 347.85*1\]</span></p>
+<p><span class="math display">\[ = -5062.45 + 46.98*flipper\]</span></p>
+</div>
 </section>
-<section id="interaction-model" class="slide level2">
-<h2>“Interaction Model”</h2>
+<section id="model-2" class="slide level2">
+<h2>Model 2</h2>
+<p>Now, let’s assume that the rate of change between <code>flipper_length</code> and <code>body_mass</code> varies based on <code>sex</code>.</p>
+<div class="panel-tabset">
+<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">“Interaction Model”</a></li><li><a href="#tabset-2-2">Alternate code</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1">
 <div class="cell">
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>model_interaction <span class="ot">&lt;-</span> <span class="fu">lm</span>(body_mass_g <span class="sc">~</span> flipper_length_mm <span class="sc">+</span> sex <span class="sc">+</span>flipper_length_mm<span class="sc">*</span>sex, <span class="at">data=</span>penguins)</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -507,26 +541,124 @@ Multiple R-squared:  0.8058,    Adjusted R-squared:  0.8041
 F-statistic: 455.2 on 3 and 329 DF,  p-value: &lt; 2.2e-16</code></pre>
 </div>
 </div>
+</div>
+<div id="tabset-2-2">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>model_interaction <span class="ot">&lt;-</span> <span class="fu">lm</span>(body_mass_g <span class="sc">~</span> flipper_length_mm<span class="sc">*</span>sex, <span class="at">data=</span>penguins)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(model_interaction)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = body_mass_g ~ flipper_length_mm * sex, data = penguins)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-909.36 -246.58   -3.13  237.18 1065.19 
+
+Coefficients:
+                            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)               -5443.9607   440.2829 -12.365   &lt;2e-16 ***
+flipper_length_mm            47.1527     2.2264  21.179   &lt;2e-16 ***
+sexmale                     406.8015   587.3029   0.693    0.489    
+flipper_length_mm:sexmale    -0.2942     2.9242  -0.101    0.920    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 356.4 on 329 degrees of freedom
+  (11 observations deleted due to missingness)
+Multiple R-squared:  0.8058,    Adjusted R-squared:  0.8041 
+F-statistic: 455.2 on 3 and 329 DF,  p-value: &lt; 2.2e-16</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
 </section>
-<section id="interaction-model-output" class="slide level2">
-<h2>Interaction Model Output</h2>
+<section id="interaction-model-output" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Interaction Model Output</h2>
+<div class="absolute" style="top: 0%; left: 90%; width: 100px; ">
+<p><img data-src="images_lecture/participate_icon.png"></p>
+</div>
 <p><strong>Equation</strong>: <span class="math display">\[\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*\mathbb{1}_{male}(x) \]</span> <span class="math display">\[- 0.29*flipper*\mathbb{1}_{male}(x)\]</span></p>
 <ul>
-<li><span class="math inline">\(b_0\)</span> : intercept for baseline</li>
-<li><span class="math inline">\(b_1\)</span> : slope of flipper length for</li>
-<li><span class="math inline">\(b_2\)</span> : offset of intercept for</li>
-<li><span class="math inline">\(b_3\)</span> : offset in slope of flipper length for</li>
+<li><span class="math inline">\(b_0\)</span> :</li>
+<li><span class="math inline">\(b_1\)</span> :</li>
+<li><span class="math inline">\(b_2\)</span> :</li>
+<li><span class="math inline">\(b_3\)</span> :</li>
 </ul>
 </section>
-<section id="interaction-model-output-1" class="slide level2">
+<section id="interaction-model-output-1" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Interaction Model Output</h2>
+<div class="absolute" style="top: 0%; left: 90%; width: 100px; ">
+<p><img data-src="images_lecture/participate_icon.png"></p>
+</div>
+<p><strong>Equation</strong>: <span class="math display">\[\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*\mathbb{1}_{male}(x) \]</span> <span class="math display">\[- 0.29*flipper*\mathbb{1}_{male}(x)\]</span></p>
+<ul>
+<li><span class="math inline">\(b_0\)</span> : intercept for baseline (female penguins)</li>
+<li><span class="math inline">\(b_1\)</span> :</li>
+<li><span class="math inline">\(b_2\)</span> :</li>
+<li><span class="math inline">\(b_3\)</span> :</li>
+</ul>
+</section>
+<section id="interaction-model-output-2" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Interaction Model Output</h2>
+<div class="absolute" style="top: 0%; left: 90%; width: 100px; ">
+<p><img data-src="images_lecture/participate_icon.png"></p>
+</div>
+<p><strong>Equation</strong>: <span class="math display">\[\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*\mathbb{1}_{male}(x) \]</span> <span class="math display">\[- 0.29*flipper*\mathbb{1}_{male}(x)\]</span></p>
+<ul>
+<li><span class="math inline">\(b_0\)</span> : intercept for baseline (female penguins)</li>
+<li><span class="math inline">\(b_1\)</span> : slope of flipper length for female penguins</li>
+<li><span class="math inline">\(b_2\)</span> :</li>
+<li><span class="math inline">\(b_3\)</span> :</li>
+</ul>
+</section>
+<section id="interaction-model-output-3" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Interaction Model Output</h2>
+<div class="absolute" style="top: 0%; left: 90%; width: 100px; ">
+<p><img data-src="images_lecture/participate_icon.png"></p>
+</div>
+<p><strong>Equation</strong>: <span class="math display">\[\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*\mathbb{1}_{male}(x) \]</span> <span class="math display">\[- 0.29*flipper*\mathbb{1}_{male}(x)\]</span></p>
+<ul>
+<li><span class="math inline">\(b_0\)</span> : intercept for baseline (female penguins)</li>
+<li><span class="math inline">\(b_1\)</span> : slope of flipper length for female penguins</li>
+<li><span class="math inline">\(b_2\)</span> : offset of intercept for male penguins</li>
+<li><span class="math inline">\(b_3\)</span> :</li>
+</ul>
+</section>
+<section id="interaction-model-output-4" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Interaction Model Output</h2>
+<div class="absolute" style="top: 0%; left: 90%; width: 100px; ">
+<p><img data-src="images_lecture/participate_icon.png"></p>
+</div>
+<p><strong>Equation</strong>: <span class="math display">\[\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*\mathbb{1}_{male}(x) \]</span> <span class="math display">\[- 0.29*flipper*\mathbb{1}_{male}(x)\]</span></p>
+<ul>
+<li><span class="math inline">\(b_0\)</span> : intercept for baseline (female penguins)</li>
+<li><span class="math inline">\(b_1\)</span> : slope of flipper length for female penguins</li>
+<li><span class="math inline">\(b_2\)</span> : offset of intercept for male penguins</li>
+<li><span class="math inline">\(b_3\)</span> : offset in slope of flipper length for male penguins</li>
+</ul>
+</section>
+<section id="interaction-model-output-5" class="slide level2">
 <h2>Interaction Model Output</h2>
 <p>You can think of each ‘level’ having a different line (equation).</p>
+<p><br></p>
+<div class="fragment">
 <p>Equation of the line for female penguins:</p>
-<p><br> <br> Equation of the line for male penguins:</p>
+<p><span class="math display">\[\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*0 - 0.29*flipper*0\]</span></p>
+<p><span class="math display">\[\widehat{bodymass} = -5443.96 + 47.15*flipper\]</span></p>
+<p><br></p>
+</div>
+<div class="fragment">
+<p>Equation of the line for male penguins:</p>
+<p><span class="math display">\[\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*1 - 0.29*flipper*1\]</span></p>
+<p><span class="math display">\[\widehat{bodymass} = -5037.16 + 46.86*flipper\]</span></p>
 
+<p><img src="nu_logo.png" class="slide-logo"></p>
+<div class="footer footer-default">
 
-<img src="nu_logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
-
+</div>
 </div>
 </section>
     </div>

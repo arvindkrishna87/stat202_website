@@ -388,7 +388,7 @@
   <p class="institute">Department of Statistics and Data Science <br> STAT 202</p>
 </section>
 
-<section id="todays-goals" class="slide level2" data-background-image="images_comics/graphing_relationship.png" data-background-size="400px" data-background-opacity="50%" data-background-position="85% 50%">
+<section id="todays-goals" class="slide level2" data-background-image="images_horst/comics/graphing_relationship.png" data-background-size="400px" data-background-opacity="50%" data-background-position="85% 50%">
 <h2>Today’s goals</h2>
 <p><br></p>
 <div class="columns">
@@ -404,11 +404,15 @@
 <section id="multiple-regression" class="slide level2">
 <h2>Multiple Regression</h2>
 <p><strong>Definition</strong>: models the relationship between a response (y) variable and two or more explanatory (x) variables.</p>
+<div class="fragment">
 <ul>
 <li>2 numerical explanatory variables this is the “plane” of best fit.</li>
 <li>1 numerical + 1 categorical explanatory variable use a line of best fit separated by category.</li>
 </ul>
+</div>
+<div class="fragment">
 <p><strong>EDA</strong>: Same as simple regression. Look at the raw data, calculate summary statistics/correlations, and use data visualizations.</p>
+</div>
 </section>
 <section id="mlr-correlation-and-causation" class="slide level2">
 <h2>MLR Correlation and Causation</h2>
@@ -426,7 +430,9 @@ bill_length_mm      0.5951098         0.6561813      1.0000000</code></pre>
 </div>
 </div>
 <p><br></p>
+<div class="fragment">
 <p><strong>Causation</strong>: any change in the value of one variable will cause a change in the value of another variable, which means one variable makes the other happen.</p>
+</div>
 </section>
 <section id="correlation-does-not-mean-causality" class="slide level2">
 <h2>Correlation does not mean causality!!</h2>
@@ -437,10 +443,16 @@ bill_length_mm      0.5951098         0.6561813      1.0000000</code></pre>
 <section id="multiple-regression-modeling" class="slide level2">
 <h2>Multiple Regression Modeling</h2>
 <p>Multiple regression is the procedure that helps us disentangle issues with confounding (lurking) variables. That is, a procedure that will help sort out collinearity issues.</p>
+<div class="fragment">
 <ul>
-<li><p><strong>Simpson’s paradox</strong>: a trend appears in several groups of data but the trend disappears or reverses when groups are combined.</p></li>
-<li><p><strong>Model</strong>: In multiple linear regression, the significance of each term in the model depends on the other terms in the model.</p></li>
+<li><strong>Simpson’s paradox</strong>: a trend appears in several groups of data but the trend disappears or reverses when groups are combined.</li>
 </ul>
+</div>
+<div class="fragment">
+<ul>
+<li><strong>Model</strong>: In multiple linear regression, the significance of each term in the model depends on the other terms in the model.</li>
+</ul>
+</div>
 </section>
 <section id="example-model" class="slide level2">
 <h2>Example: model</h2>
@@ -455,19 +467,32 @@ flipper_length_mm    48.144859   2.011115  23.939388 7.564660e-75
 bill_length_mm        6.047488   5.179831   1.167507 2.438263e-01</code></pre>
 </div>
 </div>
+<div class="fragment">
 <p><span class="math display">\[\widehat{bodymass} = b_0 +b_1*\text{flipper} + b_2*\text{bill_length}\]</span></p>
+</div>
 </section>
 <section id="example-interpretations" class="slide level2">
 <h2>Example: interpretations</h2>
 <p><span class="math display">\[\widehat{bodymass} = -5736.9 + 48.14*\text{flipper} + 6.05*\text{bill_length}\]</span></p>
+<div>
 <ul>
-<li><span class="math inline">\(b_0\)</span>: intercept; the <strong>predicted/expected</strong> body mass when a penguin has flipper length 0 and bill length 0</li>
-<li><span class="math inline">\(b_1\)</span>: slope of flipper length; taking into account all other explanatory variables, for every 1 mm increase in flipper length, the <strong>expected</strong> body mass increases by <span class="math inline">\(48.14\)</span></li>
-<li><span class="math inline">\(b_2\)</span>: slope of bill length; taking into account all other explanatory variables, for every 1 mm increase in bill length, the <strong>expected</strong> body mass increases by <span class="math inline">\(6.05\)</span></li>
+<li class="fragment"><span class="math inline">\(b_0\)</span>: intercept; the <strong>predicted/expected</strong> body mass when a penguin has flipper length 0 and bill length 0</li>
+<li class="fragment"><span class="math inline">\(b_1\)</span>: slope of flipper length; taking into account all other explanatory variables, for every 1 mm increase in flipper length, the <strong>expected</strong> body mass increases by <span class="math inline">\(48.14\)</span></li>
+<li class="fragment"><span class="math inline">\(b_2\)</span>: slope of bill length; taking into account all other explanatory variables, for every 1 mm increase in bill length, the <strong>expected</strong> body mass increases by <span class="math inline">\(6.05\)</span></li>
 </ul>
+</div>
+</section>
+<section id="example-prediction" class="slide level2">
+<h2>Example: prediction</h2>
+<div class="absolute" style="top: 0%; left: 90%; width: 100px; ">
+<p><img data-src="images_lecture/participate_icon.png"></p>
+</div>
+<p><span class="math display">\[\widehat{bodymass} = -5736.9 + 48.14*\text{flipper} + 6.05*\text{bill_length}\]</span></p>
+<p><br></p>
+<p>You recently got a penguin and measured their <strong>flipper_length</strong> to be 150mm and their <strong>bill_length</strong> to be 40mm. What do you expect their body mass to be?</p>
 
-
-<img src="nu_logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
+<p><img src="nu_logo.png" class="slide-logo"></p>
+<div class="footer footer-default">
 
 </div>
 </section>
