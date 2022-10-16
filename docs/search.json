@@ -858,7 +858,7 @@
     "href": "slides/lec11.html#same-slopes-model-output-1",
     "title": "Multiple Regression  Chapter 6.2 - 6.4",
     "section": "Same Slopes Model Output",
-    "text": "Same Slopes Model Output\n\n\nYou can think of each ‘level’ having a different line (equation).\n\n\n\n\nThe equation of the line for penguins who are female:\n\n\\[-5410.3 + 46.98*flipper + 347.85*0\\]\n\\[ = -5410.3 + 46.98*flipper\\]\n\n\n\nThe equation of the line for penguins who are male\n\n\\[-5410.3 + 46.98*flipper + 347.85*1\\]\n\\[ = -5062.45 + 46.98*flipper\\]"
+    "text": "Same Slopes Model Output\n\n\nYou can think of each ‘level’ having a different line (equation).\n\n\n\n\nThe equation of the line for penguins who are female:\n\n\\[-5410.3 + 46.98*flipper + 347.85*0\\] \\[ = -5410.3 + 46.98*flipper\\]\n\n\n\nThe equation of the line for penguins who are male\n\n\\[-5410.3 + 46.98*flipper + 347.85*1\\] \\[ = -5062.45 + 46.98*flipper\\]"
   },
   {
     "objectID": "slides/lec11.html#interaction-model",
@@ -1390,6 +1390,6 @@
     "href": "slides/lec11.html#interaction-model-output-5",
     "title": "Multiple Regression  Chapter 6.2 - 6.4",
     "section": "Interaction Model Output",
-    "text": "Interaction Model Output\nYou can think of each ‘level’ having a different line (equation).\n\n\nEquation of the line for female penguins:\n\\[\\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*0 - 0.29*flipper*0\\]\n\\[\\widehat{bodymass} = -5443.96 + 47.15*flipper\\]\n\n\n\nEquation of the line for male penguins:\n\\[\\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*1 - 0.29*flipper*1\\]\n\\[\\widehat{bodymass} = -5037.16 + 46.86*flipper\\]"
+    "text": "Interaction Model Output\nYou can think of each ‘level’ having a different line (equation).\n\n\nEquation of the line for female penguins: \\[\\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*0 - 0.29*flipper*0\\] \\[\\widehat{bodymass} = -5443.96 + 47.15*flipper\\] \n\n\nEquation of the line for male penguins: \\[\\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*1 - 0.29*flipper*1\\] \\[\\widehat{bodymass} = -5037.16 + 46.86*flipper\\]"
   }
 ]
