@@ -8,12 +8,12 @@ execute:
   echo: false
 ---
 
-::: callout-important
+<!-- ::: callout-important -->
 
-9am Class Only: We are on zoom for 10/14
-https://northwestern.zoom.us/j/99863923813
+<!-- 9am Class Only: We are on zoom for 10/14 -->
+<!-- https://northwestern.zoom.us/j/99863923813 -->
 
-:::
+<!-- ::: -->
 
 ```{r}
 #library(tidyverse)

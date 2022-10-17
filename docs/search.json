@@ -144,7 +144,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 5.2 - 5.4"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 6.0 - 6.1"
   },
   {
     "objectID": "index.html#participate",
@@ -158,7 +158,7 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_09"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_10"
   },
   {
     "objectID": "index.html#homework-due-thu-sep-22-1159pm",
@@ -1391,5 +1391,19 @@
     "title": "Multiple Regression  Chapter 6.2 - 6.4",
     "section": "Interaction Model Output",
     "text": "Interaction Model Output\nYou can think of each ‘level’ having a different line (equation).\n\n\nEquation of the line for female penguins: \\[\\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*0 - 0.29*flipper*0\\] \\[\\widehat{bodymass} = -5443.96 + 47.15*flipper\\] \n\n\nEquation of the line for male penguins: \\[\\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*1 - 0.29*flipper*1\\] \\[\\widehat{bodymass} = -5037.16 + 46.86*flipper\\]"
+  },
+  {
+    "objectID": "index.html#class-mon-oct-17",
+    "href": "index.html#class-mon-oct-17",
+    "title": "Today’s Agenda",
+    "section": "Class: Mon Oct 17",
+    "text": "Class: Mon Oct 17"
+  },
+  {
+    "objectID": "index.html#homework-due-tue-oct-18-1159pm",
+    "href": "index.html#homework-due-tue-oct-18-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Tue Oct 18 11:59pm",
+    "text": "Homework Due Tue Oct 18 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_10\n\n     Read Sections 6.2 - 6.4\n\n    Complete and submit  RC_10"
   }
 ]
