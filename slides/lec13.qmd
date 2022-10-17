@@ -1,0 +1,100 @@
+---
+title: "Populations and Generalizability <br> Chapter 8"
+institute: "Department of Statistics and Data Science <br> STAT 202"
+
+logo: nu_logo.png
+format: 
+  revealjs:
+    theme: [default, nu_theme.scss]
+    chalkboard:
+      theme: whiteboard
+      toggleNotesButton: false
+    menu:
+        side: right
+    code-line-numbers: false
+    scrollable: true
+
+execute:
+  message: false
+  warning: false
+  echo: true
+---
+
+## Overview
+
+**Definitions**:
+
+-   Population: collection of individuals (units) in which we are interested
+-   Sample: collection of individuals (units) from the population
+
+**Goal**: Use trends in a sample to make inference about a population.
+
+## Notation
+
+ 
+
+|            | Size | Proportion       | Mean      | Standard Deviation |
+|------------|------|------------------|-----------|--------------------|
+| Population | N    | $\pi$            | $\mu$     | $\sigma$           |
+| Sample     | n    | $p$ or $\hat{p}$ | $\bar{x}$ | $s$                |
+
+## Example 1
+
+In a survey of 1,500 parents in the United States, 73% said they wanted to resume in person school for their children for 2021.
+
+-   Population: parents in the US
+-   Sample: 1,500 parents surveyed
+-   73% is a sample statistic
+
+## Random Sampling and Assignment
+
+**Random Sampling**: how you draw the observations from the population
+
+-   allows for generalizable claims
+
+**Random Assignment**: how you assign the sample into treatment/control groups
+
+-   allows for causal claims.
+
+## Example 2
+
+You want to evaluate the effectiveness of the Pfizer vaccine on COVID. You ask for 1,000 volunteers and randomly give half of the volunteers the vaccine and the other half a placebo dose. These people get tested for COVID every week for a year and we record who tests positive for COVID during this time and their symptoms.
+
+-   Random assignment
+-   No random sampling
+
+**Conclusions we can draw**: causal conclusion only applicable to the sample
+
+## Types of random sampling
+
+-   **Simple Random**: observations are selected randomly from the population, each having an equal chance of being selected.
+-   **Cluster Sampling**: first the population is divided into sub-groups, and then x sub-groups out of all groups are randomly selected (heterogeneous groups; mini representation of the population).
+
+## Types of random sampling continued
+
+-   **Stratified Sampling**: first the population is divided into sub-groups, and then within each sub-group x observations are randomly selected (homogeneous groups).
+
+-   **Systematic Sampling**: select some starting point, then every $k^{th}$ observation of the population is selected.
+
+::: {layout="[20,20,20,20]"}
+![](images/lecture_images/sample_simple.PNG)
+
+![](images/lecture_images/sample_cluster.PNG)
+
+![](images/lecture_images/sample_systematic.PNG)
+
+![](images/lecture_images/sample_strata.PNG)
+:::
+
+## Example 3
+
+Northwestern University is deciding which undergraduate students to test for COVID this week and due to limited resources we cannot test the entire undergraduate student body at once.
+
+-   **Population of interest**: undergraduate students at NU
+-   **Stratified Sampling Example**: The university divides the population into 4 groups {1st year, sophomore, junior, seniors} and randomly selects 200 students from each group to test.
+
+## Example 3 continued
+
+Northwestern University is deciding which undergraduate students to test for COVID this week and due to limited resources we cannot test the entire undergraduate student body at once.
+
+-   **Systematic Sampling Example**: The university alphabetizes the population by last name and selects every $25^{th}$ student to get tested.

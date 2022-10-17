@@ -1,0 +1,87 @@
+---
+title: "Distributions <br> Section 9.1"
+institute: "Department of Statistics and Data Science <br> STAT 202"
+
+logo: nu_logo.png
+format: 
+  revealjs:
+    theme: [default, nu_theme.scss]
+    chalkboard:
+      theme: whiteboard
+      toggleNotesButton: false
+    menu:
+        side: right
+    code-line-numbers: false
+    scrollable: true
+
+execute:
+  message: false
+  warning: false
+  echo: true
+---
+
+## The Standard Normal Distribution
+
+<center>![](images/lecture_images/standard_normal.PNG)</center>
+
+## Standard Normal Distribution Properties
+
+-   The area under the curve is 1 (or 100%)
+-   The mean of the distribution is 0
+-   The standard deviation of the distribution is 1
+
+ 
+
+**Note**: Can use the normal distribution in R or at https://homepage.divms.uiowa.edu/\~mbognar/applets/normal.html
+
+## Empirical Rule
+
+-   Around **68%** of values are within **one** standard deviation from the mean.
+-   Around **95%** of values are within **two** standard deviations from the mean.
+-   Around **99.7%** of values are within **three** standard deviations from the mean.
+
+## Empirical Rule continued
+
+-   **Why is this useful?** If we know the mean and standard deviation of a variable that follows the normal distribution, we can calculate the probability of an event occurring.
+
+-   **How is this applicable?** We can transform any normally distributed variable into a standard normal distribution with **standardization**.
+
+$$\hbox{STAT} = \frac{X - mean(X)}{sd(X)}$$
+
+## The Normal Distribution
+
+-   Changing mu (the mean), changes where the center (peak) of the distribution is located.
+-   Changing sigma (the standard deviation), changes the spread of the distribution.
+-   The shape of the distribution never changes. It is always unimodal and symmetric (no skew).
+
+::: {layout="[30,30,30]"}
+![](images/lecture_images/norm_mean1.PNG)
+
+![](images/lecture_images/norm_sd1.PNG)
+
+![](images/lecture_images/norm_meansd1.PNG)
+:::
+
+## The T-Distribution
+
+The t-distribution is similar in shape to a normal distribution.
+
+<center>![](images/lecture_images/t-dist.PNG){#id .class width="55%" height="55%"}</center>
+
+## The T-Distribution continued
+
+-   Completely characterized by it's degrees of freedom (df). A parameter defined based on the sample size $n$.
+-   As we make the degrees of freedom ($df$) larger the t-distribution is getting closer to the standard normal distribution.
+-   The normal distribution assumes that you know the population standard deviation, $\sigma$. The t-distribution is used if you only know the sample standard deviation, $s$ (ie: $\sigma$ unknown).
+
+## The T-Distribution in R
+
+ 
+
+```{r t-dist}
+#| echo: true
+#| eval: false
+pt(q = -1, df = 9)
+qt(p = .025, df = 9)
+qt(p = .025, df = 9, lower.tail=FALSE)
+```

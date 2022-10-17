@@ -1,0 +1,90 @@
+---
+title: "Randomization and Causality <br> Chapter 7"
+institute: "Department of Statistics and Data Science <br> STAT 202"
+
+logo: nu_logo.png
+format: 
+  revealjs:
+    theme: [default, nu_theme.scss]
+    chalkboard:
+      theme: whiteboard
+      toggleNotesButton: false
+    menu:
+        side: right
+    code-line-numbers: false
+    scrollable: true
+
+execute:
+  message: false
+  warning: false
+  echo: true
+---
+
+## Key Definitions
+
+:::{.incremental}
+-   **Observational study**: can show the correlation between two variables but difficult to show causation. This is because there could be a confounding variable causing both to happen (e.g. voluntary assignment).
+
+-   **Randomized experiment** (Gold Standard): avoids the issues with confounding variables by comparing two groups (treatment and control) that look on **average** the same.
+
+-   **Confounders**: alternative explanations for differences between the experimental groups. Confounding variables correlate with both the experimental groups and the outcome variable.
+:::
+
+## Example
+
+Does eating ice cream cause drowning?
+
+Experiment:
+
+-   Control group: do not eat ice cream
+
+-   Treatment group: eat ice cream
+
+::: panel-tabset
+## Scenario 1
+
+We randomly divide a population into the treatment and control groups and compare the number of drownings between groups.
+
+:::{.incremental}
+-   Type of experiment: randomized experiment
+-   Types of conclusions can we make: causal conclusions
+:::
+
+## Scenario 2
+
+We have survey data of the number of monthly ice cream sales and number of monthly drownings and calculate a correlation of 0.85.
+
+:::{.incremental}
+-   Type of experiment: observational study
+-   Types of conclusions can we make: correlation only conclusions (possible confounding variables)
+:::
+
+:::
+
+## Key Ideas
+
+ 
+
+-   Randomized assignment helps **separate causation from correlation**.
+
+-   Additionally, randomized assignment helps **rule out confounding variables**.
+
+## Using randomization in R
+
+Bernoulli trial = randomized experiment with exactly two outcomes.
+
+-   In R: `rbernoulli(n = ____, p = ____)`
+
+. . . 
+
+It can be framed as a "yes or no" (success or failure) question.
+
+. . .
+
+**Examples**:
+
+-   Whether or not flipping a coin results in heads
+
+. . .
+
+-   Whether or not you roll a 1 when rolling a die

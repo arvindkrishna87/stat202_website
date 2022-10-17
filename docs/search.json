@@ -1405,5 +1405,33 @@
     "title": "Today’s Agenda",
     "section": "Homework Due Tue Oct 18 11:59pm",
     "text": "Homework Due Tue Oct 18 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_10\n\n     Read Sections 6.2 - 6.4\n\n    Complete and submit  RC_10"
+  },
+  {
+    "objectID": "slides/lec12.html#key-definitions",
+    "href": "slides/lec12.html#key-definitions",
+    "title": "Randomization and Causality  Chapter 7",
+    "section": "Key Definitions",
+    "text": "Key Definitions\n\n\nObservational study: can show the correlation between two variables but difficult to show causation. This is because there could be a confounding variable causing both to happen (e.g. voluntary assignment).\nRandomized experiment (Gold Standard): avoids the issues with confounding variables by comparing two groups (treatment and control) that look on average the same.\nConfounders: alternative explanations for differences between the experimental groups. Confounding variables correlate with both the experimental groups and the outcome variable."
+  },
+  {
+    "objectID": "slides/lec12.html#example",
+    "href": "slides/lec12.html#example",
+    "title": "Randomization and Causality  Chapter 7",
+    "section": "Example",
+    "text": "Example\nDoes eating ice cream cause drowning?\nExperiment:\n\nControl group: do not eat ice cream\nTreatment group: eat ice cream\n\n\nScenario 1Scenario 2\n\n\nWe randomly divide a population into the treatment and control groups and compare the number of drownings between groups.\n\n\nType of experiment: randomized experiment\nTypes of conclusions can we make: causal conclusions\n\n\n\n\nWe have survey data of the number of monthly ice cream sales and number of monthly drownings and calculate a correlation of 0.85.\n\n\nType of experiment: observational study\nTypes of conclusions can we make: correlation only conclusions (possible confounding variables)"
+  },
+  {
+    "objectID": "slides/lec12.html#key-ideas",
+    "href": "slides/lec12.html#key-ideas",
+    "title": "Randomization and Causality  Chapter 7",
+    "section": "Key Ideas",
+    "text": "Key Ideas\n \n\nRandomized assignment helps separate causation from correlation.\nAdditionally, randomized assignment helps rule out confounding variables."
+  },
+  {
+    "objectID": "slides/lec12.html#using-randomization-in-r",
+    "href": "slides/lec12.html#using-randomization-in-r",
+    "title": "Randomization and Causality  Chapter 7",
+    "section": "Using randomization in R",
+    "text": "Using randomization in R\nBernoulli trial = randomized experiment with exactly two outcomes.\n\nIn R: rbernoulli(n = ____, p = ____)\n\n\nIt can be framed as a “yes or no” (success or failure) question.\n\n\nExamples:\n\nWhether or not flipping a coin results in heads\nWhether or not you roll a 1 when rolling a die"
   }
 ]

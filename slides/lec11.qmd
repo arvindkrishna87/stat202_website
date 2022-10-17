@@ -99,7 +99,7 @@ glimpse(penguins)
 
 -   The equation of the line for penguins who are female:
 
-$$-5410.3 + 46.98*flipper + 347.85*0$$ $$ = -5410.3 + 46.98*flipper$$ 
+$$-5410.3 + 46.98*flipper + 347.85*0$$ $$ = -5410.3 + 46.98*flipper$$
 
 . . .
 
