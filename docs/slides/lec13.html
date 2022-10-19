@@ -9,7 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.1.251">
 
-  <title>STAT 202 - Data Wrangling  Chapter 3.4 - 3.9</title>
+  <title>STAT 202 - Populations and Generalizability  Chapter 8</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -27,70 +27,6 @@
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css" id="theme">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -307,6 +243,7 @@
     }
     .reveal .slide:not(.center) {
       height: 100%;
+      overflow-y: auto;
     }
     .reveal .slide.scrollable {
       overflow-y: auto;
@@ -389,288 +326,133 @@
     <div class="slides">
 
 <section id="title-slide" class="center">
-  <h1 class="title">Data Wrangling <br> Chapter 3.4 - 3.9</h1>
+  <h1 class="title">Populations and Generalizability <br> Chapter 8</h1>
   <p class="institute">Department of Statistics and Data Science <br> STAT 202</p>
 </section>
 
-<section id="todays-goals" class="slide level2" data-background-image="images_horst/dplyr_mutate.png" data-background-size="400px" data-background-opacity="50%" data-background-position="85% 50%">
-<h2>Today’s goals</h2>
-<p><br></p>
-<div class="columns">
-<div class="column" style="width:60%;">
-<ol type="1">
-<li>More piping!</li>
-<li>group data based on variables</li>
-<li>create a new variable using mutate</li>
-<li>subset a dataset based on columns</li>
-<li>arrange data in both ascending and descending order</li>
-</ol>
-</div>
-</div>
-<div class="absolute" style="top: 77%; left: 85%; width: 500px; ">
-<div style="opacity:0.75; font-size: 0.5em">
-<p>Artwork by <span class="citation" data-cites="allison_horst">@allison_horst</span></p>
-</div>
-</div>
-</section>
-<section id="data-wrangling" class="slide level2">
-<h2>Data Wrangling</h2>
-<p>In conjunction with past tools (<code>filter()</code> and <code>summarize()</code>) we will use:</p>
+<section id="overview" class="slide level2">
+<h2>Overview</h2>
+<p><strong>Definitions</strong>:</p>
 <ul>
-<li><code>group_by()</code></li>
-<li><code>mutate()</code></li>
-<li><code>arrange()</code></li>
-<li><code>select()</code></li>
-<li>and a few others.</li>
+<li>Population: collection of individuals (units) in which we are interested</li>
+<li>Sample: collection of individuals (units) from the population</li>
 </ul>
-<p>Rarely do we only use one of these tools in isolation. We “pipe” them together to wrangle data.</p>
+<p><strong>Goal</strong>: Use trends in a sample to make inference about a population.</p>
 </section>
-<section id="group_by" class="slide level2">
-<h2><code>group_by()</code></h2>
-<p><code>group_by(variable)</code> takes an existing data frame and converts it into a grouped data frame</p>
-<div>
+<section id="notation" class="slide level2">
+<h2>Notation</h2>
+<p>&nbsp;</p>
+<table>
+<colgroup>
+<col style="width: 17%">
+<col style="width: 8%">
+<col style="width: 26%">
+<col style="width: 16%">
+<col style="width: 29%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Size</th>
+<th>Proportion</th>
+<th>Mean</th>
+<th>Standard Deviation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Population</td>
+<td>N</td>
+<td><span class="math inline">\(\pi\)</span></td>
+<td><span class="math inline">\(\mu\)</span></td>
+<td><span class="math inline">\(\sigma\)</span></td>
+</tr>
+<tr class="even">
+<td>Sample</td>
+<td>n</td>
+<td><span class="math inline">\(p\)</span> or <span class="math inline">\(\hat{p}\)</span></td>
+<td><span class="math inline">\(\bar{x}\)</span></td>
+<td><span class="math inline">\(s\)</span></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="example-1" class="slide level2">
+<h2>Example 1</h2>
+<p>In a survey of 1,500 parents in the United States, 73% said they wanted to resume in person school for their children for 2021.</p>
 <ul>
-<li class="fragment">operations are performed by group</li>
-<li class="fragment">must be used in conjunction with another operator, Ex: summarize()</li>
-<li class="fragment">can group by multiple criteria but must be included in the <strong>same</strong> function call</li>
+<li>Population: parents in the US</li>
+<li>Sample: 1,500 parents surveyed</li>
+<li>73% is a sample statistic</li>
 </ul>
-</div>
 </section>
-<section id="example-group_by" class="slide level2 scrollable">
-<h2>Example: <code>group_by()</code></h2>
-<p><font size="6"> Calculate the average body mass of penguins by species. </font></p>
-<div class="panel-tabset">
-<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Code</a></li><li><a href="#tabset-1-2">Data</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(species) <span class="sc">%&gt;%</span> </span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean_mass =</span> <span class="fu">mean</span>(body_mass_g, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 3 x 2
-  species   mean_mass
-  &lt;fct&gt;         &lt;dbl&gt;
-1 Adelie        3701.
-2 Chinstrap     3733.
-3 Gentoo        5076.</code></pre>
+<section id="random-sampling-and-assignment" class="slide level2">
+<h2>Random Sampling and Assignment</h2>
+<p><strong>Random Sampling</strong>: how you draw the observations from the population</p>
+<ul>
+<li>allows for generalizable claims</li>
+</ul>
+<p><strong>Random Assignment</strong>: how you assign the sample into treatment/control groups</p>
+<ul>
+<li>allows for causal claims.</li>
+</ul>
+</section>
+<section id="example-2" class="slide level2">
+<h2>Example 2</h2>
+<p>You want to evaluate the effectiveness of the Pfizer vaccine on COVID. You ask for 1,000 volunteers and randomly give half of the volunteers the vaccine and the other half a placebo dose. These people get tested for COVID every week for a year and we record who tests positive for COVID during this time and their symptoms.</p>
+<ul>
+<li>Random assignment</li>
+<li>No random sampling</li>
+</ul>
+<p><strong>Conclusions we can draw</strong>: causal conclusion only applicable to the sample</p>
+</section>
+<section id="types-of-random-sampling" class="slide level2">
+<h2>Types of random sampling</h2>
+<ul>
+<li><strong>Simple Random</strong>: observations are selected randomly from the population, each having an equal chance of being selected.</li>
+<li><strong>Cluster Sampling</strong>: first the population is divided into sub-groups, and then x sub-groups out of all groups are randomly selected (heterogeneous groups; mini representation of the population).</li>
+</ul>
+</section>
+<section id="types-of-random-sampling-continued" class="slide level2">
+<h2>Types of random sampling continued</h2>
+<ul>
+<li><p><strong>Stratified Sampling</strong>: first the population is divided into sub-groups, and then within each sub-group x observations are randomly selected (homogeneous groups).</p></li>
+<li><p><strong>Systematic Sampling</strong>: select some starting point, then every <span class="math inline">\(k^{th}\)</span> observation of the population is selected.</p></li>
+</ul>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><img data-src="images/lecture_images/sample_simple.PNG"></p>
 </div>
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><img data-src="images/lecture_images/sample_cluster.PNG"></p>
 </div>
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><img data-src="images/lecture_images/sample_systematic.PNG"></p>
 </div>
-<div id="tabset-1-2">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(penguins)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 6 x 8
-  species island    bill_length_mm bill_depth_mm flipper_l~1 body_~2 sex    year
-  &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;       &lt;int&gt;   &lt;int&gt; &lt;fct&gt; &lt;int&gt;
-1 Adelie  Torgersen           39.1          18.7         181    3750 male   2007
-2 Adelie  Torgersen           39.5          17.4         186    3800 fema~  2007
-3 Adelie  Torgersen           40.3          18           195    3250 fema~  2007
-4 Adelie  Torgersen           NA            NA            NA      NA &lt;NA&gt;   2007
-5 Adelie  Torgersen           36.7          19.3         193    3450 fema~  2007
-6 Adelie  Torgersen           39.3          20.6         190    3650 male   2007
-# ... with abbreviated variable names 1: flipper_length_mm, 2: body_mass_g</code></pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="fragment">
-<p><font size="6"> Calculate the average body mass of male and female penguins for each species. (ie: calculate the average body mass of penguins by species and sex.) </font></p>
-</div>
-<div class="fragment">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(species, sex) <span class="sc">%&gt;%</span> </span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean_mass =</span> <span class="fu">mean</span>(body_mass_g))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 8 x 3
-# Groups:   species [3]
-  species   sex    mean_mass
-  &lt;fct&gt;     &lt;fct&gt;      &lt;dbl&gt;
-1 Adelie    female     3369.
-2 Adelie    male       4043.
-3 Adelie    &lt;NA&gt;         NA 
-4 Chinstrap female     3527.
-5 Chinstrap male       3939.
-6 Gentoo    female     4680.
-7 Gentoo    male       5485.
-8 Gentoo    &lt;NA&gt;         NA </code></pre>
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><img data-src="images/lecture_images/sample_strata.PNG"></p>
 </div>
 </div>
 </div>
 </section>
-<section id="mutate" class="slide level2 scrollable">
-<h2><code>mutate()</code></h2>
-<p><code>mutate( )</code> create a new variable (in the <strong>same</strong> dataset)</p>
-<div class="fragment">
-<p><strong>Example:</strong></p>
-<p>Create a new variable <code>body_mass_lb</code> where we calculate the penguins weight in pounds. Hint: <span class="math inline">\(pounds \approx grams/453.6\)</span></p>
-</div>
-<div class="fragment">
-<div class="panel-tabset">
-<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">Code</a></li><li><a href="#tabset-2-2">Data</a></li></ul>
-<div class="tab-content">
-<div id="tabset-2-1">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="ot">&lt;-</span> penguins <span class="sc">%&gt;%</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">body_mass_lb =</span> body_mass_g<span class="sc">/</span><span class="fl">453.6</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-<div id="tabset-2-2">
-<div class="cell">
+<section id="example-3" class="slide level2">
+<h2>Example 3</h2>
+<p>Northwestern University is deciding which undergraduate students to test for COVID this week and due to limited resources we cannot test the entire undergraduate student body at once.</p>
+<ul>
+<li><strong>Population of interest</strong>: undergraduate students at NU</li>
+<li><strong>Stratified Sampling Example</strong>: The university divides the population into 4 groups {1st year, sophomore, junior, seniors} and randomly selects 200 students from each group to test.</li>
+</ul>
+</section>
+<section id="example-3-continued" class="slide level2">
+<h2>Example 3 continued</h2>
+<p>Northwestern University is deciding which undergraduate students to test for COVID this week and due to limited resources we cannot test the entire undergraduate student body at once.</p>
+<ul>
+<li><strong>Systematic Sampling Example</strong>: The university alphabetizes the population by last name and selects every <span class="math inline">\(25^{th}\)</span> student to get tested.</li>
+</ul>
 
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(penguins)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Rows: 344
-Columns: 9
-$ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~
-$ island            &lt;fct&gt; Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~
-$ bill_length_mm    &lt;dbl&gt; 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~
-$ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~
-$ flipper_length_mm &lt;int&gt; 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~
-$ body_mass_g       &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~
-$ sex               &lt;fct&gt; male, female, female, NA, female, male, female, male~
-$ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~
-$ body_mass_lb      &lt;dbl&gt; 8.267196, 8.377425, 7.164903, NA, 7.605820, 8.046737~</code></pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="fragment">
-<p><font size="6"> Notice we overwrote the <code>penguins</code> dataset. You can ONLY overwrite the original data if you are <strong>not changing</strong> any of the original information. Otherwise store it as something NEW. </font></p>
-</div>
-</section>
-<section id="arrange" class="slide level2 scrollable">
-<h2><code>arrange()</code></h2>
-<ul>
-<li><code>arrange(variable)</code> sorts data in ascending (low to high; A to Z) order by default.<br>
-</li>
-<li><code>arrange(desc(variable))</code> sorts data in descending (high to low; Z to A) order.</li>
-</ul>
-<div class="fragment">
-<p><strong>Example:</strong></p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span></span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(bill_length_mm))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 344 x 9
-   species   island bill_length_mm bill_de~1 flipp~2 body_~3 sex    year body_~4
-   &lt;fct&gt;     &lt;fct&gt;           &lt;dbl&gt;     &lt;dbl&gt;   &lt;int&gt;   &lt;int&gt; &lt;fct&gt; &lt;int&gt;   &lt;dbl&gt;
- 1 Gentoo    Biscoe           59.6      17       230    6050 male   2007   13.3 
- 2 Chinstrap Dream            58        17.8     181    3700 fema~  2007    8.16
- 3 Gentoo    Biscoe           55.9      17       228    5600 male   2009   12.3 
- 4 Chinstrap Dream            55.8      19.8     207    4000 male   2009    8.82
- 5 Gentoo    Biscoe           55.1      16       230    5850 male   2009   12.9 
- 6 Gentoo    Biscoe           54.3      15.7     231    5650 male   2008   12.5 
- 7 Chinstrap Dream            54.2      20.8     201    4300 male   2008    9.48
- 8 Chinstrap Dream            53.5      19.9     205    4500 male   2008    9.92
- 9 Gentoo    Biscoe           53.4      15.8     219    5500 male   2009   12.1 
-10 Chinstrap Dream            52.8      20       205    4550 male   2008   10.0 
-# ... with 334 more rows, and abbreviated variable names 1: bill_depth_mm,
-#   2: flipper_length_mm, 3: body_mass_g, 4: body_mass_lb</code></pre>
-</div>
-</div>
-</div>
-</section>
-<section id="select" class="slide level2 scrollable">
-<h2><code>select()</code></h2>
-<p><font size="6"> <code>select()</code> subsets the dataset based on named columns</font></p><font size="6">
-<p>Sometimes datasets contain a LOT of information that you do not need for your analysis. <code>select()</code> will help us simplify the dataset and make it easier to use.</p>
-</font><p><font size="6">In the penguins dataset, say we are only interested in the body measurement columns. </font></p>
-<div class="panel-tabset">
-<ul id="tabset-3" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-3-1">Code</a></li><li><a href="#tabset-3-2">Alternate Code</a></li><li><a href="#tabset-3-3">New Data</a></li></ul>
-<div class="tab-content">
-<div id="tabset-3-1">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>penguins_body <span class="ot">&lt;-</span> penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(bill_length_mm, bill_depth_mm, flipper_length_mm, body_mass_g)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-<div id="tabset-3-2">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># specify variables to remove</span></span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>penguins_body <span class="ot">&lt;-</span> penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span>species, <span class="sc">-</span>island, <span class="sc">-</span>sex, <span class="sc">-</span>year)</span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="co"># same thing different notation</span></span>
-<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>penguins_body <span class="ot">&lt;-</span> penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">-</span><span class="fu">c</span>(species, island, sex, year) )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-<div id="tabset-3-3">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(penguins_body)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 6 x 5
-  bill_length_mm bill_depth_mm flipper_length_mm body_mass_g body_mass_lb
-           &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt;        &lt;dbl&gt;
-1           39.1          18.7               181        3750         8.27
-2           39.5          17.4               186        3800         8.38
-3           40.3          18                 195        3250         7.16
-4           NA            NA                  NA          NA        NA   
-5           36.7          19.3               193        3450         7.61
-6           39.3          20.6               190        3650         8.05</code></pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="other-useful-data-wrangling-functions" class="slide level2">
-<h2>Other Useful Data Wrangling Functions</h2>
-<ul>
-<li><code>count(variable)</code> : shortcut to <code>group_by %&gt;% summarize(n())</code></li>
-<li><code>slice_max(variable, n = 1)</code> : return the largest “n” values</li>
-<li><code>slice_min(variable, n = 1)</code> : return the smallest “n” values</li>
-</ul>
-</section>
-<section id="data-wrangling-example" class="slide level2 scrollable">
-<h2>Data Wrangling Example</h2>
-<div class="absolute" style="top: 0%; left: 90%; width: 100px; ">
-<p><img data-src="images_lecture/participate_icon.png"></p>
-</div>
-<p>What if we want to start with our <code>penguins</code> dataset, then keep only observations that are not missing their <code>body_mass_g</code>, and then calculate the count by species, and then order the dataset from low to high.</p>
-<pre><code>a)</code></pre>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(body_mass_g)) <span class="sc">%&gt;%</span> </span>
-<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(species) <span class="sc">%&gt;%</span> </span>
-<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>()) <span class="sc">%&gt;%</span> </span>
-<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(count)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<pre><code>b)</code></pre>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(body_mass_g) <span class="sc">%&gt;%</span> </span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(species) <span class="sc">%&gt;%</span> </span>
-<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>()) <span class="sc">%&gt;%</span> </span>
-<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(count)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<pre><code>c)</code></pre>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(body_mass_g)) <span class="sc">%&gt;%</span> </span>
-<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(species) <span class="sc">%&gt;%</span> </span>
-<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>()) <span class="sc">%&gt;%</span> </span>
-<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(count))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<pre><code>d)</code></pre>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(<span class="sc">!</span><span class="fu">is.na</span>(body_mass_g)) <span class="sc">%&gt;%</span> </span>
-<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">count =</span> <span class="fu">n</span>()) <span class="sc">%&gt;%</span> </span>
-<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">group_by</span>(species) <span class="sc">%&gt;%</span> </span>
-<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(count)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p><br></p>
 
-<p><img src="nu_logo.png" class="slide-logo"></p>
-<div class="footer footer-default">
+<img src="nu_logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
 
 </div>
 </section>
@@ -887,48 +669,6 @@ $ body_mass_lb      &lt;dbl&gt; 8.267196, 8.377425, 7.164903, NA, 7.605820, 8.04
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        function fireSlideChanged(previousSlide, currentSlide) {
-
-          // dispatch for htmlwidgets
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for reveal
-        if (window.Reveal) {
-          window.Reveal.addEventListener("slidechanged", function(event) {
-            fireSlideChanged(event.previousSlide, event.currentSlide);
-          });
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
