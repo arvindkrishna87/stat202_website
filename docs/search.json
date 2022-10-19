@@ -1,5 +1,26 @@
 [
   {
+    "objectID": "course-anu.html",
+    "href": "course-anu.html",
+    "title": "Accessible NU",
+    "section": "",
+    "text": "This is the Statistics Building in the Basement Classroom. Our graduate TA, Kayla Schroader, will be proctoring the exam.\nThe exam will begin 30 minutes before the standard class time.\nExam 1:\n\nSection 20: Monday October 10 at 8:30am\nSection 21: Monday October 10 at 12:30pm\n\nIf you are not available at this time, please contact me ASAP."
+  },
+  {
+    "objectID": "course-ec.html",
+    "href": "course-ec.html",
+    "title": "Course Extra Credit Opportunities",
+    "section": "",
+    "text": "At the end of each Chapter of the textbook we are writing practice Exercises, however the Exercises do not have solutions yet. If you complete the Exercises at the end of a Chapter and submit your solutions (in a .qmd document) to Canvas by the due date you will receive 2 points toward the Activity section of your grade per Chapter. The due dates are set so that I can post the odd problem solutions in the textbook before the Exam for everyone.\nAdvanced sections now optional (Ch 5 and after)\n\n\n\nChapter Exercise Solutions\nDue Date\n\n\n\n\nChapter 1 Solutions\nSunday, October 2nd\n\n\nChapter 2 Solutions\nThursday, October 6th\n\n\nChapter 3 Solutions\nSaturday, October 8th\n\n\nNO Ch 4 Exercises\n\n\n\nChapter 5 Solutions\nSunday, October 23rd\n\n\nChapter 6 Solutions\nSunday, October 23rd"
+  },
+  {
+    "objectID": "course-ec.html#ec-opportunity-2---campuswire",
+    "href": "course-ec.html#ec-opportunity-2---campuswire",
+    "title": "Course Extra Credit Opportunities",
+    "section": "EC Opportunity 2 - Campuswire",
+    "text": "EC Opportunity 2 - Campuswire\nWe use Campuswire (see syllabus or welcome page for enrollment code) as our preferred platform for announcements and questions about activities, reading checks, or general course-related questions. (Questions about individual grades or appointments should be addressed through email.)\nThe Campuswire system is designed to get you help quickly and efficiently from your classmates and the instructional team. Rather than emailing your questions to the instructional team, you should post your questions on Campuswire. If a member of the team receives a course-related question via email, they will ask that you post on Campuswire. You can post questions anonymously.\nThe instructional team will check Campuswire periodically to answer students’ questions (do not expect this on weekends or after 5 PM on weekdays). However, we strongly encourage students to answer each other’s questions. Students who participate actively on Campuswire will receive bonus final exam points at the end of the quarter.\nWe measure student participation using the built-in Campuswire reputation system, which awards reputation points based on questions asked, answers given, and upvotes. The levels are as follows:\nStudents gaining Lvl 1: Starter status by the end of the course will have earned 1 bonus final project point;\nStudents gaining Lvl 2: Intermediate status by the end of the course will have earned 2 bonus final project points;\nStudents gaining Lvl 3: Advanced status by the end of the course will have earned 3 bonus final project points.\nNote that the highest level requires upvotes. It benefits all students to upvote their peers for responses that they find useful.\nIn addition, Campuswire provides a list of the top contributors in the class. At the end of the course, the top 3 contributors will have the bonus final project points they earned doubled.\nThis means that a student who is among the top 3 and has the rank of Lvl 3 (Advanced) will receive 6 bonus final project points. If they are top 3 and have a rank of Lvl 2 (Intermediate) they will receive 4 bonus final project points.\nDISCLAIMER\nStudents attempting or participating in an attempt to game the system will be ineligible for bonus points."
+  },
+  {
     "objectID": "course-links.html",
     "href": "course-links.html",
     "title": "Course Links",
@@ -7,11 +28,46 @@
     "text": "Textbook\nIntroduction to Statistics and Data Science\n\n\nCampuswire\nPost questions here!\n\n\nRStudio Cloud\nRStudio Cloud\n\n\nLecture recordings\n🔗 on Panopto\n\n\nVirtual meetings\nZoom"
   },
   {
+    "objectID": "course-project.html",
+    "href": "course-project.html",
+    "title": "Final Project",
+    "section": "",
+    "text": "The final project is to be completed in groups of 3-5. Why? 1) Group work and collaboration is a good life skill. 2) There is no possible way we can grade 200 projects by the time grades are due.\nThe final project is due on Sunday December 4th 11:59pm. Groups are expected to submit their project electronically to Canvas, similar to how you submit your work for daily activities. You will type your project directly into a qmd file and knit an html document to submit. Only ONE person from the group needs to submit the html document. Make sure everyone’s name is on the project.\nThe project should be in complete sentences within the context of your datset when appropriate. Students are expected to also show their work (i.e., include your R code). Your target audience is the grader and myself, we want to see your code and the output of your code."
+  },
+  {
+    "objectID": "course-project.html#choose-a-group",
+    "href": "course-project.html#choose-a-group",
+    "title": "Final Project",
+    "section": "Choose a Group",
+    "text": "Choose a Group\nYou must join your group on Canvas! Grades are linked to these groups - I will not hunt you down. To get a grade you must be in a group. On Canvas go to the People tab, and select Group to add yourself to a group.\nEveryone in your group must agree to be in your group. I should not be getting emails stating “Jane Doe is in my group and we don’t know who that is”. If you do not know anyone in the class, Groups 1 -5 are titled “Random Join”. Anyone can join them. You can communicate with your group through the Canvas group, make a group on Campuswire, or exchange email."
+  },
+  {
+    "objectID": "course-project.html#choose-a-dataset",
+    "href": "course-project.html#choose-a-dataset",
+    "title": "Final Project",
+    "section": "Choose a Dataset",
+    "text": "Choose a Dataset\nOption 1:\nYou may use a dataset that I provide. This dataset will be located in the RStudio Cloud Project.\n\nClass Survey Data: You cannot use any analysis that is an existing question on your exam. You may think of a similar question but it should not be identical. You must use the full dataset, the midterm and final remove certain columns and observations to reduce time computations. See the codebook for an explanation of the variables.\n\nOption 2:\nAs a group you can pick a dataset of interest to explore! This can be any dataset of your choice that meets the following criteria:\n\nAt least 100 observations\nAt least 10 variables\nThe variables should be a mix of both categorical and numeric\nAt least one variable that can be used as a reasonable response variable for regression\nYou may not use data that has previously been used in any Activity\nYou may not use any data that is a part of the ISDSdatasets, ggplot2, or palmerpenguins packages.\n\nWhere to find data?\n\nSocial Science Data Resources: A LibGuide maintained by Anne Zald from the Northwestern library; this page provides curated links to a number of data sources by subject.\nKaggle: Kaggle offers aggregated datasets, but it’s a community hub rather than a search engine. Kaggle launched in 2010 with a number of machine learning competitions, which subsequently solved problems for the likes of NASA and Ford. It has since evolved into a renowned open data platform, offering cloud-based collaboration for data scientists, as well as educational tools for teaching artificial intelligence and data analysis techniques… plus, of course, tons of great datasets covering almost any topic you can imagine.\nGoogle Dataset Search: Launched in 2018, Google Dataset Search is like Google’s standard search engine, but strictly for data. While it’s not the best tool if you prefer to browse, if you have a particular topic or keyword in mind, it won’t disappoint. Google Dataset Search aggregates data from external sources, providing a clear summary of what’s available, a description of the data, who it’s provided by, and when it was last updated. It’s an excellent place to start.\nU.S. Census Bureau: the U.S. Census Bureau publishes reams of demographic data at the state, city, and even zip code level. It is a fantastic data set for students interested in creating geographic data visualizations and can be accessed on the Census Bureau website. Alternatively, the data can be accessed via an API.\nData.gov: In 2015, the US Government made all its data publicly available. With over 200,000 datasets covering everything from climate change to crime, you can lose yourself in the database for hours. For a government website, it has some surprisingly user-friendly search functions, including the ability to drill down by geographical area, organization type, and file format. Search results are also clearly labeled at federal, state, county, and city levels. \nFiveThirtyEight: If you’re interested in data at all, you’ve almost certainly heard of FiveThirtyEight; it’s one of the best-established data journalism outlets in the world. They write interesting data-driven articles, like “Don’t blame a skills gap for lack of hiring in manufacturing” and “2016 NFL Predictions”. What you may not know is that FiveThirtyEight also makes the data sets used in its articles available online on Github and on its own data portal.\nFBI Crime Data Explorer: If you’re fascinated by crime, the FBI Crime Data Explorer is the one for you. It provides a broad collection of crime statistics from a variety of state organizations (universities and local law enforcement) and government (on a local, regional, and state-level). Pull data on hate crimes, officer assaults, homicides, and more. It also includes some helpful user guides to support data navigation.\nGapMinder: Compilation of data from sources including the World Health Organization and World Bank covering economic, medical and social statistics from around the world.\nBuzzFeed News: BuzzFeed makes the data sets, analysis, libraries, tools, and guides used in its articles available on Github.\nAwesome Public Datasets: This github hosts a library of awesome, public datasets! They are all sorted by category and link you straight to the hosting website.\nData is Plural: Jeremy Singer-Vine collects awesome data sets across multiple sources. If you’re interested in getting data sets straight to your inbox, you should consider signing up for his newsletter.\nSports Reference: “Our Primary Aim is to answer our users’ questions with the easiest-to-use, fastest, and most complete sports statistics anywhere. If we have some fun in the process, that’s good too.”\nRotowire Fantasy Football:“RotoWire is your premium fantasy sports resource. We pioneered real-time fantasy sports news and Player Notes back in 1997 when the Internet was just taking flight. We’ve stayed ahead of imitators with the most in-depth analysis, the fastest real-time news and the largest scope of coverage of any fantasy sports site or app.”\nThe World Bank: The World Bank is a global development organization that offers loans and advice to developing countries. The World Bank regularly funds programs in developing countries, then gathers data to monitor the success of these programs. You can browse world bank data sets directly. The data sets have many missing values (which is great for cleaning practice).\nThe World Health Organization: WHO’s Open Data repository is how WHO keeps track of health-specific statistics of its 194 Member States. The repository keeps the data systematically organized. It can be accessed as per different needs. For instance, whether it is mortality or burden of diseases, one can access data classified under 100 or more categories such as the Millennium Development Goals (child nutrition, child health, maternal and reproductive health, immunization, HIV/AIDS, tuberculosis, malaria, neglected diseases, water and sanitation), non communicable diseases and risk factors, epidemic-prone diseases, health systems, environmental health, violence and injuries, equity etc.\nUNICEF: If data about the lives of children around the world is of interest, UNICEF is the most credible source. The organization’s public data sets touch upon nutrition, immunization, and education, among others.\nUN Data: UN Data is a web-based data service for the global user community. It brings international statistical databases within easy reach of users through a single-entry point. Users can search and download a variety of statistical resources compiled by the United Nations (UN) statistical system and other international agencies. The numerous databases or tables collectively known as “datamarts” contain over 60 million data points and cover a wide range of statistical themes including agriculture, crime, communication, development assistance, education, energy, environment, finance, gender, health, labour market, manufacturing, national accounts, population and migration, science and technology, tourism, transport and trade.\nUniform Crime Reporting Data: The UCR Program collects statistics on violent crime (murder and non-negligent manslaughter, rape, robbery, and aggravated assault) and property crime (burglary, larceny-theft, and motor vehicle theft). By congressional mandate, arson was added as the eighth Part I offense in 1979. Arson statistics are not available for access on this site. By using the table-building tool, users can specify offenses, locality (city, county, state), and year(s).\nUS Food and Drug Administration: Drug approvals and databases, including therapeutic equivalence evaluations for approved multi-source prescription drug products.\nNational Center for Education Statistics: The primary federal entity for collecting and analyzing data related to education.\nNational Weather Service: Climate data, including past weather conditions and long-term averages, from specific observing stations around the United States.\nNational Oceanic and Atmospheric Administration: This covers geophysical, atmospheric, and oceanic data. They are currently the world’s largest provider of climate and weather information.\nFacebook Graph API: The Graph API is the primary way to get data into and out of the Facebook platform. It’s an HTTP-based API that apps can use to programmatically query data, post new stories, manage ads, upload photos, and perform a wide variety of other tasks.\nSpotify API: Discover the millions of tracks, artists, or albums on Spotify in the user’s local market or a specific Spotify market.\nInside Airbnb: Inside Airbnb offers different data sets related to Airbnb listings in dozens of cities around the world.\nYelp Open Dataset: Yelp maintains a free dataset for use in personal, educational, and academic purposes. It includes 6 million reviews spanning 189,000 businesses in 10 metropolitan areas.\nLOL Riot Developer Portal: “With this site we hope to provide the League of Legends developer community with access to game data in a secure and reliable way. This is just part of our ongoing effort to respond to players’ and developers’ requests for data and to arm the community with more ways to contribute to the player experience.”\nTwitter API: Twitter has a good streaming API, and makes it relatively straightforward to filter and stream tweets. You can get started here. There are tons of options here — you could figure out what states are the happiest, or which countries use the most complex language. If you’d like some help getting started working with this Twitter API, check out the tutorial here."
+  },
+  {
+    "objectID": "course-project.html#project-outline",
+    "href": "course-project.html#project-outline",
+    "title": "Final Project",
+    "section": "Project outline",
+    "text": "Project outline\nThis will be updated later."
+  },
+  {
     "objectID": "course-schedule.html",
     "href": "course-schedule.html",
     "title": "STAT 202: Introduction to Statistics and Data Science",
     "section": "",
     "text": "Week\n      Date\n      Topic\n      \n        Prepare\n      \n      \n        Agenda\n      \n      \n        Homework\n      \n    \n    \n      Reading\n      Slides\n      Activity\n      submit_act\n      Tutorial\n      due\n    \n  \n  \n    1\n\nWed Sep 21\nIntroduction\nSyllabus\n\n\n\n practice\n\n\n RC_01\n\nThu Sep 22\n    \nFri Sep 23\nRstudio Cloud\nPreface & Ch 1\n\n\n\n act_01\n\n act_01\n\n RC_02\n\nSun Sep 25\n    2\n\nMon Sep 26\nData Visualization\nSections 2.0 - 2.3\n\n\n\n act_02\n\n act_02\n\n RC_03\n\nTue Sep 27\n    \nWed Sep 28\nData Visualization\nSections 2.4 - 2.6\n\n\n\n act_03\n\n act_03\n\n RC_04\n\nThu Sep 29\n    \nFri Sep 30\nData Visualization\nSections 2.7 - 2.9\n\n\n\n act_04\n\n act_04\n\n RC_05\n\nSun Oct 02\n    3\n\nMon Oct 03\nData Wrangling\nSections 3.0 - 3.3\n\n\n\n act_05\n\n act_05\n\n RC_06\n\nTue Oct 04\n    \nWed Oct 05\nData Wrangling\nSections 3.4 - 3.9\n\n\n\n act_06\n\n act_06\n\n RC_07\n\nThu Oct 06\n    \nFri Oct 07\nTidy Data\nChapter 4\n\n\n\n act_07\n\n act_07\n\n\nSun Oct 09\n    4\n\nMon Oct 10\nExam 1\n\n\n\n\n\nTue Oct 11\n    \nWed Oct 12\nBasic Regression\nSections 5.0 - 5.1\n\n\n\n act_08\n\n act_08\n\n RC_08\n\nThu Oct 13\n    \nFri Oct 14\nBasic Regression\nSections 5.2 - 5.4\n\n\n\n act_09\n\n act_09\n\n RC_09\n\nSun Oct 16\n    5\n\nMon Oct 17\nMultiple Regression\nSections 6.0 - 6.1\n\n\n\n act_10\n\n act_10\n\n RC_10\n\nTue Oct 18\n    \nWed Oct 19\nMultiple Regression\nSections 6.2 - 6.4\n\n\n\n act_11\n\n act_11\n\n RC_11\n\nThu Oct 20\n    \nFri Oct 21\nRandomization & Causality\nChapter 7\n\n\n\n act_12\n\n act_12\n\n RC_12\n\nSun Oct 23\n    6\n\nMon Oct 24\nPop & Generalizability\nChapter 8\n\n\n\n act_13\n\n act_13\n\n RC_13\n\nTue Oct 25\n    \nWed Oct 26\nNormal Distributions\nSections 9.0 - 9.1\n\n\n\n act_14\n\n act_14\n\n RC_14\n\nThu Oct 27\n    \nFri Oct 28\nSampling Distributions\nSections 9.2 - 9.3\n\n\n\n act_15\n\n\n\nSun Oct 30\n    7\n\nMon Oct 31\nExam 2\n\n\n\n act_15\n\n RC_15\n\nTue Nov 01\n    \nWed Nov 02\nSampling Distributions\nSections 9.4 - 9.7\n\n\n\n act_16\n\n act_16\n\n RC_16\n\nThu Nov 03\n    \nFri Nov 04\nConfidence Intervals\nChapter 10\n\n\n\n act_17\n\n\n RC_17\n\nSun Nov 06\n    8\n\nMon Nov 07\nConfidence Intervals\n\n\n\n act_17 (cont'd)\n\n act_17\n\n\nTue Nov 08\n    \nWed Nov 09\nP-values\nChapter 11\n\n\n\n act_18\n\n act_18\n\n RC_18\n\nThu Nov 10\n    \nFri Nov 11\nHypothesis Testing I\nChapter 12\n\n\n\n act_19\n\n act_19\n\n RC_19\n\nSun Nov 13\n    9\n\nMon Nov 14\nHypothesis Testing II\n\n\n\n act_20\n\n\n\nTue Nov 15\n    \nWed Nov 16\nHypothesis Testing III\n\n\n act_20 (cont'd)\n\n act_20\n\n\nThu Nov 17\n    \nFri Nov 18\nPutting it all together I\nChapter 13\n\n\n\n\n\nSun Nov 20\n    10\n\nMon Nov 21\nExam 3\n\n\n\n\n\nTue Nov 22\n    \nWed Nov 23\nThanksgiving - No Class\n\n\n\n\n\nThu Nov 24\n    \nFri Nov 25\nThanksgiving - No Class\n\n\n\n\n\nSun Nov 27\n    11\n\nMon Nov 28\nReading Week - No Class\n\n\n\n\n\nTue Nov 29\n    \nWed Nov 30\nReading Week - No Class\n\n\n\n\n\nThu Dec 01\n    \nFri Dec 02\nReading Week - No Class\n\n\n\n\n\nSun Dec 04\n    12\n\nThu Dec 08\nOptional Final Exam: 9-10am or 3 - 4pm\n\n\n\n\n\nFri Dec 09"
+  },
+  {
+    "objectID": "course-solutions.html",
+    "href": "course-solutions.html",
+    "title": "Activity Solutions",
+    "section": "",
+    "text": "Solution - textbook exercises\nSolution - Activity 01\nSolution - Activity 02\nSolution - Activity 03\nSolution - Activity 04\nSolution - Activity 05\nSolution - Activity 06\nSolution - Activity 07"
   },
   {
     "objectID": "course-syllabus.html",
@@ -98,6 +154,13 @@
     "text": "Academic Resources\nQuarter-Long Study Groups offers peer-led academic support in a small-group setting for students enrolled in this course. If you join the program, you will meet weekly with about 5 to 8 other students and a peer facilitator. During sessions, students review concepts, work through practice problems, raise questions, and work together to develop answers. Students register for the full quarter on CAESAR and weekly attendance is expected. Study Groups sessions are listed below course lecture and discussion sections (e.g., STAT 202-SG Peer-Guided Study Group: Introduction to Statistics).\nContact Borislava Miltcheva (pgsg@northwestern.edu) with any questions.\n\nDrop-In Support (No Appointment Needed)\nDrop-In Peer Tutoring is set up such that students can drop in to study alone or with others and ask questions of a peer leader who has done well in the class. Tutoring is provided for many of the introductory courses in Biology, Chemistry, Economics, Engineering, Mathematics, Physics, and Statistics. Check their website for a complete list of supported courses.\nContact Valerie Wolf (valerie.wolf@northwestern.edu) with any questions."
   },
   {
+    "objectID": "course-syllabus.html#accessibility-accommodations",
+    "href": "course-syllabus.html#accessibility-accommodations",
+    "title": "Syllabus",
+    "section": "Accessibility & Accommodations",
+    "text": "Accessibility & Accommodations\nNorthwestern University is committed to providing the most accessible learning environment as possible for students with disabilities. Should you anticipate or experience disability-related barriers in the academic setting, please contact AccessibleNU to move forward with the university’s established accommodation process1. If you already have established accommodations with AccessibleNU, please let me know as soon as possible, preferably within the first two weeks of the term, so we can work together to implement your disability accommodations. Disability information, including academic accommodations, is confidential under the Family Educational Rights and Privacy Act."
+  },
+  {
     "objectID": "course-syllabus.html#covid-19-policies",
     "href": "course-syllabus.html#covid-19-policies",
     "title": "Syllabus",
@@ -105,11 +168,46 @@
     "text": "COVID-19 Policies\n\nClassroom Expectations\n with University expectations regarding appropriate classroom behavior, including those outlined below and in the COVID-19 Expectations for Students. With respect to classroom procedures, this includes:\n\nPolicies regarding masking, social distancing and other public health measures evolve as the situation changes. Students are responsible for understanding and complying with current University, state and city requirements.\nIn some classes, masking and/or social distancing may be required as a result of an Americans with Disabilities Act (ADA) accommodation for the instructor or a student in the class even when not generally required on campus. In such cases, the instructor will notify the class.\n\n with the COVID-19 Expectations for Students or other University expectations related to COVID-19, the instructor may ask the student to leave the class. The instructor is asked to report the incident to the Office of Community Standards for additional follow-up.\n\n\nClass Attendance\nClass sessions for this course will occur in person. Individual students will not be granted permission to attend remotely except as the result of an Americans with Disabilities Act (ADA) accommodation as determined by AccessibleNU.\nMaintaining the health of the community remains our priority. If you are experiencing any symptoms of COVID and update your Symptom Tracker application right away to connect with Northwestern’s Case Management Team for guidance on next steps. Also contact the instructor as soon as possible to arrange to complete coursework. We plan to record sessions for students that miss to to COVID-19 related issues.\nStudents who experience a personal emergency should contact the instructor as soon as possible to arrange to complete coursework.\nShould public health recommendations prevent in person class from being held on a given day, the instructor or the university will notify students."
   },
   {
-    "objectID": "course-syllabus.html#course-policies",
-    "href": "course-syllabus.html#course-policies",
+    "objectID": "course-syllabus.html#recording",
+    "href": "course-syllabus.html#recording",
     "title": "Syllabus",
-    "section": "Course policies",
-    "text": "Course policies\n\nAccommodations\nAny student requesting accommodations related to a disability or other condition must register with AccessibleNU2 and provide the instructor with an accommodation notification from AccessibleNU, preferably within the first two weeks of class. All information will remain confidential.\n\n\nRecording\nUnauthorized student recording of classroom or other academic activities is prohibited.3 Unauthorized recording is unethical and may also be a violation of University policy and state law.\nStudents requesting the use of assistive technology as an accommodation should contact AccessibleNU. Unauthorized use of classroom recordings — including distributing or posting them — is also prohibited.\nUnder the University’s Copyright Policy, faculty own the copyright to instructional materials — including those resources created specifically for the purposes of instruction, such as syllabi, lectures and lecture notes, and presentations. Students cannot copy, reproduce, display, or distribute these materials. Students who engage in unauthorized recording, unauthorized use of a recording, or unauthorized distribution of instructional materials will be referred to the appropriate University office for follow-up.\n\n\nAcademic Integrity\nStudents are responsible for reading and understanding Northwestern’s academic integrity policy4. Suspected violations of academic integrity will be reported to the Weinberg College Dean’s Office5.\n\n\nSexual Misconduct & Reporting\nNorthwestern University is committed to fostering an environment where students are safe and free from sexual misconduct. Confidential resources are available to those who have experienced sexual misconduct.6\nFaculty, instructors, and TAs are not confidential resources and are required to report incidents of sexual misconduct, whether discussed in your assignments or in person, to the Title IX Coordinator, who can provide information about resources and options.\nWe encourage students who have experienced sexual misconduct to talk with someone to get support. For more information, including how to request interim protective measures and academic accommodations or file a complaint, visit the Get Help7.\n\n\nDiscrimination & Sexual Harassment\nNorthwestern University’s policies on Discrimination, Harassment, and Sexual Harassment apply to all members of the University community, including students, staff, and faculty. Any student, staff, or faculty member who believes that they have been discriminated against or harassed on the basis of his or her race, color, religion, national origin, sex, sexual orientation, gender identity, gender expression, parental status, marital status, age, disability, citizenship, veteran status, genetic information or any other classification protected by law, should contact the Office of Equal Opportunity and Access8 or the Sexual Harassment Prevention Office9.\nAdditional information about the University’s discrimination and harassment policies, including the campus resources available to assist individuals with discrimination or harassment concerns, is available online on the Human Resources Equal Opportunity and Access website10.\nNorthwestern strictly prohibits retaliation against any member of its community for reporting or inquiring about wrongful or unlawful activity. For more details see https://policies.northwestern.edu/docs/non-retaliation-policy-FINAL.pdf.\n\n\nWellness & Mental Health Resources\nNorthwestern University is committed to supporting the wellness of our students. Student Affairs has multiple resources to support student wellness and mental health. If you are feeling distressed or overwhelmed, please reach out for help. Students can access confidential resources through the Counseling and Psychological Services (CAPS), Religious and Spiritual Life (RSL) and the Center for Awareness, Response and Education (CARE). Additional information on all of the resources mentioned above can be found here:\n\nhttps://www.northwestern.edu/counseling/\nhttps://www.northwestern.edu/religious-life/\nhttps://www.northwestern.edu/care/\n\n\n\nStudent Resources\nStudent Enrichment Services (SES) partners with FGLI students – pronounced figly – who are first-generation, lower-income, and/or DACA/Undocumented. SES works with these students to foster identity development, navigate campus resources, and build community. Through campus-wide partnerships and advocacy, SES strives to build an inclusive Northwestern community that is welcoming, supportive, and accessible for all students. SES can connect you to a number of resources (emergency aid assistance, books, supplies, laptops, food accessibility and much more!) both within the SES office and across campus. For more information please visit https://www.northwestern.edu/enrichment."
+    "section": "Recording",
+    "text": "Recording\nUnauthorized student recording of classroom or other academic activities is prohibited.2 Unauthorized recording is unethical and may also be a violation of University policy and state law.\nStudents requesting the use of assistive technology as an accommodation should contact AccessibleNU. Unauthorized use of classroom recordings — including distributing or posting them — is also prohibited.\nUnder the University’s Copyright Policy, faculty own the copyright to instructional materials — including those resources created specifically for the purposes of instruction, such as syllabi, lectures and lecture notes, and presentations. Students cannot copy, reproduce, display, or distribute these materials. Students who engage in unauthorized recording, unauthorized use of a recording, or unauthorized distribution of instructional materials will be referred to the appropriate University office for follow-up.\nThis class or portions of this class will be recorded by the instructor for educational purposes. Your instructor will communicate how members of the class can access the recordings. Portions of the course that contain images, questions or commentary/discussion by students will be edited out of any recordings that are saved beyond the current term."
+  },
+  {
+    "objectID": "course-syllabus.html#academic-integrity",
+    "href": "course-syllabus.html#academic-integrity",
+    "title": "Syllabus",
+    "section": "Academic Integrity",
+    "text": "Academic Integrity\nStudents in this course are required to comply with the policies found in the booklet, “Academic Integrity at Northwestern University: A Basic Guide”. All papers submitted for credit in this course must be submitted electronically unless otherwise instructed by the professor. Your written work may be tested for plagiarized content. For details regarding academic integrity at Northwestern or to download the guide, visit: https://www.northwestern.edu/provost/policies-procedures/academic-integrity/index.html"
+  },
+  {
+    "objectID": "course-syllabus.html#sexual-misconduct-reporting",
+    "href": "course-syllabus.html#sexual-misconduct-reporting",
+    "title": "Syllabus",
+    "section": "Sexual Misconduct & Reporting",
+    "text": "Sexual Misconduct & Reporting\nNorthwestern University is committed to fostering an environment where students are safe and free from sexual misconduct. Confidential resources are available to those who have experienced sexual misconduct.3\nFaculty, instructors, and TAs are not confidential resources and are required to report incidents of sexual misconduct, whether discussed in your assignments or in person, to the Title IX Coordinator, who can provide information about resources and options.\nWe encourage students who have experienced sexual misconduct to talk with someone to get support. For more information visit the Get Help4."
+  },
+  {
+    "objectID": "course-syllabus.html#discrimination-sexual-harassment",
+    "href": "course-syllabus.html#discrimination-sexual-harassment",
+    "title": "Syllabus",
+    "section": "Discrimination & Sexual Harassment",
+    "text": "Discrimination & Sexual Harassment\nNorthwestern University’s policies on Discrimination, Harassment, and Sexual Harassment apply to all members of the University community, including students, staff, and faculty. Any student, staff, or faculty member who believes that they have been discriminated against or harassed on the basis of his or her race, color, religion, national origin, sex, sexual orientation, gender identity, gender expression, parental status, marital status, age, disability, citizenship, veteran status, genetic information or any other classification protected by law, should contact the Office of Equal Opportunity and Access5 or the Sexual Harassment Prevention Office6.\nAdditional information about the University’s discrimination and harassment policies, including the campus resources available to assist individuals with discrimination or harassment concerns, is available online on the Human Resources Equal Opportunity and Access website7.\nNorthwestern strictly prohibits retaliation against any member of its community for reporting or inquiring about wrongful or unlawful activity. For more details see https://policies.northwestern.edu/docs/non-retaliation-policy-FINAL.pdf."
+  },
+  {
+    "objectID": "course-syllabus.html#wellness-mental-health-resources",
+    "href": "course-syllabus.html#wellness-mental-health-resources",
+    "title": "Syllabus",
+    "section": "Wellness & Mental Health Resources",
+    "text": "Wellness & Mental Health Resources\nNorthwestern University is committed to supporting the wellness of our students. Student Affairs has multiple resources to support student wellness and mental health. If you are feeling distressed or overwhelmed, please reach out for help. Students can access confidential resources through the Counseling and Psychological Services (CAPS), Religious and Spiritual Life (RSL) and the Center for Awareness, Response and Education (CARE). Additional information on all of the resources mentioned above can be found here:\n\nhttps://www.northwestern.edu/counseling/\nhttps://www.northwestern.edu/religious-life/\nhttps://www.northwestern.edu/care/"
+  },
+  {
+    "objectID": "course-syllabus.html#student-resources",
+    "href": "course-syllabus.html#student-resources",
+    "title": "Syllabus",
+    "section": "Student Resources",
+    "text": "Student Resources\n with FGLI students – pronounced figly – who are first-generation, lower-income, and/or DACA/Undocumented. SES works with these students to foster identity development, navigate campus resources, and build community. Through campus-wide partnerships and advocacy, SES strives to build an inclusive Northwestern community that is welcoming, supportive, and accessible for all students. SES can connect you to a number of resources (emergency aid assistance, books, supplies, laptops, food accessibility and much more!) both within the SES office and across campus. For more information please visit https://www.northwestern.edu/enrichment."
   },
   {
     "objectID": "course-syllabus.html#important-dates",
@@ -133,18 +231,18 @@
     "text": "Teaching assistants\nAll office hours will be held on-line via Zoom 998 6392 3813 on\n\nTuesdays 12-2pm and 4-6pm\nThursdays 11-1pm and 2-4pm\nSundays 1-4pm\n\n\n\n\n\n\n\n\n\n\nName\n\nEmail\nOffice hours\n\n\n\n\nKayla Schroeder (grader)\n\nKaylaSchroeder2026@u.northwestern.edu\nBy appointment\n\n\nDivya Narayan\n\ndivyanarayan2025@u.northwestern.edu\nTuesday 12-2pm\n\n\nJules Wathieu\n\njuleswathieu2024@u.northwestern.edu\nTuesday 4-6pm\n\n\nAlex Tun\n\nalextun2023@u.northwestern.edu\nThursday 11-1pm\n\n\nKole Butterer\n\nkolebutterer2023@u.northwestern.edu\nThursday 2-4pm\n\n\nShriya Kata\n\nshriyakata2025@u.northwestern.edu\nSunday 1-3pm\n\n\nKabeer Kishore\n\nkabeerkishore2023@u.northwestern.edu\nSunday 2-4pm"
   },
   {
-    "objectID": "index.html#class-wed-sep-21",
-    "href": "index.html#class-wed-sep-21",
+    "objectID": "index.html#class-wed-oct-19",
+    "href": "index.html#class-wed-oct-19",
     "title": "Today’s Agenda",
-    "section": "Class: Wed Sep 21",
-    "text": "Class: Wed Sep 21"
+    "section": "Class: Wed Oct 19",
+    "text": "Class: Wed Oct 19"
   },
   {
     "objectID": "index.html#prepare",
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 6.0 - 6.1"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 6.2 - 6.4"
   },
   {
     "objectID": "index.html#participate",
@@ -158,14 +256,14 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_10"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_11"
   },
   {
-    "objectID": "index.html#homework-due-thu-sep-22-1159pm",
-    "href": "index.html#homework-due-thu-sep-22-1159pm",
+    "objectID": "index.html#homework-due-thu-oct-20-1159pm",
+    "href": "index.html#homework-due-thu-oct-20-1159pm",
     "title": "Today’s Agenda",
-    "section": "Homework Due Thu Sep 22 11:59pm",
-    "text": "Homework Due Thu Sep 22 11:59pm\n\n\n\n\n\n\n  \n  \n  \n     Read Preface & Ch 1\n\n    Complete and submit  RC_01"
+    "section": "Homework Due Thu Oct 20 11:59pm",
+    "text": "Homework Due Thu Oct 20 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_11\n\n     Read Chapter 7\n\n    Complete and submit  RC_11"
   },
   {
     "objectID": "slides/lec00.html#todays-agenda",
@@ -490,6 +588,13 @@
     "text": "summarize()\nsummarize() function reduces a data frame to a summary of just the specified variable.\n\nUseful summary statistics:\n\ndata_sumamry <- data %>% \n  summarize(mean = mean(variable),\n            median = median(variable),\n            sd = sd(variable),\n            iqr = IQR(variable),\n            count = n())\n\n\nNow we can add calculations to describe the center and spread of our distribution plots!"
   },
   {
+    "objectID": "slides/lec05.html#understanding-summary-statistics",
+    "href": "slides/lec05.html#understanding-summary-statistics",
+    "title": "Data Wrangling  Chapter 3.0 - 3.3",
+    "section": "Understanding summary statistics",
+    "text": "Understanding summary statistics\n\n\n\nWhich of the following summary statistics are invariant to outliers?\na) mean     \nb) median   \nc) sd    \nd) IQR\n\nHow would the standard deviation of a distribution change if the maximum value was doubled?\na) increase\nb) decrease\nc) stay the same\nd) not enough information"
+  },
+  {
     "objectID": "slides/lec05.html#example-3",
     "href": "slides/lec05.html#example-3",
     "title": "Data Wrangling  Chapter 3.0 - 3.3",
@@ -644,11 +749,25 @@
     "text": "A Note about Regression\n\nRemember that, BEFORE building a model, you should conduct an exploratory data analysis.\n\n\nYou will almost certainly need to do some data wrangling and visualizations before the model analysis.\n\n\n\nFor this lessons example we will be using a subset of the penguins dataset that only includes male penguins from the Chinstrap species and Dream island. This is stored in penguin_sub."
   },
   {
-    "objectID": "slides/lec08.html#correlation-coefficient",
-    "href": "slides/lec08.html#correlation-coefficient",
+    "objectID": "slides/lec08.html#correlation-coefficient-ex1",
+    "href": "slides/lec08.html#correlation-coefficient-ex1",
     "title": "Regression  Chapter 5.0 - 5.1",
-    "section": "Correlation Coefficient",
-    "text": "Correlation Coefficient\n\n\n\n Correlation coefficient: a number between -1 and 1 indicating the strength of the linear relationship between two numerical variables.\n\nMatch the following graphs with the most appropriate correlation coefficient: \n\n\n    a) -0.2     b) 0     c) 0.4     d) 0.7\n\n\n\n\n\n    a) -1     b) -0.75     c) -0.9     d) 1\n\n\n\n\n\nDistance traveled vs the amount of gas in the car.\n\na) Exactly -1     b) Between -1 and 0     c) About 0\nd) Between 0 and 1     e) Exactly 1"
+    "section": "Correlation Coefficient (Ex1)",
+    "text": "Correlation Coefficient (Ex1)\n\n\n\n Correlation coefficient: a number between -1 and 1 indicating the strength of the linear relationship between two numerical variables.\nMatch the following graphs with the most appropriate correlation coefficient: \n\n\n    a) -0.2     b) 0     c) 0.4     d) 0.7"
+  },
+  {
+    "objectID": "slides/lec08.html#correlation-coefficient-ex2",
+    "href": "slides/lec08.html#correlation-coefficient-ex2",
+    "title": "Regression  Chapter 5.0 - 5.1",
+    "section": "Correlation Coefficient (Ex2)",
+    "text": "Correlation Coefficient (Ex2)\n\n\n\n Match the following graph with the most appropriate correlation coefficient: \n\n    a) -1     b) -0.75     c) -0.9     d) 1"
+  },
+  {
+    "objectID": "slides/lec08.html#correlation-coefficient-ex3",
+    "href": "slides/lec08.html#correlation-coefficient-ex3",
+    "title": "Regression  Chapter 5.0 - 5.1",
+    "section": "Correlation Coefficient (Ex3)",
+    "text": "Correlation Coefficient (Ex3)\n\n\n\n Match the following graph with the most appropriate correlation coefficient: \n\nDistance traveled vs the amount of gas in the car.\na . Exactly -1\nb . Between -1 and 0\nc . About 0\nd . Between 0 and 1\ne . Exactly 1"
   },
   {
     "objectID": "slides/lec08.html#correlation-coefficient-continued",
@@ -756,6 +875,13 @@
     "text": "Indicator function\nWill take on either the value of “1” or “0” depending if the condition is true.\n\\[\\begin{equation}\n\\mathbb{1}_{gentoo}(x) = \\begin{cases}\n        1 & \\text{if x is Gentoo}\\\\\n        0 & \\text{if x is NOT Gentoo}\n    \\end{cases}\n\\end{equation}\\]"
   },
   {
+    "objectID": "slides/lec09.html#indicator-function-1",
+    "href": "slides/lec09.html#indicator-function-1",
+    "title": "Regression  Chapter 5.2 - 5.4",
+    "section": "Indicator function",
+    "text": "Indicator function\nRecall our model:\n\\[\\widehat{bodymass} = b_0 + b_1*\\mathbb{1}_{chinstrap}(x)+ b_2*\\mathbb{1}_{gentoo}(x)\\]\nConsider 3 randomly sampled Penguins below.\n\n\n# A tibble: 3 x 7\n  species island    bill_length_mm bill_depth_mm flipper_length_mm body_~1 sex  \n  <fct>   <fct>              <dbl>         <dbl>             <int>   <int> <fct>\n1 Gentoo  Biscoe              41.7          14.7               210    4700 fema~\n2 Adelie  Torgersen           45.8          18.9               197    4150 male \n3 Gentoo  Biscoe              45.1          14.4               210    4400 fema~\n# ... with abbreviated variable name 1: body_mass_g\n\n\n\nWhen using the model equation which of the above penguins would you set \\(\\mathbb{1}_{gentoo}(x) = 1?\\) What about \\(\\mathbb{1}_{chinstrap}(x) = 1?\\)"
+  },
+  {
     "objectID": "slides/lec09.html#interpretation",
     "href": "slides/lec09.html#interpretation",
     "title": "Regression  Chapter 5.2 - 5.4",
@@ -819,6 +945,13 @@
     "text": "Example: interpretations\n\\[\\widehat{bodymass} = -5736.9 + 48.14*\\text{flipper} + 6.05*\\text{bill_length}\\]\n\n\n\\(b_0\\) intercept; the predicted/expected body mass when a penguin has flipper length 0 and bill length 0\n\\(b_1\\) slope of flipper length; taking into account all other explanatory variables, for every 1 mm increase in flipper length, the expected body mass increases by \\(48.14\\)\n\\(b_2\\) slope of bill length; taking into account all other explanatory variables, for every 1 mm increase in bill length, the expected body mass increases by \\(6.05\\)"
   },
   {
+    "objectID": "slides/lec10.html#example-prediction",
+    "href": "slides/lec10.html#example-prediction",
+    "title": "Multiple Regression  Chapter 6.0 - 6.1",
+    "section": "Example: prediction",
+    "text": "Example: prediction\n\n\n\n\\[\\widehat{bodymass} = -5736.9 + 48.14*\\text{flipper} + 6.05*\\text{bill_length}\\]\n\nYou recently got a penguin and measured their flipper_length to be 150mm and their bill_length to be 40mm. What do you expect their body mass to be?"
+  },
+  {
     "objectID": "slides/lec11.html#todays-goals",
     "href": "slides/lec11.html#todays-goals",
     "title": "Multiple Regression  Chapter 6.2 - 6.4",
@@ -833,18 +966,11 @@
     "text": "Multiple Regression Goal and Example\nGoal: build a model with one numerical and one categorical explanatory variable.\n\nUsing the penguins dataset, we want to determine how flipper_length_mm impacts body_mass_g. But we also think body_mass_g varies by sex.\n\n\n\nBuild a model that predicts body_mass_g using flipper_length_mm and sex as explanatory variables. In this dataset sex has 2 levels: {male, female}"
   },
   {
-    "objectID": "slides/lec11.html#data",
-    "href": "slides/lec11.html#data",
+    "objectID": "slides/lec11.html#model-1",
+    "href": "slides/lec11.html#model-1",
     "title": "Multiple Regression  Chapter 6.2 - 6.4",
-    "section": "Data",
-    "text": "Data\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~\n$ sex               <fct> male, female, female, NA, female, male, female, male~\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~"
-  },
-  {
-    "objectID": "slides/lec11.html#same-slope-model",
-    "href": "slides/lec11.html#same-slope-model",
-    "title": "Multiple Regression  Chapter 6.2 - 6.4",
-    "section": "“Same slope model”",
-    "text": "“Same slope model”\n\nmodel_parallel <- lm(body_mass_g ~ flipper_length_mm + sex, data=penguins)\n\nsummary(model_parallel)\n\n\nCall:\nlm(formula = body_mass_g ~ flipper_length_mm + sex, data = penguins)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-910.28 -243.89   -2.94  238.85 1067.73 \n\nCoefficients:\n                   Estimate Std. Error t value Pr(>|t|)    \n(Intercept)       -5410.300    285.798 -18.931  < 2e-16 ***\nflipper_length_mm    46.982      1.441  32.598  < 2e-16 ***\nsexmale             347.850     40.342   8.623 2.78e-16 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 355.9 on 330 degrees of freedom\n  (11 observations deleted due to missingness)\nMultiple R-squared:  0.8058,    Adjusted R-squared:  0.8047 \nF-statistic: 684.8 on 2 and 330 DF,  p-value: < 2.2e-16"
+    "section": "Model 1",
+    "text": "Model 1\nFirst, let’s assume that sex has no impact on the rate of change between flipper_length and body_mass.\n\n“Same slopes model”Data\n\n\n\nmodel_parallel <- lm(body_mass_g ~ flipper_length_mm + sex, data=penguins)\n\nsummary(model_parallel)\n\n\nCall:\nlm(formula = body_mass_g ~ flipper_length_mm + sex, data = penguins)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-910.28 -243.89   -2.94  238.85 1067.73 \n\nCoefficients:\n                   Estimate Std. Error t value Pr(>|t|)    \n(Intercept)       -5410.300    285.798 -18.931  < 2e-16 ***\nflipper_length_mm    46.982      1.441  32.598  < 2e-16 ***\nsexmale             347.850     40.342   8.623 2.78e-16 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 355.9 on 330 degrees of freedom\n  (11 observations deleted due to missingness)\nMultiple R-squared:  0.8058,    Adjusted R-squared:  0.8047 \nF-statistic: 684.8 on 2 and 330 DF,  p-value: < 2.2e-16\n\n\n\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~\n$ sex               <fct> male, female, female, NA, female, male, female, male~\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~"
   },
   {
     "objectID": "slides/lec11.html#same-slopes-model-output",
@@ -861,11 +987,11 @@
     "text": "Same Slopes Model Output\n\n\nYou can think of each ‘level’ having a different line (equation).\n\n\n\n\nThe equation of the line for penguins who are female:\n\n\\[-5410.3 + 46.98*flipper + 347.85*0\\] \\[ = -5410.3 + 46.98*flipper\\]\n\n\n\nThe equation of the line for penguins who are male\n\n\\[-5410.3 + 46.98*flipper + 347.85*1\\] \\[ = -5062.45 + 46.98*flipper\\]"
   },
   {
-    "objectID": "slides/lec11.html#interaction-model",
-    "href": "slides/lec11.html#interaction-model",
+    "objectID": "slides/lec11.html#model-2",
+    "href": "slides/lec11.html#model-2",
     "title": "Multiple Regression  Chapter 6.2 - 6.4",
-    "section": "“Interaction Model”",
-    "text": "“Interaction Model”\n\nmodel_interaction <- lm(body_mass_g ~ flipper_length_mm + sex +flipper_length_mm*sex, data=penguins)\n\nsummary(model_interaction)\n\n\nCall:\nlm(formula = body_mass_g ~ flipper_length_mm + sex + flipper_length_mm * \n    sex, data = penguins)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-909.36 -246.58   -3.13  237.18 1065.19 \n\nCoefficients:\n                            Estimate Std. Error t value Pr(>|t|)    \n(Intercept)               -5443.9607   440.2829 -12.365   <2e-16 ***\nflipper_length_mm            47.1527     2.2264  21.179   <2e-16 ***\nsexmale                     406.8015   587.3029   0.693    0.489    \nflipper_length_mm:sexmale    -0.2942     2.9242  -0.101    0.920    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 356.4 on 329 degrees of freedom\n  (11 observations deleted due to missingness)\nMultiple R-squared:  0.8058,    Adjusted R-squared:  0.8041 \nF-statistic: 455.2 on 3 and 329 DF,  p-value: < 2.2e-16"
+    "section": "Model 2",
+    "text": "Model 2\nNow, let’s assume that the rate of change between flipper_length and body_mass varies based on sex.\n\n“Interaction Model”Alternate code\n\n\n\nmodel_interaction <- lm(body_mass_g ~ flipper_length_mm + sex +flipper_length_mm*sex, data=penguins)\n\nsummary(model_interaction)\n\n\nCall:\nlm(formula = body_mass_g ~ flipper_length_mm + sex + flipper_length_mm * \n    sex, data = penguins)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-909.36 -246.58   -3.13  237.18 1065.19 \n\nCoefficients:\n                            Estimate Std. Error t value Pr(>|t|)    \n(Intercept)               -5443.9607   440.2829 -12.365   <2e-16 ***\nflipper_length_mm            47.1527     2.2264  21.179   <2e-16 ***\nsexmale                     406.8015   587.3029   0.693    0.489    \nflipper_length_mm:sexmale    -0.2942     2.9242  -0.101    0.920    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 356.4 on 329 degrees of freedom\n  (11 observations deleted due to missingness)\nMultiple R-squared:  0.8058,    Adjusted R-squared:  0.8041 \nF-statistic: 455.2 on 3 and 329 DF,  p-value: < 2.2e-16\n\n\n\n\n\nmodel_interaction <- lm(body_mass_g ~ flipper_length_mm*sex, data=penguins)\n\nsummary(model_interaction)\n\n\nCall:\nlm(formula = body_mass_g ~ flipper_length_mm * sex, data = penguins)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-909.36 -246.58   -3.13  237.18 1065.19 \n\nCoefficients:\n                            Estimate Std. Error t value Pr(>|t|)    \n(Intercept)               -5443.9607   440.2829 -12.365   <2e-16 ***\nflipper_length_mm            47.1527     2.2264  21.179   <2e-16 ***\nsexmale                     406.8015   587.3029   0.693    0.489    \nflipper_length_mm:sexmale    -0.2942     2.9242  -0.101    0.920    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 356.4 on 329 degrees of freedom\n  (11 observations deleted due to missingness)\nMultiple R-squared:  0.8058,    Adjusted R-squared:  0.8041 \nF-statistic: 455.2 on 3 and 329 DF,  p-value: < 2.2e-16"
   },
   {
     "objectID": "slides/lec11.html#interaction-model-output",
@@ -880,489 +1006,6 @@
     "title": "Multiple Regression  Chapter 6.2 - 6.4",
     "section": "Interaction Model Output",
     "text": "Interaction Model Output\n\n\n\nEquation: \\[\\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*\\mathbb{1}_{male}(x) \\] \\[- 0.29*flipper*\\mathbb{1}_{male}(x)\\]\n\n\\(b_0\\) : intercept for baseline (female penguins)\n\\(b_1\\) :\n\\(b_2\\) :\n\\(b_3\\) :"
-  },
-  {
-    "objectID": "slides/lec03.html#bins-20",
-    "href": "slides/lec03.html#bins-20",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "Bins = 20",
-    "text": "Bins = 20\n\nggplot(penguins, aes(x=penguins$body_mass_g)) +\n    geom_histogram(color = \"white\", \n                   fill = \"lightblue\", \n                   bins = 20)+\n    labs(title = \"Palmer Penguins Distribution of Body Mass\",\n           x = \"Body Mass (g)\")"
-  },
-  {
-    "objectID": "slides/lec03.html#bins-35",
-    "href": "slides/lec03.html#bins-35",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "Bins = 35",
-    "text": "Bins = 35\n\nggplot(penguins, aes(x=penguins$body_mass_g)) +\n    geom_histogram(color = \"white\", \n                   fill = \"lightblue\", \n                   bins = 35)+\n    labs(title = \"Palmer Penguins Distribution of Body Mass\",\n           x = \"Body Mass (g)\")"
-  },
-  {
-    "objectID": "slides/lec03b.html#todays-goals",
-    "href": "slides/lec03b.html#todays-goals",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "Today’s goals",
-    "text": "Today’s goals\n\n\n\n\nCreate a linegraph\nCreate a histogram\nProperly describe a linegraph and histogram\nFacet graphs based on subgroups\n\n\n\n\n\nArtwork by @allison_horst"
-  },
-  {
-    "objectID": "slides/lec03b.html#data-wrangling",
-    "href": "slides/lec03b.html#data-wrangling",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "Data Wrangling",
-    "text": "Data Wrangling\nIn real data applications it is rare that data will be in the “perfect” form for us to use. We will typically need to manipulate or wrangle data into a form that is useful using the dplyr library.\n\n\nThe pipe operator %>% : takes the output of one function and passes it into another function as an argument.\n\n\n\n\ndata %>% \n  step 1 %>% \n  step 2"
-  },
-  {
-    "objectID": "slides/lec03b.html#filter",
-    "href": "slides/lec03b.html#filter",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "filter()",
-    "text": "filter()\n\nfilter() is used to subset a data frame, retaining all rows that satisfy your conditions.\n\nOperators for the filter Function\n\n\n\n\n\nOperator\nDefinition\n\n\n\n\n==\nequal\n\n\n>\ngreater than\n\n\n>=\ngreater than or equal to\n\n\n\n\n\n\n\nOperator\nDefinition\n\n\n\n\n!=\nnot equal\n\n\n<\nless than\n\n\n<=\nless than or equal to"
-  },
-  {
-    "objectID": "slides/lec03b.html#example-1",
-    "href": "slides/lec03b.html#example-1",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "Example 1",
-    "text": "Example 1\n\n\n\nConsider the penguins dataset.\nSubset the dataset to only include ‘male’ penguins.\n\nCodeData\n\n\n\npenguins %>% \n  filter(            )\n\n\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~\n$ sex               <fct> male, female, female, NA, female, male, female, male~\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~"
-  },
-  {
-    "objectID": "slides/lec03b.html#example-1-1",
-    "href": "slides/lec03b.html#example-1-1",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "Example 1",
-    "text": "Example 1\nConsider the penguins dataset.\nSubset the dataset to only include ‘male’ penguins.\n\nCodeData\n\n\n\npenguins %>% \n  filter(sex == \"male\")\n\n\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~\n$ sex               <fct> male, female, female, NA, female, male, female, male~\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~\n\n\n\n\n\n\n\nRemember to store your data with a new meaningful name."
-  },
-  {
-    "objectID": "slides/lec03b.html#example-1-2",
-    "href": "slides/lec03b.html#example-1-2",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "Example 1",
-    "text": "Example 1\nConsider the penguins dataset.\nSubset the dataset to only include ‘male’ penguins.\n\nCodeNew Data\n\n\n\npenguins_male <- penguins %>% \n  filter(sex == \"male\")\n\n\n\n\nglimpse(penguins_male)\n\nRows: 168\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~\n$ bill_length_mm    <dbl> 39.1, 39.3, 39.2, 38.6, 34.6, 42.5, 46.0, 37.7, 38.2~\n$ bill_depth_mm     <dbl> 18.7, 20.6, 19.6, 21.2, 21.1, 20.7, 21.5, 18.7, 18.1~\n$ flipper_length_mm <int> 181, 190, 195, 191, 198, 197, 194, 180, 185, 180, 18~\n$ body_mass_g       <int> 3750, 3650, 4675, 3800, 4400, 4500, 4200, 3600, 3950~\n$ sex               <fct> male, male, male, male, male, male, male, male, male~\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~\n\n\n\n\n\n\nRemember to store your data with a new meaningful name."
-  },
-  {
-    "objectID": "slides/lec03b.html#example-2",
-    "href": "slides/lec03b.html#example-2",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "Example 2",
-    "text": "Example 2\n\n\n\n Subset the dataset to only include ‘male’ penguins that weigh more than 4000 grams. \n\nCodeData\n\n\n\npenguins_male <- penguins %>% \n  filter(sex == \"male\")\n\n\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~\n$ sex               <fct> male, female, female, NA, female, male, female, male~\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~"
-  },
-  {
-    "objectID": "slides/lec03b.html#example-2-1",
-    "href": "slides/lec03b.html#example-2-1",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "Example 2",
-    "text": "Example 2\n Subset the dataset to only include ‘male’ penguins that weigh more than 4000 grams.\n\nCodeAlternate CodeNew Data\n\n\n\npenguins_heavy_m <- penguins %>% \n  filter(sex == \"male\", body_mass_g > 4000)\n\n\n\nand can be represented by either a comma , or the & symbol\n\npenguins_heavy_m <- penguins %>% \n  filter(sex == \"male\" & body_mass_g > 4000)\n\n\nNote: Since we already created an only males dataset you could have started with that and proceeded to filter based on weight.\n\npenguins_heavy_m <- penguins_male %>% \n  filter(body_mass_g > 4000)\n\n\n\n\nglimpse(penguins_heavy_m)\n\nRows: 109\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Dream, D~\n$ bill_length_mm    <dbl> 39.2, 34.6, 42.5, 46.0, 39.2, 39.8, 44.1, 39.6, 42.3~\n$ bill_depth_mm     <dbl> 19.6, 21.1, 20.7, 21.5, 21.1, 19.1, 19.7, 18.8, 21.2~\n$ flipper_length_mm <int> 195, 198, 197, 194, 196, 184, 196, 190, 191, 188, 20~\n$ body_mass_g       <int> 4675, 4400, 4500, 4200, 4150, 4650, 4400, 4600, 4150~\n$ sex               <fct> male, male, male, male, male, male, male, male, male~\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~\n\n\n\n\n\n\n\nALWAYS inspect your new dataset to make sure everything is as expected."
-  },
-  {
-    "objectID": "slides/lec03b.html#summarize",
-    "href": "slides/lec03b.html#summarize",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "summarize()",
-    "text": "summarize()\nsummarize() function reduces a data frame to a summary of just the specified variable.\n\nUseful summary statistics:\n\ndata_sumamry <- data %>% \n  summarize(mean = mean(variable),\n            median = median(variable),\n            sd = sd(variable),\n            iqr = IQR(variable),\n            count = n())"
-  },
-  {
-    "objectID": "slides/lec03b.html#example-3",
-    "href": "slides/lec03b.html#example-3",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "Example 3",
-    "text": "Example 3\n\n\n\nConsider the penguins dataset.\nSummarize the average flipper_length_mm and count for penguins that are either “Adelie” species or “Gentoo” species. Which of the following is correct?\n\n# a)\npenguins_summary_a <- penguins %>% \n  filter(species == \"Adelie\" | \"Gentoo\") %>% \n  summarize(mean = mean(flipper_length_mm),\n            count = n() )\n# b)\npenguins_summary_b <- penguins %>% \n  filter(species == \"Adelie\" | species == \"Gentoo\") %>% \n  summarize(mean = mean(flipper_length_mm),\n            count = n() )\n#c)\npenguins_summary_c <- penguins %>% \n  summarize(mean = mean(flipper_length_mm),\n            count = n() ) %>% \n  filter(species == \"Adelie\" & species == \"Gentoo\")\n#d)\npenguins_summary_d <- penguins %>% \n  filter(species == \"Adelie\" & species == \"Gentoo\") %>% \n  summarize(mean = mean(flipper_length_mm),\n            count = n(flipper_length_mm) )"
-  },
-  {
-    "objectID": "slides/lec03b.html#example-3-1",
-    "href": "slides/lec03b.html#example-3-1",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "Example 3",
-    "text": "Example 3\nConsider the penguins dataset.\nSummarize the average flipper_length_mm and count for penguins that are either “Adelie” species or “Gentoo” species. Which of the following is correct?\n\n# a)\npenguins_summary_a <- penguins %>% \n  filter(species == \"Adelie\" | \"Gentoo\") %>% \n  summarize(mean = mean(flipper_length_mm),\n            count = n() )\n# b)\npenguins_summary_b <- penguins %>% \n  filter(species == \"Adelie\" | species == \"Gentoo\") %>% \n  summarize(mean = mean(flipper_length_mm),\n            count = n() )\n#c)\npenguins_summary_c <- penguins %>% \n  summarize(mean = mean(flipper_length_mm),\n            count = n(flipper_length_mm) ) %>% \n  filter(species == \"Adelie\" | species == \"Gentoo\")\n#d)\npenguins_summary_d <- penguins %>% \n  filter(species == \"Adelie\" & species == \"Gentoo\") %>% \n  summarize(mean = mean(flipper_length_mm),\n            count = n() )"
-  },
-  {
-    "objectID": "slides/lec03b.html#example-3-continued",
-    "href": "slides/lec03b.html#example-3-continued",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "Example 3 (continued)",
-    "text": "Example 3 (continued)\nPrint the data summary.\n\npenguins_summary_b <- penguins %>% \n  filter(species == \"Adelie\" | species == \"Gentoo\") %>% \n  summarize(mean = mean(flipper_length_mm),\n            count = n() )\npenguins_summary_b\n\n# A tibble: 1 x 2\n   mean count\n  <dbl> <int>\n1    NA   276"
-  },
-  {
-    "objectID": "slides/lec03b.html#example-3-continued-1",
-    "href": "slides/lec03b.html#example-3-continued-1",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "Example 3 (continued)",
-    "text": "Example 3 (continued)\nPrint the data summary.\n\npenguins_summary_b <- penguins %>% \n  filter(species == \"Adelie\" | species == \"Gentoo\") %>% \n  summarize(mean = mean(flipper_length_mm, na.rm = TRUE),\n            count = n() )\npenguins_summary_b\n\n# A tibble: 1 x 2\n   mean count\n  <dbl> <int>\n1  202.   276"
-  },
-  {
-    "objectID": "slides/lec03b.html#important-information",
-    "href": "slides/lec03b.html#important-information",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "Important information",
-    "text": "Important information\n\nOrder of pipe operations matters!\nIf you are using & and | in the same filter be very careful and use parenthesis.\nMissing data is entered as NA in a data frame cell and can produce an error when using summarize unless you set na.rm=TRUE (ie: remove the NA values)."
-  },
-  {
-    "objectID": "slides/lec03b.html#ng2-linegraphs",
-    "href": "slides/lec03b.html#ng2-linegraphs",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "5NG#2: Linegraphs",
-    "text": "5NG#2: Linegraphs\nLinegraphs show the relationship between 2 numerical variables.\n\n\nThe explanatory (x-axis) variable must be of sequential ordering.\n\n\n\nLinegraph syntax in R:\n\nggplot(data= my_data, mapping = aes(x = var1, y = var2)) +\n  geom_line()"
-  },
-  {
-    "objectID": "slides/lec03b.html#ng2-linegraphs-1",
-    "href": "slides/lec03b.html#ng2-linegraphs-1",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "5NG#2: Linegraphs",
-    "text": "5NG#2: Linegraphs\nWhen describing linegraphs…\n\n\nLook for pattern going from left to right.\nClassify association as positive, negative, or no association.\nClassify relationship as linear or non linear.\nCheck x and y scales to make sure they are appropriate."
-  },
-  {
-    "objectID": "slides/lec03b.html#ng3-histograms",
-    "href": "slides/lec03b.html#ng3-histograms",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "5NG#3: Histograms",
-    "text": "5NG#3: Histograms\n\nHistograms are used to visualize the distribution of a single numerical variable.\n\n\n\nHistograms display numerical data by grouping data into bins of equal width.\n\n\n\n\nThere is no ‘y’ position aesthetic for geom_histogram() because we are investigating a single variable."
-  },
-  {
-    "objectID": "slides/lec03b.html#ng3-histograms-1",
-    "href": "slides/lec03b.html#ng3-histograms-1",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "5NG#3: Histograms",
-    "text": "5NG#3: Histograms\nHistogram syntax in R:\n\nggplot(data= my_data, aes(x = var1)) +\n  geom_histogram(color = \"white\", fill = \"blue\", bins = 10)\n\n\n\n There are 3 things we look and describe when inspecting a histogram:\n\nshape (skew and modality)\ncenter (mean or median)\nspread (range, IQR, or standard deviation)\n\n\n\nNot all distributions have a simple recognizable shape!\n\nType colors() in the console to view all possible colors."
-  },
-  {
-    "objectID": "slides/lec03b.html#ng3-histograms-2",
-    "href": "slides/lec03b.html#ng3-histograms-2",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "5NG#3: Histograms",
-    "text": "5NG#3: Histograms"
-  },
-  {
-    "objectID": "slides/lec03b.html#example-1-histogram-bins",
-    "href": "slides/lec03b.html#example-1-histogram-bins",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "Example 1: Histogram bins",
-    "text": "Example 1: Histogram bins\nWhich bin size is most appropriate and describe the distribution of penguin body mass.\n\n\n\n\nBins = 7Bins = 18Bins = 29\n\n\n\nggplot(penguins, aes(x=penguins$body_mass_g)) +\n    geom_histogram(color = \"white\", \n                   fill = \"lightblue\", \n                   bins = 7)+\n    labs(title = \"Palmer Penguins Distribution of Body Mass\",\n           x = \"Body Mass (g)\")\n\n\n\n\n\n\n\nggplot(penguins, aes(x=penguins$body_mass_g)) +\n    geom_histogram(color = \"white\", \n                   fill = \"lightblue\", \n                   bins = 18)+\n    labs(title = \"Palmer Penguins Distribution of Body Mass\",\n           x = \"Body Mass (g)\")\n\n\n\n\n\n\n\nggplot(penguins, aes(x=penguins$body_mass_g)) +\n    geom_histogram(color = \"white\", \n                   fill = \"lightblue\", \n                   bins = 29)+\n    labs(title = \"Palmer Penguins Distribution of Body Mass\",\n           x = \"Body Mass (g)\")"
-  },
-  {
-    "objectID": "slides/lec03b.html#example-2-histogram-bins",
-    "href": "slides/lec03b.html#example-2-histogram-bins",
-    "title": "Data Visualization  Sections 2.4 - 2.6",
-    "section": "Example 2: Histogram bins",
-    "text": "Example 2: Histogram bins\n\n\n\nWhich bin size is most appropriate and describe the distribution of penguin flipper length.\n\nBins = 15Bins = 25Bins = 35\n\n\n\n  ggplot(penguins, aes(x=penguins$flipper_length_mm )) +\n    geom_histogram(color = \"white\", \n                   fill = \"tomato1\", \n                   bins = 15)+\n    labs(title = \"Palmer Penguins Distribution of Flipper Length\",\n           x = \"Flipper Length (mm)\")\n\n\n\n\n\n\n\n  ggplot(penguins, aes(x=penguins$flipper_length_mm )) +\n    geom_histogram(color = \"white\", \n                   fill = \"tomato1\", \n                   bins = 25)+\n    labs(title = \"Palmer Penguins Distribution of Flipper Length\",\n           x = \"Flipper Length (mm)\")\n\n\n\n\n\n\n\n  ggplot(penguins, aes(x=penguins$flipper_length_mm )) +\n    geom_histogram(color = \"white\", \n                   fill = \"tomato1\", \n                   bins = 35)+\n    labs(title = \"Palmer Penguins Distribution of Flipper Length\",\n           x = \"Flipper Length (mm)\")"
-  },
-  {
-    "objectID": "slides/lec05.html#summary-statistics",
-    "href": "slides/lec05.html#summary-statistics",
-    "title": "Data Wrangling  Chapter 3.0 - 3.3",
-    "section": "Summary statistics",
-    "text": "Summary statistics\nWhich of the following summary statistics are invariant to outliers?\n\nmean b) median c) sd d) IQR\n\n\nNow we can add calculations to describe the center and spread of our distributions"
-  },
-  {
-    "objectID": "slides/lec05.html#understanding-summary-statistics",
-    "href": "slides/lec05.html#understanding-summary-statistics",
-    "title": "Data Wrangling  Chapter 3.0 - 3.3",
-    "section": "Understanding summary statistics",
-    "text": "Understanding summary statistics\n\n\n\nWhich of the following summary statistics are invariant to outliers?\na) mean     \nb) median   \nc) sd    \nd) IQR\n\nHow would the standard deviation of a distribution change if the maximum value was doubled?\na) increase\nb) decrease\nc) stay the same\nd) not enough information"
-  },
-  {
-    "objectID": "course-syllabus.html#accessibility-accommodations",
-    "href": "course-syllabus.html#accessibility-accommodations",
-    "title": "Syllabus",
-    "section": "Accessibility & Accommodations",
-    "text": "Accessibility & Accommodations\nNorthwestern University is committed to providing the most accessible learning environment as possible for students with disabilities. Should you anticipate or experience disability-related barriers in the academic setting, please contact AccessibleNU to move forward with the university’s established accommodation process1. If you already have established accommodations with AccessibleNU, please let me know as soon as possible, preferably within the first two weeks of the term, so we can work together to implement your disability accommodations. Disability information, including academic accommodations, is confidential under the Family Educational Rights and Privacy Act."
-  },
-  {
-    "objectID": "course-syllabus.html#recording",
-    "href": "course-syllabus.html#recording",
-    "title": "Syllabus",
-    "section": "Recording",
-    "text": "Recording\nUnauthorized student recording of classroom or other academic activities is prohibited.2 Unauthorized recording is unethical and may also be a violation of University policy and state law.\nStudents requesting the use of assistive technology as an accommodation should contact AccessibleNU. Unauthorized use of classroom recordings — including distributing or posting them — is also prohibited.\nUnder the University’s Copyright Policy, faculty own the copyright to instructional materials — including those resources created specifically for the purposes of instruction, such as syllabi, lectures and lecture notes, and presentations. Students cannot copy, reproduce, display, or distribute these materials. Students who engage in unauthorized recording, unauthorized use of a recording, or unauthorized distribution of instructional materials will be referred to the appropriate University office for follow-up.\nThis class or portions of this class will be recorded by the instructor for educational purposes. Your instructor will communicate how members of the class can access the recordings. Portions of the course that contain images, questions or commentary/discussion by students will be edited out of any recordings that are saved beyond the current term."
-  },
-  {
-    "objectID": "course-syllabus.html#academic-integrity",
-    "href": "course-syllabus.html#academic-integrity",
-    "title": "Syllabus",
-    "section": "Academic Integrity",
-    "text": "Academic Integrity\nStudents in this course are required to comply with the policies found in the booklet, “Academic Integrity at Northwestern University: A Basic Guide”. All papers submitted for credit in this course must be submitted electronically unless otherwise instructed by the professor. Your written work may be tested for plagiarized content. For details regarding academic integrity at Northwestern or to download the guide, visit: https://www.northwestern.edu/provost/policies-procedures/academic-integrity/index.html"
-  },
-  {
-    "objectID": "course-syllabus.html#sexual-misconduct-reporting",
-    "href": "course-syllabus.html#sexual-misconduct-reporting",
-    "title": "Syllabus",
-    "section": "Sexual Misconduct & Reporting",
-    "text": "Sexual Misconduct & Reporting\nNorthwestern University is committed to fostering an environment where students are safe and free from sexual misconduct. Confidential resources are available to those who have experienced sexual misconduct.3\nFaculty, instructors, and TAs are not confidential resources and are required to report incidents of sexual misconduct, whether discussed in your assignments or in person, to the Title IX Coordinator, who can provide information about resources and options.\nWe encourage students who have experienced sexual misconduct to talk with someone to get support. For more information visit the Get Help4."
-  },
-  {
-    "objectID": "course-syllabus.html#discrimination-sexual-harassment",
-    "href": "course-syllabus.html#discrimination-sexual-harassment",
-    "title": "Syllabus",
-    "section": "Discrimination & Sexual Harassment",
-    "text": "Discrimination & Sexual Harassment\nNorthwestern University’s policies on Discrimination, Harassment, and Sexual Harassment apply to all members of the University community, including students, staff, and faculty. Any student, staff, or faculty member who believes that they have been discriminated against or harassed on the basis of his or her race, color, religion, national origin, sex, sexual orientation, gender identity, gender expression, parental status, marital status, age, disability, citizenship, veteran status, genetic information or any other classification protected by law, should contact the Office of Equal Opportunity and Access5 or the Sexual Harassment Prevention Office6.\nAdditional information about the University’s discrimination and harassment policies, including the campus resources available to assist individuals with discrimination or harassment concerns, is available online on the Human Resources Equal Opportunity and Access website7.\nNorthwestern strictly prohibits retaliation against any member of its community for reporting or inquiring about wrongful or unlawful activity. For more details see https://policies.northwestern.edu/docs/non-retaliation-policy-FINAL.pdf."
-  },
-  {
-    "objectID": "course-syllabus.html#wellness-mental-health-resources",
-    "href": "course-syllabus.html#wellness-mental-health-resources",
-    "title": "Syllabus",
-    "section": "Wellness & Mental Health Resources",
-    "text": "Wellness & Mental Health Resources\nNorthwestern University is committed to supporting the wellness of our students. Student Affairs has multiple resources to support student wellness and mental health. If you are feeling distressed or overwhelmed, please reach out for help. Students can access confidential resources through the Counseling and Psychological Services (CAPS), Religious and Spiritual Life (RSL) and the Center for Awareness, Response and Education (CARE). Additional information on all of the resources mentioned above can be found here:\n\nhttps://www.northwestern.edu/counseling/\nhttps://www.northwestern.edu/religious-life/\nhttps://www.northwestern.edu/care/"
-  },
-  {
-    "objectID": "course-syllabus.html#student-resources",
-    "href": "course-syllabus.html#student-resources",
-    "title": "Syllabus",
-    "section": "Student Resources",
-    "text": "Student Resources\n with FGLI students – pronounced figly – who are first-generation, lower-income, and/or DACA/Undocumented. SES works with these students to foster identity development, navigate campus resources, and build community. Through campus-wide partnerships and advocacy, SES strives to build an inclusive Northwestern community that is welcoming, supportive, and accessible for all students. SES can connect you to a number of resources (emergency aid assistance, books, supplies, laptops, food accessibility and much more!) both within the SES office and across campus. For more information please visit https://www.northwestern.edu/enrichment."
-  },
-  {
-    "objectID": "index.html#class-fri-sep-23",
-    "href": "index.html#class-fri-sep-23",
-    "title": "Today’s Agenda",
-    "section": "Class: Fri Sep 23",
-    "text": "Class: Fri Sep 23"
-  },
-  {
-    "objectID": "index.html#homework-due-sun-sep-25-1159pm",
-    "href": "index.html#homework-due-sun-sep-25-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Sun Sep 25 11:59pm",
-    "text": "Homework Due Sun Sep 25 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_01\n\n     Read Sections 2.0 - 2.3\n\n    Complete and submit  RC_02"
-  },
-  {
-    "objectID": "index.html#class-mon-sep-26",
-    "href": "index.html#class-mon-sep-26",
-    "title": "Today’s Agenda",
-    "section": "Class: Mon Sep 26",
-    "text": "Class: Mon Sep 26"
-  },
-  {
-    "objectID": "index.html#homework-due-tue-sep-27-1159pm",
-    "href": "index.html#homework-due-tue-sep-27-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Tue Sep 27 11:59pm",
-    "text": "Homework Due Tue Sep 27 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_02\n\n     Read Sections 2.4 - 2.6\n\n    Complete and submit  RC_03"
-  },
-  {
-    "objectID": "course-ec.html",
-    "href": "course-ec.html",
-    "title": "Course Extra Credit Opportunities",
-    "section": "",
-    "text": "At the end of each Chapter of the textbook we are writing practice Exercises, however the Exercises do not have solutions yet. If you complete the Exercises at the end of a Chapter and submit your solutions (in a .qmd document) to Canvas by the due date you will receive 2 points toward the Activity section of your grade per Chapter. The due dates are set so that I can post the odd problem solutions in the textbook before the Exam for everyone.\nAdvanced sections now optional (Ch 5 and after)\n\n\n\nChapter Exercise Solutions\nDue Date\n\n\n\n\nChapter 1 Solutions\nSunday, October 2nd\n\n\nChapter 2 Solutions\nThursday, October 6th\n\n\nChapter 3 Solutions\nSaturday, October 8th\n\n\nNO Ch 4 Exercises\n\n\n\nChapter 5 Solutions\nSunday, October 23rd\n\n\nChapter 6 Solutions\nSunday, October 23rd"
-  },
-  {
-    "objectID": "course-ec.html#ec-opportunity-2",
-    "href": "course-ec.html#ec-opportunity-2",
-    "title": "Course Extra Credit Opportunities",
-    "section": "EC Opportunity 2",
-    "text": "EC Opportunity 2\nCampuswire Bonus!\nWe use Campuswire (see syllabus or welcome page for enrollment code) as our preferred platform for announcements and questions about activities, reading checks, or general course-related questions. (Questions about individual grades or appointments should be addressed through email.)\nThe Campuswire system is designed to get you help quickly and efficiently from your classmates and the instructional team. Rather than emailing your questions to the instructional team, you should post your questions on Campuswire. If a member of the team receives a course-related question via email, they will ask that you post on Campuswire. You can post questions anonymously.\nThe instructional team will check Campuswire periodically to answer students’ questions (do not expect this on weekends or after 5 PM on weekdays). However, we strongly encourage students to answer each other’s questions. Students who participate actively on Campuswire will receive bonus final exam points at the end of the quarter.\nWe measure student participation using the built-in Campuswire reputation system, which awards reputation points based on questions asked, answers given, and upvotes. The levels are as follows:\nStudents gaining Lvl 1: Starter status by the end of the course will have earned 1 bonus final project point;\nStudents gaining Lvl 2: Intermediate status by the end of the course will have earned 2 bonus final project points;\nStudents gaining Lvl 3: Advanced status by the end of the course will have earned 3 bonus final project points.\nNote that the highest level requires upvotes. It benefits all students to upvote their peers for responses that they find useful.\nIn addition, Campuswire provides a list of the top contributors in the class. At the end of the course, the top 3 contributors will have the bonus final project points they earned doubled.\nThis means that a student who is among the top 3 and has the rank of Lvl 3 (Advanced) will receive 6 bonus final project points. If they are top 3 and have a rank of Lvl 2 (Intermediate) they will receive 4 bonus final project points.\nDISCLAIMER\nStudents attempting or participating in an attempt to game the system will be ineligible for bonus points."
-  },
-  {
-    "objectID": "course-ec.html#ec-opportunity-2---campuswire",
-    "href": "course-ec.html#ec-opportunity-2---campuswire",
-    "title": "Course Extra Credit Opportunities",
-    "section": "EC Opportunity 2 - Campuswire",
-    "text": "EC Opportunity 2 - Campuswire\nWe use Campuswire (see syllabus or welcome page for enrollment code) as our preferred platform for announcements and questions about activities, reading checks, or general course-related questions. (Questions about individual grades or appointments should be addressed through email.)\nThe Campuswire system is designed to get you help quickly and efficiently from your classmates and the instructional team. Rather than emailing your questions to the instructional team, you should post your questions on Campuswire. If a member of the team receives a course-related question via email, they will ask that you post on Campuswire. You can post questions anonymously.\nThe instructional team will check Campuswire periodically to answer students’ questions (do not expect this on weekends or after 5 PM on weekdays). However, we strongly encourage students to answer each other’s questions. Students who participate actively on Campuswire will receive bonus final exam points at the end of the quarter.\nWe measure student participation using the built-in Campuswire reputation system, which awards reputation points based on questions asked, answers given, and upvotes. The levels are as follows:\nStudents gaining Lvl 1: Starter status by the end of the course will have earned 1 bonus final project point;\nStudents gaining Lvl 2: Intermediate status by the end of the course will have earned 2 bonus final project points;\nStudents gaining Lvl 3: Advanced status by the end of the course will have earned 3 bonus final project points.\nNote that the highest level requires upvotes. It benefits all students to upvote their peers for responses that they find useful.\nIn addition, Campuswire provides a list of the top contributors in the class. At the end of the course, the top 3 contributors will have the bonus final project points they earned doubled.\nThis means that a student who is among the top 3 and has the rank of Lvl 3 (Advanced) will receive 6 bonus final project points. If they are top 3 and have a rank of Lvl 2 (Intermediate) they will receive 4 bonus final project points.\nDISCLAIMER\nStudents attempting or participating in an attempt to game the system will be ineligible for bonus points."
-  },
-  {
-    "objectID": "course-solutions.html",
-    "href": "course-solutions.html",
-    "title": "Activity Solutions",
-    "section": "",
-    "text": "Solution - textbook exercises\nSolution - Activity 01\nSolution - Activity 02\nSolution - Activity 03\nSolution - Activity 04\nSolution - Activity 05\nSolution - Activity 06\nSolution - Activity 07"
-  },
-  {
-    "objectID": "index.html#class-wed-sep-28",
-    "href": "index.html#class-wed-sep-28",
-    "title": "Today’s Agenda",
-    "section": "Class: Wed Sep 28",
-    "text": "Class: Wed Sep 28"
-  },
-  {
-    "objectID": "index.html#homework-due-thu-sep-29-1159pm",
-    "href": "index.html#homework-due-thu-sep-29-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Thu Sep 29 11:59pm",
-    "text": "Homework Due Thu Sep 29 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_03\n\n     Read Sections 2.7 - 2.9\n\n    Complete and submit  RC_04"
-  },
-  {
-    "objectID": "index.html#class-fri-sep-30",
-    "href": "index.html#class-fri-sep-30",
-    "title": "Today’s Agenda",
-    "section": "Class: Fri Sep 30",
-    "text": "Class: Fri Sep 30"
-  },
-  {
-    "objectID": "index.html#homework-due-sun-oct-02-1159pm",
-    "href": "index.html#homework-due-sun-oct-02-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Sun Oct 02 11:59pm",
-    "text": "Homework Due Sun Oct 02 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_04\n\n     Read Sections 3.0 - 3.3\n\n    Complete and submit  RC_05"
-  },
-  {
-    "objectID": "course-anu.html",
-    "href": "course-anu.html",
-    "title": "Accessible NU",
-    "section": "",
-    "text": "This is the Statistics Building in the Basement Classroom. Our graduate TA, Kayla Schroader, will be proctoring the exam.\nThe exam will begin 30 minutes before the standard class time.\nExam 1:\n\nSection 20: Monday October 10 at 8:30am\nSection 21: Monday October 10 at 12:30pm\n\nIf you are not available at this time, please contact me ASAP."
-  },
-  {
-    "objectID": "course-project.html",
-    "href": "course-project.html",
-    "title": "Final Project",
-    "section": "",
-    "text": "The final project is to be completed in groups of 3-5. Why? 1) Group work and collaboration is a good life skill. 2) There is no possible way we can grade 200 projects by the time grades are due.\nThe final project is due on Sunday December 4th 11:59pm. Groups are expected to submit their project electronically to Canvas, similar to how you submit your work for daily activities. You will type your project directly into a qmd file and knit an html document to submit. Only ONE person from the group needs to submit the html document. Make sure everyone’s name is on the project.\nThe project should be in complete sentences within the context of your datset when appropriate. Students are expected to also show their work (i.e., include your R code). Your target audience is the grader and myself, we want to see your code and the output of your code."
-  },
-  {
-    "objectID": "course-project.html#choose-a-group",
-    "href": "course-project.html#choose-a-group",
-    "title": "Final Project",
-    "section": "Choose a Group",
-    "text": "Choose a Group\nYou must join your group on Canvas! Grades are linked to these groups - I will not hunt you down. To get a grade you must be in a group. On Canvas go to the People tab, and select Group to add yourself to a group.\nEveryone in your group must agree to be in your group. I should not be getting emails stating “Jane Doe is in my group and we don’t know who that is”. If you do not know anyone in the class, Groups 1 -5 are titled “Random Join”. Anyone can join them. You can communicate with your group through the Canvas group, make a group on Campuswire, or exchange email."
-  },
-  {
-    "objectID": "course-project.html#choose-a-dataset",
-    "href": "course-project.html#choose-a-dataset",
-    "title": "Final Project",
-    "section": "Choose a Dataset",
-    "text": "Choose a Dataset\nOption 1:\nYou may use a dataset that I provide. This dataset will be located in the RStudio Cloud Project.\n\nClass Survey Data: You cannot use any analysis that is an existing question on your exam. You may think of a similar question but it should not be identical. You must use the full dataset, the midterm and final remove certain columns and observations to reduce time computations. See the codebook for an explanation of the variables.\n\nOption 2:\nAs a group you can pick a dataset of interest to explore! This can be any dataset of your choice that meets the following criteria:\n\nAt least 100 observations\nAt least 10 variables\nThe variables should be a mix of both categorical and numeric\nAt least one variable that can be used as a reasonable response variable for regression\nYou may not use data that has previously been used in any Activity\nYou may not use any data that is a part of the ISDSdatasets, ggplot2, or palmerpenguins packages.\n\nWhere to find data?\n\nSocial Science Data Resources: A LibGuide maintained by Anne Zald from the Northwestern library; this page provides curated links to a number of data sources by subject.\nKaggle: Kaggle offers aggregated datasets, but it’s a community hub rather than a search engine. Kaggle launched in 2010 with a number of machine learning competitions, which subsequently solved problems for the likes of NASA and Ford. It has since evolved into a renowned open data platform, offering cloud-based collaboration for data scientists, as well as educational tools for teaching artificial intelligence and data analysis techniques… plus, of course, tons of great datasets covering almost any topic you can imagine.\nGoogle Dataset Search: Launched in 2018, Google Dataset Search is like Google’s standard search engine, but strictly for data. While it’s not the best tool if you prefer to browse, if you have a particular topic or keyword in mind, it won’t disappoint. Google Dataset Search aggregates data from external sources, providing a clear summary of what’s available, a description of the data, who it’s provided by, and when it was last updated. It’s an excellent place to start.\nU.S. Census Bureau: the U.S. Census Bureau publishes reams of demographic data at the state, city, and even zip code level. It is a fantastic data set for students interested in creating geographic data visualizations and can be accessed on the Census Bureau website. Alternatively, the data can be accessed via an API.\nData.gov: In 2015, the US Government made all its data publicly available. With over 200,000 datasets covering everything from climate change to crime, you can lose yourself in the database for hours. For a government website, it has some surprisingly user-friendly search functions, including the ability to drill down by geographical area, organization type, and file format. Search results are also clearly labeled at federal, state, county, and city levels. \nFiveThirtyEight: If you’re interested in data at all, you’ve almost certainly heard of FiveThirtyEight; it’s one of the best-established data journalism outlets in the world. They write interesting data-driven articles, like “Don’t blame a skills gap for lack of hiring in manufacturing” and “2016 NFL Predictions”. What you may not know is that FiveThirtyEight also makes the data sets used in its articles available online on Github and on its own data portal.\nFBI Crime Data Explorer: If you’re fascinated by crime, the FBI Crime Data Explorer is the one for you. It provides a broad collection of crime statistics from a variety of state organizations (universities and local law enforcement) and government (on a local, regional, and state-level). Pull data on hate crimes, officer assaults, homicides, and more. It also includes some helpful user guides to support data navigation.\nGapMinder: Compilation of data from sources including the World Health Organization and World Bank covering economic, medical and social statistics from around the world.\nBuzzFeed News: BuzzFeed makes the data sets, analysis, libraries, tools, and guides used in its articles available on Github.\nAwesome Public Datasets: This github hosts a library of awesome, public datasets! They are all sorted by category and link you straight to the hosting website.\nData is Plural: Jeremy Singer-Vine collects awesome data sets across multiple sources. If you’re interested in getting data sets straight to your inbox, you should consider signing up for his newsletter.\nSports Reference: “Our Primary Aim is to answer our users’ questions with the easiest-to-use, fastest, and most complete sports statistics anywhere. If we have some fun in the process, that’s good too.”\nRotowire Fantasy Football:“RotoWire is your premium fantasy sports resource. We pioneered real-time fantasy sports news and Player Notes back in 1997 when the Internet was just taking flight. We’ve stayed ahead of imitators with the most in-depth analysis, the fastest real-time news and the largest scope of coverage of any fantasy sports site or app.”\nThe World Bank: The World Bank is a global development organization that offers loans and advice to developing countries. The World Bank regularly funds programs in developing countries, then gathers data to monitor the success of these programs. You can browse world bank data sets directly. The data sets have many missing values (which is great for cleaning practice).\nThe World Health Organization: WHO’s Open Data repository is how WHO keeps track of health-specific statistics of its 194 Member States. The repository keeps the data systematically organized. It can be accessed as per different needs. For instance, whether it is mortality or burden of diseases, one can access data classified under 100 or more categories such as the Millennium Development Goals (child nutrition, child health, maternal and reproductive health, immunization, HIV/AIDS, tuberculosis, malaria, neglected diseases, water and sanitation), non communicable diseases and risk factors, epidemic-prone diseases, health systems, environmental health, violence and injuries, equity etc.\nUNICEF: If data about the lives of children around the world is of interest, UNICEF is the most credible source. The organization’s public data sets touch upon nutrition, immunization, and education, among others.\nUN Data: UN Data is a web-based data service for the global user community. It brings international statistical databases within easy reach of users through a single-entry point. Users can search and download a variety of statistical resources compiled by the United Nations (UN) statistical system and other international agencies. The numerous databases or tables collectively known as “datamarts” contain over 60 million data points and cover a wide range of statistical themes including agriculture, crime, communication, development assistance, education, energy, environment, finance, gender, health, labour market, manufacturing, national accounts, population and migration, science and technology, tourism, transport and trade.\nUniform Crime Reporting Data: The UCR Program collects statistics on violent crime (murder and non-negligent manslaughter, rape, robbery, and aggravated assault) and property crime (burglary, larceny-theft, and motor vehicle theft). By congressional mandate, arson was added as the eighth Part I offense in 1979. Arson statistics are not available for access on this site. By using the table-building tool, users can specify offenses, locality (city, county, state), and year(s).\nUS Food and Drug Administration: Drug approvals and databases, including therapeutic equivalence evaluations for approved multi-source prescription drug products.\nNational Center for Education Statistics: The primary federal entity for collecting and analyzing data related to education.\nNational Weather Service: Climate data, including past weather conditions and long-term averages, from specific observing stations around the United States.\nNational Oceanic and Atmospheric Administration: This covers geophysical, atmospheric, and oceanic data. They are currently the world’s largest provider of climate and weather information.\nFacebook Graph API: The Graph API is the primary way to get data into and out of the Facebook platform. It’s an HTTP-based API that apps can use to programmatically query data, post new stories, manage ads, upload photos, and perform a wide variety of other tasks.\nSpotify API: Discover the millions of tracks, artists, or albums on Spotify in the user’s local market or a specific Spotify market.\nInside Airbnb: Inside Airbnb offers different data sets related to Airbnb listings in dozens of cities around the world.\nYelp Open Dataset: Yelp maintains a free dataset for use in personal, educational, and academic purposes. It includes 6 million reviews spanning 189,000 businesses in 10 metropolitan areas.\nLOL Riot Developer Portal: “With this site we hope to provide the League of Legends developer community with access to game data in a secure and reliable way. This is just part of our ongoing effort to respond to players’ and developers’ requests for data and to arm the community with more ways to contribute to the player experience.”\nTwitter API: Twitter has a good streaming API, and makes it relatively straightforward to filter and stream tweets. You can get started here. There are tons of options here — you could figure out what states are the happiest, or which countries use the most complex language. If you’d like some help getting started working with this Twitter API, check out the tutorial here."
-  },
-  {
-    "objectID": "course-project.html#project-outline",
-    "href": "course-project.html#project-outline",
-    "title": "Final Project",
-    "section": "Project outline",
-    "text": "Project outline\nThis will be updated later."
-  },
-  {
-    "objectID": "index.html#class-mon-oct-03",
-    "href": "index.html#class-mon-oct-03",
-    "title": "Today’s Agenda",
-    "section": "Class: Mon Oct 03",
-    "text": "Class: Mon Oct 03"
-  },
-  {
-    "objectID": "index.html#homework-due-tue-oct-04-1159pm",
-    "href": "index.html#homework-due-tue-oct-04-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Tue Oct 04 11:59pm",
-    "text": "Homework Due Tue Oct 04 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_05\n\n     Read Sections 3.4 - 3.9\n\n    Complete and submit  RC_06"
-  },
-  {
-    "objectID": "slides/lec08.html#correlation-coefficient-ex1",
-    "href": "slides/lec08.html#correlation-coefficient-ex1",
-    "title": "Regression  Chapter 5.0 - 5.1",
-    "section": "Correlation Coefficient (Ex1)",
-    "text": "Correlation Coefficient (Ex1)\n\n\n\n Correlation coefficient: a number between -1 and 1 indicating the strength of the linear relationship between two numerical variables.\nMatch the following graphs with the most appropriate correlation coefficient: \n\n\n    a) -0.2     b) 0     c) 0.4     d) 0.7"
-  },
-  {
-    "objectID": "slides/lec08.html#correlation-coefficient-ex2",
-    "href": "slides/lec08.html#correlation-coefficient-ex2",
-    "title": "Regression  Chapter 5.0 - 5.1",
-    "section": "Correlation Coefficient (Ex2)",
-    "text": "Correlation Coefficient (Ex2)\n\n\n\n Match the following graph with the most appropriate correlation coefficient: \n\n    a) -1     b) -0.75     c) -0.9     d) 1"
-  },
-  {
-    "objectID": "slides/lec08.html#correlation-coefficient-ex3",
-    "href": "slides/lec08.html#correlation-coefficient-ex3",
-    "title": "Regression  Chapter 5.0 - 5.1",
-    "section": "Correlation Coefficient (Ex3)",
-    "text": "Correlation Coefficient (Ex3)\n\n\n\n Match the following graph with the most appropriate correlation coefficient: \n\nDistance traveled vs the amount of gas in the car.\na . Exactly -1\nb . Between -1 and 0\nc . About 0\nd . Between 0 and 1\ne . Exactly 1"
-  },
-  {
-    "objectID": "index.html#class-wed-oct-05",
-    "href": "index.html#class-wed-oct-05",
-    "title": "Today’s Agenda",
-    "section": "Class: Wed Oct 05",
-    "text": "Class: Wed Oct 05"
-  },
-  {
-    "objectID": "index.html#homework-due-thu-oct-06-1159pm",
-    "href": "index.html#homework-due-thu-oct-06-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Thu Oct 06 11:59pm",
-    "text": "Homework Due Thu Oct 06 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_06\n\n     Read Chapter 4\n\n    Complete and submit  RC_07"
-  },
-  {
-    "objectID": "slides/lec09.html#indicator-function-1",
-    "href": "slides/lec09.html#indicator-function-1",
-    "title": "Regression  Chapter 5.2 - 5.4",
-    "section": "Indicator function",
-    "text": "Indicator function\nRecall our model:\n\\[\\widehat{bodymass} = b_0 + b_1*\\mathbb{1}_{chinstrap}(x)+ b_2*\\mathbb{1}_{gentoo}(x)\\]\nConsider 3 randomly sampled Penguins below.\n\n\n# A tibble: 3 x 7\n  species island    bill_length_mm bill_depth_mm flipper_length_mm body_~1 sex  \n  <fct>   <fct>              <dbl>         <dbl>             <int>   <int> <fct>\n1 Gentoo  Biscoe              41.7          14.7               210    4700 fema~\n2 Adelie  Torgersen           45.8          18.9               197    4150 male \n3 Gentoo  Biscoe              45.1          14.4               210    4400 fema~\n# ... with abbreviated variable name 1: body_mass_g\n\n\n\nWhen using the model equation which of the above penguins would you set \\(\\mathbb{1}_{gentoo}(x) = 1?\\) What about \\(\\mathbb{1}_{chinstrap}(x) = 1?\\)"
-  },
-  {
-    "objectID": "index.html#class-fri-oct-07",
-    "href": "index.html#class-fri-oct-07",
-    "title": "Today’s Agenda",
-    "section": "Class: Fri Oct 07",
-    "text": "Class: Fri Oct 07\n\n\n\n\n\n\n  \n  \n  \n    Study for Exam 1"
-  },
-  {
-    "objectID": "index.html#homework-due-sun-oct-09-1159pm",
-    "href": "index.html#homework-due-sun-oct-09-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Sun Oct 09 11:59pm",
-    "text": "Homework Due Sun Oct 09 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_07\n\n     Read\n\n    Complete and submit"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Today’s Agenda",
-    "section": "",
-    "text": "Important\n\n\n\n9am Class Only: We are on zoom for 10/14 https://northwestern.zoom.us/j/99863923813"
-  },
-  {
-    "objectID": "index.html#class-mon-oct-10",
-    "href": "index.html#class-mon-oct-10",
-    "title": "Today’s Agenda",
-    "section": "Class: Mon Oct 10",
-    "text": "Class: Mon Oct 10"
-  },
-  {
-    "objectID": "index.html#homework-due-tue-oct-11-1159pm",
-    "href": "index.html#homework-due-tue-oct-11-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Tue Oct 11 11:59pm",
-    "text": "Homework Due Tue Oct 11 11:59pm\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 5.0 - 5.1"
-  },
-  {
-    "objectID": "index.html#class-wed-oct-12",
-    "href": "index.html#class-wed-oct-12",
-    "title": "Today’s Agenda",
-    "section": "Class: Wed Oct 12",
-    "text": "Class: Wed Oct 12"
-  },
-  {
-    "objectID": "index.html#homework-due-thu-oct-13-1159pm",
-    "href": "index.html#homework-due-thu-oct-13-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Thu Oct 13 11:59pm",
-    "text": "Homework Due Thu Oct 13 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_08\n\n     Read Sections 5.2 - 5.4\n\n    Complete and submit  RC_08"
-  },
-  {
-    "objectID": "index.html#class-fri-oct-14",
-    "href": "index.html#class-fri-oct-14",
-    "title": "Today’s Agenda",
-    "section": "Class: Fri Oct 14",
-    "text": "Class: Fri Oct 14"
-  },
-  {
-    "objectID": "index.html#homework-due-sun-oct-16-1159pm",
-    "href": "index.html#homework-due-sun-oct-16-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Sun Oct 16 11:59pm",
-    "text": "Homework Due Sun Oct 16 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_09\n\n     Read Sections 6.0 - 6.1\n\n    Complete and submit  RC_09"
-  },
-  {
-    "objectID": "slides/lec10.html#example-prediction",
-    "href": "slides/lec10.html#example-prediction",
-    "title": "Multiple Regression  Chapter 6.0 - 6.1",
-    "section": "Example: prediction",
-    "text": "Example: prediction\n\n\n\n\\[\\widehat{bodymass} = -5736.9 + 48.14*\\text{flipper} + 6.05*\\text{bill_length}\\]\n\nYou recently got a penguin and measured their flipper_length to be 150mm and their bill_length to be 40mm. What do you expect their body mass to be?"
-  },
-  {
-    "objectID": "slides/lec11.html#model-1",
-    "href": "slides/lec11.html#model-1",
-    "title": "Multiple Regression  Chapter 6.2 - 6.4",
-    "section": "Model 1",
-    "text": "Model 1\nFirst, let’s assume that sex has no impact on the rate of change between flipper_length and body_mass.\n\n“Same slopes model”Data\n\n\n\nmodel_parallel <- lm(body_mass_g ~ flipper_length_mm + sex, data=penguins)\n\nsummary(model_parallel)\n\n\nCall:\nlm(formula = body_mass_g ~ flipper_length_mm + sex, data = penguins)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-910.28 -243.89   -2.94  238.85 1067.73 \n\nCoefficients:\n                   Estimate Std. Error t value Pr(>|t|)    \n(Intercept)       -5410.300    285.798 -18.931  < 2e-16 ***\nflipper_length_mm    46.982      1.441  32.598  < 2e-16 ***\nsexmale             347.850     40.342   8.623 2.78e-16 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 355.9 on 330 degrees of freedom\n  (11 observations deleted due to missingness)\nMultiple R-squared:  0.8058,    Adjusted R-squared:  0.8047 \nF-statistic: 684.8 on 2 and 330 DF,  p-value: < 2.2e-16\n\n\n\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~\n$ sex               <fct> male, female, female, NA, female, male, female, male~\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~"
-  },
-  {
-    "objectID": "slides/lec11.html#model-2",
-    "href": "slides/lec11.html#model-2",
-    "title": "Multiple Regression  Chapter 6.2 - 6.4",
-    "section": "Model 2",
-    "text": "Model 2\nNow, let’s assume that the rate of change between flipper_length and body_mass varies based on sex.\n\n“Interaction Model”Alternate code\n\n\n\nmodel_interaction <- lm(body_mass_g ~ flipper_length_mm + sex +flipper_length_mm*sex, data=penguins)\n\nsummary(model_interaction)\n\n\nCall:\nlm(formula = body_mass_g ~ flipper_length_mm + sex + flipper_length_mm * \n    sex, data = penguins)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-909.36 -246.58   -3.13  237.18 1065.19 \n\nCoefficients:\n                            Estimate Std. Error t value Pr(>|t|)    \n(Intercept)               -5443.9607   440.2829 -12.365   <2e-16 ***\nflipper_length_mm            47.1527     2.2264  21.179   <2e-16 ***\nsexmale                     406.8015   587.3029   0.693    0.489    \nflipper_length_mm:sexmale    -0.2942     2.9242  -0.101    0.920    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 356.4 on 329 degrees of freedom\n  (11 observations deleted due to missingness)\nMultiple R-squared:  0.8058,    Adjusted R-squared:  0.8041 \nF-statistic: 455.2 on 3 and 329 DF,  p-value: < 2.2e-16\n\n\n\n\n\nmodel_interaction <- lm(body_mass_g ~ flipper_length_mm*sex, data=penguins)\n\nsummary(model_interaction)\n\n\nCall:\nlm(formula = body_mass_g ~ flipper_length_mm * sex, data = penguins)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-909.36 -246.58   -3.13  237.18 1065.19 \n\nCoefficients:\n                            Estimate Std. Error t value Pr(>|t|)    \n(Intercept)               -5443.9607   440.2829 -12.365   <2e-16 ***\nflipper_length_mm            47.1527     2.2264  21.179   <2e-16 ***\nsexmale                     406.8015   587.3029   0.693    0.489    \nflipper_length_mm:sexmale    -0.2942     2.9242  -0.101    0.920    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 356.4 on 329 degrees of freedom\n  (11 observations deleted due to missingness)\nMultiple R-squared:  0.8058,    Adjusted R-squared:  0.8041 \nF-statistic: 455.2 on 3 and 329 DF,  p-value: < 2.2e-16"
   },
   {
     "objectID": "slides/lec11.html#interaction-model-output-2",
@@ -1393,20 +1036,6 @@
     "text": "Interaction Model Output\nYou can think of each ‘level’ having a different line (equation).\n\n\nEquation of the line for female penguins: \\[\\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*0 - 0.29*flipper*0\\] \\[\\widehat{bodymass} = -5443.96 + 47.15*flipper\\] \n\n\nEquation of the line for male penguins: \\[\\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*1 - 0.29*flipper*1\\] \\[\\widehat{bodymass} = -5037.16 + 46.86*flipper\\]"
   },
   {
-    "objectID": "index.html#class-mon-oct-17",
-    "href": "index.html#class-mon-oct-17",
-    "title": "Today’s Agenda",
-    "section": "Class: Mon Oct 17",
-    "text": "Class: Mon Oct 17"
-  },
-  {
-    "objectID": "index.html#homework-due-tue-oct-18-1159pm",
-    "href": "index.html#homework-due-tue-oct-18-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Tue Oct 18 11:59pm",
-    "text": "Homework Due Tue Oct 18 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_10\n\n     Read Sections 6.2 - 6.4\n\n    Complete and submit  RC_10"
-  },
-  {
     "objectID": "slides/lec12.html#key-definitions",
     "href": "slides/lec12.html#key-definitions",
     "title": "Randomization and Causality  Chapter 7",
@@ -1432,6 +1061,125 @@
     "href": "slides/lec12.html#using-randomization-in-r",
     "title": "Randomization and Causality  Chapter 7",
     "section": "Using randomization in R",
-    "text": "Using randomization in R\nBernoulli trial = randomized experiment with exactly two outcomes.\n\nIn R: rbernoulli(n = ____, p = ____)\n\n\nIt can be framed as a “yes or no” (success or failure) question.\n\n\nExamples:\n\nWhether or not flipping a coin results in heads\nWhether or not you roll a 1 when rolling a die"
+    "text": "Using randomization in R\nBernoulli trial = randomized experiment with exactly two outcomes.\n\nIn R: rbernoulli(n = ____, p = ____)\n\n\nIt can be framed as a “yes or no” (success or failure) question.\n\n\nExamples:\n\nWhether or not flipping a coin results in heads\n\n\n\n\nWhether or not you roll a 1 when rolling a die"
+  },
+  {
+    "objectID": "slides/lec13.html#overview",
+    "href": "slides/lec13.html#overview",
+    "title": "Populations and Generalizability  Chapter 8",
+    "section": "Overview",
+    "text": "Overview\nDefinitions:\n\nPopulation: collection of individuals (units) in which we are interested\nSample: collection of individuals (units) from the population\n\nGoal: Use trends in a sample to make inference about a population."
+  },
+  {
+    "objectID": "slides/lec13.html#notation",
+    "href": "slides/lec13.html#notation",
+    "title": "Populations and Generalizability  Chapter 8",
+    "section": "Notation",
+    "text": "Notation\n \n\n\n\n\n\n\n\n\n\n\n\nSize\nProportion\nMean\nStandard Deviation\n\n\n\n\nPopulation\nN\n\\(\\pi\\)\n\\(\\mu\\)\n\\(\\sigma\\)\n\n\nSample\nn\n\\(p\\) or \\(\\hat{p}\\)\n\\(\\bar{x}\\)\n\\(s\\)"
+  },
+  {
+    "objectID": "slides/lec13.html#example-1",
+    "href": "slides/lec13.html#example-1",
+    "title": "Populations and Generalizability  Chapter 8",
+    "section": "Example 1",
+    "text": "Example 1\nIn a survey of 1,500 parents in the United States, 73% said they wanted to resume in person school for their children for 2021.\n\nPopulation: parents in the US\nSample: 1,500 parents surveyed\n73% is a sample statistic"
+  },
+  {
+    "objectID": "slides/lec13.html#random-sampling-and-assignment",
+    "href": "slides/lec13.html#random-sampling-and-assignment",
+    "title": "Populations and Generalizability  Chapter 8",
+    "section": "Random Sampling and Assignment",
+    "text": "Random Sampling and Assignment\nRandom Sampling: how you draw the observations from the population\n\nallows for generalizable claims\n\nRandom Assignment: how you assign the sample into treatment/control groups\n\nallows for causal claims."
+  },
+  {
+    "objectID": "slides/lec13.html#example-2",
+    "href": "slides/lec13.html#example-2",
+    "title": "Populations and Generalizability  Chapter 8",
+    "section": "Example 2",
+    "text": "Example 2\nYou want to evaluate the effectiveness of the Pfizer vaccine on COVID. You ask for 1,000 volunteers and randomly give half of the volunteers the vaccine and the other half a placebo dose. These people get tested for COVID every week for a year and we record who tests positive for COVID during this time and their symptoms.\n\nRandom assignment\nNo random sampling\n\nConclusions we can draw: causal conclusion only applicable to the sample"
+  },
+  {
+    "objectID": "slides/lec13.html#types-of-random-sampling",
+    "href": "slides/lec13.html#types-of-random-sampling",
+    "title": "Populations and Generalizability  Chapter 8",
+    "section": "Types of random sampling",
+    "text": "Types of random sampling\n\nSimple Random: observations are selected randomly from the population, each having an equal chance of being selected.\nCluster Sampling: first the population is divided into sub-groups, and then x sub-groups out of all groups are randomly selected (heterogeneous groups; mini representation of the population)."
+  },
+  {
+    "objectID": "slides/lec13.html#types-of-random-sampling-continued",
+    "href": "slides/lec13.html#types-of-random-sampling-continued",
+    "title": "Populations and Generalizability  Chapter 8",
+    "section": "Types of random sampling continued",
+    "text": "Types of random sampling continued\n\nStratified Sampling: first the population is divided into sub-groups, and then within each sub-group x observations are randomly selected (homogeneous groups).\nSystematic Sampling: select some starting point, then every \\(k^{th}\\) observation of the population is selected."
+  },
+  {
+    "objectID": "slides/lec13.html#example-3",
+    "href": "slides/lec13.html#example-3",
+    "title": "Populations and Generalizability  Chapter 8",
+    "section": "Example 3",
+    "text": "Example 3\nNorthwestern University is deciding which undergraduate students to test for COVID this week and due to limited resources we cannot test the entire undergraduate student body at once.\n\nPopulation of interest: undergraduate students at NU\nStratified Sampling Example: The university divides the population into 4 groups {1st year, sophomore, junior, seniors} and randomly selects 200 students from each group to test."
+  },
+  {
+    "objectID": "slides/lec13.html#example-3-continued",
+    "href": "slides/lec13.html#example-3-continued",
+    "title": "Populations and Generalizability  Chapter 8",
+    "section": "Example 3 continued",
+    "text": "Example 3 continued\nNorthwestern University is deciding which undergraduate students to test for COVID this week and due to limited resources we cannot test the entire undergraduate student body at once.\n\nSystematic Sampling Example: The university alphabetizes the population by last name and selects every \\(25^{th}\\) student to get tested."
+  },
+  {
+    "objectID": "slides/lec14.html#the-standard-normal-distribution",
+    "href": "slides/lec14.html#the-standard-normal-distribution",
+    "title": "Distributions  Section 9.1",
+    "section": "The Standard Normal Distribution",
+    "text": "The Standard Normal Distribution"
+  },
+  {
+    "objectID": "slides/lec14.html#standard-normal-distribution-properties",
+    "href": "slides/lec14.html#standard-normal-distribution-properties",
+    "title": "Distributions  Section 9.1",
+    "section": "Standard Normal Distribution Properties",
+    "text": "Standard Normal Distribution Properties\n\nThe area under the curve is 1 (or 100%)\nThe mean of the distribution is 0\nThe standard deviation of the distribution is 1\n\n \nNote: Can use the normal distribution in R or at https://homepage.divms.uiowa.edu/~mbognar/applets/normal.html"
+  },
+  {
+    "objectID": "slides/lec14.html#empirical-rule",
+    "href": "slides/lec14.html#empirical-rule",
+    "title": "Distributions  Section 9.1",
+    "section": "Empirical Rule",
+    "text": "Empirical Rule\n\nAround 68% of values are within one standard deviation from the mean.\nAround 95% of values are within two standard deviations from the mean.\nAround 99.7% of values are within three standard deviations from the mean."
+  },
+  {
+    "objectID": "slides/lec14.html#empirical-rule-continued",
+    "href": "slides/lec14.html#empirical-rule-continued",
+    "title": "Distributions  Section 9.1",
+    "section": "Empirical Rule continued",
+    "text": "Empirical Rule continued\n\nWhy is this useful? If we know the mean and standard deviation of a variable that follows the normal distribution, we can calculate the probability of an event occurring.\nHow is this applicable? We can transform any normally distributed variable into a standard normal distribution with standardization.\n\n\\[\\hbox{STAT} = \\frac{X - mean(X)}{sd(X)}\\]"
+  },
+  {
+    "objectID": "slides/lec14.html#the-normal-distribution",
+    "href": "slides/lec14.html#the-normal-distribution",
+    "title": "Distributions  Section 9.1",
+    "section": "The Normal Distribution",
+    "text": "The Normal Distribution\n\nChanging mu (the mean), changes where the center (peak) of the distribution is located.\nChanging sigma (the standard deviation), changes the spread of the distribution.\nThe shape of the distribution never changes. It is always unimodal and symmetric (no skew)."
+  },
+  {
+    "objectID": "slides/lec14.html#the-t-distribution",
+    "href": "slides/lec14.html#the-t-distribution",
+    "title": "Distributions  Section 9.1",
+    "section": "The T-Distribution",
+    "text": "The T-Distribution\nThe t-distribution is similar in shape to a normal distribution."
+  },
+  {
+    "objectID": "slides/lec14.html#the-t-distribution-continued",
+    "href": "slides/lec14.html#the-t-distribution-continued",
+    "title": "Distributions  Section 9.1",
+    "section": "The T-Distribution continued",
+    "text": "The T-Distribution continued\n\nCompletely characterized by it’s degrees of freedom (df). A parameter defined based on the sample size \\(n\\).\nAs we make the degrees of freedom (\\(df\\)) larger the t-distribution is getting closer to the standard normal distribution.\nThe normal distribution assumes that you know the population standard deviation, \\(\\sigma\\). The t-distribution is used if you only know the sample standard deviation, \\(s\\) (ie: \\(\\sigma\\) unknown)."
+  },
+  {
+    "objectID": "slides/lec14.html#the-t-distribution-in-r",
+    "href": "slides/lec14.html#the-t-distribution-in-r",
+    "title": "Distributions  Section 9.1",
+    "section": "The T-Distribution in R",
+    "text": "The T-Distribution in R\n \n\npt(q = -1, df = 9)\nqt(p = .025, df = 9)\nqt(p = .025, df = 9, lower.tail=FALSE)"
   }
 ]
