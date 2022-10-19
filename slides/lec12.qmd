@@ -22,7 +22,7 @@ execute:
 
 ## Key Definitions
 
-:::{.incremental}
+::: incremental
 -   **Observational study**: can show the correlation between two variables but difficult to show causation. This is because there could be a confounding variable causing both to happen (e.g. voluntary assignment).
 
 -   **Randomized experiment** (Gold Standard): avoids the issues with confounding variables by comparing two groups (treatment and control) that look on **average** the same.
@@ -45,7 +45,7 @@ Experiment:
 
 We randomly divide a population into the treatment and control groups and compare the number of drownings between groups.
 
-:::{.incremental}
+::: incremental
 -   Type of experiment: randomized experiment
 -   Types of conclusions can we make: causal conclusions
 :::
@@ -54,11 +54,10 @@ We randomly divide a population into the treatment and control groups and compar
 
 We have survey data of the number of monthly ice cream sales and number of monthly drownings and calculate a correlation of 0.85.
 
-:::{.incremental}
+::: incremental
 -   Type of experiment: observational study
 -   Types of conclusions can we make: correlation only conclusions (possible confounding variables)
 :::
-
 :::
 
 ## Key Ideas
@@ -75,7 +74,7 @@ Bernoulli trial = randomized experiment with exactly two outcomes.
 
 -   In R: `rbernoulli(n = ____, p = ____)`
 
-. . . 
+. . .
 
 It can be framed as a "yes or no" (success or failure) question.
 
