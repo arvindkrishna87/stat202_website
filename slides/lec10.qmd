@@ -101,12 +101,12 @@ $$\widehat{bodymass} = b_0 +b_1*\text{flipper} + b_2*\text{bill_length}$$
 
 ## Example: interpretations
 
-$$\widehat{bodymass} = -5736.9 + 48.14*\text{flipper} + 6.05*\text{bill_length}$$ 
+$$\widehat{bodymass} = -5736.9 + 48.14*\text{flipper} + 6.05*\text{bill_length}$$
 
-:::{.incremental} 
-- $b_0$ intercept; the **predicted/expected** body mass when a penguin has flipper length 0 and bill length 0 
-- $b_1$ slope of flipper length; taking into account all other explanatory variables, for every 1 mm increase in flipper length, the **expected** body mass increases by $48.14$ 
-- $b_2$ slope of bill length; taking into account all other explanatory variables, for every 1 mm increase in bill length, the **expected** body mass increases by $6.05$ 
+::: incremental
+-   $b_0$ intercept; the **predicted/expected** body mass when a penguin has flipper length 0 and bill length 0
+-   $b_1$ slope of flipper length; taking into account all other explanatory variables, for every 1 mm increase in flipper length, the **expected** body mass increases by $48.14$
+-   $b_2$ slope of bill length; taking into account all other explanatory variables, for every 1 mm increase in bill length, the **expected** body mass increases by $6.05$
 :::
 
 ## Example: prediction

@@ -1068,42 +1068,42 @@
     "href": "slides/lec13.html#overview",
     "title": "Populations and Generalizability  Chapter 8",
     "section": "Overview",
-    "text": "Overview\nDefinitions:\n\nPopulation: collection of individuals (units) in which we are interested\nSample: collection of individuals (units) from the population\n\nGoal: Use trends in a sample to make inference about a population."
+    "text": "Overview\nDefinitions\n\n\nPopulation: collection of individuals (units) in which we are interested\nSample: collection of individuals (units) from the population\n\n\n\nGoal\nUse trends in a sample to make inference about a population."
   },
   {
     "objectID": "slides/lec13.html#notation",
     "href": "slides/lec13.html#notation",
     "title": "Populations and Generalizability  Chapter 8",
     "section": "Notation",
-    "text": "Notation\n \n\n\n\n\n\n\n\n\n\n\n\nSize\nProportion\nMean\nStandard Deviation\n\n\n\n\nPopulation\nN\n\\(\\pi\\)\n\\(\\mu\\)\n\\(\\sigma\\)\n\n\nSample\nn\n\\(p\\) or \\(\\hat{p}\\)\n\\(\\bar{x}\\)\n\\(s\\)"
+    "text": "Notation\n\n\n\n\n\n\n\n\n\n\n\n\nSize\nProportion\nMean\nStandard Deviation\n\n\n\n\nPopulation\nN\n\\(\\pi\\)\n\\(\\mu\\)\n\\(\\sigma\\)\n\n\nSample\nn\n\\(p\\) or \\(\\hat{\\pi}\\)\n\\(\\bar{x}\\)\n\\(s\\)"
   },
   {
     "objectID": "slides/lec13.html#example-1",
     "href": "slides/lec13.html#example-1",
     "title": "Populations and Generalizability  Chapter 8",
     "section": "Example 1",
-    "text": "Example 1\nIn a survey of 1,500 parents in the United States, 73% said they wanted to resume in person school for their children for 2021.\n\nPopulation: parents in the US\nSample: 1,500 parents surveyed\n73% is a sample statistic"
+    "text": "Example 1\nIn a survey of 1,500 parents in the United States, 73% said they wanted to resume in person school for their children for 2021.\n\nWhat is the population?\n\nparents in the US\n\nWhat is the sample?\n\n1,500 parents surveyed\n\nWhat “notation” is used to represent 73%\n\n\\(p\\) because 73% is a sample statistic and proportion"
   },
   {
     "objectID": "slides/lec13.html#random-sampling-and-assignment",
     "href": "slides/lec13.html#random-sampling-and-assignment",
     "title": "Populations and Generalizability  Chapter 8",
     "section": "Random Sampling and Assignment",
-    "text": "Random Sampling and Assignment\nRandom Sampling: how you draw the observations from the population\n\nallows for generalizable claims\n\nRandom Assignment: how you assign the sample into treatment/control groups\n\nallows for causal claims."
+    "text": "Random Sampling and Assignment\nRandom Sampling: how you draw the observations from the population\n\n\nallows for generalizable claims\n\n\n\nRandom Assignment: how you assign the sample into treatment/control groups\n\n\n\nallows for causal claims."
   },
   {
     "objectID": "slides/lec13.html#example-2",
     "href": "slides/lec13.html#example-2",
     "title": "Populations and Generalizability  Chapter 8",
     "section": "Example 2",
-    "text": "Example 2\nYou want to evaluate the effectiveness of the Pfizer vaccine on COVID. You ask for 1,000 volunteers and randomly give half of the volunteers the vaccine and the other half a placebo dose. These people get tested for COVID every week for a year and we record who tests positive for COVID during this time and their symptoms.\n\nRandom assignment\nNo random sampling\n\nConclusions we can draw: causal conclusion only applicable to the sample"
+    "text": "Example 2\n\n\n\nYou want to evaluate the effectiveness of the Pfizer vaccine on COVID. You ask for 1,000 volunteers and randomly give half of the volunteers the vaccine and the other half a placebo dose. These people get tested for COVID every week for a year and we record who tests positive for COVID during this time and their symptoms.\n\n\nWhat type of conclusions can we draw?\n\ncausal conclusions generalized to the whole population\ncausal conclusions only applicable to the sample\nno causal conclusions (correlation only) generalized to the whole population\nno causal conclusions (correlation only) only applicable to the sample"
   },
   {
     "objectID": "slides/lec13.html#types-of-random-sampling",
     "href": "slides/lec13.html#types-of-random-sampling",
     "title": "Populations and Generalizability  Chapter 8",
     "section": "Types of random sampling",
-    "text": "Types of random sampling\n\nSimple Random: observations are selected randomly from the population, each having an equal chance of being selected.\nCluster Sampling: first the population is divided into sub-groups, and then x sub-groups out of all groups are randomly selected (heterogeneous groups; mini representation of the population)."
+    "text": "Types of random sampling\n\n\nSimple Random: observations are selected randomly from the population, each having an equal chance of being selected.\nCluster Sampling: first the population is divided into sub-groups, and then x sub-groups out of all groups are randomly selected.\nStratified Sampling: first the population is divided into sub-groups, and then within each sub-group x observations are randomly selected.\nSystematic Sampling: select some starting point, then every \\(k^{th}\\) observation of the population is selected."
   },
   {
     "objectID": "slides/lec13.html#types-of-random-sampling-continued",
@@ -1117,7 +1117,7 @@
     "href": "slides/lec13.html#example-3",
     "title": "Populations and Generalizability  Chapter 8",
     "section": "Example 3",
-    "text": "Example 3\nNorthwestern University is deciding which undergraduate students to test for COVID this week and due to limited resources we cannot test the entire undergraduate student body at once.\n\nPopulation of interest: undergraduate students at NU\nStratified Sampling Example: The university divides the population into 4 groups {1st year, sophomore, junior, seniors} and randomly selects 200 students from each group to test."
+    "text": "Example 3\n\n\n\nNorthwestern University is deciding which undergraduate students to test for COVID this week and due to limited resources we cannot test the entire undergraduate student body at once.\n\nPopulation of interest: undergraduate students at NU\n\n\nScenario 1Scenario 2Scenario 3\n\n\nThe university divides the population into 4 groups {1st year, sophomore, junior, seniors} and randomly selects 200 students from each group to test.\nWhat type of sampling is this?\n\nsimple random\ncluster sampling\nstratified sampling\nsystematic sampling\nnone of the above\n\n\n\nThe university alphabetizes the population by last name and selects every \\(25^{th}\\) student to get tested.\nWhat type of sampling is this?\n\nsimple random\ncluster sampling\nstratified sampling\nsystematic sampling\nnone of the above\n\n\n\nThe university alphabetizes the population by last name and selects the first 200 students to get tested.\nWhat type of sampling is this?\n\nsimple random\ncluster sampling\nstratified sampling\nsystematic sampling\nnone of the above"
   },
   {
     "objectID": "slides/lec13.html#example-3-continued",
