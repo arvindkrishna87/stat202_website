@@ -10,7 +10,7 @@ execute:
 
 <!-- ::: callout-important -->
 
-<!-- 9am Class Only: We are on zoom for 10/ -->
+<!-- 9am Class Only: We are on zoom for 10 -->
 <!-- https://northwestern.zoom.us/j/99863923813 -->
 
 <!-- ::: -->
