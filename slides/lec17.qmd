@@ -1,0 +1,84 @@
+---
+title: "Confidence Intervals (10) Part 1"
+format: revealjs
+editor: visual
+---
+
+## Overview
+
+We will collect one sample, and use the theoretical properties of the sampling distribution (ie: the mean and standard error) to make inferences about the population!
+
+## Sampling Distribution Properties
+
+| Statistic           | Population parameter | Estimator             | SE of estimator                                 | Critical Value Distribution  |
+|---------------------|----------------------|-----------------------|-------------------------------------------------|------------------------------|
+| Mean                | $\mu$                | $\bar{x}$             | $\frac{s}{\sqrt{n} }$                           | t(df=n-1)                    |
+| Difference in means | $\mu_1-\mu_2$        | $\bar{x}_1-\bar{x}_2$ | $\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2} }$ | $t(df=$ min\[n_1-1, n_2-1\]) |
+| Proportion          | $\pi$                | $\hat{\pi}$           | $\sqrt{\frac{\hat{\pi}(1-\hat{\pi})}{n} }$      | N(0,1)                       |
+
+## Sampling Distribution Properties cont
+
+| Statistic                 | Population parameter | Estimator                 | SE of estimator                                                                           | Critical Value Distribution |
+|---------------------------|----------------------|---------------------------|-------------------------------------------------------------------------------------------|-----------------------------|
+| Difference in proportions | $\pi_1-\pi_2$        | $\hat{\pi_1}-\hat{\pi_2}$ | $\sqrt{\frac{\hat{\pi_1}(1-\hat{\pi_1})}{n_1} + \frac{\hat{\pi_2}(1-\hat{\pi_2})}{n_2} }$ | N(0,1)                      |
+| Regression intercept      | $\beta_0$            | $b_0$                     | $\sqrt{ s_y^2 [\frac{1}{n} + \frac{\bar{x}^2}{(n-1) s_x^2} ] }$                           | t(df=n-2)                   |
+| Regression slope          | $\beta_1$            | $b_1$                     | $\sqrt{\frac{s_y^2}{(n-1) s_x^2} }$                                                       | t(df=n-2)                   |
+
+## Special note
+
+If the population standard deviation is known, $\sigma$ (rare!) you use the normal distribution instead of the t-distribution. (ie: use $\sigma$ instead of $s$)
+
+## Standardization of a sampling distribution
+
+ 
+
+$$\hbox{STAT} = \frac{\hbox{Estimator} - Mean(\hbox{Estimator})}{SE(\hbox{Estimator})}$$
+
+ 
+
+This is the SAME formula as Chapter 9.1 only this time instead of population parameters we are using the sampling distribution parameters!!
+
+## Example
+
+ 
+
+**Example**: You are interested in the average GPA at NU. You randomly survey 100 students and calculate a sample mean of 3.15 and sample standard deviation of 0.2.
+
+-   **GOAL**: Calculate the Estimator and SE of Estimator for a single sample.
+
+-   **Given values**: $\bar{x} = 3.15$, $s = 0.2$
+
+-   **Calculated values**: $SE = \frac{0.2}{\sqrt{100}}=0.02$
+
+## Confidence Intervals
+
+-   A confidence interval (CI) gives a range of plausible values for a parameter. It allows us to combine an estimator with a measure of its precision (i.e. its standard error).
+
+$$\hbox{Estimator} \pm \hbox{Critical  Value} * SE(\hbox{Estimator})$$
+
+-   Sampling distribution properties are used to construct CIs for a population parameter.
+
+## Terminology
+
+Critical value vs STAT
+
+-   They both define a point on a standardized distribution.
+-   Critical value generally acts as a pre-defined threshold
+-   STAT (test statistic) is generally used for a value computed from sampling data.
+
+## Example continued
+
+We want to compute a 95% confidence interval for the example.
+
+-   By Hand: $$\hbox{Estimator} \pm \hbox{Critical  Value} * SE(\hbox{Estimator})$$ $$= 3.15 \pm 1.98*0.02 = [3.11, 3.19]$$
+
+-   In R: `qt(p = 0.025, df = 99)`
+
+## Example Interpretation
+
+-   We are 95% confident that the average GPA of all students at NU (my population) is between 3.11 and 3.19.
+
+**Incorrect Interpretations**:
+
+-   95% of all students GPA at NU is between 3.11 and 3.19.
+-   There is a 95% chance that the average GPA of all students at NU (my population) is between 3.11 and 3.19.

@@ -1,0 +1,95 @@
+---
+title: "P-value (11)"
+format: revealjs
+editor: visual
+---
+
+
+## Overview 
+
+-   We have a claim about a population parameter and form competing hypothesis to test the claim. 
+
+-   We then determine which hypothesis is better supported by our sample data. 
+
+-   We are always forming the hypothesis about a population parameter.
+
+
+## Hypothesis test
+
+-   $H_0$ Null Hypothesis: The population parameter is a particular value and any observed sample differences is due to chance variation. This is what we expect.
+
+-   $H_A$ Alternative Hypothesis: There is a reason besides chance that explains the sample data.
+
+
+## Common examples
+
+-   $H_0$: $\mu=5$, $\pi=0.5$, $\mu_1-\mu_2=0$, $\beta_1=0$
+
+
+-   $H_A$: $\mu\ne5$, $\pi\ne0.5$, $\mu_1-\mu_2\ne0$, $\beta_1\ne0$
+
+These are called two-sided tests. (There also exists one-sided tests ex: $H_0: \pi \geq 0.5$ vs $H_A: \pi < 0.5$ but they are not necessary. We can (and should) ALWAYS use a two-sided test.)
+
+## P-values
+
+-   In order to determine if the null hypothesis is likely to be true we calculate a p-value.
+
+-   P-value: probability of observing an estimate as extreme as the one you observed from the data if the null was true.
+
+-   A small p-value means the observed sample data is unlikely to occur under the null hypothesis. ie: proof by contradiction. Reject the null hypothesis because it is probably not true.
+
+**Note: For a two-sided test you need the probability in both tails**
+
+
+## Hypothesis Test Conclusions 
+
+The way you interpret/phrase your conclusion is very important.
+
+-   Example: We will work through Activity 18 Question 1 together.
+
+
+## One-sample (two-sided) tests 
+
+&nbsp;  
+
+
+|Statistic|$H_0$|$H_A$|Test Statistic (Standardization)|Distribution|
+|-------|----|---|----|------------|
+|Mean|$\mu= \mu_0$|$\mu \neq \mu_0$|\Large $\frac{\bar{x} - \mu_0}{s/\sqrt{n}}$|t(df=n-1)|
+|Proportion|$\pi = \pi_0$|$\pi \neq \pi_0$|\Large $\frac{\hat{\pi}-\pi_0}{\sqrt{\frac{\pi_0(1-\pi_0)}{n} } }$ |N(0,1)|
+
+
+
+## Two-sample (two-sided) tests 
+
+For two-sample tests there are 2 ways to calculate the SE 
+
+-   Assume the two samples have the same variance and use a pooled (equal variance) formula 
+-   Assume the two samples have unequal variances and use an unpooled (unequal variance) formula
+
+## Two-sided tests for Pooled (equal) Variances
+
+|Statistic|$H_0$|$H_A$|Test Statistic|Distribution|
+|-----|---|---|-------|---|
+|Diff. in means|$\mu_1-\mu_2 = 0$|$\mu_1-\mu_2 \neq 0$|$\frac{\bar{x_1} - \bar{x_2}-0}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}$ |t(df=$n_1$ + $n_2$ -2)|
+|Diff. in proportions|$\pi_1-\pi_2 = 0$|$\pi_1-\pi_2 \neq 0$|\Large $\frac{(\hat{\pi_1}-\hat{\pi_2}) - d}{\sqrt{\frac{\hat{\pi_0}(1-\hat{\pi_0})}{n_1} + \frac{\hat{\pi_0}(1-\hat{\pi_0})}{n_2} } }$|N(0,1)|
+
+
+## Two-sided tests for Unpooled (unequal) Variances
+
+|Statistic|$H_0$|$H_A$|Test Statistic|Distribution|
+|-----|----|----|-----|------|
+|Diff. in means|$\mu_1-\mu_2 = d$|$\mu_1-\mu_2 \neq d$|$\frac{\bar{x_1}-\bar{x_2}-d}{\sqrt{\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}}}$|t(df=min[n_1-1, n_2-1])|
+|Diff. in proportions|$\pi_1-\pi_2 = d$|$\pi_1-\pi_2 \neq d$|\Large $\frac{(\hat{\pi_1}-\hat{\pi_2}) - 0}{\sqrt{\frac{\hat{\pi_1}(1-\hat{\pi_1})}{n_1} + \frac{\hat{\pi_2}(1-\hat{\pi_2})}{n_2} } }$|N(0,1)|
+
+## R Code to obtain p-value
+|Statistic|R Code|
+|-----------|----------|
+|Mean|t.test(x = data\$variable, mu = $\mu_0$)|
+|Proportion|prop.test(x = #, n = #, p= $\pi_0$, correct=FALSE)|
+|Regression slope|lm() summary
+|Diff in mean|t.test(x = data1\$variable, y = data2\$variable)|
+|Diff in proportion|prop.test(x = c(#, #), n = c(#, #), correct=FALSE )|
+        
+        
+        

@@ -22,13 +22,17 @@ execute:
 
 ## The Standard Normal Distribution
 
-<center>![](images/lecture_images/standard_normal.PNG)</center>
+<center>![](images_lecture/standard_normal.png)</center>
 
-## Standard Normal Distribution Properties
+. . .
 
+**Properties**
+
+:::{.incremental}
 -   The area under the curve is 1 (or 100%)
 -   The mean of the distribution is 0
 -   The standard deviation of the distribution is 1
+:::
 
  
 
@@ -36,9 +40,11 @@ execute:
 
 ## Empirical Rule
 
+:::{.incremental}
 -   Around **68%** of values are within **one** standard deviation from the mean.
 -   Around **95%** of values are within **two** standard deviations from the mean.
 -   Around **99.7%** of values are within **three** standard deviations from the mean.
+:::
 
 ## Empirical Rule continued
 

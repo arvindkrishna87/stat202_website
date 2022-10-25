@@ -1131,7 +1131,7 @@
     "href": "slides/lec14.html#the-standard-normal-distribution",
     "title": "Distributions  Section 9.1",
     "section": "The Standard Normal Distribution",
-    "text": "The Standard Normal Distribution"
+    "text": "The Standard Normal Distribution\n\n\n\n\nProperties\n\n\nThe area under the curve is 1 (or 100%)\nThe mean of the distribution is 0\nThe standard deviation of the distribution is 1\n\n\n \nNote: Can use the normal distribution in R or at https://homepage.divms.uiowa.edu/~mbognar/applets/normal.html"
   },
   {
     "objectID": "slides/lec14.html#standard-normal-distribution-properties",
@@ -1145,7 +1145,7 @@
     "href": "slides/lec14.html#empirical-rule",
     "title": "Distributions  Section 9.1",
     "section": "Empirical Rule",
-    "text": "Empirical Rule\n\nAround 68% of values are within one standard deviation from the mean.\nAround 95% of values are within two standard deviations from the mean.\nAround 99.7% of values are within three standard deviations from the mean."
+    "text": "Empirical Rule\n\n\nAround 68% of values are within one standard deviation from the mean.\nAround 95% of values are within two standard deviations from the mean.\nAround 99.7% of values are within three standard deviations from the mean."
   },
   {
     "objectID": "slides/lec14.html#empirical-rule-continued",

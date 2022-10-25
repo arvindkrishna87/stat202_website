@@ -1,0 +1,54 @@
+---
+title: "Repeated Sampling (9.2-9.4)"
+format: revealjs
+editor: visual
+---
+
+## Overview and Definitions
+
+The theory of **repeated samples** makes it possible for statisticians to take a random sample from a population and use to make inference about that population's parameters.  
+
+-   **Repeated Sampling**: repeating the exact same random sampling procedure many times.
+
+-   **Sampling variability**: some sample estimates are bigger and some smaller than the true population statistic
+
+
+
+## More Definitions
+
+-   **Standard error**: the standard deviation of a sampling distribution
+-   **Sampling Distribution**: a probability distribution of a statistic (mean, proportion, or variation) obtained from repeated sampling. This distribution is visualized with a histogram. 
+
+
+## Simulations in R 
+
+The theory of repeated samples is quite straight forward:  
+
+1.    Imagine repeating the exact same *random sampling* procedure where you sampled 50 people from the population, say 10,000 times.  
+2.    For each of the 10,000 samples, each with 50 people in them, calculate a sample statistic, say the sample mean. That is, you now have 10,000 sample means. 
+
+## Simulations in R continued 
+
+3.    Now examine the distribution of the 10,000 sample means. This distribution of sample means is know as a sampling distribution. A distribution that is the result of repeated sampling.
+
+
+**Code in R**:
+
+```{r rep-sample}
+#| echo: true
+#| eval: false
+sim_data <- data %>% 
+  rep_sample_n(size = 50, reps = 10000)
+```
+
+
+## Describing a Sampling Distribution
+
+
+<center>
+
+![](images/lecture_images/describe_histogram.PNG)
+
+</center>
+
+
