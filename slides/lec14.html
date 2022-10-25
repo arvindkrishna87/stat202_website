@@ -396,10 +396,11 @@
 
 <section id="the-standard-normal-distribution" class="slide level2">
 <h2>The Standard Normal Distribution</h2>
-<center>
-<img data-src="images_lecture/standard_normal.png">
-</center>
-<div class="fragment">
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><br></p>
+<p><img src="images_lecture/standard_normal.png" style="float: center;"></p>
+</div><div class="column" style="width:50%;">
 <p><strong>Properties</strong></p>
 <div>
 <ul>
@@ -408,12 +409,18 @@
 <li class="fragment">The standard deviation of the distribution is 1</li>
 </ul>
 </div>
-<p>&nbsp;</p>
-<p><strong>Note</strong>: Can use the normal distribution in R or at https://homepage.divms.uiowa.edu/~mbognar/applets/normal.html</p>
+</div>
+</div>
+<div class="footer">
+<p>Can use the normal distribution in R or at https://homepage.divms.uiowa.edu/~mbognar/applets/normal.html</p>
 </div>
 </section>
-<section id="empirical-rule" class="slide level2">
+<section id="empirical-rule" class="slide level2 smaller">
 <h2>Empirical Rule</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><img src="images_lecture/standard_normal.png" style="float: left;"></p>
+</div><div class="column" style="width:52%;">
 <div>
 <ul>
 <li class="fragment">Around <strong>68%</strong> of values are within <strong>one</strong> standard deviation from the mean.</li>
@@ -421,58 +428,85 @@
 <li class="fragment">Around <strong>99.7%</strong> of values are within <strong>three</strong> standard deviations from the mean.</li>
 </ul>
 </div>
-</section>
-<section id="empirical-rule-continued" class="slide level2">
-<h2>Empirical Rule continued</h2>
-<ul>
-<li><p><strong>Why is this useful?</strong> If we know the mean and standard deviation of a variable that follows the normal distribution, we can calculate the probability of an event occurring.</p></li>
-<li><p><strong>How is this applicable?</strong> We can transform any normally distributed variable into a standard normal distribution with <strong>standardization</strong>.</p></li>
-</ul>
+</div>
+</div>
+<div class="fragment">
+<p><strong>Why is this useful?</strong> If we know the mean and standard deviation of a variable that follows the normal distribution, we can calculate the probability of an event occurring.</p>
+</div>
+<div class="fragment">
+<p><strong>How is this applicable?</strong> We can transform any normally distributed variable into a standard normal distribution with <strong>standardization</strong>.</p>
+</div>
+<div class="fragment">
 <p><span class="math display">\[\hbox{STAT} = \frac{X - mean(X)}{sd(X)}\]</span></p>
+</div>
 </section>
 <section id="the-normal-distribution" class="slide level2">
 <h2>The Normal Distribution</h2>
+<div>
 <ul>
-<li>Changing mu (the mean), changes where the center (peak) of the distribution is located.</li>
-<li>Changing sigma (the standard deviation), changes the spread of the distribution.</li>
-<li>The shape of the distribution never changes. It is always unimodal and symmetric (no skew).</li>
+<li class="fragment">Changing <span class="math inline">\(\mu\)</span> (mu, the mean), changes where the center (peak) of the distribution is located.</li>
+<li class="fragment">Changing <span class="math inline">\(\sigma\)</span> (sigma, the standard deviation), changes the spread of the distribution.</li>
+<li class="fragment">The shape of the distribution never changes. It is always unimodal and symmetric (no skew).</li>
 </ul>
+</div>
+<div class="fragment">
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><img data-src="images/lecture_images/norm_mean1.PNG"></p>
+<p><img data-src="images_lecture/norm_mean1.png"></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><img data-src="images/lecture_images/norm_sd1.PNG"></p>
+<p><img data-src="images_lecture/norm_sd1.png"></p>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><img data-src="images/lecture_images/norm_meansd1.PNG"></p>
+<p><img data-src="images_lecture/norm_meansd1.png"></p>
+</div>
 </div>
 </div>
 </div>
 </section>
-<section id="the-t-distribution" class="slide level2">
+<section id="the-t-distribution" class="slide level2 smaller">
 <h2>The T-Distribution</h2>
 <p>The t-distribution is similar in shape to a normal distribution.</p>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:48%;">
 <center>
-<img data-src="images/lecture_images/t-dist.PNG" id="id" class="class" style="width:55.0%;height:55.0%">
+<img data-src="images_lecture/t-dist.png">
 </center>
-</section>
-<section id="the-t-distribution-continued" class="slide level2">
-<h2>The T-Distribution continued</h2>
+</div><div class="column" style="width:52%;">
+<div>
 <ul>
-<li>Completely characterized by it’s degrees of freedom (df). A parameter defined based on the sample size <span class="math inline">\(n\)</span>.</li>
-<li>As we make the degrees of freedom (<span class="math inline">\(df\)</span>) larger the t-distribution is getting closer to the standard normal distribution.</li>
-<li>The normal distribution assumes that you know the population standard deviation, <span class="math inline">\(\sigma\)</span>. The t-distribution is used if you only know the sample standard deviation, <span class="math inline">\(s\)</span> (ie: <span class="math inline">\(\sigma\)</span> unknown).</li>
+<li class="fragment">Completely characterized by it’s degrees of freedom (df). A parameter defined based on the sample size <span class="math inline">\(n\)</span>.</li>
+<li class="fragment">As we make the degrees of freedom (<span class="math inline">\(df\)</span>) larger the t-distribution is getting closer to the standard normal distribution.</li>
+<li class="fragment">The normal distribution assumes that you know the population standard deviation, <span class="math inline">\(\sigma\)</span>. The t-distribution is used if you only know the sample standard deviation, <span class="math inline">\(s\)</span> (ie: <span class="math inline">\(\sigma\)</span> unknown).</li>
 </ul>
+</div>
+</div>
+</div>
 </section>
-<section id="the-t-distribution-in-r" class="slide level2">
-<h2>The T-Distribution in R</h2>
-<p>&nbsp;</p>
+<section id="normal-and-t-distribution-in-r" class="slide level2">
+<h2>Normal and T Distribution in R</h2>
+<p><strong>Normal distribution:</strong></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">pt</span>(<span class="at">q =</span> <span class="sc">-</span><span class="dv">1</span>, <span class="at">df =</span> <span class="dv">9</span>)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">qt</span>(<span class="at">p =</span> .<span class="dv">025</span>, <span class="at">df =</span> <span class="dv">9</span>)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">qt</span>(<span class="at">p =</span> .<span class="dv">025</span>, <span class="at">df =</span> <span class="dv">9</span>, <span class="at">lower.tail=</span><span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate the probability of being to the left of quantile -1</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Default is mean = 0 and sd = 1</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">pnorm</span>(<span class="at">q =</span> <span class="sc">-</span><span class="dv">1</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate the quantile, with 20% of data to the left</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">qnorm</span>(<span class="at">p =</span> .<span class="dv">2</span>, <span class="at">mean =</span> <span class="dv">0</span>, <span class="at">sd =</span> <span class="dv">1</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># lower.tail = FALSE changes it to data/area to the right</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># specify mean and sd if you are not using a standard normal distribution</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">qnorm</span>(<span class="at">p =</span> .<span class="dv">025</span>, <span class="at">mean =</span> <span class="dv">10</span>, <span class="at">sd =</span> <span class="dv">2</span>, <span class="at">lower.tail =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><strong>T-distribution:</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># instead of pnorm we now use pt</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># instead of qnorm we now use qt</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># no mean and sd! Now we use df</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">pt</span>(<span class="at">q =</span> <span class="sc">-</span><span class="dv">1</span>, <span class="at">df =</span> <span class="dv">9</span>)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">qt</span>(<span class="at">p =</span> .<span class="dv">025</span>, <span class="at">df =</span> <span class="dv">9</span>)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">qt</span>(<span class="at">p =</span> .<span class="dv">025</span>, <span class="at">df =</span> <span class="dv">9</span>, <span class="at">lower.tail =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
 
