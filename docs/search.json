@@ -1131,7 +1131,7 @@
     "href": "slides/lec14.html#the-standard-normal-distribution",
     "title": "Distributions  Section 9.1",
     "section": "The Standard Normal Distribution",
-    "text": "The Standard Normal Distribution\n\n\n\n\nProperties\n\n\nThe area under the curve is 1 (or 100%)\nThe mean of the distribution is 0\nThe standard deviation of the distribution is 1\n\n\n \nNote: Can use the normal distribution in R or at https://homepage.divms.uiowa.edu/~mbognar/applets/normal.html"
+    "text": "The Standard Normal Distribution\n\n\n\n\n\nProperties\n\n\nThe area under the curve is 1 (or 100%)\nThe mean of the distribution is 0\nThe standard deviation of the distribution is 1\n\n\n\n\n\nCan use the normal distribution in R or at https://homepage.divms.uiowa.edu/~mbognar/applets/normal.html"
   },
   {
     "objectID": "slides/lec14.html#standard-normal-distribution-properties",
@@ -1145,7 +1145,7 @@
     "href": "slides/lec14.html#empirical-rule",
     "title": "Distributions  Section 9.1",
     "section": "Empirical Rule",
-    "text": "Empirical Rule\n\n\nAround 68% of values are within one standard deviation from the mean.\nAround 95% of values are within two standard deviations from the mean.\nAround 99.7% of values are within three standard deviations from the mean."
+    "text": "Empirical Rule\n\n\n\n\n\n\nAround 68% of values are within one standard deviation from the mean.\nAround 95% of values are within two standard deviations from the mean.\nAround 99.7% of values are within three standard deviations from the mean.\n\n\n\n\n\nWhy is this useful? If we know the mean and standard deviation of a variable that follows the normal distribution, we can calculate the probability of an event occurring.\n\n\nHow is this applicable? We can transform any normally distributed variable into a standard normal distribution with standardization.\n\n\n\\[\\hbox{STAT} = \\frac{X - mean(X)}{sd(X)}\\]"
   },
   {
     "objectID": "slides/lec14.html#empirical-rule-continued",
@@ -1159,21 +1159,21 @@
     "href": "slides/lec14.html#the-normal-distribution",
     "title": "Distributions  Section 9.1",
     "section": "The Normal Distribution",
-    "text": "The Normal Distribution\n\nChanging mu (the mean), changes where the center (peak) of the distribution is located.\nChanging sigma (the standard deviation), changes the spread of the distribution.\nThe shape of the distribution never changes. It is always unimodal and symmetric (no skew)."
+    "text": "The Normal Distribution\n\n\nChanging \\(\\mu\\) (mu, the mean), changes where the center (peak) of the distribution is located.\nChanging \\(\\sigma\\) (sigma, the standard deviation), changes the spread of the distribution.\nThe shape of the distribution never changes. It is always unimodal and symmetric (no skew)."
   },
   {
     "objectID": "slides/lec14.html#the-t-distribution",
     "href": "slides/lec14.html#the-t-distribution",
     "title": "Distributions  Section 9.1",
     "section": "The T-Distribution",
-    "text": "The T-Distribution\nThe t-distribution is similar in shape to a normal distribution."
+    "text": "The T-Distribution\nThe t-distribution is similar in shape to a normal distribution.\n\n\n\n\n\n\n\n\n\nCompletely characterized by it’s degrees of freedom (df). A parameter defined based on the sample size \\(n\\).\nAs we make the degrees of freedom (\\(df\\)) larger the t-distribution is getting closer to the standard normal distribution.\nThe normal distribution assumes that you know the population standard deviation, \\(\\sigma\\). The t-distribution is used if you only know the sample standard deviation, \\(s\\) (ie: \\(\\sigma\\) unknown)."
   },
   {
     "objectID": "slides/lec14.html#the-t-distribution-continued",
     "href": "slides/lec14.html#the-t-distribution-continued",
     "title": "Distributions  Section 9.1",
-    "section": "The T-Distribution continued",
-    "text": "The T-Distribution continued\n\nCompletely characterized by it’s degrees of freedom (df). A parameter defined based on the sample size \\(n\\).\nAs we make the degrees of freedom (\\(df\\)) larger the t-distribution is getting closer to the standard normal distribution.\nThe normal distribution assumes that you know the population standard deviation, \\(\\sigma\\). The t-distribution is used if you only know the sample standard deviation, \\(s\\) (ie: \\(\\sigma\\) unknown)."
+    "section": "The T-Distribution (continued)",
+    "text": "The T-Distribution (continued)\n\n\nCompletely characterized by it’s degrees of freedom (df). A parameter defined based on the sample size \\(n\\).\nAs we make the degrees of freedom (\\(df\\)) larger the t-distribution is getting closer to the standard normal distribution.\nThe normal distribution assumes that you know the population standard deviation, \\(\\sigma\\). The t-distribution is used if you only know the sample standard deviation, \\(s\\) (ie: \\(\\sigma\\) unknown)."
   },
   {
     "objectID": "slides/lec14.html#the-t-distribution-in-r",
@@ -1209,5 +1209,12 @@
     "title": "Today’s Agenda",
     "section": "Homework Due Tue Oct 25 11:59pm",
     "text": "Homework Due Tue Oct 25 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_13\n\n     Read Sections 9.0 - 9.1\n\n    Complete and submit  RC_13"
+  },
+  {
+    "objectID": "slides/lec14.html#normal-and-t-distribution-in-r",
+    "href": "slides/lec14.html#normal-and-t-distribution-in-r",
+    "title": "Distributions  Section 9.1",
+    "section": "Normal and T Distribution in R",
+    "text": "Normal and T Distribution in R\nNormal distribution:\n\n# Calculate the probability of being to the left of quantile -1\n# Default is mean = 0 and sd = 1\npnorm(q = -1)\n# Calculate the quantile, with 20% of data to the left\nqnorm(p = .2, mean = 0, sd = 1)\n\n# lower.tail = FALSE changes it to data/area to the right\n# specify mean and sd if you are not using a standard normal distribution\nqnorm(p = .025, mean = 10, sd = 2, lower.tail = FALSE)\n\nT-distribution:\n\n# instead of pnorm we now use pt\n# instead of qnorm we now use qt\n# no mean and sd! Now we use df\npt(q = -1, df = 9)\nqt(p = .025, df = 9)\nqt(p = .025, df = 9, lower.tail = FALSE)"
   }
 ]
