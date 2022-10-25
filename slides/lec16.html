@@ -9,7 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.1.251">
 
-  <title>STAT 202 - Distributions  Section 9.1</title>
+  <title>STAT 202 - Repeated Sampling (9.5-9.6)</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -27,77 +27,11 @@
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #aaaaaa;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
-    div.sourceCode
-      { color: #003b4f; background-color: #f1f3f5; }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #003b4f; } /* Normal */
-    code span.al { color: #ad0000; } /* Alert */
-    code span.an { color: #5e5e5e; } /* Annotation */
-    code span.at { color: #657422; } /* Attribute */
-    code span.bn { color: #ad0000; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; } /* ControlFlow */
-    code span.ch { color: #20794d; } /* Char */
-    code span.cn { color: #8f5902; } /* Constant */
-    code span.co { color: #5e5e5e; } /* Comment */
-    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
-    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
-    code span.dt { color: #ad0000; } /* DataType */
-    code span.dv { color: #ad0000; } /* DecVal */
-    code span.er { color: #ad0000; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ad0000; } /* Float */
-    code span.fu { color: #4758ab; } /* Function */
-    code span.im { color: #00769e; } /* Import */
-    code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; } /* Keyword */
-    code span.op { color: #5e5e5e; } /* Operator */
-    code span.ot { color: #003b4f; } /* Other */
-    code span.pp { color: #ad0000; } /* Preprocessor */
-    code span.sc { color: #5e5e5e; } /* SpecialChar */
-    code span.ss { color: #20794d; } /* SpecialString */
-    code span.st { color: #20794d; } /* String */
-    code span.va { color: #111111; } /* Variable */
-    code span.vs { color: #20794d; } /* VerbatimString */
-    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css" id="theme">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
-  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
@@ -307,7 +241,6 @@
     }
     .reveal .slide:not(.center) {
       height: 100%;
-      overflow-y: auto;
     }
     .reveal .slide.scrollable {
       overflow-y: auto;
@@ -390,93 +323,33 @@
     <div class="slides">
 
 <section id="title-slide" class="center">
-  <h1 class="title">Distributions <br> Section 9.1</h1>
-  <p class="institute">Department of Statistics and Data Science <br> STAT 202</p>
+  <h1 class="title">Repeated Sampling (9.5-9.6)</h1>
 </section>
 
-<section id="the-standard-normal-distribution" class="slide level2">
-<h2>The Standard Normal Distribution</h2>
-<center>
-<img data-src="images_lecture/standard_normal.png">
-</center>
-<div class="fragment">
-<p><strong>Properties</strong></p>
-<div>
+<section id="the-reality" class="slide level2">
+<h2>The Reality</h2>
+<p>We are never going to take thousands of samples and construct a sampling distribution. The concept of random sampling is entirely theoretical and lays the foundations for the derivations of the standard errors in Table 9.6.</p>
+</section>
+<section id="central-limit-theorem" class="slide level2">
+<h2>Central Limit Theorem</h2>
+<p>A <strong>sampling distribution</strong> of a mean (<span class="math inline">\(\bar{x})\)</span> will get closer and closer to the normal curve as the number of repetitions increases. This is true no matter the shape of the original data!</p>
 <ul>
-<li class="fragment">The area under the curve is 1 (or 100%)</li>
-<li class="fragment">The mean of the distribution is 0</li>
-<li class="fragment">The standard deviation of the distribution is 1</li>
+<li><p>The mean of your sampling distribution is the same as the population mean. <span class="math inline">\(mean(\bar{x}) = \mu\)</span>.</p></li>
+<li><p>The standard error of your sampling distribution is less than the spread of the population. <span class="math inline">\(SE(\bar{x}) = \frac{\sigma}{\sqrt{n} }\)</span></p></li>
 </ul>
-</div>
-<p>&nbsp;</p>
-<p><strong>Note</strong>: Can use the normal distribution in R or at https://homepage.divms.uiowa.edu/~mbognar/applets/normal.html</p>
-</div>
+<p><span class="math display">\[\bar{x} \sim N\left(\mu_{\bar{x}} = \mu_x, SE(\bar{x})= \frac{\sigma_x}{\sqrt{n}}\right)\]</span></p>
 </section>
-<section id="empirical-rule" class="slide level2">
-<h2>Empirical Rule</h2>
-<div>
+<section id="what-makes-a-good-sample" class="slide level2">
+<h2>What makes a good sample?</h2>
 <ul>
-<li class="fragment">Around <strong>68%</strong> of values are within <strong>one</strong> standard deviation from the mean.</li>
-<li class="fragment">Around <strong>95%</strong> of values are within <strong>two</strong> standard deviations from the mean.</li>
-<li class="fragment">Around <strong>99.7%</strong> of values are within <strong>three</strong> standard deviations from the mean.</li>
+<li>representative of the population</li>
+<li>picked at random (avoids bias)</li>
+<li>big enough size to draw conclusions from (<span class="math inline">\(n \geq 30\)</span>)</li>
+<li>independent samples - includes less than 10% of the population (too big of a sample <span class="math inline">\(n\)</span> will create dependence between samples)</li>
+<li>Exception: If the population is already normal, the results hold for samples of any size <span class="math inline">\(n\)</span></li>
 </ul>
-</div>
-</section>
-<section id="empirical-rule-continued" class="slide level2">
-<h2>Empirical Rule continued</h2>
-<ul>
-<li><p><strong>Why is this useful?</strong> If we know the mean and standard deviation of a variable that follows the normal distribution, we can calculate the probability of an event occurring.</p></li>
-<li><p><strong>How is this applicable?</strong> We can transform any normally distributed variable into a standard normal distribution with <strong>standardization</strong>.</p></li>
-</ul>
-<p><span class="math display">\[\hbox{STAT} = \frac{X - mean(X)}{sd(X)}\]</span></p>
-</section>
-<section id="the-normal-distribution" class="slide level2">
-<h2>The Normal Distribution</h2>
-<ul>
-<li>Changing mu (the mean), changes where the center (peak) of the distribution is located.</li>
-<li>Changing sigma (the standard deviation), changes the spread of the distribution.</li>
-<li>The shape of the distribution never changes. It is always unimodal and symmetric (no skew).</li>
-</ul>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><img data-src="images/lecture_images/norm_mean1.PNG"></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><img data-src="images/lecture_images/norm_sd1.PNG"></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><img data-src="images/lecture_images/norm_meansd1.PNG"></p>
-</div>
-</div>
-</div>
-</section>
-<section id="the-t-distribution" class="slide level2">
-<h2>The T-Distribution</h2>
-<p>The t-distribution is similar in shape to a normal distribution.</p>
-<center>
-<img data-src="images/lecture_images/t-dist.PNG" id="id" class="class" style="width:55.0%;height:55.0%">
-</center>
-</section>
-<section id="the-t-distribution-continued" class="slide level2">
-<h2>The T-Distribution continued</h2>
-<ul>
-<li>Completely characterized by it’s degrees of freedom (df). A parameter defined based on the sample size <span class="math inline">\(n\)</span>.</li>
-<li>As we make the degrees of freedom (<span class="math inline">\(df\)</span>) larger the t-distribution is getting closer to the standard normal distribution.</li>
-<li>The normal distribution assumes that you know the population standard deviation, <span class="math inline">\(\sigma\)</span>. The t-distribution is used if you only know the sample standard deviation, <span class="math inline">\(s\)</span> (ie: <span class="math inline">\(\sigma\)</span> unknown).</li>
-</ul>
-</section>
-<section id="the-t-distribution-in-r" class="slide level2">
-<h2>The T-Distribution in R</h2>
-<p>&nbsp;</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">pt</span>(<span class="at">q =</span> <span class="sc">-</span><span class="dv">1</span>, <span class="at">df =</span> <span class="dv">9</span>)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">qt</span>(<span class="at">p =</span> .<span class="dv">025</span>, <span class="at">df =</span> <span class="dv">9</span>)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">qt</span>(<span class="at">p =</span> .<span class="dv">025</span>, <span class="at">df =</span> <span class="dv">9</span>, <span class="at">lower.tail=</span><span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 
-
-<img src="nu_logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
+<div class="footer footer-default">
 
 </div>
 </section>
@@ -490,7 +363,6 @@
   <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -512,8 +384,7 @@
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"right","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'chalkboard': {"buttons":true,"theme":"whiteboard","toggleNotesButton":false},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -684,7 +555,7 @@
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
 
           RevealMath,
           RevealNotes,
@@ -693,48 +564,6 @@
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        function fireSlideChanged(previousSlide, currentSlide) {
-
-          // dispatch for htmlwidgets
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for reveal
-        if (window.Reveal) {
-          window.Reveal.addEventListener("slidechanged", function(event) {
-            fireSlideChanged(event.previousSlide, event.currentSlide);
-          });
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {

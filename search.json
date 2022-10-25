@@ -238,6 +238,76 @@
     "text": "Teaching assistants\nAll office hours will be held on-line via Zoom 998 6392 3813 on\n\nTuesdays 12-2pm and 4-6pm\nThursdays 11-1pm and 2-4pm\nSundays 1-4pm\n\n\n\n\n\n\n\n\n\n\nName\n\nEmail\nOffice hours\n\n\n\n\nKayla Schroeder (grader)\n\nKaylaSchroeder2026@u.northwestern.edu\nBy appointment\n\n\nDivya Narayan\n\ndivyanarayan2025@u.northwestern.edu\nTuesday 12-2pm\n\n\nJules Wathieu\n\njuleswathieu2024@u.northwestern.edu\nTuesday 4-6pm\n\n\nAlex Tun\n\nalextun2023@u.northwestern.edu\nThursday 11-1pm\n\n\nKole Butterer\n\nkolebutterer2023@u.northwestern.edu\nThursday 2-4pm\n\n\nShriya Kata\n\nshriyakata2025@u.northwestern.edu\nSunday 1-3pm\n\n\nKabeer Kishore\n\nkabeerkishore2023@u.northwestern.edu\nSunday 2-4pm"
   },
   {
+    "objectID": "slides/lec19.html#overview",
+    "href": "slides/lec19.html#overview",
+    "title": "P-value (11)",
+    "section": "Overview",
+    "text": "Overview\n\nWe have a claim about a population parameter and form competing hypothesis to test the claim.\nWe then determine which hypothesis is better supported by our sample data.\nWe are always forming the hypothesis about a population parameter."
+  },
+  {
+    "objectID": "slides/lec19.html#hypothesis-test",
+    "href": "slides/lec19.html#hypothesis-test",
+    "title": "P-value (11)",
+    "section": "Hypothesis test",
+    "text": "Hypothesis test\n\n\\(H_0\\) Null Hypothesis: The population parameter is a particular value and any observed sample differences is due to chance variation. This is what we expect.\n\\(H_A\\) Alternative Hypothesis: There is a reason besides chance that explains the sample data."
+  },
+  {
+    "objectID": "slides/lec19.html#common-examples",
+    "href": "slides/lec19.html#common-examples",
+    "title": "P-value (11)",
+    "section": "Common examples",
+    "text": "Common examples\n\n\\(H_0\\): \\(\\mu=5\\), \\(\\pi=0.5\\), \\(\\mu_1-\\mu_2=0\\), \\(\\beta_1=0\\)\n\\(H_A\\): \\(\\mu\\ne5\\), \\(\\pi\\ne0.5\\), \\(\\mu_1-\\mu_2\\ne0\\), \\(\\beta_1\\ne0\\)\n\nThese are called two-sided tests. (There also exists one-sided tests ex: \\(H_0: \\pi \\geq 0.5\\) vs \\(H_A: \\pi < 0.5\\) but they are not necessary. We can (and should) ALWAYS use a two-sided test.)"
+  },
+  {
+    "objectID": "slides/lec19.html#p-values",
+    "href": "slides/lec19.html#p-values",
+    "title": "P-value (11)",
+    "section": "P-values",
+    "text": "P-values\n\nIn order to determine if the null hypothesis is likely to be true we calculate a p-value.\nP-value: probability of observing an estimate as extreme as the one you observed from the data if the null was true.\nA small p-value means the observed sample data is unlikely to occur under the null hypothesis. ie: proof by contradiction. Reject the null hypothesis because it is probably not true.\n\nNote: For a two-sided test you need the probability in both tails"
+  },
+  {
+    "objectID": "slides/lec19.html#hypothesis-test-conclusions",
+    "href": "slides/lec19.html#hypothesis-test-conclusions",
+    "title": "P-value (11)",
+    "section": "Hypothesis Test Conclusions",
+    "text": "Hypothesis Test Conclusions\nThe way you interpret/phrase your conclusion is very important.\n\nExample: We will work through Activity 18 Question 1 together."
+  },
+  {
+    "objectID": "slides/lec19.html#one-sample-two-sided-tests",
+    "href": "slides/lec19.html#one-sample-two-sided-tests",
+    "title": "P-value (11)",
+    "section": "One-sample (two-sided) tests",
+    "text": "One-sample (two-sided) tests\n \n\n\n\n\n\n\n\n\n\n\nStatistic\n\\(H_0\\)\n\\(H_A\\)\nTest Statistic (Standardization)\nDistribution\n\n\n\n\nMean\n\\(\\mu= \\mu_0\\)\n\\(\\mu \\neq \\mu_0\\)\n\\(\\frac{\\bar{x} - \\mu_0}{s/\\sqrt{n}}\\)\nt(df=n-1)\n\n\nProportion\n\\(\\pi = \\pi_0\\)\n\\(\\pi \\neq \\pi_0\\)\n\\(\\frac{\\hat{\\pi}-\\pi_0}{\\sqrt{\\frac{\\pi_0(1-\\pi_0)}{n} } }\\)\nN(0,1)"
+  },
+  {
+    "objectID": "slides/lec19.html#two-sample-two-sided-tests",
+    "href": "slides/lec19.html#two-sample-two-sided-tests",
+    "title": "P-value (11)",
+    "section": "Two-sample (two-sided) tests",
+    "text": "Two-sample (two-sided) tests\nFor two-sample tests there are 2 ways to calculate the SE\n\nAssume the two samples have the same variance and use a pooled (equal variance) formula\nAssume the two samples have unequal variances and use an unpooled (unequal variance) formula"
+  },
+  {
+    "objectID": "slides/lec19.html#two-sided-tests-for-pooled-equal-variances",
+    "href": "slides/lec19.html#two-sided-tests-for-pooled-equal-variances",
+    "title": "P-value (11)",
+    "section": "Two-sided tests for Pooled (equal) Variances",
+    "text": "Two-sided tests for Pooled (equal) Variances\n\n\n\n\n\n\n\n\n\n\nStatistic\n\\(H_0\\)\n\\(H_A\\)\nTest Statistic\nDistribution\n\n\n\n\nDiff. in means\n\\(\\mu_1-\\mu_2 = 0\\)\n\\(\\mu_1-\\mu_2 \\neq 0\\)\n\\(\\frac{\\bar{x_1} - \\bar{x_2}-0}{s_p\\sqrt{\\frac{1}{n_1}+\\frac{1}{n_2}}}\\)\nt(df=\\(n_1\\) + \\(n_2\\) -2)\n\n\nDiff. in proportions\n\\(\\pi_1-\\pi_2 = 0\\)\n\\(\\pi_1-\\pi_2 \\neq 0\\)\n\\(\\frac{(\\hat{\\pi_1}-\\hat{\\pi_2}) - d}{\\sqrt{\\frac{\\hat{\\pi_0}(1-\\hat{\\pi_0})}{n_1} + \\frac{\\hat{\\pi_0}(1-\\hat{\\pi_0})}{n_2} } }\\)\nN(0,1)"
+  },
+  {
+    "objectID": "slides/lec19.html#two-sided-tests-for-unpooled-unequal-variances",
+    "href": "slides/lec19.html#two-sided-tests-for-unpooled-unequal-variances",
+    "title": "P-value (11)",
+    "section": "Two-sided tests for Unpooled (unequal) Variances",
+    "text": "Two-sided tests for Unpooled (unequal) Variances\n\n\n\n\n\n\n\n\n\n\nStatistic\n\\(H_0\\)\n\\(H_A\\)\nTest Statistic\nDistribution\n\n\n\n\nDiff. in means\n\\(\\mu_1-\\mu_2 = d\\)\n\\(\\mu_1-\\mu_2 \\neq d\\)\n\\(\\frac{\\bar{x_1}-\\bar{x_2}-d}{\\sqrt{\\frac{s_1^2}{n_1}+\\frac{s_2^2}{n_2}}}\\)\nt(df=min[n_1-1, n_2-1])\n\n\nDiff. in proportions\n\\(\\pi_1-\\pi_2 = d\\)\n\\(\\pi_1-\\pi_2 \\neq d\\)\n\\(\\frac{(\\hat{\\pi_1}-\\hat{\\pi_2}) - 0}{\\sqrt{\\frac{\\hat{\\pi_1}(1-\\hat{\\pi_1})}{n_1} + \\frac{\\hat{\\pi_2}(1-\\hat{\\pi_2})}{n_2} } }\\)\nN(0,1)"
+  },
+  {
+    "objectID": "slides/lec19.html#r-code-to-obtain-p-value",
+    "href": "slides/lec19.html#r-code-to-obtain-p-value",
+    "title": "P-value (11)",
+    "section": "R Code to obtain p-value",
+    "text": "R Code to obtain p-value\n\n\n\nStatistic\nR Code\n\n\n\n\nMean\nt.test(x = data$variable, mu = \\(\\mu_0\\))\n\n\nProportion\nprop.test(x = #, n = #, p= \\(\\pi_0\\), correct=FALSE)\n\n\nRegression slope\nlm() summary\n\n\nDiff in mean\nt.test(x = data1$variable, y = data2$variable)\n\n\nDiff in proportion\nprop.test(x = c(#, #), n = c(#, #), correct=FALSE )"
+  },
+  {
     "objectID": "slides/lec10.html#todays-goals",
     "href": "slides/lec10.html#todays-goals",
     "title": "Multiple Regression  Chapter 6.0 - 6.1",
@@ -399,6 +469,69 @@
     "text": "Important information\n\nOrder of pipe operations matters!\nIf you are using & and | in the same filter be very careful and use parenthesis.\nMissing data is entered as NA in a data frame cell and can produce an error when using summarize unless you set na.rm=TRUE (ie: remove the NA values)."
   },
   {
+    "objectID": "slides/lec21.html#steps-for-conducting-a-hypothesis-test",
+    "href": "slides/lec21.html#steps-for-conducting-a-hypothesis-test",
+    "title": "Hypothesis Testing (12) Part 2",
+    "section": "Steps for conducting a Hypothesis test",
+    "text": "Steps for conducting a Hypothesis test\n\nFormulate a hypothesis. Define \\(H_0\\) and \\(H_A\\).\nDetermine a significance level (\\(\\alpha\\)), Type I error rate.\nDetermine your distribution under \\(H_0\\) (t-dist or normal).\nCollect your sample data and compute the test statistic.\nDetermine the p-value based on the test statistic.\nDraw conclusions in the context of the problem."
+  },
+  {
+    "objectID": "slides/lec21.html#decision-making",
+    "href": "slides/lec21.html#decision-making",
+    "title": "Hypothesis Testing (12) Part 2",
+    "section": "Decision Making",
+    "text": "Decision Making\n\nWhen p-value \\(< \\alpha\\) we reject the null hypothesis.\nWhen p-value \\(\\geq \\alpha\\) we fail to reject the null hypothesis.\nyou must select a significance level, \\(\\alpha\\) before collecting the data"
+  },
+  {
+    "objectID": "slides/lec21.html#sample-interpretation",
+    "href": "slides/lec21.html#sample-interpretation",
+    "title": "Hypothesis Testing (12) Part 2",
+    "section": "Sample Interpretation",
+    "text": "Sample Interpretation\nAssuming NULL HYPOTHESIS IS TRUE IN CONTEXT OF PROBLEM, there is about a PVALUE% chance of see data as extreme as mine. Since the p-value is less than (or greater than) our threshold ALPHA%, we reject (or fail to reject if greater than) the null hypothesis. This means CONCLUSION IN CONTEXT OF PROBLEM."
+  },
+  {
+    "objectID": "slides/lec21.html#two-tail-vs-one-tail-tests",
+    "href": "slides/lec21.html#two-tail-vs-one-tail-tests",
+    "title": "Hypothesis Testing (12) Part 2",
+    "section": "Two-tail vs one-tail tests",
+    "text": "Two-tail vs one-tail tests\n\nOne-tailed tests provides more power to detect an effect. You may be tempted to use a one-tailed test whenever you have a hypothesis about the direction of an effect.\nBefore doing so, consider the consequences of missing an effect in the other direction."
+  },
+  {
+    "objectID": "slides/lec21.html#example",
+    "href": "slides/lec21.html#example",
+    "title": "Hypothesis Testing (12) Part 2",
+    "section": "Example",
+    "text": "Example\nImagine you have developed a new drug that you believe is an improvement over an existing drug. You wish to maximize your ability to detect the improvement, so you opt for a one-tailed test.\n\nIn doing so, you fail to test for the possibility that the new drug is less effective than the existing drug.\nThe consequences in this example are extreme, but they illustrate a danger of inappropriate use of a one-tailed test."
+  },
+  {
+    "objectID": "slides/lec21.html#one-sided-vs-two-sided-tests-for-this-class",
+    "href": "slides/lec21.html#one-sided-vs-two-sided-tests-for-this-class",
+    "title": "Hypothesis Testing (12) Part 2",
+    "section": "One-sided vs two-sided tests for this class",
+    "text": "One-sided vs two-sided tests for this class\n\nWe focus on two-tailed tests in this class because it is the safe option and we do NOT want to miss an effect in the opposite direction.\n\nhttps://stats.oarc.ucla.edu/other/mult-pkg/faq/general/faq-what-are-the-differences-between-one-tailed-and-two-tailed-tests/"
+  },
+  {
+    "objectID": "slides/lec21.html#deeper-understanding",
+    "href": "slides/lec21.html#deeper-understanding",
+    "title": "Hypothesis Testing (12) Part 2",
+    "section": "Deeper understanding",
+    "text": "Deeper understanding\nWhich type of error is usually more of a priority?\n\nDepends on the situation\nAssess the consequences in order to decide\n\nWhich type of error is usually easier to control? Why?\n\nType I error because we choose the alpha level"
+  },
+  {
+    "objectID": "slides/lec21.html#deeper-understanding-continued",
+    "href": "slides/lec21.html#deeper-understanding-continued",
+    "title": "Hypothesis Testing (12) Part 2",
+    "section": "Deeper Understanding continued",
+    "text": "Deeper Understanding continued\nCan we lower both errors at the same time?\n\nNO!\nThere is a tradeoff between the two errors\nIt is not a 1-to-1 tradeoff\n\nCan we know if we made a correct decision?\n\nNO\nWe do not know the truth, that is why we are conducting a hypothesis test"
+  },
+  {
+    "objectID": "slides/lec21.html#deeper-understanding-cont",
+    "href": "slides/lec21.html#deeper-understanding-cont",
+    "title": "Hypothesis Testing (12) Part 2",
+    "section": "Deeper Understanding cont",
+    "text": "Deeper Understanding cont\nHow does sample size impact decision making?\n\nIncreasing the sample size decreases the p-value and the standard error while making the STAT more extreme\nAs a result, it is harder to detect statistical significance and reject the null with a smaller sample size\n\nNote: Just because something is statistically significant doesn’t mean it is practically significant."
+  },
+  {
     "objectID": "slides/lec07.html#todays-goals",
     "href": "slides/lec07.html#todays-goals",
     "title": "Tidy Data  Chapter 4",
@@ -439,6 +572,41 @@
     "title": "Tidy Data  Chapter 4",
     "section": "Example: EDA",
     "text": "Example: EDA\n\nlibrary(skimr)\nskim(penguins)\n\n\nData summary\n\n\nName\npenguins\n\n\nNumber of rows\n344\n\n\nNumber of columns\n8\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\nfactor\n3\n\n\nnumeric\n5\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: factor\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nordered\nn_unique\ntop_counts\n\n\n\n\nspecies\n0\n1.00\nFALSE\n3\nAde: 152, Gen: 124, Chi: 68\n\n\nisland\n0\n1.00\nFALSE\n3\nBis: 168, Dre: 124, Tor: 52\n\n\nsex\n11\n0.97\nFALSE\n2\nmal: 168, fem: 165\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\nhist\n\n\n\n\nbill_length_mm\n2\n0.99\n43.92\n5.46\n32.1\n39.23\n44.45\n48.5\n59.6\n▃▇▇▆▁\n\n\nbill_depth_mm\n2\n0.99\n17.15\n1.97\n13.1\n15.60\n17.30\n18.7\n21.5\n▅▅▇▇▂\n\n\nflipper_length_mm\n2\n0.99\n200.92\n14.06\n172.0\n190.00\n197.00\n213.0\n231.0\n▂▇▃▅▂\n\n\nbody_mass_g\n2\n0.99\n4201.75\n801.95\n2700.0\n3550.00\n4050.00\n4750.0\n6300.0\n▃▇▆▃▂\n\n\nyear\n0\n1.00\n2008.03\n0.82\n2007.0\n2007.00\n2008.00\n2009.0\n2009.0\n▇▁▇▁▇"
+  },
+  {
+    "objectID": "slides/lec15.html#overview-and-definitions",
+    "href": "slides/lec15.html#overview-and-definitions",
+    "title": "Repeated Sampling (9.2-9.4)",
+    "section": "Overview and Definitions",
+    "text": "Overview and Definitions\nThe theory of repeated samples makes it possible for statisticians to take a random sample from a population and use to make inference about that population’s parameters.\n\nRepeated Sampling: repeating the exact same random sampling procedure many times.\nSampling variability: some sample estimates are bigger and some smaller than the true population statistic"
+  },
+  {
+    "objectID": "slides/lec15.html#more-definitions",
+    "href": "slides/lec15.html#more-definitions",
+    "title": "Repeated Sampling (9.2-9.4)",
+    "section": "More Definitions",
+    "text": "More Definitions\n\nStandard error: the standard deviation of a sampling distribution\nSampling Distribution: a probability distribution of a statistic (mean, proportion, or variation) obtained from repeated sampling. This distribution is visualized with a histogram."
+  },
+  {
+    "objectID": "slides/lec15.html#simulations-in-r",
+    "href": "slides/lec15.html#simulations-in-r",
+    "title": "Repeated Sampling (9.2-9.4)",
+    "section": "Simulations in R",
+    "text": "Simulations in R\nThe theory of repeated samples is quite straight forward:\n\nImagine repeating the exact same random sampling procedure where you sampled 50 people from the population, say 10,000 times.\n\nFor each of the 10,000 samples, each with 50 people in them, calculate a sample statistic, say the sample mean. That is, you now have 10,000 sample means."
+  },
+  {
+    "objectID": "slides/lec15.html#simulations-in-r-continued",
+    "href": "slides/lec15.html#simulations-in-r-continued",
+    "title": "Repeated Sampling (9.2-9.4)",
+    "section": "Simulations in R continued",
+    "text": "Simulations in R continued\n\nNow examine the distribution of the 10,000 sample means. This distribution of sample means is know as a sampling distribution. A distribution that is the result of repeated sampling.\n\nCode in R:\n\nsim_data <- data %>% \n  rep_sample_n(size = 50, reps = 10000)"
+  },
+  {
+    "objectID": "slides/lec15.html#describing-a-sampling-distribution",
+    "href": "slides/lec15.html#describing-a-sampling-distribution",
+    "title": "Repeated Sampling (9.2-9.4)",
+    "section": "Describing a Sampling Distribution",
+    "text": "Describing a Sampling Distribution"
   },
   {
     "objectID": "slides/lec13.html#overview",
@@ -494,21 +662,14 @@
     "href": "slides/lec14.html#the-standard-normal-distribution",
     "title": "Distributions  Section 9.1",
     "section": "The Standard Normal Distribution",
-    "text": "The Standard Normal Distribution"
-  },
-  {
-    "objectID": "slides/lec14.html#standard-normal-distribution-properties",
-    "href": "slides/lec14.html#standard-normal-distribution-properties",
-    "title": "Distributions  Section 9.1",
-    "section": "Standard Normal Distribution Properties",
-    "text": "Standard Normal Distribution Properties\n\nThe area under the curve is 1 (or 100%)\nThe mean of the distribution is 0\nThe standard deviation of the distribution is 1\n\n \nNote: Can use the normal distribution in R or at https://homepage.divms.uiowa.edu/~mbognar/applets/normal.html"
+    "text": "The Standard Normal Distribution\n\n\n\n\nProperties\n\n\nThe area under the curve is 1 (or 100%)\nThe mean of the distribution is 0\nThe standard deviation of the distribution is 1\n\n\n \nNote: Can use the normal distribution in R or at https://homepage.divms.uiowa.edu/~mbognar/applets/normal.html"
   },
   {
     "objectID": "slides/lec14.html#empirical-rule",
     "href": "slides/lec14.html#empirical-rule",
     "title": "Distributions  Section 9.1",
     "section": "Empirical Rule",
-    "text": "Empirical Rule\n\nAround 68% of values are within one standard deviation from the mean.\nAround 95% of values are within two standard deviations from the mean.\nAround 99.7% of values are within three standard deviations from the mean."
+    "text": "Empirical Rule\n\n\nAround 68% of values are within one standard deviation from the mean.\nAround 95% of values are within two standard deviations from the mean.\nAround 99.7% of values are within three standard deviations from the mean."
   },
   {
     "objectID": "slides/lec14.html#empirical-rule-continued",
@@ -544,6 +705,97 @@
     "title": "Distributions  Section 9.1",
     "section": "The T-Distribution in R",
     "text": "The T-Distribution in R\n \n\npt(q = -1, df = 9)\nqt(p = .025, df = 9)\nqt(p = .025, df = 9, lower.tail=FALSE)"
+  },
+  {
+    "objectID": "slides/lec16.html#the-reality",
+    "href": "slides/lec16.html#the-reality",
+    "title": "Repeated Sampling (9.5-9.6)",
+    "section": "The Reality",
+    "text": "The Reality\nWe are never going to take thousands of samples and construct a sampling distribution. The concept of random sampling is entirely theoretical and lays the foundations for the derivations of the standard errors in Table 9.6."
+  },
+  {
+    "objectID": "slides/lec16.html#central-limit-theorem",
+    "href": "slides/lec16.html#central-limit-theorem",
+    "title": "Repeated Sampling (9.5-9.6)",
+    "section": "Central Limit Theorem",
+    "text": "Central Limit Theorem\nA sampling distribution of a mean (\\(\\bar{x})\\) will get closer and closer to the normal curve as the number of repetitions increases. This is true no matter the shape of the original data!\n\nThe mean of your sampling distribution is the same as the population mean. \\(mean(\\bar{x}) = \\mu\\).\nThe standard error of your sampling distribution is less than the spread of the population. \\(SE(\\bar{x}) = \\frac{\\sigma}{\\sqrt{n} }\\)\n\n\\[\\bar{x} \\sim N\\left(\\mu_{\\bar{x}} = \\mu_x, SE(\\bar{x})= \\frac{\\sigma_x}{\\sqrt{n}}\\right)\\]"
+  },
+  {
+    "objectID": "slides/lec16.html#what-makes-a-good-sample",
+    "href": "slides/lec16.html#what-makes-a-good-sample",
+    "title": "Repeated Sampling (9.5-9.6)",
+    "section": "What makes a good sample?",
+    "text": "What makes a good sample?\n\nrepresentative of the population\npicked at random (avoids bias)\nbig enough size to draw conclusions from (\\(n \\geq 30\\))\nindependent samples - includes less than 10% of the population (too big of a sample \\(n\\) will create dependence between samples)\nException: If the population is already normal, the results hold for samples of any size \\(n\\)"
+  },
+  {
+    "objectID": "slides/lec20.html#example",
+    "href": "slides/lec20.html#example",
+    "title": "Hypothesis Testing (12) Part 1",
+    "section": "Example",
+    "text": "Example\nSuppose Jill Thrillseeker is going sky diving. Jill will be inspecting the parachute before using it. No matter the inspection, we can never be 100% sure the parachute will work until we pull the rip cord to deploy it. Describe the 4 possible scenarios and their consequences.\n\n\\(H_0:\\) the parachute is packed correctly (meaning it will work)\n\\(H_A:\\) the parachute is not packed correctly (meaning it will not work)"
+  },
+  {
+    "objectID": "slides/lec20.html#possible-scenarios",
+    "href": "slides/lec20.html#possible-scenarios",
+    "title": "Hypothesis Testing (12) Part 1",
+    "section": "4 Possible Scenarios",
+    "text": "4 Possible Scenarios\n\n\n\n\nAlternative \\(H_A\\) is true\nNull \\(H_0\\) is true\n\n\n\n\nReject the null hypothesis\nScenario 1\nScenario 2\n\n\nDo not reject the null hypothesis\nScenario 3\nScenario 4"
+  },
+  {
+    "objectID": "slides/lec20.html#scenario-1-correct-decision",
+    "href": "slides/lec20.html#scenario-1-correct-decision",
+    "title": "Hypothesis Testing (12) Part 1",
+    "section": "Scenario 1: Correct Decision",
+    "text": "Scenario 1: Correct Decision\n\nTrue Positive\nDecision: Jill decides the parachute is NOT packed correctly\nTruth: parachute was NOT packed correctly\nResult: The parachute was NOT packed correctly and Jill decides to repack it. Jill’s life is saved!"
+  },
+  {
+    "objectID": "slides/lec20.html#scenario-2-type-i-error",
+    "href": "slides/lec20.html#scenario-2-type-i-error",
+    "title": "Hypothesis Testing (12) Part 1",
+    "section": "Scenario 2: Type I Error",
+    "text": "Scenario 2: Type I Error\n\nFalse Positive\nDecision: Jill decides the parachute is NOT packed correctly\nTruth: parachute was packed correctly all along\nResult: Jill wasted time and energy repacking the parachute"
+  },
+  {
+    "objectID": "slides/lec20.html#scenario-3-type-ii-error",
+    "href": "slides/lec20.html#scenario-3-type-ii-error",
+    "title": "Hypothesis Testing (12) Part 1",
+    "section": "Scenario 3: Type II Error",
+    "text": "Scenario 3: Type II Error\n\nFalse Negative\nDecision: Jill decides the parachute is packed correctly\nTruth: parachute was NOT packed correctly\nResult: Jill jumps out with a bad parachute and probably dies"
+  },
+  {
+    "objectID": "slides/lec20.html#scenario-4-correct-decision",
+    "href": "slides/lec20.html#scenario-4-correct-decision",
+    "title": "Hypothesis Testing (12) Part 1",
+    "section": "Scenario 4: Correct Decision",
+    "text": "Scenario 4: Correct Decision\n\nTrue Negative\nDecision: Jill decides the parachute is packed correctly\nTruth: parachute was packed correctly\nResult: The parachute is packed correctly and opens, so Jill floats safely to the ground"
+  },
+  {
+    "objectID": "slides/lec20.html#results-from-the-4-possible-scenarios",
+    "href": "slides/lec20.html#results-from-the-4-possible-scenarios",
+    "title": "Hypothesis Testing (12) Part 1",
+    "section": "Results from the 4 Possible Scenarios",
+    "text": "Results from the 4 Possible Scenarios\n\n\n\n\nAlternative \\(H_A\\) is true\nNull \\(H_0\\) is true\n\n\n\n\nReject the null hypothesis\nCorrect Decision\nType I Error\n\n\nDo not reject the null hypothesis\nType II Error\nCorrect Decision"
+  },
+  {
+    "objectID": "slides/lec20.html#type-i-error",
+    "href": "slides/lec20.html#type-i-error",
+    "title": "Hypothesis Testing (12) Part 1",
+    "section": "Type I Error",
+    "text": "Type I Error\n\nReject the null hypothesis when it is true\nFalse Positive\nSignificance level\n\\(\\alpha\\) = probability of a Type I error"
+  },
+  {
+    "objectID": "slides/lec20.html#type-ii-error",
+    "href": "slides/lec20.html#type-ii-error",
+    "title": "Hypothesis Testing (12) Part 1",
+    "section": "Type II error",
+    "text": "Type II error\n\nFail to reject the null hypothesis when it is false\nFalse Negative\n\\(\\beta\\) = probability of a Type II error"
+  },
+  {
+    "objectID": "slides/lec20.html#power",
+    "href": "slides/lec20.html#power",
+    "title": "Hypothesis Testing (12) Part 1",
+    "section": "Power",
+    "text": "Power\n\nThe probability of correctly rejecting the null hypothesis when it is false\nCorrect rejection decision\n\\(\\textbf{Power} = 1 - \\beta\\)"
   },
   {
     "objectID": "slides/lec08.html#todays-goals",
@@ -1078,6 +1330,62 @@
     "text": "Data Wrangling Example\n\n\n\nWhat if we want to start with our penguins dataset, then keep only observations that are not missing their body_mass_g, and then calculate the count by species, and then order the dataset from low to high.\na)\n\npenguins %>% \n  filter(!is.na(body_mass_g)) %>% \n  group_by(species) %>% \n  summarize(count = n()) %>% \n  arrange(count)\n\nb)\n\npenguins %>% \n  select(body_mass_g) %>% \n  group_by(species) %>% \n  summarize(count = n()) %>% \n  arrange(count)\n\nc)\n\npenguins %>% \n  filter(!is.na(body_mass_g)) %>% \n  group_by(species) %>% \n  summarize(count = n()) %>% \n  arrange(desc(count))\n\nd)\n\npenguins %>% \n  select(!is.na(body_mass_g)) %>% \n  summarize(count = n()) %>% \n  group_by(species) %>% \n  arrange(count)"
   },
   {
+    "objectID": "slides/lec18.html#why-do-we-need-cis",
+    "href": "slides/lec18.html#why-do-we-need-cis",
+    "title": "Confidence Intervals (10) Part 2",
+    "section": "Why do we need CIs?",
+    "text": "Why do we need CIs?\nReporting a range of values via a confidence interval takes into account the uncertainty (sampling variation) associated with the fact that we are observing a single random sample.\n\nWe know a sampling distribution (thousands of replicate samples) center around the population parameter.\nWe don’t know the true value of the population parameter.\nWe know a sampling distribution is normally distributed (CLT)"
+  },
+  {
+    "objectID": "slides/lec18.html#more-on-why-we-need-cis",
+    "href": "slides/lec18.html#more-on-why-we-need-cis",
+    "title": "Confidence Intervals (10) Part 2",
+    "section": "More on why we need CIs",
+    "text": "More on why we need CIs\n\nWe have no idea where our single sample falls in the sampling distribution (close to the population parameter or far away)."
+  },
+  {
+    "objectID": "slides/lec18.html#check-your-understanding",
+    "href": "slides/lec18.html#check-your-understanding",
+    "title": "Confidence Intervals (10) Part 2",
+    "section": "Check your understanding",
+    "text": "Check your understanding\n\nWhen we use a \\(95\\%\\) critical value, approximately \\(95\\%\\) of the confidence intervals contain the true population parameter (e.g. \\(\\mu\\), \\(\\mu_1 - \\mu_2\\), etc).\nSay we generate 20,000 sample means and construct a 95% CI for each sample. We EXPECT 20000*.95 = 19,000 of the constructed confidence intervals to contain the true population mean."
+  },
+  {
+    "objectID": "slides/lec18.html#width-of-an-interval-margin-of-error",
+    "href": "slides/lec18.html#width-of-an-interval-margin-of-error",
+    "title": "Confidence Intervals (10) Part 2",
+    "section": "Width of an Interval (Margin of Error)",
+    "text": "Width of an Interval (Margin of Error)\n\\[\\mathbf{\\hbox{Margin of Error}} = \\hbox{Critical  Value} * SE(\\hbox{Estimator})\\]\nThere is a trade-off between the width of an interval and the level of confidence (critical value).\n\nUsing a lower CI (ex: 90% vs 95%) decreases the margin of error (narrower interval), but a narrower CI increase the chance that your interval will not capture the true mean."
+  },
+  {
+    "objectID": "slides/lec18.html#width-of-an-interval-margin-of-error-continued",
+    "href": "slides/lec18.html#width-of-an-interval-margin-of-error-continued",
+    "title": "Confidence Intervals (10) Part 2",
+    "section": "Width of an Interval (Margin of Error) continued",
+    "text": "Width of an Interval (Margin of Error) continued\n\nA 99% CI has a higher chance of capturing the true mean than a 95% CI, but it might be too wide of an interval to be practically useful.\nYou can also decrease the margin of error by increasing sample size."
+  },
+  {
+    "objectID": "slides/lec18.html#example-part-1",
+    "href": "slides/lec18.html#example-part-1",
+    "title": "Confidence Intervals (10) Part 2",
+    "section": "Example Part 1",
+    "text": "Example Part 1\nYou sample 80 newborn babies and calculate a mean weight of 7.5 pounds and standard deviation of 0.7 pounds.\nWe want to construct a 95% confidence area for the population mean.\n\nGiven values: \\(\\bar{x} = 7.5\\), \\(s = 0.7\\)\nCalculate SE: \\(SE = \\frac{0.7}{\\sqrt{80}} = 0.078\\)\nCalculate Critical Value: qt(p=0.025, df=79) \\(= -1.99\\)\n\nResulting CI: \\(7.5 \\pm 1.99*0.078 = [7.34, 7.66]\\)"
+  },
+  {
+    "objectID": "slides/lec18.html#example-part-2",
+    "href": "slides/lec18.html#example-part-2",
+    "title": "Confidence Intervals (10) Part 2",
+    "section": "Example Part 2",
+    "text": "Example Part 2\nYou increase the sample size in Example 1 and sample 200 newborn babies. The sample mean weight is still 7.5 pounds and sample standard deviation is 0.7 pounds.\nWe want to construct a 95% confidence area for the population mean.\n\nGiven values: \\(\\bar{x} = 7.5\\), \\(s = 0.7\\)\nCalculate SE: \\(SE = \\frac{0.7}{\\sqrt{200}} = 0.0495\\)\nCalculate Critical Value: qt(p=0.025,df=199) \\(= -1.97\\)\n\nResulting CI: \\(7.5 \\pm 1.97*0.0495 = [7.40, 7.60]\\)"
+  },
+  {
+    "objectID": "slides/lec18.html#r-code-to-obtain-cis-from-data-sets",
+    "href": "slides/lec18.html#r-code-to-obtain-cis-from-data-sets",
+    "title": "Confidence Intervals (10) Part 2",
+    "section": "R Code to obtain CIs from data sets",
+    "text": "R Code to obtain CIs from data sets\n\n\n\n\n\n\n\nStatistic\nR Code\n\n\n\n\nMean\nt.test(x = data$variable, conf.level = 0.95) }\n\n\nProportion\nprop.test(x = #, n = #, conf.level = 0.95, correct=FALSE)\n\n\nDiff in mean\nt.test(x = data1$variable, y = data2$variable, conf.level = 0.95)\n\n\nDiff in proportion\nprop.test(x = c(#, #), n = c(#, #), conf.level = 0.95, correct=FALSE )\n\n\nRegression\nconfint(model, level = 0.95)"
+  },
+  {
     "objectID": "slides/lec04.html#todays-goals",
     "href": "slides/lec04.html#todays-goals",
     "title": "Data Visualization  Sections 2.7 - 2.9",
@@ -1139,6 +1447,76 @@
     "title": "Data Visualization  Sections 2.7 - 2.9",
     "section": "Extra information and resources",
     "text": "Extra information and resources\n“factor” vs “character” variable\n\nfactor has predefined levels and the observation must be one of those levels (limited response options).\ncharacter can take on any string value (think open response options)\nFactors in R"
+  },
+  {
+    "objectID": "slides/lec17.html#overview",
+    "href": "slides/lec17.html#overview",
+    "title": "Confidence Intervals (10) Part 1",
+    "section": "Overview",
+    "text": "Overview\nWe will collect one sample, and use the theoretical properties of the sampling distribution (ie: the mean and standard error) to make inferences about the population!"
+  },
+  {
+    "objectID": "slides/lec17.html#sampling-distribution-properties",
+    "href": "slides/lec17.html#sampling-distribution-properties",
+    "title": "Confidence Intervals (10) Part 1",
+    "section": "Sampling Distribution Properties",
+    "text": "Sampling Distribution Properties\n\n\n\n\n\n\n\n\n\n\nStatistic\nPopulation parameter\nEstimator\nSE of estimator\nCritical Value Distribution\n\n\n\n\nMean\n\\(\\mu\\)\n\\(\\bar{x}\\)\n\\(\\frac{s}{\\sqrt{n} }\\)\nt(df=n-1)\n\n\nDifference in means\n\\(\\mu_1-\\mu_2\\)\n\\(\\bar{x}_1-\\bar{x}_2\\)\n\\(\\sqrt{\\frac{s_1^2}{n_1} + \\frac{s_2^2}{n_2} }\\)\n\\(t(df=\\) min[n_1-1, n_2-1])\n\n\nProportion\n\\(\\pi\\)\n\\(\\hat{\\pi}\\)\n\\(\\sqrt{\\frac{\\hat{\\pi}(1-\\hat{\\pi})}{n} }\\)\nN(0,1)"
+  },
+  {
+    "objectID": "slides/lec17.html#sampling-distribution-properties-cont",
+    "href": "slides/lec17.html#sampling-distribution-properties-cont",
+    "title": "Confidence Intervals (10) Part 1",
+    "section": "Sampling Distribution Properties cont",
+    "text": "Sampling Distribution Properties cont\n\n\n\n\n\n\n\n\n\n\nStatistic\nPopulation parameter\nEstimator\nSE of estimator\nCritical Value Distribution\n\n\n\n\nDifference in proportions\n\\(\\pi_1-\\pi_2\\)\n\\(\\hat{\\pi_1}-\\hat{\\pi_2}\\)\n\\(\\sqrt{\\frac{\\hat{\\pi_1}(1-\\hat{\\pi_1})}{n_1} + \\frac{\\hat{\\pi_2}(1-\\hat{\\pi_2})}{n_2} }\\)\nN(0,1)\n\n\nRegression intercept\n\\(\\beta_0\\)\n\\(b_0\\)\n\\(\\sqrt{ s_y^2 [\\frac{1}{n} + \\frac{\\bar{x}^2}{(n-1) s_x^2} ] }\\)\nt(df=n-2)\n\n\nRegression slope\n\\(\\beta_1\\)\n\\(b_1\\)\n\\(\\sqrt{\\frac{s_y^2}{(n-1) s_x^2} }\\)\nt(df=n-2)"
+  },
+  {
+    "objectID": "slides/lec17.html#special-note",
+    "href": "slides/lec17.html#special-note",
+    "title": "Confidence Intervals (10) Part 1",
+    "section": "Special note",
+    "text": "Special note\nIf the population standard deviation is known, \\(\\sigma\\) (rare!) you use the normal distribution instead of the t-distribution. (ie: use \\(\\sigma\\) instead of \\(s\\))"
+  },
+  {
+    "objectID": "slides/lec17.html#standardization-of-a-sampling-distribution",
+    "href": "slides/lec17.html#standardization-of-a-sampling-distribution",
+    "title": "Confidence Intervals (10) Part 1",
+    "section": "Standardization of a sampling distribution",
+    "text": "Standardization of a sampling distribution\n \n\\[\\hbox{STAT} = \\frac{\\hbox{Estimator} - Mean(\\hbox{Estimator})}{SE(\\hbox{Estimator})}\\]\n \nThis is the SAME formula as Chapter 9.1 only this time instead of population parameters we are using the sampling distribution parameters!!"
+  },
+  {
+    "objectID": "slides/lec17.html#example",
+    "href": "slides/lec17.html#example",
+    "title": "Confidence Intervals (10) Part 1",
+    "section": "Example",
+    "text": "Example\n \nExample: You are interested in the average GPA at NU. You randomly survey 100 students and calculate a sample mean of 3.15 and sample standard deviation of 0.2.\n\nGOAL: Calculate the Estimator and SE of Estimator for a single sample.\nGiven values: \\(\\bar{x} = 3.15\\), \\(s = 0.2\\)\nCalculated values: \\(SE = \\frac{0.2}{\\sqrt{100}}=0.02\\)"
+  },
+  {
+    "objectID": "slides/lec17.html#confidence-intervals",
+    "href": "slides/lec17.html#confidence-intervals",
+    "title": "Confidence Intervals (10) Part 1",
+    "section": "Confidence Intervals",
+    "text": "Confidence Intervals\n\nA confidence interval (CI) gives a range of plausible values for a parameter. It allows us to combine an estimator with a measure of its precision (i.e. its standard error).\n\n\\[\\hbox{Estimator} \\pm \\hbox{Critical  Value} * SE(\\hbox{Estimator})\\]\n\nSampling distribution properties are used to construct CIs for a population parameter."
+  },
+  {
+    "objectID": "slides/lec17.html#terminology",
+    "href": "slides/lec17.html#terminology",
+    "title": "Confidence Intervals (10) Part 1",
+    "section": "Terminology",
+    "text": "Terminology\nCritical value vs STAT\n\nThey both define a point on a standardized distribution.\nCritical value generally acts as a pre-defined threshold\nSTAT (test statistic) is generally used for a value computed from sampling data."
+  },
+  {
+    "objectID": "slides/lec17.html#example-continued",
+    "href": "slides/lec17.html#example-continued",
+    "title": "Confidence Intervals (10) Part 1",
+    "section": "Example continued",
+    "text": "Example continued\nWe want to compute a 95% confidence interval for the example.\n\nBy Hand: \\[\\hbox{Estimator} \\pm \\hbox{Critical  Value} * SE(\\hbox{Estimator})\\] \\[= 3.15 \\pm 1.98*0.02 = [3.11, 3.19]\\]\nIn R: qt(p = 0.025, df = 99)"
+  },
+  {
+    "objectID": "slides/lec17.html#example-interpretation",
+    "href": "slides/lec17.html#example-interpretation",
+    "title": "Confidence Intervals (10) Part 1",
+    "section": "Example Interpretation",
+    "text": "Example Interpretation\n\nWe are 95% confident that the average GPA of all students at NU (my population) is between 3.11 and 3.19.\n\nIncorrect Interpretations:\n\n95% of all students GPA at NU is between 3.11 and 3.19.\nThere is a 95% chance that the average GPA of all students at NU (my population) is between 3.11 and 3.19."
   },
   {
     "objectID": "course-project.html",
