@@ -107,6 +107,8 @@ d) no causal conclusions (correlation only) only applicable to the sample
 -   **Systematic Sampling**: select some starting point, then every $k^{th}$ observation of the population is selected.
 :::
 
+. . .
+
 <!-- ::: {layout="[20,20,20,20]"} -->
 
 ::: columns
@@ -135,7 +137,7 @@ d)
 ![](images_lecture/participate_icon.png)
 :::
 
-Northwestern University is deciding which undergraduate students to test for COVID this week and due to limited resources we cannot test the entire undergraduate student body at once.
+Northwestern University is deciding which undergraduate students to test for COVID this week and due to limited resources they cannot test the entire undergraduate student body at once.
 
 -   **Population of interest**: undergraduate students at NU
 
