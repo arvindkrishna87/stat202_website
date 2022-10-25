@@ -1,9 +1,24 @@
 ---
-title: "Confidence Intervals (10) Part 2"
-format: revealjs
-editor: visual
----
+title: "Confidence Intervals <br> Chapter 10 Part 2"
+institute: "Department of Statistics and Data Science <br> STAT 202"
 
+logo: nu_logo.png
+format: 
+  revealjs:
+    theme: [default, nu_theme.scss]
+    chalkboard:
+      theme: whiteboard
+      toggleNotesButton: false
+    menu:
+        side: right
+    code-line-numbers: false
+    scrollable: true
+
+execute:
+  message: false
+  warning: false
+  echo: true
+---
 
 ## Why do we need CIs?
 
@@ -17,23 +32,13 @@ Reporting a range of values via a confidence interval takes into account the unc
 
 -   We have no idea where our single sample falls in the sampling distribution (close to the population parameter or far away).
 
+<center>![](images/lecture_images/sample_CI.PNG){#id .class width="70%" height="90%"}</center>
 
+## Check your understanding
 
-<center>
+-   When we use a $95\%$ critical value, approximately $95\%$ of the confidence intervals contain the true population parameter (e.g. $\mu$, $\mu_1 - \mu_2$, etc).
 
-![](images/lecture_images/sample_CI.PNG){#id .class width=70% height=90%}
-
-</center>
-
-
-
-## Check your understanding 
-
--   When we use a $95\%$ critical value, approximately $95\%$ of the confidence intervals contain the true population parameter (e.g. $\mu$, $\mu_1 - \mu_2$, etc).  
-
--   Say we generate 20,000 sample means and construct a 95% CI for each sample. We EXPECT 20000*.95 = 19,000 of the constructed confidence intervals to contain the true population mean.
-
-
+-   Say we generate 20,000 sample means and construct a 95% CI for each sample. We EXPECT 20000\*.95 = 19,000 of the constructed confidence intervals to contain the true population mean.
 
 ## Width of an Interval (Margin of Error)
 
@@ -41,22 +46,19 @@ $$\mathbf{\hbox{Margin of Error}} = \hbox{Critical  Value} * SE(\hbox{Estimator}
 
 There is a trade-off between the width of an interval and the level of confidence (critical value).
 
-
 -   Using a lower CI (ex: 90% vs 95%) decreases the margin of error (narrower interval), but a narrower CI increase the chance that your interval will not capture the true mean.
-
 
 ## Width of an Interval (Margin of Error) continued
 
 -   A 99% CI has a higher chance of capturing the true mean than a 95% CI, but it might be too wide of an interval to be practically useful.
 
--   You can also decrease the margin of error by increasing sample size. 
+-   You can also decrease the margin of error by increasing sample size.
 
+## Example Part 1
 
-## Example Part 1 
+You sample 80 newborn babies and calculate a mean weight of 7.5 pounds and standard deviation of 0.7 pounds.
 
-You sample 80 newborn babies and calculate a mean weight of 7.5 pounds and standard deviation of 0.7 pounds. 
-
-We want to construct a 95% confidence area for the population mean. 
+We want to construct a 95% confidence area for the population mean.
 
 -   **Given values**: $\bar{x} = 7.5$, $s = 0.7$
 -   **Calculate SE**: $SE = \frac{0.7}{\sqrt{80}} = 0.078$
@@ -64,12 +66,11 @@ We want to construct a 95% confidence area for the population mean.
 
 **Resulting CI**: $7.5 \pm 1.99*0.078 = [7.34, 7.66]$
 
+## Example Part 2
 
-## Example Part 2 
+You increase the sample size in Example 1 and sample 200 newborn babies. The sample mean weight is still 7.5 pounds and sample standard deviation is 0.7 pounds.
 
-You increase the sample size in Example 1 and sample 200 newborn babies. The sample mean weight is still 7.5 pounds and sample standard deviation is 0.7 pounds. 
-
-We want to construct a 95% confidence area for the population mean. 
+We want to construct a 95% confidence area for the population mean.
 
 -   **Given values**: $\bar{x} = 7.5$, $s = 0.7$
 -   **Calculate SE**: $SE = \frac{0.7}{\sqrt{200}} = 0.0495$
@@ -77,15 +78,12 @@ We want to construct a 95% confidence area for the population mean.
 
 **Resulting CI**: $7.5 \pm 1.97*0.0495 = [7.40, 7.60]$
 
-
-
 ## R Code to obtain CIs from data sets
 
-|Statistic |R Code |
-|----|-------------|
-|Mean|t.test(x = data\$variable, conf.level = 0.95)  }|
-|Proportion|prop.test(x = #, n = #, conf.level = 0.95, correct=FALSE)|
-|Diff in mean|t.test(x = data1\$variable, y = data2\$variable, conf.level = 0.95)|
-|Diff in proportion|prop.test(x = c(#, #), n = c(#, #), conf.level = 0.95, correct=FALSE )|
-|Regression|confint(model, level = 0.95)|
-
+| Statistic          | R Code                                                                 |
+|------------------|------------------------------------------------------|
+| Mean               | t.test(x = data\$variable, conf.level = 0.95) }                        |
+| Proportion         | prop.test(x = #, n = #, conf.level = 0.95, correct=FALSE)              |
+| Diff in mean       | t.test(x = data1\$variable, y = data2\$variable, conf.level = 0.95)    |
+| Diff in proportion | prop.test(x = c(#, #), n = c(#, #), conf.level = 0.95, correct=FALSE ) |
+| Regression         | confint(model, level = 0.95)                                           |

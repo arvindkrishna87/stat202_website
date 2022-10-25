@@ -1,7 +1,23 @@
 ---
-title: "Confidence Intervals (10) Part 1"
-format: revealjs
-editor: visual
+title: "Confidence Intervals <br> Chapter 10 Part 1"
+institute: "Department of Statistics and Data Science <br> STAT 202"
+
+logo: nu_logo.png
+format: 
+  revealjs:
+    theme: [default, nu_theme.scss]
+    chalkboard:
+      theme: whiteboard
+      toggleNotesButton: false
+    menu:
+        side: right
+    code-line-numbers: false
+    scrollable: true
+
+execute:
+  message: false
+  warning: false
+  echo: true
 ---
 
 ## Overview
@@ -11,7 +27,7 @@ We will collect one sample, and use the theoretical properties of the sampling d
 ## Sampling Distribution Properties
 
 | Statistic           | Population parameter | Estimator             | SE of estimator                                 | Critical Value Distribution  |
-|---------------------|----------------------|-----------------------|-------------------------------------------------|------------------------------|
+|-------------|-------------|-------------|-------------------|-------------|
 | Mean                | $\mu$                | $\bar{x}$             | $\frac{s}{\sqrt{n} }$                           | t(df=n-1)                    |
 | Difference in means | $\mu_1-\mu_2$        | $\bar{x}_1-\bar{x}_2$ | $\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2} }$ | $t(df=$ min\[n_1-1, n_2-1\]) |
 | Proportion          | $\pi$                | $\hat{\pi}$           | $\sqrt{\frac{\hat{\pi}(1-\hat{\pi})}{n} }$      | N(0,1)                       |
@@ -19,7 +35,7 @@ We will collect one sample, and use the theoretical properties of the sampling d
 ## Sampling Distribution Properties cont
 
 | Statistic                 | Population parameter | Estimator                 | SE of estimator                                                                           | Critical Value Distribution |
-|---------------------------|----------------------|---------------------------|-------------------------------------------------------------------------------------------|-----------------------------|
+|------------|------------|------------|--------------------------|------------|
 | Difference in proportions | $\pi_1-\pi_2$        | $\hat{\pi_1}-\hat{\pi_2}$ | $\sqrt{\frac{\hat{\pi_1}(1-\hat{\pi_1})}{n_1} + \frac{\hat{\pi_2}(1-\hat{\pi_2})}{n_2} }$ | N(0,1)                      |
 | Regression intercept      | $\beta_0$            | $b_0$                     | $\sqrt{ s_y^2 [\frac{1}{n} + \frac{\bar{x}^2}{(n-1) s_x^2} ] }$                           | t(df=n-2)                   |
 | Regression slope          | $\beta_1$            | $b_1$                     | $\sqrt{\frac{s_y^2}{(n-1) s_x^2} }$                                                       | t(df=n-2)                   |
