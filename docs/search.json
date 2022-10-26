@@ -242,7 +242,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Chapter 8"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 9.0 - 9.1"
   },
   {
     "objectID": "index.html#participate",
@@ -256,7 +256,7 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    App for Activity 13\n\n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_13"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    Activity 14 Worksheet\n\n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_14"
   },
   {
     "objectID": "index.html#homework-due-thu-oct-20-1159pm",
@@ -1601,5 +1601,26 @@
     "title": "Hypothesis Testing  Chapter 12 Part 1",
     "section": "Deeper Understanding cont",
     "text": "Deeper Understanding cont\nHow does sample size impact decision making?\n\nIncreasing the sample size decreases the p-value and the standard error while making the STAT more extreme\nAs a result, it is harder to detect statistical significance and reject the null with a smaller sample size\n\nNote: Just because something is statistically significant doesn’t mean it is practically significant."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Today’s Agenda",
+    "section": "",
+    "text": "Important\n\n\n\nExam 2 is Monday October 31 over Sections 5 - 9.1\nPractice Exam is posted."
+  },
+  {
+    "objectID": "index.html#class-wed-oct-26",
+    "href": "index.html#class-wed-oct-26",
+    "title": "Today’s Agenda",
+    "section": "Class: Wed Oct 26",
+    "text": "Class: Wed Oct 26"
+  },
+  {
+    "objectID": "index.html#homework-due-thu-oct-27-1159pm",
+    "href": "index.html#homework-due-thu-oct-27-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Thu Oct 27 11:59pm",
+    "text": "Homework Due Thu Oct 27 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_14\n\n     Read Sections 9.2 - 9.3\n\n    Complete and submit  RC_14"
   }
 ]

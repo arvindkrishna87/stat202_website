@@ -8,12 +8,14 @@ execute:
   echo: false
 ---
 
-<!-- ::: callout-important -->
+::: callout-important
 
-<!-- 9am Class Only: We are on zoom for 10 -->
+Exam 2 is Monday October 31 over Sections 5 - 9.1
+
+Practice Exam is posted.
 <!-- https://northwestern.zoom.us/j/99863923813 -->
 
-<!-- ::: -->
+:::
 
 ```{r}
 #library(tidyverse)
