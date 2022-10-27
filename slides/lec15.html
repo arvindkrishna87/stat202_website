@@ -394,45 +394,49 @@
   <p class="institute">Department of Statistics and Data Science <br> STAT 202</p>
 </section>
 
-<section id="overview-and-definitions" class="slide level2">
-<h2>Overview and Definitions</h2>
-<p>The theory of <strong>repeated samples</strong> makes it possible for statisticians to take a random sample from a population and use to make inference about that population’s parameters.</p>
+<section id="overview" class="slide level2 smaller">
+<h2>Overview</h2>
+<p>The theory of <strong>repeated samples</strong> makes it possible for statisticians to take a random sample from a population and use it to make inference about that population’s parameters.</p>
+<div class="fragment">
+<p><br></p>
+<p><strong>Definitions:</strong></p>
+<div>
 <ul>
-<li><p><strong>Repeated Sampling</strong>: repeating the exact same random sampling procedure many times.</p></li>
-<li><p><strong>Sampling variability</strong>: some sample estimates are bigger and some smaller than the true population statistic</p></li>
+<li class="fragment"><strong>Repeated Sampling</strong>: repeating the exact same random sampling procedure many times.</li>
+<li class="fragment"><strong>Sampling variability</strong>: some sample estimates are bigger and some smaller than the true population statistic</li>
+<li class="fragment"><strong>Standard error</strong>: the standard deviation of a sampling distribution</li>
+<li class="fragment"><strong>Sampling Distribution</strong>: a probability distribution of a statistic (mean, proportion, or variation) obtained from repeated sampling. This distribution is visualized with a histogram.</li>
 </ul>
+</div>
+</div>
 </section>
-<section id="more-definitions" class="slide level2">
-<h2>More Definitions</h2>
-<ul>
-<li><strong>Standard error</strong>: the standard deviation of a sampling distribution</li>
-<li><strong>Sampling Distribution</strong>: a probability distribution of a statistic (mean, proportion, or variation) obtained from repeated sampling. This distribution is visualized with a histogram.</li>
-</ul>
-</section>
-<section id="simulations-in-r" class="slide level2">
+<section id="simulations-in-r" class="slide level2 smaller">
 <h2>Simulations in R</h2>
 <p>The theory of repeated samples is quite straight forward:</p>
+<div>
 <ol type="1">
-<li>Imagine repeating the exact same <em>random sampling</em> procedure where you sampled 50 people from the population, say 10,000 times.<br>
+<li class="fragment">Imagine repeating the exact same <em>random sampling</em> procedure where you sampled 50 people from the population, say 10,000 times.<br>
 </li>
-<li>For each of the 10,000 samples, each with 50 people in them, calculate a sample statistic, say the sample mean. That is, you now have 10,000 sample means.</li>
+<li class="fragment">For each of the 10,000 samples, each with 50 people in them, calculate a sample statistic, say the sample mean. That is, you now have 10,000 sample means.</li>
+<li class="fragment">Now examine the distribution of the 10,000 sample means. This distribution of sample means is know as a sampling distribution. A distribution that is the result of repeated sampling.</li>
 </ol>
-</section>
-<section id="simulations-in-r-continued" class="slide level2">
-<h2>Simulations in R continued</h2>
-<ol start="3" type="1">
-<li>Now examine the distribution of the 10,000 sample means. This distribution of sample means is know as a sampling distribution. A distribution that is the result of repeated sampling.</li>
-</ol>
+</div>
+<div class="fragment">
 <p><strong>Code in R</strong>:</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>sim_data <span class="ot">&lt;-</span> data <span class="sc">%&gt;%</span> </span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rep_sample_n</span>(<span class="at">size =</span> <span class="dv">50</span>, <span class="at">reps =</span> <span class="dv">10000</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+</div>
+</section>
+<section id="simple-example" class="slide level2 smaller">
+<h2>Simple example</h2>
+<p>Let’s say we want to estimate the average height of a college student. You take a random sample of size 2. And repeat this procedure 4 times.</p>
 </section>
 <section id="describing-a-sampling-distribution" class="slide level2">
 <h2>Describing a Sampling Distribution</h2>
 <center>
-<img data-src="images/lecture_images/describe_histogram.PNG">
+<img data-src="images_lecture/describe_histogram.png">
 </center>
 
 <p><img src="nu_logo.png" class="slide-logo"></p>
