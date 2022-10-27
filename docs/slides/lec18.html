@@ -9,7 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.1.251">
 
-  <title>STAT 202 - Confidence Intervals  Chapter 10 Part 2</title>
+  <title>STAT 202 - Confidence Intervals  Chapter 10  (Part 2)</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -326,78 +326,109 @@
     <div class="slides">
 
 <section id="title-slide" class="center">
-  <h1 class="title">Confidence Intervals <br> Chapter 10 Part 2</h1>
+  <h1 class="title">Confidence Intervals <br> Chapter 10 <br> (Part 2)</h1>
   <p class="institute">Department of Statistics and Data Science <br> STAT 202</p>
 </section>
 
-<section id="why-do-we-need-cis" class="slide level2">
+<section id="why-do-we-need-cis" class="slide level2 smaller">
 <h2>Why do we need CIs?</h2>
 <p>Reporting a range of values via a confidence interval takes into account the uncertainty (sampling variation) associated with the fact that we are observing a single random sample.</p>
+<div>
 <ul>
-<li>We know a sampling distribution (thousands of replicate samples) center around the population parameter.</li>
-<li>We don’t know the true value of the population parameter.</li>
-<li>We know a sampling distribution is normally distributed (CLT)</li>
+<li class="fragment">We know a sampling distribution (thousands of replicate samples) center around the population parameter.</li>
+<li class="fragment">We don’t know the true value of the population parameter.</li>
+<li class="fragment">We know a sampling distribution is normally distributed (CLT)</li>
+<li class="fragment">We have no idea where our single sample falls in the sampling distribution (close to the population parameter or far away).</li>
 </ul>
-</section>
-<section id="more-on-why-we-need-cis" class="slide level2">
-<h2>More on why we need CIs</h2>
-<ul>
-<li>We have no idea where our single sample falls in the sampling distribution (close to the population parameter or far away).</li>
-</ul>
-<center>
-<img data-src="images/lecture_images/sample_CI.PNG" id="id" class="class" style="width:70.0%;height:90.0%">
-</center>
+</div>
+<div class="fragment">
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img data-src="images_lecture/sampling_dist.png"></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img data-src="images_lecture/sample_CI.png"></p>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="check-your-understanding" class="slide level2">
 <h2>Check your understanding</h2>
+<p>When we use a <span class="math inline">\(95\%\)</span> critical value, approximately <span class="math inline">\(95\%\)</span> of the confidence intervals contain the true population parameter (e.g.&nbsp;<span class="math inline">\(\mu\)</span>, <span class="math inline">\(\mu_1 - \mu_2\)</span>, <span class="math inline">\(\pi\)</span>, etc).</p>
+<p><br></p>
+<p>Say we generate 20,000 sample means and construct a 95% CI for each sample. How many of the constructed confidence intervals do you expect to cantain the true population mean?</p>
+<div class="fragment">
 <ul>
-<li><p>When we use a <span class="math inline">\(95\%\)</span> critical value, approximately <span class="math inline">\(95\%\)</span> of the confidence intervals contain the true population parameter (e.g.&nbsp;<span class="math inline">\(\mu\)</span>, <span class="math inline">\(\mu_1 - \mu_2\)</span>, etc).</p></li>
-<li><p>Say we generate 20,000 sample means and construct a 95% CI for each sample. We EXPECT 20000*.95 = 19,000 of the constructed confidence intervals to contain the true population mean.</p></li>
+<li>We EXPECT 20000*.95 = 19,000 of the constructed confidence intervals to contain the true population mean.</li>
 </ul>
+</div>
 </section>
-<section id="width-of-an-interval-margin-of-error" class="slide level2">
+<section id="width-of-an-interval-margin-of-error" class="slide level2 smaller">
 <h2>Width of an Interval (Margin of Error)</h2>
 <p><span class="math display">\[\mathbf{\hbox{Margin of Error}} = \hbox{Critical  Value} * SE(\hbox{Estimator})\]</span></p>
+<div class="fragment">
 <p>There is a trade-off between the width of an interval and the level of confidence (critical value).</p>
+<div>
 <ul>
-<li>Using a lower CI (ex: 90% vs 95%) decreases the margin of error (narrower interval), but a narrower CI increase the chance that your interval will not capture the true mean.</li>
+<li class="fragment">Using a lower CI (ex: 90% vs 95%) <strong>decreases</strong> the margin of error (narrower interval), but a narrower CI increase the chance that your interval will not capture the true mean.</li>
+<li class="fragment">A 99% CI has a higher chance of capturing the true mean than a 95% CI, but it might be too wide of an interval to be practically useful.</li>
+<li class="fragment">You can also <strong>decrease</strong> the margin of error by <strong>increasing</strong> sample size.</li>
 </ul>
+</div>
+</div>
 </section>
-<section id="width-of-an-interval-margin-of-error-continued" class="slide level2">
-<h2>Width of an Interval (Margin of Error) continued</h2>
-<ul>
-<li><p>A 99% CI has a higher chance of capturing the true mean than a 95% CI, but it might be too wide of an interval to be practically useful.</p></li>
-<li><p>You can also decrease the margin of error by increasing sample size.</p></li>
-</ul>
-</section>
-<section id="example-part-1" class="slide level2">
-<h2>Example Part 1</h2>
+<section id="example" class="slide level2 smaller">
+<h2>Example</h2>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Baseline</a></li><li><a href="#tabset-1-2">Lower CI</a></li><li><a href="#tabset-1-3">Larger n</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
 <p>You sample 80 newborn babies and calculate a mean weight of 7.5 pounds and standard deviation of 0.7 pounds.</p>
-<p>We want to construct a 95% confidence area for the population mean.</p>
+<p>We want to construct a 95% confidence interval for the population mean.</p>
+<div>
 <ul>
-<li><strong>Given values</strong>: <span class="math inline">\(\bar{x} = 7.5\)</span>, <span class="math inline">\(s = 0.7\)</span></li>
-<li><strong>Calculate SE</strong>: <span class="math inline">\(SE = \frac{0.7}{\sqrt{80}} = 0.078\)</span></li>
-<li><strong>Calculate Critical Value</strong>: <code>qt(p=0.025, df=79)</code> <span class="math inline">\(= -1.99\)</span></li>
+<li class="fragment"><p><strong>Given values</strong>: <span class="math inline">\(\bar{x} = 7.5\)</span>, <span class="math inline">\(s = 0.7\)</span></p></li>
+<li class="fragment"><p><strong>Calculate SE</strong>: <span class="math inline">\(SE = \frac{0.7}{\sqrt{80}} = 0.078\)</span></p></li>
+<li class="fragment"><p><strong>Calculate Critical Value</strong>: <code>qt(p=0.025, df=79)</code> <span class="math inline">\(= -1.99\)</span></p></li>
+<li class="fragment"><p><strong>Resulting CI</strong>: <span class="math inline">\(7.5 \pm 1.99*0.078 = [7.34, 7.66]\)</span></p></li>
 </ul>
-<p><strong>Resulting CI</strong>: <span class="math inline">\(7.5 \pm 1.99*0.078 = [7.34, 7.66]\)</span></p>
-</section>
-<section id="example-part-2" class="slide level2">
-<h2>Example Part 2</h2>
-<p>You increase the sample size in Example 1 and sample 200 newborn babies. The sample mean weight is still 7.5 pounds and sample standard deviation is 0.7 pounds.</p>
-<p>We want to construct a 95% confidence area for the population mean.</p>
+</div>
+</div>
+<div id="tabset-1-2">
+<p>Construct a 90% confidence interval instead. The sample mean weight is still 7.5 pounds and sample standard deviation is 0.7 pounds and n = 80.</p>
+<div>
 <ul>
-<li><strong>Given values</strong>: <span class="math inline">\(\bar{x} = 7.5\)</span>, <span class="math inline">\(s = 0.7\)</span></li>
-<li><strong>Calculate SE</strong>: <span class="math inline">\(SE = \frac{0.7}{\sqrt{200}} = 0.0495\)</span></li>
-<li><strong>Calculate Critical Value</strong>: <code>qt(p=0.025,df=199)</code> <span class="math inline">\(= -1.97\)</span></li>
+<li class="fragment"><p><strong>Given values</strong>: <span class="math inline">\(\bar{x} = 7.5\)</span>, <span class="math inline">\(s = 0.7\)</span></p></li>
+<li class="fragment"><p><strong>Calculate SE</strong>: <span class="math inline">\(SE = \frac{0.7}{\sqrt{80}} = 0.078\)</span></p></li>
+<li class="fragment"><p><strong>Calculate Critical Value</strong>: <code>qt(p=0.05, df=79)</code> <span class="math inline">\(= -1.66\)</span></p></li>
+<li class="fragment"><p><strong>Resulting CI</strong>: <span class="math inline">\(7.5 \pm 1.66*0.078 = [7.37, 7.62]\)</span></p></li>
 </ul>
-<p><strong>Resulting CI</strong>: <span class="math inline">\(7.5 \pm 1.97*0.0495 = [7.40, 7.60]\)</span></p>
+</div>
+</div>
+<div id="tabset-1-3">
+<p>Increase the sample size to 200 newborn babies. The sample mean weight is still 7.5 pounds and sample standard deviation is 0.7 pounds.</p>
+<p>Construct a 95% confidence interval for the population mean.</p>
+<div>
+<ul>
+<li class="fragment"><p><strong>Given values</strong>: <span class="math inline">\(\bar{x} = 7.5\)</span>, <span class="math inline">\(s = 0.7\)</span></p></li>
+<li class="fragment"><p><strong>Calculate SE</strong>: <span class="math inline">\(SE = \frac{0.7}{\sqrt{200}} = 0.0495\)</span></p></li>
+<li class="fragment"><p><strong>Calculate Critical Value</strong>: <code>qt(p=0.025,df=199)</code> <span class="math inline">\(= -1.97\)</span></p></li>
+<li class="fragment"><p><strong>Resulting CI</strong>: <span class="math inline">\(7.5 \pm 1.97*0.0495 = [7.40, 7.60]\)</span></p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
 </section>
-<section id="r-code-to-obtain-cis-from-data-sets" class="slide level2">
+<section id="r-code-to-obtain-cis-from-data-sets" class="slide level2 smaller">
 <h2>R Code to obtain CIs from data sets</h2>
+<p><br></p>
 <table>
 <colgroup>
-<col style="width: 25%">
-<col style="width: 75%">
+<col style="width: 26%">
+<col style="width: 73%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -408,7 +439,7 @@
 <tbody>
 <tr class="odd">
 <td>Mean</td>
-<td>t.test(x = data$variable, conf.level = 0.95) }</td>
+<td>t.test(x = data$variable, conf.level = 0.95)</td>
 </tr>
 <tr class="even">
 <td>Proportion</td>

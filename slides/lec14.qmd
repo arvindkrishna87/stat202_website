@@ -74,7 +74,7 @@ $$\hbox{STAT} = \frac{X - mean(X)}{sd(X)}$$
 
 ## The Normal Distribution
 
-:::{.incremental}
+::: incremental
 -   Changing $\mu$ (mu, the mean), changes where the center (peak) of the distribution is located.
 -   Changing $\sigma$ (sigma, the standard deviation), changes the spread of the distribution.
 -   The shape of the distribution never changes. It is always unimodal and symmetric (no skew).
@@ -102,7 +102,7 @@ The t-distribution is similar in shape to a normal distribution.
 :::
 
 ::: {.column width="52%"}
-:::{.incremental}
+::: incremental
 -   Completely characterized by it's degrees of freedom (df). A parameter defined based on the sample size $n$.
 -   As we make the degrees of freedom ($df$) larger the t-distribution is getting closer to the standard normal distribution.
 -   The normal distribution assumes that you know the population standard deviation, $\sigma$. The t-distribution is used if you only know the sample standard deviation, $s$ (ie: $\sigma$ unknown).
@@ -129,6 +129,7 @@ qnorm(p = .025, mean = 10, sd = 2, lower.tail = FALSE)
 ```
 
 **T-distribution:**
+
 ```{r t-dist}
 #| echo: true
 #| eval: false

@@ -1346,9 +1346,9 @@
   {
     "objectID": "slides/lec18.html#why-do-we-need-cis",
     "href": "slides/lec18.html#why-do-we-need-cis",
-    "title": "Confidence Intervals  Chapter 10 Part 2",
+    "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Why do we need CIs?",
-    "text": "Why do we need CIs?\nReporting a range of values via a confidence interval takes into account the uncertainty (sampling variation) associated with the fact that we are observing a single random sample.\n\nWe know a sampling distribution (thousands of replicate samples) center around the population parameter.\nWe don’t know the true value of the population parameter.\nWe know a sampling distribution is normally distributed (CLT)"
+    "text": "Why do we need CIs?\nReporting a range of values via a confidence interval takes into account the uncertainty (sampling variation) associated with the fact that we are observing a single random sample.\n\n\nWe know a sampling distribution (thousands of replicate samples) center around the population parameter.\nWe don’t know the true value of the population parameter.\nWe know a sampling distribution is normally distributed (CLT)\nWe have no idea where our single sample falls in the sampling distribution (close to the population parameter or far away)."
   },
   {
     "objectID": "slides/lec18.html#more-on-why-we-need-cis",
@@ -1360,16 +1360,16 @@
   {
     "objectID": "slides/lec18.html#check-your-understanding",
     "href": "slides/lec18.html#check-your-understanding",
-    "title": "Confidence Intervals  Chapter 10 Part 2",
+    "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Check your understanding",
-    "text": "Check your understanding\n\nWhen we use a \\(95\\%\\) critical value, approximately \\(95\\%\\) of the confidence intervals contain the true population parameter (e.g. \\(\\mu\\), \\(\\mu_1 - \\mu_2\\), etc).\nSay we generate 20,000 sample means and construct a 95% CI for each sample. We EXPECT 20000*.95 = 19,000 of the constructed confidence intervals to contain the true population mean."
+    "text": "Check your understanding\nWhen we use a \\(95\\%\\) critical value, approximately \\(95\\%\\) of the confidence intervals contain the true population parameter (e.g. \\(\\mu\\), \\(\\mu_1 - \\mu_2\\), \\(\\pi\\), etc).\n\nSay we generate 20,000 sample means and construct a 95% CI for each sample. How many of the constructed confidence intervals do you expect to cantain the true population mean?\n\n\nWe EXPECT 20000*.95 = 19,000 of the constructed confidence intervals to contain the true population mean."
   },
   {
     "objectID": "slides/lec18.html#width-of-an-interval-margin-of-error",
     "href": "slides/lec18.html#width-of-an-interval-margin-of-error",
-    "title": "Confidence Intervals  Chapter 10 Part 2",
+    "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Width of an Interval (Margin of Error)",
-    "text": "Width of an Interval (Margin of Error)\n\\[\\mathbf{\\hbox{Margin of Error}} = \\hbox{Critical  Value} * SE(\\hbox{Estimator})\\]\nThere is a trade-off between the width of an interval and the level of confidence (critical value).\n\nUsing a lower CI (ex: 90% vs 95%) decreases the margin of error (narrower interval), but a narrower CI increase the chance that your interval will not capture the true mean."
+    "text": "Width of an Interval (Margin of Error)\n\\[\\mathbf{\\hbox{Margin of Error}} = \\hbox{Critical  Value} * SE(\\hbox{Estimator})\\]\n\nThere is a trade-off between the width of an interval and the level of confidence (critical value).\n\n\nUsing a lower CI (ex: 90% vs 95%) decreases the margin of error (narrower interval), but a narrower CI increase the chance that your interval will not capture the true mean.\nA 99% CI has a higher chance of capturing the true mean than a 95% CI, but it might be too wide of an interval to be practically useful.\nYou can also decrease the margin of error by increasing sample size."
   },
   {
     "objectID": "slides/lec18.html#width-of-an-interval-margin-of-error-continued",
@@ -1381,51 +1381,51 @@
   {
     "objectID": "slides/lec18.html#example-part-1",
     "href": "slides/lec18.html#example-part-1",
-    "title": "Confidence Intervals  Chapter 10 Part 2",
+    "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example Part 1",
     "text": "Example Part 1\nYou sample 80 newborn babies and calculate a mean weight of 7.5 pounds and standard deviation of 0.7 pounds.\nWe want to construct a 95% confidence area for the population mean.\n\nGiven values: \\(\\bar{x} = 7.5\\), \\(s = 0.7\\)\nCalculate SE: \\(SE = \\frac{0.7}{\\sqrt{80}} = 0.078\\)\nCalculate Critical Value: qt(p=0.025, df=79) \\(= -1.99\\)\n\nResulting CI: \\(7.5 \\pm 1.99*0.078 = [7.34, 7.66]\\)"
   },
   {
     "objectID": "slides/lec18.html#example-part-2",
     "href": "slides/lec18.html#example-part-2",
-    "title": "Confidence Intervals  Chapter 10 Part 2",
+    "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example Part 2",
     "text": "Example Part 2\nYou increase the sample size in Example 1 and sample 200 newborn babies. The sample mean weight is still 7.5 pounds and sample standard deviation is 0.7 pounds.\nWe want to construct a 95% confidence area for the population mean.\n\nGiven values: \\(\\bar{x} = 7.5\\), \\(s = 0.7\\)\nCalculate SE: \\(SE = \\frac{0.7}{\\sqrt{200}} = 0.0495\\)\nCalculate Critical Value: qt(p=0.025,df=199) \\(= -1.97\\)\n\nResulting CI: \\(7.5 \\pm 1.97*0.0495 = [7.40, 7.60]\\)"
   },
   {
     "objectID": "slides/lec18.html#r-code-to-obtain-cis-from-data-sets",
     "href": "slides/lec18.html#r-code-to-obtain-cis-from-data-sets",
-    "title": "Confidence Intervals  Chapter 10 Part 2",
+    "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "R Code to obtain CIs from data sets",
-    "text": "R Code to obtain CIs from data sets\n\n\n\n\n\n\n\nStatistic\nR Code\n\n\n\n\nMean\nt.test(x = data$variable, conf.level = 0.95) }\n\n\nProportion\nprop.test(x = #, n = #, conf.level = 0.95, correct=FALSE)\n\n\nDiff in mean\nt.test(x = data1$variable, y = data2$variable, conf.level = 0.95)\n\n\nDiff in proportion\nprop.test(x = c(#, #), n = c(#, #), conf.level = 0.95, correct=FALSE )\n\n\nRegression\nconfint(model, level = 0.95)"
+    "text": "R Code to obtain CIs from data sets\n\n\n\n\n\n\n\n\nStatistic\nR Code\n\n\n\n\nMean\nt.test(x = data$variable, conf.level = 0.95)\n\n\nProportion\nprop.test(x = #, n = #, conf.level = 0.95, correct=FALSE)\n\n\nDiff in mean\nt.test(x = data1$variable, y = data2$variable, conf.level = 0.95)\n\n\nDiff in proportion\nprop.test(x = c(#, #), n = c(#, #), conf.level = 0.95, correct=FALSE )\n\n\nRegression\nconfint(model, level = 0.95)"
   },
   {
     "objectID": "slides/lec19.html#overview",
     "href": "slides/lec19.html#overview",
     "title": "P-values  Chapter 11",
     "section": "Overview",
-    "text": "Overview\n\nWe have a claim about a population parameter and form competing hypothesis to test the claim.\nWe then determine which hypothesis is better supported by our sample data.\nWe are always forming the hypothesis about a population parameter."
+    "text": "Overview\n\n\n\nWe have a claim about a population parameter and form competing hypothesis to test the claim.\nWe then determine which hypothesis is better supported by our sample data.\nWe are always forming the hypothesis about a population parameter."
   },
   {
     "objectID": "slides/lec19.html#hypothesis-test",
     "href": "slides/lec19.html#hypothesis-test",
     "title": "P-values  Chapter 11",
     "section": "Hypothesis test",
-    "text": "Hypothesis test\n\n\\(H_0\\) Null Hypothesis: The population parameter is a particular value and any observed sample differences is due to chance variation. This is what we expect.\n\\(H_A\\) Alternative Hypothesis: There is a reason besides chance that explains the sample data."
+    "text": "Hypothesis test\n\n\\(H_0\\) (Null Hypothesis): The population parameter is a particular value and any observed sample differences is due to chance variation. This is what we expect.\n\n\\(H_A\\) (Alternative Hypothesis): There is a reason besides chance that explains the sample data."
   },
   {
     "objectID": "slides/lec19.html#common-examples",
     "href": "slides/lec19.html#common-examples",
     "title": "P-values  Chapter 11",
     "section": "Common examples",
-    "text": "Common examples\n\n\\(H_0\\): \\(\\mu=5\\), \\(\\pi=0.5\\), \\(\\mu_1-\\mu_2=0\\), \\(\\beta_1=0\\)\n\\(H_A\\): \\(\\mu\\ne5\\), \\(\\pi\\ne0.5\\), \\(\\mu_1-\\mu_2\\ne0\\), \\(\\beta_1\\ne0\\)\n\nThese are called two-sided tests. (There also exists one-sided tests ex: \\(H_0: \\pi \\geq 0.5\\) vs \\(H_A: \\pi < 0.5\\) but they are not necessary. We can (and should) ALWAYS use a two-sided test.)"
+    "text": "Common examples\n\n\n\\(H_0\\): \\(\\mu=5\\)\n\\(H_A\\): \\(\\mu\\ne5\\)\n\n\\(H_0\\): \\(\\pi=0.5\\) \\(H_A\\): \\(\\pi\\ne0.5\\)\n\n\\(H_0\\): \\(\\mu_1-\\mu_2=0\\) \\(H_A\\): \\(\\mu_1-\\mu_2\\ne0\\)\n\n\\(H_0\\): \\(\\beta_1=0\\) \\(H_A\\): \\(\\beta_1\\ne0\\)\n\n\n\nThese are called two-sided tests. There also exists one-sided tests ex: \\(H_0: \\pi \\geq 0.5\\) vs \\(H_A: \\pi < 0.5\\) but they are NOT necessary. We can (and should) ALWAYS use a two-sided test."
   },
   {
     "objectID": "slides/lec19.html#p-values",
     "href": "slides/lec19.html#p-values",
     "title": "P-values  Chapter 11",
     "section": "P-values",
-    "text": "P-values\n\nIn order to determine if the null hypothesis is likely to be true we calculate a p-value.\nP-value: probability of observing an estimate as extreme as the one you observed from the data if the null was true.\nA small p-value means the observed sample data is unlikely to occur under the null hypothesis. ie: proof by contradiction. Reject the null hypothesis because it is probably not true.\n\nNote: For a two-sided test you need the probability in both tails"
+    "text": "P-values\n\n\nIn order to determine if the null hypothesis is likely to be true we calculate a p-value.\nP-value: probability of observing an estimate as extreme as the one you observed from the data if the null was true.\nA small p-value means the observed sample data is unlikely to occur under the null hypothesis. ie: proof by contradiction. Reject the null hypothesis because it is probably not true.\n\n\n\nNote: For a two-sided test you need the probability in both tails"
   },
   {
     "objectID": "slides/lec19.html#hypothesis-test-conclusions",
@@ -1439,7 +1439,7 @@
     "href": "slides/lec19.html#one-sample-two-sided-tests",
     "title": "P-values  Chapter 11",
     "section": "One-sample (two-sided) tests",
-    "text": "One-sample (two-sided) tests\n \n\n\n\n\n\n\n\n\n\n\nStatistic\n\\(H_0\\)\n\\(H_A\\)\nTest Statistic (Standardization)\nDistribution\n\n\n\n\nMean\n\\(\\mu= \\mu_0\\)\n\\(\\mu \\neq \\mu_0\\)\n\\(\\frac{\\bar{x} - \\mu_0}{s/\\sqrt{n}}\\)\nt(df=n-1)\n\n\nProportion\n\\(\\pi = \\pi_0\\)\n\\(\\pi \\neq \\pi_0\\)\n\\(\\frac{\\hat{\\pi}-\\pi_0}{\\sqrt{\\frac{\\pi_0(1-\\pi_0)}{n} } }\\)\nN(0,1)"
+    "text": "One-sample (two-sided) tests\n \n\n\n\n\n\n\n\n\n\n\nStatistic\n\\(H_0\\)\n\\(H_A\\)\nTest Statistic (STAT)\nDistribution\n\n\n\n\nMean\n\\(\\mu= \\mu_0\\)\n\\(\\mu \\neq \\mu_0\\)\n\\(\\frac{\\bar{x} - \\mu_0}{s/\\sqrt{n}}\\)\nt(df=n-1)\n\n\nProportion\n\\(\\pi = \\pi_0\\)\n\\(\\pi \\neq \\pi_0\\)\n\\(\\frac{\\hat{\\pi}-\\pi_0}{\\sqrt{\\frac{\\pi_0(1-\\pi_0)}{n} } }\\)\nN(0,1)"
   },
   {
     "objectID": "slides/lec19.html#two-sample-two-sided-tests",
@@ -1453,14 +1453,14 @@
     "href": "slides/lec19.html#two-sided-tests-for-pooled-equal-variances",
     "title": "P-values  Chapter 11",
     "section": "Two-sided tests for Pooled (equal) Variances",
-    "text": "Two-sided tests for Pooled (equal) Variances\n\n\n\n\n\n\n\n\n\n\nStatistic\n\\(H_0\\)\n\\(H_A\\)\nTest Statistic\nDistribution\n\n\n\n\nDiff. in means\n\\(\\mu_1-\\mu_2 = 0\\)\n\\(\\mu_1-\\mu_2 \\neq 0\\)\n\\(\\frac{\\bar{x_1} - \\bar{x_2}-0}{s_p\\sqrt{\\frac{1}{n_1}+\\frac{1}{n_2}}}\\)\nt(df=\\(n_1\\) + \\(n_2\\) -2)\n\n\nDiff. in proportions\n\\(\\pi_1-\\pi_2 = 0\\)\n\\(\\pi_1-\\pi_2 \\neq 0\\)\n\\(\\frac{(\\hat{\\pi_1}-\\hat{\\pi_2}) - d}{\\sqrt{\\frac{\\hat{\\pi_0}(1-\\hat{\\pi_0})}{n_1} + \\frac{\\hat{\\pi_0}(1-\\hat{\\pi_0})}{n_2} } }\\)\nN(0,1)"
+    "text": "Two-sided tests for Pooled (equal) Variances\n\n\n\n\n\n\n\n\n\n\nStatistic\n\\(H_0\\)\n\\(H_A\\)\nTest Statistic\nDistribution\n\n\n\n\nDiff. in means\n\\(\\mu_1-\\mu_2 = d\\)\n\\(\\mu_1-\\mu_2 \\neq d\\)\n\\(\\frac{\\bar{x_1} - \\bar{x_2}-d}{s_p\\sqrt{\\frac{1}{n_1}+\\frac{1}{n_2}}}\\)\n\\(t(df=n_1 + n_2 -2)\\)\n\n\nDiff. in proportions\n\\(\\pi_1-\\pi_2 = 0\\)\n\\(\\pi_1-\\pi_2 \\neq 0\\)\n\\(\\frac{(\\hat{\\pi_1}-\\hat{\\pi_2}) - 0}{\\sqrt{\\frac{\\hat{\\pi_0}(1-\\hat{\\pi_0})}{n_1} + \\frac{\\hat{\\pi_0}(1-\\hat{\\pi_0})}{n_2} } }\\)\n\\(N(0,1)\\)"
   },
   {
     "objectID": "slides/lec19.html#two-sided-tests-for-unpooled-unequal-variances",
     "href": "slides/lec19.html#two-sided-tests-for-unpooled-unequal-variances",
     "title": "P-values  Chapter 11",
     "section": "Two-sided tests for Unpooled (unequal) Variances",
-    "text": "Two-sided tests for Unpooled (unequal) Variances\n\n\n\n\n\n\n\n\n\n\nStatistic\n\\(H_0\\)\n\\(H_A\\)\nTest Statistic\nDistribution\n\n\n\n\nDiff. in means\n\\(\\mu_1-\\mu_2 = d\\)\n\\(\\mu_1-\\mu_2 \\neq d\\)\n\\(\\frac{\\bar{x_1}-\\bar{x_2}-d}{\\sqrt{\\frac{s_1^2}{n_1}+\\frac{s_2^2}{n_2}}}\\)\nt(df=min[n_1-1, n_2-1])\n\n\nDiff. in proportions\n\\(\\pi_1-\\pi_2 = d\\)\n\\(\\pi_1-\\pi_2 \\neq d\\)\n\\(\\frac{(\\hat{\\pi_1}-\\hat{\\pi_2}) - 0}{\\sqrt{\\frac{\\hat{\\pi_1}(1-\\hat{\\pi_1})}{n_1} + \\frac{\\hat{\\pi_2}(1-\\hat{\\pi_2})}{n_2} } }\\)\nN(0,1)"
+    "text": "Two-sided tests for Unpooled (unequal) Variances\n\n\n\n\n\n\n\n\n\n\nStatistic\n\\(H_0\\)\n\\(H_A\\)\nTest Statistic\nDistribution\n\n\n\n\nDiff. in means\n\\(\\mu_1-\\mu_2 = d\\)\n\\(\\mu_1-\\mu_2 \\neq d\\)\n\\(\\frac{\\bar{x_1}-\\bar{x_2}-d}{\\sqrt{\\frac{s_1^2}{n_1}+\\frac{s_2^2}{n_2}}}\\)\n\\(t(df=min(n_1-1, n_2-1) )\\)\n\n\nDiff. in proportions\n\\(\\pi_1-\\pi_2 = d\\)\n\\(\\pi_1-\\pi_2 \\neq d\\)\n\\(\\frac{(\\hat{\\pi_1}-\\hat{\\pi_2}) - d}{\\sqrt{\\frac{\\hat{\\pi_1}(1-\\hat{\\pi_1})}{n_1} + \\frac{\\hat{\\pi_2}(1-\\hat{\\pi_2})}{n_2} } }\\)\n\\(N(0,1)\\)"
   },
   {
     "objectID": "slides/lec19.html#r-code-to-obtain-p-value",
@@ -1643,5 +1643,33 @@
     "title": "Confidence Intervals  Chapter 10  (Part 1)",
     "section": "Interpretation",
     "text": "Interpretation\nCorrect Interpretation:\nWe are 95% confident that the average GPA of all students at NU (my population) is between 3.11 and 3.19.\n\n\nIncorrect Interpretations:\n\n95% of all students GPA at NU is between 3.11 and 3.19.\nThere is a 95% chance that the average GPA of all students at NU (my population) is between 3.11 and 3.19."
+  },
+  {
+    "objectID": "slides/lec18.html#example",
+    "href": "slides/lec18.html#example",
+    "title": "Confidence Intervals  Chapter 10  (Part 2)",
+    "section": "Example",
+    "text": "Example\n\nBaselineLower CILarger n\n\n\nYou sample 80 newborn babies and calculate a mean weight of 7.5 pounds and standard deviation of 0.7 pounds.\nWe want to construct a 95% confidence interval for the population mean.\n\n\nGiven values: \\(\\bar{x} = 7.5\\), \\(s = 0.7\\)\nCalculate SE: \\(SE = \\frac{0.7}{\\sqrt{80}} = 0.078\\)\nCalculate Critical Value: qt(p=0.025, df=79) \\(= -1.99\\)\nResulting CI: \\(7.5 \\pm 1.99*0.078 = [7.34, 7.66]\\)\n\n\n\n\nConstruct a 90% confidence interval instead. The sample mean weight is still 7.5 pounds and sample standard deviation is 0.7 pounds and n = 80.\n\n\nGiven values: \\(\\bar{x} = 7.5\\), \\(s = 0.7\\)\nCalculate SE: \\(SE = \\frac{0.7}{\\sqrt{80}} = 0.078\\)\nCalculate Critical Value: qt(p=0.05, df=79) \\(= -1.66\\)\nResulting CI: \\(7.5 \\pm 1.66*0.078 = [7.37, 7.62]\\)\n\n\n\n\nIncrease the sample size to 200 newborn babies. The sample mean weight is still 7.5 pounds and sample standard deviation is 0.7 pounds.\nConstruct a 95% confidence interval for the population mean.\n\n\nGiven values: \\(\\bar{x} = 7.5\\), \\(s = 0.7\\)\nCalculate SE: \\(SE = \\frac{0.7}{\\sqrt{200}} = 0.0495\\)\nCalculate Critical Value: qt(p=0.025,df=199) \\(= -1.97\\)\nResulting CI: \\(7.5 \\pm 1.97*0.0495 = [7.40, 7.60]\\)"
+  },
+  {
+    "objectID": "slides/lec18.html#lower-ci",
+    "href": "slides/lec18.html#lower-ci",
+    "title": "Confidence Intervals  Chapter 10  (Part 2)",
+    "section": "Lower CI",
+    "text": "Lower CI"
+  },
+  {
+    "objectID": "slides/lec18.html#larger-n",
+    "href": "slides/lec18.html#larger-n",
+    "title": "Confidence Intervals  Chapter 10  (Part 2)",
+    "section": "Larger n",
+    "text": "Larger n\nIncrease the sample size to 200 newborn babies. The sample mean weight is still 7.5 pounds and sample standard deviation is 0.7 pounds.\nConstruct a 95% confidence interval for the population mean.\n\n\nGiven values: \\(\\bar{x} = 7.5\\), \\(s = 0.7\\)\nCalculate SE: \\(SE = \\frac{0.7}{\\sqrt{200}} = 0.0495\\)\nCalculate Critical Value: qt(p=0.025,df=199) \\(= -1.97\\)\nResulting CI: \\(7.5 \\pm 1.97*0.0495 = [7.40, 7.60]\\)\n\n\n:::"
+  },
+  {
+    "objectID": "slides/lec19.html#writing-hypotheses-examples",
+    "href": "slides/lec19.html#writing-hypotheses-examples",
+    "title": "P-values  Chapter 11",
+    "section": "Writing hypotheses examples",
+    "text": "Writing hypotheses examples\n\n\n\\(H_0\\): \\(\\mu=5\\)\n\\(H_A\\): \\(\\mu\\ne5\\)\n\n\\(H_0\\): \\(\\pi=0.5\\)\n\\(H_A\\): \\(\\pi\\ne0.5\\)\n\n\n\n\n\n\\(H_0\\): \\(\\mu_1-\\mu_2=0\\)\n\\(H_A\\): \\(\\mu_1-\\mu_2\\ne0\\)\n\n\\(H_0\\): \\(\\beta_1=0\\)\n\\(H_A\\): \\(\\beta_1\\ne0\\)\n\n\n\nThese are called two-sided tests. There also exists one-sided tests ex: \\(H_0: \\pi \\geq 0.5\\) vs \\(H_A: \\pi < 0.5\\) but they are NOT necessary. We can (and should) ALWAYS use a two-sided test."
   }
 ]

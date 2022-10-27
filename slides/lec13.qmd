@@ -24,14 +24,14 @@ execute:
 
 **Definitions**
 
-:::{.incremental}
+::: incremental
 -   Population: collection of individuals (units) in which we are interested
 -   Sample: collection of individuals (units) from the population
 :::
 
-. . . 
+. . .
 
-**Goal** 
+**Goal**
 
 Use trends in a sample to make inference about a population.
 
@@ -39,19 +39,19 @@ Use trends in a sample to make inference about a population.
 
 <br>
 
-|            | Size | Proportion       | Mean      | Standard Deviation |
-|------------|------|------------------|-----------|--------------------|
-| Population | N    | $\pi$            | $\mu$     | $\sigma$           |
+|            | Size | Proportion         | Mean      | Standard Deviation |
+|------------|------|--------------------|-----------|--------------------|
+| Population | N    | $\pi$              | $\mu$     | $\sigma$           |
 | Sample     | n    | $p$ or $\hat{\pi}$ | $\bar{x}$ | $s$                |
 
 ## Example 1 {.smaller}
 
 In a survey of 1,500 parents in the United States, 73% said they wanted to resume in person school for their children for 2021.
 
-:::{.incremental}
+::: incremental
 What is the population?
 
--  parents in the US
+-   parents in the US
 
 What is the sample?
 
@@ -59,9 +59,8 @@ What is the sample?
 
 What "notation" is used to represent 73%
 
--  $p$ because 73% is a sample statistic and proportion
+-   $p$ because 73% is a sample statistic and proportion
 :::
-
 
 ## Random Sampling and Assignment
 
@@ -93,14 +92,14 @@ You want to evaluate the effectiveness of the Pfizer vaccine on COVID. You ask f
 
 **What type of conclusions can we draw?**
 
-a) causal conclusions generalized to the whole population
-b) causal conclusions only applicable to the sample
-c) no causal conclusions (correlation only) generalized to the whole population
-d) no causal conclusions (correlation only) only applicable to the sample
+a)  causal conclusions generalized to the whole population
+b)  causal conclusions only applicable to the sample
+c)  no causal conclusions (correlation only) generalized to the whole population
+d)  no causal conclusions (correlation only) only applicable to the sample
 
 ## Types of random sampling {.smaller}
 
-:::{.incremental}
+::: incremental
 -   **Simple Random**: observations are selected randomly from the population, each having an equal chance of being selected.
 -   **Cluster Sampling**: first the population is divided into sub-groups, and then x sub-groups out of all groups are randomly selected.
 -   **Stratified Sampling**: first the population is divided into sub-groups, and then within each sub-group x observations are randomly selected.
@@ -113,21 +112,19 @@ d) no causal conclusions (correlation only) only applicable to the sample
 
 ::: columns
 ::: {.column width="25%"}
-a)
-![](images_lecture/sample_strata.png)
+a)  ![](images_lecture/sample_strata.png)
 :::
 
 ::: {.column width="25%"}
-b)
-![](images_lecture/sample_simple.png)
+b)  ![](images_lecture/sample_simple.png)
 :::
+
 ::: {.column width="25%"}
-c)
-![](images_lecture/sample_systematic.png)
+c)  ![](images_lecture/sample_systematic.png)
 :::
+
 ::: {.column width="25%"}
-d)
-![](images_lecture/sample_cluster.png)
+d)  ![](images_lecture/sample_cluster.png)
 :::
 :::
 
@@ -141,39 +138,40 @@ Northwestern University is deciding which undergraduate students to test for COV
 
 -   **Population of interest**: undergraduate students at NU
 
-
 ::: panel-tabset
 ## Scenario 1
+
 The university divides the population into 4 groups {1st year, sophomore, junior, seniors} and randomly selects 200 students from each group to test.
 
 What type of sampling is this?
 
-a) simple random
-b) cluster sampling
-c) stratified sampling
-d) systematic sampling
-e) none of the above
+a)  simple random
+b)  cluster sampling
+c)  stratified sampling
+d)  systematic sampling
+e)  none of the above
 
 ## Scenario 2
+
 The university alphabetizes the population by last name and selects every $25^{th}$ student to get tested.
 
 What type of sampling is this?
 
-a) simple random
-b) cluster sampling
-c) stratified sampling
-d) systematic sampling
-e) none of the above
+a)  simple random
+b)  cluster sampling
+c)  stratified sampling
+d)  systematic sampling
+e)  none of the above
 
 ## Scenario 3
+
 The university alphabetizes the population by last name and selects the first 200 students to get tested.
 
 What type of sampling is this?
 
-a) simple random
-b) cluster sampling
-c) stratified sampling
-d) systematic sampling
-e) none of the above
-
+a)  simple random
+b)  cluster sampling
+c)  stratified sampling
+d)  systematic sampling
+e)  none of the above
 :::
