@@ -332,35 +332,59 @@
 
 <section id="overview" class="slide level2">
 <h2>Overview</h2>
+<p><br></p>
+<div>
 <ul>
-<li><p>We have a claim about a population parameter and form competing hypothesis to test the claim.</p></li>
-<li><p>We then determine which hypothesis is better supported by our sample data.</p></li>
-<li><p>We are always forming the hypothesis about a population parameter.</p></li>
+<li class="fragment"><p>We have a claim about a population parameter and form competing hypothesis to test the claim.</p></li>
+<li class="fragment"><p>We then determine which hypothesis is better supported by our sample data.</p></li>
+<li class="fragment"><p>We are always forming the hypothesis about a population parameter.</p></li>
 </ul>
+</div>
 </section>
 <section id="hypothesis-test" class="slide level2">
 <h2>Hypothesis test</h2>
-<ul>
-<li><p><span class="math inline">\(H_0\)</span> Null Hypothesis: The population parameter is a particular value and any observed sample differences is due to chance variation. This is what we expect.</p></li>
-<li><p><span class="math inline">\(H_A\)</span> Alternative Hypothesis: There is a reason besides chance that explains the sample data.</p></li>
-</ul>
+<p><br></p>
+<p><span class="math inline">\(H_0\)</span> (Null Hypothesis): The population parameter is a particular value and any observed sample differences is due to chance variation. This is what we expect.</p>
+<p><br></p>
+<p><span class="math inline">\(H_A\)</span> (Alternative Hypothesis): There is a reason besides chance that explains the sample data.</p>
 </section>
-<section id="common-examples" class="slide level2">
-<h2>Common examples</h2>
-<ul>
-<li><p><span class="math inline">\(H_0\)</span>: <span class="math inline">\(\mu=5\)</span>, <span class="math inline">\(\pi=0.5\)</span>, <span class="math inline">\(\mu_1-\mu_2=0\)</span>, <span class="math inline">\(\beta_1=0\)</span></p></li>
-<li><p><span class="math inline">\(H_A\)</span>: <span class="math inline">\(\mu\ne5\)</span>, <span class="math inline">\(\pi\ne0.5\)</span>, <span class="math inline">\(\mu_1-\mu_2\ne0\)</span>, <span class="math inline">\(\beta_1\ne0\)</span></p></li>
-</ul>
-<p>These are called two-sided tests. (There also exists one-sided tests ex: <span class="math inline">\(H_0: \pi \geq 0.5\)</span> vs <span class="math inline">\(H_A: \pi &lt; 0.5\)</span> but they are not necessary. We can (and should) ALWAYS use a two-sided test.)</p>
+<section id="writing-hypotheses-examples" class="slide level2">
+<h2>Writing hypotheses examples</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><span class="math inline">\(H_0\)</span>: <span class="math inline">\(\mu=5\)</span></p>
+<p><span class="math inline">\(H_A\)</span>: <span class="math inline">\(\mu\ne5\)</span></p>
+</div><div class="column" style="width:40%;">
+<p><span class="math inline">\(H_0\)</span>: <span class="math inline">\(\pi=0.5\)</span></p>
+<p><span class="math inline">\(H_A\)</span>: <span class="math inline">\(\pi\ne0.5\)</span></p>
+</div>
+</div>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><span class="math inline">\(H_0\)</span>: <span class="math inline">\(\mu_1-\mu_2=0\)</span></p>
+<p><span class="math inline">\(H_A\)</span>: <span class="math inline">\(\mu_1-\mu_2\ne0\)</span></p>
+</div><div class="column" style="width:40%;">
+<p><span class="math inline">\(H_0\)</span>: <span class="math inline">\(\beta_1=0\)</span></p>
+<p><span class="math inline">\(H_A\)</span>: <span class="math inline">\(\beta_1\ne0\)</span></p>
+</div>
+</div>
+<div class="fragment">
+<p>These are called two-sided tests. There also exists one-sided tests ex: <span class="math inline">\(H_0: \pi \geq 0.5\)</span> vs <span class="math inline">\(H_A: \pi &lt; 0.5\)</span> but they are NOT necessary. We can (and should) <strong>ALWAYS</strong> use a two-sided test.</p>
+</div>
 </section>
 <section id="p-values" class="slide level2">
 <h2>P-values</h2>
+<div>
 <ul>
-<li><p>In order to determine if the null hypothesis is likely to be true we calculate a p-value.</p></li>
-<li><p>P-value: probability of observing an estimate as extreme as the one you observed from the data if the null was true.</p></li>
-<li><p>A small p-value means the observed sample data is unlikely to occur under the null hypothesis. ie: proof by contradiction. Reject the null hypothesis because it is probably not true.</p></li>
+<li class="fragment"><p>In order to determine if the null hypothesis is likely to be true we calculate a p-value.</p></li>
+<li class="fragment"><p>P-value: probability of observing an estimate as extreme as the one you observed from the data if the null was true.</p></li>
+<li class="fragment"><p>A small p-value means the observed sample data is unlikely to occur under the null hypothesis. ie: proof by contradiction. Reject the null hypothesis because it is probably not true.</p></li>
 </ul>
+</div>
+<div class="footer">
 <p><strong>Note: For a two-sided test you need the probability in both tails</strong></p>
+</div>
 </section>
 <section id="hypothesis-test-conclusions" class="slide level2">
 <h2>Hypothesis Test Conclusions</h2>
@@ -374,18 +398,18 @@
 <p>&nbsp;</p>
 <table>
 <colgroup>
-<col style="width: 17%">
-<col style="width: 17%">
-<col style="width: 17%">
-<col style="width: 17%">
-<col style="width: 30%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Statistic</th>
 <th><span class="math inline">\(H_0\)</span></th>
 <th><span class="math inline">\(H_A\)</span></th>
-<th>Test Statistic (Standardization)</th>
+<th>Test Statistic (STAT)</th>
 <th>Distribution</th>
 </tr>
 </thead>
@@ -415,15 +439,15 @@
 <li>Assume the two samples have unequal variances and use an unpooled (unequal variance) formula</li>
 </ul>
 </section>
-<section id="two-sided-tests-for-pooled-equal-variances" class="slide level2">
+<section id="two-sided-tests-for-pooled-equal-variances" class="slide level2 smaller">
 <h2>Two-sided tests for Pooled (equal) Variances</h2>
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 18%">
-<col style="width: 18%">
-<col style="width: 18%">
-<col style="width: 25%">
-<col style="width: 18%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -437,22 +461,22 @@
 <tbody>
 <tr class="odd">
 <td>Diff. in means</td>
-<td><span class="math inline">\(\mu_1-\mu_2 = 0\)</span></td>
-<td><span class="math inline">\(\mu_1-\mu_2 \neq 0\)</span></td>
-<td><span class="math inline">\(\frac{\bar{x_1} - \bar{x_2}-0}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}\)</span></td>
-<td>t(df=<span class="math inline">\(n_1\)</span> + <span class="math inline">\(n_2\)</span> -2)</td>
+<td><span class="math inline">\(\mu_1-\mu_2 = d\)</span></td>
+<td><span class="math inline">\(\mu_1-\mu_2 \neq d\)</span></td>
+<td><span class="math inline">\(\frac{\bar{x_1} - \bar{x_2}-d}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}\)</span></td>
+<td><span class="math inline">\(t(df=n_1 + n_2 -2)\)</span></td>
 </tr>
 <tr class="even">
 <td>Diff. in proportions</td>
 <td><span class="math inline">\(\pi_1-\pi_2 = 0\)</span></td>
 <td><span class="math inline">\(\pi_1-\pi_2 \neq 0\)</span></td>
-<td><span class="math inline">\(\frac{(\hat{\pi_1}-\hat{\pi_2}) - d}{\sqrt{\frac{\hat{\pi_0}(1-\hat{\pi_0})}{n_1} + \frac{\hat{\pi_0}(1-\hat{\pi_0})}{n_2} } }\)</span></td>
-<td>N(0,1)</td>
+<td><span class="math inline">\(\frac{(\hat{\pi_1}-\hat{\pi_2}) - 0}{\sqrt{\frac{\hat{\pi_0}(1-\hat{\pi_0})}{n_1} + \frac{\hat{\pi_0}(1-\hat{\pi_0})}{n_2} } }\)</span></td>
+<td><span class="math inline">\(N(0,1)\)</span></td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="two-sided-tests-for-unpooled-unequal-variances" class="slide level2">
+<section id="two-sided-tests-for-unpooled-unequal-variances" class="slide level2 smaller">
 <h2>Two-sided tests for Unpooled (unequal) Variances</h2>
 <table>
 <colgroup>
@@ -477,19 +501,19 @@
 <td><span class="math inline">\(\mu_1-\mu_2 = d\)</span></td>
 <td><span class="math inline">\(\mu_1-\mu_2 \neq d\)</span></td>
 <td><span class="math inline">\(\frac{\bar{x_1}-\bar{x_2}-d}{\sqrt{\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}}}\)</span></td>
-<td>t(df=min[n_1-1, n_2-1])</td>
+<td><span class="math inline">\(t(df=min(n_1-1, n_2-1) )\)</span></td>
 </tr>
 <tr class="even">
 <td>Diff. in proportions</td>
 <td><span class="math inline">\(\pi_1-\pi_2 = d\)</span></td>
 <td><span class="math inline">\(\pi_1-\pi_2 \neq d\)</span></td>
-<td><span class="math inline">\(\frac{(\hat{\pi_1}-\hat{\pi_2}) - 0}{\sqrt{\frac{\hat{\pi_1}(1-\hat{\pi_1})}{n_1} + \frac{\hat{\pi_2}(1-\hat{\pi_2})}{n_2} } }\)</span></td>
-<td>N(0,1)</td>
+<td><span class="math inline">\(\frac{(\hat{\pi_1}-\hat{\pi_2}) - d}{\sqrt{\frac{\hat{\pi_1}(1-\hat{\pi_1})}{n_1} + \frac{\hat{\pi_2}(1-\hat{\pi_2})}{n_2} } }\)</span></td>
+<td><span class="math inline">\(N(0,1)\)</span></td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="r-code-to-obtain-p-value" class="slide level2">
+<section id="r-code-to-obtain-p-value" class="slide level2 smaller">
 <h2>R Code to obtain p-value</h2>
 <table>
 <colgroup>
