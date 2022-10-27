@@ -1236,7 +1236,7 @@
     "href": "slides/lec15.html#simulations-in-r",
     "title": "Repeated Sampling  Section 9.2 - 9.4",
     "section": "Simulations in R",
-    "text": "Simulations in R\nThe theory of repeated samples is quite straight forward:\n\nImagine repeating the exact same random sampling procedure where you sampled 50 people from the population, say 10,000 times.\n\nFor each of the 10,000 samples, each with 50 people in them, calculate a sample statistic, say the sample mean. That is, you now have 10,000 sample means."
+    "text": "Simulations in R\nThe theory of repeated samples is quite straight forward:\n\n\nImagine repeating the exact same random sampling procedure where you sampled 50 people from the population, say 10,000 times.\n\nFor each of the 10,000 samples, each with 50 people in them, calculate a sample statistic, say the sample mean. That is, you now have 10,000 sample means.\nNow examine the distribution of the 10,000 sample means. This distribution of sample means is know as a sampling distribution. A distribution that is the result of repeated sampling.\n\n\n\nCode in R:\n\nsim_data <- data %>% \n  rep_sample_n(size = 50, reps = 10000)"
   },
   {
     "objectID": "slides/lec15.html#simulations-in-r-continued",
@@ -1257,89 +1257,89 @@
     "href": "slides/lec16.html#the-reality",
     "title": "Repeated Sampling  9.5 - 9.6",
     "section": "The Reality",
-    "text": "The Reality\nWe are never going to take thousands of samples and construct a sampling distribution. The concept of random sampling is entirely theoretical and lays the foundations for the derivations of the standard errors in Table 9.6."
+    "text": "The Reality\n\nWe are never going to take thousands of samples and construct a sampling distribution. The concept of random sampling is entirely theoretical and lays the foundations for the derivations of the standard errors in Table 9.6."
   },
   {
     "objectID": "slides/lec16.html#central-limit-theorem",
     "href": "slides/lec16.html#central-limit-theorem",
     "title": "Repeated Sampling  9.5 - 9.6",
     "section": "Central Limit Theorem",
-    "text": "Central Limit Theorem\nA sampling distribution of a mean (\\(\\bar{x})\\) will get closer and closer to the normal curve as the number of repetitions increases. This is true no matter the shape of the original data!\n\nThe mean of your sampling distribution is the same as the population mean. \\(mean(\\bar{x}) = \\mu\\).\nThe standard error of your sampling distribution is less than the spread of the population. \\(SE(\\bar{x}) = \\frac{\\sigma}{\\sqrt{n} }\\)\n\n\\[\\bar{x} \\sim N\\left(\\mu_{\\bar{x}} = \\mu_x, SE(\\bar{x})= \\frac{\\sigma_x}{\\sqrt{n}}\\right)\\]"
+    "text": "Central Limit Theorem\n\n\nA sampling distribution of a mean (\\(\\bar{x})\\) will get closer and closer to the normal curve as the number of repetitions increases. This is true no matter the shape of the original data!\nThe mean of your sampling distribution is the same as the population mean. \\(mean(\\bar{x}) = \\mu\\).\nThe standard error of your sampling distribution is less than the spread of the population. \\(SE(\\bar{x}) = \\frac{\\sigma}{\\sqrt{n} }\\)\nStatistical representation: \\[\\bar{x} \\sim N\\left(\\mu_{\\bar{x}} = \\mu_x, SE(\\bar{x})= \\frac{\\sigma_x}{\\sqrt{n}}\\right)\\]"
   },
   {
     "objectID": "slides/lec16.html#what-makes-a-good-sample",
     "href": "slides/lec16.html#what-makes-a-good-sample",
     "title": "Repeated Sampling  9.5 - 9.6",
     "section": "What makes a good sample?",
-    "text": "What makes a good sample?\n\nrepresentative of the population\npicked at random (avoids bias)\nbig enough size to draw conclusions from (\\(n \\geq 30\\))\nindependent samples - includes less than 10% of the population (too big of a sample \\(n\\) will create dependence between samples)\nException: If the population is already normal, the results hold for samples of any size \\(n\\)"
+    "text": "What makes a good sample?\n\n\nrepresentative of the population\npicked at random (avoids bias)\nbig enough size to draw conclusions from (\\(n \\geq 30\\))\nindependent samples - includes less than 10% of the population (too big of a sample \\(n\\) will create dependence between samples)\nException: If the population is already normal, the results hold for samples of any size \\(n\\)"
   },
   {
     "objectID": "slides/lec17.html#overview",
     "href": "slides/lec17.html#overview",
-    "title": "Confidence Intervals  Chapter 10 Part 1",
+    "title": "Confidence Intervals  Chapter 10  (Part 1)",
     "section": "Overview",
     "text": "Overview\nWe will collect one sample, and use the theoretical properties of the sampling distribution (ie: the mean and standard error) to make inferences about the population!"
   },
   {
     "objectID": "slides/lec17.html#sampling-distribution-properties",
     "href": "slides/lec17.html#sampling-distribution-properties",
-    "title": "Confidence Intervals  Chapter 10 Part 1",
+    "title": "Confidence Intervals  Chapter 10  (Part 1)",
     "section": "Sampling Distribution Properties",
-    "text": "Sampling Distribution Properties\n\n\n\n\n\n\n\n\n\n\nStatistic\nPopulation parameter\nEstimator\nSE of estimator\nCritical Value Distribution\n\n\n\n\nMean\n\\(\\mu\\)\n\\(\\bar{x}\\)\n\\(\\frac{s}{\\sqrt{n} }\\)\nt(df=n-1)\n\n\nDifference in means\n\\(\\mu_1-\\mu_2\\)\n\\(\\bar{x}_1-\\bar{x}_2\\)\n\\(\\sqrt{\\frac{s_1^2}{n_1} + \\frac{s_2^2}{n_2} }\\)\n\\(t(df=\\) min[n_1-1, n_2-1])\n\n\nProportion\n\\(\\pi\\)\n\\(\\hat{\\pi}\\)\n\\(\\sqrt{\\frac{\\hat{\\pi}(1-\\hat{\\pi})}{n} }\\)\nN(0,1)"
+    "text": "Sampling Distribution Properties\n\n\n\n\n\n\n\n\n\n\nStatistic\nPopulation parameter\nEstimator\nSE of estimator\nCritical Value Distribution\n\n\n\n\nMean\n\\(\\mu\\)\n\\(\\bar{x}\\)\n\\(\\frac{s}{\\sqrt{n} }\\)\n\\(t(df=n-1)\\)\n\n\nDifference in means\n\\(\\mu_1-\\mu_2\\)\n\\(\\bar{x}_1-\\bar{x}_2\\)\n\\(\\sqrt{\\frac{s_1^2}{n_1} + \\frac{s_2^2}{n_2} }\\)\n\\(t(df = min(n_1-1, n_2-1) )\\)\n\n\nProportion\n\\(\\pi\\)\n\\(\\hat{\\pi}\\)\n\\(\\sqrt{\\frac{\\hat{\\pi}(1-\\hat{\\pi})}{n} }\\)\n\\(N(0,1)\\)\n\n\nDifference in proportions\n\\(\\pi_1-\\pi_2\\)\n\\(\\hat{\\pi_1}-\\hat{\\pi_2}\\)\n\\(\\sqrt{\\frac{\\hat{\\pi_1}(1-\\hat{\\pi_1})}{n_1} + \\frac{\\hat{\\pi_2}(1-\\hat{\\pi_2})}{n_2} }\\)\n\\(N(0,1)\\)\n\n\nRegression intercept\n\\(\\beta_0\\)\n\\(b_0\\)\n\\(\\sqrt{ s_y^2 [\\frac{1}{n} + \\frac{\\bar{x}^2}{(n-1) s_x^2} ] }\\)\n\\(t(df=n-2)\\)\n\n\nRegression slope\n\\(\\beta_1\\)\n\\(b_1\\)\n\\(\\sqrt{\\frac{s_y^2}{(n-1) s_x^2} }\\)\n\\(t(df=n-2)\\)\n\n\n\n\nIf the population standard deviation is known, \\(\\sigma\\) (rare!) you use the normal distribution instead of the t-distribution. (ie: use \\(\\sigma\\) instead of \\(s\\))"
   },
   {
     "objectID": "slides/lec17.html#sampling-distribution-properties-cont",
     "href": "slides/lec17.html#sampling-distribution-properties-cont",
-    "title": "Confidence Intervals  Chapter 10 Part 1",
+    "title": "Confidence Intervals  Chapter 10  (Part 1)",
     "section": "Sampling Distribution Properties cont",
-    "text": "Sampling Distribution Properties cont\n\n\n\n\n\n\n\n\n\n\nStatistic\nPopulation parameter\nEstimator\nSE of estimator\nCritical Value Distribution\n\n\n\n\nDifference in proportions\n\\(\\pi_1-\\pi_2\\)\n\\(\\hat{\\pi_1}-\\hat{\\pi_2}\\)\n\\(\\sqrt{\\frac{\\hat{\\pi_1}(1-\\hat{\\pi_1})}{n_1} + \\frac{\\hat{\\pi_2}(1-\\hat{\\pi_2})}{n_2} }\\)\nN(0,1)\n\n\nRegression intercept\n\\(\\beta_0\\)\n\\(b_0\\)\n\\(\\sqrt{ s_y^2 [\\frac{1}{n} + \\frac{\\bar{x}^2}{(n-1) s_x^2} ] }\\)\nt(df=n-2)\n\n\nRegression slope\n\\(\\beta_1\\)\n\\(b_1\\)\n\\(\\sqrt{\\frac{s_y^2}{(n-1) s_x^2} }\\)\nt(df=n-2)"
+    "text": "Sampling Distribution Properties cont\n\n\n\n\n\n\n\n\n\n\nStatistic\nPopulation parameter\nEstimator\nSE of estimator\nCritical Value Distribution\n\n\n\n\nDifference in proportions\n\\(\\pi_1-\\pi_2\\)\n\\(\\hat{\\pi_1}-\\hat{\\pi_2}\\)\n\\(\\sqrt{\\frac{\\hat{\\pi_1}(1-\\hat{\\pi_1})}{n_1} + \\frac{\\hat{\\pi_2}(1-\\hat{\\pi_2})}{n_2} }\\)\n\\(N(0,1)\\)\n\n\nRegression intercept\n\\(\\beta_0\\)\n\\(b_0\\)\n\\(\\sqrt{ s_y^2 [\\frac{1}{n} + \\frac{\\bar{x}^2}{(n-1) s_x^2} ] }\\)\n\\(t(df=n-2)\\)\n\n\nRegression slope\n\\(\\beta_1\\)\n\\(b_1\\)\n\\(\\sqrt{\\frac{s_y^2}{(n-1) s_x^2} }\\)\n\\(t(df=n-2)\\)"
   },
   {
     "objectID": "slides/lec17.html#special-note",
     "href": "slides/lec17.html#special-note",
-    "title": "Confidence Intervals  Chapter 10 Part 1",
+    "title": "Confidence Intervals  Chapter 10  (Part 1)",
     "section": "Special note",
     "text": "Special note\nIf the population standard deviation is known, \\(\\sigma\\) (rare!) you use the normal distribution instead of the t-distribution. (ie: use \\(\\sigma\\) instead of \\(s\\))"
   },
   {
     "objectID": "slides/lec17.html#standardization-of-a-sampling-distribution",
     "href": "slides/lec17.html#standardization-of-a-sampling-distribution",
-    "title": "Confidence Intervals  Chapter 10 Part 1",
+    "title": "Confidence Intervals  Chapter 10  (Part 1)",
     "section": "Standardization of a sampling distribution",
-    "text": "Standardization of a sampling distribution\n \n\\[\\hbox{STAT} = \\frac{\\hbox{Estimator} - Mean(\\hbox{Estimator})}{SE(\\hbox{Estimator})}\\]\n \nThis is the SAME formula as Chapter 9.1 only this time instead of population parameters we are using the sampling distribution parameters!!"
+    "text": "Standardization of a sampling distribution\n \n\\[\\hbox{STAT} = \\frac{\\hbox{Estimator} - mean(\\hbox{Estimator})}{SE(\\hbox{Estimator})}\\]\n \nThis is the SAME formula as Chapter 9.1 only this time instead of population parameters we are using the sampling distribution parameters!!"
   },
   {
     "objectID": "slides/lec17.html#example",
     "href": "slides/lec17.html#example",
-    "title": "Confidence Intervals  Chapter 10 Part 1",
+    "title": "Confidence Intervals  Chapter 10  (Part 1)",
     "section": "Example",
-    "text": "Example\n \nExample: You are interested in the average GPA at NU. You randomly survey 100 students and calculate a sample mean of 3.15 and sample standard deviation of 0.2.\n\nGOAL: Calculate the Estimator and SE of Estimator for a single sample.\nGiven values: \\(\\bar{x} = 3.15\\), \\(s = 0.2\\)\nCalculated values: \\(SE = \\frac{0.2}{\\sqrt{100}}=0.02\\)"
+    "text": "Example\nYou are interested in the average GPA at NU. You randomly survey 100 students and calculate a sample mean of 3.15 and sample standard deviation of 0.2.\nCompute a 95% confidence interval for the average GPA at NU.\n\\[CI = \\hbox{Estimator} \\pm \\hbox{Critical  Value} * SE(\\hbox{Estimator})\\]"
   },
   {
     "objectID": "slides/lec17.html#confidence-intervals",
     "href": "slides/lec17.html#confidence-intervals",
-    "title": "Confidence Intervals  Chapter 10 Part 1",
+    "title": "Confidence Intervals  Chapter 10  (Part 1)",
     "section": "Confidence Intervals",
-    "text": "Confidence Intervals\n\nA confidence interval (CI) gives a range of plausible values for a parameter. It allows us to combine an estimator with a measure of its precision (i.e. its standard error).\n\n\\[\\hbox{Estimator} \\pm \\hbox{Critical  Value} * SE(\\hbox{Estimator})\\]\n\nSampling distribution properties are used to construct CIs for a population parameter."
+    "text": "Confidence Intervals\nA confidence interval (CI) gives a range of plausible values for a parameter. It allows us to combine an estimator with a measure of its precision (i.e. its standard error).\n\\[\\hbox{Estimator} \\pm \\hbox{Critical  Value} * SE(\\hbox{Estimator})\\]\n\n\nThe critical value is calculated based on the desired confidence level (ie: 95%) using the appropriate distribution for the estimator.\nSampling distribution properties are used to construct CIs for a population parameter."
   },
   {
     "objectID": "slides/lec17.html#terminology",
     "href": "slides/lec17.html#terminology",
-    "title": "Confidence Intervals  Chapter 10 Part 1",
+    "title": "Confidence Intervals  Chapter 10  (Part 1)",
     "section": "Terminology",
-    "text": "Terminology\nCritical value vs STAT\n\nThey both define a point on a standardized distribution.\nCritical value generally acts as a pre-defined threshold\nSTAT (test statistic) is generally used for a value computed from sampling data."
+    "text": "Terminology\nCritical value vs STAT\n\nThey both define a point on a standardized distribution.\nCritical value (CV) generally acts as a pre-defined threshold\nSTAT (test statistic) is generally used for a value computed from sampling data."
   },
   {
     "objectID": "slides/lec17.html#example-continued",
     "href": "slides/lec17.html#example-continued",
-    "title": "Confidence Intervals  Chapter 10 Part 1",
+    "title": "Confidence Intervals  Chapter 10  (Part 1)",
     "section": "Example continued",
     "text": "Example continued\nWe want to compute a 95% confidence interval for the example.\n\nBy Hand: \\[\\hbox{Estimator} \\pm \\hbox{Critical  Value} * SE(\\hbox{Estimator})\\] \\[= 3.15 \\pm 1.98*0.02 = [3.11, 3.19]\\]\nIn R: qt(p = 0.025, df = 99)"
   },
   {
     "objectID": "slides/lec17.html#example-interpretation",
     "href": "slides/lec17.html#example-interpretation",
-    "title": "Confidence Intervals  Chapter 10 Part 1",
+    "title": "Confidence Intervals  Chapter 10  (Part 1)",
     "section": "Example Interpretation",
     "text": "Example Interpretation\n\nWe are 95% confident that the average GPA of all students at NU (my population) is between 3.11 and 3.19.\n\nIncorrect Interpretations:\n\n95% of all students GPA at NU is between 3.11 and 3.19.\nThere is a 95% chance that the average GPA of all students at NU (my population) is between 3.11 and 3.19."
   },
@@ -1622,5 +1622,26 @@
     "title": "Today’s Agenda",
     "section": "Homework Due Thu Oct 27 11:59pm",
     "text": "Homework Due Thu Oct 27 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_14\n\n     Read Sections 9.2 - 9.3\n\n    Complete and submit  RC_14"
+  },
+  {
+    "objectID": "slides/lec15.html#overview",
+    "href": "slides/lec15.html#overview",
+    "title": "Repeated Sampling  Section 9.2 - 9.4",
+    "section": "Overview",
+    "text": "Overview\nThe theory of repeated samples makes it possible for statisticians to take a random sample from a population and use it to make inference about that population’s parameters.\n\n\nDefinitions:\n\n\nRepeated Sampling: repeating the exact same random sampling procedure many times.\nSampling variability: some sample estimates are bigger and some smaller than the true population statistic\nStandard error: the standard deviation of a sampling distribution\nSampling Distribution: a probability distribution of a statistic (mean, proportion, or variation) obtained from repeated sampling. This distribution is visualized with a histogram."
+  },
+  {
+    "objectID": "slides/lec15.html#simple-example",
+    "href": "slides/lec15.html#simple-example",
+    "title": "Repeated Sampling  Section 9.2 - 9.4",
+    "section": "Simple example",
+    "text": "Simple example\nLet’s say we want to estimate the average height of a college student. You take a random sample of size 2. And repeat this procedure 4 times."
+  },
+  {
+    "objectID": "slides/lec17.html#interpretation",
+    "href": "slides/lec17.html#interpretation",
+    "title": "Confidence Intervals  Chapter 10  (Part 1)",
+    "section": "Interpretation",
+    "text": "Interpretation\nCorrect Interpretation:\nWe are 95% confident that the average GPA of all students at NU (my population) is between 3.11 and 3.19.\n\n\nIncorrect Interpretations:\n\n95% of all students GPA at NU is between 3.11 and 3.19.\nThere is a 95% chance that the average GPA of all students at NU (my population) is between 3.11 and 3.19."
   }
 ]

@@ -332,26 +332,31 @@
 
 <section id="the-reality" class="slide level2">
 <h2>The Reality</h2>
+<p><br></p>
 <p>We are never going to take thousands of samples and construct a sampling distribution. The concept of random sampling is entirely theoretical and lays the foundations for the derivations of the standard errors in Table 9.6.</p>
 </section>
 <section id="central-limit-theorem" class="slide level2">
 <h2>Central Limit Theorem</h2>
-<p>A <strong>sampling distribution</strong> of a mean (<span class="math inline">\(\bar{x})\)</span> will get closer and closer to the normal curve as the number of repetitions increases. This is true no matter the shape of the original data!</p>
+<div>
 <ul>
-<li><p>The mean of your sampling distribution is the same as the population mean. <span class="math inline">\(mean(\bar{x}) = \mu\)</span>.</p></li>
-<li><p>The standard error of your sampling distribution is less than the spread of the population. <span class="math inline">\(SE(\bar{x}) = \frac{\sigma}{\sqrt{n} }\)</span></p></li>
+<li class="fragment"><p>A <strong>sampling distribution</strong> of a mean (<span class="math inline">\(\bar{x})\)</span> will get closer and closer to the normal curve as the number of repetitions increases. This is true no matter the shape of the original data!</p></li>
+<li class="fragment"><p>The mean of your sampling distribution is the same as the population mean. <span class="math inline">\(mean(\bar{x}) = \mu\)</span>.</p></li>
+<li class="fragment"><p>The standard error of your sampling distribution is less than the spread of the population. <span class="math inline">\(SE(\bar{x}) = \frac{\sigma}{\sqrt{n} }\)</span></p></li>
+<li class="fragment"><p>Statistical representation: <span class="math display">\[\bar{x} \sim N\left(\mu_{\bar{x}} = \mu_x, SE(\bar{x})= \frac{\sigma_x}{\sqrt{n}}\right)\]</span></p></li>
 </ul>
-<p><span class="math display">\[\bar{x} \sim N\left(\mu_{\bar{x}} = \mu_x, SE(\bar{x})= \frac{\sigma_x}{\sqrt{n}}\right)\]</span></p>
+</div>
 </section>
 <section id="what-makes-a-good-sample" class="slide level2">
 <h2>What makes a good sample?</h2>
+<div>
 <ul>
-<li>representative of the population</li>
-<li>picked at random (avoids bias)</li>
-<li>big enough size to draw conclusions from (<span class="math inline">\(n \geq 30\)</span>)</li>
-<li>independent samples - includes less than 10% of the population (too big of a sample <span class="math inline">\(n\)</span> will create dependence between samples)</li>
-<li>Exception: If the population is already normal, the results hold for samples of any size <span class="math inline">\(n\)</span></li>
+<li class="fragment">representative of the population</li>
+<li class="fragment">picked at random (avoids bias)</li>
+<li class="fragment">big enough size to draw conclusions from (<span class="math inline">\(n \geq 30\)</span>)</li>
+<li class="fragment">independent samples - includes less than 10% of the population (too big of a sample <span class="math inline">\(n\)</span> will create dependence between samples)</li>
+<li class="fragment">Exception: If the population is already normal, the results hold for samples of any size <span class="math inline">\(n\)</span></li>
 </ul>
+</div>
 
 
 <img src="nu_logo.png" class="slide-logo r-stretch"><div class="footer footer-default">

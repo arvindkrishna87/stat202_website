@@ -20,29 +20,34 @@ execute:
   echo: true
 ---
 
-## Overview and Definitions
+## Overview{.smaller}
 
-The theory of **repeated samples** makes it possible for statisticians to take a random sample from a population and use to make inference about that population's parameters.
+The theory of **repeated samples** makes it possible for statisticians to take a random sample from a population and use it to make inference about that population's parameters.
 
+. . .
+
+<br>
+
+**Definitions:**
+
+:::{.incremental}
 -   **Repeated Sampling**: repeating the exact same random sampling procedure many times.
-
 -   **Sampling variability**: some sample estimates are bigger and some smaller than the true population statistic
-
-## More Definitions
-
 -   **Standard error**: the standard deviation of a sampling distribution
 -   **Sampling Distribution**: a probability distribution of a statistic (mean, proportion, or variation) obtained from repeated sampling. This distribution is visualized with a histogram.
+:::
 
-## Simulations in R
+## Simulations in R{.smaller}
 
 The theory of repeated samples is quite straight forward:
 
+:::{.incremental}
 1.  Imagine repeating the exact same *random sampling* procedure where you sampled 50 people from the population, say 10,000 times.\
 2.  For each of the 10,000 samples, each with 50 people in them, calculate a sample statistic, say the sample mean. That is, you now have 10,000 sample means.
-
-## Simulations in R continued
-
 3.  Now examine the distribution of the 10,000 sample means. This distribution of sample means is know as a sampling distribution. A distribution that is the result of repeated sampling.
+:::
+
+. . .
 
 **Code in R**:
 
@@ -53,6 +58,12 @@ sim_data <- data %>%
   rep_sample_n(size = 50, reps = 10000)
 ```
 
+## Simple example {.smaller}
+
+Let's say we want to estimate the average height of a college student. You take a random sample of size 2. And repeat this procedure 4 times.
+
+
+
 ## Describing a Sampling Distribution
 
-<center>![](images/lecture_images/describe_histogram.PNG)</center>
+<center>![](images_lecture/describe_histogram.png)</center>

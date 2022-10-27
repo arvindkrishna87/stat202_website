@@ -9,7 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.1.251">
 
-  <title>STAT 202 - Confidence Intervals  Chapter 10 Part 1</title>
+  <title>STAT 202 - Confidence Intervals  Chapter 10  (Part 1)</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -326,7 +326,7 @@
     <div class="slides">
 
 <section id="title-slide" class="center">
-  <h1 class="title">Confidence Intervals <br> Chapter 10 Part 1</h1>
+  <h1 class="title">Confidence Intervals <br> Chapter 10 <br> (Part 1)</h1>
   <p class="institute">Department of Statistics and Data Science <br> STAT 202</p>
 </section>
 
@@ -334,15 +334,15 @@
 <h2>Overview</h2>
 <p>We will collect one sample, and use the theoretical properties of the sampling distribution (ie: the mean and standard error) to make inferences about the population!</p>
 </section>
-<section id="sampling-distribution-properties" class="slide level2">
+<section id="sampling-distribution-properties" class="slide level2 smaller">
 <h2>Sampling Distribution Properties</h2>
 <table>
 <colgroup>
-<col style="width: 18%">
-<col style="width: 18%">
-<col style="width: 18%">
-<col style="width: 26%">
-<col style="width: 18%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -359,131 +359,98 @@
 <td><span class="math inline">\(\mu\)</span></td>
 <td><span class="math inline">\(\bar{x}\)</span></td>
 <td><span class="math inline">\(\frac{s}{\sqrt{n} }\)</span></td>
-<td>t(df=n-1)</td>
+<td><span class="math inline">\(t(df=n-1)\)</span></td>
 </tr>
 <tr class="even">
 <td>Difference in means</td>
 <td><span class="math inline">\(\mu_1-\mu_2\)</span></td>
 <td><span class="math inline">\(\bar{x}_1-\bar{x}_2\)</span></td>
 <td><span class="math inline">\(\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2} }\)</span></td>
-<td><span class="math inline">\(t(df=\)</span> min[n_1-1, n_2-1])</td>
+<td><span class="math inline">\(t(df = min(n_1-1, n_2-1) )\)</span></td>
 </tr>
 <tr class="odd">
 <td>Proportion</td>
 <td><span class="math inline">\(\pi\)</span></td>
 <td><span class="math inline">\(\hat{\pi}\)</span></td>
 <td><span class="math inline">\(\sqrt{\frac{\hat{\pi}(1-\hat{\pi})}{n} }\)</span></td>
-<td>N(0,1)</td>
+<td><span class="math inline">\(N(0,1)\)</span></td>
 </tr>
-</tbody>
-</table>
-</section>
-<section id="sampling-distribution-properties-cont" class="slide level2">
-<h2>Sampling Distribution Properties cont</h2>
-<table>
-<colgroup>
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 16%">
-<col style="width: 35%">
-<col style="width: 16%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Statistic</th>
-<th>Population parameter</th>
-<th>Estimator</th>
-<th>SE of estimator</th>
-<th>Critical Value Distribution</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
+<tr class="even">
 <td>Difference in proportions</td>
 <td><span class="math inline">\(\pi_1-\pi_2\)</span></td>
 <td><span class="math inline">\(\hat{\pi_1}-\hat{\pi_2}\)</span></td>
 <td><span class="math inline">\(\sqrt{\frac{\hat{\pi_1}(1-\hat{\pi_1})}{n_1} + \frac{\hat{\pi_2}(1-\hat{\pi_2})}{n_2} }\)</span></td>
-<td>N(0,1)</td>
+<td><span class="math inline">\(N(0,1)\)</span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>Regression intercept</td>
 <td><span class="math inline">\(\beta_0\)</span></td>
 <td><span class="math inline">\(b_0\)</span></td>
 <td><span class="math inline">\(\sqrt{ s_y^2 [\frac{1}{n} + \frac{\bar{x}^2}{(n-1) s_x^2} ] }\)</span></td>
-<td>t(df=n-2)</td>
+<td><span class="math inline">\(t(df=n-2)\)</span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Regression slope</td>
 <td><span class="math inline">\(\beta_1\)</span></td>
 <td><span class="math inline">\(b_1\)</span></td>
 <td><span class="math inline">\(\sqrt{\frac{s_y^2}{(n-1) s_x^2} }\)</span></td>
-<td>t(df=n-2)</td>
+<td><span class="math inline">\(t(df=n-2)\)</span></td>
 </tr>
 </tbody>
 </table>
-</section>
-<section id="special-note" class="slide level2">
-<h2>Special note</h2>
+<div class="footer">
 <p>If the population standard deviation is known, <span class="math inline">\(\sigma\)</span> (rare!) you use the normal distribution instead of the t-distribution. (ie: use <span class="math inline">\(\sigma\)</span> instead of <span class="math inline">\(s\)</span>)</p>
+</div>
 </section>
 <section id="standardization-of-a-sampling-distribution" class="slide level2">
 <h2>Standardization of a sampling distribution</h2>
 <p>&nbsp;</p>
-<p><span class="math display">\[\hbox{STAT} = \frac{\hbox{Estimator} - Mean(\hbox{Estimator})}{SE(\hbox{Estimator})}\]</span></p>
+<p><span class="math display">\[\hbox{STAT} = \frac{\hbox{Estimator} - mean(\hbox{Estimator})}{SE(\hbox{Estimator})}\]</span></p>
 <p>&nbsp;</p>
 <p>This is the SAME formula as Chapter 9.1 only this time instead of population parameters we are using the sampling distribution parameters!!</p>
 </section>
-<section id="example" class="slide level2">
-<h2>Example</h2>
-<p>&nbsp;</p>
-<p><strong>Example</strong>: You are interested in the average GPA at NU. You randomly survey 100 students and calculate a sample mean of 3.15 and sample standard deviation of 0.2.</p>
-<ul>
-<li><p><strong>GOAL</strong>: Calculate the Estimator and SE of Estimator for a single sample.</p></li>
-<li><p><strong>Given values</strong>: <span class="math inline">\(\bar{x} = 3.15\)</span>, <span class="math inline">\(s = 0.2\)</span></p></li>
-<li><p><strong>Calculated values</strong>: <span class="math inline">\(SE = \frac{0.2}{\sqrt{100}}=0.02\)</span></p></li>
-</ul>
-</section>
 <section id="confidence-intervals" class="slide level2">
 <h2>Confidence Intervals</h2>
-<ul>
-<li>A confidence interval (CI) gives a range of plausible values for a parameter. It allows us to combine an estimator with a measure of its precision (i.e.&nbsp;its standard error).</li>
-</ul>
+<p>A confidence interval (CI) gives a range of plausible values for a parameter. It allows us to combine an estimator with a measure of its precision (i.e.&nbsp;its standard error).</p>
 <p><span class="math display">\[\hbox{Estimator} \pm \hbox{Critical  Value} * SE(\hbox{Estimator})\]</span></p>
+<div class="fragment">
 <ul>
-<li>Sampling distribution properties are used to construct CIs for a population parameter.</li>
+<li><p>The critical value is calculated based on the desired confidence level (ie: 95%) using the appropriate distribution for the estimator.</p></li>
+<li><p>Sampling distribution properties are used to construct CIs for a population parameter.</p></li>
 </ul>
+</div>
 </section>
 <section id="terminology" class="slide level2">
 <h2>Terminology</h2>
 <p>Critical value vs STAT</p>
 <ul>
-<li>They both define a point on a standardized distribution.</li>
-<li>Critical value generally acts as a pre-defined threshold</li>
+<li>They both define a point on a <strong>standardized</strong> distribution.</li>
+<li>Critical value (CV) generally acts as a pre-defined threshold</li>
 <li>STAT (test statistic) is generally used for a value computed from sampling data.</li>
 </ul>
 </section>
-<section id="example-continued" class="slide level2">
-<h2>Example continued</h2>
-<p>We want to compute a 95% confidence interval for the example.</p>
-<ul>
-<li><p>By Hand: <span class="math display">\[\hbox{Estimator} \pm \hbox{Critical  Value} * SE(\hbox{Estimator})\]</span> <span class="math display">\[= 3.15 \pm 1.98*0.02 = [3.11, 3.19]\]</span></p></li>
-<li><p>In R: <code>qt(p = 0.025, df = 99)</code></p></li>
-</ul>
+<section id="example" class="slide level2">
+<h2>Example</h2>
+<p>You are interested in the average GPA at NU. You randomly survey 100 students and calculate a sample mean of 3.15 and sample standard deviation of 0.2.</p>
+<p>Compute a 95% confidence interval for the average GPA at NU.</p>
+<p><span class="math display">\[CI = \hbox{Estimator} \pm \hbox{Critical  Value} * SE(\hbox{Estimator})\]</span></p>
 </section>
-<section id="example-interpretation" class="slide level2">
-<h2>Example Interpretation</h2>
-<ul>
-<li>We are 95% confident that the average GPA of all students at NU (my population) is between 3.11 and 3.19.</li>
-</ul>
+<section id="interpretation" class="slide level2">
+<h2>Interpretation</h2>
+<p><strong>Correct Interpretation:</strong></p>
+<p>We are 95% confident that the average GPA of all students at NU (my population) is between 3.11 and 3.19.</p>
+<div class="fragment">
+<p><br></p>
 <p><strong>Incorrect Interpretations</strong>:</p>
 <ul>
 <li>95% of all students GPA at NU is between 3.11 and 3.19.</li>
 <li>There is a 95% chance that the average GPA of all students at NU (my population) is between 3.11 and 3.19.</li>
 </ul>
 
+<p><img src="nu_logo.png" class="slide-logo"></p>
+<div class="footer footer-default">
 
-<img src="nu_logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
-
+</div>
 </div>
 </section>
     </div>

@@ -1,5 +1,5 @@
 ---
-title: "Confidence Intervals <br> Chapter 10 Part 2"
+title: "Confidence Intervals <br> Chapter 10 <br> (Part 2)"
 institute: "Department of Statistics and Data Science <br> STAT 202"
 
 logo: nu_logo.png
@@ -81,7 +81,7 @@ We want to construct a 95% confidence area for the population mean.
 ## R Code to obtain CIs from data sets
 
 | Statistic          | R Code                                                                 |
-|------------------|------------------------------------------------------|
+|-------------------|-----------------------------------------------------|
 | Mean               | t.test(x = data\$variable, conf.level = 0.95) }                        |
 | Proportion         | prop.test(x = #, n = #, conf.level = 0.95, correct=FALSE)              |
 | Diff in mean       | t.test(x = data1\$variable, y = data2\$variable, conf.level = 0.95)    |
