@@ -27,3 +27,13 @@ Activities are graded for completion! It is your responsibility and should be a 
 -   [Solution - Activity 10](documents/solutions/solution_act_10.html)
 
 -   [Solution - Activity 11](documents/solutions/solution_act_11.html)
+
+-   [Solution - Activity 12](documents/solutions/solution_act_12.pdf)
+
+<!-- -   [Solution - Activity 13](documents/solutions/solution_act_13.pdf) -->
+
+<!-- -   [Solution - Activity 14](documents/solutions/solution_act_14.html) -->
+
+<!-- -   [Solution - Activity 15](documents/solutions/solution_act_15.html) -->
+
+<!-- -   [Solution - Activity 16](documents/solutions/solution_act_16.html) -->
