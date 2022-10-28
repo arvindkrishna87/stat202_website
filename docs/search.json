@@ -242,7 +242,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 9.0 - 9.1"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 9.2 - 9.3"
   },
   {
     "objectID": "index.html#participate",
@@ -256,7 +256,7 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    Activity 14 Worksheet\n\n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_14"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    App for Activity 15\n\n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_15"
   },
   {
     "objectID": "index.html#homework-due-thu-oct-20-1159pm",
@@ -1671,5 +1671,19 @@
     "title": "P-values  Chapter 11",
     "section": "Writing hypotheses examples",
     "text": "Writing hypotheses examples\n\n\n\\(H_0\\): \\(\\mu=5\\)\n\\(H_A\\): \\(\\mu\\ne5\\)\n\n\\(H_0\\): \\(\\pi=0.5\\)\n\\(H_A\\): \\(\\pi\\ne0.5\\)\n\n\n\n\n\n\\(H_0\\): \\(\\mu_1-\\mu_2=0\\)\n\\(H_A\\): \\(\\mu_1-\\mu_2\\ne0\\)\n\n\\(H_0\\): \\(\\beta_1=0\\)\n\\(H_A\\): \\(\\beta_1\\ne0\\)\n\n\n\nThese are called two-sided tests. There also exists one-sided tests ex: \\(H_0: \\pi \\geq 0.5\\) vs \\(H_A: \\pi < 0.5\\) but they are NOT necessary. We can (and should) ALWAYS use a two-sided test."
+  },
+  {
+    "objectID": "index.html#class-fri-oct-28",
+    "href": "index.html#class-fri-oct-28",
+    "title": "Today’s Agenda",
+    "section": "Class: Fri Oct 28",
+    "text": "Class: Fri Oct 28\n\n\n\n\n\n\n  \n  \n  \n    Study for Exam 2"
+  },
+  {
+    "objectID": "index.html#homework-due-sun-oct-30-1159pm",
+    "href": "index.html#homework-due-sun-oct-30-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Sun Oct 30 11:59pm",
+    "text": "Homework Due Sun Oct 30 11:59pm"
   }
 ]
