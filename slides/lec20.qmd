@@ -22,7 +22,7 @@ execute:
 
 ## Example {.smaller}
 
-Suppose Jill Thrillseeker is going sky diving. Jill will be inspecting the parachute before using it. No matter the inspection, we can never be 100% sure the parachute will work until we pull the rip cord to deploy it. Describe the 4 possible scenarios and their consequences.
+Suppose Jill Thrillseeker is going sky diving. Jill will be inspecting the parachute before using it. No matter the inspection, we can never be 100% sure the parachute will work until we pull the rip cord to deploy it. 
 
 . . .
 
@@ -30,7 +30,13 @@ Suppose Jill Thrillseeker is going sky diving. Jill will be inspecting the parac
 
 -   $H_A:$ the parachute is not packed correctly (meaning it will not work)
 
-## 4 Possible Scenarios
+. . .
+
+Describe the 4 possible scenarios and their consequences.
+
+. . .
+
+<!-- ## 4 Possible Scenarios -->
 
 |                                   | Alternative $H_A$ is true | Null $H_0$ is true |
 |------------------------------|------------------------|------------------|
