@@ -1472,14 +1472,14 @@
   {
     "objectID": "slides/lec20.html#example",
     "href": "slides/lec20.html#example",
-    "title": "Hypothesis Testing  Chapter 12 Part 1",
+    "title": "Hypothesis Testing  Chapter 12  (Part 1)",
     "section": "Example",
-    "text": "Example\nSuppose Jill Thrillseeker is going sky diving. Jill will be inspecting the parachute before using it. No matter the inspection, we can never be 100% sure the parachute will work until we pull the rip cord to deploy it. Describe the 4 possible scenarios and their consequences.\n\n\\(H_0:\\) the parachute is packed correctly (meaning it will work)\n\\(H_A:\\) the parachute is not packed correctly (meaning it will not work)"
+    "text": "Example\nSuppose Jill Thrillseeker is going sky diving. Jill will be inspecting the parachute before using it. No matter the inspection, we can never be 100% sure the parachute will work until we pull the rip cord to deploy it. Describe the 4 possible scenarios and their consequences.\n\n\n\\(H_0:\\) the parachute is packed correctly (meaning it will work)\n\\(H_A:\\) the parachute is not packed correctly (meaning it will not work)"
   },
   {
     "objectID": "slides/lec20.html#possible-scenarios",
     "href": "slides/lec20.html#possible-scenarios",
-    "title": "Hypothesis Testing  Chapter 12 Part 1",
+    "title": "Hypothesis Testing  Chapter 12  (Part 1)",
     "section": "4 Possible Scenarios",
     "text": "4 Possible Scenarios\n\n\n\n\n\n\n\n\n\nAlternative \\(H_A\\) is true\nNull \\(H_0\\) is true\n\n\n\n\nReject the null hypothesis\nScenario 1\nScenario 2\n\n\nDo not reject the null hypothesis\nScenario 3\nScenario 4"
   },
@@ -1542,63 +1542,63 @@
   {
     "objectID": "slides/lec21.html#steps-for-conducting-a-hypothesis-test",
     "href": "slides/lec21.html#steps-for-conducting-a-hypothesis-test",
-    "title": "Hypothesis Testing  Chapter 12 Part 1",
+    "title": "Hypothesis Testing  Chapter 12  (Part 2)",
     "section": "Steps for conducting a Hypothesis test",
     "text": "Steps for conducting a Hypothesis test\n\nFormulate a hypothesis. Define \\(H_0\\) and \\(H_A\\).\nDetermine a significance level (\\(\\alpha\\)), Type I error rate.\nDetermine your distribution under \\(H_0\\) (t-dist or normal).\nCollect your sample data and compute the test statistic.\nDetermine the p-value based on the test statistic.\nDraw conclusions in the context of the problem."
   },
   {
     "objectID": "slides/lec21.html#decision-making",
     "href": "slides/lec21.html#decision-making",
-    "title": "Hypothesis Testing  Chapter 12 Part 1",
+    "title": "Hypothesis Testing  Chapter 12  (Part 2)",
     "section": "Decision Making",
     "text": "Decision Making\n\nWhen p-value \\(< \\alpha\\) we reject the null hypothesis.\nWhen p-value \\(\\geq \\alpha\\) we fail to reject the null hypothesis.\nyou must select a significance level, \\(\\alpha\\) before collecting the data"
   },
   {
     "objectID": "slides/lec21.html#sample-interpretation",
     "href": "slides/lec21.html#sample-interpretation",
-    "title": "Hypothesis Testing  Chapter 12 Part 1",
+    "title": "Hypothesis Testing  Chapter 12  (Part 2)",
     "section": "Sample Interpretation",
     "text": "Sample Interpretation\nAssuming NULL HYPOTHESIS IS TRUE IN CONTEXT OF PROBLEM, there is about a PVALUE% chance of see data as extreme as mine. Since the p-value is less than (or greater than) our threshold ALPHA%, we reject (or fail to reject if greater than) the null hypothesis. This means CONCLUSION IN CONTEXT OF PROBLEM."
   },
   {
     "objectID": "slides/lec21.html#two-tail-vs-one-tail-tests",
     "href": "slides/lec21.html#two-tail-vs-one-tail-tests",
-    "title": "Hypothesis Testing  Chapter 12 Part 1",
+    "title": "Hypothesis Testing  Chapter 12  (Part 2)",
     "section": "Two-tail vs one-tail tests",
     "text": "Two-tail vs one-tail tests\n\nOne-tailed tests provides more power to detect an effect. You may be tempted to use a one-tailed test whenever you have a hypothesis about the direction of an effect.\nBefore doing so, consider the consequences of missing an effect in the other direction."
   },
   {
     "objectID": "slides/lec21.html#example",
     "href": "slides/lec21.html#example",
-    "title": "Hypothesis Testing  Chapter 12 Part 1",
+    "title": "Hypothesis Testing  Chapter 12  (Part 2)",
     "section": "Example",
     "text": "Example\nImagine you have developed a new drug that you believe is an improvement over an existing drug. You wish to maximize your ability to detect the improvement, so you opt for a one-tailed test.\n\nIn doing so, you fail to test for the possibility that the new drug is less effective than the existing drug.\nThe consequences in this example are extreme, but they illustrate a danger of inappropriate use of a one-tailed test."
   },
   {
     "objectID": "slides/lec21.html#one-sided-vs-two-sided-tests-for-this-class",
     "href": "slides/lec21.html#one-sided-vs-two-sided-tests-for-this-class",
-    "title": "Hypothesis Testing  Chapter 12 Part 1",
+    "title": "Hypothesis Testing  Chapter 12  (Part 2)",
     "section": "One-sided vs two-sided tests for this class",
     "text": "One-sided vs two-sided tests for this class\n\nWe focus on two-tailed tests in this class because it is the safe option and we do NOT want to miss an effect in the opposite direction.\n\nhttps://stats.oarc.ucla.edu/other/mult-pkg/faq/general/faq-what-are-the-differences-between-one-tailed-and-two-tailed-tests/"
   },
   {
     "objectID": "slides/lec21.html#deeper-understanding",
     "href": "slides/lec21.html#deeper-understanding",
-    "title": "Hypothesis Testing  Chapter 12 Part 1",
+    "title": "Hypothesis Testing  Chapter 12  (Part 2)",
     "section": "Deeper understanding",
     "text": "Deeper understanding\nWhich type of error is usually more of a priority?\n\nDepends on the situation\nAssess the consequences in order to decide\n\nWhich type of error is usually easier to control? Why?\n\nType I error because we choose the alpha level"
   },
   {
     "objectID": "slides/lec21.html#deeper-understanding-continued",
     "href": "slides/lec21.html#deeper-understanding-continued",
-    "title": "Hypothesis Testing  Chapter 12 Part 1",
+    "title": "Hypothesis Testing  Chapter 12  (Part 2)",
     "section": "Deeper Understanding continued",
     "text": "Deeper Understanding continued\nCan we lower both errors at the same time?\n\nNO!\nThere is a tradeoff between the two errors\nIt is not a 1-to-1 tradeoff\n\nCan we know if we made a correct decision?\n\nNO\nWe do not know the truth, that is why we are conducting a hypothesis test"
   },
   {
     "objectID": "slides/lec21.html#deeper-understanding-cont",
     "href": "slides/lec21.html#deeper-understanding-cont",
-    "title": "Hypothesis Testing  Chapter 12 Part 1",
+    "title": "Hypothesis Testing  Chapter 12  (Part 2)",
     "section": "Deeper Understanding cont",
     "text": "Deeper Understanding cont\nHow does sample size impact decision making?\n\nIncreasing the sample size decreases the p-value and the standard error while making the STAT more extreme\nAs a result, it is harder to detect statistical significance and reject the null with a smaller sample size\n\nNote: Just because something is statistically significant doesn’t mean it is practically significant."
   },
@@ -1685,5 +1685,19 @@
     "title": "Today’s Agenda",
     "section": "Homework Due Sun Oct 30 11:59pm",
     "text": "Homework Due Sun Oct 30 11:59pm"
+  },
+  {
+    "objectID": "slides/lec20.html#possible-scenarios-results",
+    "href": "slides/lec20.html#possible-scenarios-results",
+    "title": "Hypothesis Testing  Chapter 12  (Part 1)",
+    "section": "4 Possible Scenarios Results",
+    "text": "4 Possible Scenarios Results\n\n\n\n\n\n\n\n\n\nAlternative \\(H_A\\) is true\nNull \\(H_0\\) is true\n\n\n\n\nReject the null hypothesis\nCorrect Decision\nType I Error\n\n\nDo not reject the null hypothesis\nType II Error\nCorrect Decision"
+  },
+  {
+    "objectID": "slides/lec20.html#error",
+    "href": "slides/lec20.html#error",
+    "title": "Hypothesis Testing  Chapter 12  (Part 1)",
+    "section": "Error",
+    "text": "Error\n\nType 1Type II errorPower\n\n\n\nReject the null hypothesis when it is true\nFalse Positive\nSignificance level\n\\(\\alpha\\) = probability of a Type I error\n\n\n\n\nFail to reject the null hypothesis when it is false\nFalse Negative\n\\(\\beta\\) = probability of a Type II error\n\n\n\n\nThe probability of correctly rejecting the null hypothesis when it is false\nCorrect rejection decision\n\\(\\textbf{Power} = 1 - \\beta\\)"
   }
 ]

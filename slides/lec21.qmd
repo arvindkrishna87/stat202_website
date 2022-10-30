@@ -1,5 +1,5 @@
 ---
-title: "Hypothesis Testing <br> Chapter 12 Part 1"
+title: "Hypothesis Testing <br> Chapter 12 <br> (Part 2)"
 institute: "Department of Statistics and Data Science <br> STAT 202"
 
 logo: nu_logo.png
