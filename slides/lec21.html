@@ -343,71 +343,91 @@
 </section>
 <section id="decision-making" class="slide level2">
 <h2>Decision Making</h2>
+<p>You must select a significance level, <span class="math inline">\(\alpha\)</span> <strong>before</strong> collecting the data</p>
+<div class="fragment">
 <ul>
 <li>When p-value <span class="math inline">\(&lt; \alpha\)</span> we reject the null hypothesis.</li>
 <li>When p-value <span class="math inline">\(\geq \alpha\)</span> we fail to reject the null hypothesis.</li>
-<li>you must select a significance level, <span class="math inline">\(\alpha\)</span> <strong>before</strong> collecting the data</li>
 </ul>
+</div>
 </section>
 <section id="sample-interpretation" class="slide level2">
 <h2>Sample Interpretation</h2>
-<p>Assuming <strong>NULL HYPOTHESIS IS TRUE IN CONTEXT OF PROBLEM</strong>, there is about a <strong>PVALUE</strong>% chance of see data as extreme as mine. Since the p-value is less than (or greater than) our threshold <strong>ALPHA</strong>%, we reject (or fail to reject if greater than) the null hypothesis. This means <strong>CONCLUSION IN CONTEXT OF PROBLEM</strong>.</p>
+<p><br></p>
+<p>Assuming <strong>NULL HYPOTHESIS IS TRUE IN CONTEXT OF PROBLEM</strong>, there is about a <strong>PVALUE</strong>% chance of see data as extreme as mine. Since the p-value is less than (or greater than) our threshold <strong>ALPHA</strong>%, we reject (or fail to reject) the null hypothesis. This means <strong>CONCLUSION IN CONTEXT OF PROBLEM</strong>.</p>
 </section>
-<section id="two-tail-vs-one-tail-tests" class="slide level2">
+<section id="two-tail-vs-one-tail-tests" class="slide level2 smaller">
 <h2>Two-tail vs one-tail tests</h2>
+<div>
 <ul>
-<li>One-tailed tests provides more power to detect an effect. You may be tempted to use a one-tailed test whenever you have a hypothesis about the direction of an effect.</li>
-<li>Before doing so, consider the <strong>consequences of missing an effect in the other direction</strong>.</li>
+<li class="fragment">One-tailed tests provides more power to detect an effect. You may be tempted to use a one-tailed test whenever you have a hypothesis about the direction of an effect.</li>
+<li class="fragment">Before doing so, consider the <strong>consequences of missing an effect in the other direction</strong> and consider the <strong>consequences of increasing your type 1 error rate</strong></li>
+<li class="fragment">You can and almost always should use a two-tailed test NO MATTER how the problem is worded.</li>
+<li class="fragment">We focus on <strong>two-tailed</strong> tests in this class because it is the safe option and we do NOT want to miss an effect in the opposite direction.</li>
 </ul>
+</div>
+<div class="fragment">
+<p>https://stats.oarc.ucla.edu/other/mult-pkg/faq/general/faq-what-are-the-differences-between-one-tailed-and-two-tailed-tests/</p>
+</div>
 </section>
 <section id="example" class="slide level2">
 <h2>Example</h2>
 <p>Imagine you have developed a new drug that you believe is an improvement over an existing drug. You wish to maximize your ability to detect the improvement, so you opt for a one-tailed test.</p>
+<div class="fragment">
 <ul>
 <li>In doing so, you fail to test for the possibility that the new drug is less effective than the existing drug.</li>
+</ul>
+</div>
+<div class="fragment">
+<ul>
 <li>The consequences in this example are extreme, but they illustrate a danger of inappropriate use of a one-tailed test.</li>
 </ul>
-</section>
-<section id="one-sided-vs-two-sided-tests-for-this-class" class="slide level2">
-<h2>One-sided vs two-sided tests for this class</h2>
-<ul>
-<li>We focus on <strong>two-tailed</strong> tests in this class because it is the safe option and we do NOT want to miss an effect in the opposite direction.</li>
-</ul>
-<p>https://stats.oarc.ucla.edu/other/mult-pkg/faq/general/faq-what-are-the-differences-between-one-tailed-and-two-tailed-tests/</p>
+</div>
 </section>
 <section id="deeper-understanding" class="slide level2">
 <h2>Deeper understanding</h2>
 <p><strong>Which type of error is usually more of a priority?</strong></p>
+<div>
 <ul>
-<li>Depends on the situation</li>
-<li>Assess the consequences in order to decide</li>
+<li class="fragment">Depends on the situation</li>
+<li class="fragment">Assess the consequences in order to decide</li>
 </ul>
+</div>
 <p><strong>Which type of error is usually easier to control? Why?</strong></p>
+<div>
 <ul>
-<li>Type I error because we choose the alpha level</li>
+<li class="fragment">Type I error because we choose the alpha level</li>
 </ul>
+</div>
 </section>
 <section id="deeper-understanding-continued" class="slide level2">
-<h2>Deeper Understanding continued</h2>
+<h2>Deeper Understanding (continued)</h2>
 <p><strong>Can we lower both errors at the same time?</strong></p>
+<div>
 <ul>
-<li>NO!</li>
-<li>There is a tradeoff between the two errors</li>
-<li>It is not a 1-to-1 tradeoff</li>
+<li class="fragment">NO!</li>
+<li class="fragment">There is a tradeoff between the two errors</li>
+<li class="fragment">It is not a 1-to-1 tradeoff</li>
 </ul>
+</div>
 <p><strong>Can we know if we made a correct decision?</strong></p>
+<div>
 <ul>
-<li>NO</li>
-<li>We do not know the truth, that is why we are conducting a hypothesis test</li>
+<li class="fragment">NO</li>
+<li class="fragment">We do not know the truth, that is why we are conducting a hypothesis test</li>
 </ul>
+</div>
 </section>
-<section id="deeper-understanding-cont" class="slide level2">
-<h2>Deeper Understanding cont</h2>
+<section id="deeper-understanding-continued-1" class="slide level2">
+<h2>Deeper Understanding (continued)</h2>
 <p><strong>How does sample size impact decision making?</strong></p>
+<div>
 <ul>
-<li>Increasing the sample size decreases the p-value and the standard error while making the STAT more extreme</li>
-<li>As a result, it is harder to detect statistical significance and reject the null with a smaller sample size</li>
+<li class="fragment">Increasing the sample size decreases the p-value and the standard error while making the STAT more extreme</li>
+<li class="fragment">As a result, it is harder to detect statistical significance and reject the null with a smaller sample size</li>
 </ul>
+</div>
+<p><br></p>
 <p><strong>Note: Just because something is statistically significant doesn’t mean it is practically significant.</strong></p>
 
 
