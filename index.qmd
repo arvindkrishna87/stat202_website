@@ -6,16 +6,14 @@ execute:
   message: false
   warning: false
   echo: false
+  
+from: markdown+emoji
 ---
 
 ::: callout-important
+Exam today on RStudio Cloud!
 
-Exam 2 is Monday October 31 over Sections 5 - 9.1
-
-Practice Exam is posted.
-<!-- https://northwestern.zoom.us/j/99863923813 -->
-<!-- delete -->
-
+Happy Halloween!
 :::
 
 ```{r}

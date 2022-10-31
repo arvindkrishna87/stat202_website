@@ -242,7 +242,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 9.2 - 9.3"
+    "text": "Prepare"
   },
   {
     "objectID": "index.html#participate",
@@ -256,7 +256,7 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    App for Activity 15\n\n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_15"
+    "text": "Agenda"
   },
   {
     "objectID": "index.html#homework-due-thu-oct-20-1159pm",
@@ -1607,7 +1607,7 @@
     "href": "index.html",
     "title": "Today’s Agenda",
     "section": "",
-    "text": "Important\n\n\n\nExam 2 is Monday October 31 over Sections 5 - 9.1\nPractice Exam is posted."
+    "text": "Important\n\n\n\nExam today on RStudio Cloud!\nHappy Halloween!"
   },
   {
     "objectID": "index.html#class-wed-oct-26",
@@ -1706,5 +1706,19 @@
     "title": "Hypothesis Testing  Chapter 12  (Part 2)",
     "section": "Deeper Understanding (continued)",
     "text": "Deeper Understanding (continued)\nHow does sample size impact decision making?\n\n\nIncreasing the sample size decreases the p-value and the standard error while making the STAT more extreme\nAs a result, it is harder to detect statistical significance and reject the null with a smaller sample size\n\n\n\nNote: Just because something is statistically significant doesn’t mean it is practically significant."
+  },
+  {
+    "objectID": "index.html#class-mon-oct-31",
+    "href": "index.html#class-mon-oct-31",
+    "title": "Today’s Agenda",
+    "section": "Class: Mon Oct 31",
+    "text": "Class: Mon Oct 31"
+  },
+  {
+    "objectID": "index.html#homework-due-tue-nov-01-1159pm",
+    "href": "index.html#homework-due-tue-nov-01-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Tue Nov 01 11:59pm",
+    "text": "Homework Due Tue Nov 01 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_15\n\n     Read Sections 9.4 - 9.7\n\n    Complete and submit  RC_15"
   }
 ]
