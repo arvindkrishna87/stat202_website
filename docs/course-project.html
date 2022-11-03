@@ -153,6 +153,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#choose-a-group" id="toc-choose-a-group" class="nav-link active" data-scroll-target="#choose-a-group">Choose a Group</a></li>
   <li><a href="#choose-a-dataset" id="toc-choose-a-dataset" class="nav-link" data-scroll-target="#choose-a-dataset">Choose a Dataset</a></li>
   <li><a href="#project-outline" id="toc-project-outline" class="nav-link" data-scroll-target="#project-outline">Project outline</a></li>
+  <li><a href="#project-rubric-50-points" id="toc-project-rubric-50-points" class="nav-link" data-scroll-target="#project-rubric-50-points">Project rubric (50 points)</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/dsass1/stat202_website/edit/main/course-project.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/dsass1/stat202_website/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -176,8 +177,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>The final project is to be completed in <strong>groups of 3-5</strong>. Why? 1) Group work and collaboration is a good life skill. 2) There is no possible way we can grade 200 projects by the time grades are due.</p>
-<p>The final project is due on <strong>Sunday December 4th 11:59pm</strong>. Groups are expected to submit their project electronically to Canvas, similar to how you submit your work for daily activities. You will type your project directly into a qmd file and knit an html document to submit. <strong>Only ONE person</strong> from the group needs to submit the html document. Make sure everyone’s name is on the project.</p>
-<p>The project should be in complete sentences within the context of your datset when appropriate. Students are expected to also show their work (i.e., include your R code). Your target audience is the grader and myself, we want to see your code and the output of your code.</p>
+<p>The final project is due on <strong>Sunday December 4th 11:59pm</strong>. Groups are expected to submit their project electronically to Canvas, similar to how you submit your work for daily activities. You will type your project directly into a qmd file and knit an html document. You should <strong>submit your .qmd and .html</strong> file (and datset if you chose one other than the one I provided). <strong>Only ONE person</strong> from the group needs to submit the html document. Make sure everyone’s name is on the project.</p>
+<p>The project should be in complete sentences within the context of your dataset when appropriate. Students are expected to also show their work (i.e., include your R code). Your target audience is the grader and myself, we want to see your code and the output of your code.</p>
 <section id="choose-a-group" class="level2">
 <h2 class="anchored" data-anchor-id="choose-a-group">Choose a Group</h2>
 <p>You must join your group on Canvas! Grades are linked to these groups - I will not hunt you down. To get a grade you must be in a group. On Canvas go to the <strong>People</strong> tab, and select <strong>Group</strong> to add yourself to a group.</p>
@@ -186,8 +187,9 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="choose-a-dataset" class="level2">
 <h2 class="anchored" data-anchor-id="choose-a-dataset">Choose a Dataset</h2>
+<p>For anyone complaining that we don’t use enough “real-life” data examples this is your chance!</p>
 <p><strong>Option 1:</strong></p>
-<p>You may use a dataset that I provide. This dataset will be located in the RStudio Cloud Project.</p>
+<p>You may use a dataset that I provide. This dataset will be pre-loaded and located in the RStudio Cloud Project.</p>
 <ul>
 <li><strong>Class Survey Data</strong>: You cannot use any analysis that is an existing question on your exam. You may think of a similar question but it should not be identical. You must use the full dataset, the midterm and final remove certain columns and observations to reduce time computations. See the <a href="./documents/project/survey_fa22_codebook"><strong>codebook</strong></a> for an explanation of the variables.</li>
 </ul>
@@ -201,6 +203,14 @@ ul.task-list li input[type="checkbox"] {
 <li><p>You may not use data that has previously been used in any Activity</p></li>
 <li><p>You may not use any data that is a part of the ISDSdatasets, ggplot2, or palmerpenguins packages.</p></li>
 </ul>
+<p>If you choose your own dataset, you will need to upload your data to the RStudio Cloud Project. Under the Files Pane, click on the “data” folder, then click the “upload” icon.</p>
+<p><br></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/project_upload.png" class="img-fluid figure-img" width="376"></p>
+</figure>
+</div>
+<p><br></p>
 <p>Where to find data?</p>
 <ul>
 <li><p><a href="https://libguides.northwestern.edu/data">Social Science Data Resources</a>: A LibGuide maintained by Anne Zald from the Northwestern library; this page provides curated links to a number of data sources by subject.</p></li>
@@ -235,7 +245,99 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="project-outline" class="level2">
 <h2 class="anchored" data-anchor-id="project-outline">Project outline</h2>
-<p>This will be updated later.</p>
+<p>Once you have chosen your dataset you will need to conduct an analysis and create a report. This is a report, meaning anytime you have code you should be explaining what you are doing before the code and any conclusions/findings that result after the code. In other words, there should not be random plots/code without any explanation.</p>
+<ul>
+<li><p>Introduction: Should introduce your dataset, where the data came from, why it is of interest, and any other general introductory statements. Cite your data link if necessary.</p></li>
+<li><p>EDA: Here you should describe your data. How many variables are in your dataset? How many observations? Are there any missingness issues and why might that be the case? Are there any potential data issues such as impossible/weird values? You will need to create a minimum of 2 graphics to explore your data. You cannot use the two same graphs (ie: cannot do 2 scatterplots). Each graph should have wrangling code and calculations to support the graph.</p></li>
+<li><p>Regression: Choose any 2 variables to predict a numeric variable. Write out the equation to your model and interpret any coefficients.</p></li>
+<li><p>Confidence interval: Develop a confidence interval related research question. Construct you confidence interval, state your confidence level and appropriately interpret in the context of the problem.</p></li>
+<li><p>Hypothesis test: Develop a hypothesis test related research question. State your null and alternative hypothesis, specify your alpha, perform the hypothesis test, and appropriately interpret in the context of the problem.</p></li>
+<li><p>Conclusion: State any concluding remarks.</p></li>
+</ul>
+<p><strong>Note: At least one of the confidence interval or hypothesis test must be a “difference” research question (ie: difference in means or difference in proportions). The confidence interval and hypothesis test must be answering different research questions.</strong></p>
+</section>
+<section id="project-rubric-50-points" class="level2">
+<h2 class="anchored" data-anchor-id="project-rubric-50-points">Project rubric (50 points)</h2>
+<table class="table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 21%">
+<col style="width: 6%">
+<col style="width: 21%">
+<col style="width: 6%">
+<col style="width: 28%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Neatness, Organization, Introduction, Conclusion</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Use complete sentences; minimal typos; names; headers formatted correctly; suppress warning or messages; introduction and conclusion present</td>
+</tr>
+<tr class="even">
+<td>EDA: Explanation</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Thoroughly explored your data using at a minimum the criteria in the project outline.</td>
+</tr>
+<tr class="odd">
+<td>EDA: Exploration 1</td>
+<td>Simple plot/wrangling AND improper explanation AND major error with code/data use</td>
+<td></td>
+<td>Simple plot/wrangling OR improper explanation OR major error with code/data use</td>
+<td></td>
+<td>Used a graph and appropriate data wrangling to support the graph. Proper explanation and introduction to the exploration. Sufficiently complex, you are showcasing what you learned this quarter.</td>
+</tr>
+<tr class="even">
+<td>EDA: Exploration 2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>Same criteria as above. Must be a different type of plot.</td>
+</tr>
+<tr class="odd">
+<td>Regression (x2 pts)</td>
+<td></td>
+<td></td>
+<td>Incorrect interpretation OR 2 issues</td>
+<td></td>
+<td>Stated the model goal. Used multiple regression model. Stated the model equation. Interpreted the coefficients in the context of the problem.</td>
+</tr>
+<tr class="even">
+<td>CI (x2 pts)</td>
+<td></td>
+<td></td>
+<td>Incorrect interpretation OR 2 issues</td>
+<td></td>
+<td>Stated the research question of interest. Stated CI level. Confidence interval is correct. Interpretation in the context of the problem</td>
+</tr>
+<tr class="odd">
+<td>Hypothesis test (x2 points)</td>
+<td></td>
+<td></td>
+<td>Incorrect interpretation OR 2 issues</td>
+<td></td>
+<td>Stated the research question of interest. Stated alpha level. Defined H0 and HA using proper notation. Hypothesis test conducted correctly. Interpretation in the context of the problem</td>
+</tr>
+</tbody>
+</table>
+<p>**Sufficiently complex exploration can mean many things. It can mean doing data wrangling before the plot to narrow down the data of interest or it can mean doing a bi-variate exploration (2 variables or more) and explaining how the variables relate. Ex: Simple exploration: histogram of a single variable using your entire dataset and calculating the mean and standard deviation. Complex exploration: faceting a histogram by a categorical variable and calculating summary statistics by category to explain how different categories vary.</p>
+<p>**Be a problem solver. If you don’t know how to write a regression equation or hypothesis copy an example from an activity and modify for your problem.</p>
 
 
 </section>

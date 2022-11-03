@@ -4,9 +4,9 @@ title: "Final Project"
 
 The final project is to be completed in **groups of 3-5**. Why? 1) Group work and collaboration is a good life skill. 2) There is no possible way we can grade 200 projects by the time grades are due.
 
-The final project is due on **Sunday December 4th 11:59pm**. Groups are expected to submit their project electronically to Canvas, similar to how you submit your work for daily activities. You will type your project directly into a qmd file and knit an html document to submit. **Only ONE person** from the group needs to submit the html document. Make sure everyone's name is on the project.
+The final project is due on **Sunday December 4th 11:59pm**. Groups are expected to submit their project electronically to Canvas, similar to how you submit your work for daily activities. You will type your project directly into a qmd file and knit an html document. You should **submit your .qmd and .html** file (and datset if you chose one other than the one I provided). **Only ONE person** from the group needs to submit the html document. Make sure everyone's name is on the project.
 
-The project should be in complete sentences within the context of your datset when appropriate. Students are expected to also show their work (i.e., include your R code). Your target audience is the grader and myself, we want to see your code and the output of your code.
+The project should be in complete sentences within the context of your dataset when appropriate. Students are expected to also show their work (i.e., include your R code). Your target audience is the grader and myself, we want to see your code and the output of your code.
 
 ## Choose a Group
 
@@ -18,12 +18,13 @@ Everyone in your group must agree to be in your group. I should not be getting e
 
 ## Choose a Dataset
 
+For anyone complaining that we don't use enough "real-life" data examples this is your chance!
+
 **Option 1:**
 
-You may use a dataset that I provide. This dataset will be located in the RStudio Cloud Project.
+You may use a dataset that I provide. This dataset will be pre-loaded and located in the RStudio Cloud Project.
 
 -   **Class Survey Data**: You cannot use any analysis that is an existing question on your exam. You may think of a similar question but it should not be identical. You must use the full dataset, the midterm and final remove certain columns and observations to reduce time computations. See the [**codebook**](/documents/project/survey_fa22_codebook) for an explanation of the variables.
-
 
 **Option 2:**
 
@@ -40,6 +41,14 @@ As a group you can pick a dataset of interest to explore! This can be any datase
 -   You may not use data that has previously been used in any Activity
 
 -   You may not use any data that is a part of the ISDSdatasets, ggplot2, or palmerpenguins packages.
+
+If you choose your own dataset, you will need to upload your data to the RStudio Cloud Project. Under the Files Pane, click on the "data" folder, then click the "upload" icon.
+
+<br>
+
+![](images/project_upload.png){fig-align="center" width="376"}
+
+<br>
 
 Where to find data?
 
@@ -99,7 +108,36 @@ Where to find data?
 
 -   [Twitter API](https://developer.twitter.com/en/docs): Twitter has a good streaming API, and makes it relatively straightforward to filter and stream tweets. You can get started here. There are tons of options here --- you could figure out what states are the happiest, or which countries use the most complex language. If you'd like some help getting started working with this Twitter API, check out the tutorial here.
 
-
 ## Project outline
 
-This will be updated later.
+Once you have chosen your dataset you will need to conduct an analysis and create a report. This is a report, meaning anytime you have code you should be explaining what you are doing before the code and any conclusions/findings that result after the code. In other words, there should not be random plots/code without any explanation.
+
+-   Introduction: Should introduce your dataset, where the data came from, why it is of interest, and any other general introductory statements. Cite your data link if necessary.
+
+-   EDA: Here you should describe your data. How many variables are in your dataset? How many observations? Are there any missingness issues and why might that be the case? Are there any potential data issues such as impossible/weird values? You will need to create a minimum of 2 graphics to explore your data. You cannot use the two same graphs (ie: cannot do 2 scatterplots). Each graph should have wrangling code and calculations to support the graph.
+
+-   Regression: Choose any 2 variables to predict a numeric variable. Write out the equation to your model and interpret any coefficients.
+
+-   Confidence interval: Develop a confidence interval related research question. Construct you confidence interval, state your confidence level and appropriately interpret in the context of the problem.
+
+-   Hypothesis test: Develop a hypothesis test related research question. State your null and alternative hypothesis, specify your alpha, perform the hypothesis test, and appropriately interpret in the context of the problem.
+
+-   Conclusion: State any concluding remarks.
+
+**Note: At least one of the confidence interval or hypothesis test must be a "difference" research question (ie: difference in means or difference in proportions). The confidence interval and hypothesis test must be answering different research questions.**
+
+## Project rubric (50 points)
+
+|                                                  | 1                                                                                 | 2   | 3                                                                               | 4   | 5                                                                                                                                                                                                 |
+|------------|----------------|-----|----------------|-----|----------------------|
+| Neatness, Organization, Introduction, Conclusion |                                                                                   |     |                                                                                 |     | Use complete sentences; minimal typos; names; headers formatted correctly; suppress warning or messages; introduction and conclusion present                                                      |
+| EDA: Explanation                                 |                                                                                   |     |                                                                                 |     | Thoroughly explored your data using at a minimum the criteria in the project outline.                                                                                                             |
+| EDA: Exploration 1                               | Simple plot/wrangling AND improper explanation AND major error with code/data use |     | Simple plot/wrangling OR improper explanation OR major error with code/data use |     | Used a graph and appropriate data wrangling to support the graph. Proper explanation and introduction to the exploration. Sufficiently complex, you are showcasing what you learned this quarter. |
+| EDA: Exploration 2                               |                                                                                   |     |                                                                                 |     | Same criteria as above. Must be a different type of plot.                                                                                                                                         |
+| Regression (x2 pts)                              |                                                                                   |     | Incorrect interpretation OR 2 issues                                            |     | Stated the model goal. Used multiple regression model. Stated the model equation. Interpreted the coefficients in the context of the problem.                                                     |
+| CI (x2 pts)                                      |                                                                                   |     | Incorrect interpretation OR 2 issues                                            |     | Stated the research question of interest. Stated CI level. Confidence interval is correct. Interpretation in the context of the problem                                                           |
+| Hypothesis test (x2 points)                      |                                                                                   |     | Incorrect interpretation OR 2 issues                                            |     | Stated the research question of interest. Stated alpha level. Defined H0 and HA using proper notation. Hypothesis test conducted correctly. Interpretation in the context of the problem          |
+
+\*\*Sufficiently complex exploration can mean many things. It can mean doing data wrangling before the plot to narrow down the data of interest or it can mean doing a bi-variate exploration (2 variables or more) and explaining how the variables relate. Ex: Simple exploration: histogram of a single variable using your entire dataset and calculating the mean and standard deviation. Complex exploration: faceting a histogram by a categorical variable and calculating summary statistics by category to explain how different categories vary.
+
+\*\*Be a problem solver. If you don't know how to write a regression equation or hypothesis copy an example from an activity and modify for your problem.
