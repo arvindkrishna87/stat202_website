@@ -13,7 +13,7 @@ from: markdown+emoji
 <!-- ::: callout-important -->
 <!-- Exam today on RStudio Cloud! -->
 
-<!-- Happy Halloween! -->
+<!-- Happy Halloween -->
 <!-- ::: -->
 
 ```{r}
@@ -137,6 +137,7 @@ agenda_today %>%
               table.width = pct(100))
 
 ```
+Bonus survey 2 due 11/06
 
 <br><br>
 

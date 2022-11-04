@@ -242,7 +242,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 9.4 - 9.7"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Chapter 10"
   },
   {
     "objectID": "index.html#participate",
@@ -256,7 +256,7 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    App for Activity 16\n\n    Activity 16 Worksheet\n\n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_16"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_17"
   },
   {
     "objectID": "index.html#homework-due-thu-oct-20-1159pm",
@@ -1748,5 +1748,19 @@
     "title": "Final Project",
     "section": "Project rubric (50 points)",
     "text": "Project rubric (50 points)\n\n\n\n\n\n\n\n\n\n\n\n\n1\n2\n3\n4\n5\n\n\n\n\nNeatness, Organization, Introduction, Conclusion\n\n\n\n\nUse complete sentences; minimal typos; names; headers formatted correctly; suppress warning or messages; introduction and conclusion present\n\n\nEDA: Explanation\n\n\n\n\nThoroughly explored your data using at a minimum the criteria in the project outline.\n\n\nEDA: Exploration 1\nSimple plot/wrangling AND improper explanation AND major error with code/data use\n\nSimple plot/wrangling OR improper explanation OR major error with code/data use\n\nUsed a graph and appropriate data wrangling to support the graph. Proper explanation and introduction to the exploration. Sufficiently complex, you are showcasing what you learned this quarter.\n\n\nEDA: Exploration 2\n\n\n\n\nSame criteria as above. Must be a different type of plot.\n\n\nRegression (x2 pts)\n\n\nIncorrect interpretation OR 2 issues\n\nStated the model goal. Used multiple regression model. Stated the model equation. Interpreted the coefficients in the context of the problem.\n\n\nCI (x2 pts)\n\n\nIncorrect interpretation OR 2 issues\n\nStated the research question of interest. Stated CI level. Confidence interval is correct. Interpretation in the context of the problem\n\n\nHypothesis test (x2 points)\n\n\nIncorrect interpretation OR 2 issues\n\nStated the research question of interest. Stated alpha level. Defined H0 and HA using proper notation. Hypothesis test conducted correctly. Interpretation in the context of the problem\n\n\n\n**Sufficiently complex exploration can mean many things. It can mean doing data wrangling before the plot to narrow down the data of interest or it can mean doing a bi-variate exploration (2 variables or more) and explaining how the variables relate. Ex: Simple exploration: histogram of a single variable using your entire dataset and calculating the mean and standard deviation. Complex exploration: faceting a histogram by a categorical variable and calculating summary statistics by category to explain how different categories vary.\n**Be a problem solver. If you don’t know how to write a regression equation or hypothesis copy an example from an activity and modify for your problem."
+  },
+  {
+    "objectID": "index.html#class-fri-nov-04",
+    "href": "index.html#class-fri-nov-04",
+    "title": "Today’s Agenda",
+    "section": "Class: Fri Nov 04",
+    "text": "Class: Fri Nov 04"
+  },
+  {
+    "objectID": "index.html#homework-due-sun-nov-06-1159pm",
+    "href": "index.html#homework-due-sun-nov-06-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Sun Nov 06 11:59pm",
+    "text": "Homework Due Sun Nov 06 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  RC_17\n\n  \n  \n  \n\n\n\n\nBonus survey 2 due 11/06"
   }
 ]
