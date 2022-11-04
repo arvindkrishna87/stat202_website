@@ -110,33 +110,169 @@ The t-distribution is similar in shape to a normal distribution.
 :::
 :::
 
-## Normal and T Distribution in R
 
-**Normal distribution:**
+## Normal Distribution in R
+
+`pnorm()` calculates the probability to the left of a quantile
 
 ```{r norm-dist}
 #| echo: true
 #| eval: false
 # Calculate the probability of being to the left of quantile -1
-# Default is mean = 0 and sd = 1
-pnorm(q = -1)
-# Calculate the quantile, with 20% of data to the left
-qnorm(p = .2, mean = 0, sd = 1)
+pnorm(q = -1, mean = 0, sd = 1)
+```
 
+. . . 
+
+`qnorm()` calculates the quantile with p% of data to the left
+```{r}
+#| echo: true
+#| eval: false
+# Calculate the quantile, with 20% of data to the left
+# default is mean = 0 and sd = 1
+qnorm(p = .2)
+```
+
+. . . 
+
+Setting `lower.tail = FALSE` calculates/uses area to the **right**
+
+```{r}
+#| echo: true
+#| eval: false
 # lower.tail = FALSE changes it to data/area to the right
 # specify mean and sd if you are not using a standard normal distribution
 qnorm(p = .025, mean = 10, sd = 2, lower.tail = FALSE)
 ```
 
-**T-distribution:**
+## Example 1
+
+For a standard normal distribution, what is the probability of being less than one standard deviation below the mean?
+
+::: columns
+::: {.column width="40%"}
+<img src="images_lecture/standard_normal.png" style="float: center;"/>
+:::
+
+::: {.column width="60%"}
+
+<br>
+
+:::{.fragment}
+
+```{r}
+pnorm(q = -1)
+```
+:::
+
+:::
+
+:::
+
+## Example 2
+
+For a standard normal distribution, find the STAT (CV) for being in the highest 30%.
+
+::: columns
+::: {.column width="40%"}
+<img src="images_lecture/standard_normal.png" style="float: center;"/>
+:::
+
+::: {.column width="60%"}
+
+<br>
+
+:::{.fragment}
+
+```{r}
+qnorm(p = 0.3, lower.tail = FALSE)
+
+# OR
+
+qnorm(p = 0.7)
+```
+:::
+
+:::
+
+
+:::
+
+
+## Example 3 {.smaller}
+
+::: {.absolute top="0%" left="90%" width="100"}
+![](images_lecture/participate_icon.png)
+:::
+
+The amount of money spent buying weekly groceries follows a normal distribution. We are lucky enough to know the population mean is \$150 and the population standard deviation is \$20. Find the probability an individual spent less than \$120.
+
+:::{.panel-tabset}
+
+## Using data
+
+::: columns
+::: {.column width="40%"}
+<img src="images_lecture/normal_dist.png" style="float: center;"/>
+:::
+
+::: {.column width="60%"}
+
+:::{.fragment}
+```{r}
+# Standardize
+pnorm(q = 120, mean = 150, sd = 20)
+```
+:::
+:::
+
+:::
+
+## Standardize
+
+::: columns
+::: {.column width="40%"}
+<img src="images_lecture/standard_normal.png" style="float: center;"/>
+:::
+
+::: {.column width="60%"}
+
+:::{.fragment}
+```{r}
+# Standardize
+pnorm(q = -1.5)
+```
+
+<br>
+You can transform any normally distributed variable onto a standardized scale.
+:::
+:::
+
+
+
+
+:::
+
+:::
+
+
+
+## T-distribution in R
+
+VERY similar to normal distribution but...
+
+`pt()` calculates the probability to the left of a quantile for a t-distribution
+
+
+`qt()` calculates the quantile with p% of data to the left for a t-distribution
 
 ```{r t-dist}
 #| echo: true
 #| eval: false
-# instead of pnorm we now use pt
-# instead of qnorm we now use qt
 # no mean and sd! Now we use df
+# these examples are using 9 degrees or freedom
 pt(q = -1, df = 9)
 qt(p = .025, df = 9)
 qt(p = .025, df = 9, lower.tail = FALSE)
 ```
+
