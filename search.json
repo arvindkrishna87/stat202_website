@@ -1292,7 +1292,7 @@
     "href": "slides/lec18.html#check-your-understanding",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Check your understanding",
-    "text": "Check your understanding\nWhen we use a \\(95\\%\\) critical value, approximately \\(95\\%\\) of the confidence intervals contain the true population parameter (e.g. \\(\\mu\\), \\(\\mu_1 - \\mu_2\\), \\(\\pi\\), etc).\n\nSay we generate 20,000 sample means and construct a 95% CI for each sample. How many of the constructed confidence intervals do you expect to cantain the true population mean?\n\n\nWe EXPECT 20000*.95 = 19,000 of the constructed confidence intervals to contain the true population mean."
+    "text": "Check your understanding\n\n\n\nWhen we use a \\(95\\%\\) critical value, approximately \\(95\\%\\) of the confidence intervals contain the true population parameter (e.g. \\(\\mu\\), \\(\\mu_1 - \\mu_2\\), \\(\\pi\\), etc).\n\nSay we generate 20,000 sample means and construct a 95% CI for each sample. How many of the constructed confidence intervals do you expect to contain the true population mean?\n\n\nWe EXPECT 20000*.95 = 19,000 of the constructed confidence intervals to contain the true population mean."
   },
   {
     "objectID": "slides/lec18.html#width-of-an-interval-margin-of-error",
