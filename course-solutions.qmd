@@ -34,6 +34,14 @@ Activities are graded for completion! It is your responsibility and should be a 
 
 -   [Solution - Activity 14](documents/solutions/solution_act_14.pdf)
 
-<!-- -   [Solution - Activity 15](documents/solutions/solution_act_15.html) -->
+-   [Solution - Activity 15](documents/solutions/solution_act_15.pdf)
 
-<!-- -   [Solution - Activity 16](documents/solutions/solution_act_16.html) -->
+-   [Solution - Activity 16](documents/solutions/solution_act_16.pdf)
+
+<!-- -   [Solution - Activity 17](documents/solutions/solution_act_17.html) -->
+
+<!-- -   [Solution - Activity 18](documents/solutions/solution_act_18.html) -->
+
+<!-- -   [Solution - Activity 19](documents/solutions/solution_act_19.html) -->
+
+<!-- -   [Solution - Activity 20](documents/solutions/solution_act_20.html) -->
