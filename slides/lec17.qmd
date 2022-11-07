@@ -26,15 +26,16 @@ We will collect one sample, and use the theoretical properties of the sampling d
 
 ## Sampling Distribution Properties {.smaller}
 
-| Statistic           | Population parameter | Estimator             | SE of estimator                                 | Critical Value Distribution    |
+| Statistic                 | Population parameter | Estimator                 | SE of estimator                                                                           | Critical Value Distribution  |
 |---------------|---------------|---------------|---------------|---------------|
-| Mean                | $\mu$                | $\bar{x}$             | $\frac{s}{\sqrt{n} }$                           | $t(df=n-1)$                    |
-| Difference in means | $\mu_1-\mu_2$        | $\bar{x}_1-\bar{x}_2$ | $\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2} }$ | $t(df = min(n_1-1, n_2-1) )$ |
-| Proportion          | $\pi$                | $\hat{\pi}$           | $\sqrt{\frac{\hat{\pi}(1-\hat{\pi})}{n} }$      | $N(0,1)$                       |
-| Difference in proportions | $\pi_1-\pi_2$        | $\hat{\pi_1}-\hat{\pi_2}$ | $\sqrt{\frac{\hat{\pi_1}(1-\hat{\pi_1})}{n_1} + \frac{\hat{\pi_2}(1-\hat{\pi_2})}{n_2} }$ | $N(0,1)$                    |
-| Regression intercept      | $\beta_0$            | $b_0$                     | $\sqrt{ s_y^2 [\frac{1}{n} + \frac{\bar{x}^2}{(n-1) s_x^2} ] }$                           | $t(df=n-2)$                 |
-| Regression slope          | $\beta_1$            | $b_1$                     | $\sqrt{\frac{s_y^2}{(n-1) s_x^2} }$                                                       | $t(df=n-2)$                 |
-:::{.footer}
+| Mean                      | $\mu$                | $\bar{x}$                 | $\frac{s}{\sqrt{n} }$                                                                     | $t(df=n-1)$                  |
+| Difference in means       | $\mu_1-\mu_2$        | $\bar{x}_1-\bar{x}_2$     | $\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2} }$                                           | $t(df = min(n_1-1, n_2-1) )$ |
+| Proportion                | $\pi$                | $\hat{\pi}$               | $\sqrt{\frac{\hat{\pi}(1-\hat{\pi})}{n} }$                                                | $N(0,1)$                     |
+| Difference in proportions | $\pi_1-\pi_2$        | $\hat{\pi_1}-\hat{\pi_2}$ | $\sqrt{\frac{\hat{\pi_1}(1-\hat{\pi_1})}{n_1} + \frac{\hat{\pi_2}(1-\hat{\pi_2})}{n_2} }$ | $N(0,1)$                     |
+| Regression intercept      | $\beta_0$            | $b_0$                     | $\sqrt{ s_y^2 [\frac{1}{n} + \frac{\bar{x}^2}{(n-1) s_x^2} ] }$                           | $t(df=n-2)$                  |
+| Regression slope          | $\beta_1$            | $b_1$                     | $\sqrt{\frac{s_y^2}{(n-1) s_x^2} }$                                                       | $t(df=n-2)$                  |
+
+::: footer
 If the population standard deviation is known, $\sigma$ (rare!) you use the normal distribution instead of the t-distribution. (ie: use $\sigma$ instead of $s$)
 :::
 
@@ -56,7 +57,7 @@ $$\hbox{Estimator} \pm \hbox{Critical  Value} * SE(\hbox{Estimator})$$
 
 . . .
 
-- The critical value is calculated based on the desired confidence level (ie: 95%) using the appropriate distribution for the estimator.
+-   The critical value is calculated based on the desired confidence level (ie: 95%) using the appropriate distribution for the estimator.
 
 -   Sampling distribution properties are used to construct CIs for a population parameter.
 
@@ -75,7 +76,6 @@ You are interested in the average GPA at NU. You randomly survey 100 students an
 Compute a 95% confidence interval for the average GPA at NU.
 
 $$CI = \hbox{Estimator} \pm \hbox{Critical  Value} * SE(\hbox{Estimator})$$
-
 
 ## Interpretation
 
