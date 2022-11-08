@@ -1271,7 +1271,7 @@
     "href": "slides/lec16.html#what-makes-a-good-sample",
     "title": "Repeated Sampling  9.5 - 9.6",
     "section": "What makes a good sample?",
-    "text": "What makes a good sample?\n\n\nrepresentative of the population\npicked at random (avoids bias)\nbig enough size to draw conclusions from (\\(n \\geq 30\\))\nindependent samples - includes less than 10% of the population (too big of a sample \\(n\\) will create dependence between samples)\nException: If the population is already normal, the results hold for samples of any size \\(n\\)"
+    "text": "What makes a good sample?\n\n\nrepresentative of the population\npicked at random (avoids bias)\nbig enough size to draw conclusions from (\\(n \\geq 30\\))\nException: If the population is already normal, the results hold for samples of any size \\(n\\)\n\n\n\nRequirement for CLT to hold true\n\nindependent samples - includes less than 10% of the population (too big of a sample \\(n\\) will create dependence between samples)"
   },
   {
     "objectID": "slides/lec17.html#overview",
