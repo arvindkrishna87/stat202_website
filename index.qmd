@@ -13,7 +13,7 @@ from: markdown+emoji
 <!-- ::: callout-important -->
 <!-- Exam today on RStudio Cloud -->
 
-<!-- Happy Halloween -->
+<!-- Happy Halloween. -->
 <!-- ::: -->
 
 ```{r}
