@@ -76,6 +76,8 @@ $H_A$: $\beta_1\ne0$
 
 . . .
 
+<br>
+
 These are called two-sided tests. There also exists one-sided tests ex: $H_0: \pi \geq 0.5$ vs $H_A: \pi < 0.5$ but they are NOT necessary. We can (and should) **ALWAYS** use a two-sided test.
 
 ## P-values
@@ -91,12 +93,6 @@ These are called two-sided tests. There also exists one-sided tests ex: $H_0: \p
 ::: footer
 **Note: For a two-sided test you need the probability in both tails**
 :::
-
-## Hypothesis Test Conclusions
-
-The way you interpret/phrase your conclusion is very important.
-
--   Example: We will work through Activity 18 Question 1 together.
 
 ## One-sample (two-sided) tests
 
@@ -116,17 +112,17 @@ For two-sample tests there are 2 ways to calculate the SE
 
 ## Two-sided tests for Pooled (equal) Variances {.smaller}
 
-| Statistic            | $H_0$             | $H_A$                | Test Statistic                                                                                                                          | Distribution           |
+| Statistic            | $H_0$             | $H_A$                | Test Statistic                                                                                                                          | Distribution         |
 |---------------|---------------|---------------|---------------|---------------|
 | Diff. in means       | $\mu_1-\mu_2 = d$ | $\mu_1-\mu_2 \neq d$ | $\frac{\bar{x_1} - \bar{x_2}-d}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}$                                                                 | $t(df=n_1 + n_2 -2)$ |
-| Diff. in proportions | $\pi_1-\pi_2 = 0$ | $\pi_1-\pi_2 \neq 0$ | \Large $\frac{(\hat{\pi_1}-\hat{\pi_2}) - 0}{\sqrt{\frac{\hat{\pi_0}(1-\hat{\pi_0})}{n_1} + \frac{\hat{\pi_0}(1-\hat{\pi_0})}{n_2} } }$ | $N(0,1)$                 |
+| Diff. in proportions | $\pi_1-\pi_2 = 0$ | $\pi_1-\pi_2 \neq 0$ | \Large $\frac{(\hat{\pi_1}-\hat{\pi_2}) - 0}{\sqrt{\frac{\hat{\pi_0}(1-\hat{\pi_0})}{n_1} + \frac{\hat{\pi_0}(1-\hat{\pi_0})}{n_2} } }$ | $N(0,1)$             |
 
 ## Two-sided tests for Unpooled (unequal) Variances {.smaller}
 
-| Statistic            | $H_0$             | $H_A$                | Test Statistic                                                                                                                          | Distribution              |
+| Statistic            | $H_0$             | $H_A$                | Test Statistic                                                                                                                          | Distribution               |
 |---------------|---------------|---------------|---------------|---------------|
 | Diff. in means       | $\mu_1-\mu_2 = d$ | $\mu_1-\mu_2 \neq d$ | $\frac{\bar{x_1}-\bar{x_2}-d}{\sqrt{\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}}}$                                                              | $t(df=min(n_1-1, n_2-1) )$ |
-| Diff. in proportions | $\pi_1-\pi_2 = d$ | $\pi_1-\pi_2 \neq d$ | \Large $\frac{(\hat{\pi_1}-\hat{\pi_2}) - d}{\sqrt{\frac{\hat{\pi_1}(1-\hat{\pi_1})}{n_1} + \frac{\hat{\pi_2}(1-\hat{\pi_2})}{n_2} } }$ | $N(0,1)$                    |
+| Diff. in proportions | $\pi_1-\pi_2 = d$ | $\pi_1-\pi_2 \neq d$ | \Large $\frac{(\hat{\pi_1}-\hat{\pi_2}) - d}{\sqrt{\frac{\hat{\pi_1}(1-\hat{\pi_1})}{n_1} + \frac{\hat{\pi_2}(1-\hat{\pi_2})}{n_2} } }$ | $N(0,1)$                   |
 
 ## R Code to obtain p-value {.smaller}
 
@@ -137,3 +133,14 @@ For two-sample tests there are 2 ways to calculate the SE
 | Regression slope   | lm() summary                                        |
 | Diff in mean       | t.test(x = data1\$variable, y = data2\$variable)    |
 | Diff in proportion | prop.test(x = c(#, #), n = c(#, #), correct=FALSE ) |
+
+
+::: footer
+**Note: can still specify conf.level as well but not essential to obtaining p-value.**
+:::
+
+## Hypothesis Test Conclusions
+
+The way you interpret/phrase your conclusion is very important.
+
+-   Example: We will work through Activity 18 Question 1 together.
