@@ -10,11 +10,13 @@ execute:
 from: markdown+emoji
 ---
 
-<!-- ::: callout-important -->
-<!-- Exam today on RStudio Cloud -->
+::: callout-important
+Due to the technical issues the 9am Section had during Exam 1 we have decided to be generous and offer the Exam 1 retake before Thanksgiving Break on Friday Nov 18th (only day the room was available). Out of fairness, everyone is eligible for this retake.
 
-<!-- Happy Halloween. -->
-<!-- ::: -->
+
+**Everyone** must complete the [Exam 1 Retake Survey](https://canvas.northwestern.edu/courses/178772/quizzes/193457) on Canvas by Sunday November 13th. If you do not complete the survey 1) you will not be eligible to retake the exam 2) you will not get the participation point associated with the survey.
+
+:::
 
 ```{r}
 #library(tidyverse)
