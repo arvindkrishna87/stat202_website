@@ -256,7 +256,7 @@
     "href": "slides/lec19.html#writing-hypotheses-examples",
     "title": "P-values  Chapter 11",
     "section": "Writing hypotheses examples",
-    "text": "Writing hypotheses examples\n\n\n\\(H_0\\): \\(\\mu=5\\)\n\\(H_A\\): \\(\\mu\\ne5\\)\n\n\\(H_0\\): \\(\\pi=0.5\\)\n\\(H_A\\): \\(\\pi\\ne0.5\\)\n\n\n\n\n\n\\(H_0\\): \\(\\mu_1-\\mu_2=0\\)\n\\(H_A\\): \\(\\mu_1-\\mu_2\\ne0\\)\n\n\\(H_0\\): \\(\\beta_1=0\\)\n\\(H_A\\): \\(\\beta_1\\ne0\\)\n\n\n\nThese are called two-sided tests. There also exists one-sided tests ex: \\(H_0: \\pi \\geq 0.5\\) vs \\(H_A: \\pi < 0.5\\) but they are NOT necessary. We can (and should) ALWAYS use a two-sided test."
+    "text": "Writing hypotheses examples\n\n\n\\(H_0\\): \\(\\mu=5\\)\n\\(H_A\\): \\(\\mu\\ne5\\)\n\n\\(H_0\\): \\(\\pi=0.5\\)\n\\(H_A\\): \\(\\pi\\ne0.5\\)\n\n\n\n\n\n\\(H_0\\): \\(\\mu_1-\\mu_2=0\\)\n\\(H_A\\): \\(\\mu_1-\\mu_2\\ne0\\)\n\n\\(H_0\\): \\(\\beta_1=0\\)\n\\(H_A\\): \\(\\beta_1\\ne0\\)\n\n\n\n\nThese are called two-sided tests. There also exists one-sided tests ex: \\(H_0: \\pi \\geq 0.5\\) vs \\(H_A: \\pi < 0.5\\) but they are NOT necessary. We can (and should) ALWAYS use a two-sided test."
   },
   {
     "objectID": "slides/lec19.html#p-values",
@@ -264,13 +264,6 @@
     "title": "P-values  Chapter 11",
     "section": "P-values",
     "text": "P-values\n\n\nIn order to determine if the null hypothesis is likely to be true we calculate a p-value.\nP-value: probability of observing an estimate as extreme as the one you observed from the data if the null was true.\nA small p-value means the observed sample data is unlikely to occur under the null hypothesis. ie: proof by contradiction. Reject the null hypothesis because it is probably not true.\n\n\n\nNote: For a two-sided test you need the probability in both tails"
-  },
-  {
-    "objectID": "slides/lec19.html#hypothesis-test-conclusions",
-    "href": "slides/lec19.html#hypothesis-test-conclusions",
-    "title": "P-values  Chapter 11",
-    "section": "Hypothesis Test Conclusions",
-    "text": "Hypothesis Test Conclusions\nThe way you interpret/phrase your conclusion is very important.\n\nExample: We will work through Activity 18 Question 1 together."
   },
   {
     "objectID": "slides/lec19.html#one-sample-two-sided-tests",
@@ -305,7 +298,14 @@
     "href": "slides/lec19.html#r-code-to-obtain-p-value",
     "title": "P-values  Chapter 11",
     "section": "R Code to obtain p-value",
-    "text": "R Code to obtain p-value\n\n\n\n\n\n\n\nStatistic\nR Code\n\n\n\n\nMean\nt.test(x = data$variable, mu = \\(\\mu_0\\))\n\n\nProportion\nprop.test(x = #, n = #, p= \\(\\pi_0\\), correct=FALSE)\n\n\nRegression slope\nlm() summary\n\n\nDiff in mean\nt.test(x = data1$variable, y = data2$variable)\n\n\nDiff in proportion\nprop.test(x = c(#, #), n = c(#, #), correct=FALSE )"
+    "text": "R Code to obtain p-value\n\n\n\n\n\n\n\nStatistic\nR Code\n\n\n\n\nMean\nt.test(x = data$variable, mu = \\(\\mu_0\\))\n\n\nProportion\nprop.test(x = #, n = #, p= \\(\\pi_0\\), correct=FALSE)\n\n\nRegression slope\nlm() summary\n\n\nDiff in mean\nt.test(x = data1$variable, y = data2$variable)\n\n\nDiff in proportion\nprop.test(x = c(#, #), n = c(#, #), correct=FALSE )\n\n\n\n\nNote: can still specify conf.level as well but not essential to obtaining p-value."
+  },
+  {
+    "objectID": "slides/lec19.html#hypothesis-test-conclusions",
+    "href": "slides/lec19.html#hypothesis-test-conclusions",
+    "title": "P-values  Chapter 11",
+    "section": "Hypothesis Test Conclusions",
+    "text": "Hypothesis Test Conclusions\nThe way you interpret/phrase your conclusion is very important.\n\nExample: We will work through Activity 18 Question 1 together."
   },
   {
     "objectID": "slides/lec10.html#todays-goals",
