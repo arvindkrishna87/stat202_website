@@ -110,7 +110,6 @@ The t-distribution is similar in shape to a normal distribution.
 :::
 :::
 
-
 ## Normal Distribution in R
 
 `pnorm()` calculates the probability to the left of a quantile
@@ -122,9 +121,10 @@ The t-distribution is similar in shape to a normal distribution.
 pnorm(q = -1, mean = 0, sd = 1)
 ```
 
-. . . 
+. . .
 
 `qnorm()` calculates the quantile with p% of data to the left
+
 ```{r}
 #| echo: true
 #| eval: false
@@ -133,7 +133,7 @@ pnorm(q = -1, mean = 0, sd = 1)
 qnorm(p = .2)
 ```
 
-. . . 
+. . .
 
 Setting `lower.tail = FALSE` calculates/uses area to the **right**
 
@@ -155,18 +155,14 @@ For a standard normal distribution, what is the probability of being less than o
 :::
 
 ::: {.column width="60%"}
-
 <br>
 
-:::{.fragment}
-
+::: fragment
 ```{r}
 pnorm(q = -1)
 ```
 :::
-
 :::
-
 :::
 
 ## Example 2
@@ -179,11 +175,9 @@ For a standard normal distribution, find the STAT (CV) for being in the highest 
 :::
 
 ::: {.column width="60%"}
-
 <br>
 
-:::{.fragment}
-
+::: fragment
 ```{r}
 qnorm(p = 0.3, lower.tail = FALSE)
 
@@ -192,12 +186,8 @@ qnorm(p = 0.3, lower.tail = FALSE)
 qnorm(p = 0.7)
 ```
 :::
-
 :::
-
-
 :::
-
 
 ## Example 3 {.smaller}
 
@@ -207,8 +197,7 @@ qnorm(p = 0.7)
 
 The amount of money spent buying weekly groceries follows a normal distribution. We are lucky enough to know the population mean is \$150 and the population standard deviation is \$20. Find the probability an individual spent less than \$120.
 
-:::{.panel-tabset}
-
+::: panel-tabset
 ## Using data
 
 ::: columns
@@ -217,15 +206,13 @@ The amount of money spent buying weekly groceries follows a normal distribution.
 :::
 
 ::: {.column width="60%"}
-
-:::{.fragment}
+::: fragment
 ```{r}
 # Standardize
 pnorm(q = 120, mean = 150, sd = 20)
 ```
 :::
 :::
-
 :::
 
 ## Standardize
@@ -236,33 +223,23 @@ pnorm(q = 120, mean = 150, sd = 20)
 :::
 
 ::: {.column width="60%"}
-
-:::{.fragment}
+::: fragment
 ```{r}
 # Standardize
 pnorm(q = -1.5)
 ```
 
-<br>
-You can transform any normally distributed variable onto a standardized scale.
+<br> You can transform any normally distributed variable onto a standardized scale.
 :::
 :::
-
-
-
-
 :::
-
 :::
-
-
 
 ## T-distribution in R
 
 VERY similar to normal distribution but...
 
 `pt()` calculates the probability to the left of a quantile for a t-distribution
-
 
 `qt()` calculates the quantile with p% of data to the left for a t-distribution
 
@@ -275,4 +252,3 @@ pt(q = -1, df = 9)
 qt(p = .025, df = 9)
 qt(p = .025, df = 9, lower.tail = FALSE)
 ```
-
