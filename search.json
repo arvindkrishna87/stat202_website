@@ -270,7 +270,7 @@
     "href": "slides/lec19.html#p-values",
     "title": "P-values  Chapter 11",
     "section": "P-values",
-    "text": "P-values\n\n\nIn order to determine if the null hypothesis is likely to be true we calculate a p-value.\nP-value: probability of observing an estimate as extreme as the one you observed from the data if the null was true.\nA small p-value means the observed sample data is unlikely to occur under the null hypothesis. ie: proof by contradiction. Reject the null hypothesis because it is probably not true.\n\n\n\nNote: For a two-sided test you need the probability in both tails"
+    "text": "P-values\n\n\nIn order to determine if the null hypothesis is likely to be true we calculate a p-value.\np-value: probability of observing an estimate as extreme as the one you observed from the data if the null was true.\nA small p-value means the observed sample data is unlikely to occur under the null hypothesis. ie: proof by contradiction. Reject the null hypothesis because it is probably not true.\n\n\n\nNote: For a two-sided test you need the probability in both tails"
   },
   {
     "objectID": "slides/lec19.html#one-sample-two-sided-tests",
@@ -308,11 +308,11 @@
     "text": "R Code to obtain p-value\n\n\n\n\n\n\n\nStatistic\nR Code\n\n\n\n\nMean\nt.test(x = data$variable, mu = \\(\\mu_0\\))\n\n\nProportion\nprop.test(x = #, n = #, p= \\(\\pi_0\\), correct=FALSE)\n\n\nRegression slope\nlm() summary\n\n\nDiff in mean\nt.test(x = data1$variable, y = data2$variable)\n\n\nDiff in proportion\nprop.test(x = c(#, #), n = c(#, #), correct=FALSE )\n\n\n\n\nNote: can still specify conf.level as well but not essential to obtaining p-value."
   },
   {
-    "objectID": "slides/lec19.html#hypothesis-test-conclusions",
-    "href": "slides/lec19.html#hypothesis-test-conclusions",
+    "objectID": "slides/lec19.html#example",
+    "href": "slides/lec19.html#example",
     "title": "P-values  Chapter 11",
-    "section": "Hypothesis Test Conclusions",
-    "text": "Hypothesis Test Conclusions\nThe way you interpret/phrase your conclusion is very important.\n\nExample: We will work through Activity 18 Question 1 together."
+    "section": "Example",
+    "text": "Example\nToyota claims their fuel efficiency is superior and if you buy one of their cars your average weekly gas spending will be less than $40. You randomly survey 40 people with a Toyota to obtain the amount of money spent on gas weekly. The results are saved in data/gas_spending.csv."
   },
   {
     "objectID": "slides/lec10.html#todays-goals",
