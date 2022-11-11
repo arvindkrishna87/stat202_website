@@ -138,7 +138,6 @@ agenda_today %>%
               table.width = pct(100))
 
 ```
-Bonus survey 2 due 11/06
 
 <br><br>
 
