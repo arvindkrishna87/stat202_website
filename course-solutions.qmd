@@ -38,7 +38,7 @@ Activities are graded for completion! It is your responsibility and should be a 
 
 -   [Solution - Activity 16](documents/solutions/solution_act_16.pdf)
 
-<!-- -   [Solution - Activity 17](documents/solutions/solution_act_17.html) -->
+-   [Solution - Activity 17](documents/solutions/solution_act_17.html)
 
 <!-- -   [Solution - Activity 18](documents/solutions/solution_act_18.html) -->
 
