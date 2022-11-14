@@ -44,19 +44,18 @@ You must select a significance level, $\alpha$ **before** collecting the data
 
 Assuming **NULL HYPOTHESIS IS TRUE IN CONTEXT OF PROBLEM**, there is about a **PVALUE**% chance of see data as extreme as mine. Since the p-value is less than (or greater than) our threshold **ALPHA**%, we reject (or fail to reject) the null hypothesis. This means **CONCLUSION IN CONTEXT OF PROBLEM**.
 
-## Two-tail vs one-tail tests{.smaller}
+## Two-tail vs one-tail tests {.smaller}
 
-:::{.incremental}
+::: incremental
 -   One-tailed tests provides more power to detect an effect. You may be tempted to use a one-tailed test whenever you have a hypothesis about the direction of an effect.
 -   Before doing so, consider the **consequences of missing an effect in the other direction** and consider the **consequences of increasing your type 1 error rate**
--  You can and almost always should use a two-tailed test NO MATTER how the problem is worded.
+-   You can and almost always should use a two-tailed test NO MATTER how the problem is worded.
 -   We focus on **two-tailed** tests in this class because it is the safe option and we do NOT want to miss an effect in the opposite direction.
 :::
 
 . . .
 
 https://stats.oarc.ucla.edu/other/mult-pkg/faq/general/faq-what-are-the-differences-between-one-tailed-and-two-tailed-tests/
-
 
 ## Example
 
@@ -70,27 +69,34 @@ Imagine you have developed a new drug that you believe is an improvement over an
 
 -   The consequences in this example are extreme, but they illustrate a danger of inappropriate use of a one-tailed test.
 
-
 ## Deeper understanding
+
+::: {.absolute top="0%" left="90%" width="100"}
+![](images_lecture/participate_icon.png)
+:::
 
 **Which type of error is usually more of a priority?**
 
-:::{.incremental}
+::: incremental
 -   Depends on the situation
 -   Assess the consequences in order to decide
 :::
 
 **Which type of error is usually easier to control? Why?**
 
-:::{.incremental}
+::: incremental
 -   Type I error because we choose the alpha level
 :::
 
 ## Deeper Understanding (continued)
 
+::: {.absolute top="0%" left="90%" width="100"}
+![](images_lecture/participate_icon.png)
+:::
+
 **Can we lower both errors at the same time?**
 
-:::{.incremental}
+::: incremental
 -   NO!
 -   There is a tradeoff between the two errors
 -   It is not a 1-to-1 tradeoff
@@ -98,20 +104,23 @@ Imagine you have developed a new drug that you believe is an improvement over an
 
 **Can we know if we made a correct decision?**
 
-:::{.incremental}
+::: incremental
 -   NO
 -   We do not know the truth, that is why we are conducting a hypothesis test
 :::
 
-## Deeper Understanding (continued)
+## Deeper Understanding (continued) {.smaller}
 
 **How does sample size impact decision making?**
 
-:::{.incremental}
+::: incremental
 -   Increasing the sample size decreases the p-value and the standard error while making the STAT more extreme
 -   As a result, it is harder to detect statistical significance and reject the null with a smaller sample size
 :::
 
 <br>
 
+:::{.footer}
 **Note: Just because something is statistically significant doesn't mean it is practically significant.**
+:::
+

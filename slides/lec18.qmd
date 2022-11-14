@@ -124,7 +124,7 @@ Construct a 95% confidence interval for the population mean.
 <br>
 
 | Statistic          | R Code                                                                 |
-|------------------|------------------------------------------------------|
+|-------------------|-----------------------------------------------------|
 | Mean               | t.test(x = data\$variable, conf.level = 0.95)                          |
 | Proportion         | prop.test(x = #, n = #, conf.level = 0.95, correct=FALSE)              |
 | Diff in mean       | t.test(x = data1\$variable, y = data2\$variable, conf.level = 0.95)    |
