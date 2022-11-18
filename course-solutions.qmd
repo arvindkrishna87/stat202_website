@@ -44,4 +44,6 @@ Activities are graded for completion! It is your responsibility and should be a 
 
 -   [Solution - Activity 19](documents/solutions/solution_act_19.html)
 
-<!-- -   [Solution - Activity 20](documents/solutions/solution_act_20.html) -->
+-   [Solution - Activity 20](documents/solutions/solution_act_20.html)
+
+<!-- -   [Solution - Activity 21](documents/solutions/solution_act_21.html) -->
