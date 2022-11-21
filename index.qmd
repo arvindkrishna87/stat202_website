@@ -11,6 +11,7 @@ from: markdown+emoji
 ---
 
 ::: callout-important
+Campuswire bonus points end today at 11:59pm.
 
 No class Wednesday 11/23 - Happy Thanksgiving!
 
