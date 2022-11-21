@@ -12,12 +12,9 @@ from: markdown+emoji
 
 ::: callout-important
 
-Exam 1 Re-take for those that responded yes to survey:
+No class Wednesday 11/23 - Happy Thanksgiving!
 
-- Friday 11/18 from 8-9am in Swift 107 for Section 20
-- Friday 11/18 from 12-1pm in Swift 107 for Section 21
-
-If you responded 'yes but not available at my classes time slot' I will email you this week. You will still be taking it on Friday 11/18.
+Office hours on Zoom during reading week.
 :::
 
 ```{r}
