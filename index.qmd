@@ -11,11 +11,9 @@ from: markdown+emoji
 ---
 
 ::: callout-important
-Campuswire bonus points end today at 11:59pm.
-
-No class Wednesday 11/23 - Happy Thanksgiving!
-
 Office hours on Zoom during reading week.
+
+Don't forget to fill out the [Final Exam Retake Survey](https://canvas.northwestern.edu/courses/178772/quizzes/194469)
 :::
 
 ```{r}
