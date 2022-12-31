@@ -29,8 +29,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./course-anu.html" rel="next">
-<link href="./course-ec.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -106,41 +104,46 @@ ul.task-list li input[type="checkbox"] {
   <a href="./course-schedule.html" class="sidebar-item-text sidebar-link">Schedule</a>
   </div>
 </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Additional Resources</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./course-syllabus.html" class="sidebar-item-text sidebar-link">Syllabus</a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./course-team.html" class="sidebar-item-text sidebar-link">Office hours</a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./course-links.html" class="sidebar-item-text sidebar-link">Useful links</a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./course-solutions.html" class="sidebar-item-text sidebar-link">Activity solutions</a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./course-ec.html" class="sidebar-item-text sidebar-link">Extra Credit</a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./course-project.html" class="sidebar-item-text sidebar-link active">Final project</a>
-  </div>
-</li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./course-anu.html" class="sidebar-item-text sidebar-link">Accessible NU</a>
   </div>
 </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -177,8 +180,8 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>The final project is to be completed in <strong>groups of 3-5</strong>. Why? 1) Group work and collaboration is a good life skill. 2) There is no possible way we can grade 200 projects by the time grades are due.</p>
-<p>The final project is due on <strong>Sunday December 4th 11:59pm</strong>. Groups are expected to submit their project electronically to Canvas, similar to how you submit your work for daily activities. You will type your project directly into a qmd file and knit an html document. You should <strong>submit your .qmd and .html</strong> file (and datset if you chose one other than the one I provided). <strong>Only ONE person</strong> from the group needs to submit the project. Make sure everyone’s name is on the project.</p>
+<p>The final project is to be completed in <strong>groups of 3-5</strong>. Why? 1) Group work and collaboration is a good life skill. 2) There is no possible way we can grade 150 projects by the time grades are due.</p>
+<p>The final project is due on <strong>Sunday March 5th 11:59pm</strong>. Groups are expected to submit their project electronically to Canvas, similar to how you submit your work for daily activities. You will type your project directly into a qmd file and knit an html document. You should <strong>submit your .qmd and .html</strong> file (and datset if you chose one other than the one I provided). <strong>Only ONE person</strong> from the group needs to submit the project. Make sure everyone’s name is on the project.</p>
 <p>The project should be in complete sentences within the context of your dataset when appropriate. Students are expected to also show their work (i.e., include your R code). Your target audience is the grader and myself, we want to see your code and the output of your code.</p>
 <section id="choose-a-group" class="level2">
 <h2 class="anchored" data-anchor-id="choose-a-group">Choose a Group</h2>
@@ -221,16 +224,10 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="https://www.data.gov/">Data.gov</a>: In 2015, the US Government made all its data publicly available. With over 200,000 datasets covering everything from climate change to crime, you can lose yourself in the database for hours. For a government website, it has some surprisingly user-friendly search functions, including the ability to drill down by geographical area, organization type, and file format. Search results are also clearly labeled at federal, state, county, and city levels.&nbsp;</p></li>
 <li><p><a href="https://data.fivethirtyeight.com/">FiveThirtyEight</a>: If you’re interested in data at all, you’ve almost certainly heard of FiveThirtyEight; it’s one of the best-established data journalism outlets in the world. They write interesting data-driven articles, like “Don’t blame a skills gap for lack of hiring in manufacturing” and “2016 NFL Predictions”. What you may not know is that FiveThirtyEight also makes the data sets used in its articles available online on Github and on its own data portal.</p></li>
 <li><p><a href="https://crime-data-explorer.fr.cloud.gov/">FBI Crime Data Explorer</a>: If you’re fascinated by crime, the FBI Crime Data Explorer is the one for you. It provides a broad collection of crime statistics from a variety of state organizations (universities and local law enforcement) and government (on a local, regional, and state-level). Pull data on hate crimes, officer assaults, homicides, and more. It also includes some helpful user guides to support data navigation.</p></li>
-<li><p><a href="https://www.gapminder.org/data/">GapMinder</a>: Compilation of data from sources including the World Health Organization and World Bank covering economic, medical and social statistics from around the world.</p></li>
-<li><p><a href="https://github.com/BuzzFeedNews">BuzzFeed News</a>: BuzzFeed makes the data sets, analysis, libraries, tools, and guides used in its articles available on Github.</p></li>
 <li><p><a href="https://github.com/awesomedata/awesome-public-datasets">Awesome Public Datasets</a>: This github hosts a library of awesome, public datasets! They are all sorted by category and link you straight to the hosting website.</p></li>
 <li><p><a href="https://tinyletter.com/data-is-plural">Data is Plural</a>: Jeremy Singer-Vine collects awesome data sets across multiple sources. If you’re interested in getting data sets straight to your inbox, you should consider signing up for his newsletter.</p></li>
 <li><p><a href="https://www.sports-reference.com/">Sports Reference</a>: “Our Primary Aim is to answer our users’ questions with the easiest-to-use, fastest, and most complete sports statistics anywhere. If we have some fun in the process, that’s good too.”</p></li>
-<li><p><a href="https://www.rotowire.com/">Rotowire Fantasy Football</a>:“RotoWire is your premium fantasy sports resource. We pioneered real-time fantasy sports news and Player Notes back in 1997 when the Internet was just taking flight. We’ve stayed ahead of imitators with the most in-depth analysis, the fastest real-time news and the largest scope of coverage of any fantasy sports site or app.”</p></li>
 <li><p><a href="https://data.worldbank.org/">The World Bank</a>: The World Bank is a global development organization that offers loans and advice to developing countries. The World Bank regularly funds programs in developing countries, then gathers data to monitor the success of these programs. You can browse world bank data sets directly. The data sets have many missing values (which is great for cleaning practice).</p></li>
-<li><p><a href="https://www.who.int/gho/database/en/">The World Health Organization</a>: WHO’s Open Data repository is how WHO keeps track of health-specific statistics of its 194 Member States. The repository keeps the data systematically organized. It can be accessed as per different needs. For instance, whether it is mortality or burden of diseases, one can access data classified under 100 or more categories such as the Millennium Development Goals (child nutrition, child health, maternal and reproductive health, immunization, HIV/AIDS, tuberculosis, malaria, neglected diseases, water and sanitation), non communicable diseases and risk factors, epidemic-prone diseases, health systems, environmental health, violence and injuries, equity etc.</p></li>
-<li><p><a href="https://data.unicef.org/resources/resource-type/datasets/">UNICEF</a>: If data about the lives of children around the world is of interest, UNICEF is the most credible source. The organization’s public data sets touch upon nutrition, immunization, and education, among others.</p></li>
-<li><p><a href="http://data.un.org/">UN Data</a>: UN Data is a web-based data service for the global user community. It brings international statistical databases within easy reach of users through a single-entry point. Users can search and download a variety of statistical resources compiled by the United Nations (UN) statistical system and other international agencies. The numerous databases or tables collectively known as “datamarts” contain over 60 million data points and cover a wide range of statistical themes including agriculture, crime, communication, development assistance, education, energy, environment, finance, gender, health, labour market, manufacturing, national accounts, population and migration, science and technology, tourism, transport and trade.</p></li>
 <li><p><a href="https://www.ucrdatatool.gov/">Uniform Crime Reporting Data</a>: The UCR Program collects statistics on violent crime (murder and non-negligent manslaughter, rape, robbery, and aggravated assault) and property crime (burglary, larceny-theft, and motor vehicle theft). By congressional mandate, arson was added as the eighth Part I offense in 1979. Arson statistics are not available for access on this site. By using the table-building tool, users can specify offenses, locality (city, county, state), and year(s).</p></li>
 <li><p><a href="https://www.fda.gov/drugs/drug-approvals-and-databases/drugsfda-data-files">US Food and Drug Administration</a>: Drug approvals and databases, including therapeutic equivalence evaluations for approved multi-source prescription drug products.</p></li>
 <li><p><a href="https://nces.ed.gov/">National Center for Education Statistics</a>: The primary federal entity for collecting and analyzing data related to education.</p></li>
@@ -240,7 +237,6 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="https://developer.spotify.com/documentation/web-api/">Spotify API</a>: Discover the millions of tracks, artists, or albums on Spotify in the user’s local market or a specific Spotify market.</p></li>
 <li><p><a href="http://insideairbnb.com/get-the-data.html">Inside Airbnb</a>: Inside Airbnb offers different data sets related to Airbnb listings in dozens of cities around the world.</p></li>
 <li><p><a href="https://www.yelp.com/dataset">Yelp Open Dataset</a>: Yelp maintains a free dataset for use in personal, educational, and academic purposes. It includes 6 million reviews spanning 189,000 businesses in 10 metropolitan areas.</p></li>
-<li><p><a href="https://developer.riotgames.com/">LOL Riot Developer Portal</a>: “With this site we hope to provide the League of Legends developer community with access to game data in a secure and reliable way. This is just part of our ongoing effort to respond to players’ and developers’ requests for data and to arm the community with more ways to contribute to the player experience.”</p></li>
 <li><p><a href="https://developer.twitter.com/en/docs">Twitter API</a>: Twitter has a good streaming API, and makes it relatively straightforward to filter and stream tweets. You can get started here. There are tons of options here — you could figure out what states are the happiest, or which countries use the most complex language. If you’d like some help getting started working with this Twitter API, check out the tutorial here.</p></li>
 </ul>
 </section>
@@ -491,18 +487,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./course-ec.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Extra Credit</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./course-anu.html" class="pagination-link">
-        <span class="nav-page-text">Accessible NU</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

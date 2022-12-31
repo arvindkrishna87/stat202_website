@@ -106,41 +106,46 @@ ul.task-list li input[type="checkbox"] {
   <a href="./course-schedule.html" class="sidebar-item-text sidebar-link">Schedule</a>
   </div>
 </li>
-        <li class="sidebar-item">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Additional Resources</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./course-syllabus.html" class="sidebar-item-text sidebar-link">Syllabus</a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./course-team.html" class="sidebar-item-text sidebar-link active">Office hours</a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./course-links.html" class="sidebar-item-text sidebar-link">Useful links</a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./course-solutions.html" class="sidebar-item-text sidebar-link">Activity solutions</a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./course-ec.html" class="sidebar-item-text sidebar-link">Extra Credit</a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./course-project.html" class="sidebar-item-text sidebar-link">Final project</a>
-  </div>
-</li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./course-anu.html" class="sidebar-item-text sidebar-link">Accessible NU</a>
   </div>
 </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -179,18 +184,20 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="instructors">Instructors</h2>
 <div class="columns">
 <div class="column" style="width:80%;">
-<p><strong>Section 20: Dr.&nbsp;Danielle Sass</strong> is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. She received her Ph.D in Statistics from the University of Illinois at Urbana-Champaign. Her passion and focus is curriculum and content development for undergraduate students. Office hours can be made by appointment by emailing danielle.sass@northwestern.edu</p>
+<p><strong>Section 20: Dr.&nbsp;Danielle Sass</strong> is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. She received her Ph.D in Statistics from the University of Illinois at Urbana-Champaign. Her passion and focus is curriculum and content development for undergraduate students.</p>
+<p>Office hours can be made <strong>by appointment</strong> by emailing danielle.sass@northwestern.edu. Include <strong>STAT202</strong> in the subject line! Please provide your full availability for the day(s) you are available to meet. Ideal meeting times are Tuesday between 8am-4pm and Friday between 11am - 3pm.</p>
 </div><div class="column" style="width:20%;">
 <p><img src="images/ta/profile_sass.jpg" style="height:1in"></p>
 </div>
 </div>
-<div class="columns">
-<div class="column" style="width:80%;">
-<p><strong>Section 21: Dr.&nbsp;Arvind Krishna</strong> is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. He received his Ph.D in Statistics from Georgia Institute of Technology. Office hours can be made by appointment by emailing krish@northwestern.edu</p>
-</div><div class="column" style="width:20%;">
-<p><img src="images/ta/profile_krish.jpg" style="height:1in"></p>
-</div>
-</div>
+<!-- ::: columns -->
+<!-- ::: {.column width="80%"} -->
+<!-- **Section 21: Dr. Arvind Krishna** is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. He received his Ph.D in Statistics from Georgia Institute of Technology. Office hours can be made by appointment by emailing krish\@northwestern.edu -->
+<!-- ::: -->
+<!-- ::: {.column width="20%"} -->
+<!-- ![](images/ta/profile_krish.jpg){height="1in"} -->
+<!-- ::: -->
+<!-- ::: -->
 </section>
 <section id="teaching-assistants" class="level2">
 <h2 class="anchored" data-anchor-id="teaching-assistants">Teaching assistants</h2>
@@ -204,7 +211,7 @@ ul.task-list li input[type="checkbox"] {
 <colgroup>
 <col style="width: 24%">
 <col style="width: 24%">
-<col style="width: 27%">
+<col style="width: 26%">
 <col style="width: 24%">
 </colgroup>
 <thead>
