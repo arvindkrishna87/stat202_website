@@ -2,29 +2,8 @@
 title: "Course Extra Credit Opportunities"
 ---
 
-## EC Opportunity 1 - Textbook Solutions
 
-At the end of each Chapter of the [textbook](https://nustat.github.io/intro-stat-data-sci/) we are writing practice Exercises, however the Exercises do not have solutions yet. If you complete the Exercises at the end of a Chapter and submit your solutions (in a .qmd document) to Canvas by the due date you will receive 2 points toward the `Activity` section of your grade per Chapter. The due dates are set so that I can post the odd problem solutions in the textbook before the Exam for everyone.
-
-**Advanced sections now optional (Ch 5 and after)**
-
-| Chapter Exercise Solutions | Due Date              |
-|----------------------------|-----------------------|
-| Chapter 1 Solutions        | Sunday, October 2nd   |
-| Chapter 2 Solutions        | Thursday, October 6th |
-| Chapter 3 Solutions        | Saturday, October 8th |
-| NO Ch 4 Exercises          |                       |
-| Chapter 5 Solutions        | Sunday, October 23rd  |
-| Chapter 6 Solutions        | Sunday, October 23rd  |
-| Chapter 7 Solutions        | Thurs,  October 27th  |
-| Chapter 8 Solutions        | Thurs,  October 27th  |
-| Chapter 9 Solutions        | Sunday, November 6th  |
-| Chapter 10 Solutions       | Sunday, November 13th |
-| NO Ch 11 Exercises         |                       |
-| Chapter 12 Solutions       | Friday, November 18th |
-
-
-## EC Opportunity 2 - Campuswire
+## EC Opportunity 1 - Campuswire
 
 We use Campuswire (see syllabus or welcome page for enrollment code) as our preferred platform for announcements and questions about activities, reading checks, or general course-related questions. (Questions about individual grades or appointments should be addressed through email.)
 

@@ -10,11 +10,11 @@ execute:
 from: markdown+emoji
 ---
 
-::: callout-important
-Office hours on Zoom during reading week.
+<!-- ::: callout-important -->
+<!-- Office hours on Zoom during reading week. -->
 
-Don't forget to fill out the [Final Exam Retake Survey](https://canvas.northwestern.edu/courses/178772/quizzes/194469)
-:::
+<!-- Don't forget to fill out the [Final Exam Retake Survey](https://canvas.northwestern.edu/courses/178772/quizzes/194469) -->
+<!-- ::: -->
 
 ```{r}
 #library(tidyverse)
@@ -81,10 +81,9 @@ agenda_today %>%
 
 ## Participate
 
-| Sec 20 (Sass 9am)                          | Sec 21 (Krish 1pm)                          |
-|-----------------------------------------|-------------------------------|
-| <https://ahaslides.com/SASS2>              | <https://ahaslides.com/KRISH2>              |
-| ![](images/qr_sasspart2.png){height="1in"} | ![](images/qr_krishpart2.png){height="1in"} |
+<https://ahaslides.com/SASS2>
+
+![](images/qr_sasspart2.png){height="1in"}
 
 <br>
 

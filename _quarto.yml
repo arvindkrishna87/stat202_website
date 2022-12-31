@@ -35,20 +35,22 @@ website:
           text: Today's agenda
         - href: course-schedule.qmd
           text: Schedule
-        - href: course-syllabus.qmd
-          text: Syllabus
-        - href: course-team.qmd
-          text: Office hours
-        - href: course-links.qmd
-          text: Useful links
-        - href: course-solutions.qmd
-          text: Activity solutions
-        - href: course-ec.qmd
-          text: Extra Credit
-        - href: course-project.qmd
-          text: Final project
-        - href: course-anu.qmd
-          text: Accessible NU
+        - section: "Additional Resources"
+          contents:
+          - href: course-syllabus.qmd
+            text: Syllabus
+          - href: course-team.qmd
+            text: Office hours
+          - href: course-links.qmd
+            text: Useful links
+          - href: course-solutions.qmd
+            text: Activity solutions
+          - href: course-ec.qmd
+            text: Extra Credit
+        # - href: course-project.qmd
+        #   text: Final project
+          - href: course-anu.qmd
+            text: Accessible NU
 
 format:
   html:
@@ -56,6 +58,6 @@ format:
     toc: true
     link-external-newwindow: true
 
-freeze: auto
+#freeze: auto
 
 editor: visual
