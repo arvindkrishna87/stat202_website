@@ -461,9 +461,9 @@
 <div class="cell-output cell-output-stdout">
 <pre><code>Rows: 418
 Columns: 3
-$ PassengerId &lt;dbl&gt; 892, 893, 894, 895, 896, 897, 898, 899, 900, 901, 902, 903~
-$ Survived    &lt;dbl&gt; 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1~
-$ Sex         &lt;chr&gt; "male", "female", "male", "male", "female", "male", "femal~</code></pre>
+$ PassengerId &lt;dbl&gt; 892, 893, 894, 895, 896, 897, 898, 899, 900, 901, 902, 903…
+$ Survived    &lt;dbl&gt; 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1…
+$ Sex         &lt;chr&gt; "male", "female", "male", "male", "female", "male", "femal…</code></pre>
 </div>
 </div>
 <div class="fragment">
@@ -520,16 +520,16 @@ $ Sex         &lt;chr&gt; "male", "female", "male", "male", "female", "male", "f
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(palmerpenguins)</span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(penguins)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 6 x 8
-  species island    bill_length_mm bill_depth_mm flipper_l~1 body_~2 sex    year
+<pre><code># A tibble: 6 × 8
+  species island    bill_length_mm bill_depth_mm flipper_l…¹ body_…² sex    year
   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;       &lt;int&gt;   &lt;int&gt; &lt;fct&gt; &lt;int&gt;
 1 Adelie  Torgersen           39.1          18.7         181    3750 male   2007
-2 Adelie  Torgersen           39.5          17.4         186    3800 fema~  2007
-3 Adelie  Torgersen           40.3          18           195    3250 fema~  2007
+2 Adelie  Torgersen           39.5          17.4         186    3800 fema…  2007
+3 Adelie  Torgersen           40.3          18           195    3250 fema…  2007
 4 Adelie  Torgersen           NA            NA            NA      NA &lt;NA&gt;   2007
-5 Adelie  Torgersen           36.7          19.3         193    3450 fema~  2007
+5 Adelie  Torgersen           36.7          19.3         193    3450 fema…  2007
 6 Adelie  Torgersen           39.3          20.6         190    3650 male   2007
-# ... with abbreviated variable names 1: flipper_length_mm, 2: body_mass_g</code></pre>
+# … with abbreviated variable names ¹​flipper_length_mm, ²​body_mass_g</code></pre>
 </div>
 </div>
 <p>We are interested in plotting the distribution of <code>species</code>.</p>
@@ -544,7 +544,7 @@ $ Sex         &lt;chr&gt; "male", "female", "male", "male", "female", "male", "f
 <div class="cell">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>penguins_counted</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 3 x 2
+<pre><code># A tibble: 3 × 2
   species       n
   &lt;fct&gt;     &lt;int&gt;
 1 Adelie      152

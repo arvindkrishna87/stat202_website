@@ -2,14 +2,13 @@
 title: "Syllabus"
 ---
 
-[**Click here**](/documents/syllabus_stat202_2022fa.pdf) **to download a PDF copy of the syllabus.**
+[**Click here**](/documents/syllabus_stat202_2023winter.pdf) **to download a PDF copy of the syllabus.**
 
 ## Course info
 
-|            | Day | Time              | Location  |
-|------------|-----|-------------------|-----------|
-| Section 20 | MWF | 9:00 am - 9:50 am | Swift 107 |
-| Section 21 | MWF | 1:00 pm - 1:50 pm | Swift 107 |
+|            | Day | Time              | Location                     |
+|------------|-----|-------------------|------------------------------|
+| Section 20 | MWF | 9:00 am - 9:50 am | Tech Institute Lecture Rm 02 |
 
 **Prerequisite:** High School Algebra
 
@@ -41,11 +40,11 @@ We will be using [Introduction to Statistics and Data Science](https://nustat.gi
 
 ## Software
 
-We will be using/introducing the free statistical software [RStudio Cloud](https://rstudio.cloud/).
+We will be using/introducing the free statistical software [Posit Cloud](https://posit.cloud/).
 
 ## Hardware
 
-Students will need a laptop or Chromebook to be able to follow lectures and to work with RStudio Cloud to complete activities. If access to a laptop is an issue, then please contact the course instructor and we will work to find an accommodation.
+Students will need a laptop or Chromebook to be able to follow lectures and to work with Posit Cloud to complete activities. If access to a laptop is an issue, then please contact the course instructor and we will work to find an accommodation.
 
 ## Assessment
 
@@ -59,7 +58,7 @@ We will be recording participation through [AHA slides](https://ahaslides.com/).
 
 ### Reading Checks
 
-Reading checks will be completed using "Tutorials" on RStudio Cloud and uploaded to the course Canvas page. Each reading check will be scaled to be worth 10 points.
+Reading checks will be completed using "Tutorial Software" on Posit Cloud and uploaded to the course Canvas page. Each reading check will be scaled to be worth 10 points.
 
 *The lowest three grades will be dropped at the end of the quarter.*
 
@@ -121,7 +120,7 @@ The final letter grade will be determined based on the following thresholds:
 
 ## Asking Questions & Course Communication
 
-This term we will be using [Campuswire](https://campuswire.com/p/G88B46A25) ("Enrollment Code: 7930") as our preferred platform for questions about activities, reading checks, and general course questions. The system is highly catered to getting you help quickly and efficiently from classmates and the instructional team. Rather than emailing questions to the instructional team, you should post your questions on Campuswire.
+This term we will be using [Campuswire](https://campuswire.com/p/G023ED987) ("Enrollment Code: 5917") as our preferred platform for questions about activities, reading checks, and general course questions. The system is highly catered to getting you help quickly and efficiently from classmates and the instructional team. Rather than emailing questions to the instructional team, you should post your questions on Campuswire.
 
 The instructional team will check Campuswire periodically and answer questions, but we strongly encourage students to answer each other's questions. To this end, student will be able to earn bonus points --- see Canvas for details.
 
@@ -145,34 +144,40 @@ Northwestern University is committed to providing the most accessible learning e
 
 [^1]: email: accessiblenu\@northwestern.edu; phoone: 847-467-5530
 
+
 ## COVID-19 Policies
 
 ### Classroom Expectations
 
 \textsc{Students, faculty, and staff must comply} with University expectations regarding appropriate classroom behavior, including those outlined below and in the [COVID-19 Expectations for Students](https://www.northwestern.edu/communitystandards/about-us/northwestern-university-student-expectations-covid-19.html). With respect to classroom procedures, this includes:
 
--   Policies regarding masking, social distancing and other public health measures evolve as the situation changes. Students are responsible for understanding and complying with current University, state and city requirements.
--   In some classes, masking and/or social distancing may be required as a result of an Americans with Disabilities Act (ADA) accommodation for the instructor or a student in the class even when not generally required on campus. In such cases, the instructor will notify the class.
-
+- Policies regarding masking, social distancing and other public health measures evolve as the situation changes. Students are responsible for understanding and complying with current University, state and city requirements.
+- In some classes, masking and/or social distancing may be required as a result of an Americans with Disabilities Act (ADA) accommodation for the instructor or a student in the class even when not generally required on campus. In such cases, the instructor will notify the class.
+ 
 \noindent \textsc{If a student fails to comply} with the [COVID-19 Expectations for Students](https://www.northwestern.edu/communitystandards/about-us/northwestern-university-student-expectations-covid-19.html) or other University expectations related to COVID-19, the instructor may ask the student to leave the class. The instructor is asked to report the incident to the Office of Community Standards for additional follow-up.
 
-### Class Attendance
+## Exceptions to Class Modality
 
-Class sessions for this course will occur in person. Individual students will not be granted permission to attend remotely except as the result of an Americans with Disabilities Act (ADA) accommodation as determined by AccessibleNU.
+\textsc{Class sessions for this course} will occur in person. Individual students will not be granted permission to attend remotely except as the result of an Americans with Disabilities Act (ADA) accommodation as determined by AccessibleNU.
+ 
+\vspace{6pt}
 
-Maintaining the health of the community remains our priority. If you are experiencing any symptoms of COVID \textbf{do not attend class} and update your Symptom Tracker application right away to connect with Northwestern's Case Management Team for guidance on next steps. Also contact the instructor as soon as possible to arrange to complete coursework. We plan to record sessions for students that miss to to COVID-19 related issues.
+\noindent \textsc{Maintaining the health} of the community remains our priority. If you are experiencing any symptoms of COVID \textbf{do not attend class} and update your Symptom Tracker application right away to connect with Northwestern’s Case Management Team for guidance on next steps. Also contact the instructor as soon as possible to arrange to complete coursework. We plan to record sessions for students that miss to to COVID-19 related issues.
 
-Students who experience a personal emergency should contact the instructor as soon as possible to arrange to complete coursework.
+\vspace{6pt}
 
-Should public health recommendations prevent in person class from being held on a given day, the instructor or the university will notify students.
+\noindent \textsc{Students who experience} a personal emergency should contact the instructor as soon as possible to arrange to complete coursework.
 
-## Recording
+\vspace{6pt}
 
-Unauthorized student recording of classroom or other academic activities is prohibited.[^2] Unauthorized recording is unethical and may also be a violation of University policy and state law.
+\noindent \textsc{Should public health} recommendations prevent in person class from being held on a given day, the instructor or the university will notify students.
 
-[^2]: Including advising sessions or office hours.
 
-Students requesting the use of assistive technology as an accommodation should contact [AccessibleNU](https://www.northwestern.edu/accessiblenu/). Unauthorized use of classroom recordings --- including distributing or posting them --- is also prohibited.
+## Prohibition of Recording of Class Sessions by Students
+
+\textsc{Unauthorized student recording} of classroom or other academic activities is prohibited.^[Including advising sessions or office hours.] Unauthorized recording is unethical and may also be a violation of University policy and state law. 
+
+Students requesting the use of assistive technology as an accommodation should contact [AccessibleNU](https://www.northwestern.edu/accessiblenu/). Unauthorized use of classroom recordings --- including distributing or posting them --- is also prohibited. 
 
 Under the University's [Copyright Policy](https://www.invo.northwestern.edu/invention-disclosure/policies-forms/copyright-policy/), faculty own the copyright to instructional materials --- including those resources created specifically for the purposes of instruction, such as syllabi, lectures and lecture notes, and presentations. Students cannot copy, reproduce, display, or distribute these materials. Students who engage in unauthorized recording, unauthorized use of a recording, or unauthorized distribution of instructional materials will be referred to the appropriate University office for follow-up.
 
@@ -180,16 +185,18 @@ This class or portions of this class will be recorded by the instructor for educ
 
 ## Academic Integrity
 
-Students in this course are required to comply with the policies found in the booklet, "Academic Integrity at Northwestern University: A Basic Guide". All papers submitted for credit in this course must be submitted electronically unless otherwise instructed by the professor. Your written work may be tested for plagiarized content. For details regarding academic integrity at Northwestern or to download the guide, visit: <https://www.northwestern.edu/provost/policies-procedures/academic-integrity/index.html>
+\textsc{Students in this course are required} to comply with the policies found in the booklet, "Academic Integrity at Northwestern University: A Basic Guide". All papers submitted for credit in this course must be submitted electronically unless otherwise instructed by the professor. Your written work may be tested for plagiarized content. For details regarding academic integrity at Northwestern or to download the guide, visit: [https://www.northwestern.edu/provost/policies-procedures/academic-integrity/index.html](https://www.northwestern.edu/provost/policies-procedures/academic-integrity/index.html)
+
+## Diversity, Equity, and Inclusion
+
+This course strives to be an inclusive learning community, respecting those of differing backgrounds and beliefs. As a community, we aim to be respectful to all students in this class, regardless of race, ethnicity, socio-economic status, religion, gender identity or sexual orientation.
 
 ## Sexual Misconduct & Reporting
 
-Northwestern University is committed to fostering an environment where students are safe and free from sexual misconduct. Confidential resources are available to those who have experienced sexual misconduct.[^3]
-
-[^3]: See <http://www.northwestern.edu/sexual-misconduct/get-help/confidential-support.html> for details.
+\textsc{Northwestern University is committed} to fostering an environment where students are safe and free from sexual misconduct. Confidential resources are available to those who have experienced sexual misconduct.^[ See [http://www.northwestern.edu/sexual-misconduct/get-help/confidential-support.html](http://www.northwestern.edu/sexual-misconduct/get-help/confidential-support.html) for details.] 
 
 Faculty, instructors, and TAs are **not** confidential resources and are required to report incidents of sexual misconduct, whether discussed in your assignments or in person, to the Title IX Coordinator, who can provide information about resources and options.
-
+ 
 We encourage students who have experienced sexual misconduct to talk with someone to get support. For more information visit the [Get Help](http://www.northwestern.edu/sexual-misconduct/get-help/index.html)[^4].
 
 [^4]: <http://www.northwestern.edu/sexual-misconduct/get-help/index.html>
@@ -221,13 +228,5 @@ Northwestern University is committed to supporting the wellness of our students.
 \textsc{Student Enrichment Services (SES) partners} with FGLI students -- pronounced figly -- who are first-generation, lower-income, and/or DACA/Undocumented. SES works with these students to foster identity development, navigate campus resources, and build community. Through campus-wide partnerships and advocacy, SES strives to build an inclusive Northwestern community that is welcoming, supportive, and accessible for all students. SES can connect you to a number of resources (emergency aid assistance, books, supplies, laptops, food accessibility and much more!) both within the SES office and across campus. For more information please visit [https://www.northwestern.edu/enrichment](https://www.northwestern.edu/enrichment/).
 
 ## Important dates
-
--   **September 20:** Classes begin
--   **October 12 and 14:** Section 20 (9am) class is remote on Zoom
--   **October 28:** Last day to drop a class
--   **November 23-27:** Thanksgiving Break, no classes
--   **November 28-December 4**: Reading period
--   **December 8**: 1pm class: Optional in-person final exam 9am-11am
--   **December 8**: 9am class: Optional in-person final exam 3pm-5pm
 
 Click [here](https://www.registrar.northwestern.edu/calendars/academic-calendars/) for the full academic calendar.

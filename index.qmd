@@ -81,7 +81,7 @@ agenda_today %>%
 
 ## Participate
 
-<https://ahaslides.com/SASS2>
+<https://ahaslides.com/202STAT>
 
 ![](images/qr_sasspart2.png){height="1in"}
 
