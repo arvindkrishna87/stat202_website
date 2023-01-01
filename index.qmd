@@ -83,7 +83,7 @@ agenda_today %>%
 
 <https://ahaslides.com/202STAT>
 
-![](images/qr_sasspart2.png){height="1in"}
+![](images/qr_202STAT.png){height="1in"}
 
 <br>
 
