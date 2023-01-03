@@ -43,6 +43,8 @@ website:
             text: Office hours
           - href: course-links.qmd
             text: Useful links
+          - href: course-lectures.qmd
+            text: Lecture videos
           - href: course-solutions.qmd
             text: Activity solutions
           - href: course-ec.qmd
