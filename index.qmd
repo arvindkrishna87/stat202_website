@@ -10,11 +10,11 @@ execute:
 from: markdown+emoji
 ---
 
-<!-- ::: callout-important -->
-<!-- Office hours on Zoom during reading week. -->
+::: callout-important
+Weinberg College does not permit hybrid courses.
 
-<!-- Don't forget to fill out the [Final Exam Retake Survey](https://canvas.northwestern.edu/courses/178772/quizzes/194469) -->
-<!-- ::: -->
+If you cannot make class due to flight issues, late registration, or illness it is your responsibility to catch up on material by 1) watching the lecture video 2) reviewing the slides 3) completing any reading checks and/or activities that are due
+:::
 
 ```{r}
 #library(tidyverse)
