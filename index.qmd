@@ -14,6 +14,8 @@ from: markdown+emoji
 Weinberg College does not permit hybrid courses.
 
 If you cannot make class due to flight issues, late registration, or illness it is your responsibility to catch up on material by 1) watching the lecture video 2) reviewing the slides 3) completing any reading checks and/or activities that are due
+
+Office hours posted. This Thursday 1/5 office hours will be from 6-7pm only (no office hours between 5-6pm)
 :::
 
 ```{r}
