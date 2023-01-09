@@ -256,7 +256,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Syllabus"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 2.4 - 2.6"
   },
   {
     "objectID": "index.html#participate",
@@ -270,7 +270,7 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    Review the syllabus\n\n    Visit the course's Campuswire page using your @u.northwestern.edu email. Enrollment code: 5917\n\n    Gain access to the RStudio Cloud Class Workspace - link on Canvas.\n\n    Complete the google survey - we will use this data later in the quarter.\n\n    Make sure you know how to access Reading Check 01\n\n    Section notes: \n\n    Daily activity:  practice"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_03"
   },
   {
     "objectID": "index.html#homework-due-tue-jan-03-1159pm",
@@ -1481,7 +1481,7 @@
     "href": "index.html",
     "title": "Today’s Agenda",
     "section": "",
-    "text": "Important\n\n\n\nWeinberg College does not permit hybrid courses.\nIf you cannot make class due to flight issues, late registration, or illness it is your responsibility to catch up on material by 1) watching the lecture video 2) reviewing the slides 3) completing any reading checks and/or activities that are due\nOffice hours posted. This Thursday 1/5 office hours will be from 6-7pm only (no office hours between 5-6pm)"
+    "text": "Important\n\n\n\nThere is a bug in the reading check exercises. It counts “run” as a submission. I am working on a fix. Just leave a comment in the submission if this impacts your Exercise score."
   },
   {
     "objectID": "course-lectures.html",
@@ -1489,5 +1489,19 @@
     "title": "Lecture Videos",
     "section": "",
     "text": "Lecture 1 - Jan 3"
+  },
+  {
+    "objectID": "index.html#class-mon-jan-09",
+    "href": "index.html#class-mon-jan-09",
+    "title": "Today’s Agenda",
+    "section": "Class: Mon Jan 09",
+    "text": "Class: Mon Jan 09"
+  },
+  {
+    "objectID": "index.html#homework-due-tue-jan-10-1159pm",
+    "href": "index.html#homework-due-tue-jan-10-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Tue Jan 10 11:59pm",
+    "text": "Homework Due Tue Jan 10 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_03\n\n     Read Sections 2.7 - 2.9\n\n    Complete and submit  RC_04"
   }
 ]
