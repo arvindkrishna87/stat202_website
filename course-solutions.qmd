@@ -6,9 +6,9 @@ Activities are graded for completion! It is your responsibility and should be a 
 
 <!-- -   [Solution - textbook exercises](documents/solutions/solution_textbook.html) -->
 
-<!-- -   [Solution - Activity 01](documents/solutions/solution_act_01.html) -->
+-   [Solution - Activity 01](documents/solutions/solution_act_01.html)
 
-<!-- -   [Solution - Activity 02](documents/solutions/solution_act_02.html) -->
+-   [Solution - Activity 02](documents/solutions/solution_act_02.html)
 
 <!-- -   [Solution - Activity 03](documents/solutions/solution_act_03.html) -->
 

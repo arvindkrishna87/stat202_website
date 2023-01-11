@@ -67,7 +67,7 @@
     "href": "course-solutions.html",
     "title": "Activity Solutions",
     "section": "",
-    "text": "Activities are graded for completion! It is your responsibility and should be a part of your learning habit to review your activities for correctness. Solutions are posted roughly 3 days after the due date."
+    "text": "Solution - Activity 01\nSolution - Activity 02"
   },
   {
     "objectID": "course-syllabus.html",
@@ -256,7 +256,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 2.4 - 2.6"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 2.7 - 2.9"
   },
   {
     "objectID": "index.html#participate",
@@ -270,7 +270,7 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_03"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_04"
   },
   {
     "objectID": "index.html#homework-due-tue-jan-03-1159pm",
@@ -1503,5 +1503,19 @@
     "title": "Today’s Agenda",
     "section": "Homework Due Tue Jan 10 11:59pm",
     "text": "Homework Due Tue Jan 10 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_03\n\n     Read Sections 2.7 - 2.9\n\n    Complete and submit  RC_04"
+  },
+  {
+    "objectID": "index.html#class-wed-jan-11",
+    "href": "index.html#class-wed-jan-11",
+    "title": "Today’s Agenda",
+    "section": "Class: Wed Jan 11",
+    "text": "Class: Wed Jan 11"
+  },
+  {
+    "objectID": "index.html#homework-due-thu-jan-12-1159pm",
+    "href": "index.html#homework-due-thu-jan-12-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Thu Jan 12 11:59pm",
+    "text": "Homework Due Thu Jan 12 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_04\n\n     Read Sections 3.0 - 3.3\n\n    Complete and submit  RC_05"
   }
 ]
