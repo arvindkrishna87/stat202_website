@@ -1,14 +1,92 @@
 ---
 title: "Activity Solutions"
+
+execute:
+  message: false
+  warning: false
+  echo: false
+from: markdown+emoji
+editor_options: 
+  chunk_output_type: console
 ---
 
 Activities are graded for completion! It is your responsibility and should be a part of your learning habit to review your activities for correctness. Solutions are posted roughly *3 days after* the due date.
 
+```{r}
+#library(tidyverse)
+library(dplyr)
+library(purrr)
+library(gt)
+library(stringr)
+library(lubridate)
+
+today_ymd <- Sys.Date()
+today <- format(today_ymd,"%a %b %d")
+
+agenda_final <- read.csv("documents/agenda_final.csv") %>% 
+  mutate(time_due = today_ymd - as.Date(due_ymd))
+
+E1 <- agenda_final %>% 
+  filter(str_detect(Topic, "Exam 1")) %>% 
+  pull(date_ymd)
+
+E2 <- agenda_final %>% 
+  filter(str_detect(Topic, "Exam 2")) %>% 
+  pull(date_ymd)
+
+E3 <- agenda_final %>% 
+  filter(str_detect(Topic, "Exam 3")) %>% 
+  pull(date_ymd)
+
+agenda_final2 <- agenda_final %>% 
+  mutate(exam_date = case_when(
+    due_ymd < E1 ~ E1,
+    due_ymd < E2 ~ E2,
+    due_ymd < E3 ~ E3
+  ))
+  
+agenda_final2 <- agenda_final2 %>% 
+  mutate(show = case_when(
+    time_due >= 3 ~ 1,
+    as.Date(exam_date) - today_ymd <= 4 ~ 1,
+    TRUE ~ 0
+    ) )
+
+
+agenda_show <- agenda_final2 %>% 
+  filter(show == 1)
+
+```
+
+```{r}
+agenda_show %>% 
+  select(Solutions) %>% 
+  #t() %>% 
+  as.data.frame() %>% 
+  filter(Solutions != "") %>% 
+  gt() %>% 
+  fmt_markdown(columns = c(Solutions) )%>%
+  cols_align(align = "left") %>% 
+  tab_options(column_labels.hidden = TRUE,
+              table.align = "left",
+              table_body.border.top.color = "white",
+              table_body.border.bottom.color = "white",
+              table_body.hlines.color = "white",
+              table.width = pct(100))
+
+```
+
+<br><br>
+
+```{r echo = FALSE}
+knitr::knit_exit()
+```
+
 <!-- -   [Solution - textbook exercises](documents/solutions/solution_textbook.html) -->
 
--   [Solution - Activity 01](documents/solutions/solution_act_01.html)
+<!-- -   [Solution - Activity 01](documents/solutions/solution_act_01.html) -->
 
--   [Solution - Activity 02](documents/solutions/solution_act_02.html)
+<!-- -   [Solution - Activity 02](documents/solutions/solution_act_02.html) -->
 
 <!-- -   [Solution - Activity 03](documents/solutions/solution_act_03.html) -->
 

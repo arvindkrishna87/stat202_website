@@ -67,7 +67,7 @@
     "href": "course-solutions.html",
     "title": "Activity Solutions",
     "section": "",
-    "text": "Solution - Activity 01\nSolution - Activity 02"
+    "text": "Activity 1 Solution\n\n    Activity 2 Solution\n\n    Activity 3 Solution"
   },
   {
     "objectID": "course-syllabus.html",
@@ -256,7 +256,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 2.7 - 2.9"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 3.0 - 3.3"
   },
   {
     "objectID": "index.html#participate",
@@ -270,7 +270,7 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_04"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_05"
   },
   {
     "objectID": "index.html#homework-due-tue-jan-03-1159pm",
@@ -1517,5 +1517,19 @@
     "title": "Today’s Agenda",
     "section": "Homework Due Thu Jan 12 11:59pm",
     "text": "Homework Due Thu Jan 12 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_04\n\n     Read Sections 3.0 - 3.3\n\n    Complete and submit  RC_05"
+  },
+  {
+    "objectID": "index.html#class-fri-jan-13",
+    "href": "index.html#class-fri-jan-13",
+    "title": "Today’s Agenda",
+    "section": "Class: Fri Jan 13",
+    "text": "Class: Fri Jan 13"
+  },
+  {
+    "objectID": "index.html#homework-due-tue-jan-17-1159pm",
+    "href": "index.html#homework-due-tue-jan-17-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Tue Jan 17 11:59pm",
+    "text": "Homework Due Tue Jan 17 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_05\n\n    Complete and submit  RC_06"
   }
 ]

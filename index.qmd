@@ -10,12 +10,13 @@ execute:
 from: markdown+emoji
 ---
 
-::: callout-important
+<!-- ::: callout-important -->
 
-The exercise run "bug is fixed! The links are automatically updated or please use [reading_check_v3](https://posit.cloud/spaces/321338/content/5202137) project going forward.
+<!-- The exercise run "bug is fixed! The links are automatically updated or please use [reading_check_v3](https://posit.cloud/spaces/321338/content/5202137) project going forward. -->
 
-Hopefully, this has now resolved all the major issues. However, this is only the 2nd time using these reading check tutorials so if you find any other errors please let me know by posting to Campuswire!
-:::
+<!-- Hopefully, this has now resolved all the major issues. However, this is only the 2nd time using these reading check tutorials so if you find any other errors please let me know by posting to Campuswire! -->
+
+<!-- ::: -->
 
 ```{r}
 #library(tidyverse)
