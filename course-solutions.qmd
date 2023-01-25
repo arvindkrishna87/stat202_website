@@ -1,6 +1,5 @@
 ---
 title: "Activity Solutions"
-
 execute:
   message: false
   warning: false
