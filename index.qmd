@@ -14,6 +14,8 @@ from: markdown+emoji
 
 Don't forget to fill out [Course Survey 1](https://canvas.northwestern.edu/courses/183509/quizzes/195532). It is worth a participation point.
 
+Check your grades! No changes will be considered for Part 1 material after Tuesday 1/31 11:59pm.
+
 :::
 
 ```{r}
