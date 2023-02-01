@@ -10,11 +10,11 @@ execute:
 from: markdown+emoji
 ---
 
-::: callout-important
+<!-- ::: callout-important -->
 
-Check your grades! No changes will be considered for Part 1 material after Tuesday 1/31 11:59pm.
+<!-- callout here -->
 
-:::
+<!-- ::: -->
 
 ```{r}
 #library(tidyverse)
