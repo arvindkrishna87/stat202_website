@@ -10,11 +10,11 @@ execute:
 from: markdown+emoji
 ---
 
-<!-- ::: callout-important -->
+::: callout-important
 
-<!-- callout here -->
+Don't forget to fill out course survey 2!!
 
-<!-- ::: -->
+:::
 
 ```{r}
 #library(tidyverse)

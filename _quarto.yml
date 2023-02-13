@@ -49,8 +49,8 @@ website:
             text: Activity solutions
           - href: course-ec.qmd
             text: Extra Credit
-        # - href: course-project.qmd
-        #   text: Final project
+          - href: course-project.qmd
+            text: Final project
           - href: course-anu.qmd
             text: Accessible NU
 
