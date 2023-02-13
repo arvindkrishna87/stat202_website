@@ -29,6 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./course-anu.html" rel="next">
+<link href="./course-ec.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -144,6 +146,11 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./course-project.html" class="sidebar-item-text sidebar-link active">Final project</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./course-anu.html" class="sidebar-item-text sidebar-link">Accessible NU</a>
   </div>
 </li>
@@ -185,13 +192,14 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>The final project is to be completed in <strong>groups of 3-5</strong>. Why? 1) Group work and collaboration is a good life skill. 2) There is no possible way we can grade 150 projects by the time grades are due.</p>
-<p>The final project is due on <strong>Sunday March 5th 11:59pm</strong>. Groups are expected to submit their project electronically to Canvas, similar to how you submit your work for daily activities. You will type your project directly into a qmd file and knit an html document. You should <strong>submit your .qmd and .html</strong> file (and datset if you chose one other than the one I provided). <strong>Only ONE person</strong> from the group needs to submit the project. Make sure everyone’s name is on the project.</p>
+<p>The final project is to be completed in <strong>groups of 3-6</strong>. Why? 1) Group work and collaboration is a good life skill. 2) There is no possible way we can grade 150 projects by the time grades are due.</p>
+<p>The final project is due on <strong>Sunday March 12th 11:59pm</strong>. Groups are expected to submit their project electronically to Canvas, similar to how you submit your work for daily activities. You will type your project directly into a qmd file and knit an html document. You should <strong>submit your .qmd and .html</strong> file (and dataset if you chose one other than the one I provided). <strong>Only ONE person</strong> from the group needs to submit the project. Make sure everyone’s name is on the project.</p>
 <p>The project should be in complete sentences within the context of your dataset when appropriate. Students are expected to also show their work (i.e., include your R code). Your target audience is the grader and myself, we want to see your code and the output of your code.</p>
 <section id="choose-a-group" class="level2">
 <h2 class="anchored" data-anchor-id="choose-a-group">Choose a Group</h2>
-<p>You must join your group on Canvas! Grades are linked to these groups - I will not hunt you down. To get a grade you must be in a group. This is 10% of your grade, you do not want a 0 for the project. On Canvas go to the <strong>People</strong> tab, and select <strong>Group</strong> to add yourself to a group.</p>
+<p>You must join your group on Canvas! Grades are linked to these groups - I will <strong>not</strong> hunt you down. To get a grade you must be in a group. This is 10% of your grade, you do not want a 0 for the project. On Canvas go to the <strong>People</strong> tab, and select <strong>Group</strong> to add yourself to a group.</p>
 <p>Everyone in your group must agree to be in your group. I should not be getting emails stating “<em>Jane Doe</em> is in my group and we don’t know who that is”. If you do not know anyone in the class, Groups 1 -5 are titled “Random Join”. Anyone can join them. You can communicate with your group through the Canvas group, make a group on Campuswire, or exchange email.</p>
+<p>The most effective ways groups have found to work together is by creating a Google drive document that members can copy/paste code into to share and jointly edit the report.</p>
 <p><img src="images/canvas_groups.png" class="img-fluid"></p>
 </section>
 <section id="choose-a-dataset" class="level2">
@@ -230,7 +238,6 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="https://data.fivethirtyeight.com/">FiveThirtyEight</a>: If you’re interested in data at all, you’ve almost certainly heard of FiveThirtyEight; it’s one of the best-established data journalism outlets in the world. They write interesting data-driven articles, like “Don’t blame a skills gap for lack of hiring in manufacturing” and “2016 NFL Predictions”. What you may not know is that FiveThirtyEight also makes the data sets used in its articles available online on Github and on its own data portal.</p></li>
 <li><p><a href="https://crime-data-explorer.fr.cloud.gov/">FBI Crime Data Explorer</a>: If you’re fascinated by crime, the FBI Crime Data Explorer is the one for you. It provides a broad collection of crime statistics from a variety of state organizations (universities and local law enforcement) and government (on a local, regional, and state-level). Pull data on hate crimes, officer assaults, homicides, and more. It also includes some helpful user guides to support data navigation.</p></li>
 <li><p><a href="https://github.com/awesomedata/awesome-public-datasets">Awesome Public Datasets</a>: This github hosts a library of awesome, public datasets! They are all sorted by category and link you straight to the hosting website.</p></li>
-<li><p><a href="https://tinyletter.com/data-is-plural">Data is Plural</a>: Jeremy Singer-Vine collects awesome data sets across multiple sources. If you’re interested in getting data sets straight to your inbox, you should consider signing up for his newsletter.</p></li>
 <li><p><a href="https://www.sports-reference.com/">Sports Reference</a>: “Our Primary Aim is to answer our users’ questions with the easiest-to-use, fastest, and most complete sports statistics anywhere. If we have some fun in the process, that’s good too.”</p></li>
 <li><p><a href="https://data.worldbank.org/">The World Bank</a>: The World Bank is a global development organization that offers loans and advice to developing countries. The World Bank regularly funds programs in developing countries, then gathers data to monitor the success of these programs. You can browse world bank data sets directly. The data sets have many missing values (which is great for cleaning practice).</p></li>
 <li><p><a href="https://www.ucrdatatool.gov/">Uniform Crime Reporting Data</a>: The UCR Program collects statistics on violent crime (murder and non-negligent manslaughter, rape, robbery, and aggravated assault) and property crime (burglary, larceny-theft, and motor vehicle theft). By congressional mandate, arson was added as the eighth Part I offense in 1979. Arson statistics are not available for access on this site. By using the table-building tool, users can specify offenses, locality (city, county, state), and year(s).</p></li>
@@ -238,11 +245,8 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="https://nces.ed.gov/">National Center for Education Statistics</a>: The primary federal entity for collecting and analyzing data related to education.</p></li>
 <li><p><a href="https://www.weather.gov/help-past-weather">National Weather Service</a>: Climate data, including past weather conditions and long-term averages, from specific observing stations around the United States.</p></li>
 <li><p><a href="https://www.ncdc.noaa.gov/cdo-web/">National Oceanic and Atmospheric Administration</a>: This covers geophysical, atmospheric, and oceanic data. They are currently the world’s largest provider of climate and weather information.</p></li>
-<li><p><a href="https://developers.facebook.com/docs/graph-api">Facebook Graph API</a>: The Graph API is the primary way to get data into and out of the Facebook platform. It’s an HTTP-based API that apps can use to programmatically query data, post new stories, manage ads, upload photos, and perform a wide variety of other tasks.</p></li>
 <li><p><a href="https://developer.spotify.com/documentation/web-api/">Spotify API</a>: Discover the millions of tracks, artists, or albums on Spotify in the user’s local market or a specific Spotify market.</p></li>
 <li><p><a href="http://insideairbnb.com/get-the-data.html">Inside Airbnb</a>: Inside Airbnb offers different data sets related to Airbnb listings in dozens of cities around the world.</p></li>
-<li><p><a href="https://www.yelp.com/dataset">Yelp Open Dataset</a>: Yelp maintains a free dataset for use in personal, educational, and academic purposes. It includes 6 million reviews spanning 189,000 businesses in 10 metropolitan areas.</p></li>
-<li><p><a href="https://developer.twitter.com/en/docs">Twitter API</a>: Twitter has a good streaming API, and makes it relatively straightforward to filter and stream tweets. You can get started here. There are tons of options here — you could figure out what states are the happiest, or which countries use the most complex language. If you’d like some help getting started working with this Twitter API, check out the tutorial here.</p></li>
 </ul>
 </section>
 <section id="project-outline" class="level2">
@@ -250,33 +254,33 @@ ul.task-list li input[type="checkbox"] {
 <p>Once you have chosen your dataset you will need to conduct an analysis and create a report. This is a report, meaning anytime you have code you should be explaining what you are doing before the code and any conclusions/findings that result after the code. In other words, there should not be random plots/code without any explanation.</p>
 <ul>
 <li><p>Introduction: Should introduce your dataset, where the data came from, why it is of interest, and any other general introductory statements. Cite your data link if necessary.</p></li>
-<li><p>EDA: Here you should describe your data. How many variables are in your dataset? How many observations? Are there any missingness issues and why might that be the case? Are there any potential data issues such as impossible/weird values? You will need to create a minimum of 2 graphics to explore your data. You cannot use the two same graphs (ie: cannot do 2 scatterplots). Each graph should have wrangling code and calculations to support the graph.</p></li>
+<li><p>EDA: Here you should describe your data. How many variables are in your dataset? How many observations? Are there any missingness issues and why might that be the case? Are there any potential data issues such as impossible/weird values? You will need to create a minimum of 2 graphics to explore your data. You cannot use the two same graphs (ie: cannot do 2 scatterplots). Each graph must have wrangling code that provides appropriate summary statistics to support the graph.</p></li>
 <li><p>Regression: Choose any 2 variables to predict a numeric variable. Write out the equation to your model and interpret any coefficients.</p></li>
 <li><p>Confidence interval: Develop a confidence interval related research question. Construct you confidence interval, state your confidence level and appropriately interpret in the context of the problem.</p></li>
 <li><p>Hypothesis test: Develop a hypothesis test related research question. State your null and alternative hypothesis, specify your alpha, perform the hypothesis test, and appropriately interpret in the context of the problem.</p></li>
 <li><p>Conclusion: State any concluding remarks.</p></li>
 </ul>
-<p><strong>Note: At least one of the confidence interval or hypothesis test must be a “difference” research question (ie: difference in means or difference in proportions). The confidence interval and hypothesis test must be answering different research questions.</strong></p>
+<p><strong>Note: The confidence interval and hypothesis test must be answering different research questions. The confidence interval/hypothesis test cannot be of the same type (options: mean, proportion, difference in mean, difference in proportion, slope)</strong></p>
 </section>
 <section id="project-rubric-50-points" class="level2">
 <h2 class="anchored" data-anchor-id="project-rubric-50-points">Project rubric (50 points)</h2>
 <table class="table">
 <colgroup>
-<col style="width: 11%">
-<col style="width: 19%">
-<col style="width: 1%">
-<col style="width: 19%">
-<col style="width: 1%">
-<col style="width: 46%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 32%">
 </colgroup>
 <thead>
 <tr class="header">
 <th></th>
 <th>1</th>
+<th></th>
 <th>2</th>
+<th></th>
 <th>3</th>
-<th>4</th>
-<th>5</th>
 </tr>
 </thead>
 <tbody>
@@ -289,6 +293,14 @@ ul.task-list li input[type="checkbox"] {
 <td>Use complete sentences; minimal typos; names; headers formatted correctly; suppress warning or messages; introduction and conclusion present</td>
 </tr>
 <tr class="even">
+<td></td>
+<td><strong>0</strong></td>
+<td></td>
+<td><strong>1</strong></td>
+<td></td>
+<td><strong>2</strong></td>
+</tr>
+<tr class="odd">
 <td>EDA: Explanation</td>
 <td></td>
 <td></td>
@@ -296,16 +308,24 @@ ul.task-list li input[type="checkbox"] {
 <td></td>
 <td>Thoroughly explored your data using at a minimum the criteria in the project outline.</td>
 </tr>
+<tr class="even">
+<td></td>
+<td><strong>1</strong></td>
+<td><strong>2</strong></td>
+<td><strong>3</strong></td>
+<td><strong>4</strong></td>
+<td><strong>5</strong></td>
+</tr>
 <tr class="odd">
-<td>EDA: Exploration 1</td>
+<td>EDA: Exploration 1 (x2)</td>
 <td>Simple plot/wrangling AND improper explanation AND major error with code/data use</td>
 <td></td>
 <td>Simple plot/wrangling OR improper explanation OR major error with code/data use</td>
 <td></td>
-<td>Used a graph and appropriate data wrangling to support the graph. Proper explanation and introduction to the exploration. Sufficiently complex, you are showcasing what you learned this quarter.</td>
+<td>Used a graph and appropriate data wrangling summary statistics to support the graph. Proper explanation and introduction to the exploration. Sufficiently complex, you are showcasing what you learned this quarter.</td>
 </tr>
 <tr class="even">
-<td>EDA: Exploration 2</td>
+<td>EDA: Exploration 2 (x2)</td>
 <td></td>
 <td></td>
 <td></td>
@@ -318,10 +338,10 @@ ul.task-list li input[type="checkbox"] {
 <td></td>
 <td>Incorrect interpretation OR 2 issues</td>
 <td></td>
-<td>Stated the model goal. Used multiple regression model. Stated the model equation. Interpreted the coefficients in the context of the problem.</td>
+<td>State the model goal. Used multiple regression model. Stated the model equation. Interpreted the coefficients in the context of the problem.</td>
 </tr>
 <tr class="even">
-<td>CI (x2 pts)</td>
+<td>CI</td>
 <td></td>
 <td></td>
 <td>Incorrect interpretation OR 2 issues</td>
@@ -492,6 +512,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./course-ec.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Extra Credit</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./course-anu.html" class="pagination-link">
+        <span class="nav-page-text">Accessible NU</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
