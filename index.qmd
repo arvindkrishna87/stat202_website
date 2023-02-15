@@ -12,7 +12,7 @@ from: markdown+emoji
 
 ::: callout-important
 
-Don't forget to fill out course survey 2!!
+Don't forget to fill out [course survey 2](https://canvas.northwestern.edu/courses/183509/quizzes/195528)! It is worth 1 participation point.
 
 :::
 

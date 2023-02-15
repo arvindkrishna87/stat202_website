@@ -256,7 +256,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 9.4 - 9.7"
   },
   {
     "objectID": "index.html#participate",
@@ -270,7 +270,7 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    App for Activity 16\n\n    Activity 16 Worksheet\n\n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_16"
   },
   {
     "objectID": "index.html#homework-due-tue-jan-03-1159pm",
@@ -1481,7 +1481,7 @@
     "href": "index.html",
     "title": "Today’s Agenda",
     "section": "",
-    "text": "Important\n\n\n\nDon’t forget to fill out course survey 2!!"
+    "text": "Important\n\n\n\nDon’t forget to fill out course survey 2! It is worth 1 participation point."
   },
   {
     "objectID": "course-lectures.html",
@@ -1608,5 +1608,19 @@
     "title": "Today’s Agenda",
     "section": "Homework Due Tue Feb 14 11:59pm",
     "text": "Homework Due Tue Feb 14 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_15\n\n     Read Sections 9.4 - 9.7\n\n    Complete and submit  RC_15"
+  },
+  {
+    "objectID": "index.html#class-wed-feb-15",
+    "href": "index.html#class-wed-feb-15",
+    "title": "Today’s Agenda",
+    "section": "Class: Wed Feb 15",
+    "text": "Class: Wed Feb 15"
+  },
+  {
+    "objectID": "index.html#homework-due-thu-feb-16-1159pm",
+    "href": "index.html#homework-due-thu-feb-16-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Thu Feb 16 11:59pm",
+    "text": "Homework Due Thu Feb 16 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_16\n\n     Read Chapter 10\n\n    Complete and submit  RC_16"
   }
 ]
