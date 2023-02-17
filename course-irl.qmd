@@ -1,0 +1,11 @@
+---
+title: "Stats and Data Sci in real life"
+---
+
+## Articles
+
+text here
+
+## What student's say?
+
+graphs here

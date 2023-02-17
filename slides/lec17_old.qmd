@@ -43,7 +43,7 @@ If the population standard deviation is known, $\sigma$ (rare!) you use the norm
 
  
 
-$$\hbox{STAT} = \frac{\hbox{Estimator} - \hbox{Mean}}{\hbox{SE}}$$
+$$\hbox{STAT} = \frac{\hbox{Estimator} - mean(\hbox{Estimator})}{SE(\hbox{Estimator})}$$
 
  
 
@@ -53,11 +53,11 @@ This is the SAME formula as Chapter 9.1 only this time instead of population par
 
 A confidence interval (CI) gives a range of plausible values for a parameter. It allows us to combine an estimator with a measure of its precision (i.e. its standard error).
 
-$$CI = \hbox{Estimator} \pm \hbox{Critical  Value} * SE$$
+$$\hbox{Estimator} \pm \hbox{Critical  Value} * SE(\hbox{Estimator})$$
 
 . . .
 
--   The critical value is calculated based on the desired confidence level (ie: 95%) using the appropriate distribution for the estimator ie: qnorm() or qt().
+-   The critical value is calculated based on the desired confidence level (ie: 95%) using the appropriate distribution for the estimator.
 
 -   Sampling distribution properties are used to construct CIs for a population parameter.
 
@@ -69,35 +69,19 @@ Critical value vs STAT
 -   Critical value (CV) generally acts as a pre-defined threshold
 -   STAT (test statistic) is generally used for a value computed from sampling data.
 
+## Example
 
-## Example {.smaller}
+You are interested in the average GPA at NU. You randomly survey 100 students and calculate a sample mean of 3.15 and sample standard deviation of 0.2.
 
-You are interested in the average weight of penguins in Antarctica. Let's say we are able to obtain a random sample of penguins in Antarctica (for example purposes this **random sample** will be the `penguins` dataset from the `palmerpenguins` package.)
+Compute a 95% confidence interval for the average GPA at NU.
 
-<br>
+$$CI = \hbox{Estimator} \pm \hbox{Critical  Value} * SE(\hbox{Estimator})$$
 
-Construct a 95% confidence interval for the average weight of penguins in Antarctica.
-
-
-
-## R Code to obtain CIs from data sets {.smaller}
-
-<br>
-
-| Statistic          | R Code                                                                 |
-|--------------------|----------------------------------------------------|
-| Mean               | t.test(x = data\$variable, conf.level = 0.95)                          |
-| Proportion         | prop.test(x = #, n = #, conf.level = 0.95, correct=FALSE)              |
-| Diff in mean       | t.test(x = data1\$variable, y = data2\$variable, conf.level = 0.95)    |
-| Diff in proportion | prop.test(x = c(#, #), n = c(#, #), conf.level = 0.95, correct=FALSE ) |
-| Regression         | confint(model, level = 0.95)                                           |
-
-
-## Interpretation {.smaller}
+## Interpretation
 
 **Correct Interpretation:**
 
-We are 95% confident that the average weight of penguins in Antarctica is between ____ and ____.
+We are 95% confident that the average GPA of all students at NU (my population) is between 3.11 and 3.19.
 
 . . .
 
@@ -105,5 +89,5 @@ We are 95% confident that the average weight of penguins in Antarctica is betwee
 
 **Incorrect Interpretations**:
 
--   95% of all penguins in Antarctica weigh between 4116.5 and 4287.1 g.
--   There is a 95% chance that the average weight of penguins in Antarctica is between 4116.5 and 4287.1 g.
+-   95% of all students GPA at NU is between 3.11 and 3.19.
+-   There is a 95% chance that the average GPA of all students at NU (my population) is between 3.11 and 3.19.

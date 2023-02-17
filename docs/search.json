@@ -1257,14 +1257,14 @@
     "href": "slides/lec17.html#standardization-of-a-sampling-distribution",
     "title": "Confidence Intervals  Chapter 10  (Part 1)",
     "section": "Standardization of a sampling distribution",
-    "text": "Standardization of a sampling distribution\n \n\\[\\hbox{STAT} = \\frac{\\hbox{Estimator} - mean(\\hbox{Estimator})}{SE(\\hbox{Estimator})}\\]\n \nThis is the SAME formula as Chapter 9.1 only this time instead of population parameters we are using the sampling distribution parameters!!"
+    "text": "Standardization of a sampling distribution\n \n\\[\\hbox{STAT} = \\frac{\\hbox{Estimator} - \\hbox{Mean}}{\\hbox{SE}}\\]\n \nThis is the SAME formula as Chapter 9.1 only this time instead of population parameters we are using the sampling distribution parameters!!"
   },
   {
     "objectID": "slides/lec17.html#confidence-intervals",
     "href": "slides/lec17.html#confidence-intervals",
     "title": "Confidence Intervals  Chapter 10  (Part 1)",
     "section": "Confidence Intervals",
-    "text": "Confidence Intervals\nA confidence interval (CI) gives a range of plausible values for a parameter. It allows us to combine an estimator with a measure of its precision (i.e. its standard error).\n\\[\\hbox{Estimator} \\pm \\hbox{Critical  Value} * SE(\\hbox{Estimator})\\]\n\n\nThe critical value is calculated based on the desired confidence level (ie: 95%) using the appropriate distribution for the estimator.\nSampling distribution properties are used to construct CIs for a population parameter."
+    "text": "Confidence Intervals\nA confidence interval (CI) gives a range of plausible values for a parameter. It allows us to combine an estimator with a measure of its precision (i.e. its standard error).\n\\[CI = \\hbox{Estimator} \\pm \\hbox{Critical  Value} * SE\\]\n\n\nThe critical value is calculated based on the desired confidence level (ie: 95%) using the appropriate distribution for the estimator ie: qnorm() or qt().\nSampling distribution properties are used to construct CIs for a population parameter."
   },
   {
     "objectID": "slides/lec17.html#terminology",
@@ -1278,14 +1278,14 @@
     "href": "slides/lec17.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 1)",
     "section": "Example",
-    "text": "Example\nYou are interested in the average GPA at NU. You randomly survey 100 students and calculate a sample mean of 3.15 and sample standard deviation of 0.2.\nCompute a 95% confidence interval for the average GPA at NU.\n\\[CI = \\hbox{Estimator} \\pm \\hbox{Critical  Value} * SE(\\hbox{Estimator})\\]"
+    "text": "Example\nYou are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nCompute a 95% confidence interval for the average weight of penguins in Antarctica."
   },
   {
     "objectID": "slides/lec17.html#interpretation",
     "href": "slides/lec17.html#interpretation",
     "title": "Confidence Intervals  Chapter 10  (Part 1)",
     "section": "Interpretation",
-    "text": "Interpretation\nCorrect Interpretation:\nWe are 95% confident that the average GPA of all students at NU (my population) is between 3.11 and 3.19.\n\n\nIncorrect Interpretations:\n\n95% of all students GPA at NU is between 3.11 and 3.19.\nThere is a 95% chance that the average GPA of all students at NU (my population) is between 3.11 and 3.19."
+    "text": "Interpretation\nCorrect Interpretation:\nWe are 95% confident that the average weight of penguins in Antarctica is between ____ and ____.\n\n\nIncorrect Interpretations:\n\n95% of all penguins in Antarctica weigh between 4116.5 and 4287.1 g.\nThere is a 95% chance that the average weight of penguins in Antarctica is between 4116.5 and 4287.1 g."
   },
   {
     "objectID": "slides/lec18.html#why-do-we-need-cis",
@@ -1622,5 +1622,12 @@
     "title": "Today’s Agenda",
     "section": "Homework Due Thu Feb 16 11:59pm",
     "text": "Homework Due Thu Feb 16 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_16\n\n     Read Chapter 10\n\n    Complete and submit  RC_16"
+  },
+  {
+    "objectID": "slides/lec17.html#r-code-to-obtain-cis-from-data-sets",
+    "href": "slides/lec17.html#r-code-to-obtain-cis-from-data-sets",
+    "title": "Confidence Intervals  Chapter 10  (Part 1)",
+    "section": "R Code to obtain CIs from data sets",
+    "text": "R Code to obtain CIs from data sets\n\n\n\n\n\n\n\n\nStatistic\nR Code\n\n\n\n\nMean\nt.test(x = data$variable, conf.level = 0.95)\n\n\nProportion\nprop.test(x = #, n = #, conf.level = 0.95, correct=FALSE)\n\n\nDiff in mean\nt.test(x = data1$variable, y = data2$variable, conf.level = 0.95)\n\n\nDiff in proportion\nprop.test(x = c(#, #), n = c(#, #), conf.level = 0.95, correct=FALSE )\n\n\nRegression\nconfint(model, level = 0.95)"
   }
 ]
