@@ -438,7 +438,7 @@
     "href": "slides/lec17.html#interpretation",
     "title": "Confidence Intervals  Chapter 10  (Part 1)",
     "section": "Interpretation",
-    "text": "Interpretation\nCorrect Interpretation:\nWe are 95% confident that the average weight of penguins in Antarctica is between ____ and ____.\n\n\nIncorrect Interpretations:\n\n95% of all penguins in Antarctica weigh between 4116.5 and 4287.1 g.\nThere is a 95% chance that the average weight of penguins in Antarctica is between 4116.5 and 4287.1 g."
+    "text": "Interpretation\nCorrect Interpretation:\nWe are 95% confident that the average weight of penguins in Antarctica is between 4116.5 and 4287.1 g.\n\n\nIncorrect Interpretations:\n\n95% of all penguins in Antarctica weigh between 4116.5 and 4287.1 g.\nThere is a 95% chance that the average weight of penguins in Antarctica is between 4116.5 and 4287.1 g."
   },
   {
     "objectID": "slides/lec10.html#todays-goals",
