@@ -69,7 +69,6 @@ Critical value vs STAT
 -   Critical value (CV) generally acts as a pre-defined threshold
 -   STAT (test statistic) is generally used for a value computed from sampling data.
 
-
 ## Example {.smaller}
 
 You are interested in the average weight of penguins in Antarctica. Let's say we are able to obtain a random sample of penguins in Antarctica (for example purposes this **random sample** will be the `penguins` dataset from the `palmerpenguins` package.)
@@ -78,26 +77,23 @@ You are interested in the average weight of penguins in Antarctica. Let's say we
 
 Construct a 95% confidence interval for the average weight of penguins in Antarctica.
 
-
-
 ## R Code to obtain CIs from data sets {.smaller}
 
 <br>
 
 | Statistic          | R Code                                                                 |
-|--------------------|----------------------------------------------------|
+|-----------------|-------------------------------------------------------|
 | Mean               | t.test(x = data\$variable, conf.level = 0.95)                          |
 | Proportion         | prop.test(x = #, n = #, conf.level = 0.95, correct=FALSE)              |
 | Diff in mean       | t.test(x = data1\$variable, y = data2\$variable, conf.level = 0.95)    |
 | Diff in proportion | prop.test(x = c(#, #), n = c(#, #), conf.level = 0.95, correct=FALSE ) |
 | Regression         | confint(model, level = 0.95)                                           |
 
-
 ## Interpretation {.smaller}
 
 **Correct Interpretation:**
 
-We are 95% confident that the average weight of penguins in Antarctica is between ____ and ____.
+We are 95% confident that the average weight of penguins in Antarctica is between 4116.5 and 4287.1 g.
 
 . . .
 

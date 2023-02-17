@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>STAT 202 - Confidence Intervals  Chapter 10  (Part 2)</title>
+<title>STAT 202 - Confidence Intervals  Chapter 10  (Part 1)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -68,7 +68,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Confidence Intervals <br> Chapter 10 <br> (Part 2)</h1>
+      <h1 class="quarto-secondary-nav-title">Confidence Intervals <br> Chapter 10 <br> (Part 1)</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -164,20 +164,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#why-do-we-need-cis" id="toc-why-do-we-need-cis" class="nav-link active" data-scroll-target="#why-do-we-need-cis">Why do we need CIs?</a></li>
-  <li><a href="#check-your-understanding" id="toc-check-your-understanding" class="nav-link" data-scroll-target="#check-your-understanding">Check your understanding</a></li>
-  <li><a href="#width-of-an-interval-margin-of-error" id="toc-width-of-an-interval-margin-of-error" class="nav-link" data-scroll-target="#width-of-an-interval-margin-of-error">Width of an Interval (Margin of Error)</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#sampling-distribution-properties" id="toc-sampling-distribution-properties" class="nav-link" data-scroll-target="#sampling-distribution-properties">Sampling Distribution Properties</a></li>
+  <li><a href="#standardization-of-a-sampling-distribution" id="toc-standardization-of-a-sampling-distribution" class="nav-link" data-scroll-target="#standardization-of-a-sampling-distribution">Standardization of a sampling distribution</a></li>
+  <li><a href="#confidence-intervals" id="toc-confidence-intervals" class="nav-link" data-scroll-target="#confidence-intervals">Confidence Intervals</a></li>
+  <li><a href="#terminology" id="toc-terminology" class="nav-link" data-scroll-target="#terminology">Terminology</a></li>
   <li><a href="#example" id="toc-example" class="nav-link" data-scroll-target="#example">Example</a></li>
-  <li><a href="#r-code-to-obtain-cis-from-data-sets" id="toc-r-code-to-obtain-cis-from-data-sets" class="nav-link" data-scroll-target="#r-code-to-obtain-cis-from-data-sets">R Code to obtain CIs from data sets</a></li>
+  <li><a href="#interpretation" id="toc-interpretation" class="nav-link" data-scroll-target="#interpretation">Interpretation</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/dsass1/stat202_website/edit/main/slides/lec18.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/dsass1/stat202_website/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/dsass1/stat202_website/edit/main/slides/lec17_old.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/dsass1/stat202_website/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Confidence Intervals <br> Chapter 10 <br> (Part 2)</h1>
+<h1 class="title d-none d-lg-block">Confidence Intervals <br> Chapter 10 <br> (Part 1)</h1>
 </div>
 
 
@@ -191,140 +193,125 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="why-do-we-need-cis" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="why-do-we-need-cis">Why do we need CIs?</h2>
-<p>Reporting a range of values via a confidence interval takes into account the uncertainty (sampling variation) associated with the fact that we are observing a single random sample.</p>
-<div class="incremental">
-<ul class="incremental">
-<li>We know a sampling distribution (thousands of replicate samples) center around the population parameter.</li>
-<li>We don’t know the true value of the population parameter.</li>
-<li>We know a sampling distribution is normally distributed (CLT)</li>
-<li>We have no idea where our single sample falls in the sampling distribution (close to the population parameter or far away).</li>
-</ul>
-</div>
-<div class="incremental">
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images_lecture/sampling_dist.png" class="img-fluid"></p>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<p><img src="images_lecture/sample_CI.png" class="img-fluid"></p>
-</div>
-</div>
-</div>
-</div>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>We will collect one sample, and use the theoretical properties of the sampling distribution (ie: the mean and standard error) to make inferences about the population!</p>
 </section>
-<section id="check-your-understanding" class="level2">
-<h2 class="anchored" data-anchor-id="check-your-understanding">Check your understanding</h2>
-<div class="absolute" data-top="0%" data-left="90%" width="100">
-<p><img src="images_lecture/participate_icon.png" class="img-fluid"></p>
-</div>
-<p>When we use a <span class="math inline">\(95\%\)</span> critical value, approximately <span class="math inline">\(95\%\)</span> of the confidence intervals contain the true population parameter (e.g.&nbsp;<span class="math inline">\(\mu\)</span>, <span class="math inline">\(\mu_1 - \mu_2\)</span>, <span class="math inline">\(\pi\)</span>, etc).</p>
-<p><br></p>
-<p>Say we generate 20,000 sample means and construct a 95% CI for each sample. How many of the constructed confidence intervals do you expect to contain the true population mean?</p>
-<div class="incremental">
-<ul>
-<li>We EXPECT 20000*.95 = 19,000 of the constructed confidence intervals to contain the true population mean.</li>
-</ul>
-</div>
-</section>
-<section id="width-of-an-interval-margin-of-error" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="width-of-an-interval-margin-of-error">Width of an Interval (Margin of Error)</h2>
-<p><span class="math display">\[\mathbf{\hbox{Margin of Error}} = \hbox{Critical  Value} * SE(\hbox{Estimator})\]</span></p>
-<div class="incremental">
-<p>There is a trade-off between the width of an interval and the level of confidence (critical value).</p>
-<div class="incremental">
-<ul class="incremental">
-<li>Using a lower CI (ex: 90% vs 95%) <strong>decreases</strong> the margin of error (narrower interval), but a narrower CI increase the chance that your interval will not capture the true mean.</li>
-<li>A 99% CI has a higher chance of capturing the true mean than a 95% CI, but it might be too wide of an interval to be practically useful.</li>
-<li>You can also <strong>decrease</strong> the margin of error by <strong>increasing</strong> sample size.</li>
-</ul>
-</div>
-</div>
-</section>
-<section id="example" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="example">Example</h2>
-<div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Baseline</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Lower CI</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Larger n</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>You sample 80 newborn babies and calculate a mean weight of 7.5 pounds and standard deviation of 0.7 pounds.</p>
-<p>We want to construct a 95% confidence interval for the population mean.</p>
-<div class="incremental">
-<ul class="incremental">
-<li><p><strong>Given values</strong>: <span class="math inline">\(\bar{x} = 7.5\)</span>, <span class="math inline">\(s = 0.7\)</span></p></li>
-<li><p><strong>Calculate SE</strong>: <span class="math inline">\(SE = \frac{0.7}{\sqrt{80}} = 0.078\)</span></p></li>
-<li><p><strong>Calculate Critical Value</strong>: <code>qt(p=0.025, df=79)</code> <span class="math inline">\(= -1.99\)</span></p></li>
-<li><p><strong>Resulting CI</strong>: <span class="math inline">\(7.5 \pm 1.99*0.078 = [7.34, 7.66]\)</span></p></li>
-</ul>
-</div>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p>Construct a 90% confidence interval instead. The sample mean weight is still 7.5 pounds and sample standard deviation is 0.7 pounds and n = 80.</p>
-<div class="incremental">
-<ul class="incremental">
-<li><p><strong>Given values</strong>: <span class="math inline">\(\bar{x} = 7.5\)</span>, <span class="math inline">\(s = 0.7\)</span></p></li>
-<li><p><strong>Calculate SE</strong>: <span class="math inline">\(SE = \frac{0.7}{\sqrt{80}} = 0.078\)</span></p></li>
-<li><p><strong>Calculate Critical Value</strong>: <code>qt(p=0.05, df=79)</code> <span class="math inline">\(= -1.66\)</span></p></li>
-<li><p><strong>Resulting CI</strong>: <span class="math inline">\(7.5 \pm 1.66*0.078 = [7.37, 7.62]\)</span></p></li>
-</ul>
-</div>
-</div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<p>Increase the sample size to 200 newborn babies. The sample mean weight is still 7.5 pounds and sample standard deviation is 0.7 pounds.</p>
-<p>Construct a 95% confidence interval for the population mean.</p>
-<div class="incremental">
-<ul class="incremental">
-<li><p><strong>Given values</strong>: <span class="math inline">\(\bar{x} = 7.5\)</span>, <span class="math inline">\(s = 0.7\)</span></p></li>
-<li><p><strong>Calculate SE</strong>: <span class="math inline">\(SE = \frac{0.7}{\sqrt{200}} = 0.0495\)</span></p></li>
-<li><p><strong>Calculate Critical Value</strong>: <code>qt(p=0.025,df=199)</code> <span class="math inline">\(= -1.97\)</span></p></li>
-<li><p><strong>Resulting CI</strong>: <span class="math inline">\(7.5 \pm 1.97*0.0495 = [7.40, 7.60]\)</span></p></li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="r-code-to-obtain-cis-from-data-sets" class="level2 smaller">
-<h2 class="smaller anchored" data-anchor-id="r-code-to-obtain-cis-from-data-sets">R Code to obtain CIs from data sets</h2>
-<p><br></p>
+<section id="sampling-distribution-properties" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="sampling-distribution-properties">Sampling Distribution Properties</h2>
 <table class="table">
 <colgroup>
-<col style="width: 29%">
-<col style="width: 70%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
 </colgroup>
 <thead>
 <tr class="header">
 <th>Statistic</th>
-<th>R Code</th>
+<th>Population parameter</th>
+<th>Estimator</th>
+<th>SE of estimator</th>
+<th>Critical Value Distribution</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Mean</td>
-<td>t.test(x = data$variable, conf.level = 0.95)</td>
+<td><span class="math inline">\(\mu\)</span></td>
+<td><span class="math inline">\(\bar{x}\)</span></td>
+<td><span class="math inline">\(\frac{s}{\sqrt{n} }\)</span></td>
+<td><span class="math inline">\(t(df=n-1)\)</span></td>
 </tr>
 <tr class="even">
+<td>Difference in means</td>
+<td><span class="math inline">\(\mu_1-\mu_2\)</span></td>
+<td><span class="math inline">\(\bar{x}_1-\bar{x}_2\)</span></td>
+<td><span class="math inline">\(\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2} }\)</span></td>
+<td><span class="math inline">\(t(df = min(n_1-1, n_2-1) )\)</span></td>
+</tr>
+<tr class="odd">
 <td>Proportion</td>
-<td>prop.test(x = #, n = #, conf.level = 0.95, correct=FALSE)</td>
-</tr>
-<tr class="odd">
-<td>Diff in mean</td>
-<td>t.test(x = data1$variable, y = data2$variable, conf.level = 0.95)</td>
+<td><span class="math inline">\(\pi\)</span></td>
+<td><span class="math inline">\(\hat{\pi}\)</span></td>
+<td><span class="math inline">\(\sqrt{\frac{\hat{\pi}(1-\hat{\pi})}{n} }\)</span></td>
+<td><span class="math inline">\(N(0,1)\)</span></td>
 </tr>
 <tr class="even">
-<td>Diff in proportion</td>
-<td>prop.test(x = c(#, #), n = c(#, #), conf.level = 0.95, correct=FALSE )</td>
+<td>Difference in proportions</td>
+<td><span class="math inline">\(\pi_1-\pi_2\)</span></td>
+<td><span class="math inline">\(\hat{\pi_1}-\hat{\pi_2}\)</span></td>
+<td><span class="math inline">\(\sqrt{\frac{\hat{\pi_1}(1-\hat{\pi_1})}{n_1} + \frac{\hat{\pi_2}(1-\hat{\pi_2})}{n_2} }\)</span></td>
+<td><span class="math inline">\(N(0,1)\)</span></td>
 </tr>
 <tr class="odd">
-<td>Regression</td>
-<td>confint(model, level = 0.95)</td>
+<td>Regression intercept</td>
+<td><span class="math inline">\(\beta_0\)</span></td>
+<td><span class="math inline">\(b_0\)</span></td>
+<td><span class="math inline">\(\sqrt{ s_y^2 [\frac{1}{n} + \frac{\bar{x}^2}{(n-1) s_x^2} ] }\)</span></td>
+<td><span class="math inline">\(t(df=n-2)\)</span></td>
+</tr>
+<tr class="even">
+<td>Regression slope</td>
+<td><span class="math inline">\(\beta_1\)</span></td>
+<td><span class="math inline">\(b_1\)</span></td>
+<td><span class="math inline">\(\sqrt{\frac{s_y^2}{(n-1) s_x^2} }\)</span></td>
+<td><span class="math inline">\(t(df=n-2)\)</span></td>
 </tr>
 </tbody>
 </table>
+<div class="footer">
+<p>If the population standard deviation is known, <span class="math inline">\(\sigma\)</span> (rare!) you use the normal distribution instead of the t-distribution. (ie: use <span class="math inline">\(\sigma\)</span> instead of <span class="math inline">\(s\)</span>)</p>
+</div>
+</section>
+<section id="standardization-of-a-sampling-distribution" class="level2">
+<h2 class="anchored" data-anchor-id="standardization-of-a-sampling-distribution">Standardization of a sampling distribution</h2>
+<p>&nbsp;</p>
+<p><span class="math display">\[\hbox{STAT} = \frac{\hbox{Estimator} - mean(\hbox{Estimator})}{SE(\hbox{Estimator})}\]</span></p>
+<p>&nbsp;</p>
+<p>This is the SAME formula as Chapter 9.1 only this time instead of population parameters we are using the sampling distribution parameters!!</p>
+</section>
+<section id="confidence-intervals" class="level2">
+<h2 class="anchored" data-anchor-id="confidence-intervals">Confidence Intervals</h2>
+<p>A confidence interval (CI) gives a range of plausible values for a parameter. It allows us to combine an estimator with a measure of its precision (i.e.&nbsp;its standard error).</p>
+<p><span class="math display">\[\hbox{Estimator} \pm \hbox{Critical  Value} * SE(\hbox{Estimator})\]</span></p>
+<div class="incremental">
+<ul>
+<li><p>The critical value is calculated based on the desired confidence level (ie: 95%) using the appropriate distribution for the estimator.</p></li>
+<li><p>Sampling distribution properties are used to construct CIs for a population parameter.</p></li>
+</ul>
+</div>
+</section>
+<section id="terminology" class="level2">
+<h2 class="anchored" data-anchor-id="terminology">Terminology</h2>
+<p>Critical value vs STAT</p>
+<ul>
+<li>They both define a point on a <strong>standardized</strong> distribution.</li>
+<li>Critical value (CV) generally acts as a pre-defined threshold</li>
+<li>STAT (test statistic) is generally used for a value computed from sampling data.</li>
+</ul>
+</section>
+<section id="example" class="level2">
+<h2 class="anchored" data-anchor-id="example">Example</h2>
+<p>You are interested in the average GPA at NU. You randomly survey 100 students and calculate a sample mean of 3.15 and sample standard deviation of 0.2.</p>
+<p>Compute a 95% confidence interval for the average GPA at NU.</p>
+<p><span class="math display">\[CI = \hbox{Estimator} \pm \hbox{Critical  Value} * SE(\hbox{Estimator})\]</span></p>
+</section>
+<section id="interpretation" class="level2">
+<h2 class="anchored" data-anchor-id="interpretation">Interpretation</h2>
+<p><strong>Correct Interpretation:</strong></p>
+<p>We are 95% confident that the average GPA of all students at NU (my population) is between 3.11 and 3.19.</p>
+<div class="incremental">
+<p><br></p>
+<p><strong>Incorrect Interpretations</strong>:</p>
+<ul>
+<li>95% of all students GPA at NU is between 3.11 and 3.19.</li>
+<li>There is a 95% chance that the average GPA of all students at NU (my population) is between 3.11 and 3.19.</li>
+</ul>
 
 
+</div>
 </section>
 
 </main> <!-- /main -->
