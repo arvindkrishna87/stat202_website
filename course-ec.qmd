@@ -28,15 +28,20 @@ DISCLAIMER
 
 Students attempting or participating in an attempt to game the system will be ineligible for bonus points.
 
-
 ## EC Opportunity 2 - Sample Exams
 
 Complete any of the 3 sample exams **prior to the exam date** and upload the completed sample exam to the respective Canvas assignment. Each sample exam will count as 2 bonus points toward activities. Yes, you can get over 100% in this category.
 
 Requirements
 
-  - your name must have a check mark next to it
-  - every question must be attempted
-  - every question/exercise must be visible for me to see the answer
-  
+-   your name must have a check mark next to it
+-   every question must be attempted
+-   every question/exercise must be visible for me to see the answer
+
 If you do not complete every one of those requirements you will not get credit. This is checking that you know how to properly submit an exam. It will NOT be graded for accuracy.
+
+## EC Opportunity 3 - Stats and Data Science Articles
+
+Check out the tab "Stats and Data IRL". Statistics and data science is an interdisciplinary field that is often used in a variety of areas of study (biology, business, ecology, healthcare, psychology, sociology, etc.) At the top of the page are a few interesting articles about statistics and/or data science. Select an article to read and write a one to two paragraph response describing what you learned from the article and how statistics/data science was used.
+
+You can submit 1 response for 1 bonus point toward participation. Yes, you can get over 100% in this category.

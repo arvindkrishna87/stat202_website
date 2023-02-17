@@ -1,11 +1,395 @@
 ---
 title: "Stats and Data Sci in real life"
+editor_options: 
+  chunk_output_type: console
 ---
 
-## Articles
+## Interesting Articles
 
-text here
+- *The Age That Women Have Babies: how A Gap Divides America* Source: [New York Times Upshot](https://nyti.ms/2Obvf8RLinks); pdf version [here](documents/articles/01_nytimes_upshot.pdf).
+
+- *The Story of Moneyball Proves Importance of Both Big Data and Big Ideas* Source: [UW Data Science Team](https://datasciencedegree.wisconsin.edu/blog/moneyball-proves-importance-big-data-big-ideas/)
+
+- *Why good science is good business* Source: [significance](documents/articles/03_good_science.pdf)
+
+- *Police are using software to predict crime. Is it a 'holy grail' or biased against minorities?* Source: [Washington Post](documents/articles/04_data_policing.pdf)
+
+- *We Gave Four Good Pollsters the Same Raw Data. They Had Four Different Results.* Source: [New York Times](documents/article/05_pollster.pdf)
+
+- *Science Won’t Settle The Mammogram Debate* Source: [fivethirtyeight](documents/article/06_mammogram.pdf)
+
+- *You Can’t Trust What You Read About Nutrition* Source: [fivethirtyeight](documents/article/07_nutrition_research.pdf)
+
 
 ## What student's say?
 
-graphs here
+
+```{r}
+#| echo: false
+#| message: false
+
+library(ggplot2)
+library(dplyr)
+#library(fmsb)
+library(patchwork)
+
+survey1 <- read.csv("documents/course-survey1.csv")[,c(1, 6, 8, 10, 12, 14, 20, 22, 24)]
+
+colnames(survey1) <- c("quarter", "difficulty_content", "demands_activity", "time_spent", "lecture_slides", "website", "teaching_style", "difficulty_exam", "fairness_exam")
+
+survey1 <- survey1 %>% 
+  mutate(
+    fairness_exam = factor(fairness_exam,
+                    levels = c("1 - Very unfair (how should I know this)",
+                               "2 - unfair", 
+                               "3 - Neither fair nor unfair", 
+                               "4 - fair", 
+                               "5 - Very fair (all topics were covered)"),
+                    labels = c("1 - Very unfair", "2 - Unfair", "3", "4 - Fair", "5 - Very fair"))
+  )
+
+
+p_content <- survey1 %>% 
+  count(difficulty_content) %>% 
+  #mutate(difficulty = c("Very easy", "", "", "", "Very difficult")) %>% 
+ggplot(aes(x = difficulty_content, y = n)) +
+  geom_col(fill = "cyan3") +
+  theme_minimal() +
+  labs(x = NULL,
+       y = NULL,
+       title = "Content Difficulty") +
+  #geom_text(aes(label = difficulty), nudge_y = 3) +
+  scale_y_continuous(expand = c(0, 0)) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+p_exam <- survey1 %>% 
+  count(difficulty_exam) %>% 
+  #mutate(difficulty = c("Very easy", "", "", "", "Very difficult")) %>% 
+ggplot(aes(x = difficulty_exam, y = n)) +
+  geom_col(fill = "coral1") +
+  theme_minimal() +
+  labs(x = NULL,
+       y = NULL,
+       title = "Exam Difficulty") +
+  #geom_text(aes(label = difficulty), nudge_y = 3) +
+  scale_y_continuous(expand = c(0, 0)) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+  #mutate(difficulty = c("Very unfair", "", "", "", "Very fair")) %>% 
+p_fair <- ggplot(survey1, aes(x = fairness_exam)) +
+  geom_bar(fill = "goldenrod1") +
+  theme_minimal() +
+  labs(x = NULL,
+       y = NULL,
+       title = "Exam Fairness") +
+  scale_y_continuous(expand = c(0, 0))+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# time <- survey1 %>% 
+#   count(time_spent)
+# 
+# time_plot <- tibble(`0-1 hours` = c(max(time$n), 0 ,time$n[1]), 
+#                `1-3 hours` = c(max(time$n), 0 ,time$n[2]),
+#                `3-5 hours` = c(max(time$n), 0 ,time$n[3]),
+#                `5-7 hours` = c(max(time$n), 0 ,time$n[4]),
+#                `7+ hours` = c(max(time$n), 0 ,time$n[5]))
+# 
+# radarchart(time_plot)
+
+```
+
+
+```{r}
+#| echo: false
+#| message: false
+
+p_content + p_exam + p_fair + 
+  plot_annotation(title = "Chapters 1 - 4",
+                  theme = theme(plot.title = element_text(
+                    hjust = 0.5, size = 24, face = "bold")))
+```
+
+
+```{r}
+#| echo: false
+# Survey 2
+survey2 <- read.csv("documents/course-survey2.csv")[,c(1, 6, 8, 10, 12, 14, 16, 18, 20, 22)]
+
+colnames(survey2) <- c("quarter", "classes_missed", "exam_day", "difficulty_content", "demands_activity", "time_spent", "lecture_slides", "website", "difficulty_exam", "fairness_exam")
+
+survey2 <- survey2 %>% 
+  mutate(
+    fairness_exam = factor(fairness_exam,
+                    levels = c("1 - Very unfair (how should I know this)",
+                               "2 - unfair", 
+                               "3 - Neither fair nor unfair", 
+                               "4 - fair", 
+                               "5 - Very fair (all topics were covered)"),
+                    labels = c("1 - Very unfair", "2 - Unfair", "3", "4 - Fair", "5 - Very fair"))
+  )
+
+
+p_content2 <- survey2 %>% 
+  count(difficulty_content) %>% 
+  #mutate(difficulty = c("Very easy", "", "", "", "Very difficult")) %>% 
+ggplot(aes(x = difficulty_content, y = n)) +
+  geom_col(fill = "cyan3") +
+  theme_minimal() +
+  labs(x = NULL,
+       y = NULL,
+       title = "Content Difficulty") +
+  #geom_text(aes(label = difficulty), nudge_y = 3) +
+  scale_y_continuous(expand = c(0, 0)) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+p_exam2 <- survey2 %>% 
+  count(difficulty_exam) %>% 
+  #mutate(difficulty = c("Very easy", "", "", "", "Very difficult")) %>% 
+ggplot(aes(x = difficulty_exam, y = n)) +
+  geom_col(fill = "coral1") +
+  theme_minimal() +
+  labs(x = NULL,
+       y = NULL,
+       title = "Exam Difficulty") +
+  #geom_text(aes(label = difficulty), nudge_y = 3) +
+  scale_y_continuous(expand = c(0, 0)) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+  #mutate(difficulty = c("Very unfair", "", "", "", "Very fair")) %>% 
+p_fair2 <- survey2 %>% 
+  filter(!is.na(fairness_exam)) %>% 
+  count(fairness_exam) %>% 
+  ggplot(aes(x = fairness_exam, y = n)) +
+  geom_col(fill = "goldenrod1") +
+  theme_minimal() +
+  labs(x = NULL,
+       y = NULL,
+       title = "Exam Fairness") +
+  scale_y_continuous(expand = c(0, 0))+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+
+```{r}
+#| echo: false
+#| message: false
+
+p_content2 + p_exam2 + p_fair2 + 
+  plot_annotation(title = "Chapters 5 - 9.1",
+                  theme = theme(plot.title = element_text(
+                    hjust = 0.5, size = 24, face = "bold")))
+```
+
+
+```{r}
+#| echo: false
+# Survey 3
+survey3 <- read.csv("documents/course-survey3.csv")[,c(1, 6, 8, 10, 12, 14, 16, 18, 20, 22)]
+
+colnames(survey3) <- c("quarter", "classes_missed", "exam_day", "difficulty_content", "demands_activity", "time_spent", "lecture_slides", "website", "difficulty_exam", "fairness_exam")
+
+survey3 <- survey3 %>% 
+  filter(difficulty_content != "") %>% 
+  mutate(
+    fairness_exam = factor(fairness_exam,
+                    levels = c("1 - Very unfair (how should I know this)",
+                               "2 - unfair", 
+                               "3 - Neither fair nor unfair", 
+                               "4 - fair", 
+                               "5 - Very fair (all topics were covered)"),
+                    labels = c("1 - Very unfair", "2 - Unfair", "3", "4 - Fair", "5 - Very fair"))
+  )
+
+
+p_content3 <- survey3 %>% 
+  filter(!is.na(difficulty_content)) %>% 
+  count(difficulty_content) %>%  
+ggplot(aes(x = difficulty_content, y = n)) +
+  geom_col(fill = "cyan3") +
+  theme_minimal() +
+  labs(x = NULL,
+       y = NULL,
+       title = "Content Difficulty") +
+  scale_y_continuous(expand = c(0, 0)) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+p_exam3 <- survey3 %>% 
+  filter(!is.na(difficulty_exam)) %>% 
+  count(difficulty_exam) %>%  
+ggplot(aes(x = difficulty_exam, y = n)) +
+  geom_col(fill = "coral1") +
+  theme_minimal() +
+  labs(x = NULL,
+       y = NULL,
+       title = "Exam Difficulty") +
+  scale_y_continuous(expand = c(0, 0)) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+p_fair3 <- survey3 %>% 
+  filter(!is.na(fairness_exam)) %>% 
+  count(fairness_exam) %>% 
+  ggplot(aes(x = fairness_exam, y = n)) +
+  geom_col(fill = "goldenrod1") +
+  theme_minimal() +
+  labs(x = NULL,
+       y = NULL,
+       title = "Exam Fairness") +
+  scale_y_continuous(expand = c(0, 0))+
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+
+```{r}
+#| echo: false
+#| message: false
+
+p_content3 + p_exam3 + p_fair3 + 
+  plot_annotation(title = "Chapters 9.2 - 12",
+                  theme = theme(plot.title = element_text(
+                    hjust = 0.5, size = 24, face = "bold")))
+```
+
+
+```{r}
+#| echo: false
+#| message: false
+
+# Exam day wrangling
+tmp <- survey2 %>% 
+  select(exam_day) %>% 
+  count(exam_day) %>% 
+  mutate(prop = n/sum(n),
+         exam_day = factor(exam_day,
+                           levels = c("Friday", "Wednesday", "Monday")),
+         y = rep("exam", 3),
+         label = paste0(exam_day,"\n",scales::percent(prop))) %>% 
+  arrange(exam_day)
+
+
+pos1 <- tmp[tmp$exam_day == "Monday",]$prop/2
+pos2 <- tmp[tmp$exam_day == "Monday",]$prop + tmp[tmp$exam_day == "Wednesday",]$prop/2
+pos3 <- 1 - tmp[tmp$exam_day == "Friday",]$prop/2
+
+tmp$pos <- c(pos3, pos2, pos1)
+  
+p_exam_day <- ggplot(tmp, aes(x = prop, y = y, fill = exam_day)) +
+  geom_col(position = "fill", width = 0.3) +
+  scale_fill_manual(NULL,
+                    values = c("cyan3","coral1", "goldenrod1")) +
+  theme_void() +
+  labs(x = NULL,
+       y = NULL,
+       title = "Preferred Exam Day") +
+  geom_text(aes(x = pos, label = label)) +
+  theme(legend.position = "none",
+        plot.title = element_text(hjust = 0.5))
+
+# Website
+tmp2 <- survey2 %>% 
+  select(website) %>% 
+  count(website) %>% 
+  mutate(prop = n/sum(n),
+         website = factor(website,
+                           levels = c("Don't care either way",
+                                      "Hate it - go back to Canvas",
+                                      "Love it - organized and easy to use"),
+                          labels = c("Don't care", "Hate it", "Love it")),
+         y = rep("y", 3),
+         label = paste0(website,"\n",scales::percent(prop))) %>% 
+  arrange(website)
+
+
+pos1 <- tmp2[tmp2$website == "Love it",]$prop/2
+pos2 <- tmp2[tmp2$website == "Love it",]$prop + tmp2[tmp2$website == "Hate it",]$prop/2
+pos3 <- 1 - tmp2[tmp2$website == "Don't care",]$prop/2
+
+tmp2$pos <- c(pos3, pos2, pos1)
+p_website <- ggplot(tmp2, aes(x = prop, y = y, fill = website)) +
+  geom_col(position = "fill", width = 0.3) +
+  scale_fill_manual(NULL,
+                    values = c("cyan3","coral1", "goldenrod1")) +
+  theme_void() +
+  labs(x = NULL,
+       y = NULL,
+       title = "Thoughts on Website") +
+  geom_text(aes(x = pos, label = label)) +
+  theme(legend.position = "none",
+        plot.title = element_text(hjust = 0.5))
+
+##########################################################
+# teaching style
+tmp <- survey1 %>% 
+  select(teaching_style) %>% 
+  count(teaching_style) %>% 
+  mutate(prop = n/sum(n),
+         teaching_style = factor(teaching_style,
+                           levels = c("Doesn't matter to me.",
+                                      "Would prefer full lecture (completely on your own for activity outside of class)",
+                                      "I enjoy class as is (Lecture, activity, some solutions)", 
+                                      "Would prefer fully flipped! (Watch lecture videos outside of class and spend entire time working on activity.)"),
+                           labels = c("Don't care",
+                                      "Lecture only",
+                                      "Blended",
+                                      "Fully flipped")),
+         y = rep("y", 4),
+         label = paste0(teaching_style,"\n",scales::percent(prop))) %>% 
+  arrange(teaching_style)
+
+tmp$label[1] <- ""
+
+pos1 <- tmp[tmp$teaching_style == "Fully flipped",]$prop/2
+pos2 <- tmp[tmp$teaching_style == "Fully flipped",]$prop + tmp[tmp$teaching_style == "Blended",]$prop/2
+pos3 <- tmp[tmp$teaching_style == "Fully flipped",]$prop + tmp[tmp$teaching_style == "Blended",]$prop + tmp[tmp$teaching_style == "Lecture only",]$prop/2
+pos4 <- 1 - tmp[tmp$teaching_style == "Don't care",]$prop/2
+
+tmp$pos <- c(pos4, pos3, pos2, pos1)
+  
+p_style <- ggplot(tmp, aes(x = prop, y = y, fill = teaching_style)) +
+  geom_col(position = "fill", width = 0.3) +
+  scale_fill_manual(NULL,
+                    values = c("gray", "cyan3","coral1", "goldenrod1")) +
+  theme_void() +
+  labs(x = NULL,
+       y = NULL,
+       title = "Preferred Teaching Style") +
+  geom_text(aes(x = pos, label = label)) +
+  theme(legend.position = "none",
+        plot.title = element_text(hjust = 0.5))
+
+
+p_exam_day/ p_website/ p_style + 
+  plot_annotation(title = "Course Structure",
+                  theme = theme(plot.title = element_text(
+                    hjust = 0.5, size = 24, face = "bold")))
+```
+<br>
+
+```{r}
+#| echo: false
+
+ggplot() +
+  theme_void() +
+  labs(title = "Student comments taken completely out of context") +
+  theme(plot.title = element_text(
+                    hjust = 0.5, size = 14, face = "bold")) +
+  scale_y_continuous(limits = c(0, 10)) +
+  scale_x_continuous(limits = c(0, 10)) +
+  annotate("text", x = 2, y = 8,
+           label = "...surprisingly fun...",
+           color = "steelblue", angle = 20, size = 7) +
+  annotate("text", x = 3.5, y = 5.5,
+           label = "...Prof. Sass is the best...",
+           color = "darkorchid4", angle = 0, size = 5) +
+  annotate("text", x = 6, y = 4,
+           label = "...not as bad as I thought it would be...",
+            color = "darkseagreen3", angle = 10, size = 6) +
+  annotate("text", x = 3, y = 2,
+           label = "...Campuswire saved my life...",
+            color = "orange2", angle = -20, size = 5) +
+  annotate("text", x = 8, y = 7,
+           label = "...go to class...",
+            color = "indianred", angle = -15, size = 7)
+```
+
