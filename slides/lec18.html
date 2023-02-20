@@ -27,6 +27,70 @@
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css" id="theme">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
@@ -386,84 +450,128 @@
 </section>
 <section id="example" class="slide level2 smaller">
 <h2>Example</h2>
+<p>Let’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this <strong>random sample</strong> will be the <code>penguins</code> dataset from the <code>palmerpenguins</code> package.)</p>
 <div class="panel-tabset">
-<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Baseline</a></li><li><a href="#tabset-1-2">Lower CI</a></li><li><a href="#tabset-1-3">Larger n</a></li></ul>
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Baseline</a></li><li><a href="#tabset-1-2">Lower CI</a></li><li><a href="#tabset-1-3">Smaller n</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1">
-<p>You sample 80 newborn babies and calculate a mean weight of 7.5 pounds and standard deviation of 0.7 pounds.</p>
-<p>We want to construct a 95% confidence interval for the population mean.</p>
-<div>
-<ul>
-<li class="fragment"><p><strong>Given values</strong>: <span class="math inline">\(\bar{x} = 7.5\)</span>, <span class="math inline">\(s = 0.7\)</span></p></li>
-<li class="fragment"><p><strong>Calculate SE</strong>: <span class="math inline">\(SE = \frac{0.7}{\sqrt{80}} = 0.078\)</span></p></li>
-<li class="fragment"><p><strong>Calculate Critical Value</strong>: <code>qt(p=0.025, df=79)</code> <span class="math inline">\(= -1.99\)</span></p></li>
-<li class="fragment"><p><strong>Resulting CI</strong>: <span class="math inline">\(7.5 \pm 1.99*0.078 = [7.34, 7.66]\)</span></p></li>
-</ul>
+<p>Construct a 95% confidence interval for the population mean.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(penguins<span class="sc">$</span>body_mass_g, <span class="at">conf.level =</span> <span class="fl">0.95</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    One Sample t-test
+
+data:  penguins$body_mass_g
+t = 96.893, df = 341, p-value &lt; 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 4116.458 4287.050
+sample estimates:
+mean of x 
+ 4201.754 </code></pre>
+</div>
 </div>
 </div>
 <div id="tabset-1-2">
-<p>Construct a 90% confidence interval instead. The sample mean weight is still 7.5 pounds and sample standard deviation is 0.7 pounds and n = 80.</p>
-<div>
-<ul>
-<li class="fragment"><p><strong>Given values</strong>: <span class="math inline">\(\bar{x} = 7.5\)</span>, <span class="math inline">\(s = 0.7\)</span></p></li>
-<li class="fragment"><p><strong>Calculate SE</strong>: <span class="math inline">\(SE = \frac{0.7}{\sqrt{80}} = 0.078\)</span></p></li>
-<li class="fragment"><p><strong>Calculate Critical Value</strong>: <code>qt(p=0.05, df=79)</code> <span class="math inline">\(= -1.66\)</span></p></li>
-<li class="fragment"><p><strong>Resulting CI</strong>: <span class="math inline">\(7.5 \pm 1.66*0.078 = [7.37, 7.62]\)</span></p></li>
-</ul>
+<p>Construct a 90% confidence interval instead.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(penguins<span class="sc">$</span>body_mass_g, <span class="at">conf.level =</span> <span class="fl">0.90</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    One Sample t-test
+
+data:  penguins$body_mass_g
+t = 96.893, df = 341, p-value &lt; 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+90 percent confidence interval:
+ 4130.231 4273.277
+sample estimates:
+mean of x 
+ 4201.754 </code></pre>
+</div>
 </div>
 </div>
 <div id="tabset-1-3">
-<p>Increase the sample size to 200 newborn babies. The sample mean weight is still 7.5 pounds and sample standard deviation is 0.7 pounds.</p>
-<p>Construct a 95% confidence interval for the population mean.</p>
-<div>
-<ul>
-<li class="fragment"><p><strong>Given values</strong>: <span class="math inline">\(\bar{x} = 7.5\)</span>, <span class="math inline">\(s = 0.7\)</span></p></li>
-<li class="fragment"><p><strong>Calculate SE</strong>: <span class="math inline">\(SE = \frac{0.7}{\sqrt{200}} = 0.0495\)</span></p></li>
-<li class="fragment"><p><strong>Calculate Critical Value</strong>: <code>qt(p=0.025,df=199)</code> <span class="math inline">\(= -1.97\)</span></p></li>
-<li class="fragment"><p><strong>Resulting CI</strong>: <span class="math inline">\(7.5 \pm 1.97*0.0495 = [7.40, 7.60]\)</span></p></li>
-</ul>
+<p>What if we only had a sample size of 50? Construct a 95% confidence interval.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>penguins_sample <span class="ot">&lt;-</span> penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">sample_n</span>(<span class="at">size =</span> <span class="dv">50</span>)</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(penguins_sample<span class="sc">$</span>body_mass_g, <span class="at">conf.level =</span> <span class="fl">0.95</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    One Sample t-test
+
+data:  penguins_sample$body_mass_g
+t = 34.112, df = 49, p-value &lt; 2.2e-16
+alternative hypothesis: true mean is not equal to 0
+95 percent confidence interval:
+ 3936.575 4429.425
+sample estimates:
+mean of x 
+     4183 </code></pre>
+</div>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="r-code-to-obtain-cis-from-data-sets" class="slide level2 smaller">
-<h2>R Code to obtain CIs from data sets</h2>
-<p><br></p>
-<table>
-<colgroup>
-<col style="width: 29%">
-<col style="width: 70%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Statistic</th>
-<th>R Code</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Mean</td>
-<td>t.test(x = data$variable, conf.level = 0.95)</td>
-</tr>
-<tr class="even">
-<td>Proportion</td>
-<td>prop.test(x = #, n = #, conf.level = 0.95, correct=FALSE)</td>
-</tr>
-<tr class="odd">
-<td>Diff in mean</td>
-<td>t.test(x = data1$variable, y = data2$variable, conf.level = 0.95)</td>
-</tr>
-<tr class="even">
-<td>Diff in proportion</td>
-<td>prop.test(x = c(#, #), n = c(#, #), conf.level = 0.95, correct=FALSE )</td>
-</tr>
-<tr class="odd">
-<td>Regression</td>
-<td>confint(model, level = 0.95)</td>
-</tr>
-</tbody>
-</table>
+<section id="extra-practice" class="slide level2 smaller">
+<h2>Extra practice</h2>
+<p>We are interested in making inferences about penguins that live near Palmer Station, Antarctica. We will use the <code>penguins</code> data from the <code>palmerpenguins</code> package as our “random” sample.</p>
+<ol type="1">
+<li><p>Construct a 90% CI for the difference in average flipper length between the Adelie penguins and the Gentoo.</p></li>
+<li><p>Construct a 97% CI for the proportion of penguins that are of the Gentoo species.</p></li>
+<li><p>Construct a 99% CI for the difference in the proportion of female penguins of the Adelie or Chinstrap species that weight over 4000 g and the proportion of male penguins of the Adelie or Chinstrap that weigh over 4000 g</p></li>
+<li><p>Run a simple linear regression to predict <code>body_mass_g</code> based on <code>flipper_length_mm</code>. What is the 97% confidence interval for the slope?</p></li>
+</ol>
+</section>
+<section id="solutions" class="slide level2 smaller">
+<h2>Solutions</h2>
+<div class="panel-tabset">
+<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">1</a></li><li><a href="#tabset-2-2">2</a></li><li><a href="#tabset-2-3">3</a></li><li><a href="#tabset-2-4">4</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1">
+<p>Construct a 90% CI for the difference in average flipper length between the Adelie penguins and the Gentoo penguins.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>penguins_adelie <span class="ot">&lt;-</span> penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(species <span class="sc">==</span> <span class="st">"Adelie"</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>penguins_gentoo <span class="ot">&lt;-</span> penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(species <span class="sc">==</span> <span class="st">"Gentoo"</span>)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="fu">t.test</span>(<span class="at">x =</span> penguins_adelie<span class="sc">$</span>flipper_length_mm, </span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> penguins_gentoo<span class="sc">$</span>flipper_length_mm,</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>       <span class="at">conf.level =</span> <span class="fl">0.9</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Welch Two Sample t-test
+
+data:  penguins_adelie$flipper_length_mm and penguins_gentoo$flipper_length_mm
+t = -34.445, df = 261.75, p-value &lt; 2.2e-16
+alternative hypothesis: true difference in means is not equal to 0
+90 percent confidence interval:
+ -28.53846 -25.92824
+sample estimates:
+mean of x mean of y 
+ 189.9536  217.1870 </code></pre>
+</div>
+</div>
+<p>We are 90% confident that the difference in average flipper length of the Adelie species and Gentoo species of penguins in Palmer Station, Antarctica is between -28.54 and -25.93 mm.</p>
+<p>(This means we are 90% confident the Adelie species flippers are between 25.93 and 28.54 mm shorter than the Gentoo species for penguins in Palmer Station, Antarctica.)</p>
+</div>
+<div id="tabset-2-2">
+<p><strong>TO BE UPDATED</strong></p>
+</div>
+<div id="tabset-2-3">
+<p><strong>TO BE UPDATED</strong></p>
+</div>
+<div id="tabset-2-4">
+<p><strong>TO BE UPDATED</strong></p>
+</div>
+</div>
+</div>
 
 
 <img src="nu_logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
@@ -683,6 +791,44 @@
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
