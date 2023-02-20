@@ -20,6 +20,14 @@ execute:
   echo: true
 ---
 
+```{r}
+#| include: false
+
+library(dplyr)
+library(palmerpenguins)
+```
+
+
 ## Why do we need CIs? {.smaller}
 
 Reporting a range of values via a confidence interval takes into account the uncertainty (sampling variation) associated with the fact that we are observing a single random sample.
@@ -71,62 +79,85 @@ There is a trade-off between the width of an interval and the level of confidenc
 
 ## Example {.smaller}
 
+Let's consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let's say we are able to obtain a random sample of penguins in Antarctica (for example purposes this **random sample** will be the `penguins` dataset from the `palmerpenguins` package.)
+
 ::: panel-tabset
 ## Baseline
 
-You sample 80 newborn babies and calculate a mean weight of 7.5 pounds and standard deviation of 0.7 pounds.
+Construct a 95% confidence interval for the population mean.
 
-We want to construct a 95% confidence interval for the population mean.
 
-::: incremental
--   **Given values**: $\bar{x} = 7.5$, $s = 0.7$
+```{r}
+t.test(penguins$body_mass_g, conf.level = 0.95)
+```
 
--   **Calculate SE**: $SE = \frac{0.7}{\sqrt{80}} = 0.078$
-
--   **Calculate Critical Value**: `qt(p=0.025, df=79)` $= -1.99$
-
--   **Resulting CI**: $7.5 \pm 1.99*0.078 = [7.34, 7.66]$
-:::
 
 ## Lower CI
 
-Construct a 90% confidence interval instead. The sample mean weight is still 7.5 pounds and sample standard deviation is 0.7 pounds and n = 80.
+Construct a 90% confidence interval instead.
 
-::: incremental
--   **Given values**: $\bar{x} = 7.5$, $s = 0.7$
+```{r}
+t.test(penguins$body_mass_g, conf.level = 0.90)
+```
 
--   **Calculate SE**: $SE = \frac{0.7}{\sqrt{80}} = 0.078$
+## Smaller n
 
--   **Calculate Critical Value**: `qt(p=0.05, df=79)` $= -1.66$
+What if we only had a sample size of 50? Construct a 95% confidence interval.
 
--   **Resulting CI**: $7.5 \pm 1.66*0.078 = [7.37, 7.62]$
+```{r}
+penguins_sample <- penguins %>% 
+  sample_n(size = 50)
+
+t.test(penguins_sample$body_mass_g, conf.level = 0.95)
+```
+
 :::
 
-## Larger n
+## Extra practice {.smaller}
 
-Increase the sample size to 200 newborn babies. The sample mean weight is still 7.5 pounds and sample standard deviation is 0.7 pounds.
+We are interested in making inferences about penguins that live near Palmer Station, Antarctica. We will use the `penguins` data from the `palmerpenguins` package as our "random" sample. 
 
-Construct a 95% confidence interval for the population mean.
+1. Construct a 90% CI for the difference in average flipper length between the Adelie penguins and the Gentoo.
 
-::: incremental
--   **Given values**: $\bar{x} = 7.5$, $s = 0.7$
+2. Construct a 97% CI for the proportion of penguins that are of the Gentoo species.
 
--   **Calculate SE**: $SE = \frac{0.7}{\sqrt{200}} = 0.0495$
+3. Construct a 99% CI for the difference in the proportion of female penguins of the Adelie or Chinstrap species that weight over 4000 g and the proportion of male penguins of the Adelie or Chinstrap that weigh over 4000 g
 
--   **Calculate Critical Value**: `qt(p=0.025,df=199)` $= -1.97$
+4. Run a simple linear regression to predict `body_mass_g` based on `flipper_length_mm`. What is the 97% confidence interval for the slope?
 
--   **Resulting CI**: $7.5 \pm 1.97*0.0495 = [7.40, 7.60]$
+## Solutions {.smaller}
+
+::: panel-tabset
+## 1
+
+Construct a 90% CI for the difference in average flipper length between the Adelie penguins and the Gentoo penguins.
+
+```{r}
+penguins_adelie <- penguins %>% 
+  filter(species == "Adelie")
+
+penguins_gentoo <- penguins %>% 
+  filter(species == "Gentoo")
+
+t.test(x = penguins_adelie$flipper_length_mm, 
+       y = penguins_gentoo$flipper_length_mm,
+       conf.level = 0.9)
+```
+We are 90% confident that the difference in average flipper length of the Adelie species and Gentoo species of penguins in Palmer Station, Antarctica is between -28.54 and -25.93 mm.
+
+(This means we are 90% confident the Adelie species flippers are between 25.93 and 28.54 mm shorter than the Gentoo species for penguins in Palmer Station, Antarctica.)
+
+## 2
+
+**TO BE UPDATED**
+
+## 3
+
+**TO BE UPDATED**
+
+## 4
+
+**TO BE UPDATED**
+
+
 :::
-:::
-
-## R Code to obtain CIs from data sets {.smaller}
-
-<br>
-
-| Statistic          | R Code                                                                 |
-|---------------------|---------------------------------------------------|
-| Mean               | t.test(x = data\$variable, conf.level = 0.95)                          |
-| Proportion         | prop.test(x = #, n = #, conf.level = 0.95, correct=FALSE)              |
-| Diff in mean       | t.test(x = data1\$variable, y = data2\$variable, conf.level = 0.95)    |
-| Diff in proportion | prop.test(x = c(#, #), n = c(#, #), conf.level = 0.95, correct=FALSE ) |
-| Regression         | confint(model, level = 0.95)                                           |

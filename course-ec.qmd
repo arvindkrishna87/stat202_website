@@ -38,7 +38,8 @@ Requirements
 -   every question must be attempted
 -   every question/exercise must be visible for me to see the answer
 
-If you do not complete every one of those requirements you will not get credit. This is checking that you know how to properly submit an exam. It will NOT be graded for accuracy.
+**If you do not complete every one of those requirements you will not get credit.** This is checking that you know how to properly submit an exam. It will NOT be graded for accuracy. 
+
 
 ## EC Opportunity 3 - Stats and Data Science Articles
 
