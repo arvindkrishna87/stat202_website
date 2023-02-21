@@ -60,7 +60,7 @@
     "href": "index.html",
     "title": "Today’s Agenda",
     "section": "",
-    "text": "Important\n\n\n\nDon’t forget to fill out course survey 2! It is worth 1 participation point.\nNew website tab - “Stats and Data IRL” see EC Opportunity 3 for info."
+    "text": "Important\n\n\n\nNew website tab - “Stats and Data IRL” see EC Opportunity 3 for info."
   },
   {
     "objectID": "index.html#class-mon-feb-20",
@@ -382,7 +382,7 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample <- penguins %>% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 34.112, df = 49, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3936.575 4429.425\nsample estimates:\nmean of x \n     4183"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample <- penguins %>% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 36.792, df = 48, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4021.117 4486.026\nsample estimates:\nmean of x \n 4253.571"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
@@ -742,11 +742,18 @@
     "text": "R Code to obtain p-value\n\n\n\n\n\n\n\nStatistic\nR Code\n\n\n\n\nMean\nt.test(x = data$variable, mu = \\(\\mu_0\\))\n\n\nProportion\nprop.test(x = #, n = #, p= \\(\\pi_0\\), correct=FALSE)\n\n\nRegression slope\nlm() summary\n\n\nDiff in mean\nt.test(x = data1$variable, y = data2$variable)\n\n\nDiff in proportion\nprop.test(x = c(#, #), n = c(#, #), correct=FALSE )\n\n\n\n\nNote: can still specify conf.level as well but not essential to obtaining p-value."
   },
   {
-    "objectID": "slides/lec19.html#example",
-    "href": "slides/lec19.html#example",
+    "objectID": "slides/lec19.html#example-1",
+    "href": "slides/lec19.html#example-1",
     "title": "P-values  Chapter 11",
-    "section": "Example",
-    "text": "Example\nToyota claims their fuel efficiency is superior and if you buy one of their cars your average weekly gas spending will be less than $40. You randomly survey 40 people with a Toyota to obtain the amount of money spent on gas weekly. The results are saved in data/gas_spending.csv."
+    "section": "Example 1",
+    "text": "Example 1\nYou heard a zoologist claim the average weight of penguins is 4250 g.\nYou want to test this claim so you collect a random sample of penguins and measure their weight, stored in the penguins dataset from the palmerpenguins package.\n\n\n\n\n\\(H_0:\\)\n\\(H_A:\\)\n\nt.test(x = penguins$body_mass_g, mu = 4250)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = -1.1126, df = 341, p-value = 0.2667\nalternative hypothesis: true mean is not equal to 4250\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754"
+  },
+  {
+    "objectID": "slides/lec19.html#example-2",
+    "href": "slides/lec19.html#example-2",
+    "title": "P-values  Chapter 11",
+    "section": "Example 2",
+    "text": "Example 2\nYou think that 33% of penguins belong to the Adelie species.\nYou want to test this claim so you collect a random sample of penguins and count how many are of the Adelie species, stored in the penguins dataset from the palmerpenguins package.\n\n\n\n\n\\(H_0:\\)\n\\(H_A:\\)\n\npenguins %>% \n  count(species)\n\n# A tibble: 3 × 2\n  species       n\n  <fct>     <int>\n1 Adelie      152\n2 Chinstrap    68\n3 Gentoo      124\n\nprop.test(x = 153, n = 344, p = 0.33)\n\n\n    1-sample proportions test with continuity correction\n\ndata:  153 out of 344, null probability 0.33\nX-squared = 19.977, df = 1, p-value = 7.837e-06\nalternative hypothesis: true p is not equal to 0.33\n95 percent confidence interval:\n 0.3917305 0.4990579\nsample estimates:\n        p \n0.4447674"
   },
   {
     "objectID": "slides/lec09.html#todays-goals",
