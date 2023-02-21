@@ -1615,5 +1615,19 @@
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Solutions",
     "text": "Solutions\n\n1234\n\n\nConstruct a 90% CI for the difference in average flipper length between the Adelie penguins and the Gentoo penguins.\n\npenguins_adelie <- penguins %>% \n  filter(species == \"Adelie\")\n\npenguins_gentoo <- penguins %>% \n  filter(species == \"Gentoo\")\n\nt.test(x = penguins_adelie$flipper_length_mm, \n       y = penguins_gentoo$flipper_length_mm,\n       conf.level = 0.9)\n\n\n    Welch Two Sample t-test\n\ndata:  penguins_adelie$flipper_length_mm and penguins_gentoo$flipper_length_mm\nt = -34.445, df = 261.75, p-value < 2.2e-16\nalternative hypothesis: true difference in means is not equal to 0\n90 percent confidence interval:\n -28.53846 -25.92824\nsample estimates:\nmean of x mean of y \n 189.9536  217.1870 \n\n\nWe are 90% confident that the difference in average flipper length of the Adelie species and Gentoo species of penguins in Palmer Station, Antarctica is between -28.54 and -25.93 mm.\n(This means we are 90% confident the Adelie species flippers are between 25.93 and 28.54 mm shorter than the Gentoo species for penguins in Palmer Station, Antarctica.)\n\n\nTO BE UPDATED\n\n\nTO BE UPDATED\n\n\nTO BE UPDATED"
+  },
+  {
+    "objectID": "slides/lec19.html#example-1",
+    "href": "slides/lec19.html#example-1",
+    "title": "P-values  Chapter 11",
+    "section": "Example 1",
+    "text": "Example 1\nYou heard a zoologist claim the average weight of penguins is 4250 g.\nYou want to test this claim so you collect a random sample of penguins and measure their weight, stored in the penguins dataset from the palmerpenguins package.\n\n\n\n\n\\(H_0:\\)\n\\(H_A:\\)\n\nt.test(x = penguins$body_mass_g, mu = 4250)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = -1.1126, df = 341, p-value = 0.2667\nalternative hypothesis: true mean is not equal to 4250\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754"
+  },
+  {
+    "objectID": "slides/lec19.html#example-2",
+    "href": "slides/lec19.html#example-2",
+    "title": "P-values  Chapter 11",
+    "section": "Example 2",
+    "text": "Example 2\nYou think that 33% of penguins belong to the Adelie species.\nYou want to test this claim so you collect a random sample of penguins and count how many are of the Adelie species, stored in the penguins dataset from the palmerpenguins package.\n\n\n\n\n\\(H_0:\\)\n\\(H_A:\\)\n\npenguins %>% \n  count(species)\n\n# A tibble: 3 × 2\n  species       n\n  <fct>     <int>\n1 Adelie      152\n2 Chinstrap    68\n3 Gentoo      124\n\nprop.test(x = 153, n = 344, p = 0.33)\n\n\n    1-sample proportions test with continuity correction\n\ndata:  153 out of 344, null probability 0.33\nX-squared = 19.977, df = 1, p-value = 7.837e-06\nalternative hypothesis: true p is not equal to 0.33\n95 percent confidence interval:\n 0.3917305 0.4990579\nsample estimates:\n        p \n0.4447674"
   }
 ]
