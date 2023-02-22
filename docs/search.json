@@ -277,7 +277,7 @@
     "href": "index.html",
     "title": "Today’s Agenda",
     "section": "",
-    "text": "Important\n\n\n\nDon’t forget to fill out course survey 2! It is worth 1 participation point.\nNew website tab - “Stats and Data IRL” see EC Opportunity 3 for info."
+    "text": "Important\n\n\n\nNew website tab - “Stats and Data IRL” see EC Opportunity 3 for info."
   },
   {
     "objectID": "index.html#class-fri-feb-17",
@@ -291,7 +291,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Chapter 10"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Chapter 11"
   },
   {
     "objectID": "index.html#participate",
@@ -305,7 +305,7 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_17"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_18"
   },
   {
     "objectID": "index.html#homework-due-sun-feb-19-1159pm",
@@ -1629,5 +1629,26 @@
     "title": "P-values  Chapter 11",
     "section": "Example 2",
     "text": "Example 2\nYou think that 33% of penguins belong to the Adelie species.\nYou want to test this claim so you collect a random sample of penguins and count how many are of the Adelie species, stored in the penguins dataset from the palmerpenguins package.\n\n\n\n\n\\(H_0:\\)\n\\(H_A:\\)\n\npenguins %>% \n  count(species)\n\n# A tibble: 3 × 2\n  species       n\n  <fct>     <int>\n1 Adelie      152\n2 Chinstrap    68\n3 Gentoo      124\n\nprop.test(x = 153, n = 344, p = 0.33)\n\n\n    1-sample proportions test with continuity correction\n\ndata:  153 out of 344, null probability 0.33\nX-squared = 19.977, df = 1, p-value = 7.837e-06\nalternative hypothesis: true p is not equal to 0.33\n95 percent confidence interval:\n 0.3917305 0.4990579\nsample estimates:\n        p \n0.4447674"
+  },
+  {
+    "objectID": "index.html#class-wed-feb-22",
+    "href": "index.html#class-wed-feb-22",
+    "title": "Today’s Agenda",
+    "section": "Class: Wed Feb 22",
+    "text": "Class: Wed Feb 22"
+  },
+  {
+    "objectID": "index.html#homework-due-thu-feb-23-1159pm",
+    "href": "index.html#homework-due-thu-feb-23-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Thu Feb 23 11:59pm",
+    "text": "Homework Due Thu Feb 23 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_18\n\n     Read Chapter 12\n\n    Complete and submit  RC_18"
+  },
+  {
+    "objectID": "slides/lec13.html",
+    "href": "slides/lec13.html",
+    "title": "Populations and Generalizability  Chapter 8",
+    "section": "",
+    "text": "Definitions\n\n\nPopulation: collection of individuals (units) in which we are interested\nSample: collection of individuals (units) from the population\n\n\n\nGoal\nUse trends in a sample to make inference about a population."
   }
 ]
