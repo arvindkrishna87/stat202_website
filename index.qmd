@@ -11,7 +11,9 @@ from: markdown+emoji
 ---
 
 ::: callout-important
-New website tab - "Stats and Data IRL" see EC Opportunity 3 for info.
+Campuswire "points" will close after Exam 3, you can still use Campuswire but it will no longer benefit your "reputation" after.
+
+Note: Our assigned final exam period is at a terribly inconvenient day (Monday). If your final project is submitted by Friday March 10th 11:59pm, I will have it graded on Saturday so you can make an informed decision on if you want to retake an exam. If your final project is submitted over the weekend (due date 3/12), it will NOT be graded prior to the exam.
 :::
 
 ```{r}
