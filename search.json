@@ -63,18 +63,18 @@
     "text": "Important\n\n\n\nNew website tab - “Stats and Data IRL” see EC Opportunity 3 for info."
   },
   {
-    "objectID": "index.html#class-fri-feb-24",
-    "href": "index.html#class-fri-feb-24",
+    "objectID": "index.html#class-mon-feb-27",
+    "href": "index.html#class-mon-feb-27",
     "title": "Today’s Agenda",
-    "section": "Class: Fri Feb 24",
-    "text": "Class: Fri Feb 24"
+    "section": "Class: Mon Feb 27",
+    "text": "Class: Mon Feb 27"
   },
   {
     "objectID": "index.html#prepare",
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Chapter 12"
+    "text": "Prepare"
   },
   {
     "objectID": "index.html#participate",
@@ -88,14 +88,14 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_19"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_20"
   },
   {
-    "objectID": "index.html#homework-due-sun-feb-26-1159pm",
-    "href": "index.html#homework-due-sun-feb-26-1159pm",
+    "objectID": "index.html#homework-due-tue-feb-28-1159pm",
+    "href": "index.html#homework-due-tue-feb-28-1159pm",
     "title": "Today’s Agenda",
-    "section": "Homework Due Sun Feb 26 11:59pm",
-    "text": "Homework Due Sun Feb 26 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_19\n\n    Complete and submit  RC_19"
+    "section": "Homework Due Tue Feb 28 11:59pm",
+    "text": "Homework Due Tue Feb 28 11:59pm"
   },
   {
     "objectID": "slides/lec04.html#todays-goals",
@@ -382,7 +382,7 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample <- penguins %>% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 37.472, df = 49, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3999.84 4453.16\nsample estimates:\nmean of x \n   4226.5"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample <- penguins %>% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 38.183, df = 48, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3990.436 4434.054\nsample estimates:\nmean of x \n 4212.245"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
@@ -1614,6 +1614,6 @@
     "href": "course-solutions.html",
     "title": "Activity Solutions",
     "section": "",
-    "text": "Activities are graded for completion! It is your responsibility and should be a part of your learning habit to review your activities for correctness. Solutions are posted roughly 3 days after the due date.\n\n\n\n\n\n\n\n\n\n  \n  \n  \n    Activity 1 Solution\n\n    Activity 2 Solution\n\n    Activity 3 Solution\n\n    Activity 4 Solution\n\n    Activity 5 Solution\n\n    Activity 6 Solution\n\n    Activity 7 Solution\n\n    Activity 8 Solution\n\n    Activity 9 Solution\n\n    Activity 10 Solution\n\n    Activity 11 Solution\n\n    Activity 12 Solution\n\n    Activity 13 Solution\n\n    Activity 14 Solution\n\n    Activity 15 Solution\n\n    Activity 16 Solution\n\n    Activity 17 Solution"
+    "text": "Activities are graded for completion! It is your responsibility and should be a part of your learning habit to review your activities for correctness. Solutions are posted roughly 3 days after the due date.\n\n\n\n\n\n\n\n\n\n  \n  \n  \n    Activity 1 Solution\n\n    Activity 2 Solution\n\n    Activity 3 Solution\n\n    Activity 4 Solution\n\n    Activity 5 Solution\n\n    Activity 6 Solution\n\n    Activity 7 Solution\n\n    Activity 8 Solution\n\n    Activity 9 Solution\n\n    Activity 10 Solution\n\n    Activity 11 Solution\n\n    Activity 12 Solution\n\n    Activity 13 Solution\n\n    Activity 14 Solution\n\n    Activity 15 Solution\n\n    Activity 16 Solution\n\n    Activity 17 Solution\n\n    Activity 18 Solution"
   }
 ]
