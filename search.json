@@ -63,18 +63,18 @@
     "text": "Important\n\n\n\nCampuswire “points” will close after Exam 3, you can still use Campuswire but it will no longer benefit your “reputation” after.\nNote: Our assigned final exam period is at a terribly inconvenient day (Monday). If your final project is submitted by Friday March 10th 11:59pm, I will have it graded on Saturday so you can make an informed decision on if you want to retake an exam. If your final project is submitted over the weekend (due date 3/12), it will NOT be graded prior to the exam."
   },
   {
-    "objectID": "index.html#class-wed-mar-01",
-    "href": "index.html#class-wed-mar-01",
+    "objectID": "index.html#class-fri-mar-03",
+    "href": "index.html#class-fri-mar-03",
     "title": "Today’s Agenda",
-    "section": "Class: Wed Mar 01",
-    "text": "Class: Wed Mar 01"
+    "section": "Class: Fri Mar 03",
+    "text": "Class: Fri Mar 03\n\n\n\n\n\n\n  \n  \n  \n    Study for Exam 3"
   },
   {
     "objectID": "index.html#prepare",
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Chapter 13"
   },
   {
     "objectID": "index.html#participate",
@@ -88,14 +88,14 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    \n    \n    \n    \n    \n    Daily activity:  act_20 (cont'd)"
+    "text": "Agenda"
   },
   {
-    "objectID": "index.html#homework-due-thu-mar-02-1159pm",
-    "href": "index.html#homework-due-thu-mar-02-1159pm",
+    "objectID": "index.html#homework-due-sun-mar-05-1159pm",
+    "href": "index.html#homework-due-sun-mar-05-1159pm",
     "title": "Today’s Agenda",
-    "section": "Homework Due Thu Mar 02 11:59pm",
-    "text": "Homework Due Thu Mar 02 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_20\n\n     Read Chapter 13"
+    "section": "Homework Due Sun Mar 05 11:59pm",
+    "text": "Homework Due Sun Mar 05 11:59pm"
   },
   {
     "objectID": "slides/lec04.html#todays-goals",
@@ -382,7 +382,7 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample <- penguins %>% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 37.153, df = 49, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3927.424 4376.576\nsample estimates:\nmean of x \n     4152"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample <- penguins %>% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 34.741, df = 49, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4017.822 4511.178\nsample estimates:\nmean of x \n   4264.5"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
@@ -1614,6 +1614,6 @@
     "href": "course-solutions.html",
     "title": "Activity Solutions",
     "section": "",
-    "text": "Activities are graded for completion! It is your responsibility and should be a part of your learning habit to review your activities for correctness. Solutions are posted roughly 3 days after the due date.\n\n\n\n\n\n\n\n\n\n  \n  \n  \n    Activity 1 Solution\n\n    Activity 2 Solution\n\n    Activity 3 Solution\n\n    Activity 4 Solution\n\n    Activity 5 Solution\n\n    Activity 6 Solution\n\n    Activity 7 Solution\n\n    Activity 8 Solution\n\n    Activity 9 Solution\n\n    Activity 10 Solution\n\n    Activity 11 Solution\n\n    Activity 12 Solution\n\n    Activity 13 Solution\n\n    Activity 14 Solution\n\n    Activity 15 Solution\n\n    Activity 16 Solution\n\n    Activity 17 Solution\n\n    Activity 18 Solution\n\n    Activity 19 Solution"
+    "text": "Activities are graded for completion! It is your responsibility and should be a part of your learning habit to review your activities for correctness. Solutions are posted roughly 3 days after the due date.\n\n\n\n\n\n\n\n\n\n  \n  \n  \n    Activity 1 Solution\n\n    Activity 2 Solution\n\n    Activity 3 Solution\n\n    Activity 4 Solution\n\n    Activity 5 Solution\n\n    Activity 6 Solution\n\n    Activity 7 Solution\n\n    Activity 8 Solution\n\n    Activity 9 Solution\n\n    Activity 10 Solution\n\n    Activity 11 Solution\n\n    Activity 12 Solution\n\n    Activity 13 Solution\n\n    Activity 14 Solution\n\n    Activity 15 Solution\n\n    Activity 16 Solution\n\n    Activity 17 Solution\n\n    Activity 18 Solution\n\n    Activity 19 Solution\n\n    Activity 20 Solution"
   }
 ]
