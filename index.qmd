@@ -10,11 +10,9 @@ execute:
 from: markdown+emoji
 ---
 
-::: callout-important
-Wednesday 3/8 and Friday 3/10 no formal class. Class time will be treated as office hours on Zoom.
-
-Note: Our assigned final exam period is at a terribly inconvenient day (Monday). If your final project is submitted by Friday March 10th 11:59pm, I will have it graded on Saturday so you can make an informed decision on if you want to retake an exam. If your final project is submitted over the weekend (due date 3/12), it will NOT be graded prior to the exam.
-:::
+<!-- ::: callout-important -->
+<!-- Note here -->
+<!-- ::: -->
 
 ```{r}
 #library(tidyverse)

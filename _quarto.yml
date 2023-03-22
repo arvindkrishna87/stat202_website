@@ -35,8 +35,8 @@ website:
           text: Today's agenda
         - href: course-schedule.qmd
           text: Schedule
-        - href: course-project.qmd
-          text: Final project
+        # - href: course-project.qmd
+        #   text: Final project
         - href: course-anu.qmd
           text: Accessible NU
         - section: "Additional Resources"
@@ -51,10 +51,10 @@ website:
             text: Lecture videos
           - href: course-solutions.qmd
             text: Activity solutions
-          - href: course-ec.qmd
-            text: Extra Credit
-          - href: course-irl.qmd
-            text: Stats and Data IRL
+          # - href: course-ec.qmd
+          #   text: Extra Credit
+          # - href: course-irl.qmd
+          #   text: Stats and Data IRL
           
 
 format:

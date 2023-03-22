@@ -94,17 +94,19 @@ Once you have chosen your dataset you will need to conduct an analysis and creat
 
 -   Introduction: Should introduce your dataset, where the data came from, why it is of interest, and any other general introductory statements. Cite your data link if necessary.
 
--   EDA: Here you should describe your data. How many variables are in your dataset? How many observations? Are there any missingness issues and why might that be the case? Are there any potential data issues such as impossible/weird values? You will need to create a minimum of 2 graphics to explore your data. You cannot use the two same graphs (ie: cannot do 2 scatterplots). Each graph must have wrangling code that provides appropriate summary statistics to support the graph.
+-   EDA: Here you should describe your data. How many variables are in your dataset? How many observations? Are there any missingness issues and why might that be the case? Are there any potential data issues such as impossible/weird values? You will need to create a minimum of 2 graphics to explore your data. You cannot use the two same graphs (ie: cannot do 2 scatterplots). These graphics must be made using ggplot, however you are welcome to explore other geom layers that we have not focused on in this class beyond the 5NG. Each graph must have wrangling code that provides appropriate summary statistics to support the graph. This is a report, meaning there should be a proper description and explanation of the graph.
 
--   Regression: Choose any 2 variables to predict a numeric variable. Write out the equation to your model and interpret any coefficients.
+-   Regression: Choose 1 numeric and 1 categorical variable to predict a numeric variable. You choose if this is a parallel slopes or interaction model. Write out the equation to your model and interpret any coefficients. Provide a graph of the fitted lines.\^1
 
 -   Confidence interval: Develop a confidence interval related research question. Construct you confidence interval, state your confidence level and appropriately interpret in the context of the problem.
 
--   Hypothesis test: Develop a hypothesis test related research question. State your null and alternative hypothesis, specify your alpha, perform the hypothesis test, and appropriately interpret in the context of the problem.
+-   Hypothesis test: Develop a hypothesis test related research question. State your null and alternative hypothesis, specify your alpha, perform the hypothesis test, and appropriately interpret in the context of the problem.\^2
 
 -   Conclusion: State any concluding remarks.
 
-**Note: The confidence interval and hypothesis test must be answering different research questions. The confidence interval/hypothesis test cannot be of the same type (options: mean, proportion, difference in mean, difference in proportion, slope)**
+**1: Advanced tip for regression: If you want to visualize your prediction you can plot the observed response on the x axis and the fitted values on the y axis.**
+
+**2: The confidence interval and hypothesis test must be answering different research questions. The confidence interval/hypothesis test cannot be of the same type (options: mean, proportion, difference in mean, difference in proportion, slope)**
 
 ## Project rubric (50 points)
 
@@ -116,7 +118,7 @@ Once you have chosen your dataset you will need to conduct an analysis and creat
 |                                                  | **1**                                                                             | **2** | **3**                                                                           | **4** | **5**                                                                                                                                                                                                                |
 | EDA: Exploration 1 (x2)                          | Simple plot/wrangling AND improper explanation AND major error with code/data use |       | Simple plot/wrangling OR improper explanation OR major error with code/data use |       | Used a graph and appropriate data wrangling summary statistics to support the graph. Proper explanation and introduction to the exploration. Sufficiently complex, you are showcasing what you learned this quarter. |
 | EDA: Exploration 2 (x2)                          |                                                                                   |       |                                                                                 |       | Same criteria as above. Must be a different type of plot.                                                                                                                                                            |
-| Regression (x2 pts)                              |                                                                                   |       | Incorrect interpretation OR 2 issues                                            |       | State the model goal. Used multiple regression model. Stated the model equation. Interpreted the coefficients in the context of the problem.                                                                         |
+| Regression (x2 pts)                              |                                                                                   |       | Incorrect interpretation OR 2 issues                                            |       | State the model goal. Used multiple regression model. Stated the model equation. Interpreted the coefficients in the context of the problem. Plot matches model.                                                     |
 | CI                                               |                                                                                   |       | Incorrect interpretation OR 2 issues                                            |       | Stated the research question of interest. Stated CI level. Confidence interval is correct. Interpretation in the context of the problem                                                                              |
 | Hypothesis test (x2 points)                      |                                                                                   |       | Incorrect interpretation OR 2 issues                                            |       | Stated the research question of interest. Stated alpha level. Defined H0 and HA using proper notation. Hypothesis test conducted correctly. Interpretation in the context of the problem                             |
 

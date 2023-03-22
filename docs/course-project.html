@@ -29,8 +29,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./course-anu.html" rel="next">
-<link href="./course-schedule.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -108,11 +106,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-project.html" class="sidebar-item-text sidebar-link active">Final project</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./course-anu.html" class="sidebar-item-text sidebar-link">Accessible NU</a>
   </div>
 </li>
@@ -147,16 +140,6 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./course-solutions.html" class="sidebar-item-text sidebar-link">Activity solutions</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./course-ec.html" class="sidebar-item-text sidebar-link">Extra Credit</a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./course-irl.html" class="sidebar-item-text sidebar-link">Stats and Data IRL</a>
   </div>
 </li>
       </ul>
@@ -258,13 +241,14 @@ ul.task-list li input[type="checkbox"] {
 <p>Once you have chosen your dataset you will need to conduct an analysis and create a report. This is a report, meaning anytime you have code you should be explaining what you are doing before the code and any conclusions/findings that result after the code. In other words, there should not be random plots/code without any explanation.</p>
 <ul>
 <li><p>Introduction: Should introduce your dataset, where the data came from, why it is of interest, and any other general introductory statements. Cite your data link if necessary.</p></li>
-<li><p>EDA: Here you should describe your data. How many variables are in your dataset? How many observations? Are there any missingness issues and why might that be the case? Are there any potential data issues such as impossible/weird values? You will need to create a minimum of 2 graphics to explore your data. You cannot use the two same graphs (ie: cannot do 2 scatterplots). Each graph must have wrangling code that provides appropriate summary statistics to support the graph.</p></li>
-<li><p>Regression: Choose any 2 variables to predict a numeric variable. Write out the equation to your model and interpret any coefficients.</p></li>
+<li><p>EDA: Here you should describe your data. How many variables are in your dataset? How many observations? Are there any missingness issues and why might that be the case? Are there any potential data issues such as impossible/weird values? You will need to create a minimum of 2 graphics to explore your data. You cannot use the two same graphs (ie: cannot do 2 scatterplots). These graphics must be made using ggplot, however you are welcome to explore other geom layers that we have not focused on in this class beyond the 5NG. Each graph must have wrangling code that provides appropriate summary statistics to support the graph. This is a report, meaning there should be a proper description and explanation of the graph.</p></li>
+<li><p>Regression: Choose 1 numeric and 1 categorical variable to predict a numeric variable. You choose if this is a parallel slopes or interaction model. Write out the equation to your model and interpret any coefficients. Provide a graph of the fitted lines.^1</p></li>
 <li><p>Confidence interval: Develop a confidence interval related research question. Construct you confidence interval, state your confidence level and appropriately interpret in the context of the problem.</p></li>
-<li><p>Hypothesis test: Develop a hypothesis test related research question. State your null and alternative hypothesis, specify your alpha, perform the hypothesis test, and appropriately interpret in the context of the problem.</p></li>
+<li><p>Hypothesis test: Develop a hypothesis test related research question. State your null and alternative hypothesis, specify your alpha, perform the hypothesis test, and appropriately interpret in the context of the problem.^2</p></li>
 <li><p>Conclusion: State any concluding remarks.</p></li>
 </ul>
-<p><strong>Note: The confidence interval and hypothesis test must be answering different research questions. The confidence interval/hypothesis test cannot be of the same type (options: mean, proportion, difference in mean, difference in proportion, slope)</strong></p>
+<p><strong>1: Advanced tip for regression: If you want to visualize your prediction you can plot the observed response on the x axis and the fitted values on the y axis.</strong></p>
+<p><strong>2: The confidence interval and hypothesis test must be answering different research questions. The confidence interval/hypothesis test cannot be of the same type (options: mean, proportion, difference in mean, difference in proportion, slope)</strong></p>
 </section>
 <section id="project-rubric-50-points" class="level2">
 <h2 class="anchored" data-anchor-id="project-rubric-50-points">Project rubric (50 points)</h2>
@@ -342,7 +326,7 @@ ul.task-list li input[type="checkbox"] {
 <td></td>
 <td>Incorrect interpretation OR 2 issues</td>
 <td></td>
-<td>State the model goal. Used multiple regression model. Stated the model equation. Interpreted the coefficients in the context of the problem.</td>
+<td>State the model goal. Used multiple regression model. Stated the model equation. Interpreted the coefficients in the context of the problem. Plot matches model.</td>
 </tr>
 <tr class="even">
 <td>CI</td>
@@ -481,18 +465,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./course-schedule.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Schedule</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./course-anu.html" class="pagination-link">
-        <span class="nav-page-text">Accessible NU</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

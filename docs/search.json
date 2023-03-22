@@ -21,6 +21,13 @@
     "text": "EC Opportunity 2 - Sample Exams\nComplete any of the 3 sample exams prior to the exam date and upload the completed sample exam to the respective Canvas assignment. Each sample exam will count as 2 bonus points toward activities. Yes, you can get over 100% in this category.\nRequirements\n\nyour name must have a check mark next to it\nevery question must be attempted\nevery question/exercise must be visible for me to see the answer\n\nIf you do not complete every one of those requirements you will not get credit. This is checking that you know how to properly submit an exam. It will NOT be graded for accuracy."
   },
   {
+    "objectID": "course-ec.html#ec-opportunity-3---stats-and-data-science-articles",
+    "href": "course-ec.html#ec-opportunity-3---stats-and-data-science-articles",
+    "title": "Course Extra Credit Opportunities",
+    "section": "EC Opportunity 3 - Stats and Data Science Articles",
+    "text": "EC Opportunity 3 - Stats and Data Science Articles\nCheck out the tab “Stats and Data IRL”. Statistics and data science is an interdisciplinary field that is often used in a variety of areas of study (biology, business, ecology, healthcare, psychology, sociology, etc.) At the top of the page are a few interesting articles about statistics and/or data science. Select an article to read and write a one to two paragraph response describing what you learned from the article and how statistics/data science was used.\nYou can submit 1 response for 1 bonus point toward participation. Yes, you can get over 100% in this category."
+  },
+  {
     "objectID": "course-irl.html",
     "href": "course-irl.html",
     "title": "Stats and Data Sci in real life",
@@ -74,28 +81,28 @@
     "href": "course-project.html#project-outline",
     "title": "Final Project",
     "section": "Project outline",
-    "text": "Project outline\nOnce you have chosen your dataset you will need to conduct an analysis and create a report. This is a report, meaning anytime you have code you should be explaining what you are doing before the code and any conclusions/findings that result after the code. In other words, there should not be random plots/code without any explanation.\n\nIntroduction: Should introduce your dataset, where the data came from, why it is of interest, and any other general introductory statements. Cite your data link if necessary.\nEDA: Here you should describe your data. How many variables are in your dataset? How many observations? Are there any missingness issues and why might that be the case? Are there any potential data issues such as impossible/weird values? You will need to create a minimum of 2 graphics to explore your data. You cannot use the two same graphs (ie: cannot do 2 scatterplots). Each graph must have wrangling code that provides appropriate summary statistics to support the graph.\nRegression: Choose any 2 variables to predict a numeric variable. Write out the equation to your model and interpret any coefficients.\nConfidence interval: Develop a confidence interval related research question. Construct you confidence interval, state your confidence level and appropriately interpret in the context of the problem.\nHypothesis test: Develop a hypothesis test related research question. State your null and alternative hypothesis, specify your alpha, perform the hypothesis test, and appropriately interpret in the context of the problem.\nConclusion: State any concluding remarks.\n\nNote: The confidence interval and hypothesis test must be answering different research questions. The confidence interval/hypothesis test cannot be of the same type (options: mean, proportion, difference in mean, difference in proportion, slope)"
+    "text": "Project outline\nOnce you have chosen your dataset you will need to conduct an analysis and create a report. This is a report, meaning anytime you have code you should be explaining what you are doing before the code and any conclusions/findings that result after the code. In other words, there should not be random plots/code without any explanation.\n\nIntroduction: Should introduce your dataset, where the data came from, why it is of interest, and any other general introductory statements. Cite your data link if necessary.\nEDA: Here you should describe your data. How many variables are in your dataset? How many observations? Are there any missingness issues and why might that be the case? Are there any potential data issues such as impossible/weird values? You will need to create a minimum of 2 graphics to explore your data. You cannot use the two same graphs (ie: cannot do 2 scatterplots). These graphics must be made using ggplot, however you are welcome to explore other geom layers that we have not focused on in this class beyond the 5NG. Each graph must have wrangling code that provides appropriate summary statistics to support the graph. This is a report, meaning there should be a proper description and explanation of the graph.\nRegression: Choose 1 numeric and 1 categorical variable to predict a numeric variable. You choose if this is a parallel slopes or interaction model. Write out the equation to your model and interpret any coefficients. Provide a graph of the fitted lines.^1\nConfidence interval: Develop a confidence interval related research question. Construct you confidence interval, state your confidence level and appropriately interpret in the context of the problem.\nHypothesis test: Develop a hypothesis test related research question. State your null and alternative hypothesis, specify your alpha, perform the hypothesis test, and appropriately interpret in the context of the problem.^2\nConclusion: State any concluding remarks.\n\n1: Advanced tip for regression: If you want to visualize your prediction you can plot the observed response on the x axis and the fitted values on the y axis.\n2: The confidence interval and hypothesis test must be answering different research questions. The confidence interval/hypothesis test cannot be of the same type (options: mean, proportion, difference in mean, difference in proportion, slope)"
   },
   {
     "objectID": "course-project.html#project-rubric-50-points",
     "href": "course-project.html#project-rubric-50-points",
     "title": "Final Project",
     "section": "Project rubric (50 points)",
-    "text": "Project rubric (50 points)\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n2\n\n3\n\n\n\n\nNeatness, Organization, Introduction, Conclusion\n\n\n\n\nUse complete sentences; minimal typos; names; headers formatted correctly; suppress warning or messages; introduction and conclusion present\n\n\n\n0\n\n1\n\n2\n\n\nEDA: Explanation\n\n\n\n\nThoroughly explored your data using at a minimum the criteria in the project outline.\n\n\n\n1\n2\n3\n4\n5\n\n\nEDA: Exploration 1 (x2)\nSimple plot/wrangling AND improper explanation AND major error with code/data use\n\nSimple plot/wrangling OR improper explanation OR major error with code/data use\n\nUsed a graph and appropriate data wrangling summary statistics to support the graph. Proper explanation and introduction to the exploration. Sufficiently complex, you are showcasing what you learned this quarter.\n\n\nEDA: Exploration 2 (x2)\n\n\n\n\nSame criteria as above. Must be a different type of plot.\n\n\nRegression (x2 pts)\n\n\nIncorrect interpretation OR 2 issues\n\nState the model goal. Used multiple regression model. Stated the model equation. Interpreted the coefficients in the context of the problem.\n\n\nCI\n\n\nIncorrect interpretation OR 2 issues\n\nStated the research question of interest. Stated CI level. Confidence interval is correct. Interpretation in the context of the problem\n\n\nHypothesis test (x2 points)\n\n\nIncorrect interpretation OR 2 issues\n\nStated the research question of interest. Stated alpha level. Defined H0 and HA using proper notation. Hypothesis test conducted correctly. Interpretation in the context of the problem\n\n\n\n**Sufficiently complex exploration can mean many things. It can mean doing data wrangling before the plot to narrow down the data of interest or it can mean doing a bi-variate exploration (2 variables or more) and explaining how the variables relate. Ex: Simple exploration: histogram of a single variable using your entire dataset and calculating the mean and standard deviation. Complex exploration: faceting a histogram by a categorical variable and calculating summary statistics by category to explain how different categories vary.\n**Be a problem solver. If you don’t know how to write a regression equation or hypothesis copy an example from an activity and modify for your problem."
+    "text": "Project rubric (50 points)\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n2\n\n3\n\n\n\n\nNeatness, Organization, Introduction, Conclusion\n\n\n\n\nUse complete sentences; minimal typos; names; headers formatted correctly; suppress warning or messages; introduction and conclusion present\n\n\n\n0\n\n1\n\n2\n\n\nEDA: Explanation\n\n\n\n\nThoroughly explored your data using at a minimum the criteria in the project outline.\n\n\n\n1\n2\n3\n4\n5\n\n\nEDA: Exploration 1 (x2)\nSimple plot/wrangling AND improper explanation AND major error with code/data use\n\nSimple plot/wrangling OR improper explanation OR major error with code/data use\n\nUsed a graph and appropriate data wrangling summary statistics to support the graph. Proper explanation and introduction to the exploration. Sufficiently complex, you are showcasing what you learned this quarter.\n\n\nEDA: Exploration 2 (x2)\n\n\n\n\nSame criteria as above. Must be a different type of plot.\n\n\nRegression (x2 pts)\n\n\nIncorrect interpretation OR 2 issues\n\nState the model goal. Used multiple regression model. Stated the model equation. Interpreted the coefficients in the context of the problem. Plot matches model.\n\n\nCI\n\n\nIncorrect interpretation OR 2 issues\n\nStated the research question of interest. Stated CI level. Confidence interval is correct. Interpretation in the context of the problem\n\n\nHypothesis test (x2 points)\n\n\nIncorrect interpretation OR 2 issues\n\nStated the research question of interest. Stated alpha level. Defined H0 and HA using proper notation. Hypothesis test conducted correctly. Interpretation in the context of the problem\n\n\n\n**Sufficiently complex exploration can mean many things. It can mean doing data wrangling before the plot to narrow down the data of interest or it can mean doing a bi-variate exploration (2 variables or more) and explaining how the variables relate. Ex: Simple exploration: histogram of a single variable using your entire dataset and calculating the mean and standard deviation. Complex exploration: faceting a histogram by a categorical variable and calculating summary statistics by category to explain how different categories vary.\n**Be a problem solver. If you don’t know how to write a regression equation or hypothesis copy an example from an activity and modify for your problem."
   },
   {
     "objectID": "course-schedule.html",
     "href": "course-schedule.html",
     "title": "STAT 202: Introduction to Statistics and Data Science",
     "section": "",
-    "text": "Week\n      Date\n      Topic\n      \n        Prepare\n      \n      \n        Agenda\n      \n      \n        Homework\n      \n    \n    \n      Reading\n      Slides\n      Activity\n      submit_act\n      Tutorial\n      due\n    \n  \n  \n    1\n\nTue Jan 03\nIntroduction\nSyllabus\n\n\n\n practice\n\n\n RC_01\n\nTue Jan 03\n    \nWed Jan 04\nRstudio Cloud\nPreface & Ch 1\n\n\n\n act_01\n\n act_01\n\n RC_02\n\nThu Jan 05\n    \nFri Jan 06\nData Visualization\nSections 2.0 - 2.3\n\n\n\n act_02\n\n act_02\n\n RC_03\n\nSun Jan 08\n    2\n\nMon Jan 09\nData Visualization\nSections 2.4 - 2.6\n\n\n\n act_03\n\n act_03\n\n RC_04\n\nTue Jan 10\n    \nWed Jan 11\nData Visualization\nSections 2.7 - 2.9\n\n\n\n act_04\n\n act_04\n\n RC_05\n\nThu Jan 12\n    \nFri Jan 13\nData Wrangling\nSections 3.0 - 3.3\n\n\n\n act_05\n\n act_05\n\n RC_06\n\nTue Jan 17\n    3\n\nMon Jan 16\nMLK - No Class\n\n\n\n act_05\n\n RC_06\n\nTue Jan 17\n    \nWed Jan 18\nData Wrangling\nSections 3.4 - 3.9\n\n\n\n act_06\n\n act_06\n\n RC_07\n\nThu Jan 19\n    \nFri Jan 20\nTidy Data\nChapter 4\n\n\n\n act_07\n\n act_07\n\n\nSun Jan 22\n    4\n\nMon Jan 23\nExam 1\n\n\n\n\n\nTue Jan 24\n    \nWed Jan 25\nBasic Regression\nSections 5.0 - 5.1\n\n\n\n act_08\n\n act_08\n\n RC_08\n\nThu Jan 26\n    \nFri Jan 27\nBasic Regression\nSections 5.2 - 5.4\n\n\n\n act_09\n\n act_09\n\n RC_09\n\nSun Jan 29\n    5\n\nMon Jan 30\nMultiple Regression\nSections 6.0 - 6.1\n\n\n\n act_10\n\n act_10\n\n RC_10\n\nTue Jan 31\n    \nWed Feb 01\nMultiple Regression\nSections 6.2 - 6.4\n\n\n\n act_11\n\n act_11\n\n RC_11\n\nThu Feb 02\n    \nFri Feb 03\nRandomization & Causality\nChapter 7\n\n\n\n act_12\n\n act_12\n\n RC_12\n\nSun Feb 05\n    6\n\nMon Feb 06\nPop & Generalizability\nChapter 8\n\n\n\n act_13\n\n act_13\n\n RC_13\n\nTue Feb 07\n    \nWed Feb 08\nNormal Distributions\nSections 9.0 - 9.1\n\n\n\n act_14\n\n act_14\n\n RC_14\n\nThu Feb 09\n    \nFri Feb 10\nSampling Distributions\nSections 9.2 - 9.3\n\n\n\n act_15\n\n\n\nSun Feb 12\n    7\n\nMon Feb 13\nExam 2\n\n\n\n act_15\n\n RC_15\n\nTue Feb 14\n    \nWed Feb 15\nSampling Distributions\nSections 9.4 - 9.7\n\n\n\n act_16\n\n act_16\n\n RC_16\n\nThu Feb 16\n    \nFri Feb 17\nConfidence Intervals\nChapter 10\n\n\n\n act_17\n\n\n RC_17\n\nSun Feb 19\n    8\n\nMon Feb 20\nConfidence Intervals\n\n\n\n act_17 (cont'd)\n\n act_17\n\n\nTue Feb 21\n    \nWed Feb 22\nP-values\nChapter 11\n\n\n\n act_18\n\n act_18\n\n RC_18\n\nThu Feb 23\n    \nFri Feb 24\nHypothesis Testing I\nChapter 12\n\n\n\n act_19\n\n act_19\n\n RC_19\n\nSun Feb 26\n    9\n\nMon Feb 27\nHypothesis Testing II\n\n\n\n act_20\n\n\n\nTue Feb 28\n    \nWed Mar 01\nHypothesis Testing III\n\n\n act_20 (cont'd)\n\n act_20\n\n\nThu Mar 02\n    \nFri Mar 03\nPutting it all together I\nChapter 13\n\n\n\n\n\nSun Mar 05\n    10\n\nMon Mar 06\nExam 3\n\n\n\n\n\nTue Mar 07\n    \nWed Mar 08\nReading Week - No Class\n\n\n\n\n\nThu Mar 09\n    \nFri Mar 10\nReading Week - No Class\n\n\n\n\n\nSun Mar 12\n    11\n\nMon Mar 13\nOptional Final Exam: 12 - 2pm\n\n\n\n\n\nTue Mar 14"
+    "text": "Week\n      Date\n      Topic\n      \n        Prepare\n      \n      \n        Agenda\n      \n      \n        Homework\n      \n    \n    \n      Reading\n      Slides\n      Activity\n      submit_act\n      Tutorial\n      due\n    \n  \n  \n    1\n\nTue Mar 28\nIntroduction\nSyllabus\n\n\n\n practice\n\n\n RC_01\n\nTue Mar 28\n    \nWed Mar 29\nRstudio Cloud\nPreface & Ch 1\n\n\n\n act_01\n\n act_01\n\n RC_02\n\nThu Mar 30\n    \nFri Mar 31\nData Visualization\nSections 2.0 - 2.3\n\n\n\n act_02\n\n act_02\n\n RC_03\n\nSun Apr 02\n    2\n\nMon Apr 03\nData Visualization\nSections 2.4 - 2.6\n\n\n\n act_03\n\n act_03\n\n RC_04\n\nTue Apr 04\n    \nWed Apr 05\nData Visualization\nSections 2.7 - 2.9\n\n\n\n act_04\n\n act_04\n\n RC_05\n\nThu Apr 06\n    \nFri Apr 07\nData Wrangling\nSections 3.0 - 3.3\n\n\n\n act_05\n\n act_05\n\n RC_06\n\nSun Apr 09\n    3\n\nMon Apr 10\nData Wrangling\nSections 3.4 - 3.9\n\n\n\n act_06\n\n act_06\n\n RC_07\n\nTue Apr 11\n    \nWed Apr 12\nTidy Data\nChapter 4\n\n\n\n act_07\n\n act_07\n\n\nThu Apr 13\n    \nFri Apr 14\nExam 1\n\n\n\n\n\nSun Apr 16\n    4\n\nMon Apr 17\nBasic Regression\nSections 5.0 - 5.1\n\n\n\n act_08\n\n act_08\n\n RC_08\n\nTue Apr 18\n    \nWed Apr 19\nBasic Regression\nSections 5.2 - 5.4\n\n\n\n act_09\n\n act_09\n\n RC_09\n\nThu Apr 20\n    \nFri Apr 21\nMultiple Regression\nSections 6.0 - 6.1\n\n\n\n act_10\n\n act_10\n\n RC_10\n\nSun Apr 23\n    5\n\nMon Apr 24\nMultiple Regression\nSections 6.2 - 6.4\n\n\n\n act_11\n\n act_11\n\n RC_11\n\nTue Apr 25\n    \nWed Apr 26\nRandomization & Causality\nChapter 7\n\n\n\n act_12\n\n act_12\n\n RC_12\n\nThu Apr 27\n    \nFri Apr 28\nPop & Generalizability\nChapter 8\n\n\n\n act_13\n\n act_13\n\n RC_13\n\nSun Apr 30\n    6\n\nMon May 01\nNormal Distributions\nSections 9.0 - 9.1\n\n\n\n act_14\n\n act_14\n\n RC_14\n\nTue May 02\n    \nWed May 03\nSampling Distributions\nSections 9.2 - 9.3\n\n\n\n act_15\n\n\n\nThu May 04\n    \nFri May 05\nExam 2\n\n\n\n act_15\n\n RC_15\n\nSun May 07\n    7\n\nMon May 08\nSampling Distributions\nSections 9.4 - 9.7\n\n\n\n act_16\n\n act_16\n\n RC_16\n\nTue May 09\n    \nWed May 10\nConfidence Intervals\nChapter 10\n\n\n\n act_17\n\n\n RC_17\n\nThu May 11\n    \nFri May 12\nConfidence Intervals\n\n\n\n act_17 (cont'd)\n\n act_17\n\n\nSun May 14\n    8\n\nMon May 15\nP-values\nChapter 11\n\n\n\n act_18\n\n act_18\n\n RC_18\n\nTue May 16\n    \nWed May 17\nHypothesis Testing I\nChapter 12\n\n\n\n act_19\n\n act_19\n\n RC_19\n\nThu May 18\n    \nFri May 19\nHypothesis Testing II\n\n\n\n act_20\n\n\n\nSun May 21\n    9\n\nMon May 22\nHypothesis Testing III\n\n\n act_20 (cont'd)\n\n act_20\n\n\nTue May 23\n    \nWed May 24\nPutting it all together I\nChapter 13\n\n\n\n\n\nThu May 25\n    \nFri May 26\nExam 3\n\n\n\n\n\nSun May 28\n    10\n\nMon May 29\nMemorial Day - No Class\nNANA\n\nNANA\n\nNANA\n\nNANA\n\nNANA\n\nTue May 30\n    \nWed May 31\nReading Week - No Class\nNANA\n\nNANA\n\nNANA\n\nNANA\n\nNANA\n\nThu Jun 01\n    \nFri Jun 02\nReading Week - No Class\nNANA\n\nNANA\n\nNANA\n\nNANA\n\nNANA\n\nSun Jun 04\n    11\n\nTue Jun 06\nOptional Final Exam: 12 - 2pm\nNANA\n\nNANA\n\nNANA\n\nNANA\n\nNANA\n\nTue Jun 06"
   },
   {
     "objectID": "course-solutions.html",
     "href": "course-solutions.html",
     "title": "Activity Solutions",
     "section": "",
-    "text": "Activity 1 Solution\n\n    Activity 2 Solution\n\n    Activity 3 Solution\n\n    Activity 4 Solution\n\n    Activity 5 Solution\n\n    Activity 6 Solution\n\n    Activity 7 Solution\n\n    Activity 8 Solution\n\n    Activity 9 Solution\n\n    Activity 10 Solution\n\n    Activity 11 Solution\n\n    Activity 12 Solution\n\n    Activity 13 Solution\n\n    Activity 14 Solution\n\n    Activity 15 Solution\n\n    Activity 16 Solution"
+    "text": "Activities are graded for completion! It is your responsibility and should be a part of your learning habit to review your activities for correctness. Solutions are posted roughly 3 days after the due date."
   },
   {
     "objectID": "course-syllabus.html",
@@ -273,25 +280,18 @@
     "text": "Instructors\n\n\nSection 20: Dr. Danielle Sass is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. She received her Ph.D in Statistics from the University of Illinois at Urbana-Champaign. Her passion and focus is curriculum and content development for undergraduate students.\nOffice hours can be made by appointment by emailing danielle.sass@northwestern.edu. Include STAT202 in the subject line! Please provide your full availability for the day(s) you are available to meet. Ideal meeting times are Tuesday between 8am-4pm and Friday between 11am - 3pm."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "index.html#class-tue-mar-28",
+    "href": "index.html#class-tue-mar-28",
     "title": "Today’s Agenda",
-    "section": "",
-    "text": "Important\n\n\n\nWednesday 3/8 and Friday 3/10 no formal class. Class time will be treated as office hours on Zoom.\nNote: Our assigned final exam period is at a terribly inconvenient day (Monday). If your final project is submitted by Friday March 10th 11:59pm, I will have it graded on Saturday so you can make an informed decision on if you want to retake an exam. If your final project is submitted over the weekend (due date 3/12), it will NOT be graded prior to the exam."
-  },
-  {
-    "objectID": "index.html#class-fri-feb-17",
-    "href": "index.html#class-fri-feb-17",
-    "title": "Today’s Agenda",
-    "section": "Class: Fri Feb 17",
-    "text": "Class: Fri Feb 17"
+    "section": "Class: Tue Mar 28",
+    "text": "Class: Tue Mar 28"
   },
   {
     "objectID": "index.html#prepare",
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Syllabus"
   },
   {
     "objectID": "index.html#participate",
@@ -305,14 +305,14 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    Review the syllabus\n\n    Visit the course's Campuswire page using your @u.northwestern.edu email. Enrollment code: 5917\n\n    Gain access to the RStudio Cloud Class Workspace - link on Canvas.\n\n    Complete the google survey - we will use this data later in the quarter.\n\n    Make sure you know how to access Reading Check 01\n\n    Section notes: \n\n    Daily activity:  practice"
   },
   {
-    "objectID": "index.html#homework-due-sun-feb-19-1159pm",
-    "href": "index.html#homework-due-sun-feb-19-1159pm",
+    "objectID": "index.html#homework-due-tue-mar-28-1159pm",
+    "href": "index.html#homework-due-tue-mar-28-1159pm",
     "title": "Today’s Agenda",
-    "section": "Homework Due Sun Feb 19 11:59pm",
-    "text": "Homework Due Sun Feb 19 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  RC_17"
+    "section": "Homework Due Tue Mar 28 11:59pm",
+    "text": "Homework Due Tue Mar 28 11:59pm\n\n\n\n\n\n\n  \n  \n  \n     Read Preface & Ch 1\n\n    Complete and submit  RC_01"
   },
   {
     "objectID": "slides/lec00.html#todays-agenda",
@@ -1404,14 +1404,21 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample <- penguins %>% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 36.061, df = 49, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3962.172 4429.828\nsample estimates:\nmean of x \n     4196"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample <- penguins %>% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 38.509, df = 49, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3847.657 4271.343\nsample estimates:\nmean of x \n   4059.5"
   },
   {
-    "objectID": "slides/lec18.html#r-code-to-obtain-cis-from-data-sets",
-    "href": "slides/lec18.html#r-code-to-obtain-cis-from-data-sets",
+    "objectID": "slides/lec18.html#extra-practice",
+    "href": "slides/lec18.html#extra-practice",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
-    "section": "R Code to obtain CIs from data sets",
-    "text": "R Code to obtain CIs from data sets\n\n\n\n\n\n\n\n\nStatistic\nR Code\n\n\n\n\nMean\nt.test(x = data$variable, conf.level = 0.95)\n\n\nProportion\nprop.test(x = #, n = #, conf.level = 0.95, correct=FALSE)\n\n\nDiff in mean\nt.test(x = data1$variable, y = data2$variable, conf.level = 0.95)\n\n\nDiff in proportion\nprop.test(x = c(#, #), n = c(#, #), conf.level = 0.95, correct=FALSE )\n\n\nRegression\nconfint(model, level = 0.95)"
+    "section": "Extra practice",
+    "text": "Extra practice\nWe are interested in making inferences about penguins that live near Palmer Station, Antarctica. We will use the penguins data from the palmerpenguins package as our “random” sample.\n\nConstruct a 90% CI for the difference in average flipper length between the Adelie penguins and the Gentoo.\nConstruct a 97% CI for the proportion of penguins that are of the Gentoo species.\nConstruct a 99% CI for the difference in the proportion of female penguins of the Adelie or Chinstrap species that weight over 4000 g and the proportion of male penguins of the Adelie or Chinstrap that weigh over 4000 g\nRun a simple linear regression to predict body_mass_g based on flipper_length_mm. What is the 97% confidence interval for the slope?"
+  },
+  {
+    "objectID": "slides/lec18.html#solutions",
+    "href": "slides/lec18.html#solutions",
+    "title": "Confidence Intervals  Chapter 10  (Part 2)",
+    "section": "Solutions",
+    "text": "Solutions\n\n1234\n\n\nConstruct a 90% CI for the difference in average flipper length between the Adelie penguins and the Gentoo penguins.\n\npenguins_adelie <- penguins %>% \n  filter(species == \"Adelie\")\n\npenguins_gentoo <- penguins %>% \n  filter(species == \"Gentoo\")\n\nt.test(x = penguins_adelie$flipper_length_mm, \n       y = penguins_gentoo$flipper_length_mm,\n       conf.level = 0.9)\n\n\n    Welch Two Sample t-test\n\ndata:  penguins_adelie$flipper_length_mm and penguins_gentoo$flipper_length_mm\nt = -34.445, df = 261.75, p-value < 2.2e-16\nalternative hypothesis: true difference in means is not equal to 0\n90 percent confidence interval:\n -28.53846 -25.92824\nsample estimates:\nmean of x mean of y \n 189.9536  217.1870 \n\n\nWe are 90% confident that the difference in average flipper length of the Adelie species and Gentoo species of penguins in Palmer Station, Antarctica is between -28.54 and -25.93 mm.\n(This means we are 90% confident the Adelie species flippers are between 25.93 and 28.54 mm shorter than the Gentoo species for penguins in Palmer Station, Antarctica.)\n\n\nTO BE UPDATED\n\n\nTO BE UPDATED\n\n\nTO BE UPDATED"
   },
   {
     "objectID": "slides/lec18_old.html#why-do-we-need-cis",
@@ -1512,11 +1519,18 @@
     "text": "R Code to obtain p-value\n\n\n\n\n\n\n\nStatistic\nR Code\n\n\n\n\nMean\nt.test(x = data$variable, mu = \\(\\mu_0\\))\n\n\nProportion\nprop.test(x = #, n = #, p= \\(\\pi_0\\), correct=FALSE)\n\n\nRegression slope\nlm() summary\n\n\nDiff in mean\nt.test(x = data1$variable, y = data2$variable)\n\n\nDiff in proportion\nprop.test(x = c(#, #), n = c(#, #), correct=FALSE )\n\n\n\n\nNote: can still specify conf.level as well but not essential to obtaining p-value."
   },
   {
-    "objectID": "slides/lec19.html#example",
-    "href": "slides/lec19.html#example",
+    "objectID": "slides/lec19.html#example-1",
+    "href": "slides/lec19.html#example-1",
     "title": "P-values  Chapter 11",
-    "section": "Example",
-    "text": "Example\nToyota claims their fuel efficiency is superior and if you buy one of their cars your average weekly gas spending will be less than $40. You randomly survey 40 people with a Toyota to obtain the amount of money spent on gas weekly. The results are saved in data/gas_spending.csv."
+    "section": "Example 1",
+    "text": "Example 1\nYou heard a zoologist claim the average weight of penguins is 4250 g.\nYou want to test this claim so you collect a random sample of penguins and measure their weight, stored in the penguins dataset from the palmerpenguins package.\n\n\n\n\n\\(H_0:\\)\n\\(H_A:\\)\n\nt.test(x = penguins$body_mass_g, mu = 4250)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = -1.1126, df = 341, p-value = 0.2667\nalternative hypothesis: true mean is not equal to 4250\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754"
+  },
+  {
+    "objectID": "slides/lec19.html#example-2",
+    "href": "slides/lec19.html#example-2",
+    "title": "P-values  Chapter 11",
+    "section": "Example 2",
+    "text": "Example 2\nYou think that 33% of penguins belong to the Adelie species.\nYou want to test this claim so you collect a random sample of penguins and count how many are of the Adelie species, stored in the penguins dataset from the palmerpenguins package.\n\n\n\n\n\\(H_0:\\)\n\\(H_A:\\)\n\npenguins %>% \n  count(species)\n\n# A tibble: 3 × 2\n  species       n\n  <fct>     <int>\n1 Adelie      152\n2 Chinstrap    68\n3 Gentoo      124\n\nprop.test(x = 153, n = 344, p = 0.33)\n\n\n    1-sample proportions test with continuity correction\n\ndata:  153 out of 344, null probability 0.33\nX-squared = 19.977, df = 1, p-value = 7.837e-06\nalternative hypothesis: true p is not equal to 0.33\n95 percent confidence interval:\n 0.3917305 0.4990579\nsample estimates:\n        p \n0.4447674"
   },
   {
     "objectID": "slides/lec20.html#example",
@@ -1594,89 +1608,5 @@
     "title": "Hypothesis Testing  Chapter 12  (Part 2)",
     "section": "Deeper Understanding (continued)",
     "text": "Deeper Understanding (continued)\nHow does sample size impact decision making?\n\n\nIncreasing the sample size decreases the p-value and the standard error while making the STAT more extreme\nAs a result, it is harder to detect statistical significance and reject the null with a smaller sample size\n\n\n\n\nNote: Just because something is statistically significant doesn’t mean it is practically significant."
-  },
-  {
-    "objectID": "course-ec.html#ec-opportunity-3---stats-and-data-science-articles",
-    "href": "course-ec.html#ec-opportunity-3---stats-and-data-science-articles",
-    "title": "Course Extra Credit Opportunities",
-    "section": "EC Opportunity 3 - Stats and Data Science Articles",
-    "text": "EC Opportunity 3 - Stats and Data Science Articles\nCheck out the tab “Stats and Data IRL”. Statistics and data science is an interdisciplinary field that is often used in a variety of areas of study (biology, business, ecology, healthcare, psychology, sociology, etc.) At the top of the page are a few interesting articles about statistics and/or data science. Select an article to read and write a one to two paragraph response describing what you learned from the article and how statistics/data science was used.\nYou can submit 1 response for 1 bonus point toward participation. Yes, you can get over 100% in this category."
-  },
-  {
-    "objectID": "slides/lec18.html#extra-practice",
-    "href": "slides/lec18.html#extra-practice",
-    "title": "Confidence Intervals  Chapter 10  (Part 2)",
-    "section": "Extra practice",
-    "text": "Extra practice\nWe are interested in making inferences about penguins that live near Palmer Station, Antarctica. We will use the penguins data from the palmerpenguins package as our “random” sample.\n\nConstruct a 90% CI for the difference in average flipper length between the Adelie penguins and the Gentoo.\nConstruct a 97% CI for the proportion of penguins that are of the Gentoo species.\nConstruct a 99% CI for the difference in the proportion of female penguins of the Adelie or Chinstrap species that weight over 4000 g and the proportion of male penguins of the Adelie or Chinstrap that weigh over 4000 g\nRun a simple linear regression to predict body_mass_g based on flipper_length_mm. What is the 97% confidence interval for the slope?"
-  },
-  {
-    "objectID": "slides/lec18.html#solutions",
-    "href": "slides/lec18.html#solutions",
-    "title": "Confidence Intervals  Chapter 10  (Part 2)",
-    "section": "Solutions",
-    "text": "Solutions\n\n1234\n\n\nConstruct a 90% CI for the difference in average flipper length between the Adelie penguins and the Gentoo penguins.\n\npenguins_adelie <- penguins %>% \n  filter(species == \"Adelie\")\n\npenguins_gentoo <- penguins %>% \n  filter(species == \"Gentoo\")\n\nt.test(x = penguins_adelie$flipper_length_mm, \n       y = penguins_gentoo$flipper_length_mm,\n       conf.level = 0.9)\n\n\n    Welch Two Sample t-test\n\ndata:  penguins_adelie$flipper_length_mm and penguins_gentoo$flipper_length_mm\nt = -34.445, df = 261.75, p-value < 2.2e-16\nalternative hypothesis: true difference in means is not equal to 0\n90 percent confidence interval:\n -28.53846 -25.92824\nsample estimates:\nmean of x mean of y \n 189.9536  217.1870 \n\n\nWe are 90% confident that the difference in average flipper length of the Adelie species and Gentoo species of penguins in Palmer Station, Antarctica is between -28.54 and -25.93 mm.\n(This means we are 90% confident the Adelie species flippers are between 25.93 and 28.54 mm shorter than the Gentoo species for penguins in Palmer Station, Antarctica.)\n\n\nTO BE UPDATED\n\n\nTO BE UPDATED\n\n\nTO BE UPDATED"
-  },
-  {
-    "objectID": "slides/lec19.html#example-1",
-    "href": "slides/lec19.html#example-1",
-    "title": "P-values  Chapter 11",
-    "section": "Example 1",
-    "text": "Example 1\nYou heard a zoologist claim the average weight of penguins is 4250 g.\nYou want to test this claim so you collect a random sample of penguins and measure their weight, stored in the penguins dataset from the palmerpenguins package.\n\n\n\n\n\\(H_0:\\)\n\\(H_A:\\)\n\nt.test(x = penguins$body_mass_g, mu = 4250)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = -1.1126, df = 341, p-value = 0.2667\nalternative hypothesis: true mean is not equal to 4250\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754"
-  },
-  {
-    "objectID": "slides/lec19.html#example-2",
-    "href": "slides/lec19.html#example-2",
-    "title": "P-values  Chapter 11",
-    "section": "Example 2",
-    "text": "Example 2\nYou think that 33% of penguins belong to the Adelie species.\nYou want to test this claim so you collect a random sample of penguins and count how many are of the Adelie species, stored in the penguins dataset from the palmerpenguins package.\n\n\n\n\n\\(H_0:\\)\n\\(H_A:\\)\n\npenguins %>% \n  count(species)\n\n# A tibble: 3 × 2\n  species       n\n  <fct>     <int>\n1 Adelie      152\n2 Chinstrap    68\n3 Gentoo      124\n\nprop.test(x = 153, n = 344, p = 0.33)\n\n\n    1-sample proportions test with continuity correction\n\ndata:  153 out of 344, null probability 0.33\nX-squared = 19.977, df = 1, p-value = 7.837e-06\nalternative hypothesis: true p is not equal to 0.33\n95 percent confidence interval:\n 0.3917305 0.4990579\nsample estimates:\n        p \n0.4447674"
-  },
-  {
-    "objectID": "index.html#class-wed-feb-22",
-    "href": "index.html#class-wed-feb-22",
-    "title": "Today’s Agenda",
-    "section": "Class: Wed Feb 22",
-    "text": "Class: Wed Feb 22"
-  },
-  {
-    "objectID": "index.html#homework-due-thu-feb-23-1159pm",
-    "href": "index.html#homework-due-thu-feb-23-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Thu Feb 23 11:59pm",
-    "text": "Homework Due Thu Feb 23 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_18\n\n     Read Chapter 12\n\n    Complete and submit  RC_18"
-  },
-  {
-    "objectID": "slides/lec13.html",
-    "href": "slides/lec13.html",
-    "title": "Populations and Generalizability  Chapter 8",
-    "section": "",
-    "text": "Definitions\n\n\nPopulation: collection of individuals (units) in which we are interested\nSample: collection of individuals (units) from the population\n\n\n\nGoal\nUse trends in a sample to make inference about a population."
-  },
-  {
-    "objectID": "index.html#class-mon-feb-27",
-    "href": "index.html#class-mon-feb-27",
-    "title": "Today’s Agenda",
-    "section": "Class: Mon Feb 27",
-    "text": "Class: Mon Feb 27"
-  },
-  {
-    "objectID": "index.html#homework-due-tue-feb-28-1159pm",
-    "href": "index.html#homework-due-tue-feb-28-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Tue Feb 28 11:59pm",
-    "text": "Homework Due Tue Feb 28 11:59pm"
-  },
-  {
-    "objectID": "index.html#class-mon-mar-06",
-    "href": "index.html#class-mon-mar-06",
-    "title": "Today’s Agenda",
-    "section": "Class: Mon Mar 06",
-    "text": "Class: Mon Mar 06"
-  },
-  {
-    "objectID": "index.html#homework-due-tue-mar-07-1159pm",
-    "href": "index.html#homework-due-tue-mar-07-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Tue Mar 07 11:59pm",
-    "text": "Homework Due Tue Mar 07 11:59pm"
   }
 ]
