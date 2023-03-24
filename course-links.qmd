@@ -3,7 +3,7 @@ title: "Course Links"
 ---
 
 |                    |                                                                                              |
-|-------------------------|----------------------------------------------|
+|--------------------|----------------------------------------------------------------------------------------------|
 | Textbook           | [Introduction to Statistics and Data Science](https://nustat.github.io/intro-stat-data-sci/) |
 | Campuswire         | [Post questions here!](https://campuswire.com/c/G6C07549E)                                   |
 | Posit Cloud        | [Posit Cloud](https://posit.cloud/)                                                          |

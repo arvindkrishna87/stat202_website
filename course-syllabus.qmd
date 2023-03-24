@@ -62,11 +62,11 @@ Reading checks will be completed using "Tutorial Software" on Posit Cloud and up
 
 *The lowest three grades will be dropped at the end of the quarter.*
 
-### Activities
+### Activities and small assignments
 
-Daily activities will be worth 10 points and primarily graded for completion. A random question on each activity (depending on grader's time) will be graded for correctness and worth 2 of the points. General breakdown of points: 10 points fully complete and exercise correct; 9 points fully complete and exercise partially correct; 8 points fully complete and exercise incorrect; 5 points partially complete; 0 not complete). Since not all exercises are graded, make sure that you check your answers against the solutions.
+Daily activities will be worth 10 points and primarily graded for completion. A random question on each activity (depending on grader's time) will be graded for correctness and worth 2 of the points. General breakdown of points: 10 points fully complete and exercise correct; 9 points fully complete and exercise partially correct; 8 points fully complete and exercise incorrect; 5 points partially complete; 0 not complete). Since not all exercises are graded, make sure that you check your answers against the solutions. Small assignments are generally surveys.
 
-*The lowest three grades will be dropped at the end of the quarter.*
+*The lowest three activity grades will be dropped at the end of the quarter.*
 
 ### Exams
 
@@ -88,15 +88,14 @@ We have worked to develop a policy geared towards a growth mindset. That is, we 
 
 The final course grade will be calculated as follows:
 
-| Category       | Percentage |
-|----------------|------------|
-<!-- | Participation  | 5%         | -->
-| Reading Checks | 15%        |
-| Activities     | 15%        |
-| Exam 1         | 20%        |
-| Exam 2         | 20%        |
-| Exam 3         | 20%        |
-| Final Project  | 10%        |
+| Category                     | Percentage |
+|------------------------------|------------|
+| Reading Checks               | 15%        |
+| Activities/Small Assignments | 15%        |
+| Exam 1                       | 20%        |
+| Exam 2                       | 20%        |
+| Exam 3                       | 20%        |
+| Final Project                | 10%        |
 
 The final letter grade will be determined based on the following thresholds:
 
@@ -199,7 +198,7 @@ This course strives to be an inclusive learning community, respecting those of d
 
 \textsc{Northwestern University is committed} to fostering an environment where students are safe and free from sexual misconduct. Confidential resources are available to those who have experienced sexual misconduct.[^3]
 
-[^3]:  See <http://www.northwestern.edu/sexual-misconduct/get-help/confidential-support.html> for details.
+[^3]: See <http://www.northwestern.edu/sexual-misconduct/get-help/confidential-support.html> for details.
 
 Faculty, instructors, and TAs are **not** confidential resources and are required to report incidents of sexual misconduct, whether discussed in your assignments or in person, to the Title IX Coordinator, who can provide information about resources and options.
 
