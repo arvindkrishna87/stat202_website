@@ -10,9 +10,11 @@ execute:
 from: markdown+emoji
 ---
 
-<!-- ::: callout-important -->
-<!-- Note here -->
-<!-- ::: -->
+::: callout-important
+
+I've made a few major changes to the reading check programming this past week to fix issues from last quarter. However, as you will learn with coding is when you fix one error you often introduce new errors. If you encounter a weird error please post to Campuswire so I can fix it!
+
+:::
 
 ```{r}
 #library(tidyverse)

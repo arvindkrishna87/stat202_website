@@ -23,7 +23,7 @@ website:
     align: center
     tools:
       - icon: person-fill
-        href: https://campuswire.com/c/G88B46A25
+        href: https://campuswire.com/c/G6C07549E
         text: "Campuswire"
       - icon: laptop
         href: https://northwestern.zoom.us/j/99863923813
@@ -51,8 +51,8 @@ website:
             text: Lecture videos
           - href: course-solutions.qmd
             text: Activity solutions
-          # - href: course-ec.qmd
-          #   text: Extra Credit
+          - href: course-ec.qmd
+            text: Extra Credit
           # - href: course-irl.qmd
           #   text: Stats and Data IRL
           
