@@ -12,7 +12,7 @@ from: markdown+emoji
 
 ::: callout-important
 
-I've made a few major changes to the reading check programming this past week to fix issues from last quarter. However, as you will learn with coding is when you fix one error you often introduce new errors. If you encounter a weird error please post to Campuswire so I can fix it!
+If you missed class 3/28 due to a late add, you should 1) review the syllabus 2) go to the "Schedule" tab and open the 'Slides' to see what you missed (get access to Posit Cloud; Campuswire; fill out google survey) 3) complete and submit Reading Check 01.
 
 :::
 
