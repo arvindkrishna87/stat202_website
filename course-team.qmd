@@ -2,21 +2,32 @@
 title: "Course Team"
 ---
 
-## Teaching assistants
+## Office hours
 
-All office hours will be held on-line via [Zoom 998 6392 3813](https://northwestern.zoom.us/j/99863923813) on
+[Drop-In Peer Tutoring](https://www.northwestern.edu/academic-support-learning/course-support/drop-in-peer-tutoring.html)
+
+-   Sundays 8-10 pm, Schapiro Hall, 104
+
+-   Wednesdays 8-10 pm, Shepard Hall, B25
+
+All of our TA office hours will be held on-line via [Zoom 998 6392 3813](https://northwestern.zoom.us/j/99863923813) on
 
 -   Tuesdays 2pm - 4pm
--   Thursdays 2pm - 6pm (Tentative to change)
--   Fridays TBD
+
+-   Thursdays 2pm - 4pm
+
+-   Fridays 12pm - 2pm
+
+
+## Teaching assistants
 
 | Name                     |                                                | Email                                  | Office hours       |
-|---------------|-----------------------|-------------------|---------------|
+|-----------------|---------------------|------------------|-----------------|
 | Kayla Schroeder (grader) | ![](images/ta/profile_kayla.jpg){height="1in"} | KaylaSchroeder2026\@u.northwestern.edu | By Appointment     |
 | Alex Tun                 | ![](images/ta/profile_alex.jpg){height="1in"}  | alextun2023\@u.northwestern.edu        | Tuesday 2pm - 4pm  |
 | Allison Kelley           |                                                | allisonkelley2023\@u.northwestern.edu  | Thursday 2pm - 4pm |
-| Jules Wathieu            | ![](images/ta/profile_jules.jpg){height="1in"} | juleswathieu2024\@u.northwestern.edu   | Thursday 4pm - 6pm |
-| Alex Chau                |                                                | alexchau2023\@u.northwestern.edu       | TBD                |
+| Jules Wathieu            | ![](images/ta/profile_jules.jpg){height="1in"} | juleswathieu2024\@u.northwestern.edu   | Friday 12pm - 2pm |
+| TBD                      |                                                | TBD\@u.northwestern.edu                | TBD                |
 
 ## Instructors
 

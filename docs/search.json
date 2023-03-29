@@ -256,7 +256,7 @@
     "href": "course-team.html",
     "title": "Course Team",
     "section": "",
-    "text": "All office hours will be held on-line via Zoom 998 6392 3813 on\n\nTuesdays 2pm - 4pm\nThursdays 2pm - 6pm (Tentative to change)\nFridays TBD\n\n\n\n\n\n\n\n\n\n\nName\n\nEmail\nOffice hours\n\n\n\n\nKayla Schroeder (grader)\n\nKaylaSchroeder2026@u.northwestern.edu\nBy Appointment\n\n\nAlex Tun\n\nalextun2023@u.northwestern.edu\nTuesday 2pm - 4pm\n\n\nAllison Kelley\n\nallisonkelley2023@u.northwestern.edu\nThursday 2pm - 4pm\n\n\nJules Wathieu\n\njuleswathieu2024@u.northwestern.edu\nThursday 4pm - 6pm\n\n\nAlex Chau\n\nalexchau2023@u.northwestern.edu\nTBD"
+    "text": "Drop-In Peer Tutoring\n\nSundays 8-10 pm, Schapiro Hall, 104\nWednesdays 8-10 pm, Shepard Hall, B25\n\nAll of our TA office hours will be held on-line via Zoom 998 6392 3813 on\n\nTuesdays 2pm - 4pm\nThursdays 2pm - 4pm\nFridays 12pm - 2pm"
   },
   {
     "objectID": "course-team.html#instructors",
@@ -1601,5 +1601,12 @@
     "title": "Hypothesis Testing  Chapter 12  (Part 2)",
     "section": "Deeper Understanding (continued)",
     "text": "Deeper Understanding (continued)\nHow does sample size impact decision making?\n\n\nIncreasing the sample size decreases the p-value and the standard error while making the STAT more extreme\nAs a result, it is harder to detect statistical significance and reject the null with a smaller sample size\n\n\n\n\nNote: Just because something is statistically significant doesn’t mean it is practically significant."
+  },
+  {
+    "objectID": "course-team.html#teaching-assistants",
+    "href": "course-team.html#teaching-assistants",
+    "title": "Course Team",
+    "section": "Teaching assistants",
+    "text": "Teaching assistants\n\n\n\n\n\n\n\n\n\nName\n\nEmail\nOffice hours\n\n\n\n\nKayla Schroeder (grader)\n\nKaylaSchroeder2026@u.northwestern.edu\nBy Appointment\n\n\nAlex Tun\n\nalextun2023@u.northwestern.edu\nTuesday 2pm - 4pm\n\n\nAllison Kelley\n\nallisonkelley2023@u.northwestern.edu\nThursday 2pm - 4pm\n\n\nJules Wathieu\n\njuleswathieu2024@u.northwestern.edu\nFriday 12pm - 2pm\n\n\nTBD\n\nTBD@u.northwestern.edu\nTBD"
   }
 ]
