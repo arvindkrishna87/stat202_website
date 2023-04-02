@@ -270,7 +270,7 @@
     "href": "index.html",
     "title": "Today’s Agenda",
     "section": "",
-    "text": "Important\n\n\n\nIf you missed class 3/28 due to a late add, you should 1) review the syllabus 2) go to the “Schedule” tab and open the ‘Slides’ to see what you missed (get access to Posit Cloud; Campuswire; fill out google survey) 3) complete and submit Reading Check 01."
+    "text": "Important\n\n\n\nClass on Friday April 7th will be remote on Zoom!\nhttps://northwestern.zoom.us/j/99863923813"
   },
   {
     "objectID": "index.html#class-tue-mar-28",
@@ -284,7 +284,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Syllabus"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 2.0 - 2.3"
   },
   {
     "objectID": "index.html#participate",
@@ -298,7 +298,7 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    Review the syllabus\n\n    Visit the course's Campuswire page using your @u.northwestern.edu email. Enrollment code: 1457\n\n    Gain access to the RStudio Cloud Class Workspace - link on Canvas.\n\n    Complete the google survey - we will use this data later in the quarter.\n\n    Make sure you know how to access Reading Check 01\n\n    Section notes: \n\n    Daily activity:  practice"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_02"
   },
   {
     "objectID": "index.html#homework-due-tue-mar-28-1159pm",
@@ -1608,5 +1608,19 @@
     "title": "Course Team",
     "section": "Teaching assistants",
     "text": "Teaching assistants\n\n\n\n\n\n\n\n\n\nName\n\nEmail\nOffice hours\n\n\n\n\nKayla Schroeder (grader)\n\nKaylaSchroeder2026@u.northwestern.edu\nBy Appointment\n\n\nAlex Tun\n\nalextun2023@u.northwestern.edu\nTuesday 2pm - 4pm\n\n\nAllison Kelley\n\nallisonkelley2023@u.northwestern.edu\nThursday 2pm - 4pm\n\n\nJules Wathieu\n\njuleswathieu2024@u.northwestern.edu\nFriday 12pm - 2pm\n\n\nTBD\n\nTBD@u.northwestern.edu\nTBD"
+  },
+  {
+    "objectID": "index.html#class-fri-mar-31",
+    "href": "index.html#class-fri-mar-31",
+    "title": "Today’s Agenda",
+    "section": "Class: Fri Mar 31",
+    "text": "Class: Fri Mar 31"
+  },
+  {
+    "objectID": "index.html#homework-due-sun-apr-02-1159pm",
+    "href": "index.html#homework-due-sun-apr-02-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Sun Apr 02 11:59pm",
+    "text": "Homework Due Sun Apr 02 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_02\n\n     Read Sections 2.4 - 2.6\n\n    Complete and submit  RC_03"
   }
 ]

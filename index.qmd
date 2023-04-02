@@ -11,9 +11,9 @@ from: markdown+emoji
 ---
 
 ::: callout-important
+Class on Friday April 7th will be remote on Zoom! 
 
-If you missed class 3/28 due to a late add, you should 1) review the syllabus 2) go to the "Schedule" tab and open the 'Slides' to see what you missed (get access to Posit Cloud; Campuswire; fill out google survey) 3) complete and submit Reading Check 01.
-
+[https://northwestern.zoom.us/j/99863923813](https://northwestern.zoom.us/j/99863923813)
 :::
 
 ```{r}
