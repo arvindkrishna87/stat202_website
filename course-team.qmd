@@ -14,20 +14,19 @@ All of our TA office hours will be held on-line via [Zoom 998 6392 3813](https:/
 
 -   Tuesdays 2pm - 4pm
 
--   Thursdays 2pm - 4pm
+-   Thursdays 12pm - 4pm
 
 -   Fridays 12pm - 2pm
 
-
 ## Teaching assistants
 
-| Name                     |                                                | Email                                  | Office hours       |
-|-----------------|---------------------|------------------|-----------------|
-| Kayla Schroeder (grader) | ![](images/ta/profile_kayla.jpg){height="1in"} | KaylaSchroeder2026\@u.northwestern.edu | By Appointment     |
-| Alex Tun                 | ![](images/ta/profile_alex.jpg){height="1in"}  | alextun2023\@u.northwestern.edu        | Tuesday 2pm - 4pm  |
-| Allison Kelley           |                                                | allisonkelley2023\@u.northwestern.edu  | Thursday 2pm - 4pm |
-| Jules Wathieu            | ![](images/ta/profile_jules.jpg){height="1in"} | juleswathieu2024\@u.northwestern.edu   | Friday 12pm - 2pm |
-| TBD                      |                                                | TBD\@u.northwestern.edu                | TBD                |
+| Name                     |                                                | Email                                  | Office hours        |
+|------------------|--------------------|------------------|------------------|
+| Kayla Schroeder (grader) | ![](images/ta/profile_kayla.jpg){height="1in"} | KaylaSchroeder2026\@u.northwestern.edu | By Appointment      |
+| Alex Tun                 | ![](images/ta/profile_alex.jpg){height="1in"}  | alextun2023\@u.northwestern.edu        | Tuesday 2pm - 4pm   |
+| Shriya Kata              | ![](images/ta/profile_shriya.jpg){height="1in"}  | shriyakata2025\@u.northwestern.edu     | Thursday 12pm - 2pm |
+| Allison Kelley           |                                                | allisonkelley2023\@u.northwestern.edu  | Thursday 2pm - 4pm  |
+| Jules Wathieu            | ![](images/ta/profile_jules.jpg){height="1in"} | juleswathieu2024\@u.northwestern.edu   | Friday 12pm - 2pm   |
 
 ## Instructors
 
