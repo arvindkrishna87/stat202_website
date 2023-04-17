@@ -11,7 +11,7 @@ from: markdown+emoji
 ---
 
 ::: callout-important
-[Practice Exam 1](https://posit.cloud/spaces/321338/content/5176501) is on Posit Cloud. Extra credit for practice exam due Thursday 4/13 before noon.
+[Course Survey 1](https://canvas.northwestern.edu/courses/188815/quizzes/205851) is due Tuesday 4/18 11:59pm.
 :::
 
 ```{r}
