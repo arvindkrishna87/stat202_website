@@ -14,18 +14,18 @@
     "text": "Important\n\n\n\nCourse Survey 1 is due Tuesday 4/18 11:59pm."
   },
   {
-    "objectID": "index.html#class-wed-apr-19",
-    "href": "index.html#class-wed-apr-19",
+    "objectID": "index.html#class-fri-apr-21",
+    "href": "index.html#class-fri-apr-21",
     "title": "Today’s Agenda",
-    "section": "Class: Wed Apr 19",
-    "text": "Class: Wed Apr 19"
+    "section": "Class: Fri Apr 21",
+    "text": "Class: Fri Apr 21"
   },
   {
     "objectID": "index.html#prepare",
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 5.2 - 5.4"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 6.0 - 6.1"
   },
   {
     "objectID": "index.html#participate",
@@ -39,14 +39,14 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_09"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_10"
   },
   {
-    "objectID": "index.html#homework-due-thu-apr-20-1159pm",
-    "href": "index.html#homework-due-thu-apr-20-1159pm",
+    "objectID": "index.html#homework-due-sun-apr-23-1159pm",
+    "href": "index.html#homework-due-sun-apr-23-1159pm",
     "title": "Today’s Agenda",
-    "section": "Homework Due Thu Apr 20 11:59pm",
-    "text": "Homework Due Thu Apr 20 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_09\n\n     Read Sections 6.0 - 6.1\n\n    Complete and submit  RC_09"
+    "section": "Homework Due Sun Apr 23 11:59pm",
+    "text": "Homework Due Sun Apr 23 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_10\n\n     Read Sections 6.2 - 6.4\n\n    Complete and submit  RC_10"
   },
   {
     "objectID": "course-anu.html",
@@ -67,7 +67,7 @@
     "href": "course-solutions.html",
     "title": "Activity Solutions",
     "section": "",
-    "text": "Activities are graded for completion! It is your responsibility and should be a part of your learning habit to review your activities for correctness. Solutions are posted roughly 3 days after the due date.\n\n\n\n\n\n\n\n\n\n  \n  \n  \n    Activity 1 Solution\n\n    Activity 2 Solution\n\n    Activity 3 Solution\n\n    Activity 4 Solution\n\n    Activity 5 Solution\n\n    Activity 6 Solution\n\n    Activity 7 Solution"
+    "text": "Activities are graded for completion! It is your responsibility and should be a part of your learning habit to review your activities for correctness. Solutions are posted roughly 3 days after the due date.\n\n\n\n\n\n\n\n\n\n  \n  \n  \n    Activity 1 Solution\n\n    Activity 2 Solution\n\n    Activity 3 Solution\n\n    Activity 4 Solution\n\n    Activity 5 Solution\n\n    Activity 6 Solution\n\n    Activity 7 Solution\n\n    Activity 8 Solution"
   },
   {
     "objectID": "slides/lec10.html#todays-goals",
@@ -1348,7 +1348,7 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample <- penguins %>% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 30.959, df = 48, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3983.528 4536.880\nsample estimates:\nmean of x \n 4260.204"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample <- penguins %>% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 34.523, df = 49, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3956.462 4445.538\nsample estimates:\nmean of x \n     4201"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
