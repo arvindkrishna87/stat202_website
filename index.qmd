@@ -10,9 +10,9 @@ execute:
 from: markdown+emoji
 ---
 
-::: callout-important
-[Course Survey 1](https://canvas.northwestern.edu/courses/188815/quizzes/205851) is due Tuesday 4/18 11:59pm.
-:::
+<!-- ::: callout-important -->
+<!-- [Course Survey 1](https://canvas.northwestern.edu/courses/188815/quizzes/205851) is due Tuesday 4/18 11:59pm. -->
+<!-- ::: -->
 
 ```{r}
 #library(tidyverse)
