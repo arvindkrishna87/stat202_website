@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.475">
+<meta name="generator" content="quarto-1.3.340">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -66,11 +66,16 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Today’s Agenda</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Today’s agenda</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -78,74 +83,84 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main">
-    <a href="https://campuswire.com/c/G6C07549E" title="Campuswire" class="sidebar-tool px-1"><i class="bi bi-person-fill"></i></a>
-    <a href="https://northwestern.zoom.us/j/99863923813" title="Zoom" class="sidebar-tool px-1"><i class="bi bi-laptop"></i></a>
+    <a href="https://campuswire.com/c/G6C07549E" title="Campuswire" class="quarto-navigation-tool px-1" aria-label="Campuswire"><i class="bi bi-person-fill"></i></a>
+    <a href="https://northwestern.zoom.us/j/99863923813" title="Zoom" class="quarto-navigation-tool px-1" aria-label="Zoom"><i class="bi bi-laptop"></i></a>
 </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">Today’s agenda</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Today’s agenda</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-schedule.html" class="sidebar-item-text sidebar-link">Schedule</a>
+  <a href="./course-schedule.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Schedule</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-anu.html" class="sidebar-item-text sidebar-link">Accessible NU</a>
+  <a href="./course-anu.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Accessible NU</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Additional Resources</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Additional Resources</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-syllabus.html" class="sidebar-item-text sidebar-link">Syllabus</a>
+  <a href="./course-syllabus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Syllabus</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-team.html" class="sidebar-item-text sidebar-link">Office hours</a>
+  <a href="./course-team.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Office hours</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-links.html" class="sidebar-item-text sidebar-link">Useful links</a>
+  <a href="./course-links.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Useful links</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-lectures.html" class="sidebar-item-text sidebar-link">Lecture videos</a>
+  <a href="./course-lectures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture videos</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-solutions.html" class="sidebar-item-text sidebar-link">Activity solutions</a>
+  <a href="./course-solutions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Activity solutions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-ec.html" class="sidebar-item-text sidebar-link">Extra Credit</a>
+  <a href="./course-ec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Extra Credit</span></a>
   </div>
 </li>
       </ul>
@@ -153,17 +168,18 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#class-mon-apr-24" id="toc-class-mon-apr-24" class="nav-link active" data-scroll-target="#class-mon-apr-24"><span style="color: #4E2A84;">Class: Mon Apr 24</span></a></li>
+  <li><a href="#class-wed-apr-26" id="toc-class-wed-apr-26" class="nav-link active" data-scroll-target="#class-wed-apr-26"><span style="color: #4E2A84;">Class: Wed Apr 26</span></a></li>
   <li><a href="#prepare" id="toc-prepare" class="nav-link" data-scroll-target="#prepare">Prepare</a></li>
   <li><a href="#participate" id="toc-participate" class="nav-link" data-scroll-target="#participate">Participate</a></li>
   <li><a href="#agenda" id="toc-agenda" class="nav-link" data-scroll-target="#agenda">Agenda</a></li>
-  <li><a href="#homework-due-tue-apr-25-1159pm" id="toc-homework-due-tue-apr-25-1159pm" class="nav-link" data-scroll-target="#homework-due-tue-apr-25-1159pm">Homework Due Tue Apr 25 11:59pm</a></li>
+  <li><a href="#homework-due-thu-apr-27-1159pm" id="toc-homework-due-thu-apr-27-1159pm" class="nav-link" data-scroll-target="#homework-due-thu-apr-27-1159pm">Homework Due Thu Apr 27 11:59pm</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/dsass1/stat202_website/edit/main/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/dsass1/stat202_website/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -172,7 +188,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Today’s Agenda</h1>
+<h1 class="title">Today’s Agenda</h1>
 </div>
 
 
@@ -190,20 +206,17 @@ ul.task-list li input[type="checkbox"] {
 <!-- ::: callout-important -->
 <!-- [Course Survey 1](https://canvas.northwestern.edu/courses/188815/quizzes/205851) is due Tuesday 4/18 11:59pm. -->
 <!-- ::: -->
-<div class="cell">
-
-</div>
-<section id="class-mon-apr-24" class="level2">
-<h2 class="anchored" data-anchor-id="class-mon-apr-24"><span style="color: #4E2A84;">Class: Mon Apr 24</span></h2>
+<section id="class-wed-apr-26" class="level2">
+<h2 class="anchored" data-anchor-id="class-wed-apr-26"><span style="color: #4E2A84;">Class: Wed Apr 26</span></h2>
 <div class="cell">
 <div class="cell-output-display">
 
-<div id="kzxlnvtjsi" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="zsxkgqoqno" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-:where(#kzxlnvtjsi) .gt_table {
+:where(#zsxkgqoqno) .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: 0;
@@ -228,7 +241,7 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-:where(#kzxlnvtjsi) .gt_heading {
+:where(#zsxkgqoqno) .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -240,12 +253,12 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-:where(#kzxlnvtjsi) .gt_caption {
+:where(#zsxkgqoqno) .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-:where(#kzxlnvtjsi) .gt_title {
+:where(#zsxkgqoqno) .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -257,7 +270,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-:where(#kzxlnvtjsi) .gt_subtitle {
+:where(#zsxkgqoqno) .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -269,13 +282,13 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-:where(#kzxlnvtjsi) .gt_bottom_border {
+:where(#zsxkgqoqno) .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-:where(#kzxlnvtjsi) .gt_col_headings {
+:where(#zsxkgqoqno) .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -290,7 +303,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-:where(#kzxlnvtjsi) .gt_col_heading {
+:where(#zsxkgqoqno) .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -310,7 +323,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-:where(#kzxlnvtjsi) .gt_column_spanner_outer {
+:where(#zsxkgqoqno) .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -322,15 +335,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-:where(#kzxlnvtjsi) .gt_column_spanner_outer:first-child {
+:where(#zsxkgqoqno) .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-:where(#kzxlnvtjsi) .gt_column_spanner_outer:last-child {
+:where(#zsxkgqoqno) .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-:where(#kzxlnvtjsi) .gt_column_spanner {
+:where(#zsxkgqoqno) .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -342,7 +355,7 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-:where(#kzxlnvtjsi) .gt_group_heading {
+:where(#zsxkgqoqno) .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -368,7 +381,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-:where(#kzxlnvtjsi) .gt_empty_group_heading {
+:where(#zsxkgqoqno) .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -383,15 +396,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-:where(#kzxlnvtjsi) .gt_from_md > :first-child {
+:where(#zsxkgqoqno) .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-:where(#kzxlnvtjsi) .gt_from_md > :last-child {
+:where(#zsxkgqoqno) .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-:where(#kzxlnvtjsi) .gt_row {
+:where(#zsxkgqoqno) .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -410,7 +423,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-:where(#kzxlnvtjsi) .gt_stub {
+:where(#zsxkgqoqno) .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -423,7 +436,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-:where(#kzxlnvtjsi) .gt_stub_row_group {
+:where(#zsxkgqoqno) .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -437,11 +450,11 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-:where(#kzxlnvtjsi) .gt_row_group_first td {
+:where(#zsxkgqoqno) .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-:where(#kzxlnvtjsi) .gt_summary_row {
+:where(#zsxkgqoqno) .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -451,16 +464,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-:where(#kzxlnvtjsi) .gt_first_summary_row {
+:where(#zsxkgqoqno) .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-:where(#kzxlnvtjsi) .gt_first_summary_row.thick {
+:where(#zsxkgqoqno) .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-:where(#kzxlnvtjsi) .gt_last_summary_row {
+:where(#zsxkgqoqno) .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -470,7 +483,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-:where(#kzxlnvtjsi) .gt_grand_summary_row {
+:where(#zsxkgqoqno) .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -480,7 +493,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-:where(#kzxlnvtjsi) .gt_first_grand_summary_row {
+:where(#zsxkgqoqno) .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -490,11 +503,11 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-:where(#kzxlnvtjsi) .gt_striped {
+:where(#zsxkgqoqno) .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-:where(#kzxlnvtjsi) .gt_table_body {
+:where(#zsxkgqoqno) .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #FFFFFF;
@@ -503,7 +516,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #FFFFFF;
 }
 
-:where(#kzxlnvtjsi) .gt_footnotes {
+:where(#zsxkgqoqno) .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -517,7 +530,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-:where(#kzxlnvtjsi) .gt_footnote {
+:where(#zsxkgqoqno) .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -526,7 +539,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-:where(#kzxlnvtjsi) .gt_sourcenotes {
+:where(#zsxkgqoqno) .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -540,7 +553,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-:where(#kzxlnvtjsi) .gt_sourcenote {
+:where(#zsxkgqoqno) .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -548,64 +561,64 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-:where(#kzxlnvtjsi) .gt_left {
+:where(#zsxkgqoqno) .gt_left {
   text-align: left;
 }
 
-:where(#kzxlnvtjsi) .gt_center {
+:where(#zsxkgqoqno) .gt_center {
   text-align: center;
 }
 
-:where(#kzxlnvtjsi) .gt_right {
+:where(#zsxkgqoqno) .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-:where(#kzxlnvtjsi) .gt_font_normal {
+:where(#zsxkgqoqno) .gt_font_normal {
   font-weight: normal;
 }
 
-:where(#kzxlnvtjsi) .gt_font_bold {
+:where(#zsxkgqoqno) .gt_font_bold {
   font-weight: bold;
 }
 
-:where(#kzxlnvtjsi) .gt_font_italic {
+:where(#zsxkgqoqno) .gt_font_italic {
   font-style: italic;
 }
 
-:where(#kzxlnvtjsi) .gt_super {
+:where(#zsxkgqoqno) .gt_super {
   font-size: 65%;
 }
 
-:where(#kzxlnvtjsi) .gt_footnote_marks {
+:where(#zsxkgqoqno) .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-:where(#kzxlnvtjsi) .gt_asterisk {
+:where(#zsxkgqoqno) .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-:where(#kzxlnvtjsi) .gt_indent_1 {
+:where(#zsxkgqoqno) .gt_indent_1 {
   text-indent: 5px;
 }
 
-:where(#kzxlnvtjsi) .gt_indent_2 {
+:where(#zsxkgqoqno) .gt_indent_2 {
   text-indent: 10px;
 }
 
-:where(#kzxlnvtjsi) .gt_indent_3 {
+:where(#zsxkgqoqno) .gt_indent_3 {
   text-indent: 15px;
 }
 
-:where(#kzxlnvtjsi) .gt_indent_4 {
+:where(#zsxkgqoqno) .gt_indent_4 {
   text-indent: 20px;
 }
 
-:where(#kzxlnvtjsi) .gt_indent_5 {
+:where(#zsxkgqoqno) .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -625,12 +638,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="cell">
 <div class="cell-output-display">
 
-<div id="cxsuwvvdll" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="bfmkljefbd" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-:where(#cxsuwvvdll) .gt_table {
+#bfmkljefbd .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: 0;
@@ -655,7 +668,7 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-:where(#cxsuwvvdll) .gt_heading {
+#bfmkljefbd .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -667,12 +680,12 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-:where(#cxsuwvvdll) .gt_caption {
+#bfmkljefbd .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-:where(#cxsuwvvdll) .gt_title {
+#bfmkljefbd .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -684,7 +697,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-:where(#cxsuwvvdll) .gt_subtitle {
+#bfmkljefbd .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -696,13 +709,13 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-:where(#cxsuwvvdll) .gt_bottom_border {
+#bfmkljefbd .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-:where(#cxsuwvvdll) .gt_col_headings {
+#bfmkljefbd .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -717,7 +730,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-:where(#cxsuwvvdll) .gt_col_heading {
+#bfmkljefbd .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -737,7 +750,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-:where(#cxsuwvvdll) .gt_column_spanner_outer {
+#bfmkljefbd .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -749,15 +762,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-:where(#cxsuwvvdll) .gt_column_spanner_outer:first-child {
+#bfmkljefbd .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-:where(#cxsuwvvdll) .gt_column_spanner_outer:last-child {
+#bfmkljefbd .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-:where(#cxsuwvvdll) .gt_column_spanner {
+#bfmkljefbd .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -769,7 +782,7 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-:where(#cxsuwvvdll) .gt_group_heading {
+#bfmkljefbd .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -795,7 +808,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-:where(#cxsuwvvdll) .gt_empty_group_heading {
+#bfmkljefbd .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -810,15 +823,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-:where(#cxsuwvvdll) .gt_from_md > :first-child {
+#bfmkljefbd .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-:where(#cxsuwvvdll) .gt_from_md > :last-child {
+#bfmkljefbd .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-:where(#cxsuwvvdll) .gt_row {
+#bfmkljefbd .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -837,7 +850,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-:where(#cxsuwvvdll) .gt_stub {
+#bfmkljefbd .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -850,7 +863,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-:where(#cxsuwvvdll) .gt_stub_row_group {
+#bfmkljefbd .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -864,11 +877,11 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-:where(#cxsuwvvdll) .gt_row_group_first td {
+#bfmkljefbd .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-:where(#cxsuwvvdll) .gt_summary_row {
+#bfmkljefbd .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -878,16 +891,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-:where(#cxsuwvvdll) .gt_first_summary_row {
+#bfmkljefbd .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-:where(#cxsuwvvdll) .gt_first_summary_row.thick {
+#bfmkljefbd .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-:where(#cxsuwvvdll) .gt_last_summary_row {
+#bfmkljefbd .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -897,7 +910,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-:where(#cxsuwvvdll) .gt_grand_summary_row {
+#bfmkljefbd .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -907,7 +920,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-:where(#cxsuwvvdll) .gt_first_grand_summary_row {
+#bfmkljefbd .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -917,11 +930,11 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-:where(#cxsuwvvdll) .gt_striped {
+#bfmkljefbd .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-:where(#cxsuwvvdll) .gt_table_body {
+#bfmkljefbd .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #FFFFFF;
@@ -930,7 +943,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #FFFFFF;
 }
 
-:where(#cxsuwvvdll) .gt_footnotes {
+#bfmkljefbd .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -944,7 +957,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-:where(#cxsuwvvdll) .gt_footnote {
+#bfmkljefbd .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -953,7 +966,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-:where(#cxsuwvvdll) .gt_sourcenotes {
+#bfmkljefbd .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -967,7 +980,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-:where(#cxsuwvvdll) .gt_sourcenote {
+#bfmkljefbd .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -975,77 +988,81 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-:where(#cxsuwvvdll) .gt_left {
+#bfmkljefbd .gt_left {
   text-align: left;
 }
 
-:where(#cxsuwvvdll) .gt_center {
+#bfmkljefbd .gt_center {
   text-align: center;
 }
 
-:where(#cxsuwvvdll) .gt_right {
+#bfmkljefbd .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-:where(#cxsuwvvdll) .gt_font_normal {
+#bfmkljefbd .gt_font_normal {
   font-weight: normal;
 }
 
-:where(#cxsuwvvdll) .gt_font_bold {
+#bfmkljefbd .gt_font_bold {
   font-weight: bold;
 }
 
-:where(#cxsuwvvdll) .gt_font_italic {
+#bfmkljefbd .gt_font_italic {
   font-style: italic;
 }
 
-:where(#cxsuwvvdll) .gt_super {
+#bfmkljefbd .gt_super {
   font-size: 65%;
 }
 
-:where(#cxsuwvvdll) .gt_footnote_marks {
+#bfmkljefbd .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-:where(#cxsuwvvdll) .gt_asterisk {
+#bfmkljefbd .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-:where(#cxsuwvvdll) .gt_indent_1 {
+#bfmkljefbd .gt_indent_1 {
   text-indent: 5px;
 }
 
-:where(#cxsuwvvdll) .gt_indent_2 {
+#bfmkljefbd .gt_indent_2 {
   text-indent: 10px;
 }
 
-:where(#cxsuwvvdll) .gt_indent_3 {
+#bfmkljefbd .gt_indent_3 {
   text-indent: 15px;
 }
 
-:where(#cxsuwvvdll) .gt_indent_4 {
+#bfmkljefbd .gt_indent_4 {
   text-indent: 20px;
 }
 
-:where(#cxsuwvvdll) .gt_indent_5 {
+#bfmkljefbd .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
-<table class="gt_table">
-  
-  
-  <tbody class="gt_table_body">
-    <tr><td headers="V1" class="gt_row gt_left"><div class="gt_from_md"><p><svg aria-hidden="true" role="img" viewbox="0 0 576 512" style="height:1em;width:1.12em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32C87.5 32 35.1 48.6 9 59.9c-5.6 2.4-9 8-9 14V454.1c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6c11.3 3.8 24.1-4.6 24.1-16.5V73.9c0-6.1-3.4-11.6-9-14C540.9 48.6 488.5 32 432 32c-58.4 0-103.4 20-123 35.6c-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"></path></svg> Read <a href="https://nustat.github.io/intro-stat-data-sci/06-multiple-regression.html">Sections 6.2 - 6.4</a></p>
-</div></td></tr>
-  </tbody>
-  
-  
+
+<table class="gt_table table table-sm table-striped small" data-quarto-postprocess="true">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_left" headers="V1"><div class="gt_from_md">
+<p><img src="data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgcm9sZT0iaW1nIiB2aWV3Ym94PSIwIDAgNTc2IDUxMiIgc3R5bGU9ImhlaWdodDoxZW07d2lkdGg6MS4xMmVtO3ZlcnRpY2FsLWFsaWduOi0wLjEyNWVtO21hcmdpbi1sZWZ0OmF1dG87bWFyZ2luLXJpZ2h0OmF1dG87Zm9udC1zaXplOmluaGVyaXQ7ZmlsbDpjdXJyZW50Q29sb3I7b3ZlcmZsb3c6dmlzaWJsZTtwb3NpdGlvbjpyZWxhdGl2ZTsiPjxwYXRoIGQ9Ik0yNDkuNiA0NzEuNWMxMC44IDMuOCAyMi40LTQuMSAyMi40LTE1LjVWNzguNmMwLTQuMi0xLjYtOC40LTUtMTFDMjQ3LjQgNTIgMjAyLjQgMzIgMTQ0IDMyQzg3LjUgMzIgMzUuMSA0OC42IDkgNTkuOWMtNS42IDIuNC05IDgtOSAxNFY0NTQuMWMwIDExLjkgMTIuOCAyMC4yIDI0LjEgMTYuNUM1NS42IDQ2MC4xIDEwNS41IDQ0OCAxNDQgNDQ4YzMzLjkgMCA3OSAxNCAxMDUuNiAyMy41em03Ni44IDBDMzUzIDQ2MiAzOTguMSA0NDggNDMyIDQ0OGMzOC41IDAgODguNCAxMi4xIDExOS45IDIyLjZjMTEuMyAzLjggMjQuMS00LjYgMjQuMS0xNi41VjczLjljMC02LjEtMy40LTExLjYtOS0xNEM1NDAuOSA0OC42IDQ4OC41IDMyIDQzMiAzMmMtNTguNCAwLTEwMy40IDIwLTEyMyAzNS42Yy0zLjMgMi42LTUgNi44LTUgMTFWNDU2YzAgMTEuNCAxMS43IDE5LjMgMjIuNCAxNS41eiI+PC9wYXRoPjwvc3ZnPg==" class="img-fluid"> Read <a href="https://nustat.github.io/intro-stat-data-sci/07-causality.html">Chapter 7</a></p>
+</div></td>
+</tr>
+</tbody>
 </table>
+
 </div>
 </div>
 </div>
@@ -1062,12 +1079,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="cell">
 <div class="cell-output-display">
 
-<div id="opeonsmtei" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="lwgxnyienn" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-:where(#opeonsmtei) .gt_table {
+#lwgxnyienn .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: 0;
@@ -1092,7 +1109,7 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-:where(#opeonsmtei) .gt_heading {
+#lwgxnyienn .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1104,12 +1121,12 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-:where(#opeonsmtei) .gt_caption {
+#lwgxnyienn .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-:where(#opeonsmtei) .gt_title {
+#lwgxnyienn .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1121,7 +1138,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-:where(#opeonsmtei) .gt_subtitle {
+#lwgxnyienn .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1133,13 +1150,13 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-:where(#opeonsmtei) .gt_bottom_border {
+#lwgxnyienn .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-:where(#opeonsmtei) .gt_col_headings {
+#lwgxnyienn .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1154,7 +1171,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-:where(#opeonsmtei) .gt_col_heading {
+#lwgxnyienn .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1174,7 +1191,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-:where(#opeonsmtei) .gt_column_spanner_outer {
+#lwgxnyienn .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1186,15 +1203,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-:where(#opeonsmtei) .gt_column_spanner_outer:first-child {
+#lwgxnyienn .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-:where(#opeonsmtei) .gt_column_spanner_outer:last-child {
+#lwgxnyienn .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-:where(#opeonsmtei) .gt_column_spanner {
+#lwgxnyienn .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1206,7 +1223,7 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-:where(#opeonsmtei) .gt_group_heading {
+#lwgxnyienn .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1232,7 +1249,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-:where(#opeonsmtei) .gt_empty_group_heading {
+#lwgxnyienn .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1247,15 +1264,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-:where(#opeonsmtei) .gt_from_md > :first-child {
+#lwgxnyienn .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-:where(#opeonsmtei) .gt_from_md > :last-child {
+#lwgxnyienn .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-:where(#opeonsmtei) .gt_row {
+#lwgxnyienn .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1274,7 +1291,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-:where(#opeonsmtei) .gt_stub {
+#lwgxnyienn .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1287,7 +1304,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-:where(#opeonsmtei) .gt_stub_row_group {
+#lwgxnyienn .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1301,11 +1318,11 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-:where(#opeonsmtei) .gt_row_group_first td {
+#lwgxnyienn .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-:where(#opeonsmtei) .gt_summary_row {
+#lwgxnyienn .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1315,16 +1332,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-:where(#opeonsmtei) .gt_first_summary_row {
+#lwgxnyienn .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-:where(#opeonsmtei) .gt_first_summary_row.thick {
+#lwgxnyienn .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-:where(#opeonsmtei) .gt_last_summary_row {
+#lwgxnyienn .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1334,7 +1351,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-:where(#opeonsmtei) .gt_grand_summary_row {
+#lwgxnyienn .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1344,7 +1361,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-:where(#opeonsmtei) .gt_first_grand_summary_row {
+#lwgxnyienn .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1354,11 +1371,11 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-:where(#opeonsmtei) .gt_striped {
+#lwgxnyienn .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-:where(#opeonsmtei) .gt_table_body {
+#lwgxnyienn .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #FFFFFF;
@@ -1367,7 +1384,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #FFFFFF;
 }
 
-:where(#opeonsmtei) .gt_footnotes {
+#lwgxnyienn .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1381,7 +1398,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-:where(#opeonsmtei) .gt_footnote {
+#lwgxnyienn .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -1390,7 +1407,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-:where(#opeonsmtei) .gt_sourcenotes {
+#lwgxnyienn .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1404,7 +1421,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-:where(#opeonsmtei) .gt_sourcenote {
+#lwgxnyienn .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1412,99 +1429,126 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-:where(#opeonsmtei) .gt_left {
+#lwgxnyienn .gt_left {
   text-align: left;
 }
 
-:where(#opeonsmtei) .gt_center {
+#lwgxnyienn .gt_center {
   text-align: center;
 }
 
-:where(#opeonsmtei) .gt_right {
+#lwgxnyienn .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-:where(#opeonsmtei) .gt_font_normal {
+#lwgxnyienn .gt_font_normal {
   font-weight: normal;
 }
 
-:where(#opeonsmtei) .gt_font_bold {
+#lwgxnyienn .gt_font_bold {
   font-weight: bold;
 }
 
-:where(#opeonsmtei) .gt_font_italic {
+#lwgxnyienn .gt_font_italic {
   font-style: italic;
 }
 
-:where(#opeonsmtei) .gt_super {
+#lwgxnyienn .gt_super {
   font-size: 65%;
 }
 
-:where(#opeonsmtei) .gt_footnote_marks {
+#lwgxnyienn .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-:where(#opeonsmtei) .gt_asterisk {
+#lwgxnyienn .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-:where(#opeonsmtei) .gt_indent_1 {
+#lwgxnyienn .gt_indent_1 {
   text-indent: 5px;
 }
 
-:where(#opeonsmtei) .gt_indent_2 {
+#lwgxnyienn .gt_indent_2 {
   text-indent: 10px;
 }
 
-:where(#opeonsmtei) .gt_indent_3 {
+#lwgxnyienn .gt_indent_3 {
   text-indent: 15px;
 }
 
-:where(#opeonsmtei) .gt_indent_4 {
+#lwgxnyienn .gt_indent_4 {
   text-indent: 20px;
 }
 
-:where(#opeonsmtei) .gt_indent_5 {
+#lwgxnyienn .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
-<table class="gt_table">
-  
-  
-  <tbody class="gt_table_body">
-    <tr><td headers="V1" class="gt_row gt_left"><div class="gt_from_md"></div></td></tr>
-    <tr><td headers="V1" class="gt_row gt_left"><div class="gt_from_md"></div></td></tr>
-    <tr><td headers="V1" class="gt_row gt_left"><div class="gt_from_md"></div></td></tr>
-    <tr><td headers="V1" class="gt_row gt_left"><div class="gt_from_md"></div></td></tr>
-    <tr><td headers="V1" class="gt_row gt_left"><div class="gt_from_md"></div></td></tr>
-    <tr><td headers="V1" class="gt_row gt_left"><div class="gt_from_md"><p>Section notes: <a href="./slides/lec11.html"><svg aria-hidden="true" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M320 64h-49.61C262.1 27.48 230.7 0 192 0S121 27.48 113.6 64H64C28.65 64 0 92.66 0 128v320c0 35.34 28.65 64 64 64h256c35.35 0 64-28.66 64-64V128C384 92.66 355.3 64 320 64zM192 48c13.23 0 24 10.77 24 24S205.2 96 192 96S168 85.23 168 72S178.8 48 192 48zM336 448c0 8.82-7.178 16-16 16H64c-8.822 0-16-7.18-16-16V128c0-8.82 7.178-16 16-16h18.26C80.93 117.1 80 122.4 80 128v16C80 152.8 87.16 160 96 160h192c8.836 0 16-7.164 16-16V128c0-5.559-.9316-10.86-2.264-16H320c8.822 0 16 7.18 16 16V448z"></path></svg></a></p>
-</div></td></tr>
-    <tr><td headers="V1" class="gt_row gt_left"><div class="gt_from_md"><p>Daily activity: <a href="https://posit.cloud/spaces/321338/content/5176489"><svg aria-hidden="true" role="img" viewbox="0 0 581 512" style="height:1em;width:1.13em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M581 226.6C581 119.1 450.9 32 290.5 32S0 119.1 0 226.6C0 322.4 103.3 402 239.4 418.1V480h99.1v-61.5c24.3-2.7 47.6-7.4 69.4-13.9L448 480h112l-67.4-113.7c54.5-35.4 88.4-84.9 88.4-139.7zm-466.8 14.5c0-73.5 98.9-133 220.8-133s211.9 40.7 211.9 133c0 50.1-26.5 85-70.3 106.4-2.4-1.6-4.7-2.9-6.4-3.7-10.2-5.2-27.8-10.5-27.8-10.5s86.6-6.4 86.6-92.7-90.6-87.9-90.6-87.9h-199V361c-74.1-21.5-125.2-67.1-125.2-119.9zm225.1 38.3v-55.6c57.8 0 87.8-6.8 87.8 27.3 0 36.5-38.2 28.3-87.8 28.3zm-.9 72.5H365c10.8 0 18.9 11.7 24 19.2-16.1 1.9-33 2.8-50.6 2.9v-22.1z"></path></svg> act_11</a></p>
-</div></td></tr>
-  </tbody>
-  
-  
+
+<table class="gt_table table table-sm table-striped small" data-quarto-postprocess="true">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_left" headers="V1"><div class="gt_from_md">
+<p><a href="https://amkuyper.shinyapps.io/activity_12/">App for Activity 12</a></p>
+</div></td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="V1"><div class="gt_from_md">
+
+</div></td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="V1"><div class="gt_from_md">
+
+</div></td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="V1"><div class="gt_from_md">
+
+</div></td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="V1"><div class="gt_from_md">
+
+</div></td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="V1"><div class="gt_from_md">
+<p>Section notes: <a href="./slides/lec12.html"><img src="data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgcm9sZT0iaW1nIiB2aWV3Ym94PSIwIDAgMzg0IDUxMiIgc3R5bGU9ImhlaWdodDoxZW07d2lkdGg6MC43NWVtO3ZlcnRpY2FsLWFsaWduOi0wLjEyNWVtO21hcmdpbi1sZWZ0OmF1dG87bWFyZ2luLXJpZ2h0OmF1dG87Zm9udC1zaXplOmluaGVyaXQ7ZmlsbDpjdXJyZW50Q29sb3I7b3ZlcmZsb3c6dmlzaWJsZTtwb3NpdGlvbjpyZWxhdGl2ZTsiPjxwYXRoIGQ9Ik0zMjAgNjRoLTQ5LjYxQzI2Mi4xIDI3LjQ4IDIzMC43IDAgMTkyIDBTMTIxIDI3LjQ4IDExMy42IDY0SDY0QzI4LjY1IDY0IDAgOTIuNjYgMCAxMjh2MzIwYzAgMzUuMzQgMjguNjUgNjQgNjQgNjRoMjU2YzM1LjM1IDAgNjQtMjguNjYgNjQtNjRWMTI4QzM4NCA5Mi42NiAzNTUuMyA2NCAzMjAgNjR6TTE5MiA0OGMxMy4yMyAwIDI0IDEwLjc3IDI0IDI0UzIwNS4yIDk2IDE5MiA5NlMxNjggODUuMjMgMTY4IDcyUzE3OC44IDQ4IDE5MiA0OHpNMzM2IDQ0OGMwIDguODItNy4xNzggMTYtMTYgMTZINjRjLTguODIyIDAtMTYtNy4xOC0xNi0xNlYxMjhjMC04LjgyIDcuMTc4LTE2IDE2LTE2aDE4LjI2QzgwLjkzIDExNy4xIDgwIDEyMi40IDgwIDEyOHYxNkM4MCAxNTIuOCA4Ny4xNiAxNjAgOTYgMTYwaDE5MmM4LjgzNiAwIDE2LTcuMTY0IDE2LTE2VjEyOGMwLTUuNTU5LS45MzE2LTEwLjg2LTIuMjY0LTE2SDMyMGM4LjgyMiAwIDE2IDcuMTggMTYgMTZWNDQ4eiI+PC9wYXRoPjwvc3ZnPg==" class="img-fluid"></a></p>
+</div></td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="V1"><div class="gt_from_md">
+<p>Daily activity: <a href="https://posit.cloud/spaces/321338/content/5176490"><img src="data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgcm9sZT0iaW1nIiB2aWV3Ym94PSIwIDAgNTgxIDUxMiIgc3R5bGU9ImhlaWdodDoxZW07d2lkdGg6MS4xM2VtO3ZlcnRpY2FsLWFsaWduOi0wLjEyNWVtO21hcmdpbi1sZWZ0OmF1dG87bWFyZ2luLXJpZ2h0OmF1dG87Zm9udC1zaXplOmluaGVyaXQ7ZmlsbDpjdXJyZW50Q29sb3I7b3ZlcmZsb3c6dmlzaWJsZTtwb3NpdGlvbjpyZWxhdGl2ZTsiPjxwYXRoIGQ9Ik01ODEgMjI2LjZDNTgxIDExOS4xIDQ1MC45IDMyIDI5MC41IDMyUzAgMTE5LjEgMCAyMjYuNkMwIDMyMi40IDEwMy4zIDQwMiAyMzkuNCA0MTguMVY0ODBoOTkuMXYtNjEuNWMyNC4zLTIuNyA0Ny42LTcuNCA2OS40LTEzLjlMNDQ4IDQ4MGgxMTJsLTY3LjQtMTEzLjdjNTQuNS0zNS40IDg4LjQtODQuOSA4OC40LTEzOS43em0tNDY2LjggMTQuNWMwLTczLjUgOTguOS0xMzMgMjIwLjgtMTMzczIxMS45IDQwLjcgMjExLjkgMTMzYzAgNTAuMS0yNi41IDg1LTcwLjMgMTA2LjQtMi40LTEuNi00LjctMi45LTYuNC0zLjctMTAuMi01LjItMjcuOC0xMC41LTI3LjgtMTAuNXM4Ni42LTYuNCA4Ni42LTkyLjctOTAuNi04Ny45LTkwLjYtODcuOWgtMTk5VjM2MWMtNzQuMS0yMS41LTEyNS4yLTY3LjEtMTI1LjItMTE5Ljl6bTIyNS4xIDM4LjN2LTU1LjZjNTcuOCAwIDg3LjgtNi44IDg3LjggMjcuMyAwIDM2LjUtMzguMiAyOC4zLTg3LjggMjguM3ptLS45IDcyLjVIMzY1YzEwLjggMCAxOC45IDExLjcgMjQgMTkuMi0xNi4xIDEuOS0zMyAyLjgtNTAuNiAyLjl2LTIyLjF6Ij48L3BhdGg+PC9zdmc+" class="img-fluid"> act_12</a></p>
+</div></td>
+</tr>
+</tbody>
 </table>
+
 </div>
 </div>
 </div>
 </section>
-<section id="homework-due-tue-apr-25-1159pm" class="level2">
-<h2 class="anchored" data-anchor-id="homework-due-tue-apr-25-1159pm">Homework Due Tue Apr 25 11:59pm</h2>
+<section id="homework-due-thu-apr-27-1159pm" class="level2">
+<h2 class="anchored" data-anchor-id="homework-due-thu-apr-27-1159pm">Homework Due Thu Apr 27 11:59pm</h2>
 <div class="cell">
 <div class="cell-output-display">
 
-<div id="ooymajewtl" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="puejaweiio" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-:where(#ooymajewtl) .gt_table {
+#puejaweiio .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: 0;
@@ -1529,7 +1573,7 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-:where(#ooymajewtl) .gt_heading {
+#puejaweiio .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1541,12 +1585,12 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-:where(#ooymajewtl) .gt_caption {
+#puejaweiio .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-:where(#ooymajewtl) .gt_title {
+#puejaweiio .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1558,7 +1602,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-:where(#ooymajewtl) .gt_subtitle {
+#puejaweiio .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1570,13 +1614,13 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-:where(#ooymajewtl) .gt_bottom_border {
+#puejaweiio .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-:where(#ooymajewtl) .gt_col_headings {
+#puejaweiio .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1591,7 +1635,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-:where(#ooymajewtl) .gt_col_heading {
+#puejaweiio .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1611,7 +1655,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-:where(#ooymajewtl) .gt_column_spanner_outer {
+#puejaweiio .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1623,15 +1667,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-:where(#ooymajewtl) .gt_column_spanner_outer:first-child {
+#puejaweiio .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-:where(#ooymajewtl) .gt_column_spanner_outer:last-child {
+#puejaweiio .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-:where(#ooymajewtl) .gt_column_spanner {
+#puejaweiio .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1643,7 +1687,7 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-:where(#ooymajewtl) .gt_group_heading {
+#puejaweiio .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1669,7 +1713,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-:where(#ooymajewtl) .gt_empty_group_heading {
+#puejaweiio .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1684,15 +1728,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-:where(#ooymajewtl) .gt_from_md > :first-child {
+#puejaweiio .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-:where(#ooymajewtl) .gt_from_md > :last-child {
+#puejaweiio .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-:where(#ooymajewtl) .gt_row {
+#puejaweiio .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1711,7 +1755,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-:where(#ooymajewtl) .gt_stub {
+#puejaweiio .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1724,7 +1768,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-:where(#ooymajewtl) .gt_stub_row_group {
+#puejaweiio .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1738,11 +1782,11 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-:where(#ooymajewtl) .gt_row_group_first td {
+#puejaweiio .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-:where(#ooymajewtl) .gt_summary_row {
+#puejaweiio .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1752,16 +1796,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-:where(#ooymajewtl) .gt_first_summary_row {
+#puejaweiio .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-:where(#ooymajewtl) .gt_first_summary_row.thick {
+#puejaweiio .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-:where(#ooymajewtl) .gt_last_summary_row {
+#puejaweiio .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1771,7 +1815,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-:where(#ooymajewtl) .gt_grand_summary_row {
+#puejaweiio .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1781,7 +1825,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-:where(#ooymajewtl) .gt_first_grand_summary_row {
+#puejaweiio .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1791,11 +1835,11 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-:where(#ooymajewtl) .gt_striped {
+#puejaweiio .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-:where(#ooymajewtl) .gt_table_body {
+#puejaweiio .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #FFFFFF;
@@ -1804,7 +1848,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #FFFFFF;
 }
 
-:where(#ooymajewtl) .gt_footnotes {
+#puejaweiio .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1818,7 +1862,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-:where(#ooymajewtl) .gt_footnote {
+#puejaweiio .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -1827,7 +1871,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-:where(#ooymajewtl) .gt_sourcenotes {
+#puejaweiio .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1841,7 +1885,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-:where(#ooymajewtl) .gt_sourcenote {
+#puejaweiio .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1849,88 +1893,95 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-:where(#ooymajewtl) .gt_left {
+#puejaweiio .gt_left {
   text-align: left;
 }
 
-:where(#ooymajewtl) .gt_center {
+#puejaweiio .gt_center {
   text-align: center;
 }
 
-:where(#ooymajewtl) .gt_right {
+#puejaweiio .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-:where(#ooymajewtl) .gt_font_normal {
+#puejaweiio .gt_font_normal {
   font-weight: normal;
 }
 
-:where(#ooymajewtl) .gt_font_bold {
+#puejaweiio .gt_font_bold {
   font-weight: bold;
 }
 
-:where(#ooymajewtl) .gt_font_italic {
+#puejaweiio .gt_font_italic {
   font-style: italic;
 }
 
-:where(#ooymajewtl) .gt_super {
+#puejaweiio .gt_super {
   font-size: 65%;
 }
 
-:where(#ooymajewtl) .gt_footnote_marks {
+#puejaweiio .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-:where(#ooymajewtl) .gt_asterisk {
+#puejaweiio .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-:where(#ooymajewtl) .gt_indent_1 {
+#puejaweiio .gt_indent_1 {
   text-indent: 5px;
 }
 
-:where(#ooymajewtl) .gt_indent_2 {
+#puejaweiio .gt_indent_2 {
   text-indent: 10px;
 }
 
-:where(#ooymajewtl) .gt_indent_3 {
+#puejaweiio .gt_indent_3 {
   text-indent: 15px;
 }
 
-:where(#ooymajewtl) .gt_indent_4 {
+#puejaweiio .gt_indent_4 {
   text-indent: 20px;
 }
 
-:where(#ooymajewtl) .gt_indent_5 {
+#puejaweiio .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
-<table class="gt_table">
-  
-  
-  <tbody class="gt_table_body">
-    <tr><td headers="V1" class="gt_row gt_left"><div class="gt_from_md"><p>Complete and submit <a href="https://canvas.northwestern.edu/courses/188815/assignments/1221216"><svg aria-hidden="true" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM216 408c0 13.3-10.7 24-24 24s-24-10.7-24-24V305.9l-31 31c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l72-72c9.4-9.4 24.6-9.4 33.9 0l72 72c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-31-31V408z"></path></svg> act_11</a></p>
-</div></td></tr>
-    <tr><td headers="V1" class="gt_row gt_left"><div class="gt_from_md"><p><svg aria-hidden="true" role="img" viewbox="0 0 576 512" style="height:1em;width:1.12em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M249.6 471.5c10.8 3.8 22.4-4.1 22.4-15.5V78.6c0-4.2-1.6-8.4-5-11C247.4 52 202.4 32 144 32C87.5 32 35.1 48.6 9 59.9c-5.6 2.4-9 8-9 14V454.1c0 11.9 12.8 20.2 24.1 16.5C55.6 460.1 105.5 448 144 448c33.9 0 79 14 105.6 23.5zm76.8 0C353 462 398.1 448 432 448c38.5 0 88.4 12.1 119.9 22.6c11.3 3.8 24.1-4.6 24.1-16.5V73.9c0-6.1-3.4-11.6-9-14C540.9 48.6 488.5 32 432 32c-58.4 0-103.4 20-123 35.6c-3.3 2.6-5 6.8-5 11V456c0 11.4 11.7 19.3 22.4 15.5z"></path></svg> Read <a href="https://nustat.github.io/intro-stat-data-sci/07-causality.html">Chapter 7</a></p>
-</div></td></tr>
-    <tr><td headers="V1" class="gt_row gt_left"><div class="gt_from_md"><p>Complete and submit <a href="https://canvas.northwestern.edu/courses/188815/assignments/1221270"><svg aria-hidden="true" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM216 408c0 13.3-10.7 24-24 24s-24-10.7-24-24V305.9l-31 31c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l72-72c9.4-9.4 24.6-9.4 33.9 0l72 72c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-31-31V408z"></path></svg> RC_11</a></p>
-</div></td></tr>
-  </tbody>
-  
-  
+
+<table class="gt_table table table-sm table-striped small" data-quarto-postprocess="true">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_left" headers="V1"><div class="gt_from_md">
+<p>Complete and submit <a href="https://canvas.northwestern.edu/courses/188815/assignments/1221217"><img src="data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgcm9sZT0iaW1nIiB2aWV3Ym94PSIwIDAgMzg0IDUxMiIgc3R5bGU9ImhlaWdodDoxZW07d2lkdGg6MC43NWVtO3ZlcnRpY2FsLWFsaWduOi0wLjEyNWVtO21hcmdpbi1sZWZ0OmF1dG87bWFyZ2luLXJpZ2h0OmF1dG87Zm9udC1zaXplOmluaGVyaXQ7ZmlsbDpjdXJyZW50Q29sb3I7b3ZlcmZsb3c6dmlzaWJsZTtwb3NpdGlvbjpyZWxhdGl2ZTsiPjxwYXRoIGQ9Ik02NCAwQzI4LjcgMCAwIDI4LjcgMCA2NFY0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRIMzIwYzM1LjMgMCA2NC0yOC43IDY0LTY0VjE2MEgyNTZjLTE3LjcgMC0zMi0xNC4zLTMyLTMyVjBINjR6TTI1NiAwVjEyOEgzODRMMjU2IDB6TTIxNiA0MDhjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRWMzA1LjlsLTMxIDMxYy05LjQgOS40LTI0LjYgOS40LTMzLjkgMHMtOS40LTI0LjYgMC0zMy45bDcyLTcyYzkuNC05LjQgMjQuNi05LjQgMzMuOSAwbDcyIDcyYzkuNCA5LjQgOS40IDI0LjYgMCAzMy45cy0yNC42IDkuNC0zMy45IDBsLTMxLTMxVjQwOHoiPjwvcGF0aD48L3N2Zz4=" class="img-fluid"> act_12</a></p>
+</div></td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="V1"><div class="gt_from_md">
+<p><img src="data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgcm9sZT0iaW1nIiB2aWV3Ym94PSIwIDAgNTc2IDUxMiIgc3R5bGU9ImhlaWdodDoxZW07d2lkdGg6MS4xMmVtO3ZlcnRpY2FsLWFsaWduOi0wLjEyNWVtO21hcmdpbi1sZWZ0OmF1dG87bWFyZ2luLXJpZ2h0OmF1dG87Zm9udC1zaXplOmluaGVyaXQ7ZmlsbDpjdXJyZW50Q29sb3I7b3ZlcmZsb3c6dmlzaWJsZTtwb3NpdGlvbjpyZWxhdGl2ZTsiPjxwYXRoIGQ9Ik0yNDkuNiA0NzEuNWMxMC44IDMuOCAyMi40LTQuMSAyMi40LTE1LjVWNzguNmMwLTQuMi0xLjYtOC40LTUtMTFDMjQ3LjQgNTIgMjAyLjQgMzIgMTQ0IDMyQzg3LjUgMzIgMzUuMSA0OC42IDkgNTkuOWMtNS42IDIuNC05IDgtOSAxNFY0NTQuMWMwIDExLjkgMTIuOCAyMC4yIDI0LjEgMTYuNUM1NS42IDQ2MC4xIDEwNS41IDQ0OCAxNDQgNDQ4YzMzLjkgMCA3OSAxNCAxMDUuNiAyMy41em03Ni44IDBDMzUzIDQ2MiAzOTguMSA0NDggNDMyIDQ0OGMzOC41IDAgODguNCAxMi4xIDExOS45IDIyLjZjMTEuMyAzLjggMjQuMS00LjYgMjQuMS0xNi41VjczLjljMC02LjEtMy40LTExLjYtOS0xNEM1NDAuOSA0OC42IDQ4OC41IDMyIDQzMiAzMmMtNTguNCAwLTEwMy40IDIwLTEyMyAzNS42Yy0zLjMgMi42LTUgNi44LTUgMTFWNDU2YzAgMTEuNCAxMS43IDE5LjMgMjIuNCAxNS41eiI+PC9wYXRoPjwvc3ZnPg==" class="img-fluid"> Read <a href="https://nustat.github.io/intro-stat-data-sci/08-populations.html">Chapter 8</a></p>
+</div></td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="V1"><div class="gt_from_md">
+<p>Complete and submit <a href="https://canvas.northwestern.edu/courses/188815/assignments/1221271"><img src="data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgcm9sZT0iaW1nIiB2aWV3Ym94PSIwIDAgMzg0IDUxMiIgc3R5bGU9ImhlaWdodDoxZW07d2lkdGg6MC43NWVtO3ZlcnRpY2FsLWFsaWduOi0wLjEyNWVtO21hcmdpbi1sZWZ0OmF1dG87bWFyZ2luLXJpZ2h0OmF1dG87Zm9udC1zaXplOmluaGVyaXQ7ZmlsbDpjdXJyZW50Q29sb3I7b3ZlcmZsb3c6dmlzaWJsZTtwb3NpdGlvbjpyZWxhdGl2ZTsiPjxwYXRoIGQ9Ik02NCAwQzI4LjcgMCAwIDI4LjcgMCA2NFY0NDhjMCAzNS4zIDI4LjcgNjQgNjQgNjRIMzIwYzM1LjMgMCA2NC0yOC43IDY0LTY0VjE2MEgyNTZjLTE3LjcgMC0zMi0xNC4zLTMyLTMyVjBINjR6TTI1NiAwVjEyOEgzODRMMjU2IDB6TTIxNiA0MDhjMCAxMy4zLTEwLjcgMjQtMjQgMjRzLTI0LTEwLjctMjQtMjRWMzA1LjlsLTMxIDMxYy05LjQgOS40LTI0LjYgOS40LTMzLjkgMHMtOS40LTI0LjYgMC0zMy45bDcyLTcyYzkuNC05LjQgMjQuNi05LjQgMzMuOSAwbDcyIDcyYzkuNCA5LjQgOS40IDI0LjYgMCAzMy45cy0yNC42IDkuNC0zMy45IDBsLTMxLTMxVjQwOHoiPjwvcGF0aD48L3N2Zz4=" class="img-fluid"> RC_12</a></p>
+</div></td>
+</tr>
+</tbody>
 </table>
+
 </div>
 </div>
 </div>
 <p><br><br></p>
-<div class="cell">
-
-</div>
 
 
 </section>
@@ -1963,9 +2014,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -2030,6 +2095,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -2068,12 +2219,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/https:\/\/dsass1\.github\.io\/stat202_website\//);
+      var filterRegex = new RegExp("https:\/\/dsass1\.github\.io\/stat202_website\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
-    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -2095,6 +2246,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right">This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>
