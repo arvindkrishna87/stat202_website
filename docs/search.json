@@ -270,7 +270,7 @@
     "href": "index.html",
     "title": "Today’s Agenda",
     "section": "",
-    "text": "Important\n\n\n\nCourse Survey 1 is due Tuesday 4/18 11:59pm."
+    "text": "Important\n\n\n\nCourse Survey 2 is due Sunday 5/7 11:59pm."
   },
   {
     "objectID": "index.html#class-tue-mar-28",
@@ -284,7 +284,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 6.0 - 6.1"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 9.0 - 9.1"
   },
   {
     "objectID": "index.html#participate",
@@ -298,7 +298,7 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_10"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    Activity 14 Worksheet\n\n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_14"
   },
   {
     "objectID": "index.html#homework-due-tue-mar-28-1159pm",
@@ -1628,7 +1628,7 @@
     "href": "course-ec.html#ec-opportunity-2---sample-exams",
     "title": "Course Extra Credit Opportunities",
     "section": "EC Opportunity 2 - Sample Exams",
-    "text": "EC Opportunity 2 - Sample Exams\nComplete any of the 3 sample exams by the due date and upload the completed sample exam to the respective Canvas assignment. Each sample exam will count as 1 bonus points toward activities. Yes, you can get over 100% in this category.\nRequirements:\n\nname is submitted\nevery question/exercise must be attempted\nin the comments of the submission report whether or not there were any issues. If there were none simply state “no issues”\n\nIf you do not complete every one of those requirements you will not get credit. This is checking that 1) there are no bugs for me to fix prior to the exam and 2) you know how to properly submit an exam. It will NOT be graded for accuracy."
+    "text": "EC Opportunity 2 - Sample Exams\nComplete any of the 3 sample exams by the due date and upload the completed sample exam to the respective Canvas assignment. Each sample exam will count as 1 bonus points toward activities. Yes, you can get over 100% in this category.\nRequirements:\n\nname is submitted\nevery question/exercise must be submitted.\nproperly downloaded (No NA responses/exercises)\nin the comments of the submission report whether or not there were any issues. If there were none simply state “no issues”\n\nIf you do not complete every one of those requirements you will not get credit. This is checking that 1) there are no bugs for me to fix prior to the exam and 2) you know how to properly submit an exam. It will NOT be graded for accuracy."
   },
   {
     "objectID": "course-ec.html#ec-opportunity-3---aha-slides",
@@ -1678,5 +1678,33 @@
     "title": "Today’s Agenda",
     "section": "Homework Due Sun Apr 23 11:59pm",
     "text": "Homework Due Sun Apr 23 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_10\n\n     Read Sections 6.2 - 6.4\n\n    Complete and submit  RC_10"
+  },
+  {
+    "objectID": "index.html#class-fri-apr-28",
+    "href": "index.html#class-fri-apr-28",
+    "title": "Today’s Agenda",
+    "section": "Class: Fri Apr 28",
+    "text": "Class: Fri Apr 28"
+  },
+  {
+    "objectID": "index.html#homework-due-sun-apr-30-1159pm",
+    "href": "index.html#homework-due-sun-apr-30-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Sun Apr 30 11:59pm",
+    "text": "Homework Due Sun Apr 30 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_13\n\n    Complete and submit  RC_13"
+  },
+  {
+    "objectID": "index.html#class-wed-may-03",
+    "href": "index.html#class-wed-may-03",
+    "title": "Today’s Agenda",
+    "section": "Class: Wed May 03",
+    "text": "Class: Wed May 03"
+  },
+  {
+    "objectID": "index.html#homework-due-thu-may-04-1159pm",
+    "href": "index.html#homework-due-thu-may-04-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Thu May 04 11:59pm",
+    "text": "Homework Due Thu May 04 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_14\n\n     Read Sections 9.2 - 9.3\n\n    Complete and submit  RC_14"
   }
 ]
