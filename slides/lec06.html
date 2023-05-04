@@ -466,15 +466,15 @@
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(penguins)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 6 × 8
-  species island    bill_length_mm bill_depth_mm flipper_l…¹ body_…² sex    year
-  &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;       &lt;int&gt;   &lt;int&gt; &lt;fct&gt; &lt;int&gt;
-1 Adelie  Torgersen           39.1          18.7         181    3750 male   2007
-2 Adelie  Torgersen           39.5          17.4         186    3800 fema…  2007
-3 Adelie  Torgersen           40.3          18           195    3250 fema…  2007
-4 Adelie  Torgersen           NA            NA            NA      NA &lt;NA&gt;   2007
-5 Adelie  Torgersen           36.7          19.3         193    3450 fema…  2007
-6 Adelie  Torgersen           39.3          20.6         190    3650 male   2007
-# … with abbreviated variable names ¹​flipper_length_mm, ²​body_mass_g</code></pre>
+  species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g
+  &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt;
+1 Adelie  Torgersen           39.1          18.7               181        3750
+2 Adelie  Torgersen           39.5          17.4               186        3800
+3 Adelie  Torgersen           40.3          18                 195        3250
+4 Adelie  Torgersen           NA            NA                  NA          NA
+5 Adelie  Torgersen           36.7          19.3               193        3450
+6 Adelie  Torgersen           39.3          20.6               190        3650
+# ℹ 2 more variables: sex &lt;fct&gt;, year &lt;int&gt;</code></pre>
 </div>
 </div>
 </div>
@@ -561,20 +561,20 @@ $ body_mass_lb      &lt;dbl&gt; 8.267196, 8.377425, 7.164903, NA, 7.605820, 8.04
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(bill_length_mm))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 344 × 9
-   species   island bill_length_mm bill_de…¹ flipp…² body_…³ sex    year body_…⁴
-   &lt;fct&gt;     &lt;fct&gt;           &lt;dbl&gt;     &lt;dbl&gt;   &lt;int&gt;   &lt;int&gt; &lt;fct&gt; &lt;int&gt;   &lt;dbl&gt;
- 1 Gentoo    Biscoe           59.6      17       230    6050 male   2007   13.3 
- 2 Chinstrap Dream            58        17.8     181    3700 fema…  2007    8.16
- 3 Gentoo    Biscoe           55.9      17       228    5600 male   2009   12.3 
- 4 Chinstrap Dream            55.8      19.8     207    4000 male   2009    8.82
- 5 Gentoo    Biscoe           55.1      16       230    5850 male   2009   12.9 
- 6 Gentoo    Biscoe           54.3      15.7     231    5650 male   2008   12.5 
- 7 Chinstrap Dream            54.2      20.8     201    4300 male   2008    9.48
- 8 Chinstrap Dream            53.5      19.9     205    4500 male   2008    9.92
- 9 Gentoo    Biscoe           53.4      15.8     219    5500 male   2009   12.1 
-10 Chinstrap Dream            52.8      20       205    4550 male   2008   10.0 
-# … with 334 more rows, and abbreviated variable names ¹​bill_depth_mm,
-#   ²​flipper_length_mm, ³​body_mass_g, ⁴​body_mass_lb</code></pre>
+   species   island bill_length_mm bill_depth_mm flipper_length_mm body_mass_g
+   &lt;fct&gt;     &lt;fct&gt;           &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;       &lt;int&gt;
+ 1 Gentoo    Biscoe           59.6          17                 230        6050
+ 2 Chinstrap Dream            58            17.8               181        3700
+ 3 Gentoo    Biscoe           55.9          17                 228        5600
+ 4 Chinstrap Dream            55.8          19.8               207        4000
+ 5 Gentoo    Biscoe           55.1          16                 230        5850
+ 6 Gentoo    Biscoe           54.3          15.7               231        5650
+ 7 Chinstrap Dream            54.2          20.8               201        4300
+ 8 Chinstrap Dream            53.5          19.9               205        4500
+ 9 Gentoo    Biscoe           53.4          15.8               219        5500
+10 Chinstrap Dream            52.8          20                 205        4550
+# ℹ 334 more rows
+# ℹ 3 more variables: sex &lt;fct&gt;, year &lt;int&gt;, body_mass_lb &lt;dbl&gt;</code></pre>
 </div>
 </div>
 </div>
