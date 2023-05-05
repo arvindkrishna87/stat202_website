@@ -81,7 +81,7 @@
     "href": "course-schedule.html",
     "title": "STAT 202: Introduction to Statistics and Data Science",
     "section": "",
-    "text": "Week\n      Date\n      Topic\n      \n        Prepare\n      \n      \n        Agenda\n      \n      \n        Homework\n      \n    \n    \n      Reading\n      Slides\n      Activity\n      submit_act\n      Tutorial\n      due\n    \n  \n  \n    1\n\nTue Mar 28\nIntroduction\nSyllabus\n\n\n\n practice\n\n\n RC_01\n\nTue Mar 28\n    \nWed Mar 29\nRstudio Cloud\nPreface & Ch 1\n\n\n\n act_01\n\n act_01\n\n RC_02\n\nThu Mar 30\n    \nFri Mar 31\nData Visualization\nSections 2.0 - 2.3\n\n\n\n act_02\n\n act_02\n\n RC_03\n\nSun Apr 02\n    2\n\nMon Apr 03\nData Visualization\nSections 2.4 - 2.6\n\n\n\n act_03\n\n act_03\n\n RC_04\n\nTue Apr 04\n    \nWed Apr 05\nData Visualization\nSections 2.7 - 2.9\n\n\n\n act_04\n\n act_04\n\n RC_05\n\nThu Apr 06\n    \nFri Apr 07\nData Wrangling\nSections 3.0 - 3.3\n\n\n\n act_05\n\n act_05\n\n RC_06\n\nSun Apr 09\n    3\n\nMon Apr 10\nData Wrangling\nSections 3.4 - 3.9\n\n\n\n act_06\n\n act_06\n\n RC_07\n\nTue Apr 11\n    \nWed Apr 12\nTidy Data\nChapter 4\n\n\n\n act_07\n\n act_07\n\n\nThu Apr 13\n    \nFri Apr 14\nExam 1\n\n\n\n\n\nSun Apr 16\n    4\n\nMon Apr 17\nBasic Regression\nSections 5.0 - 5.1\n\n\n\n act_08\n\n act_08\n\n RC_08\n\nTue Apr 18\n    \nWed Apr 19\nBasic Regression\nSections 5.2 - 5.4\n\n\n\n act_09\n\n act_09\n\n RC_09\n\nThu Apr 20\n    \nFri Apr 21\nMultiple Regression\nSections 6.0 - 6.1\n\n\n\n act_10\n\n act_10\n\n RC_10\n\nSun Apr 23\n    5\n\nMon Apr 24\nMultiple Regression\nSections 6.2 - 6.4\n\n\n\n act_11\n\n act_11\n\n RC_11\n\nTue Apr 25\n    \nWed Apr 26\nRandomization & Causality\nChapter 7\n\n\n\n act_12\n\n act_12\n\n RC_12\n\nThu Apr 27\n    \nFri Apr 28\nPop & Generalizability\nChapter 8\n\n\n\n act_13\n\n act_13\n\n RC_13\n\nSun Apr 30\n    6\n\nMon May 01\nExam 2\n\n\n\n\n\nTue May 02\n    \nWed May 03\nNormal Distributions\nSections 9.0 - 9.1\n\n\n\n act_14\n\n act_14\n\n RC_14\n\nThu May 04\n    \nFri May 05\nSampling Distributions\nSections 9.2 - 9.3\n\n\n\n act_15\n\n act_15\n\n RC_15\n\nSun May 07\n    7\n\nMon May 08\nSampling Distributions\nSections 9.4 - 9.7\n\n\n\n act_16\n\n act_16\n\n RC_16\n\nTue May 09\n    \nWed May 10\nConfidence Intervals\nChapter 10\n\n\n\n act_17\n\n\n RC_17\n\nThu May 11\n    \nFri May 12\nConfidence Intervals\n\n\n\n act_17 (cont'd)\n\n act_17\n\n\nSun May 14\n    8\n\nMon May 15\nP-values\nChapter 11\n\n\n\n act_18\n\n act_18\n\n RC_18\n\nTue May 16\n    \nWed May 17\nHypothesis Testing I\nChapter 12\n\n\n\n act_19\n\n act_19\n\n RC_19\n\nThu May 18\n    \nFri May 19\nHypothesis Testing II\n\n\n\n act_20\n\n\n\nSun May 21\n    9\n\nMon May 22\nHypothesis Testing III\n\n\n act_20 (cont'd)\n\n act_20\n\n\nTue May 23\n    \nWed May 24\nPutting it all together I\nChapter 13\n\n\n\n\n\nThu May 25\n    \nFri May 26\nExam 3\n\n\n\n\n\nSun May 28\n    10\n\nMon May 29\nMemorial Day - No Class\n\n\n\n\n\nTue May 30\n    \nWed May 31\nReading Week - No Class\n\n\n\n\n\nThu Jun 01\n    \nFri Jun 02\nReading Week - No Class\n\n\n\n\n\nSun Jun 04\n    11\n\nTue Jun 06\nOptional Final Exam: 12 - 2pm\n\n\n\n\n\nTue Jun 06"
+    "text": "Week\n      Date\n      Topic\n      \n        Prepare\n      \n      \n        Agenda\n      \n      \n        Homework\n      \n    \n    \n      Reading\n      Slides\n      Activity\n      submit_act\n      Tutorial\n      due\n    \n  \n  \n    1\n\nTue Mar 28\nIntroduction\nSyllabus\n\n\n\n practice\n\n\n RC_01\n\nTue Mar 28\n    \nWed Mar 29\nRstudio Cloud\nPreface & Ch 1\n\n\n\n act_01\n\n act_01\n\n RC_02\n\nThu Mar 30\n    \nFri Mar 31\nData Visualization\nSections 2.0 - 2.3\n\n\n\n act_02\n\n act_02\n\n RC_03\n\nSun Apr 02\n    2\n\nMon Apr 03\nData Visualization\nSections 2.4 - 2.6\n\n\n\n act_03\n\n act_03\n\n RC_04\n\nTue Apr 04\n    \nWed Apr 05\nData Visualization\nSections 2.7 - 2.9\n\n\n\n act_04\n\n act_04\n\n RC_05\n\nThu Apr 06\n    \nFri Apr 07\nData Wrangling\nSections 3.0 - 3.3\n\n\n\n act_05\n\n act_05\n\n RC_06\n\nSun Apr 09\n    3\n\nMon Apr 10\nData Wrangling\nSections 3.4 - 3.9\n\n\n\n act_06\n\n act_06\n\n RC_07\n\nTue Apr 11\n    \nWed Apr 12\nTidy Data\nChapter 4\n\n\n\n act_07\n\n act_07\n\n\nThu Apr 13\n    \nFri Apr 14\nExam 1\n\n\n\n\n\nSun Apr 16\n    4\n\nMon Apr 17\nBasic Regression\nSections 5.0 - 5.1\n\n\n\n act_08\n\n act_08\n\n RC_08\n\nTue Apr 18\n    \nWed Apr 19\nBasic Regression\nSections 5.2 - 5.4\n\n\n\n act_09\n\n act_09\n\n RC_09\n\nThu Apr 20\n    \nFri Apr 21\nMultiple Regression\nSections 6.0 - 6.1\n\n\n\n act_10\n\n act_10\n\n RC_10\n\nSun Apr 23\n    5\n\nMon Apr 24\nMultiple Regression\nSections 6.2 - 6.4\n\n\n\n act_11\n\n act_11\n\n RC_11\n\nTue Apr 25\n    \nWed Apr 26\nRandomization & Causality\nChapter 7\n\n\n\n act_12\n\n act_12\n\n RC_12\n\nThu Apr 27\n    \nFri Apr 28\nPop & Generalizability\nChapter 8\n\n\n\n act_13\n\n act_13\n\n RC_13\n\nSun Apr 30\n    6\n\nMon May 01\nExam 2\n\n\n\n\n\nTue May 02\n    \nWed May 03\nNormal Distributions\nSections 9.0 - 9.1\n\n\n\n act_14\n\n act_14\n\n RC_14\n\nThu May 04\n    \nFri May 05\nSampling Distributions\nSections 9.2 - 9.3\n\n\n\n act_15\n\n act_15\n\n RC_15\n\nSun May 07\n    7\n\nMon May 08\nSampling Distributions\nSections 9.4 - 9.7\n\n\n\n act_16\n\n act_16\n\n RC_16\n\nTue May 09\n    \nWed May 10\nConfidence Intervals\nChapter 10\n\n\n\n act_17\n\n\n RC_17\n\nThu May 11\n    \nFri May 12\nConfidence Intervals\n\n\n\n act_17 (cont’d)\n\n act_17\n\n\nSun May 14\n    8\n\nMon May 15\nP-values\nChapter 11\n\n\n\n act_18\n\n act_18\n\n RC_18\n\nTue May 16\n    \nWed May 17\nHypothesis Testing I\nChapter 12\n\n\n\n act_19\n\n act_19\n\n RC_19\n\nThu May 18\n    \nFri May 19\nHypothesis Testing II\n\n\n\n act_20\n\n\n\nSun May 21\n    9\n\nMon May 22\nHypothesis Testing III\n\n\n act_20 (cont’d)\n\n act_20\n\n\nTue May 23\n    \nWed May 24\nPutting it all together I\nChapter 13\n\n\n\n\n\nThu May 25\n    \nFri May 26\nExam 3\n\n\n\n\n\nSun May 28\n    10\n\nMon May 29\nMemorial Day - No Class\n\n\n\n\n\nTue May 30\n    \nWed May 31\nReading Week - No Class\n\n\n\n\n\nThu Jun 01\n    \nFri Jun 02\nReading Week - No Class\n\n\n\n\n\nSun Jun 04\n    11\n\nTue Jun 06\nOptional Final Exam: 12 - 2pm\n\n\n\n\n\nTue Jun 06"
   },
   {
     "objectID": "course-solutions.html",
@@ -284,7 +284,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n  \n     Read Sections 9.0 - 9.1"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n     Read Sections 9.2 - 9.3"
   },
   {
     "objectID": "index.html#participate",
@@ -298,7 +298,7 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n  \n    Activity 14 Worksheet\n\n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_14"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    App for Activity 15\n\n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_15"
   },
   {
     "objectID": "index.html#homework-due-tue-mar-28-1159pm",
@@ -1706,5 +1706,19 @@
     "title": "Today’s Agenda",
     "section": "Homework Due Thu May 04 11:59pm",
     "text": "Homework Due Thu May 04 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_14\n\n     Read Sections 9.2 - 9.3\n\n    Complete and submit  RC_14"
+  },
+  {
+    "objectID": "index.html#class-fri-may-05",
+    "href": "index.html#class-fri-may-05",
+    "title": "Today’s Agenda",
+    "section": "Class: Fri May 05",
+    "text": "Class: Fri May 05"
+  },
+  {
+    "objectID": "index.html#homework-due-sun-may-07-1159pm",
+    "href": "index.html#homework-due-sun-may-07-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Sun May 07 11:59pm",
+    "text": "Homework Due Sun May 07 11:59pm\n\n\n\n\n\n\n  \n  \n    Complete and submit  act_15\n\n     Read Sections 9.4 - 9.7\n\n    Complete and submit  RC_15"
   }
 ]
