@@ -14,6 +14,20 @@
     "text": "We use Campuswire (see syllabus or welcome page for enrollment code) as our preferred platform for announcements and questions about activities, reading checks, or general course-related questions. (Questions about individual grades or appointments should be addressed through email.)\nThe Campuswire system is designed to get you help quickly and efficiently from your classmates and the instructional team. Rather than emailing your questions to the instructional team, you should post your questions on Campuswire. If a member of the team receives a course-related question via email, they will ask that you post on Campuswire. You can post questions anonymously.\nThe instructional team will check Campuswire periodically to answer students’ questions (do not expect this on weekends or after 5 PM on weekdays). However, we strongly encourage students to answer each other’s questions. Students who participate actively on Campuswire will receive bonus final exam points at the end of the quarter.\nWe measure student participation using the built-in Campuswire reputation system, which awards reputation points based on questions asked, answers given, and upvotes. The levels are as follows:\nStudents gaining Lvl 1: Starter status by the end of the course will have earned 1 bonus final project point;\nStudents gaining Lvl 2: Intermediate status by the end of the course will have earned 2 bonus final project points;\nStudents gaining Lvl 3: Advanced status by the end of the course will have earned 3 bonus final project points.\nNote that the highest level requires upvotes. It benefits all students to upvote their peers for responses that they find useful.\nIn addition, Campuswire provides a list of the top contributors in the class. At the end of the course, the top 3 contributors will have the bonus final project points they earned doubled.\nThis means that a student who is among the top 3 and has the rank of Lvl 3 (Advanced) will receive 6 bonus final project points. If they are top 3 and have a rank of Lvl 2 (Intermediate) they will receive 4 bonus final project points.\nDISCLAIMER\nStudents attempting or participating in an attempt to game the system will be ineligible for bonus points."
   },
   {
+    "objectID": "course-ec.html#ec-opportunity-2---sample-exams",
+    "href": "course-ec.html#ec-opportunity-2---sample-exams",
+    "title": "Course Extra Credit Opportunities",
+    "section": "EC Opportunity 2 - Sample Exams",
+    "text": "EC Opportunity 2 - Sample Exams\nComplete any of the 3 sample exams by the due date and upload the completed sample exam to the respective Canvas assignment. Each sample exam will count as 1 bonus points toward activities. Yes, you can get over 100% in this category.\nRequirements:\n\nname is submitted\nevery question/exercise must be submitted.\nproperly downloaded (No NA responses/exercises)\nin the comments of the submission report whether or not there were any issues. If there were none simply state “no issues”\n\nIf you do not complete every one of those requirements you will not get credit. This is checking that 1) there are no bugs for me to fix prior to the exam and 2) you know how to properly submit an exam. It will NOT be graded for accuracy."
+  },
+  {
+    "objectID": "course-ec.html#ec-opportunity-3---aha-slides",
+    "href": "course-ec.html#ec-opportunity-3---aha-slides",
+    "title": "Course Extra Credit Opportunities",
+    "section": "EC Opportunity 3 - Aha Slides",
+    "text": "EC Opportunity 3 - Aha Slides\nOur top 5 participants will receive 1 bonus point towards activities. Points reset after each exam meaning you have 3 opportunities to be a top 5 participant."
+  },
+  {
     "objectID": "course-irl.html",
     "href": "course-irl.html",
     "title": "Stats and Data Sci in real life",
@@ -25,7 +39,7 @@
     "href": "course-irl.html#what-students-say",
     "title": "Stats and Data Sci in real life",
     "section": "What student’s say?",
-    "text": "What student’s say?"
+    "text": "What student’s say?\n\n\nWarning: package 'ggplot2' was built under R version 4.2.3\n\n\nWarning: package 'dplyr' was built under R version 4.2.3"
   },
   {
     "objectID": "course-lectures.html",
@@ -46,35 +60,35 @@
     "href": "course-project.html",
     "title": "Final Project",
     "section": "",
-    "text": "The final project is to be completed in groups of 3-6. Why? 1) Group work and collaboration is a good life skill. 2) There is no possible way we can grade 150 projects by the time grades are due.\nThe final project is due on Sunday March 12th 11:59pm. Groups are expected to submit their project electronically to Canvas, similar to how you submit your work for daily activities. You will type your project directly into a qmd file and knit an html document. You should submit your .qmd and .html file (and dataset if you chose one other than the one I provided). Only ONE person from the group needs to submit the project. Make sure everyone’s name is on the project.\nThe project should be in complete sentences within the context of your dataset when appropriate. Students are expected to also show their work (i.e., include your R code). Your target audience is the grader and myself, we want to see your code and the output of your code."
+    "text": "The final project is to be completed in groups of 3-6. Why? 1) Group work and collaboration is a good life skill. 2) There is no possible way we can grade 150 projects by the time grades are due.\nThe final project is due on Sunday June 4th 11:59pm. Groups are expected to submit their project electronically to Canvas, similar to how you submit your work for daily activities. You will type your project directly into a qmd file and knit an html document. You should submit both your .qmd and .html file (and dataset if you chose one other than the one I provided). Only ONE person from the group needs to submit the project. Make sure everyone’s name is on the project. Failure to submit both the .qmd and .html will result in a deduction.\nThis should read as a report! The project should be in paragraphs and complete sentences within the context of your dataset when appropriate. Do not bold or italicize your entire paper. Do not begin a section with code, you should introduce context before showing graphics/code. Students are expected to also show their work (i.e., include your R code). Your target audience is the grader and myself, we want to see your code and the output of your code."
   },
   {
     "objectID": "course-project.html#choose-a-group",
     "href": "course-project.html#choose-a-group",
     "title": "Final Project",
     "section": "Choose a Group",
-    "text": "Choose a Group\nYou must join your group on Canvas! Grades are linked to these groups - I will not hunt you down. To get a grade you must be in a group. This is 10% of your grade, you do not want a 0 for the project. On Canvas go to the People tab, and select Group to add yourself to a group.\nEveryone in your group must agree to be in your group. I should not be getting emails stating “Jane Doe is in my group and we don’t know who that is”. If you do not know anyone in the class, Groups 1 -5 are titled “Random Join”. Anyone can join them. You can communicate with your group through the Canvas group, make a group on Campuswire, or exchange email.\nThe most effective ways groups have found to work together is by creating a Google drive document that members can copy/paste code into to share and jointly edit the report."
+    "text": "Choose a Group\nYou must join your group on Canvas! Grades are linked to these groups - I will not hunt you down. To get a grade you must be in a group. This is 10% of your grade, you do not want a 0 for the project. On Canvas go to the People tab, and select Final Project Group to add yourself to a group.\nEveryone in your group must agree to be in your group. I should not be getting emails stating “Jane Doe is in my group and we don’t know who that is”. If you do not know anyone in the class, Groups 1 - 9 are titled “Random Join”. Anyone can join them. You can communicate with your group through the Canvas group, make a group on Campuswire, or exchange email.\nThe most effective ways groups have found to work together is by creating a Google drive document that members can copy/paste code into to share and jointly edit the report. It is very obvious when groups have a single student take a section of the project rather than working collaboratively, those groups tend to do poorly on the project."
   },
   {
     "objectID": "course-project.html#choose-a-dataset",
     "href": "course-project.html#choose-a-dataset",
     "title": "Final Project",
     "section": "Choose a Dataset",
-    "text": "Choose a Dataset\nFor anyone complaining that we don’t use enough “real-life” data examples this is your chance!\nOption 1:\nYou may use a dataset that I provide. This dataset will be pre-loaded and located in the RStudio Cloud Project.\n\nClass Survey Data: You cannot use any analysis that is an existing question on your exam. You may think of a similar question but it should not be identical. You must use the full dataset, the midterm and final remove certain columns and observations to reduce time computations. See the codebook for an explanation of the variables.\n\nOption 2:\nAs a group you can pick a dataset of interest to explore! This can be any dataset of your choice that meets the following criteria:\n\nAt least 100 observations\nAt least 10 variables\nThe variables should be a mix of both categorical and numeric\nAt least one variable that can be used as a reasonable response variable for regression\nYou may not use data that has previously been used in any Activity\nYou may not use any data that is a part of the ISDSdatasets, ggplot2, or palmerpenguins packages.\n\nIf you choose your own dataset, you will need to upload your data to the RStudio Cloud Project. Under the Files Pane, click on the “data” folder, then click the “upload” icon.\n\n\n\n\n\n\n\nWhere to find data?\n\nSocial Science Data Resources: A LibGuide maintained by Anne Zald from the Northwestern library; this page provides curated links to a number of data sources by subject.\nKaggle: Kaggle offers aggregated datasets, but it’s a community hub rather than a search engine. Kaggle launched in 2010 with a number of machine learning competitions, which subsequently solved problems for the likes of NASA and Ford. It has since evolved into a renowned open data platform, offering cloud-based collaboration for data scientists, as well as educational tools for teaching artificial intelligence and data analysis techniques… plus, of course, tons of great datasets covering almost any topic you can imagine.\nGoogle Dataset Search: Launched in 2018, Google Dataset Search is like Google’s standard search engine, but strictly for data. While it’s not the best tool if you prefer to browse, if you have a particular topic or keyword in mind, it won’t disappoint. Google Dataset Search aggregates data from external sources, providing a clear summary of what’s available, a description of the data, who it’s provided by, and when it was last updated. It’s an excellent place to start.\nU.S. Census Bureau: the U.S. Census Bureau publishes reams of demographic data at the state, city, and even zip code level. It is a fantastic data set for students interested in creating geographic data visualizations and can be accessed on the Census Bureau website. Alternatively, the data can be accessed via an API.\nData.gov: In 2015, the US Government made all its data publicly available. With over 200,000 datasets covering everything from climate change to crime, you can lose yourself in the database for hours. For a government website, it has some surprisingly user-friendly search functions, including the ability to drill down by geographical area, organization type, and file format. Search results are also clearly labeled at federal, state, county, and city levels. \nFiveThirtyEight: If you’re interested in data at all, you’ve almost certainly heard of FiveThirtyEight; it’s one of the best-established data journalism outlets in the world. They write interesting data-driven articles, like “Don’t blame a skills gap for lack of hiring in manufacturing” and “2016 NFL Predictions”. What you may not know is that FiveThirtyEight also makes the data sets used in its articles available online on Github and on its own data portal.\nFBI Crime Data Explorer: If you’re fascinated by crime, the FBI Crime Data Explorer is the one for you. It provides a broad collection of crime statistics from a variety of state organizations (universities and local law enforcement) and government (on a local, regional, and state-level). Pull data on hate crimes, officer assaults, homicides, and more. It also includes some helpful user guides to support data navigation.\nAwesome Public Datasets: This github hosts a library of awesome, public datasets! They are all sorted by category and link you straight to the hosting website.\nSports Reference: “Our Primary Aim is to answer our users’ questions with the easiest-to-use, fastest, and most complete sports statistics anywhere. If we have some fun in the process, that’s good too.”\nThe World Bank: The World Bank is a global development organization that offers loans and advice to developing countries. The World Bank regularly funds programs in developing countries, then gathers data to monitor the success of these programs. You can browse world bank data sets directly. The data sets have many missing values (which is great for cleaning practice).\nUniform Crime Reporting Data: The UCR Program collects statistics on violent crime (murder and non-negligent manslaughter, rape, robbery, and aggravated assault) and property crime (burglary, larceny-theft, and motor vehicle theft). By congressional mandate, arson was added as the eighth Part I offense in 1979. Arson statistics are not available for access on this site. By using the table-building tool, users can specify offenses, locality (city, county, state), and year(s).\nUS Food and Drug Administration: Drug approvals and databases, including therapeutic equivalence evaluations for approved multi-source prescription drug products.\nNational Center for Education Statistics: The primary federal entity for collecting and analyzing data related to education.\nNational Weather Service: Climate data, including past weather conditions and long-term averages, from specific observing stations around the United States.\nNational Oceanic and Atmospheric Administration: This covers geophysical, atmospheric, and oceanic data. They are currently the world’s largest provider of climate and weather information.\nSpotify API: Discover the millions of tracks, artists, or albums on Spotify in the user’s local market or a specific Spotify market.\nInside Airbnb: Inside Airbnb offers different data sets related to Airbnb listings in dozens of cities around the world."
+    "text": "Choose a Dataset\nFor anyone complaining that we don’t use enough “real-life” data examples this is your chance!\nOption 1:\nYou may use a dataset that I provide. This dataset will be pre-loaded and located in the RStudio Cloud Project.\n\nClass Survey Data: You cannot use any analysis that is an existing question on your exam. You may think of a similar question but it should not be identical. You must use the full dataset, the midterm and final remove certain columns and observations to reduce time computations. See the codebook for an explanation of the variables.\n\nOption 2:\nAs a group you can pick a dataset of interest to explore! This can be any dataset of your choice that meets the following criteria:\n\nAt least 100 observations\nAt least 10 variables\nThe variables should be a mix of both categorical and numeric\nAt least one variable that can be used as a reasonable response variable for regression\nYou may not use data that has previously been used in any Activity\nYou may not use any data that is a part of the ISDSdatasets, ggplot2, or palmerpenguins packages.\n\nIf you choose your own dataset, you will need to upload your data to the RStudio Cloud Project. Under the Files Pane, click on the “data” folder, then click the “upload” icon.\n\n\n\n\n\n\n\nWhere to find data?\n\nKaggle: Kaggle offers aggregated datasets, but it’s a community hub rather than a search engine. Kaggle launched in 2010 with a number of machine learning competitions, which subsequently solved problems for the likes of NASA and Ford. It has since evolved into a renowned open data platform, offering cloud-based collaboration for data scientists, as well as educational tools for teaching artificial intelligence and data analysis techniques… plus, of course, tons of great datasets covering almost any topic you can imagine.\nGoogle Dataset Search: Launched in 2018, Google Dataset Search is like Google’s standard search engine, but strictly for data. While it’s not the best tool if you prefer to browse, if you have a particular topic or keyword in mind, it won’t disappoint. Google Dataset Search aggregates data from external sources, providing a clear summary of what’s available, a description of the data, who it’s provided by, and when it was last updated. It’s an excellent place to start.\nU.S. Census Bureau: the U.S. Census Bureau publishes reams of demographic data at the state, city, and even zip code level. It is a fantastic data set for students interested in creating geographic data visualizations and can be accessed on the Census Bureau website. Alternatively, the data can be accessed via an API.\nData.gov: In 2015, the US Government made all its data publicly available. With over 200,000 datasets covering everything from climate change to crime, you can lose yourself in the database for hours. For a government website, it has some surprisingly user-friendly search functions, including the ability to drill down by geographical area, organization type, and file format. Search results are also clearly labeled at federal, state, county, and city levels. \nFiveThirtyEight: If you’re interested in data at all, you’ve almost certainly heard of FiveThirtyEight; it’s one of the best-established data journalism outlets in the world. They write interesting data-driven articles, like “Don’t blame a skills gap for lack of hiring in manufacturing” and “2016 NFL Predictions”. What you may not know is that FiveThirtyEight also makes the data sets used in its articles available online on Github and on its own data portal.\nFBI Crime Data Explorer: If you’re fascinated by crime, the FBI Crime Data Explorer is the one for you. It provides a broad collection of crime statistics from a variety of state organizations (universities and local law enforcement) and government (on a local, regional, and state-level). Pull data on hate crimes, officer assaults, homicides, and more. It also includes some helpful user guides to support data navigation.\nAwesome Public Datasets: This github hosts a library of awesome, public datasets! They are all sorted by category and link you straight to the hosting website.\nSports Reference: “Our Primary Aim is to answer our users’ questions with the easiest-to-use, fastest, and most complete sports statistics anywhere. If we have some fun in the process, that’s good too.”\nThe World Bank: The World Bank is a global development organization that offers loans and advice to developing countries. The World Bank regularly funds programs in developing countries, then gathers data to monitor the success of these programs. You can browse world bank data sets directly. The data sets have many missing values (which is great for cleaning practice).\nNational Center for Education Statistics: The primary federal entity for collecting and analyzing data related to education.\nSpotify API: Discover the millions of tracks, artists, or albums on Spotify in the user’s local market or a specific Spotify market.\nAnywhere you want to search!"
   },
   {
     "objectID": "course-project.html#project-outline",
     "href": "course-project.html#project-outline",
     "title": "Final Project",
     "section": "Project outline",
-    "text": "Project outline\nOnce you have chosen your dataset you will need to conduct an analysis and create a report. This is a report, meaning anytime you have code you should be explaining what you are doing before the code and any conclusions/findings that result after the code. In other words, there should not be random plots/code without any explanation.\n\nIntroduction: Should introduce your dataset, where the data came from, why it is of interest, and any other general introductory statements. Cite your data link if necessary.\nEDA: Here you should describe your data. How many variables are in your dataset? How many observations? Are there any missingness issues and why might that be the case? Are there any potential data issues such as impossible/weird values? You will need to create a minimum of 2 graphics to explore your data. You cannot use the two same graphs (ie: cannot do 2 scatterplots). These graphics must be made using ggplot, however you are welcome to explore other geom layers that we have not focused on in this class beyond the 5NG. Each graph must have wrangling code that provides appropriate summary statistics to support the graph. This is a report, meaning there should be a proper description and explanation of the graph.\nRegression: Choose 1 numeric and 1 categorical variable to predict a numeric variable. You choose if this is a parallel slopes or interaction model. Write out the equation to your model and interpret any coefficients. Provide a graph of the fitted lines.^1\nConfidence interval: Develop a confidence interval related research question. Construct you confidence interval, state your confidence level and appropriately interpret in the context of the problem.\nHypothesis test: Develop a hypothesis test related research question. State your null and alternative hypothesis, specify your alpha, perform the hypothesis test, and appropriately interpret in the context of the problem.^2\nConclusion: State any concluding remarks.\n\n1: Advanced tip for regression: If you want to visualize your prediction you can plot the observed response on the x axis and the fitted values on the y axis.\n2: The confidence interval and hypothesis test must be answering different research questions. The confidence interval/hypothesis test cannot be of the same type (options: mean, proportion, difference in mean, difference in proportion, slope)"
+    "text": "Project outline\nOnce you have chosen your dataset you will need to conduct an analysis and create a report. This is a report, meaning anytime you have code you should be explaining what you are doing before the code and any conclusions/findings that result after the code. In other words, there should not be random plots/code without any explanation.\n\nIntroduction: Should introduce your dataset, where the data came from, why it is of interest, and any other general introductory statements. Is your dataset generalizable, and if so what is the population of interest? Cite your data link if necessary.\nData Overview: Here you should describe your data. How many variables are in your dataset? How many observations? Are there any missingness issues and why might that be the case? Are there any potential data issues such as impossible/weird values?\nEDA: You will need to create a minimum of 2 graphics to explore your data. You cannot use the two same graphs (ie: cannot do 2 scatterplots). These graphics must be made using ggplot, however you are welcome to explore other geom layers that we have not focused on in this class beyond the 5NG. Each graph must have wrangling code that provides appropriate calculations to support the graph. This is a report, meaning there should be a proper description and explanation of the graph.\nRegression: Choose 1 numeric and 1 categorical variable to predict a numeric variable. You choose if this is a parallel slopes or interaction model. Write out the equation to your model. Interpret each coefficient in the context of the problem. Provide a graph of the fitted lines.^1\nConfidence interval: Develop a confidence interval related research question. Construct you confidence interval, state your confidence level and appropriately interpret in the context of the problem.\nHypothesis test: Develop a hypothesis test related research question. State your null and alternative hypothesis, specify your alpha, perform the hypothesis test, and appropriately interpret in the context of the problem.^2\nConclusion: State any concluding remarks.\n\n1: Advanced tip for regression: If you want to visualize your prediction you can plot the observed response on the x axis and the fitted values on the y axis.\n2: The confidence interval and hypothesis test must be answering different research questions. The confidence interval/hypothesis test cannot be of the same type (options: mean, proportion, difference in mean, difference in proportion, slope)"
   },
   {
     "objectID": "course-project.html#project-rubric-50-points",
     "href": "course-project.html#project-rubric-50-points",
     "title": "Final Project",
     "section": "Project rubric (50 points)",
-    "text": "Project rubric (50 points)\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n2\n\n3\n\n\n\n\nNeatness, Organization, Introduction, Conclusion\n\n\n\n\nUse complete sentences; minimal typos; names; headers formatted correctly; suppress warning or messages; introduction and conclusion present\n\n\n\n0\n\n1\n\n2\n\n\nEDA: Explanation\n\n\n\n\nThoroughly explored your data using at a minimum the criteria in the project outline.\n\n\n\n1\n2\n3\n4\n5\n\n\nEDA: Exploration 1 (x2)\nSimple plot/wrangling AND improper explanation AND major error with code/data use\n\nSimple plot/wrangling OR improper explanation OR major error with code/data use\n\nUsed a graph and appropriate data wrangling summary statistics to support the graph. Proper explanation and introduction to the exploration. Sufficiently complex, you are showcasing what you learned this quarter.\n\n\nEDA: Exploration 2 (x2)\n\n\n\n\nSame criteria as above. Must be a different type of plot.\n\n\nRegression (x2 pts)\n\n\nIncorrect interpretation OR 2 issues\n\nState the model goal. Used multiple regression model. Stated the model equation. Interpreted the coefficients in the context of the problem. Plot matches model.\n\n\nCI\n\n\nIncorrect interpretation OR 2 issues\n\nStated the research question of interest. Stated CI level. Confidence interval is correct. Interpretation in the context of the problem\n\n\nHypothesis test (x2 points)\n\n\nIncorrect interpretation OR 2 issues\n\nStated the research question of interest. Stated alpha level. Defined H0 and HA using proper notation. Hypothesis test conducted correctly. Interpretation in the context of the problem\n\n\n\n**Sufficiently complex exploration can mean many things. It can mean doing data wrangling before the plot to narrow down the data of interest or it can mean doing a bi-variate exploration (2 variables or more) and explaining how the variables relate. Ex: Simple exploration: histogram of a single variable using your entire dataset and calculating the mean and standard deviation. Complex exploration: faceting a histogram by a categorical variable and calculating summary statistics by category to explain how different categories vary.\n**Be a problem solver. If you don’t know how to write a regression equation or hypothesis copy an example from an activity and modify for your problem."
+    "text": "Project rubric (50 points)\n\n\n\n\n\n\n\n\n\n\n\n\n0\n\n2\n\n4\n\n\n\n\nNeatness, Organization, Introduction, Conclusion\n\n\n\n\nUse complete sentences; minimal typos; reads as a report; names; headers formatted correctly; suppress warning or messages; introduction and conclusion present with minimum requirements\n\n\n\n0\n\n1\n\n2\n\n\nData Overview\n\n\n\n\nThoroughly explored your data using at a minimum the criteria in the project outline.\n\n\n\n1\n2\n3\n4\n5\n\n\nEDA: Exploration 1 (x2)\nSimple plot/wrangling AND improper explanation AND major error with code/data use\n\nSimple plot/wrangling OR improper explanation OR major error with code/data use\n\nUsed a graph and appropriate data wrangling summary statistics to support the graph. Proper explanation and introduction to the exploration. Sufficiently complex, you are showcasing what you learned this quarter.\n\n\nEDA: Exploration 2 (x2)\n\n\n\n\nSame criteria as above. Must be a different type of plot.\n\n\nRegression (x2 pts)\n\n\nIncorrect interpretation OR 2 issues\n\nState the model goal. Used multiple regression model. Stated the model equation. Interpreted the coefficients in the context of the problem. Plot matches model.\n\n\nCI (4 points)\n\n\nIncorrect interpretation OR 2 issues\nStated the research question of interest. Stated CI level. Confidence interval is correct. Interpretation in the context of the problem\n\n\n\nHypothesis test (x2 points)\n\n\nIncorrect interpretation OR 2 issues\n\nStated the research question of interest. Stated alpha level. Defined H0 and HA using proper notation. Hypothesis test conducted correctly. Interpretation in the context of the problem\n\n\n\n**Sufficiently complex exploration can mean many things. It can mean doing data wrangling before the plot to narrow down the data of interest or it can mean doing a bi-variate exploration (2 variables or more) and explaining how the variables relate. Ex: Simple exploration: histogram of a single variable using your entire dataset and calculating the mean and standard deviation. Complex exploration: faceting a histogram by a categorical variable and calculating summary statistics by category to explain how different categories vary.\n**Be a problem solver. If you don’t know how to write a regression equation or hypothesis copy an example from an activity and modify for your problem."
   },
   {
     "objectID": "course-schedule.html",
@@ -88,7 +102,7 @@
     "href": "course-solutions.html",
     "title": "Activity Solutions",
     "section": "",
-    "text": "Activities are graded for completion! It is your responsibility and should be a part of your learning habit to review your activities for correctness. Solutions are posted roughly 3 days after the due date."
+    "text": "Activity 1 Solution\n\n    Activity 2 Solution\n\n    Activity 3 Solution\n\n    Activity 4 Solution\n\n    Activity 5 Solution\n\n    Activity 6 Solution\n\n    Activity 7 Solution\n\n    Activity 8 Solution\n\n    Activity 9 Solution\n\n    Activity 10 Solution\n\n    Activity 11 Solution\n\n    Activity 12 Solution\n\n    Activity 13 Solution\n\n    Activity 14 Solution\n\n    Activity 15 Solution\n\n    Activity 16 Solution"
   },
   {
     "objectID": "course-syllabus.html",
@@ -259,6 +273,13 @@
     "text": "Drop-In Peer Tutoring\n\nSundays 8-10 pm, Schapiro Hall, 104\nWednesdays 8-10 pm, Shepard Hall, B25\n\nAll of our TA office hours will be held on-line via Zoom 998 6392 3813 on\n\nTuesdays 2pm - 4pm\nThursdays 12pm - 4pm\nFridays 12pm - 2pm"
   },
   {
+    "objectID": "course-team.html#teaching-assistants",
+    "href": "course-team.html#teaching-assistants",
+    "title": "Course Team",
+    "section": "Teaching assistants",
+    "text": "Teaching assistants\n\n\n\n\n\n\n\n\n\nName\n\nEmail\nOffice hours\n\n\n\n\nKayla Schroeder (grader)\n\nKaylaSchroeder2026@u.northwestern.edu\nBy Appointment\n\n\nAlex Tun\n\nalextun2023@u.northwestern.edu\nTuesday 2pm - 4pm\n\n\nShriya Kata\n\nshriyakata2025@u.northwestern.edu\nThursday 12pm - 2pm\n\n\nAllison Kelley\n\nallisonkelley2023@u.northwestern.edu\nThursday 2pm - 4pm\n\n\nJules Wathieu\n\njuleswathieu2024@u.northwestern.edu\nFriday 12pm - 2pm"
+  },
+  {
     "objectID": "course-team.html#instructors",
     "href": "course-team.html#instructors",
     "title": "Course Team",
@@ -266,25 +287,18 @@
     "text": "Instructors\n\n\nSection 20: Dr. Danielle Sass is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. She received her Ph.D in Statistics from the University of Illinois at Urbana-Champaign. Her passion and focus is curriculum and content development for undergraduate students.\nOffice hours can be made by appointment by emailing danielle.sass@northwestern.edu. Include STAT202 in the subject line! Please provide your full availability for the day(s) you are available to meet. Ideal meeting times are Tuesday between 8am-4pm and Friday between 11am - 3pm."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "index.html#class-fri-may-12",
+    "href": "index.html#class-fri-may-12",
     "title": "Today’s Agenda",
-    "section": "",
-    "text": "Important\n\n\n\nCourse Survey 2 is due Sunday 5/7 11:59pm."
-  },
-  {
-    "objectID": "index.html#class-tue-mar-28",
-    "href": "index.html#class-tue-mar-28",
-    "title": "Today’s Agenda",
-    "section": "Class: Tue Mar 28",
-    "text": "Class: Tue Mar 28"
+    "section": "Class: Fri May 12",
+    "text": "Class: Fri May 12"
   },
   {
     "objectID": "index.html#prepare",
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n     Read Sections 9.4 - 9.7"
+    "text": "Prepare"
   },
   {
     "objectID": "index.html#participate",
@@ -298,14 +312,14 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    App for Activity 16\n\n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_16"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_17 (cont’d)"
   },
   {
-    "objectID": "index.html#homework-due-tue-mar-28-1159pm",
-    "href": "index.html#homework-due-tue-mar-28-1159pm",
+    "objectID": "index.html#homework-due-sun-may-14-1159pm",
+    "href": "index.html#homework-due-sun-may-14-1159pm",
     "title": "Today’s Agenda",
-    "section": "Homework Due Tue Mar 28 11:59pm",
-    "text": "Homework Due Tue Mar 28 11:59pm\n\n\n\n\n\n\n  \n  \n  \n     Read Preface & Ch 1\n\n    Complete and submit  RC_01"
+    "section": "Homework Due Sun May 14 11:59pm",
+    "text": "Homework Due Sun May 14 11:59pm\n\n\n\n\n\n\n  \n  \n    Complete and submit  act_17\n\n     Read Chapter 11"
   },
   {
     "objectID": "slides/lec00.html#todays-agenda",
@@ -361,7 +375,7 @@
     "href": "slides/lec02.html#the-grammar-of-graphics",
     "title": "Data Visualization  Sections 2.0 - 2.3",
     "section": "The Grammar of Graphics",
-    "text": "The Grammar of Graphics\n\n\n\n\n\nDefines a set of rules for constructing statistical graphics by combining different types of layers.\n\n\n\n\n\n\n  \n  \n    \n      Layer\n      Function\n      Explanation\n    \n  \n  \n    Data\nggplot( )\ninitialize plot and define dataset first\n    Aesthetics\naes( )\nhow variables are mapped\n    Geometries\ngeom_*( )\nhow data is conveyed\n    Facets\nfacet_*( )\nseparates plots by categories\n    Statistics\nstat_*( )\nstatistical transformations\n    Coordinates\ncoord_*( )\ncustomize coord system\n    Theme\ntheme( )\ncustomize non-data components\n  \n  \n  \n\n\n\n\n\n\n\nOnly the first three layers are essential components that must be defined when building a graphic."
+    "text": "The Grammar of Graphics\n\n\n\n\n\nDefines a set of rules for constructing statistical graphics by combining different types of layers.\n\n\n\n\n\n\n  \n    \n    \n      Layer\n      Function\n      Explanation\n    \n  \n  \n    Data\nggplot( )\ninitialize plot and define dataset first\n    Aesthetics\naes( )\nhow variables are mapped\n    Geometries\ngeom_*( )\nhow data is conveyed\n    Facets\nfacet_*( )\nseparates plots by categories\n    Statistics\nstat_*( )\nstatistical transformations\n    Coordinates\ncoord_*( )\ncustomize coord system\n    Theme\ntheme( )\ncustomize non-data components\n  \n  \n  \n\n\n\n\n\n\n\nOnly the first three layers are essential components that must be defined when building a graphic."
   },
   {
     "objectID": "slides/lec02.html#ng1-scatterplots",
@@ -550,7 +564,7 @@
     "href": "slides/lec04.html#example-1-barplots",
     "title": "Data Visualization  Sections 2.7 - 2.9",
     "section": "Example 1: Barplots",
-    "text": "Example 1: Barplots\n\n\n\nConsider the Palmer Penguins dataset.\n\nlibrary(palmerpenguins)\nhead(penguins)\n\n# A tibble: 6 × 8\n  species island    bill_length_mm bill_depth_mm flipper_l…¹ body_…² sex    year\n  <fct>   <fct>              <dbl>         <dbl>       <int>   <int> <fct> <int>\n1 Adelie  Torgersen           39.1          18.7         181    3750 male   2007\n2 Adelie  Torgersen           39.5          17.4         186    3800 fema…  2007\n3 Adelie  Torgersen           40.3          18           195    3250 fema…  2007\n4 Adelie  Torgersen           NA            NA            NA      NA <NA>   2007\n5 Adelie  Torgersen           36.7          19.3         193    3450 fema…  2007\n6 Adelie  Torgersen           39.3          20.6         190    3650 male   2007\n# … with abbreviated variable names ¹​flipper_length_mm, ²​body_mass_g\n\n\nWe are interested in plotting the distribution of species.\nAre we using geom_bar() or geom_col()?\n\n\nWhat would pre-counted data look like?\n\nDataCode\n\n\n\npenguins_counted\n\n# A tibble: 3 × 2\n  species       n\n  <fct>     <int>\n1 Adelie      152\n2 Chinstrap    68\n3 Gentoo      124\n\n\n\n\n\npenguins_counted <- penguins %>% \n  count(species)"
+    "text": "Example 1: Barplots\n\n\n\nConsider the Palmer Penguins dataset.\n\nlibrary(palmerpenguins)\nhead(penguins)\n\n# A tibble: 6 × 8\n  species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n  <fct>   <fct>              <dbl>         <dbl>             <int>       <int>\n1 Adelie  Torgersen           39.1          18.7               181        3750\n2 Adelie  Torgersen           39.5          17.4               186        3800\n3 Adelie  Torgersen           40.3          18                 195        3250\n4 Adelie  Torgersen           NA            NA                  NA          NA\n5 Adelie  Torgersen           36.7          19.3               193        3450\n6 Adelie  Torgersen           39.3          20.6               190        3650\n# ℹ 2 more variables: sex <fct>, year <int>\n\n\nWe are interested in plotting the distribution of species.\nAre we using geom_bar() or geom_col()?\n\n\nWhat would pre-counted data look like?\n\nDataCode\n\n\n\npenguins_counted\n\n# A tibble: 3 × 2\n  species       n\n  <fct>     <int>\n1 Adelie      152\n2 Chinstrap    68\n3 Gentoo      124\n\n\n\n\n\npenguins_counted <- penguins %>% \n  count(species)"
   },
   {
     "objectID": "slides/lec04.html#example-2-barplots",
@@ -697,7 +711,7 @@
     "href": "slides/lec06.html#example-group_by",
     "title": "Data Wrangling  Chapter 3.4 - 3.9",
     "section": "Example: group_by()",
-    "text": "Example: group_by()\n Calculate the average body mass of penguins by species. \n\nCodeData\n\n\n\npenguins %>% \n  group_by(species) %>% \n  summarize(mean_mass = mean(body_mass_g, na.rm = TRUE))\n\n# A tibble: 3 × 2\n  species   mean_mass\n  <fct>         <dbl>\n1 Adelie        3701.\n2 Chinstrap     3733.\n3 Gentoo        5076.\n\n\n\n\n\nhead(penguins)\n\n# A tibble: 6 × 8\n  species island    bill_length_mm bill_depth_mm flipper_l…¹ body_…² sex    year\n  <fct>   <fct>              <dbl>         <dbl>       <int>   <int> <fct> <int>\n1 Adelie  Torgersen           39.1          18.7         181    3750 male   2007\n2 Adelie  Torgersen           39.5          17.4         186    3800 fema…  2007\n3 Adelie  Torgersen           40.3          18           195    3250 fema…  2007\n4 Adelie  Torgersen           NA            NA            NA      NA <NA>   2007\n5 Adelie  Torgersen           36.7          19.3         193    3450 fema…  2007\n6 Adelie  Torgersen           39.3          20.6         190    3650 male   2007\n# … with abbreviated variable names ¹​flipper_length_mm, ²​body_mass_g\n\n\n\n\n\n\n Calculate the average body mass of male and female penguins for each species. (ie: calculate the average body mass of penguins by species and sex.) \n\n\n\npenguins %>% \n  group_by(species, sex) %>% \n  summarize(mean_mass = mean(body_mass_g))\n\n# A tibble: 8 × 3\n# Groups:   species [3]\n  species   sex    mean_mass\n  <fct>     <fct>      <dbl>\n1 Adelie    female     3369.\n2 Adelie    male       4043.\n3 Adelie    <NA>         NA \n4 Chinstrap female     3527.\n5 Chinstrap male       3939.\n6 Gentoo    female     4680.\n7 Gentoo    male       5485.\n8 Gentoo    <NA>         NA"
+    "text": "Example: group_by()\n Calculate the average body mass of penguins by species. \n\nCodeData\n\n\n\npenguins %>% \n  group_by(species) %>% \n  summarize(mean_mass = mean(body_mass_g, na.rm = TRUE))\n\n# A tibble: 3 × 2\n  species   mean_mass\n  <fct>         <dbl>\n1 Adelie        3701.\n2 Chinstrap     3733.\n3 Gentoo        5076.\n\n\n\n\n\nhead(penguins)\n\n# A tibble: 6 × 8\n  species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n  <fct>   <fct>              <dbl>         <dbl>             <int>       <int>\n1 Adelie  Torgersen           39.1          18.7               181        3750\n2 Adelie  Torgersen           39.5          17.4               186        3800\n3 Adelie  Torgersen           40.3          18                 195        3250\n4 Adelie  Torgersen           NA            NA                  NA          NA\n5 Adelie  Torgersen           36.7          19.3               193        3450\n6 Adelie  Torgersen           39.3          20.6               190        3650\n# ℹ 2 more variables: sex <fct>, year <int>\n\n\n\n\n\n\n Calculate the average body mass of male and female penguins for each species. (ie: calculate the average body mass of penguins by species and sex.) \n\n\n\npenguins %>% \n  group_by(species, sex) %>% \n  summarize(mean_mass = mean(body_mass_g))\n\n# A tibble: 8 × 3\n# Groups:   species [3]\n  species   sex    mean_mass\n  <fct>     <fct>      <dbl>\n1 Adelie    female     3369.\n2 Adelie    male       4043.\n3 Adelie    <NA>         NA \n4 Chinstrap female     3527.\n5 Chinstrap male       3939.\n6 Gentoo    female     4680.\n7 Gentoo    male       5485.\n8 Gentoo    <NA>         NA"
   },
   {
     "objectID": "slides/lec06.html#mutate",
@@ -711,7 +725,7 @@
     "href": "slides/lec06.html#arrange",
     "title": "Data Wrangling  Chapter 3.4 - 3.9",
     "section": "arrange()",
-    "text": "arrange()\n\narrange(variable) sorts data in ascending (low to high; A to Z) order by default.\n\narrange(desc(variable)) sorts data in descending (high to low; Z to A) order.\n\n\nExample:\n\npenguins %>%\n  arrange(desc(bill_length_mm))\n\n# A tibble: 344 × 9\n   species   island bill_length_mm bill_de…¹ flipp…² body_…³ sex    year body_…⁴\n   <fct>     <fct>           <dbl>     <dbl>   <int>   <int> <fct> <int>   <dbl>\n 1 Gentoo    Biscoe           59.6      17       230    6050 male   2007   13.3 \n 2 Chinstrap Dream            58        17.8     181    3700 fema…  2007    8.16\n 3 Gentoo    Biscoe           55.9      17       228    5600 male   2009   12.3 \n 4 Chinstrap Dream            55.8      19.8     207    4000 male   2009    8.82\n 5 Gentoo    Biscoe           55.1      16       230    5850 male   2009   12.9 \n 6 Gentoo    Biscoe           54.3      15.7     231    5650 male   2008   12.5 \n 7 Chinstrap Dream            54.2      20.8     201    4300 male   2008    9.48\n 8 Chinstrap Dream            53.5      19.9     205    4500 male   2008    9.92\n 9 Gentoo    Biscoe           53.4      15.8     219    5500 male   2009   12.1 \n10 Chinstrap Dream            52.8      20       205    4550 male   2008   10.0 \n# … with 334 more rows, and abbreviated variable names ¹​bill_depth_mm,\n#   ²​flipper_length_mm, ³​body_mass_g, ⁴​body_mass_lb"
+    "text": "arrange()\n\narrange(variable) sorts data in ascending (low to high; A to Z) order by default.\n\narrange(desc(variable)) sorts data in descending (high to low; Z to A) order.\n\n\nExample:\n\npenguins %>%\n  arrange(desc(bill_length_mm))\n\n# A tibble: 344 × 9\n   species   island bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n   <fct>     <fct>           <dbl>         <dbl>             <int>       <int>\n 1 Gentoo    Biscoe           59.6          17                 230        6050\n 2 Chinstrap Dream            58            17.8               181        3700\n 3 Gentoo    Biscoe           55.9          17                 228        5600\n 4 Chinstrap Dream            55.8          19.8               207        4000\n 5 Gentoo    Biscoe           55.1          16                 230        5850\n 6 Gentoo    Biscoe           54.3          15.7               231        5650\n 7 Chinstrap Dream            54.2          20.8               201        4300\n 8 Chinstrap Dream            53.5          19.9               205        4500\n 9 Gentoo    Biscoe           53.4          15.8               219        5500\n10 Chinstrap Dream            52.8          20                 205        4550\n# ℹ 334 more rows\n# ℹ 3 more variables: sex <fct>, year <int>, body_mass_lb <dbl>"
   },
   {
     "objectID": "slides/lec06.html#select",
@@ -921,7 +935,7 @@
     "href": "slides/lec09.html#indicator-function-1",
     "title": "Regression  Chapter 5.2 - 5.4",
     "section": "Indicator function",
-    "text": "Indicator function\nRecall our model:\n\\[\\widehat{bodymass} = b_0 + b_1*\\mathbb{1}_{chinstrap}(x)+ b_2*\\mathbb{1}_{gentoo}(x)\\]\nConsider 3 randomly sampled Penguins below.\n\n\n# A tibble: 3 × 7\n  species island    bill_length_mm bill_depth_mm flipper_length_mm body_…¹ sex  \n  <fct>   <fct>              <dbl>         <dbl>             <int>   <int> <fct>\n1 Gentoo  Biscoe              41.7          14.7               210    4700 fema…\n2 Adelie  Torgersen           45.8          18.9               197    4150 male \n3 Gentoo  Biscoe              45.1          14.4               210    4400 fema…\n# … with abbreviated variable name ¹​body_mass_g\n\n\n\nWhen using the model equation which of the above penguins would you set \\(\\mathbb{1}_{gentoo}(x) = 1?\\) What about \\(\\mathbb{1}_{chinstrap}(x) = 1?\\)"
+    "text": "Indicator function\nRecall our model:\n\\[\\widehat{bodymass} = b_0 + b_1*\\mathbb{1}_{chinstrap}(x)+ b_2*\\mathbb{1}_{gentoo}(x)\\]\nConsider 3 randomly sampled Penguins below.\n\n\n# A tibble: 3 × 7\n  species island    bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n  <fct>   <fct>              <dbl>         <dbl>             <int>       <int>\n1 Gentoo  Biscoe              41.7          14.7               210        4700\n2 Adelie  Torgersen           45.8          18.9               197        4150\n3 Gentoo  Biscoe              45.1          14.4               210        4400\n# ℹ 1 more variable: sex <fct>\n\n\n\nWhen using the model equation which of the above penguins would you set \\(\\mathbb{1}_{gentoo}(x) = 1?\\) What about \\(\\mathbb{1}_{chinstrap}(x) = 1?\\)"
   },
   {
     "objectID": "slides/lec09.html#interpretation",
@@ -1397,7 +1411,7 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample <- penguins %>% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 35.619, df = 48, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3827.643 4285.622\nsample estimates:\nmean of x \n 4056.633"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample <- penguins %>% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 45.479, df = 49, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3994.343 4363.657\nsample estimates:\nmean of x \n     4179"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
@@ -1601,138 +1615,5 @@
     "title": "Hypothesis Testing  Chapter 12  (Part 2)",
     "section": "Deeper Understanding (continued)",
     "text": "Deeper Understanding (continued)\nHow does sample size impact decision making?\n\n\nIncreasing the sample size decreases the p-value and the standard error while making the STAT more extreme\nAs a result, it is harder to detect statistical significance and reject the null with a smaller sample size\n\n\n\n\nNote: Just because something is statistically significant doesn’t mean it is practically significant."
-  },
-  {
-    "objectID": "course-team.html#teaching-assistants",
-    "href": "course-team.html#teaching-assistants",
-    "title": "Course Team",
-    "section": "Teaching assistants",
-    "text": "Teaching assistants\n\n\n\n\n\n\n\n\n\nName\n\nEmail\nOffice hours\n\n\n\n\nKayla Schroeder (grader)\n\nKaylaSchroeder2026@u.northwestern.edu\nBy Appointment\n\n\nAlex Tun\n\nalextun2023@u.northwestern.edu\nTuesday 2pm - 4pm\n\n\nShriya Kata\n\nshriyakata2025@u.northwestern.edu\nThursday 12pm - 2pm\n\n\nAllison Kelley\n\nallisonkelley2023@u.northwestern.edu\nThursday 2pm - 4pm\n\n\nJules Wathieu\n\njuleswathieu2024@u.northwestern.edu\nFriday 12pm - 2pm"
-  },
-  {
-    "objectID": "index.html#class-fri-mar-31",
-    "href": "index.html#class-fri-mar-31",
-    "title": "Today’s Agenda",
-    "section": "Class: Fri Mar 31",
-    "text": "Class: Fri Mar 31"
-  },
-  {
-    "objectID": "index.html#homework-due-sun-apr-02-1159pm",
-    "href": "index.html#homework-due-sun-apr-02-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Sun Apr 02 11:59pm",
-    "text": "Homework Due Sun Apr 02 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_02\n\n     Read Sections 2.4 - 2.6\n\n    Complete and submit  RC_03"
-  },
-  {
-    "objectID": "course-ec.html#ec-opportunity-2---sample-exams",
-    "href": "course-ec.html#ec-opportunity-2---sample-exams",
-    "title": "Course Extra Credit Opportunities",
-    "section": "EC Opportunity 2 - Sample Exams",
-    "text": "EC Opportunity 2 - Sample Exams\nComplete any of the 3 sample exams by the due date and upload the completed sample exam to the respective Canvas assignment. Each sample exam will count as 1 bonus points toward activities. Yes, you can get over 100% in this category.\nRequirements:\n\nname is submitted\nevery question/exercise must be submitted.\nproperly downloaded (No NA responses/exercises)\nin the comments of the submission report whether or not there were any issues. If there were none simply state “no issues”\n\nIf you do not complete every one of those requirements you will not get credit. This is checking that 1) there are no bugs for me to fix prior to the exam and 2) you know how to properly submit an exam. It will NOT be graded for accuracy."
-  },
-  {
-    "objectID": "course-ec.html#ec-opportunity-3---aha-slides",
-    "href": "course-ec.html#ec-opportunity-3---aha-slides",
-    "title": "Course Extra Credit Opportunities",
-    "section": "EC Opportunity 3 - Aha Slides",
-    "text": "EC Opportunity 3 - Aha Slides\nOur top 5 participants will receive 1 bonus point towards activities. Points reset after each exam meaning you have 3 opportunities to be a top 5 participant."
-  },
-  {
-    "objectID": "index.html#class-mon-apr-10",
-    "href": "index.html#class-mon-apr-10",
-    "title": "Today’s Agenda",
-    "section": "Class: Mon Apr 10",
-    "text": "Class: Mon Apr 10"
-  },
-  {
-    "objectID": "index.html#homework-due-tue-apr-11-1159pm",
-    "href": "index.html#homework-due-tue-apr-11-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Tue Apr 11 11:59pm",
-    "text": "Homework Due Tue Apr 11 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_06\n\n     Read Chapter 4\n\n    Complete and submit  RC_07"
-  },
-  {
-    "objectID": "index.html#class-mon-apr-17",
-    "href": "index.html#class-mon-apr-17",
-    "title": "Today’s Agenda",
-    "section": "Class: Mon Apr 17",
-    "text": "Class: Mon Apr 17"
-  },
-  {
-    "objectID": "index.html#homework-due-tue-apr-18-1159pm",
-    "href": "index.html#homework-due-tue-apr-18-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Tue Apr 18 11:59pm",
-    "text": "Homework Due Tue Apr 18 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_08\n\n     Read Sections 5.2 - 5.4\n\n    Complete and submit  RC_08"
-  },
-  {
-    "objectID": "index.html#class-fri-apr-21",
-    "href": "index.html#class-fri-apr-21",
-    "title": "Today’s Agenda",
-    "section": "Class: Fri Apr 21",
-    "text": "Class: Fri Apr 21"
-  },
-  {
-    "objectID": "index.html#homework-due-sun-apr-23-1159pm",
-    "href": "index.html#homework-due-sun-apr-23-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Sun Apr 23 11:59pm",
-    "text": "Homework Due Sun Apr 23 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_10\n\n     Read Sections 6.2 - 6.4\n\n    Complete and submit  RC_10"
-  },
-  {
-    "objectID": "index.html#class-fri-apr-28",
-    "href": "index.html#class-fri-apr-28",
-    "title": "Today’s Agenda",
-    "section": "Class: Fri Apr 28",
-    "text": "Class: Fri Apr 28"
-  },
-  {
-    "objectID": "index.html#homework-due-sun-apr-30-1159pm",
-    "href": "index.html#homework-due-sun-apr-30-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Sun Apr 30 11:59pm",
-    "text": "Homework Due Sun Apr 30 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_13\n\n    Complete and submit  RC_13"
-  },
-  {
-    "objectID": "index.html#class-wed-may-03",
-    "href": "index.html#class-wed-may-03",
-    "title": "Today’s Agenda",
-    "section": "Class: Wed May 03",
-    "text": "Class: Wed May 03"
-  },
-  {
-    "objectID": "index.html#homework-due-thu-may-04-1159pm",
-    "href": "index.html#homework-due-thu-may-04-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Thu May 04 11:59pm",
-    "text": "Homework Due Thu May 04 11:59pm\n\n\n\n\n\n\n  \n  \n  \n    Complete and submit  act_14\n\n     Read Sections 9.2 - 9.3\n\n    Complete and submit  RC_14"
-  },
-  {
-    "objectID": "index.html#class-fri-may-05",
-    "href": "index.html#class-fri-may-05",
-    "title": "Today’s Agenda",
-    "section": "Class: Fri May 05",
-    "text": "Class: Fri May 05"
-  },
-  {
-    "objectID": "index.html#homework-due-sun-may-07-1159pm",
-    "href": "index.html#homework-due-sun-may-07-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Sun May 07 11:59pm",
-    "text": "Homework Due Sun May 07 11:59pm\n\n\n\n\n\n\n  \n  \n    Complete and submit  act_15\n\n     Read Sections 9.4 - 9.7\n\n    Complete and submit  RC_15"
-  },
-  {
-    "objectID": "index.html#class-mon-may-08",
-    "href": "index.html#class-mon-may-08",
-    "title": "Today’s Agenda",
-    "section": "Class: Mon May 08",
-    "text": "Class: Mon May 08"
-  },
-  {
-    "objectID": "index.html#homework-due-tue-may-09-1159pm",
-    "href": "index.html#homework-due-tue-may-09-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Tue May 09 11:59pm",
-    "text": "Homework Due Tue May 09 11:59pm\n\n\n\n\n\n\n  \n  \n    Complete and submit  act_16\n\n     Read Chapter 10\n\n    Complete and submit  RC_16"
   }
 ]
