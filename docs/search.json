@@ -1600,14 +1600,14 @@
     "href": "slides/lec21.html#deeper-understanding",
     "title": "Hypothesis Testing  Chapter 12  (Part 2)",
     "section": "Deeper understanding",
-    "text": "Deeper understanding\n\n\n\nWhich type of error is usually more of a priority?\n\n\nDepends on the situation\nAssess the consequences in order to decide\n\n\nWhich type of error is usually easier to control? Why?\n\n\nType I error because we choose the alpha level"
+    "text": "Deeper understanding\n\n\n\nWhich type of error is usually more of a priority?\n\n\n\n\n \n\nWhich type of error is usually easier to control? Why?"
   },
   {
     "objectID": "slides/lec21.html#deeper-understanding-continued",
     "href": "slides/lec21.html#deeper-understanding-continued",
     "title": "Hypothesis Testing  Chapter 12  (Part 2)",
     "section": "Deeper Understanding (continued)",
-    "text": "Deeper Understanding (continued)\n\n\n\nCan we lower both errors at the same time?\n\n\nNO!\nThere is a tradeoff between the two errors\nIt is not a 1-to-1 tradeoff\n\n\nCan we know if we made a correct decision?\n\n\nNO\nWe do not know the truth, that is why we are conducting a hypothesis test"
+    "text": "Deeper Understanding (continued)\n\n\n\nCan we lower both errors at the same time?\n\n\n\n\n\n \n\nCan we know if we made a correct decision?"
   },
   {
     "objectID": "slides/lec21.html#deeper-understanding-continued-1",

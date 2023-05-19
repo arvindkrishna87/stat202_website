@@ -22,7 +22,7 @@ execute:
 
 ## Example {.smaller}
 
-Suppose Jill Thrillseeker is going sky diving. Jill will be inspecting the parachute before using it. No matter the inspection, we can never be 100% sure the parachute will work until we pull the rip cord to deploy it. 
+Suppose Jill Thrillseeker is going sky diving. Jill will be inspecting the parachute before using it. No matter the inspection, we can never be 100% sure the parachute will work until we pull the rip cord to deploy it.
 
 . . .
 
@@ -39,47 +39,58 @@ Describe the 4 possible scenarios and their consequences.
 <!-- ## 4 Possible Scenarios -->
 
 |                                   | Alternative $H_A$ is true | Null $H_0$ is true |
-|------------------------------|------------------------|------------------|
+|-----------------------------------|---------------------------|--------------------|
 | Reject the null hypothesis        | Scenario 1                | Scenario 2         |
 | Do not reject the null hypothesis | Scenario 3                | Scenario 4         |
 
 <!-- ## Scenario 1: Correct Decision -->
 
 <!-- -   True Positive -->
+
 <!-- -   **Decision**: Jill decides the parachute is NOT packed correctly -->
+
 <!-- -   **Truth**: parachute was NOT packed correctly -->
+
 <!-- -   **Result**: The parachute was NOT packed correctly and Jill decides to repack it. Jill's life is saved! -->
 
 <!-- ## Scenario 2: Type I Error -->
 
 <!-- -   False Positive -->
+
 <!-- -   **Decision**: Jill decides the parachute is NOT packed correctly -->
+
 <!-- -   **Truth**: parachute was packed correctly all along -->
+
 <!-- -   **Result**: Jill wasted time and energy repacking the parachute -->
 
 <!-- ## Scenario 3: Type II Error -->
 
 <!-- -   False Negative -->
+
 <!-- -   **Decision**: Jill decides the parachute is packed correctly -->
+
 <!-- -   **Truth**: parachute was NOT packed correctly -->
+
 <!-- -   **Result**: Jill jumps out with a bad parachute and probably dies -->
 
 <!-- ## Scenario 4: Correct Decision -->
 
 <!-- -   True Negative -->
+
 <!-- -   **Decision**: Jill decides the parachute is packed correctly -->
+
 <!-- -   **Truth**: parachute was packed correctly -->
+
 <!-- -   **Result**: The parachute is packed correctly and opens, so Jill floats safely to the ground -->
 
 ## 4 Possible Scenarios Results
 
 |                                   | Alternative $H_A$ is true | Null $H_0$ is true |
-|------------------------------|------------------------|------------------|
+|-----------------------------------|---------------------------|--------------------|
 | Reject the null hypothesis        | Correct Decision          | **Type I Error**   |
 | Do not reject the null hypothesis | **Type II Error**         | Correct Decision   |
 
 ## Error
-
 
 ::: panel-tabset
 ## Type 1

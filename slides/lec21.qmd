@@ -77,16 +77,21 @@ Imagine you have developed a new drug that you believe is an improvement over an
 
 **Which type of error is usually more of a priority?**
 
-::: incremental
--   Depends on the situation
--   Assess the consequences in order to decide
-:::
+<!-- ::: incremental -->
+<!-- -   Depends on the situation -->
+<!-- -   Assess the consequences in order to decide <!--#  --> 
+<!-- ::: -->
+
+<br>
+<br>
+
+. . . 
 
 **Which type of error is usually easier to control? Why?**
 
-::: incremental
--   Type I error because we choose the alpha level
-:::
+<!-- ::: incremental -->
+<!-- -   Type I error because we choose the alpha level -->
+<!-- ::: -->
 
 ## Deeper Understanding (continued)
 
@@ -96,18 +101,22 @@ Imagine you have developed a new drug that you believe is an improvement over an
 
 **Can we lower both errors at the same time?**
 
-::: incremental
--   NO!
--   There is a tradeoff between the two errors
--   It is not a 1-to-1 tradeoff
-:::
+<!-- ::: incremental -->
+<!-- -   NO! -->
+<!-- -   There is a tradeoff between the two errors -->
+<!-- -   It is not a 1-to-1 tradeoff -->
+<!-- ::: -->
+<br>
+<br>
+
+. . . 
 
 **Can we know if we made a correct decision?**
 
-::: incremental
--   NO
--   We do not know the truth, that is why we are conducting a hypothesis test
-:::
+<!-- ::: incremental -->
+<!-- -   NO -->
+<!-- -   We do not know the truth, that is why we are conducting a hypothesis test -->
+<!-- ::: -->
 
 ## Deeper Understanding (continued) {.smaller}
 
@@ -120,7 +129,6 @@ Imagine you have developed a new drug that you believe is an improvement over an
 
 <br>
 
-:::{.footer}
+::: footer
 **Note: Just because something is statistically significant doesn't mean it is practically significant.**
 :::
-
