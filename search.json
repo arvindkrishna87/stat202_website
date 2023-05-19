@@ -1320,14 +1320,14 @@
     "href": "slides/lec21.html#deeper-understanding",
     "title": "Hypothesis Testing  Chapter 12  (Part 2)",
     "section": "Deeper understanding",
-    "text": "Deeper understanding\n\n\n\nWhich type of error is usually more of a priority?\n\n\nDepends on the situation\nAssess the consequences in order to decide\n\n\nWhich type of error is usually easier to control? Why?\n\n\nType I error because we choose the alpha level"
+    "text": "Deeper understanding\n\n\n\nWhich type of error is usually more of a priority?\n\n\n\n\n \n\nWhich type of error is usually easier to control? Why?"
   },
   {
     "objectID": "slides/lec21.html#deeper-understanding-continued",
     "href": "slides/lec21.html#deeper-understanding-continued",
     "title": "Hypothesis Testing  Chapter 12  (Part 2)",
     "section": "Deeper Understanding (continued)",
-    "text": "Deeper Understanding (continued)\n\n\n\nCan we lower both errors at the same time?\n\n\nNO!\nThere is a tradeoff between the two errors\nIt is not a 1-to-1 tradeoff\n\n\nCan we know if we made a correct decision?\n\n\nNO\nWe do not know the truth, that is why we are conducting a hypothesis test"
+    "text": "Deeper Understanding (continued)\n\n\n\nCan we lower both errors at the same time?\n\n\n\n\n\n \n\nCan we know if we made a correct decision?"
   },
   {
     "objectID": "slides/lec21.html#deeper-understanding-continued-1",
@@ -1502,7 +1502,7 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 35.431, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3876.42 4342.58\nsample estimates:\nmean of x \n   4109.5"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 37.624, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3910.83 4352.17\nsample estimates:\nmean of x \n   4131.5"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
