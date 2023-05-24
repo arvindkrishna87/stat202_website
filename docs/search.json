@@ -102,7 +102,7 @@
     "href": "course-solutions.html",
     "title": "Activity Solutions",
     "section": "",
-    "text": "Activity 1 Solution\n\n    Activity 2 Solution\n\n    Activity 3 Solution\n\n    Activity 4 Solution\n\n    Activity 5 Solution\n\n    Activity 6 Solution\n\n    Activity 7 Solution\n\n    Activity 8 Solution\n\n    Activity 9 Solution\n\n    Activity 10 Solution\n\n    Activity 11 Solution\n\n    Activity 12 Solution\n\n    Activity 13 Solution\n\n    Activity 14 Solution\n\n    Activity 15 Solution\n\n    Activity 16 Solution\n\n    Activity 17 Solution"
+    "text": "Activity 1 Solution\n\n    Activity 2 Solution\n\n    Activity 3 Solution\n\n    Activity 4 Solution\n\n    Activity 5 Solution\n\n    Activity 6 Solution\n\n    Activity 7 Solution\n\n    Activity 8 Solution\n\n    Activity 9 Solution\n\n    Activity 10 Solution\n\n    Activity 11 Solution\n\n    Activity 12 Solution\n\n    Activity 13 Solution\n\n    Activity 14 Solution\n\n    Activity 15 Solution\n\n    Activity 16 Solution\n\n    Activity 17 Solution\n\n    Activity 18 Solution\n\n    Activity 19 Solution\n\n    Activity 20 Solution"
   },
   {
     "objectID": "course-syllabus.html",
@@ -1615,5 +1615,12 @@
     "title": "Hypothesis Testing  Chapter 12  (Part 2)",
     "section": "Deeper Understanding (continued)",
     "text": "Deeper Understanding (continued)\nHow does sample size impact decision making?\n\n\nIncreasing the sample size decreases the p-value and the standard error while making the STAT more extreme\nAs a result, it is harder to detect statistical significance and reject the null with a smaller sample size\n\n\n\n\nNote: Just because something is statistically significant doesn’t mean it is practically significant."
+  },
+  {
+    "objectID": "slides/lec20.html",
+    "href": "slides/lec20.html",
+    "title": "Hypothesis Testing  Chapter 12  (Part 1)",
+    "section": "",
+    "text": "Suppose Jill Thrillseeker is going sky diving. Jill will be inspecting the parachute before using it. No matter the inspection, we can never be 100% sure the parachute will work until we pull the rip cord to deploy it.\n\n\n\\(H_0:\\) the parachute is packed correctly (meaning it will work)\n\\(H_A:\\) the parachute is not packed correctly (meaning it will not work)\n\n\n\nDescribe the 4 possible scenarios and their consequences.\n\n\n\n\n\n\n\n\n\n\n\n\nAlternative \\(H_A\\) is true\nNull \\(H_0\\) is true\n\n\n\n\nReject the null hypothesis\nScenario 1\nScenario 2\n\n\nDo not reject the null hypothesis\nScenario 3\nScenario 4"
   }
 ]
