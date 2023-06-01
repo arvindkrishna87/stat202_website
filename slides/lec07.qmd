@@ -56,7 +56,7 @@ filename <- read_csv("data/filename.csv")
 #Import .xlsx 
 filename <- read_excel("data/filename.xlsx")
 #Import .rds
-filename <- read_RDS("data/filename.rds")
+filename <- read_rds("data/filename.rds")
 #Load .rda 
 load("data/filename.rda")
 ```

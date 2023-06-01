@@ -258,19 +258,23 @@ Now we can add calculations to describe the center and spread of our distributio
 
 Which of the following summary statistics are invariant to outliers?
 
-    a) mean     
-    b) median   
-    c) sd    
-    d) IQR
+```         
+a) mean     
+b) median   
+c) sd    
+d) IQR
+```
 
 . . .
 
 How would the standard deviation of a distribution change if the maximum value was doubled?
 
-    a) increase
-    b) decrease
-    c) stay the same
-    d) not enough information
+```         
+a) increase
+b) decrease
+c) stay the same
+d) not enough information
+```
 
 ## Example 3 {.scrollable auto-animate="true"}
 

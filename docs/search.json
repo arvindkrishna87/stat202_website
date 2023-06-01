@@ -4,7 +4,7 @@
     "href": "course-anu.html",
     "title": "Accessible NU",
     "section": "",
-    "text": "This is the Statistics Building in the Basement Classroom. Our graduate TA, Kayla Schroader, will be proctoring the exam.\nThe exam will begin 30 minutes before the standard class time.\nExam 1:\n\nFriday April 14 at 8:30am\n\nExam 2:\n\nMonday May 01 at 8:30am\n\nExam 3:\n\nFriday May 26 at 8:30am\n\nIf you are not available at this time, please contact me ASAP.\nOptional final exam will take place in the classroom with the other students at the designated start time."
+    "text": "This is the Statistics Building in the Basement Classroom. Our graduate TA, Kayla Schroader, will be proctoring the exam.\nThe exam will begin 30 minutes before the standard class time.\nExam 1:\n\nFriday April 14 at 8:30am\n\nExam 2:\n\nMonday May 01 at 8:30am\n\nExam 3:\n\nFriday May 26 at 8:30am\n\nIf you are not available at this time, please contact me ASAP.\nOptional final exam will take place via Zoom with the other students at the designated start time."
   },
   {
     "objectID": "course-ec.html",
@@ -312,7 +312,7 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_17 (cont’d)"
+    "text": "Agenda"
   },
   {
     "objectID": "index.html#homework-due-sun-may-14-1159pm",
@@ -760,7 +760,7 @@
     "href": "slides/lec07.html#importing-data",
     "title": "Tidy Data  Chapter 4",
     "section": "Importing Data",
-    "text": "Importing Data\nUse the tidyverse and readxl packages to import data.\n\n#Import .csv\nfilename <- read_csv(\"data/filename.csv\")\n#Import .xlsx \nfilename <- read_excel(\"data/filename.xlsx\")\n#Import .rds\nfilename <- read_RDS(\"data/filename.rds\")\n#Load .rda \nload(\"data/filename.rda\")\n\nComputers are not smart! It can only access files that are sitting in your working directory. You must direct the computer to the file your data is located in!"
+    "text": "Importing Data\nUse the tidyverse and readxl packages to import data.\n\n#Import .csv\nfilename <- read_csv(\"data/filename.csv\")\n#Import .xlsx \nfilename <- read_excel(\"data/filename.xlsx\")\n#Import .rds\nfilename <- read_rds(\"data/filename.rds\")\n#Load .rda \nload(\"data/filename.rda\")\n\nComputers are not smart! It can only access files that are sitting in your working directory. You must direct the computer to the file your data is located in!"
   },
   {
     "objectID": "slides/lec07.html#tidy-data",
@@ -774,7 +774,7 @@
     "href": "slides/lec07.html#tidy-data-continued",
     "title": "Tidy Data  Chapter 4",
     "section": "Tidy Data (continued)",
-    "text": "Tidy Data (continued)\nWhich of the following are tidy?\n\n\n\n\n\na)\n\n\n\n\n\n\n\nb)"
+    "text": "Tidy Data (continued)\nWhich of the following are tidy?\n\n\n\n\n\n\na)\n\n\n\n\n\n\n\nb)"
   },
   {
     "objectID": "slides/lec07.html#eda",
@@ -1622,5 +1622,40 @@
     "title": "Hypothesis Testing  Chapter 12  (Part 1)",
     "section": "",
     "text": "Suppose Jill Thrillseeker is going sky diving. Jill will be inspecting the parachute before using it. No matter the inspection, we can never be 100% sure the parachute will work until we pull the rip cord to deploy it.\n\n\n\\(H_0:\\) the parachute is packed correctly (meaning it will work)\n\\(H_A:\\) the parachute is not packed correctly (meaning it will not work)\n\n\n\nDescribe the 4 possible scenarios and their consequences.\n\n\n\n\n\n\n\n\n\n\n\n\nAlternative \\(H_A\\) is true\nNull \\(H_0\\) is true\n\n\n\n\nReject the null hypothesis\nScenario 1\nScenario 2\n\n\nDo not reject the null hypothesis\nScenario 3\nScenario 4"
+  },
+  {
+    "objectID": "slides/lec05.html",
+    "href": "slides/lec05.html",
+    "title": "Data Wrangling  Chapter 3.0 - 3.3",
+    "section": "",
+    "text": "Understand the pipe operator\nSubset rows of a dataset based on conditions\nCalculate summary statistics of a variable\n\n\n\n\n\nArtwork by @allison_horst"
+  },
+  {
+    "objectID": "slides/lec07.html",
+    "href": "slides/lec07.html",
+    "title": "Tidy Data  Chapter 4",
+    "section": "",
+    "text": "Import datasets\nCan you determine if a dataset is tidy or messy?\nConduct an EDA\n\n\n\n\n\nArtwork by @allison_horst"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Today’s Agenda",
+    "section": "",
+    "text": "Important\n\n\n\nOptional final exam is June 6 at 12pm via Zoom. Exam ends at 12:50pm, if you are late that will cut into your exam time. (ANU ends at your accommodation time). Camera must be on."
+  },
+  {
+    "objectID": "index.html#class-wed-may-31",
+    "href": "index.html#class-wed-may-31",
+    "title": "Today’s Agenda",
+    "section": "Class: Wed May 31",
+    "text": "Class: Wed May 31"
+  },
+  {
+    "objectID": "index.html#homework-due-thu-jun-01-1159pm",
+    "href": "index.html#homework-due-thu-jun-01-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Thu Jun 01 11:59pm",
+    "text": "Homework Due Thu Jun 01 11:59pm"
   }
 ]
