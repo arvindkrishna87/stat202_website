@@ -396,7 +396,7 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 35.58, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3959.008 4432.992\nsample estimates:\nmean of x \n     4196"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 42.773, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4029.837 4427.163\nsample estimates:\nmean of x \n   4228.5"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
@@ -1323,11 +1323,11 @@
     "text": "Important\n\n\n\nOptional final exam is June 6 at 12pm via Zoom. Exam ends at 12:50pm, if you are late that will cut into your exam time. (ANU ends at your accommodation time). Camera must be on."
   },
   {
-    "objectID": "index.html#class-fri-jun-02",
-    "href": "index.html#class-fri-jun-02",
+    "objectID": "index.html#class-tue-jun-06",
+    "href": "index.html#class-tue-jun-06",
     "title": "Today’s Agenda",
-    "section": "Class: Fri Jun 02",
-    "text": "Class: Fri Jun 02"
+    "section": "Class: Tue Jun 06",
+    "text": "Class: Tue Jun 06"
   },
   {
     "objectID": "index.html#prepare",
@@ -1351,11 +1351,11 @@
     "text": "Agenda"
   },
   {
-    "objectID": "index.html#homework-due-sun-jun-04-1159pm",
-    "href": "index.html#homework-due-sun-jun-04-1159pm",
+    "objectID": "index.html#homework-due-tue-jun-06-1159pm",
+    "href": "index.html#homework-due-tue-jun-06-1159pm",
     "title": "Today’s Agenda",
-    "section": "Homework Due Sun Jun 04 11:59pm",
-    "text": "Homework Due Sun Jun 04 11:59pm"
+    "section": "Homework Due Tue Jun 06 11:59pm",
+    "text": "Homework Due Tue Jun 06 11:59pm"
   },
   {
     "objectID": "course-team.html",
