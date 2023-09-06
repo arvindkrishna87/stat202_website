@@ -4,7 +4,7 @@
     "href": "course-anu.html",
     "title": "Accessible NU",
     "section": "",
-    "text": "This is the Statistics Building in the Basement Classroom. Our graduate TA, Kayla Schroader, will be proctoring the exam.\nThe exam will begin 30 minutes before the standard class time.\nExam 1:\n\nFriday April 14 at 8:30am\n\nExam 2:\n\nMonday May 01 at 8:30am\n\nExam 3:\n\nFriday May 26 at 8:30am\n\nIf you are not available at this time, please contact me ASAP.\nOptional final exam will take place via Zoom with the other students at the designated start time."
+    "text": "This is the Statistics Building in the Basement Classroom. Our graduate TA, …, will be proctoring the exam.\nThe exam will begin 30 minutes before the standard class time.\nExam 1:\n\nSec 20: Monday October xx at 8:30am\nSec 21: Monday October xx at 12:30pm\n\nExam 2:\n\nMonday May 01 at 8:30am\n\nExam 3:\n\nFriday May 26 at 8:30am\n\nIf you are not available at this time, please contact me ASAP.\nOptional final exam will take place via Zoom with the other students at the designated start time."
   },
   {
     "objectID": "course-ec.html",
@@ -95,14 +95,14 @@
     "href": "course-schedule.html",
     "title": "STAT 202: Introduction to Statistics and Data Science",
     "section": "",
-    "text": "Week\n      Date\n      Topic\n      \n        Prepare\n      \n      \n        Agenda\n      \n      \n        Homework\n      \n    \n    \n      Reading\n      Slides\n      Activity\n      submit_act\n      Tutorial\n      due\n    \n  \n  \n    1\n\nTue Mar 28\nIntroduction\nSyllabus\n\n\n\n practice\n\n\n RC_01\n\nTue Mar 28\n    \nWed Mar 29\nRstudio Cloud\nPreface & Ch 1\n\n\n\n act_01\n\n act_01\n\n RC_02\n\nThu Mar 30\n    \nFri Mar 31\nData Visualization\nSections 2.0 - 2.3\n\n\n\n act_02\n\n act_02\n\n RC_03\n\nSun Apr 02\n    2\n\nMon Apr 03\nData Visualization\nSections 2.4 - 2.6\n\n\n\n act_03\n\n act_03\n\n RC_04\n\nTue Apr 04\n    \nWed Apr 05\nData Visualization\nSections 2.7 - 2.9\n\n\n\n act_04\n\n act_04\n\n RC_05\n\nThu Apr 06\n    \nFri Apr 07\nData Wrangling\nSections 3.0 - 3.3\n\n\n\n act_05\n\n act_05\n\n RC_06\n\nSun Apr 09\n    3\n\nMon Apr 10\nData Wrangling\nSections 3.4 - 3.9\n\n\n\n act_06\n\n act_06\n\n RC_07\n\nTue Apr 11\n    \nWed Apr 12\nTidy Data\nChapter 4\n\n\n\n act_07\n\n act_07\n\n\nThu Apr 13\n    \nFri Apr 14\nExam 1\n\n\n\n\n\nSun Apr 16\n    4\n\nMon Apr 17\nBasic Regression\nSections 5.0 - 5.1\n\n\n\n act_08\n\n act_08\n\n RC_08\n\nTue Apr 18\n    \nWed Apr 19\nBasic Regression\nSections 5.2 - 5.4\n\n\n\n act_09\n\n act_09\n\n RC_09\n\nThu Apr 20\n    \nFri Apr 21\nMultiple Regression\nSections 6.0 - 6.1\n\n\n\n act_10\n\n act_10\n\n RC_10\n\nSun Apr 23\n    5\n\nMon Apr 24\nMultiple Regression\nSections 6.2 - 6.4\n\n\n\n act_11\n\n act_11\n\n RC_11\n\nTue Apr 25\n    \nWed Apr 26\nRandomization & Causality\nChapter 7\n\n\n\n act_12\n\n act_12\n\n RC_12\n\nThu Apr 27\n    \nFri Apr 28\nPop & Generalizability\nChapter 8\n\n\n\n act_13\n\n act_13\n\n RC_13\n\nSun Apr 30\n    6\n\nMon May 01\nExam 2\n\n\n\n\n\nTue May 02\n    \nWed May 03\nNormal Distributions\nSections 9.0 - 9.1\n\n\n\n act_14\n\n act_14\n\n RC_14\n\nThu May 04\n    \nFri May 05\nSampling Distributions\nSections 9.2 - 9.3\n\n\n\n act_15\n\n act_15\n\n RC_15\n\nSun May 07\n    7\n\nMon May 08\nSampling Distributions\nSections 9.4 - 9.7\n\n\n\n act_16\n\n act_16\n\n RC_16\n\nTue May 09\n    \nWed May 10\nConfidence Intervals\nChapter 10\n\n\n\n act_17\n\n\n RC_17\n\nThu May 11\n    \nFri May 12\nConfidence Intervals\n\n\n\n act_17 (cont’d)\n\n act_17\n\n\nSun May 14\n    8\n\nMon May 15\nP-values\nChapter 11\n\n\n\n act_18\n\n act_18\n\n RC_18\n\nTue May 16\n    \nWed May 17\nHypothesis Testing I\nChapter 12\n\n\n\n act_19\n\n act_19\n\n RC_19\n\nThu May 18\n    \nFri May 19\nHypothesis Testing II\n\n\n\n act_20\n\n\n\nSun May 21\n    9\n\nMon May 22\nHypothesis Testing III\n\n\n act_20 (cont’d)\n\n act_20\n\n\nTue May 23\n    \nWed May 24\nPutting it all together I\nChapter 13\n\n\n\n\n\nThu May 25\n    \nFri May 26\nExam 3\n\n\n\n\n\nSun May 28\n    10\n\nMon May 29\nMemorial Day - No Class\n\n\n\n\n\nTue May 30\n    \nWed May 31\nReading Week - No Class\n\n\n\n\n\nThu Jun 01\n    \nFri Jun 02\nReading Week - No Class\n\n\n\n\n\nSun Jun 04\n    11\n\nTue Jun 06\nOptional Final Exam: 12 - 2pm\n\n\n\n\n\nTue Jun 06"
+    "text": "Week\n      Date\n      Topic\n      \n        Prepare\n      \n      \n        Agenda\n      \n      \n        Homework\n      \n    \n    \n      Reading\n      Slides\n      Activity\n      submit_act\n      Tutorial\n      due\n    \n  \n  \n    1\n\nWed Sep 20\nIntroduction\nSyllabus\n\n\n\n practice\n\n\n RC_01\n\nThu Sep 21\n    \nFri Sep 22\nRstudio Cloud\nPreface & Ch 1\n\n\n\n act_01\n\n act_01\n\n RC_02\n\nSun Sep 24\n    2\n\nMon Sep 25\nData Visualization\nSections 2.0 - 2.3\n\n\n\n act_02\n\n act_02\n\n RC_03\n\nTue Sep 26\n    \nWed Sep 27\nData Visualization\nSections 2.4 - 2.6\n\n\n\n act_03\n\n act_03\n\n RC_04\n\nThu Sep 28\n    \nFri Sep 29\nData Visualization\nSections 2.7 - 2.9\n\n\n\n act_04\n\n act_04\n\n RC_05\n\nSun Oct 01\n    3\n\nMon Oct 02\nData Wrangling\nSections 3.0 - 3.3\n\n\n\n act_05\n\n act_05\n\n RC_06\n\nTue Oct 03\n    \nWed Oct 04\nData Wrangling\nSections 3.4 - 3.9\n\n\n\n act_06\n\n act_06\n\n RC_07\n\nThu Oct 05\n    \nFri Oct 06\nTidy Data\nChapter 4\n\n\n\n act_07\n\n act_07\n\n\nSun Oct 08\n    4\n\nMon Oct 09\nExam 1\n\n\n\n\n\nTue Oct 10\n    \nWed Oct 11\nBasic Regression\nSections 5.0 - 5.1\n\n\n\n act_08\n\n act_08\n\n RC_08\n\nThu Oct 12\n    \nFri Oct 13\nBasic Regression\nSections 5.2 - 5.4\n\n\n\n act_09\n\n act_09\n\n RC_09\n\nSun Oct 15\n    5\n\nMon Oct 16\nMultiple Regression\nSections 6.0 - 6.1\n\n\n\n act_10\n\n act_10\n\n RC_10\n\nTue Oct 17\n    \nWed Oct 18\nMultiple Regression\nSections 6.2 - 6.4\n\n\n\n act_11\n\n act_11\n\n RC_11\n\nThu Oct 19\n    \nFri Oct 20\nRandomization & Causality\nChapter 7\n\n\n\n act_12\n\n act_12\n\n RC_12\n\nSun Oct 22\n    6\n\nMon Oct 23\nPop & Generalizability\nChapter 8\n\n\n\n act_13\n\n act_13\n\n RC_13\n\nTue Oct 24\n    \nWed Oct 25\nExam 2\n\n\n\n\n\nThu Oct 26\n    \nFri Oct 27\nNormal Distributions\nSections 9.0 - 9.1\n\n\n\n act_14\n\n act_14\n\n RC_14\n\nSun Oct 29\n    7\n\nMon Oct 30\nSampling Distributions\nSections 9.2 - 9.3\n\n\n\n act_15\n\n act_15\n\n RC_15\n\nTue Oct 31\n    \nWed Nov 01\nSampling Distributions\nSections 9.4 - 9.7\n\n\n\n act_16\n\n act_16\n\n RC_16\n\nThu Nov 02\n    \nFri Nov 03\nConfidence Intervals\nChapter 10\n\n\n\n act_17\n\n\n RC_17\n\nSun Nov 05\n    8\n\nMon Nov 06\nConfidence Intervals\n\n\n\n act_17 (cont’d)\n\n act_17\n\n\nTue Nov 07\n    \nWed Nov 08\nP-values\nChapter 11\n\n\n\n act_18\n\n act_18\n\n RC_18\n\nThu Nov 09\n    \nFri Nov 10\nHypothesis Testing I\nChapter 12\n\n\n\n act_19\n\n act_19\n\n RC_19\n\nSun Nov 12\n    9\n\nMon Nov 13\nHypothesis Testing II\n\n\n\n act_20\n\n\n\nTue Nov 14\n    \nWed Nov 15\nHypothesis Testing III\n\n\n act_20 (cont’d)\n\n act_20\n\n\nThu Nov 16\n    \nFri Nov 17\nPutting it all together I\nChapter 13\n\n\n\n\n\nSun Nov 19\n    10\n\nMon Nov 20\nExam 3\n\n\n\n\n\nTue Nov 21\n    \nWed Nov 22\nThanksgiving Break - No Class\n\n\n\n\n\nThu Nov 23\n    \nFri Nov 24\nThanksgiving Break - No Class\n\n\n\n\n\nSun Nov 26\n    11\n\nMon Nov 27\nReading Week - No Class\n\n\n\n\n\nTue Nov 28\n    \nFri Dec 01\nReading Week - No Class\n\n\n\n\n\nSun Dec 03\n    12\n\nWed Dec 06\nOptional Final Exam: 3 - 5pm\n\n\n\n\n\nThu Dec 07"
   },
   {
     "objectID": "course-solutions.html",
     "href": "course-solutions.html",
     "title": "Activity Solutions",
     "section": "",
-    "text": "Activity 1 Solution\n\n    Activity 2 Solution\n\n    Activity 3 Solution\n\n    Activity 4 Solution\n\n    Activity 5 Solution\n\n    Activity 6 Solution\n\n    Activity 7 Solution\n\n    Activity 8 Solution\n\n    Activity 9 Solution\n\n    Activity 10 Solution\n\n    Activity 11 Solution\n\n    Activity 12 Solution\n\n    Activity 13 Solution\n\n    Activity 14 Solution\n\n    Activity 15 Solution\n\n    Activity 16 Solution\n\n    Activity 17 Solution\n\n    Activity 18 Solution\n\n    Activity 19 Solution\n\n    Activity 20 Solution"
+    "text": "Activities are graded for completion! It is your responsibility and should be a part of your learning habit to review your activities for correctness. Solutions are posted roughly 3 days after the due date."
   },
   {
     "objectID": "course-syllabus.html",
@@ -277,7 +277,7 @@
     "href": "course-team.html#teaching-assistants",
     "title": "Course Team",
     "section": "Teaching assistants",
-    "text": "Teaching assistants\n\n\n\n\n\n\n\n\n\nName\n\nEmail\nOffice hours\n\n\n\n\nKayla Schroeder (grader)\n\nKaylaSchroeder2026@u.northwestern.edu\nBy Appointment\n\n\nAlex Tun\n\nalextun2023@u.northwestern.edu\nTuesday 2pm - 4pm\n\n\nShriya Kata\n\nshriyakata2025@u.northwestern.edu\nThursday 12pm - 2pm\n\n\nAllison Kelley\n\nallisonkelley2023@u.northwestern.edu\nThursday 2pm - 4pm\n\n\nJules Wathieu\n\njuleswathieu2024@u.northwestern.edu\nFriday 12pm - 2pm"
+    "text": "Teaching assistants\n\n\n\n\n\n\n\n\n\nName\n\nEmail\nOffice hours\n\n\n\n\nKayla Schroeder (grader)\n\n@u.northwestern.edu\nBy Appointment\n\n\n\n\n@u.northwestern.edu\n\n\n\n\n\n@u.northwestern.edu\n\n\n\n\n\n@u.northwestern.edu\n\n\n\n\n\n@u.northwestern.edu"
   },
   {
     "objectID": "course-team.html#instructors",
@@ -287,18 +287,25 @@
     "text": "Instructors\n\n\nSection 20: Dr. Danielle Sass is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. She received her Ph.D in Statistics from the University of Illinois at Urbana-Champaign. Her passion and focus is curriculum and content development for undergraduate students.\nOffice hours can be made by appointment by emailing danielle.sass@northwestern.edu. Include STAT202 in the subject line! Please provide your full availability for the day(s) you are available to meet. Ideal meeting times are Tuesday between 8am-4pm and Friday between 11am - 3pm."
   },
   {
-    "objectID": "index.html#class-fri-may-12",
-    "href": "index.html#class-fri-may-12",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Today’s Agenda",
-    "section": "Class: Fri May 12",
-    "text": "Class: Fri May 12"
+    "section": "",
+    "text": "Important"
+  },
+  {
+    "objectID": "index.html#class-wed-sep-20",
+    "href": "index.html#class-wed-sep-20",
+    "title": "Today’s Agenda",
+    "section": "Class: Wed Sep 20",
+    "text": "Class: Wed Sep 20"
   },
   {
     "objectID": "index.html#prepare",
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n     Read Syllabus"
   },
   {
     "objectID": "index.html#participate",
@@ -312,14 +319,14 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    Review the syllabus\n\n    Visit the course’s Campuswire page using your @u.northwestern.edu email. Enrollment code: 1457\n\n    Gain access to the RStudio Cloud Class Workspace - link on Canvas.\n\n    Complete the google survey - we will use this data later in the quarter.\n\n    Make sure you know how to access Reading Check 01\n\n    Section notes: \n\n    Daily activity:  practice"
   },
   {
-    "objectID": "index.html#homework-due-sun-may-14-1159pm",
-    "href": "index.html#homework-due-sun-may-14-1159pm",
+    "objectID": "index.html#homework-due-thu-sep-21-1159pm",
+    "href": "index.html#homework-due-thu-sep-21-1159pm",
     "title": "Today’s Agenda",
-    "section": "Homework Due Sun May 14 11:59pm",
-    "text": "Homework Due Sun May 14 11:59pm\n\n\n\n\n\n\n  \n  \n    Complete and submit  act_17\n\n     Read Chapter 11"
+    "section": "Homework Due Thu Sep 21 11:59pm",
+    "text": "Homework Due Thu Sep 21 11:59pm\n\n\n\n\n\n\n  \n  \n     Read Preface & Ch 1\n\n    Complete and submit  RC_01"
   },
   {
     "objectID": "slides/lec00.html#todays-agenda",
@@ -774,7 +781,7 @@
     "href": "slides/lec07.html#tidy-data-continued",
     "title": "Tidy Data  Chapter 4",
     "section": "Tidy Data (continued)",
-    "text": "Tidy Data (continued)\nWhich of the following are tidy?\n\n\n\n\n\n\na)\n\n\n\n\n\n\n\nb)"
+    "text": "Tidy Data (continued)\nWhich of the following are tidy?\n\n\n\n\n\na)\n\n\n\n\n\n\n\nb)"
   },
   {
     "objectID": "slides/lec07.html#eda",
@@ -1411,7 +1418,7 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample <- penguins %>% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 45.479, df = 49, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3994.343 4363.657\nsample estimates:\nmean of x \n     4179"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample <- penguins %>% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 34.709, df = 49, p-value < 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3998.282 4489.718\nsample estimates:\nmean of x \n     4244"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
@@ -1615,47 +1622,5 @@
     "title": "Hypothesis Testing  Chapter 12  (Part 2)",
     "section": "Deeper Understanding (continued)",
     "text": "Deeper Understanding (continued)\nHow does sample size impact decision making?\n\n\nIncreasing the sample size decreases the p-value and the standard error while making the STAT more extreme\nAs a result, it is harder to detect statistical significance and reject the null with a smaller sample size\n\n\n\n\nNote: Just because something is statistically significant doesn’t mean it is practically significant."
-  },
-  {
-    "objectID": "slides/lec20.html",
-    "href": "slides/lec20.html",
-    "title": "Hypothesis Testing  Chapter 12  (Part 1)",
-    "section": "",
-    "text": "Suppose Jill Thrillseeker is going sky diving. Jill will be inspecting the parachute before using it. No matter the inspection, we can never be 100% sure the parachute will work until we pull the rip cord to deploy it.\n\n\n\\(H_0:\\) the parachute is packed correctly (meaning it will work)\n\\(H_A:\\) the parachute is not packed correctly (meaning it will not work)\n\n\n\nDescribe the 4 possible scenarios and their consequences.\n\n\n\n\n\n\n\n\n\n\n\n\nAlternative \\(H_A\\) is true\nNull \\(H_0\\) is true\n\n\n\n\nReject the null hypothesis\nScenario 1\nScenario 2\n\n\nDo not reject the null hypothesis\nScenario 3\nScenario 4"
-  },
-  {
-    "objectID": "slides/lec05.html",
-    "href": "slides/lec05.html",
-    "title": "Data Wrangling  Chapter 3.0 - 3.3",
-    "section": "",
-    "text": "Understand the pipe operator\nSubset rows of a dataset based on conditions\nCalculate summary statistics of a variable\n\n\n\n\n\nArtwork by @allison_horst"
-  },
-  {
-    "objectID": "slides/lec07.html",
-    "href": "slides/lec07.html",
-    "title": "Tidy Data  Chapter 4",
-    "section": "",
-    "text": "Import datasets\nCan you determine if a dataset is tidy or messy?\nConduct an EDA\n\n\n\n\n\nArtwork by @allison_horst"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Today’s Agenda",
-    "section": "",
-    "text": "Important\n\n\n\nOptional final exam is June 6 at 12pm via Zoom. Exam ends at 12:50pm, if you are late that will cut into your exam time. (ANU ends at your accommodation time). Camera must be on."
-  },
-  {
-    "objectID": "index.html#class-wed-may-31",
-    "href": "index.html#class-wed-may-31",
-    "title": "Today’s Agenda",
-    "section": "Class: Wed May 31",
-    "text": "Class: Wed May 31"
-  },
-  {
-    "objectID": "index.html#homework-due-thu-jun-01-1159pm",
-    "href": "index.html#homework-due-thu-jun-01-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Thu Jun 01 11:59pm",
-    "text": "Homework Due Thu Jun 01 11:59pm"
   }
 ]

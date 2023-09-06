@@ -6,8 +6,8 @@ library(lubridate)
 library(dplyr)
 
 # update these two files each quarter
-schedule <- read.csv("documents/course-schedule_ex2change.csv")
-#schedule <- read.csv("documents/course-schedule.csv")
+#schedule <- read.csv("documents/course-schedule_ex2change.csv")
+schedule <- read.csv("documents/course-schedule.csv")
 
 imp_dates <- read.csv("documents/dates-calendar.csv")
 colnames(imp_dates) = c("Date", "Topic")

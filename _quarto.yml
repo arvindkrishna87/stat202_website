@@ -35,8 +35,8 @@ website:
           text: Today's agenda
         - href: course-schedule.qmd
           text: Schedule
-        - href: course-project.qmd
-          text: Final project
+        # - href: course-project.qmd
+        #   text: Final project
         - href: course-anu.qmd
           text: Accessible NU
         - section: "Additional Resources"

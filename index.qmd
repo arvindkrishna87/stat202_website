@@ -11,7 +11,7 @@ from: markdown+emoji
 ---
 
 ::: callout-important
-Optional final exam is June 6 at 12pm via [Zoom](https://northwestern.zoom.us/j/99863923813). Exam ends at 12:50pm, if you are late that will cut into your exam time. (ANU ends at your accommodation time). Camera must be on.
+
 :::
 
 ```{r}
