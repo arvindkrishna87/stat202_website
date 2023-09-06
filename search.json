@@ -704,7 +704,7 @@
     "href": "course-solutions.html",
     "title": "Activity Solutions",
     "section": "",
-    "text": "Activities are graded for completion! It is your responsibility and should be a part of your learning habit to review your activities for correctness. Solutions are posted roughly 3 days after the due date.\n\n\n\n\n\n\n  \n  \n    Activity 1 Solution\n\n    Activity 2 Solution\n\n    Activity 3 Solution\n\n    Activity 4 Solution\n\n    Activity 5 Solution\n\n    Activity 6 Solution\n\n    Activity 7 Solution\n\n    Activity 8 Solution\n\n    Activity 9 Solution\n\n    Activity 10 Solution\n\n    Activity 11 Solution\n\n    Activity 12 Solution\n\n    Activity 13 Solution\n\n    Activity 14 Solution\n\n    Activity 15 Solution\n\n    Activity 16 Solution\n\n    Activity 17 Solution\n\n    Activity 18 Solution\n\n    Activity 19 Solution\n\n    Activity 20 Solution"
+    "text": "Activities are graded for completion! It is your responsibility and should be a part of your learning habit to review your activities for correctness. Solutions are posted roughly 3 days after the due date."
   },
   {
     "objectID": "course-team.html",
@@ -725,7 +725,7 @@
     "href": "course-team.html#teaching-assistants",
     "title": "Course Team",
     "section": "Teaching assistants",
-    "text": "Teaching assistants\n\n\n\n\n\n\n\n\n\nName\n\nEmail\nOffice hours\n\n\n\n\nKayla Schroeder (grader)\n\nKaylaSchroeder2026@u.northwestern.edu\nBy Appointment\n\n\nAlex Tun\n\nalextun2023@u.northwestern.edu\nTuesday 2pm - 4pm\n\n\nShriya Kata\n\nshriyakata2025@u.northwestern.edu\nThursday 12pm - 2pm\n\n\nAllison Kelley\n\nallisonkelley2023@u.northwestern.edu\nThursday 2pm - 4pm\n\n\nJules Wathieu\n\njuleswathieu2024@u.northwestern.edu\nFriday 12pm - 2pm"
+    "text": "Teaching assistants\n\n\n\n\n\n\n\n\n\nName\n\nEmail\nOffice hours\n\n\n\n\nKayla Schroeder (grader)\n\n@u.northwestern.edu\nBy Appointment\n\n\n\n\n@u.northwestern.edu\n\n\n\n\n\n@u.northwestern.edu\n\n\n\n\n\n@u.northwestern.edu\n\n\n\n\n\n@u.northwestern.edu"
   },
   {
     "objectID": "course-team.html#instructors",
@@ -739,21 +739,21 @@
     "href": "index.html",
     "title": "Today’s Agenda",
     "section": "",
-    "text": "Important\n\n\n\nOptional final exam is June 6 at 12pm via Zoom. Exam ends at 12:50pm, if you are late that will cut into your exam time. (ANU ends at your accommodation time). Camera must be on."
+    "text": "Important"
   },
   {
-    "objectID": "index.html#class-tue-jun-06",
-    "href": "index.html#class-tue-jun-06",
+    "objectID": "index.html#class-wed-sep-20",
+    "href": "index.html#class-wed-sep-20",
     "title": "Today’s Agenda",
-    "section": "Class: Tue Jun 06",
-    "text": "Class: Tue Jun 06"
+    "section": "Class: Wed Sep 20",
+    "text": "Class: Wed Sep 20"
   },
   {
     "objectID": "index.html#prepare",
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n     Read Syllabus"
   },
   {
     "objectID": "index.html#participate",
@@ -767,14 +767,14 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    Review the syllabus\n\n    Visit the course’s Campuswire page using your @u.northwestern.edu email. Enrollment code: 1457\n\n    Gain access to the RStudio Cloud Class Workspace - link on Canvas.\n\n    Complete the google survey - we will use this data later in the quarter.\n\n    Make sure you know how to access Reading Check 01\n\n    Section notes: \n\n    Daily activity:  practice"
   },
   {
-    "objectID": "index.html#homework-due-tue-jun-06-1159pm",
-    "href": "index.html#homework-due-tue-jun-06-1159pm",
+    "objectID": "index.html#homework-due-thu-sep-21-1159pm",
+    "href": "index.html#homework-due-thu-sep-21-1159pm",
     "title": "Today’s Agenda",
-    "section": "Homework Due Tue Jun 06 11:59pm",
-    "text": "Homework Due Tue Jun 06 11:59pm"
+    "section": "Homework Due Thu Sep 21 11:59pm",
+    "text": "Homework Due Thu Sep 21 11:59pm\n\n\n\n\n\n\n  \n  \n     Read Preface & Ch 1\n\n    Complete and submit  RC_01"
   },
   {
     "objectID": "course-irl.html",
@@ -970,7 +970,7 @@
     "href": "course-schedule.html",
     "title": "STAT 202: Introduction to Statistics and Data Science",
     "section": "",
-    "text": "This page contains an outline of the topics, content, and assignments for the quarter. If you miss a class it is your responsibility to catch up on missed work. That means review the slides, complete the activity, submit any homework, and attend office hours if you need help.\n\n\n\n\n\n\n  \n    \n    \n      Week\n      Date\n      Topic\n      \n        Prepare\n      \n      \n        Agenda\n      \n      \n        Homework\n      \n    \n    \n      Reading\n      Slides\n      Activity\n      submit_act\n      Tutorial\n      due\n    \n  \n  \n    1\n\nTue Mar 28\nIntroduction\nSyllabus\n\n\n\n practice\n\n\n RC_01\n\nTue Mar 28\n    \nWed Mar 29\nRstudio Cloud\nPreface & Ch 1\n\n\n\n act_01\n\n act_01\n\n RC_02\n\nThu Mar 30\n    \nFri Mar 31\nData Visualization\nSections 2.0 - 2.3\n\n\n\n act_02\n\n act_02\n\n RC_03\n\nSun Apr 02\n    2\n\nMon Apr 03\nData Visualization\nSections 2.4 - 2.6\n\n\n\n act_03\n\n act_03\n\n RC_04\n\nTue Apr 04\n    \nWed Apr 05\nData Visualization\nSections 2.7 - 2.9\n\n\n\n act_04\n\n act_04\n\n RC_05\n\nThu Apr 06\n    \nFri Apr 07\nData Wrangling\nSections 3.0 - 3.3\n\n\n\n act_05\n\n act_05\n\n RC_06\n\nSun Apr 09\n    3\n\nMon Apr 10\nData Wrangling\nSections 3.4 - 3.9\n\n\n\n act_06\n\n act_06\n\n RC_07\n\nTue Apr 11\n    \nWed Apr 12\nTidy Data\nChapter 4\n\n\n\n act_07\n\n act_07\n\n\nThu Apr 13\n    \nFri Apr 14\nExam 1\n\n\n\n\n\nSun Apr 16\n    4\n\nMon Apr 17\nBasic Regression\nSections 5.0 - 5.1\n\n\n\n act_08\n\n act_08\n\n RC_08\n\nTue Apr 18\n    \nWed Apr 19\nBasic Regression\nSections 5.2 - 5.4\n\n\n\n act_09\n\n act_09\n\n RC_09\n\nThu Apr 20\n    \nFri Apr 21\nMultiple Regression\nSections 6.0 - 6.1\n\n\n\n act_10\n\n act_10\n\n RC_10\n\nSun Apr 23\n    5\n\nMon Apr 24\nMultiple Regression\nSections 6.2 - 6.4\n\n\n\n act_11\n\n act_11\n\n RC_11\n\nTue Apr 25\n    \nWed Apr 26\nRandomization & Causality\nChapter 7\n\n\n\n act_12\n\n act_12\n\n RC_12\n\nThu Apr 27\n    \nFri Apr 28\nPop & Generalizability\nChapter 8\n\n\n\n act_13\n\n act_13\n\n RC_13\n\nSun Apr 30\n    6\n\nMon May 01\nExam 2\n\n\n\n\n\nTue May 02\n    \nWed May 03\nNormal Distributions\nSections 9.0 - 9.1\n\n\n\n act_14\n\n act_14\n\n RC_14\n\nThu May 04\n    \nFri May 05\nSampling Distributions\nSections 9.2 - 9.3\n\n\n\n act_15\n\n act_15\n\n RC_15\n\nSun May 07\n    7\n\nMon May 08\nSampling Distributions\nSections 9.4 - 9.7\n\n\n\n act_16\n\n act_16\n\n RC_16\n\nTue May 09\n    \nWed May 10\nConfidence Intervals\nChapter 10\n\n\n\n act_17\n\n\n RC_17\n\nThu May 11\n    \nFri May 12\nConfidence Intervals\n\n\n\n act_17 (cont’d)\n\n act_17\n\n\nSun May 14\n    8\n\nMon May 15\nP-values\nChapter 11\n\n\n\n act_18\n\n act_18\n\n RC_18\n\nTue May 16\n    \nWed May 17\nHypothesis Testing I\nChapter 12\n\n\n\n act_19\n\n act_19\n\n RC_19\n\nThu May 18\n    \nFri May 19\nHypothesis Testing II\n\n\n\n act_20\n\n\n\nSun May 21\n    9\n\nMon May 22\nHypothesis Testing III\n\n\n act_20 (cont’d)\n\n act_20\n\n\nTue May 23\n    \nWed May 24\nPutting it all together I\nChapter 13\n\n\n\n\n\nThu May 25\n    \nFri May 26\nExam 3\n\n\n\n\n\nSun May 28\n    10\n\nMon May 29\nMemorial Day - No Class\n\n\n\n\n\nTue May 30\n    \nWed May 31\nReading Week - No Class\n\n\n\n\n\nThu Jun 01\n    \nFri Jun 02\nReading Week - No Class\n\n\n\n\n\nSun Jun 04\n    11\n\nTue Jun 06\nOptional Final Exam: 12 - 2pm\n\n\n\n\n\nTue Jun 06"
+    "text": "This page contains an outline of the topics, content, and assignments for the quarter. If you miss a class it is your responsibility to catch up on missed work. That means review the slides, complete the activity, submit any homework, and attend office hours if you need help.\n\n\n\n\n\n\n  \n    \n    \n      Week\n      Date\n      Topic\n      \n        Prepare\n      \n      \n        Agenda\n      \n      \n        Homework\n      \n    \n    \n      Reading\n      Slides\n      Activity\n      submit_act\n      Tutorial\n      due\n    \n  \n  \n    1\n\nWed Sep 20\nIntroduction\nSyllabus\n\n\n\n practice\n\n\n RC_01\n\nThu Sep 21\n    \nFri Sep 22\nRstudio Cloud\nPreface & Ch 1\n\n\n\n act_01\n\n act_01\n\n RC_02\n\nSun Sep 24\n    2\n\nMon Sep 25\nData Visualization\nSections 2.0 - 2.3\n\n\n\n act_02\n\n act_02\n\n RC_03\n\nTue Sep 26\n    \nWed Sep 27\nData Visualization\nSections 2.4 - 2.6\n\n\n\n act_03\n\n act_03\n\n RC_04\n\nThu Sep 28\n    \nFri Sep 29\nData Visualization\nSections 2.7 - 2.9\n\n\n\n act_04\n\n act_04\n\n RC_05\n\nSun Oct 01\n    3\n\nMon Oct 02\nData Wrangling\nSections 3.0 - 3.3\n\n\n\n act_05\n\n act_05\n\n RC_06\n\nTue Oct 03\n    \nWed Oct 04\nData Wrangling\nSections 3.4 - 3.9\n\n\n\n act_06\n\n act_06\n\n RC_07\n\nThu Oct 05\n    \nFri Oct 06\nTidy Data\nChapter 4\n\n\n\n act_07\n\n act_07\n\n\nSun Oct 08\n    4\n\nMon Oct 09\nExam 1\n\n\n\n\n\nTue Oct 10\n    \nWed Oct 11\nBasic Regression\nSections 5.0 - 5.1\n\n\n\n act_08\n\n act_08\n\n RC_08\n\nThu Oct 12\n    \nFri Oct 13\nBasic Regression\nSections 5.2 - 5.4\n\n\n\n act_09\n\n act_09\n\n RC_09\n\nSun Oct 15\n    5\n\nMon Oct 16\nMultiple Regression\nSections 6.0 - 6.1\n\n\n\n act_10\n\n act_10\n\n RC_10\n\nTue Oct 17\n    \nWed Oct 18\nMultiple Regression\nSections 6.2 - 6.4\n\n\n\n act_11\n\n act_11\n\n RC_11\n\nThu Oct 19\n    \nFri Oct 20\nRandomization & Causality\nChapter 7\n\n\n\n act_12\n\n act_12\n\n RC_12\n\nSun Oct 22\n    6\n\nMon Oct 23\nPop & Generalizability\nChapter 8\n\n\n\n act_13\n\n act_13\n\n RC_13\n\nTue Oct 24\n    \nWed Oct 25\nExam 2\n\n\n\n\n\nThu Oct 26\n    \nFri Oct 27\nNormal Distributions\nSections 9.0 - 9.1\n\n\n\n act_14\n\n act_14\n\n RC_14\n\nSun Oct 29\n    7\n\nMon Oct 30\nSampling Distributions\nSections 9.2 - 9.3\n\n\n\n act_15\n\n act_15\n\n RC_15\n\nTue Oct 31\n    \nWed Nov 01\nSampling Distributions\nSections 9.4 - 9.7\n\n\n\n act_16\n\n act_16\n\n RC_16\n\nThu Nov 02\n    \nFri Nov 03\nConfidence Intervals\nChapter 10\n\n\n\n act_17\n\n\n RC_17\n\nSun Nov 05\n    8\n\nMon Nov 06\nConfidence Intervals\n\n\n\n act_17 (cont’d)\n\n act_17\n\n\nTue Nov 07\n    \nWed Nov 08\nP-values\nChapter 11\n\n\n\n act_18\n\n act_18\n\n RC_18\n\nThu Nov 09\n    \nFri Nov 10\nHypothesis Testing I\nChapter 12\n\n\n\n act_19\n\n act_19\n\n RC_19\n\nSun Nov 12\n    9\n\nMon Nov 13\nHypothesis Testing II\n\n\n\n act_20\n\n\n\nTue Nov 14\n    \nWed Nov 15\nHypothesis Testing III\n\n\n act_20 (cont’d)\n\n act_20\n\n\nThu Nov 16\n    \nFri Nov 17\nPutting it all together I\nChapter 13\n\n\n\n\n\nSun Nov 19\n    10\n\nMon Nov 20\nExam 3\n\n\n\n\n\nTue Nov 21\n    \nWed Nov 22\nThanksgiving Break - No Class\n\n\n\n\n\nThu Nov 23\n    \nFri Nov 24\nThanksgiving Break - No Class\n\n\n\n\n\nSun Nov 26\n    11\n\nMon Nov 27\nReading Week - No Class\n\n\n\n\n\nTue Nov 28\n    \nFri Dec 01\nReading Week - No Class\n\n\n\n\n\nSun Dec 03\n    12\n\nWed Dec 06\nOptional Final Exam: 3 - 5pm\n\n\n\n\n\nThu Dec 07"
   },
   {
     "objectID": "course-lectures.html",
@@ -992,20 +992,6 @@
     "title": "Course Extra Credit Opportunities",
     "section": "",
     "text": "We use Campuswire (see syllabus or welcome page for enrollment code) as our preferred platform for announcements and questions about activities, reading checks, or general course-related questions. (Questions about individual grades or appointments should be addressed through email.)\nThe Campuswire system is designed to get you help quickly and efficiently from your classmates and the instructional team. Rather than emailing your questions to the instructional team, you should post your questions on Campuswire. If a member of the team receives a course-related question via email, they will ask that you post on Campuswire. You can post questions anonymously.\nThe instructional team will check Campuswire periodically to answer students’ questions (do not expect this on weekends or after 5 PM on weekdays). However, we strongly encourage students to answer each other’s questions. Students who participate actively on Campuswire will receive bonus final exam points at the end of the quarter.\nWe measure student participation using the built-in Campuswire reputation system, which awards reputation points based on questions asked, answers given, and upvotes. The levels are as follows:\nStudents gaining Lvl 1: Starter status by the end of the course will have earned 1 bonus final project point;\nStudents gaining Lvl 2: Intermediate status by the end of the course will have earned 2 bonus final project points;\nStudents gaining Lvl 3: Advanced status by the end of the course will have earned 3 bonus final project points.\nNote that the highest level requires upvotes. It benefits all students to upvote their peers for responses that they find useful.\nIn addition, Campuswire provides a list of the top contributors in the class. At the end of the course, the top 3 contributors will have the bonus final project points they earned doubled.\nThis means that a student who is among the top 3 and has the rank of Lvl 3 (Advanced) will receive 6 bonus final project points. If they are top 3 and have a rank of Lvl 2 (Intermediate) they will receive 4 bonus final project points.\nDISCLAIMER\nStudents attempting or participating in an attempt to game the system will be ineligible for bonus points."
-  },
-  {
-    "objectID": "course-ec.html#ec-opportunity-2---sample-exams",
-    "href": "course-ec.html#ec-opportunity-2---sample-exams",
-    "title": "Course Extra Credit Opportunities",
-    "section": "EC Opportunity 2 - Sample Exams",
-    "text": "EC Opportunity 2 - Sample Exams\nComplete any of the 3 sample exams by the due date and upload the completed sample exam to the respective Canvas assignment. Each sample exam will count as 1 bonus points toward activities. Yes, you can get over 100% in this category.\nRequirements:\n\nname is submitted\nevery question/exercise must be submitted.\nproperly downloaded (No NA responses/exercises)\nin the comments of the submission report whether or not there were any issues. If there were none simply state “no issues”\n\nIf you do not complete every one of those requirements you will not get credit. This is checking that 1) there are no bugs for me to fix prior to the exam and 2) you know how to properly submit an exam. It will NOT be graded for accuracy."
-  },
-  {
-    "objectID": "course-ec.html#ec-opportunity-3---aha-slides",
-    "href": "course-ec.html#ec-opportunity-3---aha-slides",
-    "title": "Course Extra Credit Opportunities",
-    "section": "EC Opportunity 3 - Aha Slides",
-    "text": "EC Opportunity 3 - Aha Slides\nOur top 5 participants will receive 1 bonus point towards activities. Points reset after each exam meaning you have 3 opportunities to be a top 5 participant."
   },
   {
     "objectID": "course-links.html",
@@ -1054,7 +1040,7 @@
     "href": "course-anu.html",
     "title": "Accessible NU",
     "section": "",
-    "text": "If you are registered with Accessible NU your exams will take place in 2006 Sheridan B02.\nThis is the Statistics Building in the Basement Classroom. Our graduate TA, Kayla Schroader, will be proctoring the exam.\nThe exam will begin 30 minutes before the standard class time.\nExam 1:\n\nFriday April 14 at 8:30am\n\nExam 2:\n\nMonday May 01 at 8:30am\n\nExam 3:\n\nFriday May 26 at 8:30am\n\nIf you are not available at this time, please contact me ASAP.\nOptional final exam will take place via Zoom with the other students at the designated start time."
+    "text": "If you are registered with Accessible NU your exams will take place in 2006 Sheridan B02.\nThis is the Statistics Building in the Basement Classroom. Our graduate TA, …, will be proctoring the exam.\nThe exam will begin 30 minutes before the standard class time.\nExam 1:\n\nSec 20: Monday October xx at 8:30am\nSec 21: Monday October xx at 12:30pm\n\nExam 2:\n\nMonday May 01 at 8:30am\n\nExam 3:\n\nFriday May 26 at 8:30am\n\nIf you are not available at this time, please contact me ASAP.\nOptional final exam will take place via Zoom with the other students at the designated start time."
   },
   {
     "objectID": "slides/lec09.html#todays-goals",
@@ -1572,7 +1558,7 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 40.773, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3984.437 4397.563\nsample estimates:\nmean of x \n     4191"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 36.267, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3937.52 4399.48\nsample estimates:\nmean of x \n   4168.5"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
