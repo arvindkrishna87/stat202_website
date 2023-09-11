@@ -9,6 +9,7 @@ title: "Syllabus"
 |            | Day | Time              | Location           |
 |------------|-----|-------------------|--------------------|
 | Section 20 | MWF | 9:00 am - 9:50 am | Harris Hall Rm 107 |
+| Section 21 | MWF | 1:00 pm - 1:50 pm | ??                 |
 
 **Prerequisite:** High School Algebra
 
@@ -50,39 +51,40 @@ Students will need a laptop or Chromebook to be able to follow lectures and to w
 
 Assessment for the course is comprised of five components: reading checks, activities, 3 exams, and a final project.
 
-<!-- ### Participation -->
+### Participation and Small Assignments
 
-<!-- We will be recording participation through [AHA slides](https://ahaslides.com/). Various times throughout the class we may take a poll or ask a question that you will respond to. The link to the site is provided on the "home page" each day. Participation grades will be curved to 80%. Meaning at the end of the quarter, if you participate at least 80% of the time your participation grade will be 100% (but will not exceed 100%). If you participate 70% of the time, at the end of the quarter your grade will be 70%/80%. -->
+We will be recording participation through [AHA slides](https://ahaslides.com/). Various times throughout the class we may take a poll or ask a question that you will respond to. The link to the site is provided on the "home page" each day. Participation grades will be curved to 80%. Meaning at the end of the quarter, if you participate at least 80% of the time your participation grade will be 100% (but will not exceed 100%). If you participate 70% of the time, at the end of the quarter your grade will be 70%/80%. Small assignments are generally surveys.
 
-<!-- *If you have an extenuating circumstance that requires you to miss more than 80% of classes then you should contact your advisor or Accessible NU for an accommodation request.* -->
+*If you have an extenuating circumstance that requires you to miss more than 80% of classes then you should contact your advisor or Accessible NU for an accommodation request.*
 
 ### Reading Checks
 
-Reading checks will be completed using "Tutorial Software" on Posit Cloud and uploaded to the course Canvas page. Each reading check will be scaled to be worth 10 points.
+Reading checks will be completed using "Tutorial Software" on Posit Cloud and uploaded to the course Canvas page. Each reading check will be scaled to be worth 10 points. Reading Checks will be accepted up to 3 days after the due date with a 10% late penalty.
 
 *The lowest three grades will be dropped at the end of the quarter.*
 
-### Activities and small assignments
+### Activities
 
-Daily activities will be worth 10 points and primarily graded for completion. A random question on each activity (depending on grader's time) will be graded for correctness and worth 2 of the points. General breakdown of points: 10 points fully complete and exercise correct; 9 points fully complete and exercise partially correct; 8 points fully complete and exercise incorrect; 5 points partially complete; 0 not complete). Since not all exercises are graded, make sure that you check your answers against the solutions. Small assignments are generally surveys.
+Daily activities will be worth 10 points and graded for completion (10 points fully complete; 5 points mostly complete; 0 incomplete). This doesn’t mean that your solutions are correct, so make sure that you check your answers against the solutions. Activities will be accepted up to 3 days after the due date with a 10% late penalty.
 
 *The lowest three activity grades will be dropped at the end of the quarter.*
 
 ### Exams
 
-There will be 3 in-class exams; they will be structured very similarly to your reading checks. Half of it will focus on conceptual knowledge and half will focus on practical applications. Students will be allowed one 8.5 x 11 inch cheat sheet (front & back) on each in-class exams. The exams are not cumulative.
+There will be 3 in-class exams; they will be structured very similarly to your reading checks. Roughly half of it will focus on conceptual knowledge and half will focus on practical applications. Students will be allowed one 8.5 x 11 inch cheat sheet (front & back) on each in-class exams. The exams are not cumulative.
 
 ### Project
 
 The final project will be completed in groups of 3-6 people and allow you to explore a dataset of your choice. More information will be provided later in the quarter.
 
-### Missed Exam Policy
-
-There are no make-up exams. If you miss an exam due to illness, travel, etc., you will need to take the exam during the final exam period instead. You must be on-campus to take the exam.
 
 ### Exam Improvement Policy
 
 We have worked to develop a policy geared towards a growth mindset. That is, we want a policy where students clearly demonstrate that they have used the exam as a diagnostic tool to learn from and improve their understanding of statistics. There is NO final cumulative exam during the designated final exam time, instead you may choose to retake 1 exam during the exam time. This exam will replace your old score --- only in cases where it is an improvement. You must be on-campus to take the exam.
+
+### Missed Exam Policy
+
+There are no make-up exams. If you miss an exam due to illness, travel, etc., you will need to take the exam during the final exam period as your re-take exam.
 
 ## Grading
 
@@ -90,8 +92,9 @@ The final course grade will be calculated as follows:
 
 | Category                     | Percentage |
 |------------------------------|------------|
+| Participation/Small Assign   |  5%        |
+| Activities                   | 10%        |
 | Reading Checks               | 15%        |
-| Activities/Small Assignments | 15%        |
 | Exam 1                       | 20%        |
 | Exam 2                       | 20%        |
 | Exam 3                       | 20%        |
@@ -112,9 +115,7 @@ The final letter grade will be rounded to nearest tenth of a percent and determi
 | D            | 60 - 69.9          |
 | F            | \< 59.9            |
 
-There is NO curve to this course. Take advantage of the exam
-improvement policy and the extra credit opportunities.
-
+There is NO curve to this course. Take advantage of the exam improvement policy and the extra credit opportunities.
 
 ## Tips for success
 
@@ -127,7 +128,7 @@ improvement policy and the extra credit opportunities.
 
 ## Asking Questions & Course Communication
 
-This term we will be using [Campuswire](https://campuswire.com/p/G6C07549E) ("Enrollment Code: 1457") as our preferred platform for questions about activities, reading checks, and general course questions. The system is highly catered to getting you help quickly and efficiently from classmates and the instructional team. Rather than emailing questions to the instructional team, you should post your questions on Campuswire.
+This term we will be using [Campuswire](https://campuswire.com/p/G9596585D) ("Enrollment Code: 4301") as our preferred platform for questions about activities, reading checks, and general course questions. The system is highly catered to getting you help quickly and efficiently from classmates and the instructional team. Rather than emailing questions to the instructional team, you should post your questions on Campuswire.
 
 The instructional team will check Campuswire periodically and answer questions, but we strongly encourage students to answer each other's questions. To this end, student will be able to earn bonus points --- see Canvas for details.
 

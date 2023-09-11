@@ -10,9 +10,9 @@ execute:
 from: markdown+emoji
 ---
 
-::: callout-important
+<!-- ::: callout-important -->
 
-:::
+<!-- ::: -->
 
 ```{r}
 #library(tidyverse)

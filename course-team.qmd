@@ -12,21 +12,21 @@ title: "Course Team"
 
 All of our TA office hours will be held on-line via [Zoom 998 6392 3813](https://northwestern.zoom.us/j/99863923813) on
 
--   Tuesdays 2pm - 4pm
+-   Tuesdays TBD
 
--   Thursdays 12pm - 4pm
+-   Thursdays TBD
 
--   Fridays 12pm - 2pm
+-   Fridays TBD
 
 ## Teaching assistants
 
-| Name                     |     | Email                | Office hours   |
-|--------------------------|-----|----------------------|----------------|
-| Kayla Schroeder (grader) |     | \@u.northwestern.edu | By Appointment |
-|                          |     | \@u.northwestern.edu |                |
-|                          |     | \@u.northwestern.edu |                |
-|                          |     | \@u.northwestern.edu |                |
-|                          |     | \@u.northwestern.edu |                |
+| Name         |     | Email                | Office hours   |
+|--------------|-----|----------------------|----------------|
+| TBD (grader) |     | \@u.northwestern.edu | By Appointment |
+|              |     | \@u.northwestern.edu |                |
+|              |     | \@u.northwestern.edu |                |
+|              |     | \@u.northwestern.edu |                |
+|              |     | \@u.northwestern.edu |                |
 
 ## Instructors
 
@@ -34,7 +34,9 @@ All of our TA office hours will be held on-line via [Zoom 998 6392 3813](https:/
 ::: {.column width="80%"}
 **Section 20: Dr. Danielle Sass** is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. She received her Ph.D in Statistics from the University of Illinois at Urbana-Champaign. Her passion and focus is curriculum and content development for undergraduate students.
 
-Office hours can be made **by appointment** by emailing danielle.sass\@northwestern.edu. Include **STAT202** in the subject line! Please provide your full availability for the day(s) you are available to meet. Ideal meeting times are Tuesday between 8am-4pm and Friday between 11am - 3pm.
+Office hours can be made **by appointment** by emailing danielle.sass\@northwestern.edu. 
+
+Include **STAT202** in the subject line! Please provide your full availability for the day(s) you are available to meet. Ideal meeting times are Tuesday between 8am-4pm and Friday between 12pm - 3pm.
 :::
 
 ::: {.column width="20%"}
@@ -42,13 +44,13 @@ Office hours can be made **by appointment** by emailing danielle.sass\@northwest
 :::
 :::
 
-<!-- ::: columns -->
+::: columns
 
-<!-- ::: {.column width="80%"} -->
+::: {.column width="80%"}
 
-<!-- **Section 21: Dr. Arvind Krishna** is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. He received his Ph.D in Statistics from Georgia Institute of Technology. Office hours can be made by appointment by emailing krish\@northwestern.edu -->
+**Section 21: Dr. Arend Kuyper** ... Office hours can be made by appointment by emailing a-kuyper\@northwestern.edu
 
-<!-- ::: -->
+:::
 
 <!-- ::: {.column width="20%"} -->
 
@@ -56,4 +58,4 @@ Office hours can be made **by appointment** by emailing danielle.sass\@northwest
 
 <!-- ::: -->
 
-<!-- ::: -->
+:::
