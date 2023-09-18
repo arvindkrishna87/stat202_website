@@ -79,10 +79,24 @@ agenda_today %>%
 
 ## Participate
 
-<https://ahaslides.com/202STAT>
+::: columns
+::: {.column width="50%"}
+**Section 20: 9am**
+
+<https://ahaslides.com/SASS>
+
+![](images/qr_SASS.png){height="1in"}
+:::
+
+
+::: {.column width="50%"}
+**Section 21: 1pm**
+
+<https://ahaslides.com/KUYPER>
 
 ![](images/qr_202STAT.png){height="1in"}
-
+:::
+:::
 <br>
 
 ## Agenda

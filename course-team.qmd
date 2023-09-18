@@ -20,23 +20,27 @@ All of our TA office hours will be held on-line via [Zoom 998 6392 3813](https:/
 
 ## Teaching assistants
 
-| Name         |     | Email                | Office hours   |
-|--------------|-----|----------------------|----------------|
-| TBD (grader) |     | \@u.northwestern.edu | By Appointment |
-|              |     | \@u.northwestern.edu |                |
-|              |     | \@u.northwestern.edu |                |
-|              |     | \@u.northwestern.edu |                |
-|              |     | \@u.northwestern.edu |                |
+| Name                    | Email                                  | Office hours   |
+|-------------------------|----------------------------------------|----------------|
+| Gracie Johnson (grader) | GraceJohnson2027\@u.northwestern.edu   | By Appointment |
+| Molly Chou (grader)     | Hway-minChou2026\@u.northwestern.edu   | By Appointment |
+| Sara Abara              | sarahabara2025\@u.northwestern.edu     | TBD            |
+| Beatrice Bailey         | beatricebailey2024\@u.northwestern.edu | TBD            |
+| Shreeya Iyer            | shreeyaiyer2026\@u.northwestern.edu    | TBD            |
+| Meghana Dheram          | meghanadheram2026\@u.northwestern.edu  | TBD            |
+| Jules Wathieu           | juleswathieu2024\@u.northwestern.edu   | TBD            |
+| Garner Hasler           | Garnerhasler2024\@u.northwestern.edu   | TBD            |
 
 ## Instructors
+
+Making appointments: **Include STAT202 in the subject line!** Please provide your full availability for the day(s) you are available to meet.
 
 ::: columns
 ::: {.column width="80%"}
 **Section 20: Dr. Danielle Sass** is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. She received her Ph.D in Statistics from the University of Illinois at Urbana-Champaign. Her passion and focus is curriculum and content development for undergraduate students.
 
-Office hours can be made **by appointment** by emailing danielle.sass\@northwestern.edu. 
+Individual office hours can be made **by appointment** by emailing danielle.sass\@northwestern.edu.
 
-Include **STAT202** in the subject line! Please provide your full availability for the day(s) you are available to meet. Ideal meeting times are Tuesday between 8am-4pm and Friday between 12pm - 3pm.
 :::
 
 ::: {.column width="20%"}
@@ -45,17 +49,13 @@ Include **STAT202** in the subject line! Please provide your full availability f
 :::
 
 ::: columns
-
 ::: {.column width="80%"}
-
-**Section 21: Dr. Arend Kuyper** ... Office hours can be made by appointment by emailing a-kuyper\@northwestern.edu
-
+**Section 21: Dr. Arend Kuyper** is an Associate Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. Individual office hours can be made **by appointment** by emailing a-kuyper\@northwestern.edu
 :::
 
-<!-- ::: {.column width="20%"} -->
+::: {.column width="20%"}
 
-<!-- ![](images/ta/profile_krish.jpg){height="1in"} -->
+![](images/ta/profile_kuyper.jpg){height="1in"}
 
-<!-- ::: -->
-
+:::
 :::
