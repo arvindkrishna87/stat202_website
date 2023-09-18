@@ -3,9 +3,9 @@ title: "Course Links"
 ---
 
 |                    |                                                                                              |
-|------------------|------------------------------------------------------|
+|-------------------|-----------------------------------------------------|
 | Textbook           | [Introduction to Statistics and Data Science](https://nustat.github.io/intro-stat-data-sci/) |
-| Campuswire         | [Post questions here!](https://campuswire.com/c/G6C07549E)                                   |
+| Campuswire         | [Post questions here!](https://campuswire.com/c/G9596585D)                                   |
 | Posit Cloud        | [Posit Cloud](https://posit.cloud/)                                                          |
-| Lecture recordings | 🔗 on [Panopto](https://canvas.northwestern.edu/courses/183509/external_tools/14501)         |
+| Lecture recordings | 🔗 on [Panopto](https://canvas.northwestern.edu/courses/201484/external_tools/14501)         |
 | Virtual meetings   | [Zoom](https://northwestern.zoom.us/j/99863923813)                                           |
