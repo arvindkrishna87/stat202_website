@@ -1131,21 +1131,21 @@
     "href": "course-team.html",
     "title": "Course Team",
     "section": "",
-    "text": "Drop-In Peer Tutoring\n\nSundays 8-10 pm, Schapiro Hall, 104\nWednesdays 8-10 pm, Shepard Hall, B25\n\nAll of our TA office hours will be held on-line via Zoom 998 6392 3813 on\n\nTuesdays TBD\nThursdays TBD\nFridays TBD"
+    "text": "Drop-In Peer Tutoring\n\nSundays 8-10 pm, Schapiro Hall, 104\nWednesdays 8-10 pm, Shepard Hall, B25\n\nAll of our TA office hours will be held on-line via Zoom 998 6392 3813 on\n\nTuesdays 10am - 11am and 5pm - 7pm\nThursdays 10am - 11am and 2pm - 4pm\nFridays 1pm - 3pm\nSaturdays 12pm - 2pm"
   },
   {
     "objectID": "course-team.html#office-hours",
     "href": "course-team.html#office-hours",
     "title": "Course Team",
     "section": "",
-    "text": "Drop-In Peer Tutoring\n\nSundays 8-10 pm, Schapiro Hall, 104\nWednesdays 8-10 pm, Shepard Hall, B25\n\nAll of our TA office hours will be held on-line via Zoom 998 6392 3813 on\n\nTuesdays TBD\nThursdays TBD\nFridays TBD"
+    "text": "Drop-In Peer Tutoring\n\nSundays 8-10 pm, Schapiro Hall, 104\nWednesdays 8-10 pm, Shepard Hall, B25\n\nAll of our TA office hours will be held on-line via Zoom 998 6392 3813 on\n\nTuesdays 10am - 11am and 5pm - 7pm\nThursdays 10am - 11am and 2pm - 4pm\nFridays 1pm - 3pm\nSaturdays 12pm - 2pm"
   },
   {
     "objectID": "course-team.html#teaching-assistants",
     "href": "course-team.html#teaching-assistants",
     "title": "Course Team",
     "section": "Teaching assistants",
-    "text": "Teaching assistants\n\n\n\n\n\n\n\n\nName\nEmail\nOffice hours\n\n\n\n\nGracie Johnson (grader)\nGraceJohnson2027@u.northwestern.edu\nBy Appointment\n\n\nMolly Chou (grader)\nHway-minChou2026@u.northwestern.edu\nBy Appointment\n\n\nSara Abara\nsarahabara2025@u.northwestern.edu\nTBD\n\n\nBeatrice Bailey\nbeatricebailey2024@u.northwestern.edu\nTBD\n\n\nShreeya Iyer\nshreeyaiyer2026@u.northwestern.edu\nTBD\n\n\nMeghana Dheram\nmeghanadheram2026@u.northwestern.edu\nTBD\n\n\nJules Wathieu\njuleswathieu2024@u.northwestern.edu\nTBD\n\n\nGarner Hasler\nGarnerhasler2024@u.northwestern.edu\nTBD"
+    "text": "Teaching assistants\n\n\n\n\n\n\n\n\nName\nEmail\nOffice hours\n\n\n\n\nGracie Johnson (grader)\nGraceJohnson2027@u.northwestern.edu\nBy Appointment\n\n\nMolly Chou (grader)\nHway-minChou2026@u.northwestern.edu\nBy Appointment\n\n\nSarah Abara\nsarahabara2025@u.northwestern.edu\nFri 1pm - 3pm\n\n\nBeatrice Bailey\nbeatricebailey2024@u.northwestern.edu\nTue 10am-11am;\nThurs 10am-11am\n\n\nShreeya Iyer\nshreeyaiyer2026@u.northwestern.edu\nTue 5pm - 7pm\n\n\nMeghana Dheram\nmeghanadheram2026@u.northwestern.edu\nTBD\n\n\nJules Wathieu\njuleswathieu2024@u.northwestern.edu\nSaturday 12pm - 2pm\n\n\nGarner Hasler\nGarnerhasler2024@u.northwestern.edu\nThurs 2pm - 4pm"
   },
   {
     "objectID": "course-team.html#instructors",
@@ -1593,7 +1593,7 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 37.974, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3912.386 4349.614\nsample estimates:\nmean of x \n     4131"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 37.326, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3916.164 4361.836\nsample estimates:\nmean of x \n     4139"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
