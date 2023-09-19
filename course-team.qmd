@@ -12,24 +12,35 @@ title: "Course Team"
 
 All of our TA office hours will be held on-line via [Zoom 998 6392 3813](https://northwestern.zoom.us/j/99863923813) on
 
--   Tuesdays TBD
+-   Tuesdays 10am - 11am and 5pm - 7pm
 
--   Thursdays TBD
+-   Thursdays 10am - 11am and 2pm - 4pm
 
--   Fridays TBD
+-   Saturdays 12pm - 2pm
 
 ## Teaching assistants
 
-| Name                    | Email                                  | Office hours   |
-|-------------------------|----------------------------------------|----------------|
-| Gracie Johnson (grader) | GraceJohnson2027\@u.northwestern.edu   | By Appointment |
-| Molly Chou (grader)     | Hway-minChou2026\@u.northwestern.edu   | By Appointment |
-| Sara Abara              | sarahabara2025\@u.northwestern.edu     | TBD            |
-| Beatrice Bailey         | beatricebailey2024\@u.northwestern.edu | TBD            |
-| Shreeya Iyer            | shreeyaiyer2026\@u.northwestern.edu    | TBD            |
-| Meghana Dheram          | meghanadheram2026\@u.northwestern.edu  | TBD            |
-| Jules Wathieu           | juleswathieu2024\@u.northwestern.edu   | TBD            |
-| Garner Hasler           | Garnerhasler2024\@u.northwestern.edu   | TBD            |
++-------------------------+----------------------------------------+---------------------+
+| Name                    | Email                                  | Office hours        |
++=========================+========================================+=====================+
+| Gracie Johnson (grader) | GraceJohnson2027\@u.northwestern.edu   | By Appointment      |
++-------------------------+----------------------------------------+---------------------+
+| Molly Chou (grader)     | Hway-minChou2026\@u.northwestern.edu   | By Appointment      |
++-------------------------+----------------------------------------+---------------------+
+| Sara Abara              | sarahabara2025\@u.northwestern.edu     | TBD                 |
++-------------------------+----------------------------------------+---------------------+
+| Beatrice Bailey         | beatricebailey2024\@u.northwestern.edu | Tue 10am-11am;      |
+|                         |                                        |                     |
+|                         |                                        | Thurs 10am-11am     |
++-------------------------+----------------------------------------+---------------------+
+| Shreeya Iyer            | shreeyaiyer2026\@u.northwestern.edu    | Tue 5pm - 7pm       |
++-------------------------+----------------------------------------+---------------------+
+| Meghana Dheram          | meghanadheram2026\@u.northwestern.edu  | TBD                 |
++-------------------------+----------------------------------------+---------------------+
+| Jules Wathieu           | juleswathieu2024\@u.northwestern.edu   | Saturday 12pm - 2pm |
++-------------------------+----------------------------------------+---------------------+
+| Garner Hasler           | Garnerhasler2024\@u.northwestern.edu   | Thurs 2pm - 4pm     |
++-------------------------+----------------------------------------+---------------------+
 
 ## Instructors
 
@@ -40,7 +51,6 @@ Making appointments: **Include STAT202 in the subject line!** Please provide you
 **Section 20: Dr. Danielle Sass** is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. She received her Ph.D in Statistics from the University of Illinois at Urbana-Champaign. Her passion and focus is curriculum and content development for undergraduate students.
 
 Individual office hours can be made **by appointment** by emailing danielle.sass\@northwestern.edu.
-
 :::
 
 ::: {.column width="20%"}
@@ -54,8 +64,6 @@ Individual office hours can be made **by appointment** by emailing danielle.sass
 :::
 
 ::: {.column width="20%"}
-
 ![](images/ta/profile_kuyper.jpg){height="1in"}
-
 :::
 :::
