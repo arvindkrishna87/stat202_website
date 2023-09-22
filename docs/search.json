@@ -410,14 +410,14 @@
     "href": "course-team.html",
     "title": "Course Team",
     "section": "",
-    "text": "Drop-In Peer Tutoring\n\nSundays 8-10 pm, Schapiro Hall, 104\nWednesdays 8-10 pm, Shepard Hall, B25\n\nAll of our TA office hours will be held on-line via Zoom 998 6392 3813 on\n\nTuesdays 10am - 11am and 5pm - 7pm\nThursdays 10am - 11am and 2pm - 4pm\nFridays 1pm - 3pm\nSaturdays 12pm - 2pm"
+    "text": "Drop-In Peer Tutoring\n\nSundays 8-10 pm, Schapiro Hall, 104\nWednesdays 8-10 pm, Shepard Hall, B25\n\nAll of our TA office hours will be held on-line via Zoom 998 6392 3813 on\n\nTuesdays 10am - 12pm and 5pm - 7pm\nThursdays 10am - 12am and 2pm - 4pm\nFridays 1pm - 3pm\nSaturdays 12pm - 2pm"
   },
   {
     "objectID": "course-team.html#teaching-assistants",
     "href": "course-team.html#teaching-assistants",
     "title": "Course Team",
     "section": "Teaching assistants",
-    "text": "Teaching assistants\n\n\n\n\n\n\n\n\nName\nEmail\nOffice hours\n\n\n\n\nGracie Johnson (grader)\nGraceJohnson2027@u.northwestern.edu\nBy Appointment\n\n\nMolly Chou (grader)\nHway-minChou2026@u.northwestern.edu\nBy Appointment\n\n\nSarah Abara\nsarahabara2025@u.northwestern.edu\nFri 1pm - 3pm\n\n\nBeatrice Bailey\nbeatricebailey2024@u.northwestern.edu\nTue 10am-11am;\nThurs 10am-11am\n\n\nShreeya Iyer\nshreeyaiyer2026@u.northwestern.edu\nTue 5pm - 7pm\n\n\nMeghana Dheram\nmeghanadheram2026@u.northwestern.edu\nTBD\n\n\nJules Wathieu\njuleswathieu2024@u.northwestern.edu\nSaturday 12pm - 2pm\n\n\nGarner Hasler\nGarnerhasler2024@u.northwestern.edu\nThurs 2pm - 4pm"
+    "text": "Teaching assistants\n\n\n\n\n\n\n\n\nName\nEmail\nOffice hours\n\n\n\n\nGracie Johnson (grader)\nGraceJohnson2027@u.northwestern.edu\nBy Appointment\n\n\nMolly Chou (grader)\nHway-minChou2026@u.northwestern.edu\nBy Appointment\n\n\nSarah Abara\nsarahabara2025@u.northwestern.edu\nFri 1pm - 3pm\n\n\nBeatrice Bailey\nbeatricebailey2024@u.northwestern.edu\nTue 10am-11am;\nThurs 10am-11am\n\n\nShreeya Iyer\nshreeyaiyer2026@u.northwestern.edu\nTue 5pm - 7pm\n\n\nMeghana Dheram\nmeghanadheram2026@u.northwestern.edu\nTue 11am-12pm;\nThurs 11am-12pm\n\n\nJules Wathieu\njuleswathieu2024@u.northwestern.edu\nSaturday 12pm - 2pm\n\n\nGarner Hasler\nGarnerhasler2024@u.northwestern.edu\nThurs 2pm - 4pm"
   },
   {
     "objectID": "course-team.html#instructors",
@@ -438,7 +438,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n     Read Syllabus"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n     Read Preface & Ch 1"
   },
   {
     "objectID": "index.html#participate",
@@ -452,7 +452,7 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    Review the syllabus\n\n    Visit the course’s Campuswire page using your @u.northwestern.edu email. Enrollment code: 4301\n\n    Gain access to the Posit Cloud Class Workspace by clicking here\n\n    Complete the google survey - we will use this data later in the quarter.\n\n    Make sure you know how to access Reading Check 01\n\n    Section notes: \n\n    Daily activity:  practice"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_01"
   },
   {
     "objectID": "index.html#homework-due-thu-sep-21-1159pm",
@@ -1755,5 +1755,26 @@
     "title": "Hypothesis Testing  Chapter 12  (Part 2)",
     "section": "Deeper Understanding (continued)",
     "text": "Deeper Understanding (continued)\nHow does sample size impact decision making?\n\n\nIncreasing the sample size decreases the p-value and the standard error while making the STAT more extreme\nAs a result, it is harder to detect statistical significance and reject the null with a smaller sample size\n\n\n\n\nNote: Just because something is statistically significant doesn’t mean it is practically significant."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Today’s Agenda",
+    "section": "",
+    "text": "Important\n\n\n\nIf you missed class, click on the “Schedule” tab and work through each icon next to the day you missed. The agenda for 9/20 is in the slides!\nNo office hours today 9/22, they were moved to Sunday 9/24 12pm-2pm."
+  },
+  {
+    "objectID": "index.html#class-fri-sep-22",
+    "href": "index.html#class-fri-sep-22",
+    "title": "Today’s Agenda",
+    "section": "Class: Fri Sep 22",
+    "text": "Class: Fri Sep 22"
+  },
+  {
+    "objectID": "index.html#homework-due-sun-sep-24-1159pm",
+    "href": "index.html#homework-due-sun-sep-24-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Sun Sep 24 11:59pm",
+    "text": "Homework Due Sun Sep 24 11:59pm\n\n\n\n\n\n\n  \n  \n    Complete and submit  act_01\n\n     Read Sections 2.0 - 2.3\n\n    Complete and submit  RC_02"
   }
 ]
