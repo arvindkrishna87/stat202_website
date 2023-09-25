@@ -11,9 +11,7 @@ from: markdown+emoji
 ---
 
 ::: callout-important
-If you missed class, click on the "Schedule" tab and work through each icon next to the day you missed. The agenda for 9/20 is in the slides!
-
-No office hours today 9/22, they were moved to Sunday 9/24 12pm-2pm.
+If you missed class, click on the "Schedule" tab and work through each icon next to the day you missed!
 
 :::
 

@@ -80,4 +80,3 @@ agenda_show %>%
 ```{r echo = FALSE}
 knitr::knit_exit()
 ```
-
