@@ -1,7 +1,55 @@
 ---
 title: "Lecture Videos"
+execute:
+  message: false
+  warning: false
+  echo: false
+from: markdown+emoji
+editor_options: 
+  chunk_output_type: console
 ---
 
 Lecture videos are posted here.
 
--   
+
+```{r}
+#library(tidyverse)
+library(dplyr)
+library(purrr)
+library(gt)
+library(stringr)
+library(lubridate)
+
+today_ymd <- Sys.Date()
+today <- format(today_ymd,"%a %b %d")
+
+agenda_final <- read.csv("documents/agenda_final.csv")
+
+agenda_show <- agenda_final %>% 
+  filter(as.Date(date_ymd) < today_ymd)
+
+```
+
+```{r}
+agenda_show %>% 
+  select(Lectures) %>% 
+  #t() %>% 
+  as.data.frame() %>% 
+  filter(Lectures != "") %>% 
+  gt() %>% 
+  fmt_markdown(columns = c(Lectures) )%>%
+  cols_align(align = "left") %>% 
+  tab_options(column_labels.hidden = TRUE,
+              table.align = "left",
+              table_body.border.top.color = "white",
+              table_body.border.bottom.color = "white",
+              table_body.hlines.color = "white",
+              table.width = pct(100))
+
+```
+
+<br><br>
+
+```{r echo = FALSE}
+knitr::knit_exit()
+```

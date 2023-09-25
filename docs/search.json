@@ -32,7 +32,7 @@
     "href": "course-lectures.html",
     "title": "Lecture Videos",
     "section": "",
-    "text": "Lecture videos are posted here."
+    "text": "Lecture 2: Intro to R"
   },
   {
     "objectID": "course-links.html",
@@ -438,7 +438,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n     Read Preface & Ch 1"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n     Read Sections 2.0 - 2.3"
   },
   {
     "objectID": "index.html#participate",
@@ -452,7 +452,7 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_01"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_02"
   },
   {
     "objectID": "index.html#homework-due-thu-sep-21-1159pm",
@@ -1761,7 +1761,7 @@
     "href": "index.html",
     "title": "Today’s Agenda",
     "section": "",
-    "text": "Important\n\n\n\nIf you missed class, click on the “Schedule” tab and work through each icon next to the day you missed. The agenda for 9/20 is in the slides!\nNo office hours today 9/22, they were moved to Sunday 9/24 12pm-2pm."
+    "text": "Important\n\n\n\nIf you missed class, click on the “Schedule” tab and work through each icon next to the day you missed!"
   },
   {
     "objectID": "index.html#class-fri-sep-22",
@@ -1776,5 +1776,19 @@
     "title": "Today’s Agenda",
     "section": "Homework Due Sun Sep 24 11:59pm",
     "text": "Homework Due Sun Sep 24 11:59pm\n\n\n\n\n\n\n  \n  \n    Complete and submit  act_01\n\n     Read Sections 2.0 - 2.3\n\n    Complete and submit  RC_02"
+  },
+  {
+    "objectID": "index.html#class-mon-sep-25",
+    "href": "index.html#class-mon-sep-25",
+    "title": "Today’s Agenda",
+    "section": "Class: Mon Sep 25",
+    "text": "Class: Mon Sep 25"
+  },
+  {
+    "objectID": "index.html#homework-due-tue-sep-26-1159pm",
+    "href": "index.html#homework-due-tue-sep-26-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Tue Sep 26 11:59pm",
+    "text": "Homework Due Tue Sep 26 11:59pm\n\n\n\n\n\n\n  \n  \n    Complete and submit  act_02\n\n     Read Sections 2.4 - 2.6\n\n    Complete and submit  RC_03"
   }
 ]
