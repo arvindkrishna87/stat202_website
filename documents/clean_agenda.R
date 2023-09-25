@@ -83,11 +83,13 @@ agenda_final <- agenda %>%
          submit_act = paste0(submit_icon, submit_link),
          Tutorial = paste0(tutorial_icon, tutorial_link),
          Lectures = paste0(lecture_icon, lecture_link),
-         Solutions = paste0(solution_icon, solution_link)) %>% 
+         Solutions = paste0(solution_icon, solution_link),
+         Solution_video = paste0(solution_video_icon, solution_video_link)) %>% 
   select(-c(ReadingLink, slide_icon, slide_link, activity_icon, 
          activity_link, submit_icon, submit_link, tutorial_icon, 
          tutorial_link, lecture_icon, lecture_link, 
-         solution_icon, solution_link))
+         solution_icon, solution_link,
+         solution_video_icon, solution_video_link))
 
 agenda_final$reading_hw <- c(agenda_final$Reading[-1], "")
 

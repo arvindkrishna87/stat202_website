@@ -22,6 +22,7 @@ library(lubridate)
 today_ymd <- Sys.Date()
 today <- format(today_ymd,"%a %b %d")
 
+
 agenda_final <- read.csv("documents/agenda_final.csv") %>% 
   mutate(time_due = today_ymd - as.Date(due_ymd))
 
@@ -59,12 +60,12 @@ agenda_show <- agenda_final2 %>%
 
 ```{r}
 agenda_show %>% 
-  select(Solutions) %>% 
+  select(Solutions, Solution_video) %>% 
   #t() %>% 
   as.data.frame() %>% 
   filter(Solutions != "") %>% 
   gt() %>% 
-  fmt_markdown(columns = c(Solutions) )%>%
+  fmt_markdown(columns = c(Solutions, Solution_video) )%>%
   cols_align(align = "left") %>% 
   tab_options(column_labels.hidden = TRUE,
               table.align = "left",
