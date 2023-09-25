@@ -21,7 +21,7 @@ library(dplyr)
 library(purrr)
 
 agenda_final <- read.csv("documents/agenda_final.csv") %>% 
-  select(-c(due_ymd, date_ymd, participate, callout, agenda1, agenda2, agenda3, agenda4, agenda5, reading_hw, Solutions)) %>% 
+  select(-c(due_ymd, date_ymd, participate, callout, agenda1, agenda2, agenda3, agenda4, agenda5, reading_hw, Lectures, Solutions, Solution_video)) %>% 
   mutate(Week = as.character(Week)) %>% 
   mutate(due = ifelse(is.na(submit_act) & is.na(Tutorial), " ", due) )
 
