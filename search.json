@@ -1085,18 +1085,18 @@
     "text": "Important\n\n\n\nIf you missed class, click on the “Schedule” tab and work through each icon next to the day you missed. The agenda for 9/20 is in the slides!\nNo office hours today 9/22, they were moved to Sunday 9/24 12pm-2pm."
   },
   {
-    "objectID": "index.html#class-fri-sep-22",
-    "href": "index.html#class-fri-sep-22",
+    "objectID": "index.html#class-mon-sep-25",
+    "href": "index.html#class-mon-sep-25",
     "title": "Today’s Agenda",
-    "section": "Class: Fri Sep 22",
-    "text": "Class: Fri Sep 22"
+    "section": "Class: Mon Sep 25",
+    "text": "Class: Mon Sep 25"
   },
   {
     "objectID": "index.html#prepare",
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n     Read Preface & Ch 1"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n     Read Sections 2.0 - 2.3"
   },
   {
     "objectID": "index.html#participate",
@@ -1110,14 +1110,14 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_01"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_02"
   },
   {
-    "objectID": "index.html#homework-due-sun-sep-24-1159pm",
-    "href": "index.html#homework-due-sun-sep-24-1159pm",
+    "objectID": "index.html#homework-due-tue-sep-26-1159pm",
+    "href": "index.html#homework-due-tue-sep-26-1159pm",
     "title": "Today’s Agenda",
-    "section": "Homework Due Sun Sep 24 11:59pm",
-    "text": "Homework Due Sun Sep 24 11:59pm\n\n\n\n\n\n\n  \n  \n    Complete and submit  act_01\n\n     Read Sections 2.0 - 2.3\n\n    Complete and submit  RC_02"
+    "section": "Homework Due Tue Sep 26 11:59pm",
+    "text": "Homework Due Tue Sep 26 11:59pm\n\n\n\n\n\n\n  \n  \n    Complete and submit  act_02\n\n     Read Sections 2.4 - 2.6\n\n    Complete and submit  RC_03"
   },
   {
     "objectID": "course-irl.html",
@@ -1607,7 +1607,7 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 34.725, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3894.761 4373.239\nsample estimates:\nmean of x \n     4134"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 35.213, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3960.784 4440.216\nsample estimates:\nmean of x \n   4200.5"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
