@@ -26,7 +26,7 @@ today <- format(today_ymd,"%a %b %d")
 agenda_final <- read.csv("documents/agenda_final.csv")
 
 agenda_show <- agenda_final %>% 
-  filter(as.Date(date_ymd) < today_ymd)
+  filter(as.Date(date_ymd) <= today_ymd)
 
 ```
 
