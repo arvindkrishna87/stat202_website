@@ -592,7 +592,7 @@
     "href": "slides/lec03.html#ng2-linegraphs",
     "title": "Data Visualization  Sections 2.4 - 2.6",
     "section": "5NG#2: Linegraphs",
-    "text": "5NG#2: Linegraphs\nLinegraphs show the relationship between 2 numerical variables.\n\n\nThe explanatory (x-axis) variable must be of sequential ordering.\n\n\n\nLinegraph syntax in R:\n\nggplot(data= my_data, mapping = aes(x = var1, y = var2)) +\n  geom_line()"
+    "text": "5NG#2: Linegraphs\nLinegraphs show the relationship between 2 numerical variables.\n\n\nThe explanatory (x-axis) variable must be of sequential ordering.\n\n\n\nLinegraph syntax in R:\n\nggplot(data = my_data, mapping = aes(x = var1, y = var2)) +\n  geom_line()"
   },
   {
     "objectID": "slides/lec03.html#ng2-linegraphs-1",
@@ -627,28 +627,28 @@
     "href": "slides/lec03.html#example-1-histogram-bins",
     "title": "Data Visualization  Sections 2.4 - 2.6",
     "section": "Example 1: Histogram bins",
-    "text": "Example 1: Histogram bins\nWhich bin size is most appropriate and describe the distribution of penguin body mass.\n\n\n\n\nBins = 7Bins = 18Bins = 29\n\n\n\nggplot(penguins, aes(x=penguins$body_mass_g)) +\n    geom_histogram(color = \"white\", \n                   fill = \"lightblue\", \n                   bins = 7)+\n    labs(title = \"Palmer Penguins Distribution of Body Mass\",\n           x = \"Body Mass (g)\")\n\n\n\n\n\n\n\nggplot(penguins, aes(x=penguins$body_mass_g)) +\n    geom_histogram(color = \"white\", \n                   fill = \"lightblue\", \n                   bins = 18)+\n    labs(title = \"Palmer Penguins Distribution of Body Mass\",\n           x = \"Body Mass (g)\")\n\n\n\n\n\n\n\nggplot(penguins, aes(x=penguins$body_mass_g)) +\n    geom_histogram(color = \"white\", \n                   fill = \"lightblue\", \n                   bins = 29)+\n    labs(title = \"Palmer Penguins Distribution of Body Mass\",\n           x = \"Body Mass (g)\")\n\n\n\n\n\n\n\n\nhttps://northwestern-university.shinyapps.io/lec03_histogram/"
+    "text": "Example 1: Histogram bins\nWhich bin size is most appropriate and describe the distribution of penguin body mass.\n\n\n\n\nBins = 7Bins = 18Bins = 29\n\n\n\nggplot(penguins, aes(x = body_mass_g)) +\n    geom_histogram(color = \"white\", \n                   fill = \"lightblue\", \n                   bins = 7)+\n    labs(title = \"Palmer Penguins Distribution of Body Mass\",\n           x = \"Body Mass (g)\")\n\n\n\n\n\n\n\nggplot(penguins, aes(x = body_mass_g)) +\n    geom_histogram(color = \"white\", \n                   fill = \"lightblue\", \n                   bins = 18)+\n    labs(title = \"Palmer Penguins Distribution of Body Mass\",\n           x = \"Body Mass (g)\")\n\n\n\n\n\n\n\nggplot(penguins, aes(x = body_mass_g)) +\n    geom_histogram(color = \"white\", \n                   fill = \"lightblue\", \n                   bins = 29)+\n    labs(title = \"Palmer Penguins Distribution of Body Mass\",\n           x = \"Body Mass (g)\")\n\n\n\n\n\n\n\n\nhttps://northwestern-university.shinyapps.io/lec03_histogram/"
   },
   {
     "objectID": "slides/lec03.html#example-2-histogram-bins",
     "href": "slides/lec03.html#example-2-histogram-bins",
     "title": "Data Visualization  Sections 2.4 - 2.6",
     "section": "Example 2: Histogram bins",
-    "text": "Example 2: Histogram bins\n\n\n\nWhich bin size is most appropriate and describe the distribution of penguin flipper length.\n\nBins = 15Bins = 25Bins = 35\n\n\n\n  ggplot(penguins, aes(x=penguins$flipper_length_mm )) +\n    geom_histogram(color = \"white\", \n                   fill = \"tomato1\", \n                   bins = 15)+\n    labs(title = \"Palmer Penguins Distribution of Flipper Length\",\n           x = \"Flipper Length (mm)\")\n\n\n\n\n\n\n\n  ggplot(penguins, aes(x=penguins$flipper_length_mm )) +\n    geom_histogram(color = \"white\", \n                   fill = \"tomato1\", \n                   bins = 25)+\n    labs(title = \"Palmer Penguins Distribution of Flipper Length\",\n           x = \"Flipper Length (mm)\")\n\n\n\n\n\n\n\n  ggplot(penguins, aes(x=penguins$flipper_length_mm )) +\n    geom_histogram(color = \"white\", \n                   fill = \"tomato1\", \n                   bins = 35)+\n    labs(title = \"Palmer Penguins Distribution of Flipper Length\",\n           x = \"Flipper Length (mm)\")"
+    "text": "Example 2: Histogram bins\nWhich bin size is most appropriate and describe the distribution of penguin flipper length.\n\nBins = 15Bins = 25Bins = 35\n\n\n\n  ggplot(penguins, aes(x = flipper_length_mm )) +\n    geom_histogram(color = \"white\", \n                   fill = \"tomato1\", \n                   bins = 15)+\n    labs(title = \"Palmer Penguins Distribution of Flipper Length\",\n           x = \"Flipper Length (mm)\")\n\n\n\n\n\n\n\n  ggplot(penguins, aes(x = flipper_length_mm )) +\n    geom_histogram(color = \"white\", \n                   fill = \"tomato1\", \n                   bins = 25)+\n    labs(title = \"Palmer Penguins Distribution of Flipper Length\",\n           x = \"Flipper Length (mm)\")\n\n\n\n\n\n\n\n  ggplot(penguins, aes(x = flipper_length_mm )) +\n    geom_histogram(color = \"white\", \n                   fill = \"tomato1\", \n                   bins = 35)+\n    labs(title = \"Palmer Penguins Distribution of Flipper Length\",\n           x = \"Flipper Length (mm)\")"
   },
   {
     "objectID": "slides/lec03.html#faceting",
     "href": "slides/lec03.html#faceting",
     "title": "Data Visualization  Sections 2.4 - 2.6",
     "section": "Faceting",
-    "text": "Faceting\n\nFaceting is used to make the same plot for different subgroups of the dataset.\nThis is useful for comparing the same variable across different subgroups in the dataset.\nfacet_wrap(~var) can be added on to ANY plot type (scatterplot, linegraph, histogram, boxplot, barplot)\n\n\n\nggplot(penguins, aes(x=flipper_length_mm)) +\n    geom_histogram(color = \"white\", fill = \"tomato1\", bins = 11) +\n    facet_wrap(~ species)"
+    "text": "Faceting\n\nFaceting is used to make the same plot for different subgroups of the dataset.\nThis is useful for comparing the same variable across different subgroups in the dataset.\nfacet_wrap(~var) can be added on to ANY plot type (scatterplot, linegraph, histogram, boxplot, barplot)\n\n\n\nggplot(penguins, aes(x = flipper_length_mm)) +\n    geom_histogram(color = \"white\", fill = \"tomato1\", bins = 11) +\n    facet_wrap(~ species)"
   },
   {
     "objectID": "slides/lec03.html#common-coding-errors",
     "href": "slides/lec03.html#common-coding-errors",
     "title": "Data Visualization  Sections 2.4 - 2.6",
     "section": "Common Coding Errors",
-    "text": "Common Coding Errors\n\n\n\nWhich of the following are correct?\na)  \n\nggplot(penguins, aes(x=flipper_length_mm)) +\n  geom_histogram(aes(color = \"white\"))\n\nb)  \n\nggplot(penguins, aes(x=flipper_length_mm)) +\n  geom_histogram(color = \"white\")\n\nc)  \n\nggplot(penguins) +\n  geom_histogram(x = flipper_length_mm, color = \"white\")\n\nd)  \n\nggplot(penguins) +\n  geom_histogram(aes(x = flipper_length_mm) , color = \"white\")"
+    "text": "Common Coding Errors\n\n\n\nWhich of the following are correct?\na)  \n\nggplot(penguins, aes(x = flipper_length_mm)) +\n  geom_histogram(aes(color = \"white\"))\n\nb)  \n\nggplot(penguins, aes(x = flipper_length_mm)) +\n  geom_histogram(color = \"white\")\n\nc)  \n\nggplot(penguins) +\n  geom_histogram(x = flipper_length_mm, color = \"white\")\n\nd)  \n\nggplot(penguins) +\n  geom_histogram(aes(x = flipper_length_mm) , color = \"white\")"
   },
   {
     "objectID": "slides/lec03.html#extra-information-and-resources",
