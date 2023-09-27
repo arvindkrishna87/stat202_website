@@ -195,10 +195,6 @@ https://northwestern-university.shinyapps.io/lec03_histogram/
 
 ## Example 2: Histogram bins {.scrollable .smaller}
 
-::: {.absolute top="0%" left="90%" width="100"}
-![](images_lecture/participate_icon.png)
-:::
-
 Which bin size is most appropriate and describe the distribution of penguin flipper length.
 
 ::: panel-tabset
@@ -266,7 +262,9 @@ ggplot(penguins, aes(x=flipper_length_mm)) +
 
 Which of the following are correct?
 
-    a)  
+```         
+a)  
+```
 
 ```{r}
 #| eval: false
@@ -274,7 +272,9 @@ ggplot(penguins, aes(x=flipper_length_mm)) +
   geom_histogram(aes(color = "white"))
 ```
 
-    b)  
+```         
+b)  
+```
 
 ```{r}
 #| eval: false
@@ -282,7 +282,9 @@ ggplot(penguins, aes(x=flipper_length_mm)) +
   geom_histogram(color = "white")
 ```
 
-    c)  
+```         
+c)  
+```
 
 ```{r}
 #| eval: false
@@ -290,7 +292,9 @@ ggplot(penguins) +
   geom_histogram(x = flipper_length_mm, color = "white")
 ```
 
-    d)  
+```         
+d)  
+```
 
 ```{r}
 #| eval: false
