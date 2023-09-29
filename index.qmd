@@ -10,10 +10,10 @@ execute:
 from: markdown+emoji
 ---
 
-::: callout-important
-If you missed class, click on the "Schedule" tab and work through each icon next to the day you missed!
+<!-- ::: callout-important -->
+<!-- If you missed class, click on the "Schedule" tab and work through each icon next to the day you missed! -->
 
-:::
+<!-- ::: -->
 
 ```{r}
 #library(tidyverse)

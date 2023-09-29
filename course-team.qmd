@@ -22,29 +22,27 @@ All of our TA office hours will be held on-line via [Zoom 998 6392 3813](https:/
 
 ## Teaching assistants
 
-+-------------------------+----------------------------------------+---------------------+
-| Name                    | Email                                  | Office hours        |
-+=========================+========================================+=====================+
-| Gracie Johnson (grader) | GraceJohnson2027\@u.northwestern.edu   | By Appointment      |
-+-------------------------+----------------------------------------+---------------------+
-| Molly Chou (grader)     | Hway-minChou2026\@u.northwestern.edu   | By Appointment      |
-+-------------------------+----------------------------------------+---------------------+
-| Sarah Abara             | sarahabara2025\@u.northwestern.edu     | Fri 1pm - 3pm       |
-+-------------------------+----------------------------------------+---------------------+
-| Beatrice Bailey         | beatricebailey2024\@u.northwestern.edu | Tue 10am-11am;      |
-|                         |                                        |                     |
-|                         |                                        | Thurs 10am-11am     |
-+-------------------------+----------------------------------------+---------------------+
-| Shreeya Iyer            | shreeyaiyer2026\@u.northwestern.edu    | Tue 5pm - 7pm       |
-+-------------------------+----------------------------------------+---------------------+
-| Meghana Dheram          | meghanadheram2026\@u.northwestern.edu  | Tue 11am-12pm;      |
-|                         |                                        |                     |
-|                         |                                        | Thurs 11am-12pm     |
-+-------------------------+----------------------------------------+---------------------+
-| Jules Wathieu           | juleswathieu2024\@u.northwestern.edu   | Saturday 12pm - 2pm |
-+-------------------------+----------------------------------------+---------------------+
-| Garner Hasler           | Garnerhasler2024\@u.northwestern.edu   | Thurs 2pm - 4pm     |
-+-------------------------+----------------------------------------+---------------------+
++---------------------+----------------------------------------+---------------------+
+| Name                | Email                                  | Office hours        |
++=====================+========================================+=====================+
+| Molly Chou (grader) | Hway-minChou2026\@u.northwestern.edu   | By Appointment      |
++---------------------+----------------------------------------+---------------------+
+| Sarah Abara         | sarahabara2025\@u.northwestern.edu     | Fri 1pm - 3pm       |
++---------------------+----------------------------------------+---------------------+
+| Beatrice Bailey     | beatricebailey2024\@u.northwestern.edu | Tue 10am-11am;      |
+|                     |                                        |                     |
+|                     |                                        | Thurs 10am-11am     |
++---------------------+----------------------------------------+---------------------+
+| Shreeya Iyer        | shreeyaiyer2026\@u.northwestern.edu    | Tue 5pm - 7pm       |
++---------------------+----------------------------------------+---------------------+
+| Meghana Dheram      | meghanadheram2026\@u.northwestern.edu  | Tue 11am-12pm;      |
+|                     |                                        |                     |
+|                     |                                        | Thurs 11am-12pm     |
++---------------------+----------------------------------------+---------------------+
+| Jules Wathieu       | juleswathieu2024\@u.northwestern.edu   | Saturday 12pm - 2pm |
++---------------------+----------------------------------------+---------------------+
+| Garner Hasler       | Garnerhasler2024\@u.northwestern.edu   | Thurs 2pm - 4pm     |
++---------------------+----------------------------------------+---------------------+
 
 ## Instructors
 
