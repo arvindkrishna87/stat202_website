@@ -88,10 +88,6 @@ There are 3 things that we typically focus on and describe/compare when inspecti
 
 ## Binary Variables {.scrollable}
 
-::: {.absolute top="0%" left="90%" width="100"}
-![](images_lecture/participate_icon.png)
-:::
-
 <font size="6"> Consider the `titanic` dataset, which contains information about passengers on the titanic. If a passenger survived, then the variable `Survived = 1`. </font>
 
 ```{r}
@@ -167,30 +163,30 @@ Are we using `geom_bar()` or `geom_col()`?
 
 <br>
 
-::: fragment
-What would pre-counted data look like?
+<!-- ::: fragment -->
+<!-- What would pre-counted data look like? -->
 
-::: panel-tabset
-## Data
+<!-- ::: panel-tabset -->
+<!-- ## Data -->
 
-```{r}
-#| include: false
-penguins_counted <- penguins %>% 
-  count(species)
-```
+<!-- ```{r} -->
+<!-- #| include: false -->
+<!-- penguins_counted <- penguins %>%  -->
+<!--   count(species) -->
+<!-- ``` -->
 
-```{r}
-penguins_counted
-```
+<!-- ```{r} -->
+<!-- penguins_counted -->
+<!-- ``` -->
 
-## Code
+<!-- ## Code -->
 
-```{r}
-penguins_counted <- penguins %>% 
-  count(species)
-```
-:::
-:::
+<!-- ```{r} -->
+<!-- penguins_counted <- penguins %>%  -->
+<!--   count(species) -->
+<!-- ``` -->
+<!-- ::: -->
+<!-- ::: -->
 
 ## Example 2: Barplots {.scrollable .smaller}
 

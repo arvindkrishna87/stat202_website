@@ -450,9 +450,6 @@
 </section>
 <section id="binary-variables" class="slide level2 scrollable">
 <h2>Binary Variables</h2>
-<div class="absolute" style="top: 0%; left: 90%; width: 100px; ">
-<p><img data-src="images_lecture/participate_icon.png"></p>
-</div>
 <p><font size="6"> Consider the <code>titanic</code> dataset, which contains information about passengers on the titanic. If a passenger survived, then the variable <code>Survived = 1</code>. </font></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>titanic <span class="sc">%&gt;%</span> </span>
@@ -535,63 +532,55 @@ $ Sex         &lt;chr&gt; "male", "female", "male", "male", "female", "male", "f
 <p>We are interested in plotting the distribution of <code>species</code>.</p>
 <p>Are we using <code>geom_bar()</code> or <code>geom_col()</code>?</p>
 <p><br></p>
-<div class="fragment">
-<p>What would pre-counted data look like?</p>
-<div class="panel-tabset">
-<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Data</a></li><li><a href="#tabset-1-2">Code</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>penguins_counted</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 3 × 2
-  species       n
-  &lt;fct&gt;     &lt;int&gt;
-1 Adelie      152
-2 Chinstrap    68
-3 Gentoo      124</code></pre>
-</div>
-</div>
-</div>
-<div id="tabset-1-2">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>penguins_counted <span class="ot">&lt;-</span> penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">count</span>(species)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
-</div>
-</div>
-</div>
+<!-- ::: fragment -->
+<!-- What would pre-counted data look like? -->
+<!-- ::: panel-tabset -->
+<!-- ## Data -->
+<!-- ```{r} -->
+<!-- #| include: false -->
+<!-- penguins_counted <- penguins %>%  -->
+<!--   count(species) -->
+<!-- ``` -->
+<!-- ```{r} -->
+<!-- penguins_counted -->
+<!-- ``` -->
+<!-- ## Code -->
+<!-- ```{r} -->
+<!-- penguins_counted <- penguins %>%  -->
+<!--   count(species) -->
+<!-- ``` -->
+<!-- ::: -->
+<!-- ::: -->
 </section>
 <section id="example-2-barplots" class="slide level2 scrollable smaller">
 <h2>Example 2: Barplots</h2>
 <p>What if we want to visualize the distribution of <code>sex</code> in each of the <code>species</code>. There are 4 main ways to visualize multiple levels within a categorical data:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data=</span>penguins, <span class="fu">aes</span>(<span class="at">x =</span> species, <span class="at">fill =</span> sex)) <span class="sc">+</span></span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data=</span>penguins, <span class="fu">aes</span>(<span class="at">x =</span> species, <span class="at">fill =</span> sex)) <span class="sc">+</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img data-src="lec04_files/figure-revealjs/cat-barplot-1.png" style="width:50.0%"></p>
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data=</span>penguins, <span class="fu">aes</span>(<span class="at">x =</span> species, <span class="at">fill =</span> sex)) <span class="sc">+</span></span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">position =</span> <span class="st">"fill"</span>) <span class="sc">+</span></span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">"proportion"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data=</span>penguins, <span class="fu">aes</span>(<span class="at">x =</span> species, <span class="at">fill =</span> sex)) <span class="sc">+</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">position =</span> <span class="st">"fill"</span>) <span class="sc">+</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ylab</span>(<span class="st">"proportion"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img data-src="lec04_files/figure-revealjs/proportion-barplot-1.png" style="width:50.0%"></p>
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data=</span>penguins, <span class="fu">aes</span>(<span class="at">x =</span> species, <span class="at">fill =</span> sex)) <span class="sc">+</span></span>
-<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">position =</span> <span class="st">"dodge"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data=</span>penguins, <span class="fu">aes</span>(<span class="at">x =</span> species, <span class="at">fill =</span> sex)) <span class="sc">+</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">position =</span> <span class="st">"dodge"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img data-src="lec04_files/figure-revealjs/side-by-side-barplot-1.png" style="width:50.0%"></p>
 </div>
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data=</span>penguins, <span class="fu">aes</span>(<span class="at">x =</span> species))<span class="sc">+</span></span>
-<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
-<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> sex)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data=</span>penguins, <span class="fu">aes</span>(<span class="at">x =</span> species))<span class="sc">+</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>() <span class="sc">+</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> sex)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <p><img data-src="lec04_files/figure-revealjs/faceted-barplot-1.png" style="width:50.0%"></p>
 </div>
