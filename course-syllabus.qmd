@@ -79,7 +79,7 @@ The final project will be completed in groups of 3-6 people and allow you to exp
 
 ### Exam Improvement Policy
 
-We have worked to develop a policy geared towards a growth mindset. That is, we want a policy where students clearly demonstrate that they have used the exam as a diagnostic tool to learn from and improve their understanding of statistics. There is NO final cumulative exam during the designated final exam time, instead you may choose to retake 1 exam during the exam time. This exam will replace your old score --- only in cases where it is an improvement. You must be on-campus to take the exam.
+We have worked to develop a policy geared towards a growth mindset. That is, we want a policy where students clearly demonstrate that they have used the exam as a diagnostic tool to learn from and improve their understanding of statistics. There is NO final cumulative exam during the designated final exam time, instead you may choose to retake 1 exam during the exam time. This exam will replace your old score --- only in cases where it is an improvement.
 
 ### Missed Exam Policy
 
@@ -147,8 +147,7 @@ Contact Valerie Wolf (valerie.wolf\@northwestern.edu) with any questions.
 
 ## Attendance Expectation/Policy
 
-While we do not collect formal attendance we do record participation. Implicit in the course design it is expected that you attend class to benefit from working with others — either by helping others or by helping others learn.
-
+While we do not collect formal attendance we do record participation. Implicit in the course design it is expected that you attend class to benefit from working with others --- either by helping others or by helping others learn.
 
 ### Religious Observance
 
@@ -160,14 +159,9 @@ COMMUNITY HEALTH REMAINS OUR PRIORITY. If you are experiencing symptoms of COVID
 
 ## Use of Generative AI (for example ChatGPT)
 
-In this course, generative AI resources are encouraged to be used by students with the purpose of supporting their learning. Only turn to generative AI as a last resort/step. Never begin with it. Without developing a basic understanding first you won’t be able determine the usefulness or correctness of its output. To ensure academic integrity, students must openly disclose any AI-generated material they utilize and provide proper attribution. This includes in-text/code citations, quotations, and references. **Instructions will clearly state when these tools are not to be used.**
+In this course, generative AI resources are encouraged to be used by students with the purpose of supporting their learning. Only turn to generative AI as a last resort/step. Never begin with it. Without developing a basic understanding first you won't be able determine the usefulness or correctness of its output. To ensure academic integrity, students must openly disclose any AI-generated material they utilize and provide proper attribution. This includes in-text/code citations, quotations, and references. **Instructions will clearly state when these tools are not to be used.**
 
-When using these tools students will typically be asked to create personal
-accounts for artificial intelligence services and/or software. Students should
-familiarize themselves with the Terms of Use for these services as well as the
-expectations around data privacy and use. Students should not share private, or
-otherwise sensitive information or data, about themselves or others, with these
-tools, as there is often no guarantee of data privacy.
+When using these tools students will typically be asked to create personal accounts for artificial intelligence services and/or software. Students should familiarize themselves with the Terms of Use for these services as well as the expectations around data privacy and use. Students should not share private, or otherwise sensitive information or data, about themselves or others, with these tools, as there is often no guarantee of data privacy.
 
 ## Accessibility & Accommodations
 
@@ -175,14 +169,9 @@ Northwestern University is committed to providing the most accessible learning e
 
 [^1]: email: accessiblenu\@northwestern.edu; phoone: 847-467-5530
 
-
 ## Recording
 
-This class or portions of this class might be recorded by the instructor
-for educational purposes. Your instructor will communicate how members
-of the class can access the recordings. Portions of the course that contain
-images, questions or commentary/discussion by students will be edited out of
-any recordings that are saved beyond the current term.
+This class or portions of this class might be recorded by the instructor for educational purposes. Your instructor will communicate how members of the class can access the recordings. Portions of the course that contain images, questions or commentary/discussion by students will be edited out of any recordings that are saved beyond the current term.
 
 \textsc{Unauthorized student recording} of classroom or other academic activities is prohibited.[^2] Unauthorized recording is unethical and may also be a violation of University policy and state law.
 
@@ -195,7 +184,6 @@ Under the University's [Copyright Policy](https://www.invo.northwestern.edu/inve
 ## Academic Integrity
 
 \textsc{Students in this course are required} to comply with the policies found in the booklet, "Academic Integrity at Northwestern University: A Basic Guide". All papers submitted for credit in this course must be submitted electronically unless otherwise instructed by the professor. Your written work may be tested for plagiarized content. For details regarding academic integrity at Northwestern or to download the guide, visit: <https://www.northwestern.edu/provost/policies-procedures/academic-integrity/index.html>
-
 
 ## Sexual Misconduct & Reporting
 
