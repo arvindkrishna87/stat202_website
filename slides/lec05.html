@@ -594,9 +594,9 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
 </section>
 <section id="example-2" class="slide level2 scrollable" data-auto-animate="true">
 <h2 data-id="quarto-animate-title">Example 2</h2>
-<div class="absolute" style="top: 0%; left: 90%; width: 100px; ">
-<p><img data-src="images_lecture/participate_icon.png"></p>
-</div>
+<!-- ::: {.absolute top="0%" left="90%" width="100"} -->
+<!-- ![](images_lecture/participate_icon.png) -->
+<!-- ::: -->
 <p><font size="6"> Subset the dataset to only include ‘male’ penguins that weigh more than 4000 grams. </font></p>
 <div class="panel-tabset">
 <ul id="tabset-4" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-4-1">Code</a></li><li><a href="#tabset-4-2">Data</a></li></ul>
@@ -741,65 +741,144 @@ d) not enough information</code></pre>
 <span id="cb22-20" class="hljs-ln-code"><a href="#cb22-20" aria-hidden="true" tabindex="-1"></a>            <span class="at">count =</span> <span class="fu">n</span>(flipper_length_mm) )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><br></p>
+<!-- ## Example 3 {.scrollable auto-animate="true"} -->
+<!-- Consider the `penguins` dataset. -->
+<!-- <font size="6">Summarize the average `flipper_length_mm` and count for penguins that are either "Adelie" `species` or "Gentoo" `species`. Which of the following is correct?</font> -->
+<!-- ```{r} -->
+<!-- #| eval: false -->
+<!-- #| code-line-numbers: "6-10" -->
+<!-- # a) -->
+<!-- penguins_summary_a <- penguins %>%  -->
+<!--   filter(species == "Adelie" | "Gentoo") %>%  -->
+<!--   summarize(mean = mean(flipper_length_mm), -->
+<!--             count = n() ) -->
+<!-- # b) -->
+<!-- penguins_summary_b <- penguins %>%  -->
+<!--   filter(species == "Adelie" | species == "Gentoo") %>%  -->
+<!--   summarize(mean = mean(flipper_length_mm), -->
+<!--             count = n() ) -->
+<!-- #c) -->
+<!-- penguins_summary_c <- penguins %>%  -->
+<!--   summarize(mean = mean(flipper_length_mm), -->
+<!--             count = n(flipper_length_mm) ) %>%  -->
+<!--   filter(species == "Adelie" | species == "Gentoo") -->
+<!-- #d) -->
+<!-- penguins_summary_d <- penguins %>%  -->
+<!--   filter(species == "Adelie" & species == "Gentoo") %>%  -->
+<!--   summarize(mean = mean(flipper_length_mm), -->
+<!--             count = n() ) -->
+<!-- ``` -->
 </section>
-<section id="example-3-1" class="slide level2 scrollable" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Example 3</h2>
-<p>Consider the <code>penguins</code> dataset.</p>
-<p><font size="6">Summarize the average <code>flipper_length_mm</code> and count for penguins that are either “Adelie” <code>species</code> or “Gentoo” <code>species</code>. Which of the following is correct?</font></p>
+<section id="example-4" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Example 4</h2>
+<p>What happens if a variable has missing data?</p>
+<div class="panel-tabset">
+<ul id="tabset-6" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-6-1">Missingness</a></li><li><a href="#tabset-6-2">Summarize</a></li></ul>
+<div class="tab-content">
+<div id="tabset-6-1">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb23" data-code-line-numbers="6-10"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb23-1" class="hljs-ln-code"><a href="#cb23-1"></a><span class="co"># a)</span></span>
-<span id="cb23-2" class="hljs-ln-code"><a href="#cb23-2"></a>penguins_summary_a <span class="ot">&lt;-</span> penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb23-3" class="hljs-ln-code"><a href="#cb23-3"></a>  <span class="fu">filter</span>(species <span class="sc">==</span> <span class="st">"Adelie"</span> <span class="sc">|</span> <span class="st">"Gentoo"</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb23-4" class="hljs-ln-code"><a href="#cb23-4"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(flipper_length_mm),</span>
-<span id="cb23-5" class="hljs-ln-code"><a href="#cb23-5"></a>            <span class="at">count =</span> <span class="fu">n</span>() )</span>
-<span id="cb23-6" class="hljs-ln-code"><a href="#cb23-6"></a><span class="co"># b)</span></span>
-<span id="cb23-7" class="hljs-ln-code"><a href="#cb23-7"></a>penguins_summary_b <span class="ot">&lt;-</span> penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb23-8" class="hljs-ln-code"><a href="#cb23-8"></a>  <span class="fu">filter</span>(species <span class="sc">==</span> <span class="st">"Adelie"</span> <span class="sc">|</span> species <span class="sc">==</span> <span class="st">"Gentoo"</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb23-9" class="hljs-ln-code"><a href="#cb23-9"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(flipper_length_mm),</span>
-<span id="cb23-10" class="hljs-ln-code"><a href="#cb23-10"></a>            <span class="at">count =</span> <span class="fu">n</span>() )</span>
-<span id="cb23-11" class="hljs-ln-code"><a href="#cb23-11"></a><span class="co">#c)</span></span>
-<span id="cb23-12" class="hljs-ln-code"><a href="#cb23-12"></a>penguins_summary_c <span class="ot">&lt;-</span> penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb23-13" class="hljs-ln-code"><a href="#cb23-13"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(flipper_length_mm),</span>
-<span id="cb23-14" class="hljs-ln-code"><a href="#cb23-14"></a>            <span class="at">count =</span> <span class="fu">n</span>(flipper_length_mm) ) <span class="sc">%&gt;%</span> </span>
-<span id="cb23-15" class="hljs-ln-code"><a href="#cb23-15"></a>  <span class="fu">filter</span>(species <span class="sc">==</span> <span class="st">"Adelie"</span> <span class="sc">|</span> species <span class="sc">==</span> <span class="st">"Gentoo"</span>)</span>
-<span id="cb23-16" class="hljs-ln-code"><a href="#cb23-16"></a><span class="co">#d)</span></span>
-<span id="cb23-17" class="hljs-ln-code"><a href="#cb23-17"></a>penguins_summary_d <span class="ot">&lt;-</span> penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb23-18" class="hljs-ln-code"><a href="#cb23-18"></a>  <span class="fu">filter</span>(species <span class="sc">==</span> <span class="st">"Adelie"</span> <span class="sc">&amp;</span> species <span class="sc">==</span> <span class="st">"Gentoo"</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb23-19" class="hljs-ln-code"><a href="#cb23-19"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(flipper_length_mm),</span>
-<span id="cb23-20" class="hljs-ln-code"><a href="#cb23-20"></a>            <span class="at">count =</span> <span class="fu">n</span>() )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><strong>Variable type: numeric</strong></p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 21%">
+<col style="width: 12%">
+<col style="width: 17%">
+<col style="width: 8%">
+<col style="width: 7%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 4%">
+<col style="width: 6%">
+<col style="width: 7%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">skim_variable</th>
+<th style="text-align: right;">n_missing</th>
+<th style="text-align: right;">complete_rate</th>
+<th style="text-align: right;">mean</th>
+<th style="text-align: right;">sd</th>
+<th style="text-align: right;">p0</th>
+<th style="text-align: right;">p25</th>
+<th style="text-align: right;">p50</th>
+<th style="text-align: right;">p75</th>
+<th style="text-align: right;">p100</th>
+<th style="text-align: left;">hist</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">flipper_length_mm</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0.99</td>
+<td style="text-align: right;">200.92</td>
+<td style="text-align: right;">14.06</td>
+<td style="text-align: right;">172</td>
+<td style="text-align: right;">190</td>
+<td style="text-align: right;">197</td>
+<td style="text-align: right;">213</td>
+<td style="text-align: right;">231</td>
+<td style="text-align: left;">▂▇▃▅▂</td>
+</tr>
+</tbody>
+</table>
 </div>
-</section>
-<section id="example-3-continued" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Example 3 (continued)</h2>
-<p>Print the data summary.</p>
+</div>
+</div>
+<div id="tabset-6-2">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb24-1" class="hljs-ln-code"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>penguins_summary_b <span class="ot">&lt;-</span> penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb24-2" class="hljs-ln-code"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(species <span class="sc">==</span> <span class="st">"Adelie"</span> <span class="sc">|</span> species <span class="sc">==</span> <span class="st">"Gentoo"</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb24-3" class="hljs-ln-code"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(flipper_length_mm),</span>
-<span id="cb24-4" class="hljs-ln-code"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>            <span class="at">count =</span> <span class="fu">n</span>() )</span>
-<span id="cb24-5" class="hljs-ln-code"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>penguins_summary_b</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb23-1" class="hljs-ln-code"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>penguins_summary <span class="ot">&lt;-</span> penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb23-2" class="hljs-ln-code"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(flipper_length_mm),</span>
+<span id="cb23-3" class="hljs-ln-code"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>            <span class="at">count =</span> <span class="fu">n</span>() )</span>
+<span id="cb23-4" class="hljs-ln-code"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>penguins_summary</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 1 × 2
    mean count
   &lt;dbl&gt; &lt;int&gt;
-1    NA   276</code></pre>
+1    NA   344</code></pre>
+</div>
+</div>
+</div>
 </div>
 </div>
 </section>
-<section id="example-3-continued-1" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Example 3 (continued)</h2>
-<p>Print the data summary.</p>
+<section id="example-4-continued" class="slide level2" data-auto-animate="true">
+<h2 data-id="quarto-animate-title">Example 4 (continued)</h2>
+<p>Either set <code>na.rm = TRUE</code> OR filter out the missing data before summarizing.</p>
+<div class="panel-tabset">
+<ul id="tabset-7" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-7-1">na.rm</a></li><li><a href="#tabset-7-2">filter</a></li></ul>
+<div class="tab-content">
+<div id="tabset-7-1">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb26" data-code-line-numbers="3"><pre class="sourceCode numberSource r number-lines code-with-copy" data-id="quarto-animate-code"><code class="sourceCode r hljs"><span id="cb26-1" class="hljs-ln-code"><a href="#cb26-1"></a>penguins_summary_b <span class="ot">&lt;-</span> penguins <span class="sc">%&gt;%</span> </span>
-<span id="cb26-2" class="hljs-ln-code"><a href="#cb26-2"></a>  <span class="fu">filter</span>(species <span class="sc">==</span> <span class="st">"Adelie"</span> <span class="sc">|</span> species <span class="sc">==</span> <span class="st">"Gentoo"</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb26-3" class="hljs-ln-code"><a href="#cb26-3"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(flipper_length_mm, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
-<span id="cb26-4" class="hljs-ln-code"><a href="#cb26-4"></a>            <span class="at">count =</span> <span class="fu">n</span>() )</span>
-<span id="cb26-5" class="hljs-ln-code"><a href="#cb26-5"></a>penguins_summary_b</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb25" data-code-line-numbers="3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1"></a>penguins_summary <span class="ot">&lt;-</span> penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb25-2"><a href="#cb25-2"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(flipper_length_mm, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb25-3"><a href="#cb25-3"></a>            <span class="at">count =</span> <span class="fu">n</span>() )</span>
+<span id="cb25-4"><a href="#cb25-4"></a>penguins_summary</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 1 × 2
    mean count
   &lt;dbl&gt; &lt;int&gt;
-1  202.   276</code></pre>
+1  201.   344</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-7-2">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb27" data-code-line-numbers="3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1"></a>penguins_summary <span class="ot">&lt;-</span> penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb27-2"><a href="#cb27-2"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(flipper_length_mm)) <span class="sc">%&gt;%</span></span>
+<span id="cb27-3"><a href="#cb27-3"></a>  <span class="fu">summarize</span>(<span class="at">mean =</span> <span class="fu">mean</span>(flipper_length_mm),</span>
+<span id="cb27-4"><a href="#cb27-4"></a>            <span class="at">count =</span> <span class="fu">n</span>() )</span>
+<span id="cb27-5"><a href="#cb27-5"></a>penguins_summary</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 1 × 2
+   mean count
+  &lt;dbl&gt; &lt;int&gt;
+1  201.   342</code></pre>
+</div>
+</div>
+</div>
 </div>
 </div>
 </section>
@@ -808,7 +887,7 @@ d) not enough information</code></pre>
 <ul>
 <li>Order of pipe operations matters!</li>
 <li>If you are using <code>&amp;</code> and <code>|</code> in the same filter be very careful and use parenthesis.</li>
-<li>Missing data is entered as <code>NA</code> in a data frame cell and can produce an error when using <code>summarize</code> unless you set na.rm=TRUE (ie: remove the NA values).</li>
+<li>Missing data is entered as <code>NA</code> in a data frame cell and can produce an error when using <code>summarize</code> unless you set <code>na.rm = TRUE</code> (ie: remove the NA values).</li>
 </ul>
 
 
