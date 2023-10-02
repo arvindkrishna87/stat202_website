@@ -23,6 +23,7 @@ execute:
 #| include: false
 library(ggplot2)
 library(dplyr)
+library(skimr)
 library(palmerpenguins)
 ```
 
@@ -162,9 +163,9 @@ Remember to store your data with a new meaningful name.
 
 ## Example 2 {.scrollable auto-animate="true"}
 
-::: {.absolute top="0%" left="90%" width="100"}
-![](images_lecture/participate_icon.png)
-:::
+<!-- ::: {.absolute top="0%" left="90%" width="100"} -->
+<!-- ![](images_lecture/participate_icon.png) -->
+<!-- ::: -->
 
 <font size="6"> Subset the dataset to only include 'male' penguins that weigh more than 4000 grams. </font>
 
@@ -312,64 +313,91 @@ penguins_summary_d <- penguins %>%
 
 <br>
 
-## Example 3 {.scrollable auto-animate="true"}
+<!-- ## Example 3 {.scrollable auto-animate="true"} -->
 
-Consider the `penguins` dataset.
+<!-- Consider the `penguins` dataset. -->
 
-<font size="6">Summarize the average `flipper_length_mm` and count for penguins that are either "Adelie" `species` or "Gentoo" `species`. Which of the following is correct?</font>
+<!-- <font size="6">Summarize the average `flipper_length_mm` and count for penguins that are either "Adelie" `species` or "Gentoo" `species`. Which of the following is correct?</font> -->
+
+<!-- ```{r} -->
+<!-- #| eval: false -->
+<!-- #| code-line-numbers: "6-10" -->
+<!-- # a) -->
+<!-- penguins_summary_a <- penguins %>%  -->
+<!--   filter(species == "Adelie" | "Gentoo") %>%  -->
+<!--   summarize(mean = mean(flipper_length_mm), -->
+<!--             count = n() ) -->
+<!-- # b) -->
+<!-- penguins_summary_b <- penguins %>%  -->
+<!--   filter(species == "Adelie" | species == "Gentoo") %>%  -->
+<!--   summarize(mean = mean(flipper_length_mm), -->
+<!--             count = n() ) -->
+<!-- #c) -->
+<!-- penguins_summary_c <- penguins %>%  -->
+<!--   summarize(mean = mean(flipper_length_mm), -->
+<!--             count = n(flipper_length_mm) ) %>%  -->
+<!--   filter(species == "Adelie" | species == "Gentoo") -->
+<!-- #d) -->
+<!-- penguins_summary_d <- penguins %>%  -->
+<!--   filter(species == "Adelie" & species == "Gentoo") %>%  -->
+<!--   summarize(mean = mean(flipper_length_mm), -->
+<!--             count = n() ) -->
+<!-- ``` -->
+
+## Example 4 {auto-animate="true"}
+
+What happens if a variable has missing data?
+
+::: panel-tabset
+## Missingness
 
 ```{r}
-#| eval: false
-#| code-line-numbers: "6-10"
-# a)
-penguins_summary_a <- penguins %>% 
-  filter(species == "Adelie" | "Gentoo") %>% 
-  summarize(mean = mean(flipper_length_mm),
-            count = n() )
-# b)
-penguins_summary_b <- penguins %>% 
-  filter(species == "Adelie" | species == "Gentoo") %>% 
-  summarize(mean = mean(flipper_length_mm),
-            count = n() )
-#c)
-penguins_summary_c <- penguins %>% 
-  summarize(mean = mean(flipper_length_mm),
-            count = n(flipper_length_mm) ) %>% 
-  filter(species == "Adelie" | species == "Gentoo")
-#d)
-penguins_summary_d <- penguins %>% 
-  filter(species == "Adelie" & species == "Gentoo") %>% 
-  summarize(mean = mean(flipper_length_mm),
-            count = n() )
+#| echo: false
+#naniar::miss_var_summary(penguins)
+penguins %>%
+  skim(flipper_length_mm) %>%
+  yank("numeric")
 ```
 
-## Example 3 (continued) {auto-animate="true"}
-
-Print the data summary.
+## Summarize
 
 ```{r}
-penguins_summary_b <- penguins %>% 
-  filter(species == "Adelie" | species == "Gentoo") %>% 
+penguins_summary <- penguins %>% 
   summarize(mean = mean(flipper_length_mm),
             count = n() )
-penguins_summary_b
+penguins_summary
 ```
 
-## Example 3 (continued) {auto-animate="true"}
+:::
 
-Print the data summary.
+## Example 4 (continued) {auto-animate="true"}
 
+Either set `na.rm = TRUE` OR filter out the missing data before summarizing.
+
+
+::: panel-tabset
+## na.rm
 ```{r}
 #| code-line-numbers: "3"
-penguins_summary_b <- penguins %>% 
-  filter(species == "Adelie" | species == "Gentoo") %>% 
+penguins_summary <- penguins %>% 
   summarize(mean = mean(flipper_length_mm, na.rm = TRUE),
             count = n() )
-penguins_summary_b
+penguins_summary
 ```
+
+## filter
+```{r}
+#| code-line-numbers: "3"
+penguins_summary <- penguins %>% 
+  filter(!is.na(flipper_length_mm)) %>%
+  summarize(mean = mean(flipper_length_mm),
+            count = n() )
+penguins_summary
+```
+:::
 
 ## Important information
 
 -   Order of pipe operations matters!
 -   If you are using `&` and `|` in the same filter be very careful and use parenthesis.
--   Missing data is entered as `NA` in a data frame cell and can produce an error when using `summarize` unless you set na.rm=TRUE (ie: remove the NA values).
+-   Missing data is entered as `NA` in a data frame cell and can produce an error when using `summarize` unless you set `na.rm = TRUE` (ie: remove the NA values).

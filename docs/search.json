@@ -809,7 +809,7 @@
     "href": "slides/lec05.html#example-3-continued",
     "title": "Data Wrangling  Chapter 3.0 - 3.3",
     "section": "Example 3 (continued)",
-    "text": "Example 3 (continued)\nPrint the data summary.\n\npenguins_summary_b <- penguins %>% \n  filter(species == \"Adelie\" | species == \"Gentoo\") %>% \n  summarize(mean = mean(flipper_length_mm),\n            count = n() )\npenguins_summary_b\n\n# A tibble: 1 × 2\n   mean count\n  <dbl> <int>\n1    NA   276"
+    "text": "Example 3 (continued)\nEither set na.rm = TRUE OR filter out the missing data before summarizing.\n\npenguins_summary <- penguins %>% \n  filter(species == \"Adelie\" | species == \"Gentoo\") %>% \n  summarize(mean = mean(flipper_length_mm, na.rm = TRUE),\n            count = n() )\npenguins_summary\n\n# A tibble: 1 × 2\n   mean count\n  <dbl> <int>\n1  202.   276"
   },
   {
     "objectID": "slides/lec05.html#example-3-continued-1",
@@ -823,7 +823,7 @@
     "href": "slides/lec05.html#important-information",
     "title": "Data Wrangling  Chapter 3.0 - 3.3",
     "section": "Important information",
-    "text": "Important information\n\nOrder of pipe operations matters!\nIf you are using & and | in the same filter be very careful and use parenthesis.\nMissing data is entered as NA in a data frame cell and can produce an error when using summarize unless you set na.rm=TRUE (ie: remove the NA values)."
+    "text": "Important information\n\nOrder of pipe operations matters!\nIf you are using & and | in the same filter be very careful and use parenthesis.\nMissing data is entered as NA in a data frame cell and can produce an error when using summarize unless you set na.rm = TRUE (ie: remove the NA values)."
   },
   {
     "objectID": "slides/lec06.html#todays-goals",
@@ -1790,5 +1790,19 @@
     "title": "Today’s Agenda",
     "section": "Homework Due Tue Sep 26 11:59pm",
     "text": "Homework Due Tue Sep 26 11:59pm\n\n\n\n\n\n\n  \n  \n    Complete and submit  act_02\n\n     Read Sections 2.4 - 2.6\n\n    Complete and submit  RC_03"
+  },
+  {
+    "objectID": "slides/lec05.html#example-4",
+    "href": "slides/lec05.html#example-4",
+    "title": "Data Wrangling  Chapter 3.0 - 3.3",
+    "section": "Example 4",
+    "text": "Example 4\nWhat happens if a variable has missing data?\n\nMissingnessSummarize\n\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\nhist\n\n\n\n\nflipper_length_mm\n2\n0.99\n200.92\n14.06\n172\n190\n197\n213\n231\n▂▇▃▅▂\n\n\n\n\n\n\n\n\npenguins_summary <- penguins %>% \n  summarize(mean = mean(flipper_length_mm),\n            count = n() )\npenguins_summary\n\n# A tibble: 1 × 2\n   mean count\n  <dbl> <int>\n1    NA   344"
+  },
+  {
+    "objectID": "slides/lec05.html#example-4-continued",
+    "href": "slides/lec05.html#example-4-continued",
+    "title": "Data Wrangling  Chapter 3.0 - 3.3",
+    "section": "Example 4 (continued)",
+    "text": "Example 4 (continued)\nEither set na.rm = TRUE OR filter out the missing data before summarizing.\n\nna.rmfilter\n\n\n\npenguins_summary <- penguins %>% \n  summarize(mean = mean(flipper_length_mm, na.rm = TRUE),\n            count = n() )\npenguins_summary\n\n# A tibble: 1 × 2\n   mean count\n  <dbl> <int>\n1  201.   344\n\n\n\n\n\npenguins_summary <- penguins %>% \n  filter(!is.na(flipper_length_mm)) %>%\n  summarize(mean = mean(flipper_length_mm),\n            count = n() )\npenguins_summary\n\n# A tibble: 1 × 2\n   mean count\n  <dbl> <int>\n1  201.   342"
   }
 ]
