@@ -10,10 +10,10 @@ execute:
 from: markdown+emoji
 ---
 
-<!-- ::: callout-important -->
-<!-- If you missed class, click on the "Schedule" tab and work through each icon next to the day you missed! -->
+::: callout-important
+If you struggled with Activity 5, please make sure you watch: [Supplemental Video for Activity 05](https://northwestern.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b93dc577-6cc4-4258-a5f0-b09001290dc5)
 
-<!-- ::: -->
+:::
 
 ```{r}
 #library(tidyverse)
