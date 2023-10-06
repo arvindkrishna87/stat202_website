@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Today’s Agenda",
     "section": "",
-    "text": "Important\n\n\n\nIf you struggled with Activity 5, please make sure you watch: Supplemental Video for Activity 05"
+    "text": "Important\n\n\n\nIf you struggled with data wrangling, please make sure you watch: Supplemental Video for Activity 05 and Supplemental Video for Activity 06.\nPractice Exam available!"
   },
   {
     "objectID": "index.html#class-fri-oct-06",
@@ -396,7 +396,7 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 37.449, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3778.257 4206.743\nsample estimates:\nmean of x \n   3992.5"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 39.042, df = 48, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3986.125 4418.977\nsample estimates:\nmean of x \n 4202.551"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
@@ -1782,7 +1782,7 @@
     "href": "course-anu.html",
     "title": "Accessible NU",
     "section": "",
-    "text": "If you are registered with Accessible NU your exams will be proctored by our graduate TA.\nThe exam will begin 30 minutes before the standard class time.\nExam 1:\n\nSec 20: Monday October 9 at 8:30am in Harris Hall L28\nSec 21: Monday October 9 at 12:30pm location TBA\n\nExam 2:\n\nSec 20: Wednesday October 25 at 8:30am\nSec 21: Wednesday October 25 at 12:30pm\n\nExam 3:\n\nSec 20: Monday November 20 at 8:30am\nSec 21: Monday November 20 at 12:30pm\n\nIf you are not available at this time, please contact me ASAP.\nOptional final exam will take place via Zoom with the other students at the designated start time."
+    "text": "If you are registered with Accessible NU your exams will be proctored by our graduate TA.\nThe exam will begin 30 minutes before the standard class time.\nExam 1:\n\nSec 20: Monday October 9 at 8:30am in Harris Hall L28 (basement)\nSec 21: Monday October 9 at 12:30pm in 2006 Sheridan B02 (basement)\n\nExam 2:\n\nSec 20: Wednesday October 25 at 8:30am location TBA\nSec 21: Wednesday October 25 at 12:30pm location TBA\n\nExam 3:\n\nSec 20: Monday November 20 at 8:30am location TBA\nSec 21: Monday November 20 at 12:30pm location TBA\n\nIf you are not available at this time, please contact me ASAP.\nOptional final exam will take place via Zoom with the other students at the designated start time."
   },
   {
     "objectID": "course-solutions.html",
