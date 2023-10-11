@@ -10,12 +10,12 @@ execute:
 from: markdown+emoji
 ---
 
-::: callout-important
-Good luck on the Exam!
+<!-- ::: callout-important -->
+<!-- Good luck on the Exam! -->
 
-Remember at the end of the quarter you may choose to re-take 1 exam during the final exam period.
+<!-- Remember at the end of the quarter you may choose to re-take 1 exam during the final exam period. -->
 
-:::
+<!-- ::: -->
 
 ```{r}
 #library(tidyverse)
