@@ -10,12 +10,10 @@ execute:
 from: markdown+emoji
 ---
 
-<!-- ::: callout-important -->
-<!-- Good luck on the Exam! -->
+::: callout-important
+Please complete [Course Survey 1](https://canvas.northwestern.edu/courses/201484/quizzes/217342) by 10/15 11:59pm (worth 1 participation point)
 
-<!-- Remember at the end of the quarter you may choose to re-take 1 exam during the final exam period. -->
-
-<!-- ::: -->
+:::
 
 ```{r}
 #library(tidyverse)
