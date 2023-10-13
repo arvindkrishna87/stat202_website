@@ -105,7 +105,7 @@ Match the following graphs with the most appropriate correlation coefficient: </
 
 <font size="6"> Match the following graph with the most appropriate correlation coefficient: </font>
 
-3.  Distance traveled vs the amount of gas in the car.
+3.  Amount of gas in a car vs distance traveled .
 
     a . Exactly -1
 
