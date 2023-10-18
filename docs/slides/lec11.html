@@ -482,9 +482,9 @@ $ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 
 <div>
 <ul>
 <li class="fragment">What is the reference level (baseline) for sex?</li>
-<li class="fragment">Interpretation of <span class="math inline">\(b_0\)</span> : expected body mass for female penguins (the baseline) when flipper length is 0 is -5410.3</li>
-<li class="fragment">Interpretation of <span class="math inline">\(b_1\)</span> : slope of flipper length for both categories</li>
-<li class="fragment">Interpretation of <span class="math inline">\(b_2\)</span> : offset in intercept for males (level = male)</li>
+<li class="fragment">Interpretation of <span class="math inline">\(b_0\)</span> : (intercept for female penguins) The expected body mass for female penguins (the baseline) when flipper length is 0 is -5410.3</li>
+<li class="fragment">Interpretation of <span class="math inline">\(b_1\)</span> : (slope of flipper length for both male and female penguins) For every 1mm increase in flipper length, we EXPECT body mass to increase by 46.98 g on average regardless of penguin gender.</li>
+<li class="fragment">Interpretation of <span class="math inline">\(b_2\)</span> : (offset in intercept for male penguins) On average, we expect male penguins to weight 347.85 g more than female penguins.</li>
 </ul>
 </div>
 </section>
@@ -591,59 +591,17 @@ F-statistic: 455.2 on 3 and 329 DF,  p-value: &lt; 2.2e-16</code></pre>
 <li><span class="math inline">\(b_3\)</span> :</li>
 </ul>
 </section>
-<section id="interaction-model-output-1" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Interaction Model Output</h2>
-<div class="absolute" style="top: 0%; left: 90%; width: 100px; ">
-<p><img data-src="images_lecture/participate_icon.png"></p>
-</div>
+<section id="interaction-model-context-of-the-problem" class="slide level2">
+<h2>Interaction Model: Context of the Problem</h2>
 <p><strong>Equation</strong>: <span class="math display">\[\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*\mathbb{1}_{male}(x) \]</span> <span class="math display">\[- 0.29*flipper*\mathbb{1}_{male}(x)\]</span></p>
 <ul>
-<li><span class="math inline">\(b_0\)</span> : intercept for baseline (female penguins)</li>
-<li><span class="math inline">\(b_1\)</span> :</li>
-<li><span class="math inline">\(b_2\)</span> :</li>
-<li><span class="math inline">\(b_3\)</span> :</li>
+<li><span class="math inline">\(b_0\)</span> : When flipper length is 0 we expect female penguins to weigh -5443.96 g</li>
+<li><span class="math inline">\(b_1\)</span> : For every 1 mm increase in flipper length, we predict body mass increases by 47.15g for female penguins</li>
+<li><span class="math inline">\(b_2\)</span> : When flipper length is 0, we expect male penguins to weigh 406.8 g more than female penguins.</li>
+<li><span class="math inline">\(b_3\)</span> : For every 1mm increase in flipper length, we predict the body mass for male penguins will increase at a rate that is 0.29 less than the rate of increase for female penguins.</li>
 </ul>
 </section>
-<section id="interaction-model-output-2" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Interaction Model Output</h2>
-<div class="absolute" style="top: 0%; left: 90%; width: 100px; ">
-<p><img data-src="images_lecture/participate_icon.png"></p>
-</div>
-<p><strong>Equation</strong>: <span class="math display">\[\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*\mathbb{1}_{male}(x) \]</span> <span class="math display">\[- 0.29*flipper*\mathbb{1}_{male}(x)\]</span></p>
-<ul>
-<li><span class="math inline">\(b_0\)</span> : intercept for baseline (female penguins)</li>
-<li><span class="math inline">\(b_1\)</span> : slope of flipper length for female penguins</li>
-<li><span class="math inline">\(b_2\)</span> :</li>
-<li><span class="math inline">\(b_3\)</span> :</li>
-</ul>
-</section>
-<section id="interaction-model-output-3" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Interaction Model Output</h2>
-<div class="absolute" style="top: 0%; left: 90%; width: 100px; ">
-<p><img data-src="images_lecture/participate_icon.png"></p>
-</div>
-<p><strong>Equation</strong>: <span class="math display">\[\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*\mathbb{1}_{male}(x) \]</span> <span class="math display">\[- 0.29*flipper*\mathbb{1}_{male}(x)\]</span></p>
-<ul>
-<li><span class="math inline">\(b_0\)</span> : intercept for baseline (female penguins)</li>
-<li><span class="math inline">\(b_1\)</span> : slope of flipper length for female penguins</li>
-<li><span class="math inline">\(b_2\)</span> : offset of intercept for male penguins</li>
-<li><span class="math inline">\(b_3\)</span> :</li>
-</ul>
-</section>
-<section id="interaction-model-output-4" class="slide level2" data-auto-animate="true">
-<h2 data-id="quarto-animate-title">Interaction Model Output</h2>
-<div class="absolute" style="top: 0%; left: 90%; width: 100px; ">
-<p><img data-src="images_lecture/participate_icon.png"></p>
-</div>
-<p><strong>Equation</strong>: <span class="math display">\[\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*\mathbb{1}_{male}(x) \]</span> <span class="math display">\[- 0.29*flipper*\mathbb{1}_{male}(x)\]</span></p>
-<ul>
-<li><span class="math inline">\(b_0\)</span> : intercept for baseline (female penguins)</li>
-<li><span class="math inline">\(b_1\)</span> : slope of flipper length for female penguins</li>
-<li><span class="math inline">\(b_2\)</span> : offset of intercept for male penguins</li>
-<li><span class="math inline">\(b_3\)</span> : offset in slope of flipper length for male penguins</li>
-</ul>
-</section>
-<section id="interaction-model-output-5" class="slide level2">
+<section id="interaction-model-output-1" class="slide level2">
 <h2>Interaction Model Output</h2>
 <p>You can think of each ‘level’ having a different line (equation).</p>
 <p><br></p>

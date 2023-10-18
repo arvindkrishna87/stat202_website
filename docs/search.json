@@ -1173,7 +1173,7 @@
     "href": "slides/lec11.html#same-slopes-model-output",
     "title": "Multiple Regression  Chapter 6.2 - 6.4",
     "section": "Same Slopes Model Output",
-    "text": "Same Slopes Model Output\n\n\n\nEquation: \\(\\widehat{bodymass} = -5410.3 + 46.98*flipper + 347.85*\\mathbb{1}_{male}(x)\\)\n\n\nWhat is the reference level (baseline) for sex?\nInterpretation of \\(b_0\\) : expected body mass for female penguins (the baseline) when flipper length is 0 is -5410.3\nInterpretation of \\(b_1\\) : slope of flipper length for both categories\nInterpretation of \\(b_2\\) : offset in intercept for males (level = male)"
+    "text": "Same Slopes Model Output\n\n\n\nEquation: \\(\\widehat{bodymass} = -5410.3 + 46.98*flipper + 347.85*\\mathbb{1}_{male}(x)\\)\n\n\nWhat is the reference level (baseline) for sex?\nInterpretation of \\(b_0\\) : (intercept for female penguins) The expected body mass for female penguins (the baseline) when flipper length is 0 is -5410.3\nInterpretation of \\(b_1\\) : (slope of flipper length for both male and female penguins) For every 1mm increase in flipper length, we EXPECT body mass to increase by 46.98 g on average regardless of penguin gender.\nInterpretation of \\(b_2\\) : (offset in intercept for male penguins) On average, we expect male penguins to weight 347.85 g more than female penguins."
   },
   {
     "objectID": "slides/lec11.html#same-slopes-model-output-1",
@@ -1201,7 +1201,7 @@
     "href": "slides/lec11.html#interaction-model-output-1",
     "title": "Multiple Regression  Chapter 6.2 - 6.4",
     "section": "Interaction Model Output",
-    "text": "Interaction Model Output\n\n\n\nEquation: \\[\\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*\\mathbb{1}_{male}(x) \\] \\[- 0.29*flipper*\\mathbb{1}_{male}(x)\\]\n\n\\(b_0\\) : intercept for baseline (female penguins)\n\\(b_1\\) :\n\\(b_2\\) :\n\\(b_3\\) :"
+    "text": "Interaction Model Output\nYou can think of each ‘level’ having a different line (equation).\n\n\nEquation of the line for female penguins: \\[\\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*0 - 0.29*flipper*0\\] \\[\\widehat{bodymass} = -5443.96 + 47.15*flipper\\] \n\n\nEquation of the line for male penguins: \\[\\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*1 - 0.29*flipper*1\\] \\[\\widehat{bodymass} = -5037.16 + 46.86*flipper\\]"
   },
   {
     "objectID": "slides/lec11.html#interaction-model-output-2",
@@ -1846,5 +1846,12 @@
     "title": "Today’s Agenda",
     "section": "Homework Due Thu Oct 12 11:59pm",
     "text": "Homework Due Thu Oct 12 11:59pm\n\n\n\n\n\n\n  \n  \n    Complete and submit  act_08\n\n     Read Sections 5.2 - 5.4\n\n    Complete and submit  RC_08"
+  },
+  {
+    "objectID": "slides/lec11.html#interaction-model-context-of-the-problem",
+    "href": "slides/lec11.html#interaction-model-context-of-the-problem",
+    "title": "Multiple Regression  Chapter 6.2 - 6.4",
+    "section": "Interaction Model: Context of the Problem",
+    "text": "Interaction Model: Context of the Problem\nEquation: \\[\\widehat{bodymass} = -5443.96 + 47.15*flipper + 406.8*\\mathbb{1}_{male}(x) \\] \\[- 0.29*flipper*\\mathbb{1}_{male}(x)\\]\n\n\\(b_0\\) : When flipper length is 0 we expect female penguins to weigh -5443.96 g\n\\(b_1\\) : For every 1 mm increase in flipper length, we predict body mass increases by 47.15g for female penguins\n\\(b_2\\) : When flipper length is 0, we expect male penguins to weigh 406.8 g more than female penguins.\n\\(b_3\\) : For every 1mm increase in flipper length, we predict the body mass for male penguins will increase at a rate that is 0.29 less than the rate of increase for female penguins."
   }
 ]
