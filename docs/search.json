@@ -438,7 +438,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n     Read Sections 6.2 - 6.4"
+    "text": "Prepare"
   },
   {
     "objectID": "index.html#participate",
@@ -452,7 +452,7 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_11"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    Take Exam\n\n    Submit Exam"
   },
   {
     "objectID": "index.html#homework-due-thu-sep-21-1159pm",
@@ -1761,7 +1761,7 @@
     "href": "index.html",
     "title": "Today’s Agenda",
     "section": "",
-    "text": "Important\n\n\n\n\nExam 2 is Wednesday 10/25 covering Chapters 5-8 and importing data.\nPractice Exam 2 here"
+    "text": "–>"
   },
   {
     "objectID": "index.html#class-fri-sep-22",
@@ -1874,5 +1874,19 @@
     "title": "Regression  Chapter 5.0 - 5.1",
     "section": "",
     "text": "Find the correlation between two variables\nBuild and interpret a linear regression model\nMake predictions using a linear regression model\nPlot the line of best fit on a scatterplot\n\n\n\n\n\nArtwork by @allison_horst"
+  },
+  {
+    "objectID": "index.html#class-wed-oct-25",
+    "href": "index.html#class-wed-oct-25",
+    "title": "Today’s Agenda",
+    "section": "Class: Wed Oct 25",
+    "text": "Class: Wed Oct 25"
+  },
+  {
+    "objectID": "index.html#homework-due-thu-oct-26-1159pm",
+    "href": "index.html#homework-due-thu-oct-26-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Thu Oct 26 11:59pm",
+    "text": "Homework Due Thu Oct 26 11:59pm\n\n\n\n\n\n\n  \n  \n     Read Sections 9.0 - 9.1"
   }
 ]
