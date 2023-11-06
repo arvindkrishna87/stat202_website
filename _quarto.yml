@@ -53,8 +53,8 @@ website:
             text: Activity solutions
           - href: course-ec.qmd
             text: Extra Credit
-          # - href: course-irl.qmd
-          #   text: Stats and Data IRL
+          - href: course-irl.qmd
+            text: Stats and Data IRL
           
 
 format:
