@@ -29,6 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./course-ec.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Stats and Data Sci in real life</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./course-syllabus.html">Additional Resources</a></li><li class="breadcrumb-item"><a href="./course-irl.html">Stats and Data IRL</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -163,6 +164,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Extra Credit</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./course-irl.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Stats and Data IRL</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -176,7 +183,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#interesting-articles" id="toc-interesting-articles" class="nav-link active" data-scroll-target="#interesting-articles">Interesting Articles</a></li>
-  <li><a href="#what-students-say" id="toc-what-students-say" class="nav-link" data-scroll-target="#what-students-say">What student’s say?</a></li>
+  <li><a href="#what-our-class-says" id="toc-what-our-class-says" class="nav-link" data-scroll-target="#what-our-class-says">What our class says…</a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/dsass1/stat202_website/edit/main/course-irl.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/dsass1/stat202_website/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -212,8 +219,8 @@ ul.task-list li input[type="checkbox"] {
 <li><p><em>You Can’t Trust What You Read About Nutrition</em> Source: <a href="documents/article/07_nutrition_research.pdf">fivethirtyeight</a></p></li>
 </ul>
 </section>
-<section id="what-students-say" class="level2">
-<h2 class="anchored" data-anchor-id="what-students-say">What student’s say?</h2>
+<section id="what-our-class-says" class="level2">
+<h2 class="anchored" data-anchor-id="what-our-class-says">What our class says…</h2>
 <div class="cell">
 <div class="cell-output-display">
 <p><img src="course-irl_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
@@ -226,20 +233,35 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="cell">
 <div class="cell-output-display">
-<p><img src="course-irl_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output-display">
 <p><img src="course-irl_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <p><br></p>
-<div class="cell">
-<div class="cell-output-display">
-<p><img src="course-irl_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
+<!-- ```{r} -->
+<!-- #| echo: false -->
+<!-- ggplot() + -->
+<!--   theme_void() + -->
+<!--   labs(title = "Student comments taken completely out of context") + -->
+<!--   theme(plot.title = element_text( -->
+<!--                     hjust = 0.5, size = 14, face = "bold")) + -->
+<!--   scale_y_continuous(limits = c(0, 10)) + -->
+<!--   scale_x_continuous(limits = c(0, 10)) + -->
+<!--   annotate("text", x = 2, y = 8, -->
+<!--            label = "...surprisingly fun...", -->
+<!--            color = "steelblue", angle = 20, size = 7) + -->
+<!--   annotate("text", x = 3.5, y = 5.5, -->
+<!--            label = "...Prof. Sass is the best...", -->
+<!--            color = "darkorchid4", angle = 0, size = 5) + -->
+<!--   annotate("text", x = 6, y = 4, -->
+<!--            label = "...not as bad as I thought it would be...", -->
+<!--             color = "darkseagreen3", angle = 10, size = 6) + -->
+<!--   annotate("text", x = 3, y = 2, -->
+<!--            label = "...Campuswire saved my life...", -->
+<!--             color = "orange2", angle = -20, size = 5) + -->
+<!--   annotate("text", x = 8, y = 7, -->
+<!--            label = "...go to class...", -->
+<!--             color = "indianred", angle = -15, size = 7) -->
+<!-- ``` -->
 
 
 </section>
@@ -492,6 +514,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./course-ec.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Extra Credit</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
