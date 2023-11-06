@@ -1026,7 +1026,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n     Read Chapter 10"
+    "text": "Prepare"
   },
   {
     "objectID": "index.html#participate",
@@ -1040,14 +1040,14 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_17"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_17 (cont’d)"
   },
   {
-    "objectID": "index.html#homework-due-sun-nov-05-1159pm",
-    "href": "index.html#homework-due-sun-nov-05-1159pm",
+    "objectID": "index.html#homework-due-tue-nov-07-1159pm",
+    "href": "index.html#homework-due-tue-nov-07-1159pm",
     "title": "Today’s Agenda",
-    "section": "Homework Due Sun Nov 05 11:59pm",
-    "text": "Homework Due Sun Nov 05 11:59pm\n\n\n\n\n\n\n  \n  \n    Complete and submit  RC_17"
+    "section": "Homework Due Tue Nov 07 11:59pm",
+    "text": "Homework Due Tue Nov 07 11:59pm\n\n\n\n\n\n\n  \n  \n    Complete and submit  act_17\n\n     Read Chapter 11"
   },
   {
     "objectID": "course-team.html",
@@ -1082,7 +1082,7 @@
     "href": "course-solutions.html",
     "title": "Activity Solutions",
     "section": "",
-    "text": "Activities are graded for completion! It is your responsibility and should be a part of your learning habit to review your activities for correctness. Solutions are posted roughly 3 days after the due date.\n\n\n\n\n\n\n  \n  \n    Activity 1 Solution\n\nActivity 1 video\n\n    Activity 2 Solution\n\n\n    Activity 3 Solution\n\n\n    Activity 4 Solution\n\n\n    Activity 5 Solution\n\n\n    Activity 6 Solution\n\n\n    Activity 7 Solution\n\n\n    Activity 8 Solution\n\nActivity 8 video\n\n    Activity 9 Solution\n\nActivity 9 video\n\n    Activity 10 Solution\n\nActivity 10 video\n\n    Activity 11 Solution\n\nActivity 11 video\n\n    Activity 12 Solution\n\nActivity 12 video\n\n    Activity 13 Solution\n\nActivity 13 video\n\n    Activity 14 Solution\n\n\n    Activity 15 Solution\n\nActivity 15 video"
+    "text": "Activities are graded for completion! It is your responsibility and should be a part of your learning habit to review your activities for correctness. Solutions are posted roughly 3 days after the due date.\n\n\n\n\n\n\n  \n  \n    Activity 1 Solution\n\nActivity 1 video\n\n    Activity 2 Solution\n\n\n    Activity 3 Solution\n\n\n    Activity 4 Solution\n\n\n    Activity 5 Solution\n\n\n    Activity 6 Solution\n\n\n    Activity 7 Solution\n\n\n    Activity 8 Solution\n\nActivity 8 video\n\n    Activity 9 Solution\n\nActivity 9 video\n\n    Activity 10 Solution\n\nActivity 10 video\n\n    Activity 11 Solution\n\nActivity 11 video\n\n    Activity 12 Solution\n\nActivity 12 video\n\n    Activity 13 Solution\n\nActivity 13 video\n\n    Activity 14 Solution\n\n\n    Activity 15 Solution\n\nActivity 15 video\n\n    Activity 16 Solution\n\nActivity 16 video"
   },
   {
     "objectID": "course-links.html",
@@ -1698,7 +1698,7 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 32.913, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4004.124 4524.876\nsample estimates:\nmean of x \n   4264.5"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 36.486, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4005.999 4473.001\nsample estimates:\nmean of x \n   4239.5"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
@@ -1754,6 +1754,6 @@
     "href": "course-lectures.html",
     "title": "Lecture Videos",
     "section": "",
-    "text": "Lecture videos are posted here.\n\n\n\n\n\n\n  \n  \n    Lecture 1: No Video\n\n    Lecture 2: Activity 01\n\n    Lecture 3: Scatterplots\n\n    Lecture 4: Linegraphs and Histograms\n\n    Lecture 5:Boxplots and Barplots\n\n    Lecture 6: Wrangling I\n\n    Lecture 7: Wrangling II\n\n    Lecture 8: No Video\n\n    Lecture 9: Simple Regression I\n\n    Lecture 10: Simple Regression II\n\n    Lecture 11: Multiple Regression I\n\n    Lecture 12: Multiple Regression II\n\n    Lecture 13: Randomization\n\n    Lecture 14: Generalizability\n\n    Lecture 15: Distributions\n\n    Lecture 16: Sampling I\n\n    Lecture 17: Sampling II\n\n    Lecture 18: CI I"
+    "text": "Lecture videos are posted here.\n\n\n\n\n\n\n  \n  \n    Lecture 1: No Video\n\n    Lecture 2: Activity 01\n\n    Lecture 3: Scatterplots\n\n    Lecture 4: Linegraphs and Histograms\n\n    Lecture 5:Boxplots and Barplots\n\n    Lecture 6: Wrangling I\n\n    Lecture 7: Wrangling II\n\n    Lecture 8: No Video\n\n    Lecture 9: Simple Regression I\n\n    Lecture 10: Simple Regression II\n\n    Lecture 11: Multiple Regression I\n\n    Lecture 12: Multiple Regression II\n\n    Lecture 13: Randomization\n\n    Lecture 14: Generalizability\n\n    Lecture 15: Distributions\n\n    Lecture 16: Sampling I\n\n    Lecture 17: Sampling II\n\n    Lecture 18: CI I\n\n    Lecture 19: CI II"
   }
 ]
