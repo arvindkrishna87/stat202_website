@@ -10,12 +10,16 @@ execute:
 from: markdown+emoji
 ---
 
-<!-- ::: callout-important -->
-<!-- Check your grades - last day to drop a class is Friday October 27th. -->
+::: callout-important
+The final project will be completed in groups of 3 - 6. Form a group and move yourself into a Final Project Group # (1 - 65) on the People tab on [Canvas](https://canvas.northwestern.edu/courses/201484/groups#tab-45918). 
+
+If you do not have a group, Final Project Groups 1 - 10 are labeled "Random Join". You can join one of these groups.
+
+Failure to be in a Final Project Group # by Friday Nov 17th will result in point deductions on your final project.
 
 <!-- Please complete [Course Survey 2](https://canvas.northwestern.edu/courses/201484/quizzes/217346) by 10/29 11:59pm (worth 1 participation point) -->
 
-<!-- ::: -->
+:::
 
 ```{r}
 #library(tidyverse)
