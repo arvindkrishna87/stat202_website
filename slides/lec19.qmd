@@ -151,6 +151,42 @@ You heard a zoologist claim the average weight of penguins is at least 4250 g.
 
 You want to test this claim so you collect a random sample of penguins and measure their weight, stored in the `penguins` dataset from the `palmerpenguins` package.
 
+<br>
+
+What is the null and alternative hypothesis?
+
+
+::: columns
+::: {.column width="50%"}
+
+a) $$H_0: \pi_{weight} = 4250$$
+$$H_A: \pi_{weight} \ne 4250$$
+
+b) $$H_0: \mu_{weight} > 4250$$
+$$H_A: \mu_{weight} \leq 4250$$
+
+c) $$H_0: \bar{x}_{weight} = 4250$$
+$$H_A: \bar{x}_{weight} \ne 4250$$
+:::
+
+::: {.column width="50%"}
+
+d) $$H_0: \mu_{weight} = 4250$$
+  $$H_A: \mu_{weight} \ne 4250$$
+
+e) $$H_0: \bar{x}_{weight} \geq 4250$$
+$$H_A: \bar{x}_{weight} < 4250$$
+
+:::
+:::
+
+
+## Example 1 {.smaller}
+
+You heard a zoologist claim the average weight of penguins is at least 4250 g.
+
+You want to test this claim so you collect a random sample of penguins and measure their weight, stored in the `penguins` dataset from the `palmerpenguins` package.
+
 ::: columns
 ::: {.column width="40%"}
 <img src="images_lecture/normal_dist.png" style="float: center;"/>

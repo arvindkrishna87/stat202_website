@@ -1670,7 +1670,7 @@
     "href": "slides/lec19.html#example-1",
     "title": "P-values  Chapter 11",
     "section": "Example 1",
-    "text": "Example 1\nYou heard a zoologist claim the average weight of penguins is 4250 g.\nYou want to test this claim so you collect a random sample of penguins and measure their weight, stored in the penguins dataset from the palmerpenguins package.\n\n\n\n\n\\(H_0:\\)\n\\(H_A:\\)\n\nt.test(x = penguins$body_mass_g, mu = 4250)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = -1.1126, df = 341, p-value = 0.2667\nalternative hypothesis: true mean is not equal to 4250\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754"
+    "text": "Example 1\nYou heard a zoologist claim the average weight of penguins is at least 4250 g.\nYou want to test this claim so you collect a random sample of penguins and measure their weight, stored in the penguins dataset from the palmerpenguins package.\n\nWhat is the null and alternative hypothesis?\n\n\n\n\\[H_0: \\pi_{weight} = 4250\\] \\[H_A: \\pi_{weight} \\ne 4250\\]\n\\[H_0: \\mu_{weight} > 4250\\] \\[H_A: \\mu_{weight} \\leq 4250\\]\n\\[H_0: \\bar{x}_{weight} = 4250\\] \\[H_A: \\bar{x}_{weight} \\ne 4250\\]\n\n\n\n\\[H_0: \\mu_{weight} = 4250\\] \\[H_A: \\mu_{weight} \\ne 4250\\]\n\\[H_0: \\bar{x}_{weight} \\geq 4250\\] \\[H_A: \\bar{x}_{weight} < 4250\\]"
   },
   {
     "objectID": "slides/lec19.html#example-2",
@@ -1937,5 +1937,12 @@
     "title": "Final Project",
     "section": "Cautionary Note",
     "text": "Cautionary Note\nEvery member of the group should review EVERY section of the project before submitting. This is a group grade and dividing the work into sections without collaborating often results in poor overall grades.\nFailure to contribute to your group will result in a loss of a letter grade. There will be a survey to evaluate your group members contributions and to comment on your own contributions.\nIf you are having group member issues that need to be addressed this must be done prior to Wednesday November 29th."
+  },
+  {
+    "objectID": "slides/lec19.html#example-1-1",
+    "href": "slides/lec19.html#example-1-1",
+    "title": "P-values  Chapter 11",
+    "section": "Example 1",
+    "text": "Example 1\nYou heard a zoologist claim the average weight of penguins is at least 4250 g.\nYou want to test this claim so you collect a random sample of penguins and measure their weight, stored in the penguins dataset from the palmerpenguins package.\n\n\n\n\n\\(H_0:\\)\n\\(H_A:\\)\n\nt.test(x = penguins$body_mass_g, mu = 4250)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = -1.1126, df = 341, p-value = 0.2667\nalternative hypothesis: true mean is not equal to 4250\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754"
   }
 ]
