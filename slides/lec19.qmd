@@ -20,14 +20,12 @@ execute:
   echo: true
 ---
 
-
 ```{r}
 #| include: false
 
 library(dplyr)
 library(palmerpenguins)
 ```
-
 
 ## Overview
 
@@ -149,17 +147,16 @@ For two-sample tests there are 2 ways to calculate the SE
 
 ## Example 1 {.smaller}
 
-You heard a zoologist claim the average weight of penguins is 4250 g.
+You heard a zoologist claim the average weight of penguins is at least 4250 g.
 
 You want to test this claim so you collect a random sample of penguins and measure their weight, stored in the `penguins` dataset from the `palmerpenguins` package.
-
 
 ::: columns
 ::: {.column width="40%"}
 <img src="images_lecture/normal_dist.png" style="float: center;"/>
 :::
-::: {.column width="60%"}
 
+::: {.column width="60%"}
 $H_0:$
 
 $H_A:$
@@ -167,10 +164,8 @@ $H_A:$
 ```{r}
 t.test(x = penguins$body_mass_g, mu = 4250)
 ```
-
 :::
 :::
-
 
 ## Example 2 {.smaller}
 
@@ -178,13 +173,12 @@ You think that 33% of penguins belong to the Adelie species.
 
 You want to test this claim so you collect a random sample of penguins and count how many are of the Adelie species, stored in the `penguins` dataset from the `palmerpenguins` package.
 
-
 ::: columns
 ::: {.column width="40%"}
 <img src="images_lecture/normal_dist.png" style="float: center;"/>
 :::
-::: {.column width="60%"}
 
+::: {.column width="60%"}
 $H_0:$
 
 $H_A:$
@@ -195,6 +189,5 @@ penguins %>%
 
 prop.test(x = 153, n = 344, p = 0.33)
 ```
-
 :::
 :::
