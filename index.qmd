@@ -17,6 +17,8 @@ If you do not have a group, Final Project Groups 1 - 10 are labeled "Random Join
 
 Failure to be in a Final Project Group # by Friday Nov 17th will result in point deductions on your final project.
 
+We will discuss Final Project on Friday but you are welcome to start early. Instructions [here](/course-project.html). Posit Cloud Project [here](https://posit.cloud/spaces/321338/content/5176511).
+
 <!-- Please complete [Course Survey 2](https://canvas.northwestern.edu/courses/201484/quizzes/217346) by 10/29 11:59pm (worth 1 participation point) -->
 
 :::
