@@ -438,7 +438,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n     Read Chapter 12"
+    "text": "Prepare"
   },
   {
     "objectID": "index.html#participate",
@@ -452,7 +452,7 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    \n    \n    \n    \n    \n    Section notes: \n\n    Daily activity:  act_19"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    Section 20 (9am): Take Exam\n\n    Section 21 (1pm): Take Exam\n\n    Submit Exam"
   },
   {
     "objectID": "index.html#homework-due-thu-sep-21-1159pm",
@@ -1965,5 +1965,19 @@
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "",
     "text": "Reporting a range of values via a confidence interval takes into account the uncertainty (sampling variation) associated with the fact that we are observing a single random sample.\n\n\nWe know a sampling distribution (thousands of replicate samples) center around the population parameter.\nWe don’t know the true value of the population parameter.\nWe know a sampling distribution is normally distributed (CLT)\nWe have no idea where our single sample falls in the sampling distribution (close to the population parameter or far away)."
+  },
+  {
+    "objectID": "index.html#class-mon-nov-20",
+    "href": "index.html#class-mon-nov-20",
+    "title": "Today’s Agenda",
+    "section": "Class: Mon Nov 20",
+    "text": "Class: Mon Nov 20"
+  },
+  {
+    "objectID": "index.html#homework-due-tue-nov-21-1159pm",
+    "href": "index.html#homework-due-tue-nov-21-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Tue Nov 21 11:59pm",
+    "text": "Homework Due Tue Nov 21 11:59pm"
   }
 ]
