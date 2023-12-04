@@ -31,7 +31,8 @@ website:
     style: "docked"
     search: true
     contents:
-        - href: index.qmd
+        #- href: index.qmd
+        - href: index-final.qmd
           text: Today's agenda
         - href: course-schedule.qmd
           text: Schedule

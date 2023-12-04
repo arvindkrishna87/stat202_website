@@ -10,12 +10,12 @@ execute:
 from: markdown+emoji
 ---
 
-::: callout-important
-Final project instructions [here](/course-project.html). Posit Cloud Project [here](https://posit.cloud/spaces/321338/content/5176511).
+<!-- ::: callout-important -->
+<!-- Final project instructions [here](/course-project.html). Posit Cloud Project [here](https://posit.cloud/spaces/321338/content/5176511). -->
 
-<!-- Please complete [Course Survey 2](https://canvas.northwestern.edu/courses/201484/quizzes/217346) by 10/29 11:59pm (worth 1 participation point) -->
+<!-- <!-- Please complete [Course Survey 2](https://canvas.northwestern.edu/courses/201484/quizzes/217346) by 10/29 11:59pm (worth 1 participation point) -->
 
-:::
+<!-- ::: -->
 
 ```{r}
 #library(tidyverse)
