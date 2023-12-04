@@ -3,19 +3,13 @@ title: "Today's Agenda"
 editor_options: 
   chunk_output_type: console
 execute:
+  
   message: false
   warning: false
   echo: false
-  
 from: markdown+emoji
 ---
 
-<!-- ::: callout-important -->
-<!-- Final project instructions [here](/course-project.html). Posit Cloud Project [here](https://posit.cloud/spaces/321338/content/5176511). -->
-
-<!-- <!-- Please complete [Course Survey 2](https://canvas.northwestern.edu/courses/201484/quizzes/217346) by 10/29 11:59pm (worth 1 participation point) -->
-
-<!-- ::: -->
 
 ```{r}
 #library(tidyverse)
@@ -38,119 +32,62 @@ agenda_today <- agenda_final %>% filter(time == val)
 
 ```
 
-## [Class: `r agenda_today$Date`]{style="color: #4E2A84;"}
+## [Class: Wed Dec 06]{style="color: #4E2A84;"}
 
-```{r}
-agenda_today %>% 
-  select(callout) %>% 
-  mutate(callout = ifelse(callout != "", map(paste0({fontawesome::fa('triangle-exclamation')}, callout), glue::glue), "NA")) %>% 
-  t() %>% 
-  as.data.frame() %>% 
-  filter(V1 != "NA") %>% 
-  gt() %>% 
-  fmt_markdown(columns = c(V1) )%>%
-  cols_align(align = "left") %>% 
-  tab_options(column_labels.hidden = TRUE,
-              table.align = "left",
-              table_body.border.top.color = "white",
-              table_body.border.bottom.color = "white",
-              table_body.hlines.color = "white",
-              table.width = pct(100))
-```
+<!-- ```{r} -->
+<!-- agenda_today %>%  -->
+<!--   select(callout) %>%  -->
+<!--   mutate(callout = ifelse(callout != "", map(paste0({fontawesome::fa('triangle-exclamation')}, callout), glue::glue), "NA")) %>%  -->
+<!--   t() %>%  -->
+<!--   as.data.frame() %>%  -->
+<!--   filter(V1 != "NA") %>%  -->
+<!--   gt() %>%  -->
+<!--   fmt_markdown(columns = c(V1) )%>% -->
+<!--   cols_align(align = "left") %>%  -->
+<!--   tab_options(column_labels.hidden = TRUE, -->
+<!--               table.align = "left", -->
+<!--               table_body.border.top.color = "white", -->
+<!--               table_body.border.bottom.color = "white", -->
+<!--               table_body.hlines.color = "white", -->
+<!--               table.width = pct(100)) -->
+<!-- ``` -->
 
-## Prepare
 
-```{r}
-agenda_today %>% 
-  select(Reading) %>% 
-  mutate(Reading = ifelse(Reading!= "", map(paste0({fontawesome::fa('book-open')} ," Read ", Reading), glue::glue), "NA")) %>% 
-  t() %>% 
-  as.data.frame() %>% 
-  filter(V1 != "NA") %>% 
-  gt() %>% 
-  fmt_markdown(columns = c(V1) )%>%
-  cols_align(align = "left") %>% 
-  tab_options(column_labels.hidden = TRUE,
-              table.align = "left",
-              table_body.border.top.color = "white",
-              table_body.border.bottom.color = "white",
-              table_body.hlines.color = "white",
-              table.width = pct(100))
-```
+The exam retake is online via Zoom. You must have your camera **on and appropriately positioned** or you will receive a 0.
+
+[https://northwestern.zoom.us/j/99863923813](https://northwestern.zoom.us/j/99863923813)
+
+Strongly suggest arriving a few minutes early - if you are late due to technical issues that is your exam time.
+
+You must have a Northwestern Zoom account to join [https://northwestern.zoom.us/](https://northwestern.zoom.us/)
+You cannot be logged into a personal account or an account through a different university.
+
+
+## Take Exam
+
+You must take the exam with **your section** at the designated exam start time.
+
+### Section 21 (Kuyper) Wed 12/6 9am
+
+- [Retake Exam 1](https://posit.cloud/spaces/321338/content/7199546)
+- [Retake Exam 2](https://posit.cloud/spaces/321338/content/7199507)
+- [Retake Exam 3](https://posit.cloud/spaces/321338/content/7199524)
 
 <br>
 
-## Participate
+### Section 20 (Sass) Wed 12/6 3pm
 
-::: columns
-::: {.column width="50%"}
-**Section 20: 9am**
+- [Retake Exam 1](https://posit.cloud/spaces/321338/content/7199541)
+- [Retake Exam 2](https://posit.cloud/spaces/321338/content/7199520)
+- [Retake Exam 3](https://posit.cloud/spaces/321338/content/7199532)
 
-<https://ahaslides.com/SASS>
-
-![](images/qr_SASS.png){height="1in"}
-:::
-
-
-::: {.column width="50%"}
-**Section 21: 1pm**
-
-<https://ahaslides.com/KUYPER>
-
-![](images/qr_202STAT.png){height="1in"}
-:::
-:::
 <br>
 
-## Agenda
+## Submit Exam
 
-```{r}
-agenda_today %>% 
-  select(agenda1, agenda2, agenda3, agenda4, agenda5, Slides, Activity) %>% 
-  mutate(Slides = ifelse(Slides != "", map(paste0("Section notes: ", Slides), glue::glue), "NA"),
-         Activity = ifelse(Activity != "", map(paste0("Daily activity: ", Activity), glue::glue), "NA"),
-         agenda1 = map(agenda1, glue::glue),
-         agenda2 = map(agenda2, glue::glue),
-         agenda3 = map(agenda3, glue::glue),
-         agenda4 = map(agenda4, glue::glue),
-         agenda5 = map(agenda5, glue::glue)) %>% 
-  t() %>% 
-  as.data.frame() %>% 
-  filter(V1 != "NA") %>% 
-  gt() %>% 
-  fmt_markdown(columns = c(V1) )%>%
-  cols_align(align = "left") %>% 
-  tab_options(column_labels.hidden = TRUE,
-              table.align = "left",
-              table_body.border.top.color = "white",
-              table_body.border.bottom.color = "white",
-              table_body.hlines.color = "white",
-              table.width = pct(100))
-
-```
-
-## Homework Due `r agenda_today$due` 11:59pm
-
-```{r}
-agenda_today %>% 
-  select(submit_act,reading_hw, Tutorial) %>% 
-  mutate(submit_act = ifelse(submit_act !="", map(paste0("Complete and submit ", submit_act), glue::glue), "NA"), 
-         reading_hw = ifelse(reading_hw != "", map(paste0({fontawesome::fa('book-open')} ," Read ", reading_hw), glue::glue), "NA"),
-         Tutorial = ifelse(Tutorial != "", map(paste0("Complete and submit ", Tutorial), glue::glue), "NA") ) %>% 
-  t() %>% 
-  as.data.frame() %>% 
-  filter(V1 != "NA") %>% 
-  gt() %>% 
-  fmt_markdown(columns = c(V1) )%>%
-  cols_align(align = "left") %>% 
-  tab_options(column_labels.hidden = TRUE,
-              table.align = "left",
-              table_body.border.top.color = "white",
-              table_body.border.bottom.color = "white",
-              table_body.hlines.color = "white",
-              table.width = pct(100))
-
-```
+- [Submit Exam 1 Retake](https://canvas.northwestern.edu/courses/201484/assignments/1284081?module_item_id=2781435)
+- [Submit Exam 2 Retake](https://canvas.northwestern.edu/courses/201484/assignments/1284083?module_item_id=2781436)
+- [Submit Exam 3 Retake](https://canvas.northwestern.edu/courses/201484/assignments/1284085?module_item_id=2781437)
 
 <br><br>
 
