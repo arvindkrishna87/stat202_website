@@ -77,7 +77,7 @@ You must take the exam with **your section** at the designated exam start time.
 
 ### Section 20 (Sass) Wed 12/6 3pm
 
-- [Retake Exam 1](https://posit.cloud/spaces/321338/content/7199541)
+- [Retake Exam 1](https://posit.cloud/spaces/321338/content/7216900)
 - [Retake Exam 2](https://posit.cloud/spaces/321338/content/7199520)
 - [Retake Exam 3](https://posit.cloud/spaces/321338/content/7199532)
 

@@ -377,28 +377,51 @@ p_exam_day/ p_website/ p_style +
 <br>
 
 <!-- ```{r} -->
+
 <!-- #| echo: false -->
 
 <!-- ggplot() + -->
+
 <!--   theme_void() + -->
+
 <!--   labs(title = "Student comments taken completely out of context") + -->
+
 <!--   theme(plot.title = element_text( -->
+
 <!--                     hjust = 0.5, size = 14, face = "bold")) + -->
+
 <!--   scale_y_continuous(limits = c(0, 10)) + -->
+
 <!--   scale_x_continuous(limits = c(0, 10)) + -->
+
 <!--   annotate("text", x = 2, y = 8, -->
+
 <!--            label = "...surprisingly fun...", -->
+
 <!--            color = "steelblue", angle = 20, size = 7) + -->
+
 <!--   annotate("text", x = 3.5, y = 5.5, -->
+
 <!--            label = "...Prof. Sass is the best...", -->
+
 <!--            color = "darkorchid4", angle = 0, size = 5) + -->
+
 <!--   annotate("text", x = 6, y = 4, -->
+
 <!--            label = "...not as bad as I thought it would be...", -->
+
 <!--             color = "darkseagreen3", angle = 10, size = 6) + -->
+
 <!--   annotate("text", x = 3, y = 2, -->
+
 <!--            label = "...Campuswire saved my life...", -->
+
 <!--             color = "orange2", angle = -20, size = 5) + -->
+
 <!--   annotate("text", x = 8, y = 7, -->
+
 <!--            label = "...go to class...", -->
+
 <!--             color = "indianred", angle = -15, size = 7) -->
+
 <!-- ``` -->
