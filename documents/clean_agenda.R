@@ -51,7 +51,6 @@ agenda <- agenda %>%
            #if_else(wday(Date) %in% c(3,6), Date+2,Date +1),
          due = format(due_ymd, "%a %b %d"))
 
-
 #adjust due date for MLK in Winter Quarter
 mlk_row <- which(stringr::str_detect(agenda$Topic, "MLK"))
 

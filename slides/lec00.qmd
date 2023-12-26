@@ -22,9 +22,9 @@ execute:
 Make sure you have completed the following agenda items by the end of class!
 
 1.  Review the syllabus
-2.  Visit the course's [Campuswire page](https://campuswire.com/p/G9596585D) using your @u.northwestern.edu email. Enrollment code: 4301
-3.  Gain access to the Posit Cloud [Class Workspace](https://posit.cloud/spaces/321338/join?access_code=-mxMfCQhVIL8T-DKwghQ3FmSMOQvJRaJhQr1VZq-)
+2.  Visit the course's [Campuswire page](https://campuswire.com/p/G94567F0C) using your @u.northwestern.edu email. Enrollment code: 2752
+3.  Gain access to the Posit Cloud [Class Workspace](https://posit.cloud/spaces/321338/join?access_code=U7NvtBZJiVKqaJJtZr0-BFeZ2DL5O8ez2uB9KUkc)
 4.  We will be using [AHA slides](https://ahaslides.com) during class this quarter.
-5.  Complete the [google survey](https://forms.gle/LP6FZX42hnuAWBeX9) - we will use this data later.
+5.  Complete the [google survey](https://forms.gle/JntwkRXZbZResoWk6) - we will use this data later.
 6.  Test out the homework system Reading Check 01 (RC 01).
-7.  Login/create your [Northwestern Zoom Account](https://northwestern.zoom.us/) if you do not have one. This will be used for office hours or requested appointments.
+7.  Login/create your [Northwestern Zoom Account](https://northwestern.zoom.us/) if you do not have one. This will be used for office hours, optional final exam, and requested appointments.
