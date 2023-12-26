@@ -12,37 +12,19 @@ title: "Course Team"
 
 All of our TA office hours will be held on-line via [Zoom 998 6392 3813](https://northwestern.zoom.us/j/99863923813) on
 
--   Tuesdays 10am - 12pm and 5pm - 7pm
+-   Tuesdays 3pm - 7pm
 
--   Thursdays 10am - 12am and 2pm - 4pm
-
--   Fridays 1pm - 3pm
-
--   Saturdays 12pm - 2pm
+-   Thursdays 12pm - 2pm and 4pm - 6pm
 
 ## Teaching assistants
 
-+---------------------+----------------------------------------+---------------------+
-| Name                | Email                                  | Office hours        |
-+=====================+========================================+=====================+
-| Molly Chou (grader) | Hway-minChou2026\@u.northwestern.edu   | By Appointment      |
-+---------------------+----------------------------------------+---------------------+
-| Sarah Abara         | sarahabara2025\@u.northwestern.edu     | Fri 1pm - 3pm       |
-+---------------------+----------------------------------------+---------------------+
-| Beatrice Bailey     | beatricebailey2024\@u.northwestern.edu | Tue 10am-11am;      |
-|                     |                                        |                     |
-|                     |                                        | Thurs 10am-11am     |
-+---------------------+----------------------------------------+---------------------+
-| Shreeya Iyer        | shreeyaiyer2026\@u.northwestern.edu    | Tue 5pm - 7pm       |
-+---------------------+----------------------------------------+---------------------+
-| Meghana Dheram      | meghanadheram2026\@u.northwestern.edu  | Tue 11am-12pm;      |
-|                     |                                        |                     |
-|                     |                                        | Thurs 11am-12pm     |
-+---------------------+----------------------------------------+---------------------+
-| Jules Wathieu       | juleswathieu2024\@u.northwestern.edu   | Saturday 12pm - 2pm |
-+---------------------+----------------------------------------+---------------------+
-| Garner Hasler       | Garnerhasler2024\@u.northwestern.edu   | Thurs 2pm - 4pm     |
-+---------------------+----------------------------------------+---------------------+
+| Name                      | Email                                  | Office hours     |
+|-------------------|----------------------------------|-------------------|
+| Eric (Zhenze) Ye (grader) | zhenzeye2025\@u.northwestern.edu       | By Appointment   |
+| Alex Buerck               | alexbuerck2025\@u.northwestern.edu     | Tue 3pm - 5pm    |
+| Tatum Thomas              | tatumthomas2026\@u.northwestern.edu    | Tues 5pm - 7pm   |
+| Jules Wathieu             | juleswathieu2024\@u.northwestern.edu   | Thurs 12pm - 2pm |
+| Diego Goldfrank           | diegogoldfrank2025\@u.northwestern.edu | Thurs 4pm - 6pm  |
 
 ## Instructors
 
@@ -60,12 +42,18 @@ Individual office hours can be made **by appointment** by emailing danielle.sass
 :::
 :::
 
-::: columns
-::: {.column width="80%"}
-**Section 21: Dr. Arend Kuyper** is an Associate Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. Individual office hours can be made **by appointment** by emailing a-kuyper\@northwestern.edu
-:::
+<!-- ::: columns -->
 
-::: {.column width="20%"}
-![](images/ta/profile_kuyper.jpg){height="1in"}
-:::
-:::
+<!-- ::: {.column width="80%"} -->
+
+<!-- **Section 21: Dr. Arend Kuyper** is an Associate Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. Individual office hours can be made **by appointment** by emailing a-kuyper\@northwestern.edu -->
+
+<!-- ::: -->
+
+<!-- ::: {.column width="20%"} -->
+
+<!-- ![](images/ta/profile_kuyper.jpg){height="1in"} -->
+
+<!-- ::: -->
+
+<!-- ::: -->

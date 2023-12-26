@@ -6,12 +6,13 @@ title: "Syllabus"
 
 ## Course info
 
-|            | Day | Time              | Location           |
-|------------|-----|-------------------|--------------------|
-| Section 20 | MWF | 9:00 am - 9:50 am | Harris Hall Rm 107 |
-| Section 21 | MWF | 1:00 pm - 1:50 pm | Harris Hall Rm 107 |
+|            | Day | Time              | Location      |
+|------------|-----|-------------------|---------------|
+| Section 20 | MWF | 9:00 am - 9:50 am | Fisk Hall 217 |
 
 **Prerequisite:** High School Algebra
+
+*Please note that the specifics of this course syllabus are subject to change in the case of unforeseen circumstances. Instructors will notify students of any changes as soon as possible. Students will be responsible for abiding by the changes.*
 
 ## Learning objectives
 
@@ -49,21 +50,15 @@ Students will need a laptop or Chromebook to be able to follow lectures and to w
 
 ## Assessment
 
-Assessment for the course is comprised of five components: participation/small assignments, reading checks, activities, 3 exams, and a final project.
-
-### Participation and Small Assignments
-
-We will be recording participation through [AHA slides](https://ahaslides.com/). Various times throughout the class we may take a poll or ask a question that you will respond to. The link to the site is provided on the "home page" each day. Participation grades will be curved to 80%. Meaning at the end of the quarter, if you participate at least 80% of the time your participation grade will be 100% (but will not exceed 100%). If you participate 70% of the time, at the end of the quarter your grade will be 70%/80%. Small assignments are generally surveys.
-
-*If you have an extenuating circumstance that requires you to miss more than 80% of classes then you should contact your advisor or Accessible NU for an accommodation request.*
+Assessment for the course is comprised of five components: reading checks, activities, 3 exams, and a final project.
 
 ### Reading Checks
 
-Reading checks will be completed using "Tutorial Software" on Posit Cloud and uploaded to the course Canvas page. Each reading check will be scaled to be worth 10 points. Reading Checks will be accepted up to 3 days after the due date with a 10% late penalty.
+Reading checks will be completed using "Tutorial Software" on Posit Cloud and uploaded to the course Canvas page. Each reading check will be scaled to be worth 10 points.
 
 *The lowest three grades will be dropped at the end of the quarter.*
 
-### Activities
+### Activities and small assignments
 
 Daily activities will be worth 10 points and graded for completion (10 points fully complete; 5 points mostly complete; 0 incomplete). This doesn't mean that your solutions are correct, so make sure that you check your answers against the solutions. Activities will be accepted up to 3 days after the due date with a 10% late penalty.
 
@@ -89,15 +84,14 @@ There are no make-up exams. If you miss an exam due to illness, travel, etc., yo
 
 The final course grade will be calculated as follows:
 
-| Category                   | Percentage |
-|----------------------------|------------|
-| Participation/Small Assign | 5%         |
-| Activities                 | 10%        |
-| Reading Checks             | 15%        |
-| Exam 1                     | 20%        |
-| Exam 2                     | 20%        |
-| Exam 3                     | 20%        |
-| Final Project              | 10%        |
+| Category                     | Percentage |
+|------------------------------|------------|
+| Reading Checks               | 15%        |
+| Activities/Small Assignments | 10%        |
+| Exam 1                       | 20%        |
+| Exam 2                       | 20%        |
+| Exam 3                       | 20%        |
+| Final Project                | 15%        |
 
 The final letter grade will be rounded to nearest tenth of a percent and determined based on the following thresholds:
 
@@ -127,7 +121,7 @@ There is NO curve to this course. Take advantage of the exam improvement policy 
 
 ## Asking Questions & Course Communication
 
-This term we will be using [Campuswire](https://campuswire.com/p/G9596585D) ("Enrollment Code: 4301") as our preferred platform for questions about activities, reading checks, and general course questions. The system is highly catered to getting you help quickly and efficiently from classmates and the instructional team. Rather than emailing questions to the instructional team, you should post your questions on Campuswire.
+This term we will be using [Campuswire](https://campuswire.com/p/G94567F0C) ("Enrollment Code: 2752") as our preferred platform for questions about activities, reading checks, and general course questions. The system is highly catered to getting you help quickly and efficiently from classmates and the instructional team. Rather than emailing questions to the instructional team, you should post your questions on Campuswire.
 
 The instructional team will check Campuswire periodically and answer questions, but we strongly encourage students to answer each other's questions. To this end, student will be able to earn bonus points --- see Canvas for details.
 
@@ -141,27 +135,9 @@ Contact Borislava Miltcheva (pgsg\@northwestern.edu) with any questions.
 
 ### Drop-In Support (No Appointment Needed)
 
-[Drop-In Peer Tutoring](https://www.northwestern.edu/academic-support-learning/course-support/drop-in-peer-tutoring.html) is set up such that students can drop in to study alone or with others and ask questions of a peer leader who has done well in the class. Tutoring is provided for many of the introductory courses in Biology, Chemistry, Economics, Engineering, Mathematics, Physics, and **Statistics**. Check the [Drop-In Peer Tutoring Website](https://www.northwestern.edu/academic-support-learning/course-support/drop-in-peer-tutoring.html) for a complete list of supported courses.
+[Drop-In Peer Tutoring](https://www.northwestern.edu/academic-support-learning/course-support/drop-in-peer-tutoring.html) is set up such that students can drop in to study alone or with others and ask questions of a peer leader who has done well in the class. Tutoring is provided for many of the introductory courses in Biology, Chemistry, Economics, Engineering, Mathematics, Physics, and **Statistics**. Check their website for a complete list of supported courses.
 
 Contact Valerie Wolf (valerie.wolf\@northwestern.edu) with any questions.
-
-## Attendance Expectation/Policy
-
-While we do not collect formal attendance we do record participation. Implicit in the course design it is expected that you attend class to benefit from working with others --- either by helping others or by helping others learn.
-
-### Religious Observance
-
-Northwestern is committed to fostering an academic community respectful and welcoming of persons from all backgrounds. To that end, the policy on academic accommodations for religious holidays stipulates that students will not be penalized for class absences to observe religious holidays. If you will observe a religious holiday during a class meeting, scheduled exam, or assignment deadline, please let your instructor know as soon as possible, preferably within the first two weeks of class.
-
-### COVID-19 or Emergencies
-
-COMMUNITY HEALTH REMAINS OUR PRIORITY. If you are experiencing symptoms of COVID-19, do not attend class and follow the steps outlined by the CDC for testing and isolation. Contact your instructor as soon as possible to make plans to complete your coursework. Students who experience other personal emergencies should contact the instructor as soon as possible to arrange to complete coursework. Should public health recommendations prevent in-person class from being held on a given day, the instructor or the university will notify students.
-
-## Use of Generative AI (for example ChatGPT)
-
-In this course, generative AI resources are encouraged to be used by students with the purpose of supporting their learning. Only turn to generative AI as a last resort/step. Never begin with it. Without developing a basic understanding first you won't be able determine the usefulness or correctness of its output. To ensure academic integrity, students must openly disclose any AI-generated material they utilize and provide proper attribution. This includes in-text/code citations, quotations, and references. **Instructions will clearly state when these tools are not to be used.**
-
-When using these tools students will typically be asked to create personal accounts for artificial intelligence services and/or software. Students should familiarize themselves with the Terms of Use for these services as well as the expectations around data privacy and use. Students should not share private, or otherwise sensitive information or data, about themselves or others, with these tools, as there is often no guarantee of data privacy.
 
 ## Accessibility & Accommodations
 
@@ -169,9 +145,34 @@ Northwestern University is committed to providing the most accessible learning e
 
 [^1]: email: accessiblenu\@northwestern.edu; phoone: 847-467-5530
 
-## Recording
+## COVID-19 Policies
 
-This class or portions of this class might be recorded by the instructor for educational purposes. Your instructor will communicate how members of the class can access the recordings. Portions of the course that contain images, questions or commentary/discussion by students will be edited out of any recordings that are saved beyond the current term.
+### Classroom Expectations
+
+\textsc{Students, faculty, and staff must comply} with University expectations regarding appropriate classroom behavior, including those outlined below and in the [COVID-19 Expectations for Students](https://www.northwestern.edu/communitystandards/about-us/northwestern-university-student-expectations-covid-19.html). With respect to classroom procedures, this includes:
+
+-   Policies regarding masking, social distancing and other public health measures evolve as the situation changes. Students are responsible for understanding and complying with current University, state and city requirements.
+-   In some classes, masking and/or social distancing may be required as a result of an Americans with Disabilities Act (ADA) accommodation for the instructor or a student in the class even when not generally required on campus. In such cases, the instructor will notify the class.
+
+\noindent \textsc{If a student fails to comply} with the [COVID-19 Expectations for Students](https://www.northwestern.edu/communitystandards/about-us/northwestern-university-student-expectations-covid-19.html) or other University expectations related to COVID-19, the instructor may ask the student to leave the class. The instructor is asked to report the incident to the Office of Community Standards for additional follow-up.
+
+## Exceptions to Class Modality
+
+\textsc{Class sessions for this course} will occur in person. Individual students will not be granted permission to attend remotely except as the result of an Americans with Disabilities Act (ADA) accommodation as determined by AccessibleNU.
+
+\vspace{6pt}
+
+\noindent \textsc{Maintaining the health} of the community remains our priority. If you are experiencing any symptoms of COVID \textbf{do not attend class} and update your Symptom Tracker application right away to connect with Northwestern's Case Management Team for guidance on next steps. Also contact the instructor as soon as possible to arrange to complete coursework. We plan to record sessions for students that miss to to COVID-19 related issues.
+
+\vspace{6pt}
+
+\noindent \textsc{Students who experience} a personal emergency should contact the instructor as soon as possible to arrange to complete coursework.
+
+\vspace{6pt}
+
+\noindent \textsc{Should public health} recommendations prevent in person class from being held on a given day, the instructor or the university will notify students.
+
+## Prohibition of Recording of Class Sessions by Students
 
 \textsc{Unauthorized student recording} of classroom or other academic activities is prohibited.[^2] Unauthorized recording is unethical and may also be a violation of University policy and state law.
 
@@ -181,9 +182,15 @@ Students requesting the use of assistive technology as an accommodation should c
 
 Under the University's [Copyright Policy](https://www.invo.northwestern.edu/invention-disclosure/policies-forms/copyright-policy/), faculty own the copyright to instructional materials --- including those resources created specifically for the purposes of instruction, such as syllabi, lectures and lecture notes, and presentations. Students cannot copy, reproduce, display, or distribute these materials. Students who engage in unauthorized recording, unauthorized use of a recording, or unauthorized distribution of instructional materials will be referred to the appropriate University office for follow-up.
 
+This class or portions of this class will be recorded by the instructor for educational purposes. Your instructor will communicate how members of the class can access the recordings. Portions of the course that contain images, questions or commentary/discussion by students will be edited out of any recordings that are saved beyond the current term.
+
 ## Academic Integrity
 
 \textsc{Students in this course are required} to comply with the policies found in the booklet, "Academic Integrity at Northwestern University: A Basic Guide". All papers submitted for credit in this course must be submitted electronically unless otherwise instructed by the professor. Your written work may be tested for plagiarized content. For details regarding academic integrity at Northwestern or to download the guide, visit: <https://www.northwestern.edu/provost/policies-procedures/academic-integrity/index.html>
+
+## Diversity, Equity, and Inclusion
+
+This course strives to be an inclusive learning community, respecting those of differing backgrounds and beliefs. As a community, we aim to be respectful to all students in this class, regardless of race, ethnicity, socio-economic status, religion, gender identity or sexual orientation.
 
 ## Sexual Misconduct & Reporting
 
