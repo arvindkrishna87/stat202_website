@@ -23,7 +23,12 @@ execute:
 #| include: false
 library(ggplot2)
 library(dplyr)
-library(ISDSdatasets)
+#library(ISDSdatasets)
+
+titanic <- Titanic |> 
+  as_tibble() |> 
+  select(Class, Sex, Age, Survived) |> 
+  mutate(Survived = factor(Survived, levels = c("No", "Yes"), labels = c(0,1)))
 ```
 
 ## Today's goals {background-image="images_horst/r_first_then.png" background-size="400px" background-opacity="50%" background-position="80% 50%"}
@@ -92,7 +97,6 @@ There are 3 things that we typically focus on and describe/compare when inspecti
 
 ```{r}
 titanic %>% 
-  select(PassengerId, Survived, Sex) %>%
   glimpse()
 ```
 
@@ -164,28 +168,41 @@ Are we using `geom_bar()` or `geom_col()`?
 <br>
 
 <!-- ::: fragment -->
+
 <!-- What would pre-counted data look like? -->
 
 <!-- ::: panel-tabset -->
+
 <!-- ## Data -->
 
 <!-- ```{r} -->
+
 <!-- #| include: false -->
+
 <!-- penguins_counted <- penguins %>%  -->
+
 <!--   count(species) -->
+
 <!-- ``` -->
 
 <!-- ```{r} -->
+
 <!-- penguins_counted -->
+
 <!-- ``` -->
 
 <!-- ## Code -->
 
 <!-- ```{r} -->
+
 <!-- penguins_counted <- penguins %>%  -->
+
 <!--   count(species) -->
+
 <!-- ``` -->
+
 <!-- ::: -->
+
 <!-- ::: -->
 
 ## Example 2: Barplots {.scrollable .smaller}
