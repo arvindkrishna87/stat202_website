@@ -457,14 +457,14 @@
 <p><font size="6"> Consider the <code>titanic</code> dataset, which contains information about passengers on the titanic. If a passenger survived, then the variable <code>Survived = 1</code>. </font></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>titanic <span class="sc">%&gt;%</span> </span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(PassengerId, Survived, Sex) <span class="sc">%&gt;%</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">glimpse</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">glimpse</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>Rows: 418
-Columns: 3
-$ PassengerId &lt;dbl&gt; 892, 893, 894, 895, 896, 897, 898, 899, 900, 901, 902, 903…
-$ Survived    &lt;dbl&gt; 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 1…
-$ Sex         &lt;chr&gt; "male", "female", "male", "male", "female", "male", "femal…</code></pre>
+<pre><code>Rows: 32
+Columns: 4
+$ Class    &lt;chr&gt; "1st", "2nd", "3rd", "Crew", "1st", "2nd", "3rd", "Crew", "1s…
+$ Sex      &lt;chr&gt; "Male", "Male", "Male", "Male", "Female", "Female", "Female",…
+$ Age      &lt;chr&gt; "Child", "Child", "Child", "Child", "Child", "Child", "Child"…
+$ Survived &lt;fct&gt; 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1…</code></pre>
 </div>
 </div>
 <div class="fragment">
