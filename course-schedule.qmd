@@ -28,10 +28,10 @@ agenda_final <- read.csv("documents/agenda_final.csv") %>%
 agenda_final[is.na(agenda_final)] <- " " 
 
 agenda_final %>% 
-  mutate(Slides = map(Slides, glue::glue), 
+  mutate(Slides = map(Slides, glue::glue),
          Activity = map(Activity, glue::glue),
          submit_act = map(submit_act, glue::glue),
-         Tutorial = map(Tutorial, glue::glue)) %>% 
+         Tutorial = map(Tutorial, glue::glue)) %>%
   gt() %>% 
   cols_move_to_start(
     columns = Week) %>% 

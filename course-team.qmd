@@ -19,7 +19,7 @@ All of our TA office hours will be held on-line via [Zoom 998 6392 3813](https:/
 ## Teaching assistants
 
 | Name                      | Email                                  | Office hours     |
-|-------------------|----------------------------------|-------------------|
+|---------------------------|----------------------------------------|------------------|
 | Eric (Zhenze) Ye (grader) | zhenzeye2025\@u.northwestern.edu       | By Appointment   |
 | Alex Buerck               | alexbuerck2025\@u.northwestern.edu     | Tue 3pm - 5pm    |
 | Tatum Thomas              | tatumthomas2026\@u.northwestern.edu    | Tues 5pm - 7pm   |
@@ -29,6 +29,8 @@ All of our TA office hours will be held on-line via [Zoom 998 6392 3813](https:/
 ## Instructors
 
 Making appointments: **Include STAT202 in the subject line!** Please provide your full availability for the day(s) you are available to meet.
+
+*Do NOT expect a reply in the evenings or on weekends.*
 
 ::: columns
 ::: {.column width="80%"}

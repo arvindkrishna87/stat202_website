@@ -21,7 +21,11 @@ from: markdown+emoji
 #library(tidyverse)
 library(dplyr)
 library(purrr)
+library(fontawesome)
 library(gt)
+
+fontawesome::fa_html_dependency()
+
 today_ymd <- Sys.Date()
 today <- format(today_ymd,"%a %b %d")
 
@@ -63,7 +67,7 @@ agenda_today %>%
 ```{r}
 agenda_today %>% 
   select(Reading) %>% 
-  mutate(Reading = ifelse(Reading!= "", map(paste0({fontawesome::fa('book-open')} ," Read ", Reading), glue::glue), "NA")) %>% 
+  mutate(Reading = ifelse(Reading!= "", map(paste0("Read ", Reading), glue::glue), "NA")) %>% 
   t() %>% 
   as.data.frame() %>% 
   filter(V1 != "NA") %>% 
@@ -75,7 +79,8 @@ agenda_today %>%
               table_body.border.top.color = "white",
               table_body.border.bottom.color = "white",
               table_body.hlines.color = "white",
-              table.width = pct(100))
+              table.width = pct(100),
+              quarto.disable_processing = TRUE)
 ```
 
 <br>
@@ -135,7 +140,7 @@ agenda_today %>%
 agenda_today %>% 
   select(submit_act,reading_hw, Tutorial) %>% 
   mutate(submit_act = ifelse(submit_act !="", map(paste0("Complete and submit ", submit_act), glue::glue), "NA"), 
-         reading_hw = ifelse(reading_hw != "", map(paste0({fontawesome::fa('book-open')} ," Read ", reading_hw), glue::glue), "NA"),
+         reading_hw = ifelse(reading_hw != "", map(paste0("Read ", reading_hw), glue::glue), "NA"),
          Tutorial = ifelse(Tutorial != "", map(paste0("Complete and submit ", Tutorial), glue::glue), "NA") ) %>% 
   t() %>% 
   as.data.frame() %>% 
