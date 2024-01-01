@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>STAT 202 - Introducing R Studio  Preface - Chapter 1</title>
+<title>STAT 202 - Randomization and Causality  Chapter 7</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,40 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -105,7 +71,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Introducing R Studio <br> Preface - Chapter 1</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Randomization and Causality <br> Chapter 7</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -209,20 +175,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#todays-goals" id="toc-todays-goals" class="nav-link active" data-scroll-target="#todays-goals">Today’s goals</a></li>
-  <li><a href="#agenda" id="toc-agenda" class="nav-link" data-scroll-target="#agenda">Agenda</a></li>
-  <li><a href="#rstudio-interface" id="toc-rstudio-interface" class="nav-link" data-scroll-target="#rstudio-interface">RStudio interface</a></li>
-  <li><a href="#useful-buttons" id="toc-useful-buttons" class="nav-link" data-scroll-target="#useful-buttons">Useful Buttons</a></li>
-  <li><a href="#useful-code-chunk-settings" id="toc-useful-code-chunk-settings" class="nav-link" data-scroll-target="#useful-code-chunk-settings">Useful code chunk settings</a></li>
+  <li><a href="#key-definitions" id="toc-key-definitions" class="nav-link active" data-scroll-target="#key-definitions">Key Definitions</a></li>
+  <li><a href="#example" id="toc-example" class="nav-link" data-scroll-target="#example">Example</a></li>
+  <li><a href="#key-ideas" id="toc-key-ideas" class="nav-link" data-scroll-target="#key-ideas">Key Ideas</a></li>
+  <li><a href="#using-randomization-in-r" id="toc-using-randomization-in-r" class="nav-link" data-scroll-target="#using-randomization-in-r">Using randomization in R</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/dsass1/stat202_website/edit/main/slides/lec01.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/dsass1/stat202_website/issues/new" class="toc-action">Report an issue</a></p></div></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="lec01.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/dsass1/stat202_website/edit/main/slides/lec12.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/dsass1/stat202_website/issues/new" class="toc-action">Report an issue</a></p></div></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="lec12.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Introducing R Studio <br> Preface - Chapter 1</h1>
+<h1 class="title">Randomization and Causality <br> Chapter 7</h1>
 </div>
 
 
@@ -242,112 +207,72 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<section id="todays-goals" class="level2" data-background-image="images_horst/horst_rstudio_air.png" data-background-size="400px" data-background-opacity="50%" data-background-position="80% 50%">
-<h2 data-background-image="images_horst/horst_rstudio_air.png" data-background-size="400px" data-background-opacity="50%" data-background-position="80% 50%" class="anchored" data-anchor-id="todays-goals">Today’s goals</h2>
-<p><br></p>
-<div class="columns">
-<div class="column" style="width:60%;">
-<ol type="1">
-<li>Change the <code>yaml</code> heading on a document</li>
-<li>Create your first code chunk!</li>
-<li>Learn the code chunk settings</li>
-<li>Assign values to a variable</li>
-</ol>
-</div>
-</div>
-<div class="absolute" data-top="77%" data-left="85%" width="500">
-<div style="opacity:0.75; font-size: 0.5em">
-<p>Artwork by <span class="citation" data-cites="allison_horst">@allison_horst</span></p>
-</div>
-</div>
-<!-- ::: footer -->
-<!-- Artwork by @allison_horst -->
-<!-- ::: -->
-</section>
-<section id="agenda" class="level2">
-<h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
-<ul>
-<li><p>Complete today’s activity first!</p></li>
-<li><p>These slides just include helpful reminders that you may find useful to refer back to when working on later activities.</p></li>
+<section id="key-definitions" class="level2">
+<h2 class="anchored" data-anchor-id="key-definitions">Key Definitions</h2>
+<div class="incremental">
+<ul class="incremental">
+<li><p><strong>Observational study</strong>: can show the correlation between two variables but difficult to show causation. This is because there could be a confounding variable causing both to happen (e.g.&nbsp;voluntary assignment).</p></li>
+<li><p><strong>Randomized experiment</strong> (Gold Standard): avoids the issues with confounding variables by comparing two groups (treatment and control) that look on <strong>average</strong> the same.</p></li>
+<li><p><strong>Confounders</strong>: alternative explanations for differences between the experimental groups. Confounding variables correlate with both the experimental groups and the outcome variable.</p></li>
 </ul>
-</section>
-<section id="rstudio-interface" class="level2">
-<h2 class="anchored" data-anchor-id="rstudio-interface">RStudio interface</h2>
-<div class="absolute" data-top="10%" data-left="0" width="1031" height="529">
-<div style="text-align: center">
-<p><img src="images_lecture/rstudio_interface.png" class="img-fluid"></p>
-</div>
-</div>
-<p>. . .</p>
-<div class="absolute" data-top="30%" data-left="22%" width="300">
-<div style="color: #4E2A84">
-<p>code and text for report go here</p>
-</div>
-</div>
-<p>. . .</p>
-<div class="absolute" data-top="30%" data-left="55%">
-<div style="color: #4E2A84">
-<p>stored variables and data shows up here</p>
-</div>
-</div>
-<p>. . .</p>
-<div class="absolute" data-top="85%" data-left="55%">
-<div style="color: #4E2A84">
-<p>your working directory project files are here</p>
-</div>
-</div>
-<p>. . .</p>
-<div class="absolute" data-top="90%" data-left="0%" width="500">
-<div style="color: #4E2A84; font-size: 0.7em">
-<p>CONSOLE PANE one time code that does <em>not</em> appear in document can go here</p>
-</div>
 </div>
 </section>
-<section id="useful-buttons" class="level2">
-<h2 class="anchored" data-anchor-id="useful-buttons">Useful Buttons</h2>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images_lecture/rstudio_viewer.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Change view output settings</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images_lecture/rstudio_export.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Export html to submit</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="useful-code-chunk-settings" class="level2 scrollable">
-<h2 class="scrollable anchored" data-anchor-id="useful-code-chunk-settings">Useful code chunk settings</h2>
-<div class="columns">
-<div class="column" style="width:32%;">
-<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">#| message: false</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">#| warning: false</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">#| eval: false</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: false</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">#| include: false</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div><div class="column" style="width:68%;">
+<section id="example" class="level2">
+<h2 class="anchored" data-anchor-id="example">Example</h2>
+<p>Does eating ice cream cause drowning?</p>
+<p>Experiment:</p>
 <ul>
-<li><code>message: false</code> prevents messages from appearing in knitted doc</li>
-<li><code>warning: false</code> prevents warnings from appearing in knitted doc</li>
+<li><p>Control group: do not eat ice cream</p></li>
+<li><p>Treatment group: eat ice cream</p></li>
+</ul>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Scenario 1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Scenario 2</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>We randomly divide a population into the treatment and control groups and compare the number of drownings between groups.</p>
+<div class="incremental">
+<ul class="incremental">
+<li>Type of experiment: randomized experiment</li>
+<li>Types of conclusions can we make: causal conclusions</li>
 </ul>
 </div>
 </div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>We have survey data of the number of monthly ice cream sales and number of monthly drownings and calculate a correlation of 0.85.</p>
+<div class="incremental">
+<ul class="incremental">
+<li>Type of experiment: observational study</li>
+<li>Types of conclusions can we make: correlation only conclusions (possible confounding variables)</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="key-ideas" class="level2">
+<h2 class="anchored" data-anchor-id="key-ideas">Key Ideas</h2>
+<p>&nbsp;</p>
 <ul>
-<li><code>eval: false</code> includes the code chunk in the knitted document but prevents the code chunk from being run</li>
-<li><code>echo: false</code> prevents code itself from printing but includes the results of the code</li>
-<li><code>include: false</code> prevents code and its results from printing but still runs the code when knitted</li>
+<li><p>Randomized assignment helps <strong>separate causation from correlation</strong>.</p></li>
+<li><p>Additionally, randomized assignment helps <strong>rule out confounding variables</strong>.</p></li>
+</ul>
+</section>
+<section id="using-randomization-in-r" class="level2">
+<h2 class="anchored" data-anchor-id="using-randomization-in-r">Using randomization in R</h2>
+<p>Bernoulli trial = randomized experiment with exactly two outcomes.</p>
+<ul>
+<li>In R: <code>rbernoulli(n = ____, p = ____)</code></li>
+</ul>
+<p>. . .</p>
+<p>It can be framed as a “yes or no” (success or failure) question.</p>
+<p>. . .</p>
+<p><strong>Examples</strong>:</p>
+<ul>
+<li>Whether or not flipping a coin results in heads</li>
+</ul>
+<p>. . .</p>
+<ul>
+<li>Whether or not you roll a 1 when rolling a die</li>
 </ul>
 
 

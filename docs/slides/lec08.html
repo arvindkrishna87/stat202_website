@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>STAT 202 - Regression  Chapter 5.0 - 5.1</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Regression <br> Chapter 5.0 - 5.1</li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main">
+    <a href="https://campuswire.com/c/G6C07549E" rel="" title="Campuswire" class="quarto-navigation-tool px-1" aria-label="Campuswire"><i class="bi bi-person-fill"></i></a>
+    <a href="https://northwestern.zoom.us/j/99863923813" rel="" title="Zoom" class="quarto-navigation-tool px-1" aria-label="Zoom"><i class="bi bi-laptop"></i></a>
+</div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Today’s agenda</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../course-schedule.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Schedule</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../course-anu.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Accessible NU</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Additional Resources</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../course-syllabus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Syllabus</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../course-team.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Office hours</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../course-links.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Useful links</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../course-lectures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture videos</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../course-solutions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Activity solutions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../course-ec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Extra Credit</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#todays-goals" id="toc-todays-goals" class="nav-link active" data-scroll-target="#todays-goals">Today’s goals</a></li>
+  <li><a href="#a-note-about-regression" id="toc-a-note-about-regression" class="nav-link" data-scroll-target="#a-note-about-regression">A Note about Regression</a></li>
+  <li><a href="#correlation-coefficient-ex1" id="toc-correlation-coefficient-ex1" class="nav-link" data-scroll-target="#correlation-coefficient-ex1">Correlation Coefficient (Ex1)</a></li>
+  <li><a href="#correlation-coefficient-ex2" id="toc-correlation-coefficient-ex2" class="nav-link" data-scroll-target="#correlation-coefficient-ex2">Correlation Coefficient (Ex2)</a></li>
+  <li><a href="#correlation-coefficient-ex3" id="toc-correlation-coefficient-ex3" class="nav-link" data-scroll-target="#correlation-coefficient-ex3">Correlation Coefficient (Ex3)</a></li>
+  <li><a href="#correlation-coefficient-continued" id="toc-correlation-coefficient-continued" class="nav-link" data-scroll-target="#correlation-coefficient-continued">Correlation Coefficient (continued)</a></li>
+  <li><a href="#simple-linear-regression-slr" id="toc-simple-linear-regression-slr" class="nav-link" data-scroll-target="#simple-linear-regression-slr">Simple Linear Regression (SLR)</a></li>
+  <li><a href="#slr-continued" id="toc-slr-continued" class="nav-link" data-scroll-target="#slr-continued">SLR (continued)</a></li>
+  <li><a href="#example-1-model" id="toc-example-1-model" class="nav-link" data-scroll-target="#example-1-model">Example 1: Model</a></li>
+  <li><a href="#example-1-model-1" id="toc-example-1-model-1" class="nav-link" data-scroll-target="#example-1-model-1">Example 1: Model</a></li>
+  <li><a href="#example-1-plot-regression-line" id="toc-example-1-plot-regression-line" class="nav-link" data-scroll-target="#example-1-plot-regression-line">Example 1: Plot regression line</a></li>
+  <li><a href="#example-1-plot-regression-line-1" id="toc-example-1-plot-regression-line-1" class="nav-link" data-scroll-target="#example-1-plot-regression-line-1">Example 1: Plot regression line</a></li>
+  <li><a href="#example-1-residuals" id="toc-example-1-residuals" class="nav-link" data-scroll-target="#example-1-residuals">Example 1: Residuals</a></li>
+  <li><a href="#example-1-predicting" id="toc-example-1-predicting" class="nav-link" data-scroll-target="#example-1-predicting">Example 1: Predicting</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/dsass1/stat202_website/edit/main/slides/lec08.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/dsass1/stat202_website/issues/new" class="toc-action">Report an issue</a></p></div></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="lec08.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Regression <br> Chapter 5.0 - 5.1</h1>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="todays-goals" class="level2 smaller" data-background-image="images_horst/tidydata_5.png" data-background-size="400px" data-background-opacity="70%" data-background-position="50% 75%">
+<h2 class="smaller anchored" data-background-image="images_horst/tidydata_5.png" data-background-size="400px" data-background-opacity="70%" data-background-position="50% 75%" data-anchor-id="todays-goals">Today’s goals</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:80%;">
+<ol type="1">
+<li>Find the correlation between two variables</li>
+<li>Build and interpret a linear regression model</li>
+<li>Make predictions using a linear regression model</li>
+<li>Plot the line of best fit on a scatterplot</li>
+</ol>
+</div>
+</div>
+<div class="absolute" data-top="80%" data-left="50%" width="500">
+<div style="opacity:0.75; font-size: 0.5em">
+<p>Artwork by <span class="citation" data-cites="allison_horst">@allison_horst</span></p>
+</div>
+</div>
+</section>
+<section id="a-note-about-regression" class="level2">
+<h2 class="anchored" data-anchor-id="a-note-about-regression">A Note about Regression</h2>
+<p><br></p>
+<p>Remember that, BEFORE building a model, you should conduct an <strong>exploratory data analysis</strong>.</p>
+<p><br></p>
+<p>. . .</p>
+<p>You will almost certainly need to do some data wrangling and visualizations before the model analysis.</p>
+<p><br></p>
+<p>. . .</p>
+<p>For this lessons example we will be using a subset of the <code>penguins</code> dataset that only includes <code>male</code> penguins from the <code>Chinstrap</code> species and <code>Dream</code> island. This is stored in <code>penguin_sub</code>.</p>
+</section>
+<section id="correlation-coefficient-ex1" class="level2">
+<h2 class="anchored" data-anchor-id="correlation-coefficient-ex1">Correlation Coefficient (Ex1)</h2>
+<div class="absolute" data-top="0%" data-left="90%" width="100">
+<p><img src="images_lecture/participate_icon.png" class="img-fluid"></p>
+</div>
+<p><font size="6"> <strong>Correlation coefficient</strong>: a number between -1 and 1 indicating the strength of the linear relationship between two numerical variables.</font></p><font size="6">
+</font><p><font size="6">Match the following graphs with the most appropriate correlation coefficient: </font></p>
+<div class="fragment">
+<ol type="1">
+<li>&nbsp;&nbsp;&nbsp; a) -0.2 &nbsp;&nbsp;&nbsp; b) 0 &nbsp;&nbsp;&nbsp; c) 0.4 &nbsp;&nbsp;&nbsp; d) 0.7</li>
+</ol>
+<p><img src="images_lecture/cor_0.4.png" style="height:3in"></p>
+</div>
+</section>
+<section id="correlation-coefficient-ex2" class="level2">
+<h2 class="anchored" data-anchor-id="correlation-coefficient-ex2">Correlation Coefficient (Ex2)</h2>
+<div class="absolute" data-top="0%" data-left="90%" width="100">
+<p><img src="images_lecture/participate_icon.png" class="img-fluid"></p>
+</div>
+<p><font size="6"> Match the following graph with the most appropriate correlation coefficient: </font></p>
+<ol start="2" type="1">
+<li>&nbsp;&nbsp;&nbsp; a) -1 &nbsp;&nbsp;&nbsp; b) -0.75 &nbsp;&nbsp;&nbsp; c) -0.9 &nbsp;&nbsp;&nbsp; d) 1</li>
+</ol>
+<p><img src="images_lecture/cor_-1.png" style="height:3in"></p>
+</section>
+<section id="correlation-coefficient-ex3" class="level2">
+<h2 class="anchored" data-anchor-id="correlation-coefficient-ex3">Correlation Coefficient (Ex3)</h2>
+<div class="absolute" data-top="0%" data-left="90%" width="100">
+<p><img src="images_lecture/participate_icon.png" class="img-fluid"></p>
+</div>
+<p><font size="6"> Match the following graph with the most appropriate correlation coefficient: </font></p>
+<ol start="3" type="1">
+<li><p>Amount of gas in a car vs distance traveled .</p>
+<p>a . Exactly -1</p>
+<p>b . Between -1 and 0</p>
+<p>c . About 0</p>
+<p>d . Between 0 and 1</p>
+<p>e . Exactly 1</p></li>
+</ol>
+</section>
+<section id="correlation-coefficient-continued" class="level2 scrollable">
+<h2 class="scrollable anchored" data-anchor-id="correlation-coefficient-continued">Correlation Coefficient (continued)</h2>
+<p><font size="6"> The following code shows three different options for calculating the correlation between two variables within the <code>penguins</code> dataset. </font></p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Correlation</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Data: penguin_sub</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 1</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>penguin_sub <span class="sc">%&gt;%</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(flipper_length_mm, body_mass_g) <span class="sc">%&gt;%</span> </span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cor</span>()</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 2</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>penguin_sub <span class="sc">%&gt;%</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="fu">summarize</span>(<span class="at">cor =</span> <span class="fu">cor</span>(flipper_length_mm, body_mass_g) )</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Option 3</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">cor</span>(penguins<span class="sc">$</span>flipper_length_mm, penguins<span class="sc">$</span>body_mass_g)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>penguin_sub <span class="ot">&lt;-</span> penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sex <span class="sc">==</span> <span class="st">"male"</span>, species <span class="sc">==</span> <span class="st">"Chinstrap"</span>, island <span class="sc">==</span> <span class="st">"Dream"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">id =</span> <span class="fu">seq</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">34</span>))</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(penguin_sub)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 34
+Columns: 9
+$ species           &lt;fct&gt; Chinstrap, Chinstrap, Chinstrap, Chinstrap, Chinstra…
+$ island            &lt;fct&gt; Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dre…
+$ bill_length_mm    &lt;dbl&gt; 50.0, 51.3, 52.7, 51.3, 51.3, 51.7, 52.0, 50.5, 50.3…
+$ bill_depth_mm     &lt;dbl&gt; 19.5, 19.2, 19.8, 18.2, 19.9, 20.3, 18.1, 19.6, 20.0…
+$ flipper_length_mm &lt;int&gt; 196, 193, 197, 197, 198, 194, 201, 201, 197, 195, 19…
+$ body_mass_g       &lt;int&gt; 3900, 3650, 3725, 3750, 3700, 3775, 4050, 4050, 3300…
+$ sex               &lt;fct&gt; male, male, male, male, male, male, male, male, male…
+$ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…
+$ id                &lt;int&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1…</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="fragment">
+<p><font size="6"> You will most likely need to filter out missing data beforehand OR set <code>use = "complete.obs"</code> inside the <code>cor()</code> function. This is the equivalent of when we set <code>na.rm = TRUE</code> in other summary functions. </font></p>
+</div>
+</section>
+<section id="simple-linear-regression-slr" class="level2">
+<h2 class="anchored" data-anchor-id="simple-linear-regression-slr">Simple Linear Regression (SLR)</h2>
+<ul>
+<li><strong>Definition</strong>: Simple linear regression: models the relationship between a response (y) variable and one explanatory (x) variable.</li>
+</ul>
+<p>. . .</p>
+<ul>
+<li>Essentially, we are finding the <strong>line of best fit</strong> for a scatterplot between ‘x’ and ‘y’.</li>
+</ul>
+</section>
+<section id="slr-continued" class="level2">
+<h2 class="anchored" data-anchor-id="slr-continued">SLR (continued)</h2>
+<p><strong>Equation</strong> of a regression line: <span class="math display">\[\hat{y} = b_0 + b_1*x\]</span></p>
+<p><br></p>
+<div class="incremental">
+<ul class="incremental">
+<li><p><span class="math inline">\(b_0\)</span> : intercept; the <strong>expected</strong> value of <span class="math inline">\(\hat{y}\)</span> when <span class="math inline">\(x = 0\)</span></p></li>
+<li><p><span class="math inline">\(b_1\)</span> : slope; for every 1 unit increase in x, then <span class="math inline">\(\hat{y}\)</span> increases <strong>on average</strong> by <span class="math inline">\(b_1\)</span></p></li>
+<li><p><strong>fitted values</strong>: <span class="math inline">\(\hat{y}\)</span>; the predicted value on the regression line</p></li>
+<li><p><strong>residuals</strong>: <span class="math inline">\(y - \hat{y}\)</span>; error in prediction</p></li>
+</ul>
+</div>
+</section>
+<section id="example-1-model" class="level2" data-auto-animate="true">
+<h2 data-auto-animate="true" class="anchored" data-anchor-id="example-1-model">Example 1: Model</h2>
+<p>Consider a subset of the <code>penguins</code> dataset that only includes <code>male</code> penguins from the <code>Chinstrap</code> species and <code>Dream</code> island. This is stored in <code>penguin_sub</code>.</p>
+<p>. . .</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Model</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Data: penguin_sub</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<p>Predict a penguin’s <code>body_mass_g</code> using <code>flipper_length_mm</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Build a model</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>model_penguin <span class="ot">&lt;-</span> <span class="fu">lm</span>(body_mass_g <span class="sc">~</span> flipper_length_mm, <span class="at">data =</span> penguin_sub)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>penguin_sub <span class="ot">&lt;-</span> penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sex <span class="sc">==</span> <span class="st">"male"</span>, species <span class="sc">==</span> <span class="st">"Chinstrap"</span>, island <span class="sc">==</span> <span class="st">"Dream"</span>)<span class="sc">%&gt;%</span> </span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">id =</span> <span class="fu">seq</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">34</span>))</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(penguin_sub)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 34
+Columns: 9
+$ species           &lt;fct&gt; Chinstrap, Chinstrap, Chinstrap, Chinstrap, Chinstra…
+$ island            &lt;fct&gt; Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dre…
+$ bill_length_mm    &lt;dbl&gt; 50.0, 51.3, 52.7, 51.3, 51.3, 51.7, 52.0, 50.5, 50.3…
+$ bill_depth_mm     &lt;dbl&gt; 19.5, 19.2, 19.8, 18.2, 19.9, 20.3, 18.1, 19.6, 20.0…
+$ flipper_length_mm &lt;int&gt; 196, 193, 197, 197, 198, 194, 201, 201, 197, 195, 19…
+$ body_mass_g       &lt;int&gt; 3900, 3650, 3725, 3750, 3700, 3775, 4050, 4050, 3300…
+$ sex               &lt;fct&gt; male, male, male, male, male, male, male, male, male…
+$ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…
+$ id                &lt;int&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1…</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="example-1-model-1" class="level2 scrollable" data-auto-animate="true">
+<h2 class="scrollable anchored" data-auto-animate="true" data-anchor-id="example-1-model-1">Example 1: Model</h2>
+<p>Consider a subset of the <code>penguins</code> dataset that only includes <code>male</code> penguins from the <code>Chinstrap</code> species and <code>Dream</code> island. This is stored in <code>penguin_sub</code>.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true">Model</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false">Data: penguin_sub</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+<p>Predict a penguin’s <code>body_mass_g</code> using <code>flipper_length_mm</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Build a model</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>model_penguin <span class="ot">&lt;-</span> <span class="fu">lm</span>(body_mass_g <span class="sc">~</span> flipper_length_mm, <span class="at">data =</span> penguin_sub)</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="co">#Summarize the model</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(model_penguin)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+Call:
+lm(formula = body_mass_g ~ flipper_length_mm, data = penguin_sub)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-521.72 -177.33  -23.06  117.51  658.82 
+
+Coefficients:
+                   Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept)       -4111.348   1600.726  -2.568   0.0151 *  
+flipper_length_mm    40.269      8.004   5.031 1.81e-05 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 274.8 on 32 degrees of freedom
+Multiple R-squared:  0.4417,    Adjusted R-squared:  0.4242 
+F-statistic: 25.31 on 1 and 32 DF,  p-value: 1.814e-05</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>penguin_sub <span class="ot">&lt;-</span> penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(sex <span class="sc">==</span> <span class="st">"male"</span>, species <span class="sc">==</span> <span class="st">"Chinstrap"</span>, island <span class="sc">==</span> <span class="st">"Dream"</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">id =</span> <span class="fu">seq</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">34</span>))</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(penguin_sub)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 34
+Columns: 9
+$ species           &lt;fct&gt; Chinstrap, Chinstrap, Chinstrap, Chinstrap, Chinstra…
+$ island            &lt;fct&gt; Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dre…
+$ bill_length_mm    &lt;dbl&gt; 50.0, 51.3, 52.7, 51.3, 51.3, 51.7, 52.0, 50.5, 50.3…
+$ bill_depth_mm     &lt;dbl&gt; 19.5, 19.2, 19.8, 18.2, 19.9, 20.3, 18.1, 19.6, 20.0…
+$ flipper_length_mm &lt;int&gt; 196, 193, 197, 197, 198, 194, 201, 201, 197, 195, 19…
+$ body_mass_g       &lt;int&gt; 3900, 3650, 3725, 3750, 3700, 3775, 4050, 4050, 3300…
+$ sex               &lt;fct&gt; male, male, male, male, male, male, male, male, male…
+$ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…
+$ id                &lt;int&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1…</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="example-1-plot-regression-line" class="level2">
+<h2 class="anchored" data-anchor-id="example-1-plot-regression-line">Example 1: Plot regression line</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true">Plot</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false">Model</a></li></ul>
+<div class="tab-content">
+<div id="tabset-4-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-4-1-tab">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot relationship of variables</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(penguin_sub, <span class="fu">aes</span>(<span class="at">x =</span> flipper_length_mm, <span class="at">y =</span> body_mass_g))<span class="sc">+</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>    <span class="fu">geom_point</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="lec08_files/figure-revealjs/unnamed-chunk-7-1.png" class="img-fluid" width="960"></p>
+</div>
+</div>
+</div>
+<div id="tabset-4-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-2-tab">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(model_penguin)<span class="sc">$</span>coefficients</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                     Estimate  Std. Error   t value     Pr(&gt;|t|)
+(Intercept)       -4111.34753 1600.725516 -2.568428 1.508617e-02
+flipper_length_mm    40.26936    8.003689  5.031349 1.814086e-05</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="example-1-plot-regression-line-1" class="level2 scrollable">
+<h2 class="scrollable anchored" data-anchor-id="example-1-plot-regression-line-1">Example 1: Plot regression line</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-5-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-1" role="tab" aria-controls="tabset-5-1" aria-selected="true">Plot</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-5-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-5-2" role="tab" aria-controls="tabset-5-2" aria-selected="false">Model</a></li></ul>
+<div class="tab-content">
+<div id="tabset-5-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-5-1-tab">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1"></a><span class="co"># Add line of best fit</span></span>
+<span id="cb14-2"><a href="#cb14-2"></a><span class="fu">ggplot</span>(penguin_sub, <span class="fu">aes</span>(<span class="at">x =</span> flipper_length_mm, <span class="at">y =</span> body_mass_g))<span class="sc">+</span></span>
+<span id="cb14-3"><a href="#cb14-3"></a>    <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb14-4"><a href="#cb14-4"></a>  <span class="fu">geom_smooth</span>(<span class="at">method =</span> <span class="st">"lm"</span>, <span class="at">se =</span> <span class="cn">FALSE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="lec08_files/figure-revealjs/unnamed-chunk-9-1.png" class="img-fluid" width="960"></p>
+</div>
+</div>
+</div>
+<div id="tabset-5-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-5-2-tab">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(model_penguin)<span class="sc">$</span>coefficients</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                     Estimate  Std. Error   t value     Pr(&gt;|t|)
+(Intercept)       -4111.34753 1600.725516 -2.568428 1.508617e-02
+flipper_length_mm    40.26936    8.003689  5.031349 1.814086e-05</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="example-1-residuals" class="level2 scrollable">
+<h2 class="scrollable anchored" data-anchor-id="example-1-residuals">Example 1: Residuals</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-6-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-1" role="tab" aria-controls="tabset-6-1" aria-selected="true">Visualizing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-6-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-6-2" role="tab" aria-controls="tabset-6-2" aria-selected="false">Calculating</a></li></ul>
+<div class="tab-content">
+<div id="tabset-6-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-6-1-tab">
+<p><a href="https://northwestern-university.shinyapps.io/lec08_regression/" class="uri">https://northwestern-university.shinyapps.io/lec08_regression/</a></p>
+</div>
+<div id="tabset-6-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-6-2-tab">
+<p>Predict a penguin’s <code>body_mass_g</code> using <code>flipper_length_mm</code>.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>penguin_sub <span class="ot">&lt;-</span> penguin_sub <span class="sc">%&gt;%</span> </span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">fitted =</span> <span class="fu">fitted</span>(model_penguin),</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>         <span class="at">residuals =</span> <span class="fu">residuals</span>(model_penguin))</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a><span class="fu">glimpse</span>(penguin_sub)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 34
+Columns: 11
+$ species           &lt;fct&gt; Chinstrap, Chinstrap, Chinstrap, Chinstrap, Chinstra…
+$ island            &lt;fct&gt; Dream, Dream, Dream, Dream, Dream, Dream, Dream, Dre…
+$ bill_length_mm    &lt;dbl&gt; 50.0, 51.3, 52.7, 51.3, 51.3, 51.7, 52.0, 50.5, 50.3…
+$ bill_depth_mm     &lt;dbl&gt; 19.5, 19.2, 19.8, 18.2, 19.9, 20.3, 18.1, 19.6, 20.0…
+$ flipper_length_mm &lt;int&gt; 196, 193, 197, 197, 198, 194, 201, 201, 197, 195, 19…
+$ body_mass_g       &lt;int&gt; 3900, 3650, 3725, 3750, 3700, 3775, 4050, 4050, 3300…
+$ sex               &lt;fct&gt; male, male, male, male, male, male, male, male, male…
+$ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…
+$ id                &lt;int&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1…
+$ fitted            &lt;dbl&gt; 3781.446, 3660.638, 3821.716, 3821.716, 3861.985, 37…
+$ residuals         &lt;dbl&gt; 118.55366, -10.63827, -96.71570, -71.71570, -161.985…</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="example-1-predicting" class="level2">
+<h2 class="anchored" data-anchor-id="example-1-predicting">Example 1: Predicting</h2>
+<div class="absolute" data-top="0%" data-left="90%" width="100">
+<p><img src="images_lecture/participate_icon.png" class="img-fluid"></p>
+</div>
+<p>Recall the equation of the regression line is</p>
+<p><span class="math display">\[\widehat{\hbox{body_mass_g} } = -4111.3 + 40.3*\hbox{flipper_length}\]</span></p>
+<p><br></p>
+<p>You find a new <code>male</code> penguin from the <code>Chinstrap</code> species and <code>Dream</code> island that has a flipper length of 220 mm. What do you predict his weight to be in grams?</p>
+<div class="fragment">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="sc">-</span><span class="fl">4111.3</span> <span class="sc">+</span> <span class="fl">40.3</span><span class="sc">*</span><span class="dv">220</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 4754.7</code></pre>
+</div>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+
+<script>
+  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+  // slide changes (different for each slide format).
+  (function () {
+    // dispatch for htmlwidgets
+    function fireSlideEnter() {
+      const event = window.document.createEvent("Event");
+      event.initEvent("slideenter", true, true);
+      window.document.dispatchEvent(event);
+    }
+
+    function fireSlideChanged(previousSlide, currentSlide) {
+      fireSlideEnter();
+
+      // dispatch for shiny
+      if (window.jQuery) {
+        if (previousSlide) {
+          window.jQuery(previousSlide).trigger("hidden");
+        }
+        if (currentSlide) {
+          window.jQuery(currentSlide).trigger("shown");
+        }
+      }
+    }
+
+    // hookup for slidy
+    if (window.w3c_slidy) {
+      window.w3c_slidy.add_observer(function (slide_num) {
+        // slide_num starts at position 1
+        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+      });
+    }
+
+  })();
+</script>
+
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/dsass1\.github\.io\/stat202_website\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>.</div>
+  </div>
+</footer>
+
+
+
+</body></html>

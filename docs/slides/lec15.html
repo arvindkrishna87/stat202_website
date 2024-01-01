@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>STAT 202 - Introducing R Studio  Preface - Chapter 1</title>
+<title>STAT 202 - Repeated Sampling  Section 9.2 - 9.4</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -105,7 +105,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Introducing R Studio <br> Preface - Chapter 1</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Repeated Sampling <br> Section 9.2 - 9.4</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -209,20 +209,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#todays-goals" id="toc-todays-goals" class="nav-link active" data-scroll-target="#todays-goals">Today’s goals</a></li>
-  <li><a href="#agenda" id="toc-agenda" class="nav-link" data-scroll-target="#agenda">Agenda</a></li>
-  <li><a href="#rstudio-interface" id="toc-rstudio-interface" class="nav-link" data-scroll-target="#rstudio-interface">RStudio interface</a></li>
-  <li><a href="#useful-buttons" id="toc-useful-buttons" class="nav-link" data-scroll-target="#useful-buttons">Useful Buttons</a></li>
-  <li><a href="#useful-code-chunk-settings" id="toc-useful-code-chunk-settings" class="nav-link" data-scroll-target="#useful-code-chunk-settings">Useful code chunk settings</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#simulations-in-r" id="toc-simulations-in-r" class="nav-link" data-scroll-target="#simulations-in-r">Simulations in R</a></li>
+  <li><a href="#simple-example" id="toc-simple-example" class="nav-link" data-scroll-target="#simple-example">Simple example</a></li>
+  <li><a href="#describing-a-sampling-distribution" id="toc-describing-a-sampling-distribution" class="nav-link" data-scroll-target="#describing-a-sampling-distribution">Describing a Sampling Distribution</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/dsass1/stat202_website/edit/main/slides/lec01.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/dsass1/stat202_website/issues/new" class="toc-action">Report an issue</a></p></div></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="lec01.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/dsass1/stat202_website/edit/main/slides/lec15.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/dsass1/stat202_website/issues/new" class="toc-action">Report an issue</a></p></div></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="lec15.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Introducing R Studio <br> Preface - Chapter 1</h1>
+<h1 class="title">Repeated Sampling <br> Section 9.2 - 9.4</h1>
 </div>
 
 
@@ -242,118 +241,95 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<section id="todays-goals" class="level2" data-background-image="images_horst/horst_rstudio_air.png" data-background-size="400px" data-background-opacity="50%" data-background-position="80% 50%">
-<h2 data-background-image="images_horst/horst_rstudio_air.png" data-background-size="400px" data-background-opacity="50%" data-background-position="80% 50%" class="anchored" data-anchor-id="todays-goals">Today’s goals</h2>
+<section id="overview" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="overview">Overview</h2>
+<p>The theory of <strong>repeated samples</strong> makes it possible for statisticians to take a random sample from a population and use it to make inference about that population’s parameters.</p>
+<p>. . .</p>
 <p><br></p>
-<div class="columns">
-<div class="column" style="width:60%;">
-<ol type="1">
-<li>Change the <code>yaml</code> heading on a document</li>
-<li>Create your first code chunk!</li>
-<li>Learn the code chunk settings</li>
-<li>Assign values to a variable</li>
+<p><strong>Definitions:</strong></p>
+<div class="incremental">
+<ul class="incremental">
+<li><strong>Repeated Sampling</strong>: repeating the exact same random sampling procedure many times.</li>
+<li><strong>Sampling variability</strong>: some sample estimates are bigger and some smaller than the true population statistic</li>
+<li><strong>Standard error</strong>: the standard deviation of a sampling distribution</li>
+<li><strong>Sampling Distribution</strong>: a probability distribution of a statistic (mean, proportion, or variation) obtained from repeated sampling. This distribution is visualized with a histogram.</li>
+</ul>
+</div>
+</section>
+<section id="simulations-in-r" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="simulations-in-r">Simulations in R</h2>
+<p>The theory of repeated samples is quite straight forward:</p>
+<div class="incremental">
+<ol class="incremental" type="1">
+<li>Imagine repeating the exact same <em>random sampling</em> procedure where you sampled 50 people from the population, say 10,000 times.<br>
+</li>
+<li>For each of the 10,000 samples, each with 50 people in them, calculate a sample statistic, say the sample mean. That is, you now have 10,000 sample means.</li>
+<li>Now examine the distribution of the 10,000 sample means. This distribution of sample means is know as a sampling distribution. A distribution that is the result of repeated sampling.</li>
 </ol>
 </div>
-</div>
-<div class="absolute" data-top="77%" data-left="85%" width="500">
-<div style="opacity:0.75; font-size: 0.5em">
-<p>Artwork by <span class="citation" data-cites="allison_horst">@allison_horst</span></p>
-</div>
-</div>
-<!-- ::: footer -->
-<!-- Artwork by @allison_horst -->
-<!-- ::: -->
-</section>
-<section id="agenda" class="level2">
-<h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
-<ul>
-<li><p>Complete today’s activity first!</p></li>
-<li><p>These slides just include helpful reminders that you may find useful to refer back to when working on later activities.</p></li>
-</ul>
-</section>
-<section id="rstudio-interface" class="level2">
-<h2 class="anchored" data-anchor-id="rstudio-interface">RStudio interface</h2>
-<div class="absolute" data-top="10%" data-left="0" width="1031" height="529">
-<div style="text-align: center">
-<p><img src="images_lecture/rstudio_interface.png" class="img-fluid"></p>
-</div>
-</div>
 <p>. . .</p>
-<div class="absolute" data-top="30%" data-left="22%" width="300">
-<div style="color: #4E2A84">
-<p>code and text for report go here</p>
-</div>
-</div>
-<p>. . .</p>
-<div class="absolute" data-top="30%" data-left="55%">
-<div style="color: #4E2A84">
-<p>stored variables and data shows up here</p>
-</div>
-</div>
-<p>. . .</p>
-<div class="absolute" data-top="85%" data-left="55%">
-<div style="color: #4E2A84">
-<p>your working directory project files are here</p>
-</div>
-</div>
-<p>. . .</p>
-<div class="absolute" data-top="90%" data-left="0%" width="500">
-<div style="color: #4E2A84; font-size: 0.7em">
-<p>CONSOLE PANE one time code that does <em>not</em> appear in document can go here</p>
-</div>
+<p><strong>Code in R</strong>:</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>sim_data <span class="ot">&lt;-</span> data <span class="sc">%&gt;%</span> </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">rep_sample_n</span>(<span class="at">size =</span> <span class="dv">50</span>, <span class="at">reps =</span> <span class="dv">10000</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="useful-buttons" class="level2">
-<h2 class="anchored" data-anchor-id="useful-buttons">Useful Buttons</h2>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images_lecture/rstudio_viewer.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Change view output settings</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images_lecture/rstudio_export.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Export html to submit</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
+<section id="simple-example" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="simple-example">Simple example</h2>
+<p>Let’s say we want to estimate the average height of a college student. You take a random sample of size 2. And repeat this procedure 4 times.</p>
 </section>
-<section id="useful-code-chunk-settings" class="level2 scrollable">
-<h2 class="scrollable anchored" data-anchor-id="useful-code-chunk-settings">Useful code chunk settings</h2>
-<div class="columns">
-<div class="column" style="width:32%;">
-<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">#| message: false</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">#| warning: false</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">#| eval: false</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: false</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">#| include: false</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div><div class="column" style="width:68%;">
-<ul>
-<li><code>message: false</code> prevents messages from appearing in knitted doc</li>
-<li><code>warning: false</code> prevents warnings from appearing in knitted doc</li>
-</ul>
-</div>
-</div>
-<ul>
-<li><code>eval: false</code> includes the code chunk in the knitted document but prevents the code chunk from being run</li>
-<li><code>echo: false</code> prevents code itself from printing but includes the results of the code</li>
-<li><code>include: false</code> prevents code and its results from printing but still runs the code when knitted</li>
-</ul>
+<section id="describing-a-sampling-distribution" class="level2">
+<h2 class="anchored" data-anchor-id="describing-a-sampling-distribution">Describing a Sampling Distribution</h2>
+<center>
+<img src="images_lecture/describe_histogram.png" class="img-fluid">
+</center>
 
 
 </section>
 
 </main> <!-- /main -->
+
+<script>
+  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+  // slide changes (different for each slide format).
+  (function () {
+    function fireSlideChanged(previousSlide, currentSlide) {
+
+      // dispatch for htmlwidgets
+      const event = window.document.createEvent("Event");
+      event.initEvent("slideenter", true, true);
+      window.document.dispatchEvent(event);
+
+      // dispatch for shiny
+      if (window.jQuery) {
+        if (previousSlide) {
+          window.jQuery(previousSlide).trigger("hidden");
+        }
+        if (currentSlide) {
+          window.jQuery(currentSlide).trigger("shown");
+        }
+      }
+    }
+
+    // hookup for reveal
+    if (window.Reveal) {
+      window.Reveal.addEventListener("slidechanged", function(event) {
+        fireSlideChanged(event.previousSlide, event.currentSlide);
+      });
+    }
+
+    // hookup for slidy
+    if (window.w3c_slidy) {
+      window.w3c_slidy.add_observer(function (slide_num) {
+        // slide_num starts at position 1
+        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+      });
+    }
+
+  })();
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

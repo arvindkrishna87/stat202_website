@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>STAT 202 - Introducing R Studio  Preface - Chapter 1</title>
+<title>STAT 202 - Multiple Regression  Chapter 6.0 - 6.1</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -93,6 +93,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -105,7 +107,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Introducing R Studio <br> Preface - Chapter 1</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Multiple Regression <br> Chapter 6.0 - 6.1</li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -210,19 +212,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#todays-goals" id="toc-todays-goals" class="nav-link active" data-scroll-target="#todays-goals">Today’s goals</a></li>
-  <li><a href="#agenda" id="toc-agenda" class="nav-link" data-scroll-target="#agenda">Agenda</a></li>
-  <li><a href="#rstudio-interface" id="toc-rstudio-interface" class="nav-link" data-scroll-target="#rstudio-interface">RStudio interface</a></li>
-  <li><a href="#useful-buttons" id="toc-useful-buttons" class="nav-link" data-scroll-target="#useful-buttons">Useful Buttons</a></li>
-  <li><a href="#useful-code-chunk-settings" id="toc-useful-code-chunk-settings" class="nav-link" data-scroll-target="#useful-code-chunk-settings">Useful code chunk settings</a></li>
+  <li><a href="#multiple-regression" id="toc-multiple-regression" class="nav-link" data-scroll-target="#multiple-regression">Multiple Regression</a></li>
+  <li><a href="#mlr-correlation-and-causation" id="toc-mlr-correlation-and-causation" class="nav-link" data-scroll-target="#mlr-correlation-and-causation">MLR Correlation and Causation</a></li>
+  <li><a href="#correlation-does-not-mean-causality" id="toc-correlation-does-not-mean-causality" class="nav-link" data-scroll-target="#correlation-does-not-mean-causality">Correlation does not mean causality!!</a></li>
+  <li><a href="#multiple-regression-modeling" id="toc-multiple-regression-modeling" class="nav-link" data-scroll-target="#multiple-regression-modeling">Multiple Regression Modeling</a></li>
+  <li><a href="#example-model" id="toc-example-model" class="nav-link" data-scroll-target="#example-model">Example: model</a></li>
+  <li><a href="#example-interpretations" id="toc-example-interpretations" class="nav-link" data-scroll-target="#example-interpretations">Example: interpretations</a></li>
+  <li><a href="#example-prediction" id="toc-example-prediction" class="nav-link" data-scroll-target="#example-prediction">Example: prediction</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/dsass1/stat202_website/edit/main/slides/lec01.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/dsass1/stat202_website/issues/new" class="toc-action">Report an issue</a></p></div></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="lec01.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/dsass1/stat202_website/edit/main/slides/lec10.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/dsass1/stat202_website/issues/new" class="toc-action">Report an issue</a></p></div></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="lec10.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Introducing R Studio <br> Preface - Chapter 1</h1>
+<h1 class="title">Multiple Regression <br> Chapter 6.0 - 6.1</h1>
 </div>
 
 
@@ -242,118 +247,145 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<section id="todays-goals" class="level2" data-background-image="images_horst/horst_rstudio_air.png" data-background-size="400px" data-background-opacity="50%" data-background-position="80% 50%">
-<h2 data-background-image="images_horst/horst_rstudio_air.png" data-background-size="400px" data-background-opacity="50%" data-background-position="80% 50%" class="anchored" data-anchor-id="todays-goals">Today’s goals</h2>
+<section id="todays-goals" class="level2" data-background-image="images_horst/comics/graphing_relationship.png" data-background-size="400px" data-background-opacity="50%" data-background-position="85% 50%">
+<h2 data-background-image="images_horst/comics/graphing_relationship.png" data-background-size="400px" data-background-opacity="50%" data-background-position="85% 50%" class="anchored" data-anchor-id="todays-goals">Today’s goals</h2>
 <p><br></p>
 <div class="columns">
 <div class="column" style="width:60%;">
 <ol type="1">
-<li>Change the <code>yaml</code> heading on a document</li>
-<li>Create your first code chunk!</li>
-<li>Learn the code chunk settings</li>
-<li>Assign values to a variable</li>
+<li>Regression with two numerical explanatory variables</li>
+<li>Understand coefficient interpretation</li>
+<li>Make predictions with a model</li>
 </ol>
 </div>
 </div>
-<div class="absolute" data-top="77%" data-left="85%" width="500">
-<div style="opacity:0.75; font-size: 0.5em">
-<p>Artwork by <span class="citation" data-cites="allison_horst">@allison_horst</span></p>
-</div>
-</div>
-<!-- ::: footer -->
-<!-- Artwork by @allison_horst -->
-<!-- ::: -->
 </section>
-<section id="agenda" class="level2">
-<h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
+<section id="multiple-regression" class="level2">
+<h2 class="anchored" data-anchor-id="multiple-regression">Multiple Regression</h2>
+<p><strong>Definition</strong>: models the relationship between a response (y) variable and two or more explanatory (x) variables.</p>
+<p>. . .</p>
 <ul>
-<li><p>Complete today’s activity first!</p></li>
-<li><p>These slides just include helpful reminders that you may find useful to refer back to when working on later activities.</p></li>
+<li>2 numerical explanatory variables this is the “plane” of best fit.</li>
+<li>1 numerical + 1 categorical explanatory variable use a line of best fit separated by category.</li>
+</ul>
+<p>. . .</p>
+<p><strong>EDA</strong>: Same as simple regression. Look at the raw data, calculate summary statistics/correlations, and use data visualizations.</p>
+</section>
+<section id="mlr-correlation-and-causation" class="level2">
+<h2 class="anchored" data-anchor-id="mlr-correlation-and-causation">MLR Correlation and Causation</h2>
+<p><strong>Correlation</strong>: calculate the correlation between each pair of variables.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>penguins <span class="sc">%&gt;%</span> </span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(flipper_length_mm)) <span class="sc">%&gt;%</span> </span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(body_mass_g, flipper_length_mm, bill_length_mm) <span class="sc">%&gt;%</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">cor</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                  body_mass_g flipper_length_mm bill_length_mm
+body_mass_g         1.0000000         0.8712018      0.5951098
+flipper_length_mm   0.8712018         1.0000000      0.6561813
+bill_length_mm      0.5951098         0.6561813      1.0000000</code></pre>
+</div>
+</div>
+<p><br></p>
+<p>. . .</p>
+<p><strong>Causation</strong>: any change in the value of one variable will cause a change in the value of another variable, which means one variable makes the other happen.</p>
+</section>
+<section id="correlation-does-not-mean-causality" class="level2">
+<h2 class="anchored" data-anchor-id="correlation-does-not-mean-causality">Correlation does not mean causality!!</h2>
+<center>
+<img src="images_lecture/icecream_drownings.png" id="id" class="class" width="650" height="600">
+</center>
+</section>
+<section id="multiple-regression-modeling" class="level2">
+<h2 class="anchored" data-anchor-id="multiple-regression-modeling">Multiple Regression Modeling</h2>
+<p>Multiple regression is the procedure that helps us disentangle issues with confounding (lurking) variables. That is, a procedure that will help sort out collinearity issues.</p>
+<p>. . .</p>
+<ul>
+<li><strong>Simpson’s paradox</strong>: a trend appears in several groups of data but the trend disappears or reverses when groups are combined.</li>
+</ul>
+<p>. . .</p>
+<ul>
+<li><strong>Model</strong>: In multiple linear regression, the significance of each term in the model depends on the other terms in the model.</li>
 </ul>
 </section>
-<section id="rstudio-interface" class="level2">
-<h2 class="anchored" data-anchor-id="rstudio-interface">RStudio interface</h2>
-<div class="absolute" data-top="10%" data-left="0" width="1031" height="529">
-<div style="text-align: center">
-<p><img src="images_lecture/rstudio_interface.png" class="img-fluid"></p>
+<section id="example-model" class="level2">
+<h2 class="anchored" data-anchor-id="example-model">Example: model</h2>
+<p>Predict body mass based on both flipper length and bill length.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>model_penguins <span class="ot">&lt;-</span> <span class="fu">lm</span>(body_mass_g <span class="sc">~</span> flipper_length_mm <span class="sc">+</span> bill_length_mm, <span class="at">data =</span> penguins)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">summary</span>(model_penguins)<span class="sc">$</span>coefficients</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>                      Estimate Std. Error    t value     Pr(&gt;|t|)
+(Intercept)       -5736.897161 307.959128 -18.628762 7.796205e-54
+flipper_length_mm    48.144859   2.011115  23.939388 7.564660e-75
+bill_length_mm        6.047488   5.179831   1.167507 2.438263e-01</code></pre>
 </div>
 </div>
 <p>. . .</p>
-<div class="absolute" data-top="30%" data-left="22%" width="300">
-<div style="color: #4E2A84">
-<p>code and text for report go here</p>
-</div>
-</div>
-<p>. . .</p>
-<div class="absolute" data-top="30%" data-left="55%">
-<div style="color: #4E2A84">
-<p>stored variables and data shows up here</p>
-</div>
-</div>
-<p>. . .</p>
-<div class="absolute" data-top="85%" data-left="55%">
-<div style="color: #4E2A84">
-<p>your working directory project files are here</p>
-</div>
-</div>
-<p>. . .</p>
-<div class="absolute" data-top="90%" data-left="0%" width="500">
-<div style="color: #4E2A84; font-size: 0.7em">
-<p>CONSOLE PANE one time code that does <em>not</em> appear in document can go here</p>
-</div>
-</div>
+<p><span class="math display">\[\widehat{bodymass} = b_0 +b_1*\text{flipper} + b_2*\text{bill_length}\]</span></p>
 </section>
-<section id="useful-buttons" class="level2">
-<h2 class="anchored" data-anchor-id="useful-buttons">Useful Buttons</h2>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images_lecture/rstudio_viewer.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Change view output settings</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images_lecture/rstudio_export.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Export html to submit</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="useful-code-chunk-settings" class="level2 scrollable">
-<h2 class="scrollable anchored" data-anchor-id="useful-code-chunk-settings">Useful code chunk settings</h2>
-<div class="columns">
-<div class="column" style="width:32%;">
-<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="in">```{r}</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">#| message: false</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">#| warning: false</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">#| eval: false</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">#| echo: false</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">#| include: false</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div><div class="column" style="width:68%;">
-<ul>
-<li><code>message: false</code> prevents messages from appearing in knitted doc</li>
-<li><code>warning: false</code> prevents warnings from appearing in knitted doc</li>
+<section id="example-interpretations" class="level2">
+<h2 class="anchored" data-anchor-id="example-interpretations">Example: interpretations</h2>
+<p><span class="math display">\[\widehat{bodymass} = -5736.9 + 48.14*\text{flipper} + 6.05*\text{bill_length}\]</span></p>
+<div class="incremental">
+<ul class="incremental">
+<li><span class="math inline">\(b_0\)</span> intercept; the <strong>predicted/expected</strong> body mass when a penguin has flipper length 0 and bill length 0</li>
+<li><span class="math inline">\(b_1\)</span> slope of flipper length; taking into account all other explanatory variables, for every 1 mm increase in flipper length, the <strong>expected</strong> body mass increases by <span class="math inline">\(48.14\)</span></li>
+<li><span class="math inline">\(b_2\)</span> slope of bill length; taking into account all other explanatory variables, for every 1 mm increase in bill length, the <strong>expected</strong> body mass increases by <span class="math inline">\(6.05\)</span></li>
 </ul>
 </div>
+</section>
+<section id="example-prediction" class="level2">
+<h2 class="anchored" data-anchor-id="example-prediction">Example: prediction</h2>
+<div class="absolute" data-top="0%" data-left="90%" width="100">
+<p><img src="images_lecture/participate_icon.png" class="img-fluid"></p>
 </div>
-<ul>
-<li><code>eval: false</code> includes the code chunk in the knitted document but prevents the code chunk from being run</li>
-<li><code>echo: false</code> prevents code itself from printing but includes the results of the code</li>
-<li><code>include: false</code> prevents code and its results from printing but still runs the code when knitted</li>
-</ul>
+<p><span class="math display">\[\widehat{bodymass} = -5736.9 + 48.14*\text{flipper} + 6.05*\text{bill_length}\]</span></p>
+<p><br></p>
+<p>You recently got a penguin and measured their <strong>flipper_length</strong> to be 150mm and their <strong>bill_length</strong> to be 40mm. What do you expect their body mass to be?</p>
 
 
 </section>
 
 </main> <!-- /main -->
+
+<script>
+  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+  // slide changes (different for each slide format).
+  (function () {
+    // dispatch for htmlwidgets
+    function fireSlideEnter() {
+      const event = window.document.createEvent("Event");
+      event.initEvent("slideenter", true, true);
+      window.document.dispatchEvent(event);
+    }
+
+    function fireSlideChanged(previousSlide, currentSlide) {
+      fireSlideEnter();
+
+      // dispatch for shiny
+      if (window.jQuery) {
+        if (previousSlide) {
+          window.jQuery(previousSlide).trigger("hidden");
+        }
+        if (currentSlide) {
+          window.jQuery(currentSlide).trigger("shown");
+        }
+      }
+    }
+
+    // hookup for slidy
+    if (window.w3c_slidy) {
+      window.w3c_slidy.add_observer(function (slide_num) {
+        // slide_num starts at position 1
+        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+      });
+    }
+
+  })();
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
