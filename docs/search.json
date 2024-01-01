@@ -11,14 +11,14 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n     Read Syllabus\"&gt; Read Syllabus"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n    Read Syllabus"
   },
   {
     "objectID": "index.html#participate",
     "href": "index.html#participate",
     "title": "Today’s Agenda",
     "section": "Participate",
-    "text": "Participate\n\n\nSection 20: 9am\nhttps://ahaslides.com/SASS\n\n\nSection 21: 1pm\nhttps://ahaslides.com/KUYPER"
+    "text": "Participate\n\n\n\nhttps://ahaslides.com/SASS"
   },
   {
     "objectID": "index.html#agenda",
@@ -32,7 +32,7 @@
     "href": "index.html#homework-due-thu-jan-04-1159pm",
     "title": "Today’s Agenda",
     "section": "Homework Due Thu Jan 04 11:59pm",
-    "text": "Homework Due Thu Jan 04 11:59pm\n\n\n\n\n\n\n  \n  \n     Read [Preface & Ch 1](https://nustat.github.io/intro-stat-data-sci/)\"&gt; Read Preface & Ch 1\n\n    Complete and submit Canvas: RC_01"
+    "text": "Homework Due Thu Jan 04 11:59pm\n\n\n\n\n\n\n  \n  \n    Read Preface & Ch 1\n\n    Complete and submit Canvas: RC_01"
   },
   {
     "objectID": "slides/lec21.html",
@@ -1713,5 +1713,187 @@
     "title": "Hypothesis Testing  Chapter 12  (Part 1)",
     "section": "Error",
     "text": "Error\n\nType 1Type II errorPower\n\n\n\nReject the null hypothesis when it is true\nFalse Positive\nSignificance level\n\\(\\alpha\\) = probability of a Type I error\n\n\n\n\nFail to reject the null hypothesis when it is false\nFalse Negative\n\\(\\beta\\) = probability of a Type II error\n\n\n\n\nThe probability of correctly rejecting the null hypothesis when it is false\nCorrect rejection decision\n\\(\\textbf{Power} = 1 - \\beta\\)"
+  },
+  {
+    "objectID": "course-schedule.html",
+    "href": "course-schedule.html",
+    "title": "STAT 202: Introduction to Statistics and Data Science",
+    "section": "",
+    "text": "This page contains an outline of the topics, content, and assignments for the quarter. If you miss a class it is your responsibility to catch up on missed work. That means review the slides, complete the activity, submit any homework, and attend office hours if you need help.\n\n\n\n\n\n\n  \n    \n    \n      Week\n      Date\n      Topic\n      \n        Prepare\n      \n      \n        Agenda\n      \n      \n        Homework\n      \n    \n    \n      Reading\n      Slides\n      Activity\n      submit_act\n      Tutorial\n      due\n    \n  \n  \n    1\n\nWed Jan 03\nIntroduction\nSyllabus\n\nSlides: Intro\n\nPosit: practice\n\n\nCanvas: RC_01\n\nThu Jan 04\n    \nFri Jan 05\nPosit Cloud\nPreface & Ch 1\n\nSlides: Ch1\n\nPosit: act_01\n\nCanvas: act_01\n\nCanvas: RC_02\n\nSun Jan 07\n    2\n\nMon Jan 08\nData Visualization\nSections 2.0 - 2.3\n\nSlides: Ch2a\n\nPosit: act_02\n\nCanvas: act_02\n\nCanvas: RC_03\n\nTue Jan 09\n    \nWed Jan 10\nData Visualization\nSections 2.4 - 2.6\n\nSlides: Ch2b\n\nPosit: act_03\n\nCanvas: act_03\n\nCanvas: RC_04\n\nThu Jan 11\n    \nFri Jan 12\nData Visualization\nSections 2.7 - 2.9\n\nSlides: Ch2c\n\nPosit: act_04\n\nCanvas: act_04\n\nCanvas: RC_05\n\nTue Jan 16\n    3\n\nMon Jan 15\nMLK Day - No Class\n\n\n\nCanvas: act_04\n\nCanvas: RC_05\n\nTue Jan 16\n    \nWed Jan 17\nData Wrangling\nSections 3.0 - 3.3\n\nSlides: Ch3a\n\nPosit: act_05\n\nCanvas: act_05\n\nCanvas: RC_06\n\nThu Jan 18\n    \nFri Jan 19\nData Wrangling\nSections 3.4 - 3.9\n\nSlides: Ch3b\n\nPosit: act_06\n\nCanvas: act_06\n\nCanvas: RC_07\n\nSun Jan 21\n    4\n\nMon Jan 22\nTidy Data\nChapter 4\n\nSlides: Ch4\n\nPosit: act_07\n\nCanvas: act_07\n\n\nTue Jan 23\n    \nWed Jan 24\nExam 1\n\n\n\n\nCanvas: RC_08\n\nThu Jan 25\n    \nFri Jan 26\nBasic Regression\nSections 5.0 - 5.1\n\nSlides: Ch5a\n\nPosit: act_08\n\nCanvas: act_08\n\nCanvas: RC_09\n\nSun Jan 28\n    5\n\nMon Jan 29\nBasic Regression\nSections 5.2 - 5.4\n\nSlides: Ch5b\n\nPosit: act_09\n\nCanvas: act_09\n\nCanvas: RC_10\n\nTue Jan 30\n    \nWed Jan 31\nMultiple Regression\nSections 6.0 - 6.1\n\nSlides: Ch6a\n\nPosit: act_10\n\nCanvas: act_10\n\nCanvas: RC_11\n\nThu Feb 01\n    \nFri Feb 02\nMultiple Regression\nSections 6.2 - 6.4\n\nSlides: Ch6b\n\nPosit: act_11\n\nCanvas: act_11\n\nCanvas: RC_12\n\nSun Feb 04\n    6\n\nMon Feb 05\nRandomization & Causality\nChapter 7\n\nSlides: Ch7\n\nPosit: act_12\n\nCanvas: act_12\n\nCanvas: RC_13\n\nTue Feb 06\n    \nWed Feb 07\nPop & Generalizability\nChapter 8\n\nSlides: Ch8\n\nPosit: act_13\n\nCanvas: act_13\n\n\nThu Feb 08\n    \nFri Feb 09\nExam 2\n\n\n\n\n\nSun Feb 11\n    7\n\nMon Feb 12\nNormal Distributions\nSections 9.0 - 9.1\n\nSlides: Ch9.1\n\nPosit: act_14\n\nCanvas: act_14\n\nCanvas: RC_14\n\nTue Feb 13\n    \nWed Feb 14\nSampling Distributions\nSections 9.2 - 9.3\n\nSlides: Ch9.2-9.3\n\nPosit: act_15\n\nCanvas: act_15\n\nCanvas: RC_15\n\nThu Feb 15\n    \nFri Feb 16\nSampling Distributions\nSections 9.4 - 9.7\n\nSlides: Ch9.4+\n\nPosit: act_16\n\nCanvas: act_16\n\nCanvas: RC_16\n\nSun Feb 18\n    8\n\nMon Feb 19\nConfidence Intervals\nChapter 10\n\nSlides: Ch10a\n\nPosit: act_17\n\n\nCanvas: RC_17\n\nTue Feb 20\n    \nWed Feb 21\nConfidence Intervals\n\nSlides: Ch10b\n\nPosit: act_17 (cont’d)\n\nCanvas: act_17\n\n\nThu Feb 22\n    \nFri Feb 23\nP-values\nChapter 11\n\nSlides: Ch11\n\nPosit: act_18\n\nCanvas: act_18\n\nCanvas: RC_18\n\nSun Feb 25\n    9\n\nMon Feb 26\nHypothesis Testing I\nChapter 12\n\nSlides: Ch12a\n\nPosit: act_19\n\nCanvas: act_19\n\nCanvas: RC_19\n\nTue Feb 27\n    \nWed Feb 28\nHypothesis Testing II\n\nSlides: Ch12b\n\nPosit: act_20\n\n\n\nThu Feb 29\n    \nFri Mar 01\nHypothesis Testing III\n\n\nPosit: act_20 (cont’d)\n\nCanvas: act_20\n\n\nSun Mar 03\n    10\n\nMon Mar 04\nExam 3\n\n\n\n\n\nTue Mar 05\n    \nWed Mar 06\nProject Overview\n\n\nRemote on Zoom\n\n\n\nThu Mar 07\n    \nFri Mar 08\nReading Period - No Class\n\n\nRemote OH on Zoom\n\n\n\nSun Mar 10\n    \nSun Mar 10\nFinal project due Sunday 11:59pm\n\n\n\n\n\nMon Mar 11\n    11\n\nFri Mar 15\nOptional Final Exam: 9am\n\n\nRemote on Zoom\n\n\n\nSun Mar 17"
+  },
+  {
+    "objectID": "course-anu.html",
+    "href": "course-anu.html",
+    "title": "Accessible NU",
+    "section": "",
+    "text": "If you are registered with Accessible NU your exams will be proctored by our graduate TA.\nThe exam will begin 30 minutes before the standard class time.\nExam 1:\n\nWednesday January 24 at 8:30am location TBD\n\nExam 2:\n\nFriday February 9 at 8:30am location TBD\n\nExam 3:\n\nMonday March 4 at 8:30am location TBD\n\nIf you are not available at this time, please contact me ASAP.\nOptional final exam will take place via Zoom with the other students at the designated start time."
+  },
+  {
+    "objectID": "course-syllabus.html",
+    "href": "course-syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Click here to download a PDF copy of the syllabus."
+  },
+  {
+    "objectID": "course-syllabus.html#course-info",
+    "href": "course-syllabus.html#course-info",
+    "title": "Syllabus",
+    "section": "Course info",
+    "text": "Course info\n\n\n\n\nDay\nTime\nLocation\n\n\n\n\nSection 20\nMWF\n9:00 am - 9:50 am\nFisk Hall 217\n\n\n\nPrerequisite: High School Algebra\nPlease note that the specifics of this course syllabus are subject to change in the case of unforeseen circumstances. Instructors will notify students of any changes as soon as possible. Students will be responsible for abiding by the changes."
+  },
+  {
+    "objectID": "course-syllabus.html#learning-objectives",
+    "href": "course-syllabus.html#learning-objectives",
+    "title": "Syllabus",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nBy the end of the quarter, you will be able to…\n\nUse statistical software to manage and process data.\nUse statistical software to perform exploratory data analyses. That is, explore data numerically and visually to gain understanding through data and generate hypotheses and inferences to later test.\n\n\n\n\n\n\n\nRecognize the importance of data collection, identify limitations in data collection methods, and determine how they affect the scope of inference.\nBuild a conceptual understanding of the unified nature of statistical inference.\nApply estimation and testing methods to analyze single variables or the relationship between two variables in order to understand natural phenomena and make data-based decisions.\nModel numerical response variables using a single or multiple explanatory variables.\nInterpret results in context without relying on statistical jargon.\nCritique and evaluate data-based claims and decisions."
+  },
+  {
+    "objectID": "course-syllabus.html#course-structure",
+    "href": "course-syllabus.html#course-structure",
+    "title": "Syllabus",
+    "section": "Course Structure",
+    "text": "Course Structure\nThe bulk of this course will follow a flipped or active learning design. Meaning the majority of each lecture will be dedicated to working on activities. A lot of what you do in this course will involve writing code, and coding is a skill that is best learned by doing. A typical class will devote 10-15 minutes to discussion/lecture with the remainder of the class devoted to working on activities where students will either work by themselves or in groups. Throughout the class we will discuss and review the work on the activities. In many cases we may come together to work on parts of an activity as a class."
+  },
+  {
+    "objectID": "course-syllabus.html#textbooks",
+    "href": "course-syllabus.html#textbooks",
+    "title": "Syllabus",
+    "section": "Textbooks",
+    "text": "Textbooks\nWe will be using Introduction to Statistics and Data Science which is a free online book that we have been developing for this course."
+  },
+  {
+    "objectID": "course-syllabus.html#software",
+    "href": "course-syllabus.html#software",
+    "title": "Syllabus",
+    "section": "Software",
+    "text": "Software\nWe will be using/introducing the free statistical software Posit Cloud."
+  },
+  {
+    "objectID": "course-syllabus.html#hardware",
+    "href": "course-syllabus.html#hardware",
+    "title": "Syllabus",
+    "section": "Hardware",
+    "text": "Hardware\nStudents will need a laptop or Chromebook to be able to follow lectures and to work with Posit Cloud to complete activities. If access to a laptop is an issue, then please contact the course instructor and we will work to find an accommodation."
+  },
+  {
+    "objectID": "course-syllabus.html#assessment",
+    "href": "course-syllabus.html#assessment",
+    "title": "Syllabus",
+    "section": "Assessment",
+    "text": "Assessment\nAssessment for the course is comprised of five components: reading checks, activities, 3 exams, and a final project.\n\nReading Checks\nReading checks will be completed using “Tutorial Software” on Posit Cloud and uploaded to the course Canvas page. Each reading check will be scaled to be worth 10 points.\nThe lowest three grades will be dropped at the end of the quarter.\n\n\nActivities and small assignments\nDaily activities will be worth 10 points and graded for completion (10 points fully complete; 5 points mostly complete; 0 incomplete). This doesn’t mean that your solutions are correct, so make sure that you check your answers against the solutions. Activities will be accepted up to 3 days after the due date with a 10% late penalty.\nThe lowest three activity grades will be dropped at the end of the quarter.\n\n\nExams\nThere will be 3 in-class exams; they will be structured very similarly to your reading checks. Roughly half of it will focus on conceptual knowledge and roughly half will focus on practical applications. Students will be allowed one 8.5 x 11 inch cheat sheet (front & back) on each in-class exams. The exams are not cumulative.\n\n\nProject\nThe final project will be completed in groups of 3-6 people and allow you to explore a dataset of your choice. More information will be provided later in the quarter.\n\n\nExam Improvement Policy\nWe have worked to develop a policy geared towards a growth mindset. That is, we want a policy where students clearly demonstrate that they have used the exam as a diagnostic tool to learn from and improve their understanding of statistics. There is NO final cumulative exam during the designated final exam time, instead you may choose to retake 1 exam during the exam time. This exam will replace your old score — only in cases where it is an improvement.\n\n\nMissed Exam Policy\nThere are no make-up exams. If you miss an exam due to illness, travel, etc., you will need to take the exam during the final exam period as your re-take exam."
+  },
+  {
+    "objectID": "course-syllabus.html#grading",
+    "href": "course-syllabus.html#grading",
+    "title": "Syllabus",
+    "section": "Grading",
+    "text": "Grading\nThe final course grade will be calculated as follows:\n\n\n\nCategory\nPercentage\n\n\n\n\nReading Checks\n15%\n\n\nActivities/Small Assignments\n10%\n\n\nExam 1\n20%\n\n\nExam 2\n20%\n\n\nExam 3\n20%\n\n\nFinal Project\n15%\n\n\n\nThe final letter grade will be rounded to nearest tenth of a percent and determined based on the following thresholds:\n\n\n\nLetter Grade\nFinal Course Grade\n\n\n\n\nA\n&gt;= 93\n\n\nA-\n90 - 92.9\n\n\nB+\n87 - 89.9\n\n\nB\n83 - 86.9\n\n\nB-\n80 - 82.9\n\n\nC+\n77 - 79.9\n\n\nC\n73 - 76.9\n\n\nC-\n70 - 72.9\n\n\nD\n60 - 69.9\n\n\nF\n&lt; 59.9\n\n\n\nThere is NO curve to this course. Take advantage of the exam improvement policy and the extra credit opportunities."
+  },
+  {
+    "objectID": "course-syllabus.html#tips-for-success",
+    "href": "course-syllabus.html#tips-for-success",
+    "title": "Syllabus",
+    "section": "Tips for success",
+    "text": "Tips for success\n\nDedicate yourself to being an active and engaged learner.\nPrepare for class by reading and working through code before class.\nWork in groups to learn and complete activities.\nAsk questions! Ask them during class, office hours, or on Campuswire.\nContribute to a welcoming and inclusive learning environment.\nDon’t be afraid to make mistakes, you learn from mistakes."
+  },
+  {
+    "objectID": "course-syllabus.html#asking-questions-course-communication",
+    "href": "course-syllabus.html#asking-questions-course-communication",
+    "title": "Syllabus",
+    "section": "Asking Questions & Course Communication",
+    "text": "Asking Questions & Course Communication\nThis term we will be using Campuswire (“Enrollment Code: 2752”) as our preferred platform for questions about activities, reading checks, and general course questions. The system is highly catered to getting you help quickly and efficiently from classmates and the instructional team. Rather than emailing questions to the instructional team, you should post your questions on Campuswire.\nThe instructional team will check Campuswire periodically and answer questions, but we strongly encourage students to answer each other’s questions. To this end, student will be able to earn bonus points — see Canvas for details.\nPlease do not expect answers during weekends and evenings."
+  },
+  {
+    "objectID": "course-syllabus.html#academic-resources",
+    "href": "course-syllabus.html#academic-resources",
+    "title": "Syllabus",
+    "section": "Academic Resources",
+    "text": "Academic Resources\nQuarter-Long Study Groups offers peer-led academic support in a small-group setting for students enrolled in this course. If you join the program, you will meet weekly with about 5 to 8 other students and a peer facilitator. During sessions, students review concepts, work through practice problems, raise questions, and work together to develop answers. Students register for the full quarter on CAESAR and weekly attendance is expected. Study Groups sessions are listed below course lecture and discussion sections (e.g., STAT 202-SG Peer-Guided Study Group: Introduction to Statistics).\nContact Borislava Miltcheva (pgsg@northwestern.edu) with any questions.\n\nDrop-In Support (No Appointment Needed)\nDrop-In Peer Tutoring is set up such that students can drop in to study alone or with others and ask questions of a peer leader who has done well in the class. Tutoring is provided for many of the introductory courses in Biology, Chemistry, Economics, Engineering, Mathematics, Physics, and Statistics. Check their website for a complete list of supported courses.\nContact Valerie Wolf (valerie.wolf@northwestern.edu) with any questions."
+  },
+  {
+    "objectID": "course-syllabus.html#accessibility-accommodations",
+    "href": "course-syllabus.html#accessibility-accommodations",
+    "title": "Syllabus",
+    "section": "Accessibility & Accommodations",
+    "text": "Accessibility & Accommodations\nNorthwestern University is committed to providing the most accessible learning environment as possible for students with disabilities. Should you anticipate or experience disability-related barriers in the academic setting, please contact AccessibleNU to move forward with the university’s established accommodation process1. If you already have established accommodations with AccessibleNU, please let me know as soon as possible, preferably within the first two weeks of the term, so we can work together to implement your disability accommodations. Disability information, including academic accommodations, is confidential under the Family Educational Rights and Privacy Act."
+  },
+  {
+    "objectID": "course-syllabus.html#covid-19-policies",
+    "href": "course-syllabus.html#covid-19-policies",
+    "title": "Syllabus",
+    "section": "COVID-19 Policies",
+    "text": "COVID-19 Policies\n\nClassroom Expectations\n with University expectations regarding appropriate classroom behavior, including those outlined below and in the COVID-19 Expectations for Students. With respect to classroom procedures, this includes:\n\nPolicies regarding masking, social distancing and other public health measures evolve as the situation changes. Students are responsible for understanding and complying with current University, state and city requirements.\nIn some classes, masking and/or social distancing may be required as a result of an Americans with Disabilities Act (ADA) accommodation for the instructor or a student in the class even when not generally required on campus. In such cases, the instructor will notify the class.\n\n with the COVID-19 Expectations for Students or other University expectations related to COVID-19, the instructor may ask the student to leave the class. The instructor is asked to report the incident to the Office of Community Standards for additional follow-up."
+  },
+  {
+    "objectID": "course-syllabus.html#exceptions-to-class-modality",
+    "href": "course-syllabus.html#exceptions-to-class-modality",
+    "title": "Syllabus",
+    "section": "Exceptions to Class Modality",
+    "text": "Exceptions to Class Modality\n will occur in person. Individual students will not be granted permission to attend remotely except as the result of an Americans with Disabilities Act (ADA) accommodation as determined by AccessibleNU.\n of the community remains our priority. If you are experiencing any symptoms of COVID and update your Symptom Tracker application right away to connect with Northwestern’s Case Management Team for guidance on next steps. Also contact the instructor as soon as possible to arrange to complete coursework. We plan to record sessions for students that miss to to COVID-19 related issues.\n a personal emergency should contact the instructor as soon as possible to arrange to complete coursework.\n recommendations prevent in person class from being held on a given day, the instructor or the university will notify students."
+  },
+  {
+    "objectID": "course-syllabus.html#prohibition-of-recording-of-class-sessions-by-students",
+    "href": "course-syllabus.html#prohibition-of-recording-of-class-sessions-by-students",
+    "title": "Syllabus",
+    "section": "Prohibition of Recording of Class Sessions by Students",
+    "text": "Prohibition of Recording of Class Sessions by Students\n of classroom or other academic activities is prohibited.2 Unauthorized recording is unethical and may also be a violation of University policy and state law.\nStudents requesting the use of assistive technology as an accommodation should contact AccessibleNU. Unauthorized use of classroom recordings — including distributing or posting them — is also prohibited.\nUnder the University’s Copyright Policy, faculty own the copyright to instructional materials — including those resources created specifically for the purposes of instruction, such as syllabi, lectures and lecture notes, and presentations. Students cannot copy, reproduce, display, or distribute these materials. Students who engage in unauthorized recording, unauthorized use of a recording, or unauthorized distribution of instructional materials will be referred to the appropriate University office for follow-up.\nThis class or portions of this class will be recorded by the instructor for educational purposes. Your instructor will communicate how members of the class can access the recordings. Portions of the course that contain images, questions or commentary/discussion by students will be edited out of any recordings that are saved beyond the current term."
+  },
+  {
+    "objectID": "course-syllabus.html#academic-integrity",
+    "href": "course-syllabus.html#academic-integrity",
+    "title": "Syllabus",
+    "section": "Academic Integrity",
+    "text": "Academic Integrity\n to comply with the policies found in the booklet, “Academic Integrity at Northwestern University: A Basic Guide”. All papers submitted for credit in this course must be submitted electronically unless otherwise instructed by the professor. Your written work may be tested for plagiarized content. For details regarding academic integrity at Northwestern or to download the guide, visit: https://www.northwestern.edu/provost/policies-procedures/academic-integrity/index.html"
+  },
+  {
+    "objectID": "course-syllabus.html#diversity-equity-and-inclusion",
+    "href": "course-syllabus.html#diversity-equity-and-inclusion",
+    "title": "Syllabus",
+    "section": "Diversity, Equity, and Inclusion",
+    "text": "Diversity, Equity, and Inclusion\nThis course strives to be an inclusive learning community, respecting those of differing backgrounds and beliefs. As a community, we aim to be respectful to all students in this class, regardless of race, ethnicity, socio-economic status, religion, gender identity or sexual orientation."
+  },
+  {
+    "objectID": "course-syllabus.html#sexual-misconduct-reporting",
+    "href": "course-syllabus.html#sexual-misconduct-reporting",
+    "title": "Syllabus",
+    "section": "Sexual Misconduct & Reporting",
+    "text": "Sexual Misconduct & Reporting\n to fostering an environment where students are safe and free from sexual misconduct. Confidential resources are available to those who have experienced sexual misconduct.3\nFaculty, instructors, and TAs are not confidential resources and are required to report incidents of sexual misconduct, whether discussed in your assignments or in person, to the Title IX Coordinator, who can provide information about resources and options.\nWe encourage students who have experienced sexual misconduct to talk with someone to get support. For more information visit the Get Help4."
+  },
+  {
+    "objectID": "course-syllabus.html#discrimination-sexual-harassment",
+    "href": "course-syllabus.html#discrimination-sexual-harassment",
+    "title": "Syllabus",
+    "section": "Discrimination & Sexual Harassment",
+    "text": "Discrimination & Sexual Harassment\nNorthwestern University’s policies on Discrimination, Harassment, and Sexual Harassment apply to all members of the University community, including students, staff, and faculty. Any student, staff, or faculty member who believes that they have been discriminated against or harassed on the basis of his or her race, color, religion, national origin, sex, sexual orientation, gender identity, gender expression, parental status, marital status, age, disability, citizenship, veteran status, genetic information or any other classification protected by law, should contact the Office of Equal Opportunity and Access5 or the Sexual Harassment Prevention Office6.\nAdditional information about the University’s discrimination and harassment policies, including the campus resources available to assist individuals with discrimination or harassment concerns, is available online on the Human Resources Equal Opportunity and Access website7.\nNorthwestern strictly prohibits retaliation against any member of its community for reporting or inquiring about wrongful or unlawful activity. For more details see https://policies.northwestern.edu/docs/non-retaliation-policy-FINAL.pdf."
+  },
+  {
+    "objectID": "course-syllabus.html#wellness-mental-health-resources",
+    "href": "course-syllabus.html#wellness-mental-health-resources",
+    "title": "Syllabus",
+    "section": "Wellness & Mental Health Resources",
+    "text": "Wellness & Mental Health Resources\nNorthwestern University is committed to supporting the wellness of our students. Student Affairs has multiple resources to support student wellness and mental health. If you are feeling distressed or overwhelmed, please reach out for help. Students can access confidential resources through the Counseling and Psychological Services (CAPS), Religious and Spiritual Life (RSL) and the Center for Awareness, Response and Education (CARE). Additional information on all of the resources mentioned above can be found here:\n\nhttps://www.northwestern.edu/counseling/\nhttps://www.northwestern.edu/religious-life/\nhttps://www.northwestern.edu/care/"
+  },
+  {
+    "objectID": "course-syllabus.html#student-resources",
+    "href": "course-syllabus.html#student-resources",
+    "title": "Syllabus",
+    "section": "Student Resources",
+    "text": "Student Resources\n with FGLI students – pronounced figly – who are first-generation, lower-income, and/or DACA/Undocumented. SES works with these students to foster identity development, navigate campus resources, and build community. Through campus-wide partnerships and advocacy, SES strives to build an inclusive Northwestern community that is welcoming, supportive, and accessible for all students. SES can connect you to a number of resources (emergency aid assistance, books, supplies, laptops, food accessibility and much more!) both within the SES office and across campus. For more information please visit https://www.northwestern.edu/enrichment."
+  },
+  {
+    "objectID": "course-syllabus.html#important-dates",
+    "href": "course-syllabus.html#important-dates",
+    "title": "Syllabus",
+    "section": "Important dates",
+    "text": "Important dates\nClick here for the full academic calendar."
+  },
+  {
+    "objectID": "course-syllabus.html#footnotes",
+    "href": "course-syllabus.html#footnotes",
+    "title": "Syllabus",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nemail: accessiblenu@northwestern.edu; phoone: 847-467-5530↩︎\nIncluding advising sessions or office hours.↩︎\nSee http://www.northwestern.edu/sexual-misconduct/get-help/confidential-support.html for details.↩︎\nhttp://www.northwestern.edu/sexual-misconduct/get-help/index.html↩︎\n847.491.7458↩︎\n847.467.6571↩︎\nhttp://www.northwestern.edu/hr/equlopp-access/index.html↩︎"
   }
 ]

@@ -23,7 +23,7 @@ website:
     align: center
     tools:
       - icon: person-fill
-        href: https://campuswire.com/c/G6C07549E
+        href: https://campuswire.com/c/G94567F0C
         text: "Campuswire"
       - icon: laptop
         href: https://northwestern.zoom.us/j/99863923813
@@ -32,7 +32,7 @@ website:
     search: true
     contents:
         - href: index.qmd
-          text: Today's agenda
+          text: Daily agenda
         - href: course-schedule.qmd
           text: Schedule
         #- href: course-project.qmd
