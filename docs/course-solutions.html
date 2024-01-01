@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -56,7 +56,8 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -67,11 +68,16 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Activity Solutions</h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./course-syllabus.html">Additional Resources</a></li><li class="breadcrumb-item"><a href="./course-solutions.html">Activity solutions</a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -79,74 +85,84 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="./" class="sidebar-logo-link">
+      <a href="./index.html" class="sidebar-logo-link">
       <img src="./images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main">
-    <a href="https://campuswire.com/c/G6C07549E" title="Campuswire" class="sidebar-tool px-1"><i class="bi bi-person-fill"></i></a>
-    <a href="https://northwestern.zoom.us/j/99863923813" title="Zoom" class="sidebar-tool px-1"><i class="bi bi-laptop"></i></a>
+    <a href="https://campuswire.com/c/G6C07549E" rel="" title="Campuswire" class="quarto-navigation-tool px-1" aria-label="Campuswire"><i class="bi bi-person-fill"></i></a>
+    <a href="https://northwestern.zoom.us/j/99863923813" rel="" title="Zoom" class="quarto-navigation-tool px-1" aria-label="Zoom"><i class="bi bi-laptop"></i></a>
 </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Today’s agenda</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Today’s agenda</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-schedule.html" class="sidebar-item-text sidebar-link">Schedule</a>
+  <a href="./course-schedule.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Schedule</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-anu.html" class="sidebar-item-text sidebar-link">Accessible NU</a>
+  <a href="./course-anu.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Accessible NU</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Additional Resources</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Additional Resources</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-syllabus.html" class="sidebar-item-text sidebar-link">Syllabus</a>
+  <a href="./course-syllabus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Syllabus</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-team.html" class="sidebar-item-text sidebar-link">Office hours</a>
+  <a href="./course-team.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Office hours</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-links.html" class="sidebar-item-text sidebar-link">Useful links</a>
+  <a href="./course-links.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Useful links</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-lectures.html" class="sidebar-item-text sidebar-link">Lecture videos</a>
+  <a href="./course-lectures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lecture videos</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-solutions.html" class="sidebar-item-text sidebar-link active">Activity solutions</a>
+  <a href="./course-solutions.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Activity solutions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-ec.html" class="sidebar-item-text sidebar-link">Extra Credit</a>
+  <a href="./course-ec.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Extra Credit</span></a>
   </div>
 </li>
       </ul>
@@ -154,6 +170,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
@@ -163,7 +180,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Activity Solutions</h1>
+<h1 class="title">Activity Solutions</h1>
 </div>
 
 
@@ -171,6 +188,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -179,28 +197,25 @@ ul.task-list li input[type="checkbox"] {
 
 <p>Activities are graded for completion! It is your responsibility and should be a part of your learning habit to review your activities for correctness. Solutions are posted roughly <em>3 days after</em> the due date.</p>
 <div class="cell">
-
-</div>
-<div class="cell">
 <div class="cell-output-display">
 
-<div id="wstpwqmysb" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#wstpwqmysb table {
+<div id="ripqdicqng" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#ripqdicqng table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#wstpwqmysb thead, #wstpwqmysb tbody, #wstpwqmysb tfoot, #wstpwqmysb tr, #wstpwqmysb td, #wstpwqmysb th {
+#ripqdicqng thead, #ripqdicqng tbody, #ripqdicqng tfoot, #ripqdicqng tr, #ripqdicqng td, #ripqdicqng th {
   border-style: none;
 }
 
-#wstpwqmysb p {
+#ripqdicqng p {
   margin: 0;
   padding: 0;
 }
 
-#wstpwqmysb .gt_table {
+#ripqdicqng .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -226,12 +241,12 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-#wstpwqmysb .gt_caption {
+#ripqdicqng .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#wstpwqmysb .gt_title {
+#ripqdicqng .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -243,7 +258,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-#wstpwqmysb .gt_subtitle {
+#ripqdicqng .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -255,7 +270,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-#wstpwqmysb .gt_heading {
+#ripqdicqng .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -267,13 +282,13 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#wstpwqmysb .gt_bottom_border {
+#ripqdicqng .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#wstpwqmysb .gt_col_headings {
+#ripqdicqng .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -288,7 +303,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#wstpwqmysb .gt_col_heading {
+#ripqdicqng .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -308,7 +323,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#wstpwqmysb .gt_column_spanner_outer {
+#ripqdicqng .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -320,15 +335,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-#wstpwqmysb .gt_column_spanner_outer:first-child {
+#ripqdicqng .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#wstpwqmysb .gt_column_spanner_outer:last-child {
+#ripqdicqng .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#wstpwqmysb .gt_column_spanner {
+#ripqdicqng .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -340,11 +355,11 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-#wstpwqmysb .gt_spanner_row {
+#ripqdicqng .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#wstpwqmysb .gt_group_heading {
+#ripqdicqng .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -370,7 +385,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-#wstpwqmysb .gt_empty_group_heading {
+#ripqdicqng .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -385,15 +400,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-#wstpwqmysb .gt_from_md > :first-child {
+#ripqdicqng .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#wstpwqmysb .gt_from_md > :last-child {
+#ripqdicqng .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#wstpwqmysb .gt_row {
+#ripqdicqng .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -412,7 +427,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#wstpwqmysb .gt_stub {
+#ripqdicqng .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -425,7 +440,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#wstpwqmysb .gt_stub_row_group {
+#ripqdicqng .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -439,15 +454,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-#wstpwqmysb .gt_row_group_first td {
+#ripqdicqng .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#wstpwqmysb .gt_row_group_first th {
+#ripqdicqng .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#wstpwqmysb .gt_summary_row {
+#ripqdicqng .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -457,16 +472,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#wstpwqmysb .gt_first_summary_row {
+#ripqdicqng .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#wstpwqmysb .gt_first_summary_row.thick {
+#ripqdicqng .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#wstpwqmysb .gt_last_summary_row {
+#ripqdicqng .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -476,7 +491,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#wstpwqmysb .gt_grand_summary_row {
+#ripqdicqng .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -486,7 +501,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#wstpwqmysb .gt_first_grand_summary_row {
+#ripqdicqng .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -496,7 +511,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-#wstpwqmysb .gt_last_grand_summary_row_top {
+#ripqdicqng .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -506,11 +521,11 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#wstpwqmysb .gt_striped {
+#ripqdicqng .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#wstpwqmysb .gt_table_body {
+#ripqdicqng .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #FFFFFF;
@@ -519,7 +534,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #FFFFFF;
 }
 
-#wstpwqmysb .gt_footnotes {
+#ripqdicqng .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -533,7 +548,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#wstpwqmysb .gt_footnote {
+#ripqdicqng .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -542,7 +557,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#wstpwqmysb .gt_sourcenotes {
+#ripqdicqng .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -556,7 +571,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#wstpwqmysb .gt_sourcenote {
+#ripqdicqng .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -564,63 +579,63 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#wstpwqmysb .gt_left {
+#ripqdicqng .gt_left {
   text-align: left;
 }
 
-#wstpwqmysb .gt_center {
+#ripqdicqng .gt_center {
   text-align: center;
 }
 
-#wstpwqmysb .gt_right {
+#ripqdicqng .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#wstpwqmysb .gt_font_normal {
+#ripqdicqng .gt_font_normal {
   font-weight: normal;
 }
 
-#wstpwqmysb .gt_font_bold {
+#ripqdicqng .gt_font_bold {
   font-weight: bold;
 }
 
-#wstpwqmysb .gt_font_italic {
+#ripqdicqng .gt_font_italic {
   font-style: italic;
 }
 
-#wstpwqmysb .gt_super {
+#ripqdicqng .gt_super {
   font-size: 65%;
 }
 
-#wstpwqmysb .gt_footnote_marks {
+#ripqdicqng .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#wstpwqmysb .gt_asterisk {
+#ripqdicqng .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#wstpwqmysb .gt_indent_1 {
+#ripqdicqng .gt_indent_1 {
   text-indent: 5px;
 }
 
-#wstpwqmysb .gt_indent_2 {
+#ripqdicqng .gt_indent_2 {
   text-indent: 10px;
 }
 
-#wstpwqmysb .gt_indent_3 {
+#ripqdicqng .gt_indent_3 {
   text-indent: 15px;
 }
 
-#wstpwqmysb .gt_indent_4 {
+#ripqdicqng .gt_indent_4 {
   text-indent: 20px;
 }
 
-#wstpwqmysb .gt_indent_5 {
+#ripqdicqng .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -634,9 +649,6 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p><br><br></p>
-<div class="cell">
-
-</div>
 
 
 
@@ -668,9 +680,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -682,7 +708,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -718,32 +761,136 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp(/https:\/\/dsass1\.github\.io\/stat202_website\//);
+      var filterRegex = new RegExp("https:\/\/dsass1\.github\.io\/stat202_website\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
-    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
@@ -768,6 +915,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/dsass1/stat202_website/edit/main/course-solutions.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/dsass1/stat202_website/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
     <div class="nav-footer-right">This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>
