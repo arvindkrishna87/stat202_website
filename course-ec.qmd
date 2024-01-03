@@ -28,6 +28,11 @@ DISCLAIMER
 
 Students attempting or participating in an attempt to game the system will be ineligible for bonus points.
 
+
+## EC Opportunity 2 - Aha Slides
+
+Our top 3 participants will receive 5 bonus point towards activities at the end of the quarter.
+
 <!-- ## EC Opportunity 2 - Stats and Data Science Articles -->
 
 <!-- Check out the tab "Stats and Data IRL". Statistics and data science is an interdisciplinary field that is often used in a variety of areas of study (biology, business, ecology, healthcare, psychology, sociology, etc.) At the top of the page are a few interesting articles about statistics and/or data science. Select an article to read and write a one to two paragraph response describing what you learned from the article and how statistics/data science was used. -->
@@ -50,6 +55,3 @@ Students attempting or participating in an attempt to game the system will be in
 
 <!-- **If you do not complete every one of those requirements you will not get credit.** This is checking that 1) there are no bugs for me to fix prior to the exam and 2) you know how to properly submit an exam. It will NOT be graded for accuracy. -->
 
-<!-- ## EC Opportunity 3 - Aha Slides -->
-
-<!-- Our top 5 participants will receive 1 bonus point towards activities. Points reset after each exam meaning you have 3 opportunities to be a top 5 participant. -->
