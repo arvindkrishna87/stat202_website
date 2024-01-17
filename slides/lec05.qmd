@@ -164,7 +164,9 @@ Remember to store your data with a new meaningful name.
 ## Example 2 {.scrollable auto-animate="true"}
 
 <!-- ::: {.absolute top="0%" left="90%" width="100"} -->
+
 <!-- ![](images_lecture/participate_icon.png) -->
+
 <!-- ::: -->
 
 <font size="6"> Subset the dataset to only include 'male' penguins that weigh more than 4000 grams. </font>
@@ -320,28 +322,51 @@ penguins_summary_d <- penguins %>%
 <!-- <font size="6">Summarize the average `flipper_length_mm` and count for penguins that are either "Adelie" `species` or "Gentoo" `species`. Which of the following is correct?</font> -->
 
 <!-- ```{r} -->
+
 <!-- #| eval: false -->
+
 <!-- #| code-line-numbers: "6-10" -->
+
 <!-- # a) -->
+
 <!-- penguins_summary_a <- penguins %>%  -->
+
 <!--   filter(species == "Adelie" | "Gentoo") %>%  -->
+
 <!--   summarize(mean = mean(flipper_length_mm), -->
+
 <!--             count = n() ) -->
+
 <!-- # b) -->
+
 <!-- penguins_summary_b <- penguins %>%  -->
+
 <!--   filter(species == "Adelie" | species == "Gentoo") %>%  -->
+
 <!--   summarize(mean = mean(flipper_length_mm), -->
+
 <!--             count = n() ) -->
+
 <!-- #c) -->
+
 <!-- penguins_summary_c <- penguins %>%  -->
+
 <!--   summarize(mean = mean(flipper_length_mm), -->
+
 <!--             count = n(flipper_length_mm) ) %>%  -->
+
 <!--   filter(species == "Adelie" | species == "Gentoo") -->
+
 <!-- #d) -->
+
 <!-- penguins_summary_d <- penguins %>%  -->
+
 <!--   filter(species == "Adelie" & species == "Gentoo") %>%  -->
+
 <!--   summarize(mean = mean(flipper_length_mm), -->
+
 <!--             count = n() ) -->
+
 <!-- ``` -->
 
 ## Example 4 {auto-animate="true"}
@@ -367,18 +392,17 @@ penguins_summary <- penguins %>%
             count = n() )
 penguins_summary
 ```
-
 :::
 
 ## Example 4 (continued) {auto-animate="true"}
 
 Either set `na.rm = TRUE` OR filter out the missing data before summarizing.
 
-
 ::: panel-tabset
 ## na.rm
+
 ```{r}
-#| code-line-numbers: "3"
+#| code-line-numbers: "2"
 penguins_summary <- penguins %>% 
   summarize(mean = mean(flipper_length_mm, na.rm = TRUE),
             count = n() )
@@ -386,8 +410,9 @@ penguins_summary
 ```
 
 ## filter
+
 ```{r}
-#| code-line-numbers: "3"
+#| code-line-numbers: "2"
 penguins_summary <- penguins %>% 
   filter(!is.na(flipper_length_mm)) %>%
   summarize(mean = mean(flipper_length_mm),
