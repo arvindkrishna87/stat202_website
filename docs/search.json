@@ -11,7 +11,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n    Read Syllabus"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n    Read Sections 3.4 - 3.9"
   },
   {
     "objectID": "index.html#participate",
@@ -25,7 +25,7 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    Review the syllabus\n\n    Visit the course’s Campuswire page using your @u.northwestern.edu email. Enrollment code: 2752\n\n    Gain access to the Posit Cloud Class Workspace by clicking here\n\n    Complete the google survey - we will use this data later in the quarter.\n\n    Create a Northwestern Zoom Account\n\n    Section notes: Slides: Intro\n\n    Daily activity: Posit: practice"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    \n    \n    \n    \n    \n    Section notes: Slides: Ch3b\n\n    Daily activity: Posit: act_06"
   },
   {
     "objectID": "index.html#homework-due-thu-jan-04-1159pm",
@@ -1726,7 +1726,7 @@
     "href": "course-anu.html",
     "title": "Accessible NU",
     "section": "",
-    "text": "If you are registered with Accessible NU your exams will be proctored by our graduate TA.\nThe exam will begin 30 minutes before the standard class time.\nExam 1:\n\nWednesday January 24 at 8:30am location TBD\n\nExam 2:\n\nFriday February 9 at 8:30am location TBD\n\nExam 3:\n\nMonday March 4 at 8:30am location TBD\n\nIf you are not available at this time, please contact me ASAP.\nOptional final exam will take place via Zoom with the other students at the designated start time."
+    "text": "If you are registered with Accessible NU your exams will be proctored by our graduate TA.\nYou do NOT register the exam with ANU services.\nThe exam will begin 30 minutes before the standard class time.\nExam 1:\n\nWednesday January 24 at 8:30am location 2006 Sheridan B02 (basement room)\n\nExam 2:\n\nFriday February 9 at 8:30am location 2006 Sheridan B02 (basement room)\n\nExam 3:\n\nMonday March 4 at 8:30am location TBD\n\nIf you are not available at this time, please contact me ASAP.\nOptional final exam will take place via Zoom with the other students at the designated start time."
   },
   {
     "objectID": "course-syllabus.html",
@@ -1895,5 +1895,47 @@
     "title": "Syllabus",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nemail: accessiblenu@northwestern.edu; phoone: 847-467-5530↩︎\nIncluding advising sessions or office hours.↩︎\nSee http://www.northwestern.edu/sexual-misconduct/get-help/confidential-support.html for details.↩︎\nhttp://www.northwestern.edu/sexual-misconduct/get-help/index.html↩︎\n847.491.7458↩︎\n847.467.6571↩︎\nhttp://www.northwestern.edu/hr/equlopp-access/index.html↩︎"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Today’s Agenda",
+    "section": "",
+    "text": "Important\n\n\n\nExam 1 is Wednesday Jan 24 covering Chapters 1 - 4. Practice Exam on Posit Cloud here.\nIf you are registered with ANU please see the ANU tab\nWe will go over important details of the exam on Monday in class."
+  },
+  {
+    "objectID": "index.html#class-fri-jan-19",
+    "href": "index.html#class-fri-jan-19",
+    "title": "Today’s Agenda",
+    "section": "Class: Fri Jan 19",
+    "text": "Class: Fri Jan 19"
+  },
+  {
+    "objectID": "index.html#homework-due-sun-jan-21-1159pm",
+    "href": "index.html#homework-due-sun-jan-21-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Sun Jan 21 11:59pm",
+    "text": "Homework Due Sun Jan 21 11:59pm\n\n\n\n\n\n\n  \n  \n    Complete and submit Canvas: act_06\n\n    Read Chapter 4\n\n    Complete and submit Canvas: RC_07"
+  },
+  {
+    "objectID": "course-ec.html",
+    "href": "course-ec.html",
+    "title": "Course Extra Credit Opportunities",
+    "section": "",
+    "text": "We use Campuswire (see syllabus or welcome page for enrollment code) as our preferred platform for announcements and questions about activities, reading checks, or general course-related questions. (Questions about individual grades or appointments should be addressed through email.)\nThe Campuswire system is designed to get you help quickly and efficiently from your classmates and the instructional team. Rather than emailing your questions to the instructional team, you should post your questions on Campuswire. If a member of the team receives a course-related question via email, they will ask that you post on Campuswire. You can post questions anonymously.\nThe instructional team will check Campuswire periodically to answer students’ questions (do not expect this on weekends or after 5 PM on weekdays). However, we strongly encourage students to answer each other’s questions. Students who participate actively on Campuswire will receive bonus final exam points at the end of the quarter.\nWe measure student participation using the built-in Campuswire reputation system, which awards reputation points based on questions asked, answers given, and upvotes. The levels are as follows:\nStudents gaining Lvl 1: Starter status by the end of the course will have earned 1 bonus final project point;\nStudents gaining Lvl 2: Intermediate status by the end of the course will have earned 2 bonus final project points;\nStudents gaining Lvl 3: Advanced status by the end of the course will have earned 3 bonus final project points.\nNote that the highest level requires upvotes. It benefits all students to upvote their peers for responses that they find useful.\nIn addition, Campuswire provides a list of the top contributors in the class. At the end of the course, the top 3 contributors will have the bonus final project points they earned doubled.\nThis means that a student who is among the top 3 and has the rank of Lvl 3 (Advanced) will receive 6 bonus final project points. If they are top 3 and have a rank of Lvl 2 (Intermediate) they will receive 4 bonus final project points.\nDISCLAIMER\nStudents attempting or participating in an attempt to game the system will be ineligible for bonus points."
+  },
+  {
+    "objectID": "course-ec.html#ec-opportunity-1---campuswire",
+    "href": "course-ec.html#ec-opportunity-1---campuswire",
+    "title": "Course Extra Credit Opportunities",
+    "section": "",
+    "text": "We use Campuswire (see syllabus or welcome page for enrollment code) as our preferred platform for announcements and questions about activities, reading checks, or general course-related questions. (Questions about individual grades or appointments should be addressed through email.)\nThe Campuswire system is designed to get you help quickly and efficiently from your classmates and the instructional team. Rather than emailing your questions to the instructional team, you should post your questions on Campuswire. If a member of the team receives a course-related question via email, they will ask that you post on Campuswire. You can post questions anonymously.\nThe instructional team will check Campuswire periodically to answer students’ questions (do not expect this on weekends or after 5 PM on weekdays). However, we strongly encourage students to answer each other’s questions. Students who participate actively on Campuswire will receive bonus final exam points at the end of the quarter.\nWe measure student participation using the built-in Campuswire reputation system, which awards reputation points based on questions asked, answers given, and upvotes. The levels are as follows:\nStudents gaining Lvl 1: Starter status by the end of the course will have earned 1 bonus final project point;\nStudents gaining Lvl 2: Intermediate status by the end of the course will have earned 2 bonus final project points;\nStudents gaining Lvl 3: Advanced status by the end of the course will have earned 3 bonus final project points.\nNote that the highest level requires upvotes. It benefits all students to upvote their peers for responses that they find useful.\nIn addition, Campuswire provides a list of the top contributors in the class. At the end of the course, the top 3 contributors will have the bonus final project points they earned doubled.\nThis means that a student who is among the top 3 and has the rank of Lvl 3 (Advanced) will receive 6 bonus final project points. If they are top 3 and have a rank of Lvl 2 (Intermediate) they will receive 4 bonus final project points.\nDISCLAIMER\nStudents attempting or participating in an attempt to game the system will be ineligible for bonus points."
+  },
+  {
+    "objectID": "course-ec.html#ec-opportunity-2---aha-slides",
+    "href": "course-ec.html#ec-opportunity-2---aha-slides",
+    "title": "Course Extra Credit Opportunities",
+    "section": "EC Opportunity 2 - Aha Slides",
+    "text": "EC Opportunity 2 - Aha Slides\nOur top 3 participants will receive 5 bonus point towards activities at the end of the quarter."
   }
 ]
