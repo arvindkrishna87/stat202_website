@@ -47,7 +47,7 @@ agenda_final2 <- agenda_final %>%
   
 agenda_final2 <- agenda_final2 %>% 
   mutate(show = case_when(
-    str_detect(Solution_video, "Practice Exam") & time_due > -7 ~ 1,
+    str_detect(Solutions, "Practice Exam") & time_due > -7 ~ 1,
     time_due >= 3 ~ 1,
     as.Date(exam_date) - today_ymd <= 4 ~ 1,
     TRUE ~ 0
