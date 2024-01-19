@@ -11,7 +11,6 @@ editor_options:
 
 Lecture videos are posted here.
 
-
 ```{r}
 #library(tidyverse)
 library(dplyr)

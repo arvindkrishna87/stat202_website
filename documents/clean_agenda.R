@@ -63,6 +63,14 @@ if(length(mlk_row) != 0){
   agenda$due[mlk_row-1] <- agenda$due[mlk_row]
 }
 
+#adjust due date for activity 7 to be after exam 1
+act7_row <- which(stringr::str_detect(agenda$Topic, "Tidy Data"))
+agenda$submit_icon[act7_row + 1] <- agenda$submit_icon[act7_row]
+agenda$submit_link[act7_row + 1] <- agenda$submit_link[act7_row]
+agenda$due_ymd[act7_row] <- agenda$due_ymd[act7_row +1]
+agenda$due[act7_row] <- agenda$due[act7_row +1]
+
+
 # format all data
 agenda_final <- agenda %>% 
   mutate(Week = week(Date),
