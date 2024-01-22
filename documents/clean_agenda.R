@@ -69,7 +69,9 @@ agenda$submit_icon[act7_row + 1] <- agenda$submit_icon[act7_row]
 agenda$submit_link[act7_row + 1] <- agenda$submit_link[act7_row]
 agenda$due_ymd[act7_row] <- agenda$due_ymd[act7_row +1]
 agenda$due[act7_row] <- agenda$due[act7_row +1]
-
+# add RC08 to agenda since due date is adjusted
+agenda$tutorial_icon[act7_row] <- agenda$tutorial_icon[act7_row + 1]
+agenda$tutorial_link[act7_row] <- agenda$tutorial_link[act7_row + 1]
 
 # format all data
 agenda_final <- agenda %>% 

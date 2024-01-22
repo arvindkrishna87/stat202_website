@@ -48,7 +48,7 @@ agenda_today <- agenda_final %>% filter(time == val)
 ```{r}
 agenda_today %>% 
   select(callout) %>% 
-  mutate(callout = ifelse(callout != "", map(paste0({fontawesome::fa('triangle-exclamation')}, callout), glue::glue), "NA")) %>% 
+  mutate(callout = ifelse(callout != "", map(paste0(callout), glue::glue), "NA")) %>% 
   t() %>% 
   as.data.frame() %>% 
   filter(V1 != "NA") %>% 
