@@ -11,11 +11,8 @@ from: markdown+emoji
 ---
 
 ::: callout-important
-Exam 1 is Wednesday Jan 24 covering Chapters 1 - 4. Practice Exam on [Posit Cloud here](https://posit.cloud/spaces/321338/content/5176501).
+Please complete [Course Survey 1](https://canvas.northwestern.edu/courses/204767/quizzes/225310) by Sunday January 28th. It is worth 1 participation point.
 
-If you are registered with ANU please see the [ANU tab](/course-anu.html)
-
-We will go over important details of the exam on Monday in class.
 :::
 
 ```{r}
