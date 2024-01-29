@@ -10,10 +10,10 @@ execute:
 from: markdown+emoji
 ---
 
-::: callout-important
-Please complete [Course Survey 1](https://canvas.northwestern.edu/courses/204767/quizzes/225310) by Sunday January 28th. It is worth 1 participation point.
+<!-- ::: callout-important -->
+<!-- Please complete [Course Survey 1](https://canvas.northwestern.edu/courses/204767/quizzes/225310) by Sunday January 28th. It is worth 1 participation point. -->
 
-:::
+<!-- ::: -->
 
 ```{r}
 #library(tidyverse)
