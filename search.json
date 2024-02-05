@@ -445,7 +445,7 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 38.365, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3981.426 4421.574\nsample estimates:\nmean of x \n   4201.5"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 34.818, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3988.217 4476.783\nsample estimates:\nmean of x \n   4232.5"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
@@ -1036,11 +1036,11 @@
     "text": "Example 3\n\n\n\nNorthwestern University is deciding which undergraduate students to test for COVID this week and due to limited resources they cannot test the entire undergraduate student body at once.\n\nPopulation of interest: undergraduate students at NU\n\n\nScenario 1Scenario 2Scenario 3\n\n\nThe university divides the population into 4 groups {1st year, sophomore, junior, seniors} and randomly selects 200 students from each group to test.\nWhat type of sampling is this?\n\nsimple random\ncluster sampling\nstratified sampling\nsystematic sampling\nnone of the above\n\n\n\nThe university alphabetizes the population by last name and selects every \\(25^{th}\\) student to get tested.\nWhat type of sampling is this?\n\nsimple random\ncluster sampling\nstratified sampling\nsystematic sampling\nnone of the above\n\n\n\nThe university alphabetizes the population by last name and selects the first 200 students to get tested.\nWhat type of sampling is this?\n\nsimple random\ncluster sampling\nstratified sampling\nsystematic sampling\nnone of the above"
   },
   {
-    "objectID": "index.html#class-fri-feb-02",
-    "href": "index.html#class-fri-feb-02",
+    "objectID": "index.html#class-mon-feb-05",
+    "href": "index.html#class-mon-feb-05",
     "title": "Today’s Agenda",
-    "section": "Class: Fri Feb 02",
-    "text": "Class: Fri Feb 02",
+    "section": "Class: Mon Feb 05",
+    "text": "Class: Mon Feb 05",
     "crumbs": [
       "Daily agenda"
     ]
@@ -1050,7 +1050,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n  \n  \n    Read Sections 6.2 - 6.4",
+    "text": "Prepare\n\n\n\n\n\n  \n  \n    Read Chapter 7",
     "crumbs": [
       "Daily agenda"
     ]
@@ -1070,17 +1070,17 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSection notes: Slides: Ch6b\n\n\nDaily activity: Posit: act_11",
+    "text": "Agenda\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSection notes: Slides: Ch7\n\n\nDaily activity: Posit: act_12",
     "crumbs": [
       "Daily agenda"
     ]
   },
   {
-    "objectID": "index.html#homework-due-sun-feb-04-1159pm",
-    "href": "index.html#homework-due-sun-feb-04-1159pm",
+    "objectID": "index.html#homework-due-tue-feb-06-1159pm",
+    "href": "index.html#homework-due-tue-feb-06-1159pm",
     "title": "Today’s Agenda",
-    "section": "Homework Due Sun Feb 04 11:59pm",
-    "text": "Homework Due Sun Feb 04 11:59pm\n\n\n\n\n\n\n\n\n\n\n\nComplete and submit Canvas: act_11\n\n\nRead Chapter 7\n\n\nComplete and submit Canvas: RC_12",
+    "section": "Homework Due Tue Feb 06 11:59pm",
+    "text": "Homework Due Tue Feb 06 11:59pm\n\n\n\n\n\n\n\n\n\n\n\nComplete and submit Canvas: act_12\n\n\nRead Chapter 8\n\n\nComplete and submit Canvas: RC_13",
     "crumbs": [
       "Daily agenda"
     ]
@@ -1924,7 +1924,7 @@
     "href": "course-lectures.html",
     "title": "Lecture Videos",
     "section": "",
-    "text": "Lecture videos are posted here.\n\n\n\n\n\n\n\n\n\n\n\nLecture 1: No Video\n\n\nLecture 2: Activity 01\n\n\nLecture 3: Scatterplots\n\n\nLecture 4: Linegraphs and Histograms\n\n\nLecture 5: Boxplots and Barplots\n\n\nLecture 6: Wrangling I\n\n\nLecture 7: Wrangling II\n\n\nLecture 8: No Video\n\n\nLecture 9: Simple Regression I\n\n\nLecture 10: Simple Regression II\n\n\nLecture 11: Multiple Regression I\n\n\nLecture 12: Multiple Regression II",
+    "text": "Lecture videos are posted here.\n\n\n\n\n\n\n\n\n\n\n\nLecture 1: No Video\n\n\nLecture 2: Activity 01\n\n\nLecture 3: Scatterplots\n\n\nLecture 4: Linegraphs and Histograms\n\n\nLecture 5: Boxplots and Barplots\n\n\nLecture 6: Wrangling I\n\n\nLecture 7: Wrangling II\n\n\nLecture 8: No Video\n\n\nLecture 9: Simple Regression I\n\n\nLecture 10: Simple Regression II\n\n\nLecture 11: Multiple Regression I\n\n\nLecture 12: Multiple Regression II\n\n\nLecture 13: Randomization",
     "crumbs": [
       "Additional Resources",
       "Lecture videos"
@@ -1935,7 +1935,7 @@
     "href": "course-solutions.html",
     "title": "Activity Solutions",
     "section": "",
-    "text": "Activities are graded for completion! It is your responsibility and should be a part of your learning habit to review your activities for correctness. Solutions are posted roughly 3 days after the due date.\n\n\n\n\n\n\n\n\n\n\n\n\nActivity 1 Solution\nActivity 1 video\n\n\nActivity 2 Solution\n\n\n\nActivity 3 Solution\n\n\n\nActivity 4 Solution\n\n\n\nActivity 5 Solution\n\n\n\nActivity 6 Solution\n\n\n\nActivity 7 Solution\n\n\n\nPractice Exam 1 Solution Video\n\n\n\nActivity 8 Solution\nActivity 8 video\n\n\nActivity 9 Solution\nActivity 9 video",
+    "text": "Activities are graded for completion! It is your responsibility and should be a part of your learning habit to review your activities for correctness. Solutions are posted roughly 3 days after the due date.\n\n\n\n\n\n\n\n\n\n\n\n\nActivity 1 Solution\nActivity 1 video\n\n\nActivity 2 Solution\n\n\n\nActivity 3 Solution\n\n\n\nActivity 4 Solution\n\n\n\nActivity 5 Solution\n\n\n\nActivity 6 Solution\n\n\n\nActivity 7 Solution\n\n\n\nPractice Exam 1 Solution Video\n\n\n\nActivity 8 Solution\nActivity 8 video\n\n\nActivity 9 Solution\nActivity 9 video\n\n\nActivity 10 Solution\nActivity 10 video\n\n\nActivity 11 Solution\nActivity 11 video\n\n\nActivity 12 Solution\nActivity 12 video\n\n\nActivity 13 Solution\nActivity 13 video\n\n\n[Practice Exam 2 Solution Video]",
     "crumbs": [
       "Additional Resources",
       "Activity solutions"
