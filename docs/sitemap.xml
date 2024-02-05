@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://dsass1.github.io/stat202_website/index.html</loc>
-    <lastmod>2024-02-05T14:31:52.423Z</lastmod>
+    <lastmod>2024-02-05T16:12:48.212Z</lastmod>
   </url>
   <url>
     <loc>https://dsass1.github.io/stat202_website/slides/lec21.html</loc>
@@ -62,7 +62,7 @@
   </url>
   <url>
     <loc>https://dsass1.github.io/stat202_website/course-project.html</loc>
-    <lastmod>2023-12-29T19:57:24.886Z</lastmod>
+    <lastmod>2024-02-05T16:12:31.271Z</lastmod>
   </url>
   <url>
     <loc>https://dsass1.github.io/stat202_website/index-final.html</loc>
@@ -134,6 +134,10 @@
   </url>
   <url>
     <loc>https://dsass1.github.io/stat202_website/course-solutions.html</loc>
-    <lastmod>2024-02-05T14:31:57.121Z</lastmod>
+    <lastmod>2024-02-05T16:12:40.172Z</lastmod>
+  </url>
+  <url>
+    <loc>https://dsass1.github.io/stat202_website/course-links.html</loc>
+    <lastmod>2024-02-05T16:12:30.477Z</lastmod>
   </url>
 </urlset>
