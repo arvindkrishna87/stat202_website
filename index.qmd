@@ -10,17 +10,17 @@ execute:
 from: markdown+emoji
 ---
 
-::: callout-important
-[Practice Exam 2](https://posit.cloud/spaces/321338/content/5176503) and [solution](/course-solutions.html) video are posted. (Solution video might have some questions from Section 9.1 that you can ignore).
-
-Exam 2 is Friday Feb 9th during class.
-
-:::
-
 <!-- ::: callout-important -->
-<!-- Please complete [Course Survey 1](https://canvas.northwestern.edu/courses/204767/quizzes/225310) by Sunday January 28th. It is worth 1 participation point. -->
+<!-- [Practice Exam 2](https://posit.cloud/spaces/321338/content/5176503) and [solution](/course-solutions.html) video are posted. (Solution video might have some questions from Section 9.1 that you can ignore). -->
+
+<!-- Exam 2 is Friday Feb 9th during class. -->
 
 <!-- ::: -->
+
+::: callout-important
+Please complete [Course Survey 2](https://canvas.northwestern.edu/courses/204767/quizzes/225311) by Tuesday February 13th. It is worth 1 participation point.
+
+:::
 
 ```{r}
 #library(tidyverse)
