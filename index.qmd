@@ -17,10 +17,10 @@ from: markdown+emoji
 
 <!-- ::: -->
 
-::: callout-important
-Please complete [Course Survey 2](https://canvas.northwestern.edu/courses/204767/quizzes/225311) by Tuesday February 13th. It is worth 1 participation point.
+<!-- ::: callout-important -->
+<!-- Please complete [Course Survey 2](https://canvas.northwestern.edu/courses/204767/quizzes/225311) by Tuesday February 13th. It is worth 1 participation point. -->
 
-:::
+<!-- ::: -->
 
 ```{r}
 #library(tidyverse)
