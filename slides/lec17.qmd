@@ -27,7 +27,7 @@ We will collect one sample, and use the theoretical properties of the sampling d
 ## Sampling Distribution Properties {.smaller}
 
 | Statistic                 | Population parameter | Estimator                 | SE of estimator                                                                           | Critical Value Distribution  |
-|---------------|---------------|---------------|---------------|---------------|
+|---------------------------|----------------------|---------------------------|-------------------------------------------------------------------------------------------|------------------------------|
 | Mean                      | $\mu$                | $\bar{x}$                 | $\frac{s}{\sqrt{n} }$                                                                     | $t(df=n-1)$                  |
 | Difference in means       | $\mu_1-\mu_2$        | $\bar{x}_1-\bar{x}_2$     | $\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2} }$                                           | $t(df = min(n_1-1, n_2-1) )$ |
 | Proportion                | $\pi$                | $\hat{\pi}$               | $\sqrt{\frac{\hat{\pi}(1-\hat{\pi})}{n} }$                                                | $N(0,1)$                     |
@@ -82,7 +82,7 @@ Construct a 95% confidence interval for the average weight of penguins in Antarc
 <br>
 
 | Statistic          | R Code                                                                 |
-|-----------------|-------------------------------------------------------|
+|--------------------|------------------------------------------------------------------------|
 | Mean               | t.test(x = data\$variable, conf.level = 0.95)                          |
 | Proportion         | prop.test(x = #, n = #, conf.level = 0.95, correct=FALSE)              |
 | Diff in mean       | t.test(x = data1\$variable, y = data2\$variable, conf.level = 0.95)    |
