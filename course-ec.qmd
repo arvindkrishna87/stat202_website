@@ -36,6 +36,8 @@ Our top 3 participants will receive 5 bonus point towards activities at the end 
 
 Check out the tab "Stats and Data IRL". Statistics and data science is an interdisciplinary field that is often used in a variety of areas of study (biology, business, ecology, healthcare, psychology, sociology, etc.) At the top of the page are a few interesting articles about statistics and/or data science. Select an article to read and write a one to two paragraph response describing what you learned from the article and how statistics/data science was used.
 
+Alternatively, you can find your own article about statistics or data science being used in real life to write about. If you do so, include a link to the article in the write up.
+
 You can submit 1 response for 1 bonus point toward participation. Yes, you can get over 100% in this category.
 
 <!-- ## EC Opportunity 2 - Sample Exams -->
