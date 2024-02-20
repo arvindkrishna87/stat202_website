@@ -29,6 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./course-anu.html" rel="next">
+<link href="./course-schedule.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -78,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Final Project</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./course-project.html">Final project</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -117,6 +119,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./course-schedule.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Schedule</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./course-project.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Final project</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -170,6 +178,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Extra Credit</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./course-irl.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Stats and Data IRL</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -213,12 +227,12 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>The final project is to be completed in <strong>groups of 3-6</strong>. Why? 1) Group work and collaboration is a good life skill. 2) There is no possible way we can grade 150 projects by the time grades are due.</p>
-<p>The final project is due on <strong>Sunday March 10th 11:59pm</strong>. Groups are expected to submit their project electronically to Canvas, similar to how you submit your work for daily activities. You will type your project directly into a qmd file and render an html document. You should <strong>submit both your .html</strong> file (and dataset if you chose one other than the one I provided). <strong>Only ONE person</strong> from the group needs to submit the project. Make sure everyone’s name is on the project. Look at your rendered document <strong>before</strong> submitting - your project will be graded as it appears in the submission.</p>
+<p>The final project is due on <strong>Sunday March 10th 11:59pm</strong>. Groups are expected to submit their project electronically to Canvas, similar to how you submit your work for daily activities. You will type your project directly into a qmd file and render an html document. You should <strong>submit your .html</strong> file (and dataset if you chose one other than the one I provided). <strong>Only ONE person</strong> from the group needs to submit the project. Make sure everyone’s name is on the project. Look at your rendered document <strong>before</strong> submitting - your project will be graded as it appears in the submission.</p>
 <p>This should read as a report! The project should be in paragraphs and complete sentences within the context of your dataset when appropriate. Do not bold or italicize your entire paper. Do not begin a section with code, you should introduce context before showing graphics/code. Students are expected to also show their work (i.e., include your R code). Your target audience is the grader and myself, we want to see your code and the output of your code.</p>
 <section id="choose-a-group" class="level2">
 <h2 class="anchored" data-anchor-id="choose-a-group">Choose a Group</h2>
 <p>You must join your group on Canvas! Grades are linked to these groups - I will <strong>not</strong> hunt you down. To get a grade you must be in a group. This is 10% of your grade, you do not want a 0 for the project. On Canvas go to the <strong>People</strong> tab, and select <strong>Final Project Group</strong> to add yourself to a group.</p>
-<p>Everyone in your group must agree to be in your group. I should not be getting emails stating “<em>Jane Doe</em> is in my group and we don’t know who that is”. If you do not know anyone in the class, Groups 1 - 10 are titled “Random Join”. Anyone can join them. You can communicate with your group through the Canvas group, make a group on Campuswire, or exchange email.</p>
+<p>Everyone in your group must agree to be in your group. I should not be getting emails stating “<em>Jane Doe</em> is in my group and we don’t know who that is”. <strong>If you do not know anyone in the class, Groups 1 - 5 are titled “Random Join”</strong>. Anyone can join them. You can communicate with your group through the Canvas group, make a group on Campuswire, or exchange email.</p>
 <p>The most effective ways groups have found to work together is by creating a Google drive document that members can copy/paste code into to share and jointly edit the report. <em>It is very obvious when groups have a single student take a section of the project rather than working collaboratively, those groups tend to do poorly on the project.</em></p>
 <p><img src="images/canvas_groups.png" class="img-fluid"></p>
 </section>
@@ -238,9 +252,9 @@ ul.task-list li input[type="checkbox"] {
 <li><p>The variables should be a mix of both categorical and numeric</p></li>
 <li><p>At least one variable that can be used as a reasonable response variable for regression</p></li>
 <li><p>You may not use data that has previously been used in any Activity</p></li>
-<li><p>You may not use any data that is a part of the ISDSdatasets, ggplot2, or palmerpenguins packages.</p></li>
+<li><p>You may not use any data that is a part of an R package.</p></li>
 </ul>
-<p>If you choose your own dataset, you will need to upload your data to the RStudio Cloud Project. Under the Files Pane, click on the “data” folder, then click the “upload” icon.</p>
+<p>If you choose your own dataset, you will need to upload your data to the Posit Cloud Project. Under the Files Pane, click on the “data” folder, then click the “upload” icon.</p>
 <p><br></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -259,7 +273,6 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="https://github.com/awesomedata/awesome-public-datasets">Awesome Public Datasets</a>: This github hosts a library of awesome, public datasets! They are all sorted by category and link you straight to the hosting website.</p></li>
 <li><p><a href="https://www.sports-reference.com/">Sports Reference</a>: “Our Primary Aim is to answer our users’ questions with the easiest-to-use, fastest, and most complete sports statistics anywhere. If we have some fun in the process, that’s good too.”</p></li>
 <li><p><a href="https://data.worldbank.org/">The World Bank</a>: The World Bank is a global development organization that offers loans and advice to developing countries. The World Bank regularly funds programs in developing countries, then gathers data to monitor the success of these programs. You can browse world bank data sets directly. The data sets have many missing values (which is great for cleaning practice).</p></li>
-<li><p><a href="https://nces.ed.gov/">National Center for Education Statistics</a>: The primary federal entity for collecting and analyzing data related to education.</p></li>
 <li><p><a href="https://developer.spotify.com/documentation/web-api/">Spotify API</a>: Discover the millions of tracks, artists, or albums on Spotify in the user’s local market or a specific Spotify market.</p></li>
 <li><p>Anywhere you want to search!</p></li>
 </ul>
@@ -298,12 +311,12 @@ Important
 <h2 class="anchored" data-anchor-id="project-rubric-50-points">Project rubric (50 points)</h2>
 <table class="table">
 <colgroup>
-<col style="width: 8%">
 <col style="width: 14%">
-<col style="width: 1%">
 <col style="width: 14%">
-<col style="width: 24%">
-<col style="width: 37%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 14%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -397,6 +410,7 @@ Important
 <h2 class="anchored" data-anchor-id="cautionary-note">Cautionary Note</h2>
 <p>Every member of the group should review EVERY section of the project before submitting. This is a group grade and dividing the work into sections without collaborating often results in poor overall grades.</p>
 <p>Failure to contribute to your group will result in a loss of a letter grade. There will be a survey to evaluate your group members contributions and to comment on your own contributions.</p>
+<p>Failure to be in a project group on Canvas by the deadline will result in the loss of a letter grade.</p>
 <p>If you are having group member issues that need to be addressed with me this must be done prior to Wednesday March 6th.</p>
 
 
@@ -808,6 +822,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./course-schedule.html" class="pagination-link" aria-label="Schedule">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Schedule</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./course-anu.html" class="pagination-link" aria-label="Accessible NU">
+        <span class="nav-page-text">Accessible NU</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
