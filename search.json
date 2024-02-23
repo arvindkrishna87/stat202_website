@@ -368,7 +368,7 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 44.293, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3946.44 4321.56\nsample estimates:\nmean of x \n     4134"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 39.157, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4007.694 4441.306\nsample estimates:\nmean of x \n   4224.5"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
@@ -667,11 +667,11 @@
     ]
   },
   {
-    "objectID": "index.html#class-wed-feb-21",
-    "href": "index.html#class-wed-feb-21",
+    "objectID": "index.html#class-fri-feb-23",
+    "href": "index.html#class-fri-feb-23",
     "title": "Today’s Agenda",
-    "section": "Class: Wed Feb 21",
-    "text": "Class: Wed Feb 21",
+    "section": "Class: Fri Feb 23",
+    "text": "Class: Fri Feb 23",
     "crumbs": [
       "Daily agenda"
     ]
@@ -681,7 +681,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare",
+    "text": "Prepare\n\n\n\n\n\n  \n  \n    Read Chapter 11",
     "crumbs": [
       "Daily agenda"
     ]
@@ -701,17 +701,17 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n\n\n\n\n\n\nSection notes: Slides: Ch10b\n\n\nDaily activity: Posit: act_17 (cont’d)",
+    "text": "Agenda\n\n\n\n\n\n\n\n\n\n\n\n\nSection notes: Slides: Ch11\n\n\nDaily activity: Posit: act_18",
     "crumbs": [
       "Daily agenda"
     ]
   },
   {
-    "objectID": "index.html#homework-due-thu-feb-22-1159pm",
-    "href": "index.html#homework-due-thu-feb-22-1159pm",
+    "objectID": "index.html#homework-due-sun-feb-25-1159pm",
+    "href": "index.html#homework-due-sun-feb-25-1159pm",
     "title": "Today’s Agenda",
-    "section": "Homework Due Thu Feb 22 11:59pm",
-    "text": "Homework Due Thu Feb 22 11:59pm\n\n\n\n\n\n\n\n\n\n\n\n\nComplete and submit Canvas: act_17\n\n\nRead Chapter 11",
+    "section": "Homework Due Sun Feb 25 11:59pm",
+    "text": "Homework Due Sun Feb 25 11:59pm\n\n\n\n\n\n\n\n\n\n\n\n\nComplete and submit Canvas: act_18\n\n\nRead Chapter 12\n\n\nComplete and submit Canvas: RC_18",
     "crumbs": [
       "Daily agenda"
     ]
@@ -754,7 +754,7 @@
     "href": "course-lectures.html",
     "title": "Lecture Videos",
     "section": "",
-    "text": "Lecture videos are posted here.\n\n\n\n\n\n\n\n\n\n\n\n\nLecture 1: No Video\n\n\nLecture 2: Activity 01\n\n\nLecture 3: Scatterplots\n\n\nLecture 4: Linegraphs and Histograms\n\n\nLecture 5: Boxplots and Barplots\n\n\nLecture 6: Wrangling I\n\n\nLecture 7: Wrangling II\n\n\nLecture 8: No Video\n\n\nLecture 9: Simple Regression I\n\n\nLecture 10: Simple Regression II\n\n\nLecture 11: Multiple Regression I\n\n\nLecture 12: Multiple Regression II\n\n\nLecture 13: Randomization\n\n\nLecture 14: Generalizability\n\n\nLecture 15: Distributions\n\n\nLecture 16: Sampling I\n\n\nLecture 17: Sampling II\n\n\nLecture 18: CI I\n\n\nLecture 19: CI II",
+    "text": "Lecture videos are posted here.\n\n\n\n\n\n\n\n\n\n\n\n\nLecture 1: No Video\n\n\nLecture 2: Activity 01\n\n\nLecture 3: Scatterplots\n\n\nLecture 4: Linegraphs and Histograms\n\n\nLecture 5: Boxplots and Barplots\n\n\nLecture 6: Wrangling I\n\n\nLecture 7: Wrangling II\n\n\nLecture 8: No Video\n\n\nLecture 9: Simple Regression I\n\n\nLecture 10: Simple Regression II\n\n\nLecture 11: Multiple Regression I\n\n\nLecture 12: Multiple Regression II\n\n\nLecture 13: Randomization\n\n\nLecture 14: Generalizability\n\n\nLecture 15: Distributions\n\n\nLecture 16: Sampling I\n\n\nLecture 17: Sampling II\n\n\nLecture 18: CI I\n\n\nLecture 19: CI II\n\n\nLecture 19: P-values",
     "crumbs": [
       "Additional Resources",
       "Lecture videos"
