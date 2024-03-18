@@ -32,26 +32,11 @@ Students attempting or participating in an attempt to game the system will be in
 
 Our top 3 participants will receive 5 bonus point towards activities at the end of the quarter.
 
-## EC Opportunity 3 - Stats and Data Science Articles
+<!-- ## EC Opportunity 3 - Stats and Data Science Articles -->
 
-Check out the tab "Stats and Data IRL". Statistics and data science is an interdisciplinary field that is often used in a variety of areas of study (biology, business, ecology, healthcare, psychology, sociology, etc.) At the top of the page are a few interesting articles about statistics and/or data science. Select an article to read and write a one to two paragraph response describing what you learned from the article and how statistics/data science was used.
+<!-- Check out the tab "Stats and Data IRL". Statistics and data science is an interdisciplinary field that is often used in a variety of areas of study (biology, business, ecology, healthcare, psychology, sociology, etc.) At the top of the page are a few interesting articles about statistics and/or data science. Select an article to read and write a one to two paragraph response describing what you learned from the article and how statistics/data science was used. -->
 
-Alternatively, you can find your own article about statistics or data science being used in real life to write about. If you do so, include a link to the article in the write up.
+<!-- Alternatively, you can find your own article about statistics or data science being used in real life to write about. If you do so, include a link to the article in the write up. -->
 
-You can submit 1 response for 1 bonus point toward participation. Yes, you can get over 100% in this category.
+<!-- You can submit 1 response for 1 bonus point toward participation. Yes, you can get over 100% in this category. -->
 
-<!-- ## EC Opportunity 2 - Sample Exams -->
-
-<!-- Complete any of the 3 sample exams **by the due date** and upload the completed sample exam to the respective Canvas assignment. Each sample exam will count as 1 bonus points toward activities. Yes, you can get over 100% in this category. -->
-
-<!-- Requirements: -->
-
-<!-- -   name is submitted -->
-
-<!-- -   every question/exercise must be submitted. -->
-
-<!-- -   properly downloaded (No NA responses/exercises) -->
-
-<!-- -   in the comments of the submission report whether or not there were any issues. If there were none simply state "no issues" -->
-
-<!-- **If you do not complete every one of those requirements you will not get credit.** This is checking that 1) there are no bugs for me to fix prior to the exam and 2) you know how to properly submit an exam. It will NOT be graded for accuracy. -->

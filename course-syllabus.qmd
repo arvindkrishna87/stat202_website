@@ -6,9 +6,9 @@ title: "Syllabus"
 
 ## Course info
 
-|            | Day | Time              | Location      |
-|------------|-----|-------------------|---------------|
-| Section 20 | MWF | 9:00 am - 9:50 am | Fisk Hall 217 |
+|            | Day | Time              | Location        |
+|------------|-----|-------------------|-----------------|
+| Section 20 | MWF | 9:00 am - 9:50 am | Harris Hall 107 |
 
 **Prerequisite:** High School Algebra
 
@@ -121,7 +121,7 @@ There is NO curve to this course. Take advantage of the exam improvement policy 
 
 ## Asking Questions & Course Communication
 
-This term we will be using [Campuswire](https://campuswire.com/p/G94567F0C) ("Enrollment Code: 2752") as our preferred platform for questions about activities, reading checks, and general course questions. The system is highly catered to getting you help quickly and efficiently from classmates and the instructional team. Rather than emailing questions to the instructional team, you should post your questions on Campuswire.
+This term we will be using Campuswire (see website for access) as our preferred platform for questions about activities, reading checks, and general course questions. The system is highly catered to getting you help quickly and efficiently from classmates and the instructional team. Rather than emailing questions to the instructional team, you should post your questions on Campuswire.
 
 The instructional team will check Campuswire periodically and answer questions, but we strongly encourage students to answer each other's questions. To this end, student will be able to earn bonus points --- see Canvas for details.
 

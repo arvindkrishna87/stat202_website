@@ -11,7 +11,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n    Read Chapter 10"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n    Read Syllabus"
   },
   {
     "objectID": "index.html#participate",
@@ -25,7 +25,7 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    Section notes: Slides: Ch10a\n\n    Daily activity: Posit: act_17"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    Review the syllabus\n\n    Visit the course’s Campuswire page using your @u.northwestern.edu email. Enrollment code: 4895\n\n    Gain access to the Posit Cloud Class Workspace by clicking here\n\n    Complete the google survey - we will use this data later in the quarter.\n\n    Create a Northwestern Zoom Account\n\n    Section notes: Slides: Intro\n\n    Daily activity: Posit: practice"
   },
   {
     "objectID": "index.html#homework-due-thu-jan-04-1159pm",
@@ -1040,7 +1040,7 @@
     "href": "index-final.html",
     "title": "Today’s Agenda",
     "section": "",
-    "text": "The exam retake is online via Zoom. You must have your camera on and appropriately positioned or you will receive a 0.\nhttps://northwestern.zoom.us/j/99863923813\nStrongly suggest arriving a few minutes early - if you are late due to technical issues that is your exam time.\nYou must have a Northwestern Zoom account to join https://northwestern.zoom.us/ You cannot be logged into a personal account or an account through a different university."
+    "text": "The exam retake is online via Zoom https://northwestern.zoom.us/j/99863923813\n\nYou must have your camera on and appropriately positioned or you will receive a 0.\nYour submission time on Canvas must be prior to logging off Zoom.\nANU students attend at same time and location (your end time will be adjusted for your accommodation)\nStrongly suggest arriving a few minutes early - if you are late due to technical issues that is your exam time.\n\nYou must have a Northwestern Zoom account to join https://northwestern.zoom.us/ You cannot be logged into a personal account or an account through a different university."
   },
   {
     "objectID": "index-final.html#class-wed-dec-06",
@@ -1054,7 +1054,7 @@
     "href": "index-final.html#take-exam",
     "title": "Today’s Agenda",
     "section": "Take Exam",
-    "text": "Take Exam\nYou must take the exam with your section at the designated exam start time.\n\nSection 21 (Kuyper) Wed 12/6 9am\n\nRetake Exam 1\nRetake Exam 2\nRetake Exam 3\n\n\n\n\nSection 20 (Sass) Wed 12/6 3pm\n\nRetake Exam 1\nRetake Exam 2\nRetake Exam 3"
+    "text": "Take Exam\nYou can either take the exam Tuesday 3/12 at 5:30pm central (exam must be submitted before 6:30pm or your ANU time or it will not be graded) or Friday 3/15 at 9am central (exam must be submitted before 10am or your ANU time or it will not be graded)\n\n\nRetake Exam 1\nRetake Exam 2\nRetake Exam 3"
   },
   {
     "objectID": "index-final.html#submit-exam",
@@ -1719,14 +1719,14 @@
     "href": "course-schedule.html",
     "title": "STAT 202: Introduction to Statistics and Data Science",
     "section": "",
-    "text": "This page contains an outline of the topics, content, and assignments for the quarter. If you miss a class it is your responsibility to catch up on missed work. That means review the slides, complete the activity, submit any homework, and attend office hours if you need help.\n\n\n\n\n\n\n  \n    \n    \n      Week\n      Date\n      Topic\n      \n        Prepare\n      \n      \n        Agenda\n      \n      \n        Homework\n      \n    \n    \n      Reading\n      Slides\n      Activity\n      submit_act\n      Tutorial\n      due\n    \n  \n  \n    1\n\nWed Jan 03\nIntroduction\nSyllabus\n\nSlides: Intro\n\nPosit: practice\n\n\nCanvas: RC_01\n\nThu Jan 04\n    \nFri Jan 05\nPosit Cloud\nPreface & Ch 1\n\nSlides: Ch1\n\nPosit: act_01\n\nCanvas: act_01\n\nCanvas: RC_02\n\nSun Jan 07\n    2\n\nMon Jan 08\nData Visualization\nSections 2.0 - 2.3\n\nSlides: Ch2a\n\nPosit: act_02\n\nCanvas: act_02\n\nCanvas: RC_03\n\nTue Jan 09\n    \nWed Jan 10\nData Visualization\nSections 2.4 - 2.6\n\nSlides: Ch2b\n\nPosit: act_03\n\nCanvas: act_03\n\nCanvas: RC_04\n\nThu Jan 11\n    \nFri Jan 12\nData Visualization\nSections 2.7 - 2.9\n\nSlides: Ch2c\n\nPosit: act_04\n\nCanvas: act_04\n\nCanvas: RC_05\n\nTue Jan 16\n    3\n\nMon Jan 15\nMLK Day - No Class\n\n\n\nCanvas: act_04\n\nCanvas: RC_05\n\nTue Jan 16\n    \nWed Jan 17\nData Wrangling\nSections 3.0 - 3.3\n\nSlides: Ch3a\n\nPosit: act_05\n\nCanvas: act_05\n\nCanvas: RC_06\n\nThu Jan 18\n    \nFri Jan 19\nData Wrangling\nSections 3.4 - 3.9\n\nSlides: Ch3b\n\nPosit: act_06\n\nCanvas: act_06\n\nCanvas: RC_07\n\nSun Jan 21\n    4\n\nMon Jan 22\nTidy Data\nChapter 4\n\nSlides: Ch4\n\nPosit: act_07\n\nCanvas: act_07\n\n\nTue Jan 23\n    \nWed Jan 24\nExam 1\n\n\n\n\nCanvas: RC_08\n\nThu Jan 25\n    \nFri Jan 26\nBasic Regression\nSections 5.0 - 5.1\n\nSlides: Ch5a\n\nPosit: act_08\n\nCanvas: act_08\n\nCanvas: RC_09\n\nSun Jan 28\n    5\n\nMon Jan 29\nBasic Regression\nSections 5.2 - 5.4\n\nSlides: Ch5b\n\nPosit: act_09\n\nCanvas: act_09\n\nCanvas: RC_10\n\nTue Jan 30\n    \nWed Jan 31\nMultiple Regression\nSections 6.0 - 6.1\n\nSlides: Ch6a\n\nPosit: act_10\n\nCanvas: act_10\n\nCanvas: RC_11\n\nThu Feb 01\n    \nFri Feb 02\nMultiple Regression\nSections 6.2 - 6.4\n\nSlides: Ch6b\n\nPosit: act_11\n\nCanvas: act_11\n\nCanvas: RC_12\n\nSun Feb 04\n    6\n\nMon Feb 05\nRandomization & Causality\nChapter 7\n\nSlides: Ch7\n\nPosit: act_12\n\nCanvas: act_12\n\nCanvas: RC_13\n\nTue Feb 06\n    \nWed Feb 07\nPop & Generalizability\nChapter 8\n\nSlides: Ch8\n\nPosit: act_13\n\nCanvas: act_13\n\n\nThu Feb 08\n    \nFri Feb 09\nExam 2\n\n\n\n\n\nSun Feb 11\n    7\n\nMon Feb 12\nNormal Distributions\nSections 9.0 - 9.1\n\nSlides: Ch9.1\n\nPosit: act_14\n\nCanvas: act_14\n\nCanvas: RC_14\n\nTue Feb 13\n    \nWed Feb 14\nSampling Distributions\nSections 9.2 - 9.3\n\nSlides: Ch9.2-9.3\n\nPosit: act_15\n\nCanvas: act_15\n\nCanvas: RC_15\n\nThu Feb 15\n    \nFri Feb 16\nSampling Distributions\nSections 9.4 - 9.7\n\nSlides: Ch9.4+\n\nPosit: act_16\n\nCanvas: act_16\n\nCanvas: RC_16\n\nSun Feb 18\n    8\n\nMon Feb 19\nConfidence Intervals\nChapter 10\n\nSlides: Ch10a\n\nPosit: act_17\n\n\nCanvas: RC_17\n\nTue Feb 20\n    \nWed Feb 21\nConfidence Intervals\n\nSlides: Ch10b\n\nPosit: act_17 (cont’d)\n\nCanvas: act_17\n\n\nThu Feb 22\n    \nFri Feb 23\nP-values\nChapter 11\n\nSlides: Ch11\n\nPosit: act_18\n\nCanvas: act_18\n\nCanvas: RC_18\n\nSun Feb 25\n    9\n\nMon Feb 26\nHypothesis Testing I\nChapter 12\n\nSlides: Ch12a\n\nPosit: act_19\n\nCanvas: act_19\n\nCanvas: RC_19\n\nTue Feb 27\n    \nWed Feb 28\nHypothesis Testing II\n\nSlides: Ch12b\n\nPosit: act_20\n\n\n\nThu Feb 29\n    \nFri Mar 01\nHypothesis Testing III\n\n\nPosit: act_20 (cont’d)\n\nCanvas: act_20\n\n\nSun Mar 03\n    10\n\nMon Mar 04\nExam 3\n\n\n\n\n\nTue Mar 05\n    \nWed Mar 06\nProject Overview\n\n\nRemote on Zoom\n\n\n\nThu Mar 07\n    \nFri Mar 08\nReading Period - No Class\n\n\nRemote OH on Zoom\n\n\n\nSun Mar 10\n    \nSun Mar 10\nFinal project due Sunday 11:59pm\n\n\n\n\n\nMon Mar 11\n    11\n\nFri Mar 15\nOptional Final Exam: 9am\n\n\nRemote on Zoom\n\n\n\nSun Mar 17"
+    "text": "This page contains an outline of the topics, content, and assignments for the quarter. If you miss a class it is your responsibility to catch up on missed work. That means review the slides, complete the activity, submit any homework, and attend office hours if you need help.\n\n\n\n\n\n\n  \n    \n    \n      Week\n      Date\n      Topic\n      \n        Prepare\n      \n      \n        Agenda\n      \n      \n        Homework\n      \n    \n    \n      Reading\n      Slides\n      Activity\n      submit_act\n      Tutorial\n      due\n    \n  \n  \n    1\n\nTue Mar 26\nIntroduction\nSyllabus\n\nSlides: Intro\n\nPosit: practice\n\n\nCanvas: RC_01\n\nTue Mar 26\n    \nWed Mar 27\nPosit Cloud\nPreface & Ch 1\n\nSlides: Ch1\n\nPosit: act_01\n\nCanvas: act_01\n\nCanvas: RC_02\n\nThu Mar 28\n    \nFri Mar 29\nData Visualization\nSections 2.0 - 2.3\n\nSlides: Ch2a\n\nPosit: act_02\n\nCanvas: act_02\n\nCanvas: RC_03\n\nSun Mar 31\n    2\n\nMon Apr 01\nData Visualization\nSections 2.4 - 2.6\n\nSlides: Ch2b\n\nPosit: act_03\n\nCanvas: act_03\n\nCanvas: RC_04\n\nTue Apr 02\n    \nWed Apr 03\nData Visualization\nSections 2.7 - 2.9\n\nSlides: Ch2c\n\nPosit: act_04\n\nCanvas: act_04\n\nCanvas: RC_05\n\nThu Apr 04\n    \nFri Apr 05\nData Wrangling\nSections 3.0 - 3.3\n\nSlides: Ch3a\n\nPosit: act_05\n\nCanvas: act_05\n\nCanvas: RC_06\n\nSun Apr 07\n    3\n\nMon Apr 08\nData Wrangling\nSections 3.4 - 3.9\n\nSlides: Ch3b\n\nPosit: act_06\n\nCanvas: act_06\n\nCanvas: RC_07\n\nTue Apr 09\n    \nWed Apr 10\nTidy Data\nChapter 4\n\nSlides: Ch4\n\nPosit: act_07\n\nCanvas: act_07\n\nCanvas: RC_08\n\nSun Apr 14\n    \nFri Apr 12\nExam 1\n\n\n\nCanvas: act_07\n\nCanvas: RC_08\n\nSun Apr 14\n    4\n\nMon Apr 15\nBasic Regression\nSections 5.0 - 5.1\n\nSlides: Ch5a\n\nPosit: act_08\n\nCanvas: act_08\n\nCanvas: RC_09\n\nTue Apr 16\n    \nWed Apr 17\nBasic Regression\nSections 5.2 - 5.4\n\nSlides: Ch5b\n\nPosit: act_09\n\nCanvas: act_09\n\nCanvas: RC_10\n\nThu Apr 18\n    \nFri Apr 19\nMultiple Regression\nSections 6.0 - 6.1\n\nSlides: Ch6a\n\nPosit: act_10\n\nCanvas: act_10\n\nCanvas: RC_11\n\nSun Apr 21\n    5\n\nMon Apr 22\nMultiple Regression\nSections 6.2 - 6.4\n\nSlides: Ch6b\n\nPosit: act_11\n\nCanvas: act_11\n\nCanvas: RC_12\n\nTue Apr 23\n    \nWed Apr 24\nRandomization & Causality\nChapter 7\n\nSlides: Ch7\n\nPosit: act_12\n\nCanvas: act_12\n\nCanvas: RC_13\n\nThu Apr 25\n    \nFri Apr 26\nPop & Generalizability\nChapter 8\n\nSlides: Ch8\n\nPosit: act_13\n\nCanvas: act_13\n\n\nSun Apr 28\n    6\n\nMon Apr 29\nExam 2\n\n\n\n\n\nTue Apr 30\n    \nWed May 01\nNormal Distributions\nSections 9.0 - 9.1\n\nSlides: Ch9.1\n\nPosit: act_14\n\nCanvas: act_14\n\nCanvas: RC_14\n\nThu May 02\n    \nFri May 03\nSampling Distributions\nSections 9.2 - 9.3\n\nSlides: Ch9.2-9.3\n\nPosit: act_15\n\nCanvas: act_15\n\nCanvas: RC_15\n\nSun May 05\n    7\n\nMon May 06\nSampling Distributions\nSections 9.4 - 9.7\n\nSlides: Ch9.4+\n\nPosit: act_16\n\nCanvas: act_16\n\nCanvas: RC_16\n\nTue May 07\n    \nWed May 08\nConfidence Intervals\nChapter 10\n\nSlides: Ch10a\n\nPosit: act_17\n\n\nCanvas: RC_17\n\nThu May 09\n    \nFri May 10\nConfidence Intervals\n\nSlides: Ch10b\n\nPosit: act_17 (cont’d)\n\nCanvas: act_17\n\n\nSun May 12\n    8\n\nMon May 13\nP-values\nChapter 11\n\nSlides: Ch11\n\nPosit: act_18\n\nCanvas: act_18\n\nCanvas: RC_18\n\nTue May 14\n    \nWed May 15\nHypothesis Testing I\nChapter 12\n\nSlides: Ch12a\n\nPosit: act_19\n\nCanvas: act_19\n\nCanvas: RC_19\n\nThu May 16\n    \nFri May 17\nHypothesis Testing II\n\nSlides: Ch12b\n\nPosit: act_20\n\n\n\nSun May 19\n    9\n\nMon May 20\nHypothesis Testing III\n\n\nPosit: act_20 (cont’d)\n\nCanvas: act_20\n\n\nTue May 21\n    \nWed May 22\nProject Overview\n\n\n\n\n\nThu May 23\n    \nFri May 24\nExam 3\n\n\n\n\n\nSun May 26\n    10\n\nMon May 27\nMemorial Day - No Class\n\n\n\n\n\nTue May 28\n    \nWed May 29\nReading Period - No Class\n\n\nRemote OH on Zoom\n\n\n\nThu May 30\n    \nFri May 31\nReading Period - No Class\n\n\nRemote OH on Zoom\n\n\n\nSun Jun 02\n    \nSun Jun 02\nFinal project due Sunday 11:59pm\n\n\n\n\n\nMon Jun 03\n    11\n\nWed Jun 05\nOptional Final Exam: 12pm central time\n\n\nRemote on Zoom\n\n\n\nThu Jun 06"
   },
   {
     "objectID": "course-anu.html",
     "href": "course-anu.html",
     "title": "Accessible NU",
     "section": "",
-    "text": "If you are registered with Accessible NU your exams will be proctored by our graduate TA.\nYou do NOT register the exam with ANU services.\nThe exam will begin 30 minutes before the standard class time.\nExam 1:\n\nWednesday January 24 at 8:30am location 2006 Sheridan B02 (basement room)\n\nExam 2:\n\nFriday February 9 at 8:30am location 2006 Sheridan B02 (basement room)\n\nExam 3:\n\nMonday March 4 at 8:30am location 2010 Sheridan Rm 201 (second floor)\n\nIf you are not available at this time, please contact me ASAP.\nOptional final exam will take place via Zoom with the other students at the designated start time."
+    "text": "If you are registered with Accessible NU your exams will be proctored by our graduate TA.\nYou do NOT register the exam with ANU services.\nThe exam will begin 30 minutes before the standard class time.\nExam 1:\n\nWednesday January 24 at 8:30am location TBD\n\nExam 2:\n\nFriday February 9 at 8:30am location TBD\n\nExam 3:\n\nMonday March 4 at 8:30am location TBD\n\nIf you are not available at this time, please contact me ASAP.\nOptional final exam will take place via Zoom with the other students at the designated start time."
   },
   {
     "objectID": "course-syllabus.html",
@@ -1740,7 +1740,7 @@
     "href": "course-syllabus.html#course-info",
     "title": "Syllabus",
     "section": "Course info",
-    "text": "Course info\n\n\n\n\nDay\nTime\nLocation\n\n\n\n\nSection 20\nMWF\n9:00 am - 9:50 am\nFisk Hall 217\n\n\n\nPrerequisite: High School Algebra\nPlease note that the specifics of this course syllabus are subject to change in the case of unforeseen circumstances. Instructors will notify students of any changes as soon as possible. Students will be responsible for abiding by the changes."
+    "text": "Course info\n\n\n\n\nDay\nTime\nLocation\n\n\n\n\nSection 20\nMWF\n9:00 am - 9:50 am\nHarris Hall 107\n\n\n\nPrerequisite: High School Algebra\nPlease note that the specifics of this course syllabus are subject to change in the case of unforeseen circumstances. Instructors will notify students of any changes as soon as possible. Students will be responsible for abiding by the changes."
   },
   {
     "objectID": "course-syllabus.html#learning-objectives",
@@ -1803,7 +1803,7 @@
     "href": "course-syllabus.html#asking-questions-course-communication",
     "title": "Syllabus",
     "section": "Asking Questions & Course Communication",
-    "text": "Asking Questions & Course Communication\nThis term we will be using Campuswire (“Enrollment Code: 2752”) as our preferred platform for questions about activities, reading checks, and general course questions. The system is highly catered to getting you help quickly and efficiently from classmates and the instructional team. Rather than emailing questions to the instructional team, you should post your questions on Campuswire.\nThe instructional team will check Campuswire periodically and answer questions, but we strongly encourage students to answer each other’s questions. To this end, student will be able to earn bonus points — see Canvas for details.\nPlease do not expect answers during weekends and evenings."
+    "text": "Asking Questions & Course Communication\nThis term we will be using Campuswire (see website for access) as our preferred platform for questions about activities, reading checks, and general course questions. The system is highly catered to getting you help quickly and efficiently from classmates and the instructional team. Rather than emailing questions to the instructional team, you should post your questions on Campuswire.\nThe instructional team will check Campuswire periodically and answer questions, but we strongly encourage students to answer each other’s questions. To this end, student will be able to earn bonus points — see Canvas for details.\nPlease do not expect answers during weekends and evenings."
   },
   {
     "objectID": "course-syllabus.html#academic-resources",
@@ -2130,6 +2130,27 @@
   {
     "objectID": "index.html#class-finals-week",
     "href": "index.html#class-finals-week",
+    "title": "Today’s Agenda",
+    "section": "",
+    "text": "The exam retake is online via Zoom https://northwestern.zoom.us/j/99863923813\n\nYou must have your camera on and appropriately positioned or you will receive a 0.\nYour submission time on Canvas must be prior to logging off Zoom.\nANU students attend at same time and location (your end time will be adjusted for your accommodation)\nStrongly suggest arriving a few minutes early - if you are late due to technical issues that is your exam time.\n\nYou must have a Northwestern Zoom account to join https://northwestern.zoom.us/ You cannot be logged into a personal account or an account through a different university."
+  },
+  {
+    "objectID": "index.html#class-tue-mar-26",
+    "href": "index.html#class-tue-mar-26",
+    "title": "Today’s Agenda",
+    "section": "Class: Tue Mar 26",
+    "text": "Class: Tue Mar 26"
+  },
+  {
+    "objectID": "index.html#homework-due-tue-mar-26-1159pm",
+    "href": "index.html#homework-due-tue-mar-26-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Tue Mar 26 11:59pm",
+    "text": "Homework Due Tue Mar 26 11:59pm\n\n\n\n\n\n\n  \n  \n    Read Preface & Ch 1\n\n    Complete and submit Canvas: RC_01"
+  },
+  {
+    "objectID": "index-final.html#class-finals-week",
+    "href": "index-final.html#class-finals-week",
     "title": "Today’s Agenda",
     "section": "",
     "text": "The exam retake is online via Zoom https://northwestern.zoom.us/j/99863923813\n\nYou must have your camera on and appropriately positioned or you will receive a 0.\nYour submission time on Canvas must be prior to logging off Zoom.\nANU students attend at same time and location (your end time will be adjusted for your accommodation)\nStrongly suggest arriving a few minutes early - if you are late due to technical issues that is your exam time.\n\nYou must have a Northwestern Zoom account to join https://northwestern.zoom.us/ You cannot be logged into a personal account or an account through a different university."
