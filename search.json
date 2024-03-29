@@ -161,11 +161,11 @@
     "text": "Footnotes\n\n\nemail: accessiblenu@northwestern.edu; phoone: 847-467-5530↩︎\nIncluding advising sessions or office hours.↩︎\nSee http://www.northwestern.edu/sexual-misconduct/get-help/confidential-support.html for details.↩︎\nhttp://www.northwestern.edu/sexual-misconduct/get-help/index.html↩︎\n847.491.7458↩︎\n847.467.6571↩︎\nhttp://www.northwestern.edu/hr/equlopp-access/index.html↩︎"
   },
   {
-    "objectID": "index.html#class-wed-mar-27",
-    "href": "index.html#class-wed-mar-27",
+    "objectID": "index.html#class-fri-mar-29",
+    "href": "index.html#class-fri-mar-29",
     "title": "Today’s Agenda",
-    "section": "Class: Wed Mar 27",
-    "text": "Class: Wed Mar 27",
+    "section": "Class: Fri Mar 29",
+    "text": "Class: Fri Mar 29",
     "crumbs": [
       "Daily agenda"
     ]
@@ -175,7 +175,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n  \n  \n    Read Preface & Ch 1",
+    "text": "Prepare\n\n\n\n\n\n  \n  \n    Read Sections 2.0 - 2.3",
     "crumbs": [
       "Daily agenda"
     ]
@@ -195,17 +195,17 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n\n\n\n\n\n\nSection notes: Slides: Ch1\n\n\nDaily activity: Posit: act_01",
+    "text": "Agenda\n\n\n\n\n\n\n\n\n\n\n\n\nSection notes: Slides: Ch2a\n\n\nDaily activity: Posit: act_02",
     "crumbs": [
       "Daily agenda"
     ]
   },
   {
-    "objectID": "index.html#homework-due-thu-mar-28-1159pm",
-    "href": "index.html#homework-due-thu-mar-28-1159pm",
+    "objectID": "index.html#homework-due-sun-mar-31-1159pm",
+    "href": "index.html#homework-due-sun-mar-31-1159pm",
     "title": "Today’s Agenda",
-    "section": "Homework Due Thu Mar 28 11:59pm",
-    "text": "Homework Due Thu Mar 28 11:59pm\n\n\n\n\n\n\n\n\n\n\n\n\nComplete and submit Canvas: act_01\n\n\nRead Sections 2.0 - 2.3\n\n\nComplete and submit Canvas: RC_02",
+    "section": "Homework Due Sun Mar 31 11:59pm",
+    "text": "Homework Due Sun Mar 31 11:59pm\n\n\n\n\n\n\n\n\n\n\n\n\nComplete and submit Canvas: act_02\n\n\nRead Sections 2.4 - 2.6\n\n\nComplete and submit Canvas: RC_03",
     "crumbs": [
       "Daily agenda"
     ]
@@ -1282,7 +1282,7 @@
     "href": "course-lectures.html",
     "title": "Lecture Videos",
     "section": "",
-    "text": "Lecture videos are posted here.\n\n\n\n\n\n\n\n\n\n\n\n\nLecture 1: No Video\n\n\nLecture 2: Activity 01",
+    "text": "Lecture videos are posted here.\n\n\n\n\n\n\n\n\n\n\n\n\nLecture 1: No Video\n\n\nLecture 2: Activity 01\n\n\nLecture 3: Scatterplots",
     "crumbs": [
       "Additional Resources",
       "Lecture videos"
@@ -1410,7 +1410,7 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 35.229, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3864.707 4332.293\nsample estimates:\nmean of x \n   4098.5"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 40.49, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4006.756 4425.244\nsample estimates:\nmean of x \n     4216"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
