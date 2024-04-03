@@ -19,7 +19,7 @@ All of our TA office hours will be held on-line via [Zoom 998 6392 3813](https:/
 -   Thursdays 2pm - 6pm
 
 | Name                  | Email                                 | Office hours    |
-|----------------------|---------------------------------|------------------|
+|----------------------|--------------------------------|------------------|
 | Yicheng Zhou (grader) | YichengZhou2025\@u.northwestern.edu   | By Appointment  |
 | Chelsea               | chelseanelson2025\@u.northwestern.edu | Tue 2pm - 4pm   |
 | Hannah                | hannahli2025.1\@u.northwestern.edu    | Tues 4pm - 6pm  |
@@ -36,7 +36,9 @@ Making appointments: **Include STAT202 in the subject line!** Please provide you
 ::: {.column width="80%"}
 **Section 20: Dr. Danielle Sass** is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. She received her Ph.D in Statistics from the University of Illinois at Urbana-Champaign. Her passion and focus is curriculum and content development for undergraduate students.
 
-Individual office hours can be made **by appointment** by emailing danielle.sass\@northwestern.edu.
+Office hours: **Fridays 12pm - 1pm in 2010 Sheridan Rm 205** or **by appointment**
+
+Email: danielle.sass\@northwestern.edu
 :::
 
 ::: {.column width="20%"}
