@@ -11,7 +11,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n\n  \n  \n    Read Syllabus"
+    "text": "Prepare\n\n\n\n\n\n\n  \n  \n    Read Chapter 4"
   },
   {
     "objectID": "index.html#participate",
@@ -25,7 +25,7 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    Review the syllabus\n\n    Visit the course’s Campuswire page using your @u.northwestern.edu email. Enrollment code: 4895\n\n    Gain access to the Posit Cloud Class Workspace by clicking here\n\n    Complete the google survey - we will use this data later in the quarter.\n\n    Create a Northwestern Zoom Account\n\n    Daily activity: Posit: practice"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    Section notes: Slides: Ch4\n\n    Daily activity: Posit: act_07"
   },
   {
     "objectID": "index.html#homework-due-thu-jan-04-1159pm",
@@ -1719,14 +1719,14 @@
     "href": "course-schedule.html",
     "title": "STAT 202: Introduction to Statistics and Data Science",
     "section": "",
-    "text": "This page contains an outline of the topics, content, and assignments for the quarter. If you miss a class it is your responsibility to catch up on missed work. That means review the slides, complete the activity, submit any homework, and attend office hours if you need help.\n\n\n\n\n\n\n  \n    \n    \n      Week\n      Date\n      Topic\n      \n        Prepare\n      \n      \n        Agenda\n      \n      \n        Homework\n      \n    \n    \n      Reading\n      Slides\n      Activity\n      submit_act\n      Tutorial\n      due\n    \n  \n  \n    1\n\nTue Mar 26\nIntroduction\nSyllabus\n\nSlides: Intro\n\nPosit: practice\n\n\nCanvas: RC_01\n\nTue Mar 26\n    \nWed Mar 27\nPosit Cloud\nPreface & Ch 1\n\nSlides: Ch1\n\nPosit: act_01\n\nCanvas: act_01\n\nCanvas: RC_02\n\nThu Mar 28\n    \nFri Mar 29\nData Visualization\nSections 2.0 - 2.3\n\nSlides: Ch2a\n\nPosit: act_02\n\nCanvas: act_02\n\nCanvas: RC_03\n\nSun Mar 31\n    2\n\nMon Apr 01\nData Visualization\nSections 2.4 - 2.6\n\nSlides: Ch2b\n\nPosit: act_03\n\nCanvas: act_03\n\nCanvas: RC_04\n\nTue Apr 02\n    \nWed Apr 03\nData Visualization\nSections 2.7 - 2.9\n\nSlides: Ch2c\n\nPosit: act_04\n\nCanvas: act_04\n\nCanvas: RC_05\n\nThu Apr 04\n    \nFri Apr 05\nData Wrangling\nSections 3.0 - 3.3\n\nSlides: Ch3a\n\nPosit: act_05\n\nCanvas: act_05\n\nCanvas: RC_06\n\nSun Apr 07\n    3\n\nMon Apr 08\nData Wrangling\nSections 3.4 - 3.9\n\nSlides: Ch3b\n\nPosit: act_06\n\nCanvas: act_06\n\nCanvas: RC_07\n\nTue Apr 09\n    \nWed Apr 10\nTidy Data\nChapter 4\n\nSlides: Ch4\n\nPosit: act_07\n\nCanvas: act_07\n\nCanvas: RC_08\n\nSun Apr 14\n    \nFri Apr 12\nExam 1\n\n\n\nCanvas: act_07\n\nCanvas: RC_08\n\nSun Apr 14\n    4\n\nMon Apr 15\nBasic Regression\nSections 5.0 - 5.1\n\nSlides: Ch5a\n\nPosit: act_08\n\nCanvas: act_08\n\nCanvas: RC_09\n\nTue Apr 16\n    \nWed Apr 17\nBasic Regression\nSections 5.2 - 5.4\n\nSlides: Ch5b\n\nPosit: act_09\n\nCanvas: act_09\n\nCanvas: RC_10\n\nThu Apr 18\n    \nFri Apr 19\nMultiple Regression\nSections 6.0 - 6.1\n\nSlides: Ch6a\n\nPosit: act_10\n\nCanvas: act_10\n\nCanvas: RC_11\n\nSun Apr 21\n    5\n\nMon Apr 22\nMultiple Regression\nSections 6.2 - 6.4\n\nSlides: Ch6b\n\nPosit: act_11\n\nCanvas: act_11\n\nCanvas: RC_12\n\nTue Apr 23\n    \nWed Apr 24\nRandomization & Causality\nChapter 7\n\nSlides: Ch7\n\nPosit: act_12\n\nCanvas: act_12\n\nCanvas: RC_13\n\nThu Apr 25\n    \nFri Apr 26\nPop & Generalizability\nChapter 8\n\nSlides: Ch8\n\nPosit: act_13\n\nCanvas: act_13\n\n\nSun Apr 28\n    6\n\nMon Apr 29\nExam 2\n\n\n\n\n\nTue Apr 30\n    \nWed May 01\nNormal Distributions\nSections 9.0 - 9.1\n\nSlides: Ch9.1\n\nPosit: act_14\n\nCanvas: act_14\n\nCanvas: RC_14\n\nThu May 02\n    \nFri May 03\nSampling Distributions\nSections 9.2 - 9.3\n\nSlides: Ch9.2-9.3\n\nPosit: act_15\n\nCanvas: act_15\n\nCanvas: RC_15\n\nSun May 05\n    7\n\nMon May 06\nSampling Distributions\nSections 9.4 - 9.7\n\nSlides: Ch9.4+\n\nPosit: act_16\n\nCanvas: act_16\n\nCanvas: RC_16\n\nTue May 07\n    \nWed May 08\nConfidence Intervals\nChapter 10\n\nSlides: Ch10a\n\nPosit: act_17\n\n\nCanvas: RC_17\n\nThu May 09\n    \nFri May 10\nConfidence Intervals\n\nSlides: Ch10b\n\nPosit: act_17 (cont’d)\n\nCanvas: act_17\n\n\nSun May 12\n    8\n\nMon May 13\nP-values\nChapter 11\n\nSlides: Ch11\n\nPosit: act_18\n\nCanvas: act_18\n\nCanvas: RC_18\n\nTue May 14\n    \nWed May 15\nHypothesis Testing I\nChapter 12\n\nSlides: Ch12a\n\nPosit: act_19\n\nCanvas: act_19\n\nCanvas: RC_19\n\nThu May 16\n    \nFri May 17\nHypothesis Testing II\n\nSlides: Ch12b\n\nPosit: act_20\n\n\n\nSun May 19\n    9\n\nMon May 20\nHypothesis Testing III\n\n\nPosit: act_20 (cont’d)\n\nCanvas: act_20\n\n\nTue May 21\n    \nWed May 22\nProject Overview\n\n\n\n\n\nThu May 23\n    \nFri May 24\nExam 3\n\n\n\n\n\nSun May 26\n    10\n\nMon May 27\nMemorial Day - No Class\n\n\n\n\n\nTue May 28\n    \nWed May 29\nReading Period - No Class\n\n\nRemote OH on Zoom\n\n\n\nThu May 30\n    \nFri May 31\nReading Period - No Class\n\n\nRemote OH on Zoom\n\n\n\nSun Jun 02\n    \nSun Jun 02\nFinal project due Sunday 11:59pm\n\n\n\n\n\nMon Jun 03\n    11\n\nWed Jun 05\nOptional Final Exam: 12pm central time\n\n\nRemote on Zoom\n\n\n\nThu Jun 06"
+    "text": "This page contains an outline of the topics, content, and assignments for the quarter. If you miss a class it is your responsibility to catch up on missed work. That means review the slides, complete the activity, submit any homework, and attend office hours if you need help.\n\n\n\n\n\n\n  \n    \n    \n      Week\n      Date\n      Topic\n      \n        Prepare\n      \n      \n        Agenda\n      \n      \n        Homework\n      \n    \n    \n      Reading\n      Slides\n      Activity\n      submit_act\n      Tutorial\n      due\n    \n  \n  \n    1\n\nTue Mar 26\nIntroduction\nSyllabus\n\n\nPosit: practice\n\n\nCanvas: RC_01\n\nTue Mar 26\n    \nWed Mar 27\nPosit Cloud\nPreface & Ch 1\n\nSlides: Ch1\n\nPosit: act_01\n\nCanvas: act_01\n\nCanvas: RC_02\n\nThu Mar 28\n    \nFri Mar 29\nData Visualization\nSections 2.0 - 2.3\n\nSlides: Ch2a\n\nPosit: act_02\n\nCanvas: act_02\n\nCanvas: RC_03\n\nSun Mar 31\n    2\n\nMon Apr 01\nData Visualization\nSections 2.4 - 2.6\n\nSlides: Ch2b\n\nPosit: act_03\n\nCanvas: act_03\n\nCanvas: RC_04\n\nTue Apr 02\n    \nWed Apr 03\nData Visualization\nSections 2.7 - 2.9\n\nSlides: Ch2c\n\nPosit: act_04\n\nCanvas: act_04\n\nCanvas: RC_05\n\nThu Apr 04\n    \nFri Apr 05\nData Wrangling\nSections 3.0 - 3.3\n\nSlides: Ch3a\n\nPosit: act_05\n\nCanvas: act_05\n\nCanvas: RC_06\n\nSun Apr 07\n    3\n\nMon Apr 08\nData Wrangling\nSections 3.4 - 3.9\n\nSlides: Ch3b\n\nPosit: act_06\n\nCanvas: act_06\n\nCanvas: RC_07\n\nTue Apr 09\n    \nWed Apr 10\nTidy Data\nChapter 4\n\nSlides: Ch4\n\nPosit: act_07\n\nCanvas: act_07\n\n\nThu Apr 11\n    \nFri Apr 12\nExam 1\n\n\n\n\nCanvas: RC_08\n\nSun Apr 14\n    4\n\nMon Apr 15\nBasic Regression\nSections 5.0 - 5.1\n\nSlides: Ch5a\n\nPosit: act_08\n\nCanvas: act_08\n\nCanvas: RC_09\n\nTue Apr 16\n    \nWed Apr 17\nBasic Regression\nSections 5.2 - 5.4\n\nSlides: Ch5b\n\nPosit: act_09\n\nCanvas: act_09\n\nCanvas: RC_10\n\nThu Apr 18\n    \nFri Apr 19\nMultiple Regression\nSections 6.0 - 6.1\n\nSlides: Ch6a\n\nPosit: act_10\n\nCanvas: act_10\n\nCanvas: RC_11\n\nSun Apr 21\n    5\n\nMon Apr 22\nMultiple Regression\nSections 6.2 - 6.4\n\nSlides: Ch6b\n\nPosit: act_11\n\nCanvas: act_11\n\nCanvas: RC_12\n\nTue Apr 23\n    \nWed Apr 24\nRandomization & Causality\nChapter 7\n\nSlides: Ch7\n\nPosit: act_12\n\nCanvas: act_12\n\nCanvas: RC_13\n\nThu Apr 25\n    \nFri Apr 26\nPop & Generalizability\nChapter 8\n\nSlides: Ch8\n\nPosit: act_13\n\nCanvas: act_13\n\n\nSun Apr 28\n    6\n\nMon Apr 29\nExam 2\n\n\n\n\n\nTue Apr 30\n    \nWed May 01\nNormal Distributions\nSections 9.0 - 9.1\n\nSlides: Ch9.1\n\nPosit: act_14\n\nCanvas: act_14\n\nCanvas: RC_14\n\nThu May 02\n    \nFri May 03\nSampling Distributions\nSections 9.2 - 9.3\n\nSlides: Ch9.2-9.3\n\nPosit: act_15\n\nCanvas: act_15\n\nCanvas: RC_15\n\nSun May 05\n    7\n\nMon May 06\nSampling Distributions\nSections 9.4 - 9.7\n\nSlides: Ch9.4+\n\nPosit: act_16\n\nCanvas: act_16\n\nCanvas: RC_16\n\nTue May 07\n    \nWed May 08\nConfidence Intervals\nChapter 10\n\nSlides: Ch10a\n\nPosit: act_17\n\n\nCanvas: RC_17\n\nThu May 09\n    \nFri May 10\nConfidence Intervals\n\nSlides: Ch10b\n\nPosit: act_17 (cont’d)\n\nCanvas: act_17\n\n\nSun May 12\n    8\n\nMon May 13\nP-values\nChapter 11\n\nSlides: Ch11\n\nPosit: act_18\n\nCanvas: act_18\n\nCanvas: RC_18\n\nTue May 14\n    \nWed May 15\nHypothesis Testing I\nChapter 12\n\nSlides: Ch12a\n\nPosit: act_19\n\nCanvas: act_19\n\nCanvas: RC_19\n\nThu May 16\n    \nFri May 17\nHypothesis Testing II\n\nSlides: Ch12b\n\nPosit: act_20\n\n\n\nSun May 19\n    9\n\nMon May 20\nHypothesis Testing III\n\n\nPosit: act_20 (cont’d)\n\nCanvas: act_20\n\n\nTue May 21\n    \nWed May 22\nProject Overview\n\n\n\n\n\nThu May 23\n    \nFri May 24\nExam 3\n\n\n\n\n\nSun May 26\n    10\n\nMon May 27\nMemorial Day - No Class\n\n\n\n\n\nTue May 28\n    \nWed May 29\nReading Period - No Class\n\n\nRemote OH on Zoom\n\n\n\nThu May 30\n    \nFri May 31\nReading Period - No Class\n\n\nRemote OH on Zoom\n\n\n\nSun Jun 02\n    \nSun Jun 02\nFinal project due Sunday 11:59pm\n\n\n\n\n\nMon Jun 03\n    11\n\nWed Jun 05\nOptional Final Exam: 12pm central time\n\n\nRemote on Zoom\n\n\n\nThu Jun 06"
   },
   {
     "objectID": "course-anu.html",
     "href": "course-anu.html",
     "title": "Accessible NU",
     "section": "",
-    "text": "If you are registered with Accessible NU your exams will be proctored by our graduate TA.\nYou do NOT register the exam with ANU services.\nThe exam will begin 30 minutes before the standard class time.\nExam 1:\n\nWednesday January 24 at 8:30am location TBD\n\nExam 2:\n\nFriday February 9 at 8:30am location TBD\n\nExam 3:\n\nMonday March 4 at 8:30am location TBD\n\nIf you are not available at this time, please contact me ASAP.\nOptional final exam will take place via Zoom with the other students at the designated start time."
+    "text": "If you are registered with Accessible NU your exams will be proctored by our graduate TA.\nYou do NOT register the exam with ANU services.\nThe exam will begin 30 minutes before the standard class time. Note: the doors to 2006 Sheridan are locked until I arrive, I will be there at 8:10am to let students in.\nExam 1:\n\nFriday April 12 at 8:30am location 2006 Sheridan Rm B02 (basement)\n\nExam 2:\n\nMonday April 29 at 8:30am location 2006 Sheridan Rm B02 (basement)\n\nExam 3:\n\nFriday March 24 at 8:30am location 2006 Sheridan Rm B02 (basement)\n\nIf you are not available at this time, please contact me ASAP.\nOptional final exam will take place via Zoom with the other students at the designated start time."
   },
   {
     "objectID": "course-syllabus.html",
@@ -2154,5 +2154,47 @@
     "title": "Today’s Agenda",
     "section": "",
     "text": "The exam retake is online via Zoom https://northwestern.zoom.us/j/99863923813\n\nYou must have your camera on and appropriately positioned or you will receive a 0.\nYour submission time on Canvas must be prior to logging off Zoom.\nANU students attend at same time and location (your end time will be adjusted for your accommodation)\nStrongly suggest arriving a few minutes early - if you are late due to technical issues that is your exam time.\n\nYou must have a Northwestern Zoom account to join https://northwestern.zoom.us/ You cannot be logged into a personal account or an account through a different university."
+  },
+  {
+    "objectID": "index.html#class-wed-apr-10",
+    "href": "index.html#class-wed-apr-10",
+    "title": "Today’s Agenda",
+    "section": "Class: Wed Apr 10",
+    "text": "Class: Wed Apr 10\n\n\n\n\n\n\n  \n  \n    Study for Exam 1! Practice Exam is on Posit Cloud"
+  },
+  {
+    "objectID": "index.html#homework-due-thu-apr-11-1159pm",
+    "href": "index.html#homework-due-thu-apr-11-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Thu Apr 11 11:59pm",
+    "text": "Homework Due Thu Apr 11 11:59pm\n\n\n\n\n\n\n  \n  \n    Complete and submit Canvas: act_07"
+  },
+  {
+    "objectID": "course-team.html",
+    "href": "course-team.html",
+    "title": "Course Team",
+    "section": "",
+    "text": "Drop-In Peer Tutoring\n\nSundays 8-10 pm, Schapiro Hall, 104\nWednesdays 8-10 pm, Shepard Hall, B25"
+  },
+  {
+    "objectID": "course-team.html#office-hours",
+    "href": "course-team.html#office-hours",
+    "title": "Course Team",
+    "section": "",
+    "text": "Drop-In Peer Tutoring\n\nSundays 8-10 pm, Schapiro Hall, 104\nWednesdays 8-10 pm, Shepard Hall, B25"
+  },
+  {
+    "objectID": "course-team.html#teaching-assistants",
+    "href": "course-team.html#teaching-assistants",
+    "title": "Course Team",
+    "section": "Teaching assistants",
+    "text": "Teaching assistants\nAll of our TA office hours will be held on-line via Zoom 998 6392 3813 on\n\nTuesdays 2pm - 6pm\nThursdays 2pm - 6pm\n\n\n\n\n\n\n\n\n\nName\nEmail\nOffice hours\n\n\n\n\nYicheng Zhou (grader)\nYichengZhou2025@u.northwestern.edu\nBy Appointment\n\n\nChelsea\nchelseanelson2025@u.northwestern.edu\nTue 2pm - 4pm\n\n\nHannah\nhannahli2025.1@u.northwestern.edu\nTues 4pm - 6pm\n\n\nJules Wathieu\njuleswathieu2024@u.northwestern.edu\nThurs 2pm - 4pm\n\n\nYaelle\nyaellepierre2025@u.northwestern.edu\nThurs 4pm - 6pm"
+  },
+  {
+    "objectID": "course-team.html#instructors",
+    "href": "course-team.html#instructors",
+    "title": "Course Team",
+    "section": "Instructors",
+    "text": "Instructors\nMaking appointments: Include STAT202 in the subject line! Please provide your full availability for the day(s) you are available to meet.\nDo NOT expect a reply in the evenings or on weekends.\n\n\nSection 20: Dr. Danielle Sass is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. She received her Ph.D in Statistics from the University of Illinois at Urbana-Champaign. Her passion and focus is curriculum and content development for undergraduate students.\nOffice hours: Fridays 12pm - 1pm in 2010 Sheridan Rm 205 or by appointment\nEmail: danielle.sass@northwestern.edu"
   }
 ]
