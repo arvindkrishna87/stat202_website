@@ -724,7 +724,7 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 39.87, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3802.659 4206.341\nsample estimates:\nmean of x \n   4004.5"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 35.158, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3831.707 4296.293\nsample estimates:\nmean of x \n     4064"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
@@ -1079,11 +1079,11 @@
     "text": "Cautionary Note\nEvery member of the group should review EVERY section of the project before submitting. This is a group grade and dividing the work into sections without collaborating often results in poor overall grades.\nFailure to contribute to your group will result in a loss of a letter grade. There will be a survey to evaluate your group members contributions and to comment on your own contributions.\nFailure to be in a project group on Canvas by the deadline will result in the loss of a letter grade.\nIf you are having group member issues that need to be addressed with me this must be done prior to Wednesday March 6th."
   },
   {
-    "objectID": "index.html#class-wed-apr-10",
-    "href": "index.html#class-wed-apr-10",
+    "objectID": "index.html#class-fri-apr-12",
+    "href": "index.html#class-fri-apr-12",
     "title": "Today’s Agenda",
-    "section": "Class: Wed Apr 10",
-    "text": "Class: Wed Apr 10\n\n\n\n\n\n\n\n\n\n\n\n\nStudy for Exam 1! Practice Exam is on Posit Cloud",
+    "section": "Class: Fri Apr 12",
+    "text": "Class: Fri Apr 12",
     "crumbs": [
       "Daily agenda"
     ]
@@ -1093,7 +1093,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n  \n  \n    Read Chapter 4",
+    "text": "Prepare",
     "crumbs": [
       "Daily agenda"
     ]
@@ -1113,17 +1113,17 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n\n\n\n\n\n\nSection notes: Slides: Ch4\n\n\nDaily activity: Posit: act_07",
+    "text": "Agenda\n\n\n\n\n\n\n\n\n\n\n\n\nTake Exam\n\n\nSubmit Exam",
     "crumbs": [
       "Daily agenda"
     ]
   },
   {
-    "objectID": "index.html#homework-due-thu-apr-11-1159pm",
-    "href": "index.html#homework-due-thu-apr-11-1159pm",
+    "objectID": "index.html#homework-due-sun-apr-14-1159pm",
+    "href": "index.html#homework-due-sun-apr-14-1159pm",
     "title": "Today’s Agenda",
-    "section": "Homework Due Thu Apr 11 11:59pm",
-    "text": "Homework Due Thu Apr 11 11:59pm\n\n\n\n\n\n\n\n\n\n\n\n\nComplete and submit Canvas: act_07",
+    "section": "Homework Due Sun Apr 14 11:59pm",
+    "text": "Homework Due Sun Apr 14 11:59pm\n\n\n\n\n\n\n\n\n\n\n\n\nRead Sections 5.0 - 5.1\n\n\nComplete and submit Canvas: RC_08",
     "crumbs": [
       "Daily agenda"
     ]
