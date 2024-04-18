@@ -13,3 +13,5 @@ The email subject line should contain "202 Regrade: Exam \#".
 In the body you must clearly state why you are requesting a re-grade.
 
 If a re-grade is requested I will grade the **entire exam** based on the rubric I defined to the grader. Meaning you should check your entire exam and make sure you did not "get away" with anything as **it is possible to end up with a lower grade**.
+
+Emails/exams will be looked at when I have time and can take up to a week.
