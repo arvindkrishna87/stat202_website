@@ -39,6 +39,8 @@ website:
         #   text: Final project
         - href: course-anu.qmd
           text: Accessible NU
+        - href: course-regrade.qmd
+          text: Re-grade Requests
         - section: "Additional Resources"
           contents:
           - href: course-syllabus.qmd

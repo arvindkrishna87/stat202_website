@@ -1,0 +1,15 @@
+---
+title: "Course Re-grade Policy"
+---
+
+## Exam Re-grade Policy
+
+Any regrade requests must be emailed to me (danielle.sass\@northwestern.edu) **within 1 week of grades being posted**. Any requests made after 1 week will not be considered.
+
+**Important:** If there is an issue with your exam (*ie: you didn't follow directions*), do NOT go into your Posit Cloud Exam. If records show you entered your Posit Cloud Exam outside of the exam time, no changes/modifications will be considered. If there is nothing wrong with your exam and your grade is correct then you are welcome to go into the Posit Cloud Exam to look at the questions.
+
+The email subject line should contain "202 Regrade: Exam \#".
+
+In the body you must clearly state why you are requesting a re-grade.
+
+If a re-grade is requested I will grade the **entire exam** based on the rubric I defined to the grader. Meaning you should check your entire exam and make sure you did not "get away" with anything as **it is possible to end up with a lower grade**.
