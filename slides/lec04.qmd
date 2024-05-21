@@ -28,7 +28,7 @@ library(dplyr)
 titanic <- Titanic |> 
   as_tibble() |> 
   select(Class, Sex, Age, Survived) |> 
-  mutate(Survived = factor(Survived, levels = c("No", "Yes"), labels = c(0,1)))
+  mutate(Survived = ifelse(Survived == "Yes", 1, 0) )
 ```
 
 ## Today's goals {background-image="images_horst/r_first_then.png" background-size="400px" background-opacity="50%" background-position="80% 50%"}

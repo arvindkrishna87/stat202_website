@@ -100,6 +100,7 @@ CONSOLE PANE one time code that does *not* appear in document can go here
 
 ::: columns
 ::: {.column width="32%"}
+````         
 ``` {{r}}
 #| message: false
 #| warning: false
@@ -107,6 +108,7 @@ CONSOLE PANE one time code that does *not* appear in document can go here
 #| echo: false
 #| include: false
 ```
+````
 :::
 
 ::: {.column width="68%"}

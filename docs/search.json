@@ -780,8 +780,8 @@
     "objectID": "slides/lec01.html#todays-goals",
     "href": "slides/lec01.html#todays-goals",
     "title": "Introducing R Studio  Preface - Chapter 1",
-    "section": "",
-    "text": "Change the yaml heading on a document\nCreate your first code chunk!\nLearn the code chunk settings\nAssign values to a variable\n\n\n\n\n\nArtwork by @allison_horst"
+    "section": "Today’s goals",
+    "text": "Today’s goals\n\n\n\n\nChange the yaml heading on a document\nCreate your first code chunk!\nLearn the code chunk settings\nAssign values to a variable\n\n\n\n\n\nArtwork by @allison_horst"
   },
   {
     "objectID": "slides/lec01.html#agenda",
@@ -795,7 +795,7 @@
     "href": "slides/lec01.html#rstudio-interface",
     "title": "Introducing R Studio  Preface - Chapter 1",
     "section": "RStudio interface",
-    "text": "RStudio interface\n\n\n\n\n\n. . .\n\n\ncode and text for report go here\n\n\n. . .\n\n\nstored variables and data shows up here\n\n\n. . .\n\n\nyour working directory project files are here\n\n\n. . .\n\n\nCONSOLE PANE one time code that does not appear in document can go here"
+    "text": "RStudio interface\n\n\n\n\n\n\n\n\ncode and text for report go here\n\n\n\n\n\n\nstored variables and data shows up here\n\n\n\n\n\n\nyour working directory project files are here\n\n\n\n\n\n\nCONSOLE PANE one time code that does not appear in document can go here"
   },
   {
     "objectID": "slides/lec01.html#useful-buttons",
@@ -809,7 +809,7 @@
     "href": "slides/lec01.html#useful-code-chunk-settings",
     "title": "Introducing R Studio  Preface - Chapter 1",
     "section": "Useful code chunk settings",
-    "text": "Useful code chunk settings\n\n\n```{r}\n#| message: false\n#| warning: false\n#| eval: false\n#| echo: false\n#| include: false\n```\n\n\nmessage: false prevents messages from appearing in knitted doc\nwarning: false prevents warnings from appearing in knitted doc\n\n\n\n\neval: false includes the code chunk in the knitted document but prevents the code chunk from being run\necho: false prevents code itself from printing but includes the results of the code\ninclude: false prevents code and its results from printing but still runs the code when knitted"
+    "text": "Useful code chunk settings\n\n\n``` {{r}}\n#| message: false\n#| warning: false\n#| eval: false\n#| echo: false\n#| include: false\n```\n\n\nmessage: false prevents messages from appearing in knitted doc\nwarning: false prevents warnings from appearing in knitted doc\n\n\n\n\neval: false includes the code chunk in the knitted document but prevents the code chunk from being run\necho: false prevents code itself from printing but includes the results of the code\ninclude: false prevents code and its results from printing but still runs the code when knitted"
   },
   {
     "objectID": "course-syllabus-attendance.html",
@@ -1074,8 +1074,8 @@
     "objectID": "slides/lec02.html#todays-goals",
     "href": "slides/lec02.html#todays-goals",
     "title": "Data Visualization  Sections 2.0 - 2.3",
-    "section": "",
-    "text": "Create a scatterplot\nProperly describe a scatterplot\nChange aesthetics such as color and shape in your plot\nSolve overplotting issues\n\n\n\n\n\nArtwork by @allison_horst"
+    "section": "Today’s goals",
+    "text": "Today’s goals\n\n\n\n\nCreate a scatterplot\nProperly describe a scatterplot\nChange aesthetics such as color and shape in your plot\nSolve overplotting issues\n\n\n\n\n\nArtwork by @allison_horst"
   },
   {
     "objectID": "slides/lec02.html#the-grammar-of-graphics",
@@ -1089,7 +1089,7 @@
     "href": "slides/lec02.html#ng1-scatterplots",
     "title": "Data Visualization  Sections 2.0 - 2.3",
     "section": "5NG#1: Scatterplots",
-    "text": "5NG#1: Scatterplots\n\nScatterplots allow you to visualize the relationship between 2 numerical variables.\n\n. . .\nScatterplot syntax in R:\n\nggplot(data= my_data, mapping = aes(x = var1, y = var2)) +\n  geom_point()\n\n\n. . .\nScatterplot language: Construct a scatterplot of Y by X."
+    "text": "5NG#1: Scatterplots\n\nScatterplots allow you to visualize the relationship between 2 numerical variables.\n\n\nScatterplot syntax in R:\n\nggplot(data= my_data, mapping = aes(x = var1, y = var2)) +\n  geom_point()\n\n\n\n\nScatterplot language: Construct a scatterplot of Y by X."
   },
   {
     "objectID": "slides/lec02.html#ng1-scatterplots-1",
@@ -1158,15 +1158,15 @@
     "objectID": "slides/lec04.html#todays-goals",
     "href": "slides/lec04.html#todays-goals",
     "title": "Data Visualization  Sections 2.7 - 2.9",
-    "section": "",
-    "text": "Create a boxplot\nCreate a barplot\nProperly describe a boxplot and barplot\nDisplay barplots in various ways by category\n\n\n\n\n\nArtwork by @allison_horst"
+    "section": "Today’s goals",
+    "text": "Today’s goals\n\n\n\n\nCreate a boxplot\nCreate a barplot\nProperly describe a boxplot and barplot\nDisplay barplots in various ways by category\n\n\n\n\n\nArtwork by @allison_horst"
   },
   {
     "objectID": "slides/lec04.html#ng4-boxplots",
     "href": "slides/lec04.html#ng4-boxplots",
     "title": "Data Visualization  Sections 2.7 - 2.9",
     "section": "5NG#4: Boxplots",
-    "text": "5NG#4: Boxplots\n\n\nA boxplot is used to visualize the distribution of a single numerical variable.\n\n. . .\n\nGrouped boxplots are particularly useful for comparing the distribution of a numerical variable across a categorical variable. ie: shows the relationship between a numerical and a categorical variable. \n\n\n. . .\nBoxplot syntax in R:\n\nggplot(data= my_data, aes(x = (optional categorical variable),  y = var1)) +\n  geom_boxplot()\n\nIf you switch x and y, it will just change the orientation of the boxplot (personal preference)."
+    "text": "5NG#4: Boxplots\n\n\nA boxplot is used to visualize the distribution of a single numerical variable.\n\n\n\nGrouped boxplots are particularly useful for comparing the distribution of a numerical variable across a categorical variable. ie: shows the relationship between a numerical and a categorical variable. \n\n\n\n\nBoxplot syntax in R:\n\nggplot(data= my_data, aes(x = (optional categorical variable),  y = var1)) +\n  geom_boxplot()\n\nIf you switch x and y, it will just change the orientation of the boxplot (personal preference)."
   },
   {
     "objectID": "slides/lec04.html#ng4-boxplots-1",
@@ -1180,14 +1180,14 @@
     "href": "slides/lec04.html#binary-variables",
     "title": "Data Visualization  Sections 2.7 - 2.9",
     "section": "Binary Variables",
-    "text": "Binary Variables\n Consider the titanic dataset, which contains information about passengers on the titanic. If a passenger survived, then the variable Survived = 1. \n\ntitanic %&gt;% \n  glimpse()\n\nRows: 32\nColumns: 4\n$ Class    &lt;chr&gt; \"1st\", \"2nd\", \"3rd\", \"Crew\", \"1st\", \"2nd\", \"3rd\", \"Crew\", \"1s…\n$ Sex      &lt;chr&gt; \"Male\", \"Male\", \"Male\", \"Male\", \"Female\", \"Female\", \"Female\",…\n$ Age      &lt;chr&gt; \"Child\", \"Child\", \"Child\", \"Child\", \"Child\", \"Child\", \"Child\"…\n$ Survived &lt;fct&gt; 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1…\n\n\n. . .\n Is Survived a categorical or numerical variable?\n. . .\nR will read in numerical columns as “numbers” even though these numbers are supposed to represent “categories”.\n. . .\nTo fix this we need to use the factor() function.\nTyping factor(Survived) would turn the variable into a “factor”."
+    "text": "Binary Variables\n Consider the titanic dataset, which contains information about passengers on the titanic. If a passenger survived, then the variable Survived = 1. \n\ntitanic %&gt;% \n  glimpse()\n\nRows: 32\nColumns: 4\n$ Class    &lt;chr&gt; \"1st\", \"2nd\", \"3rd\", \"Crew\", \"1st\", \"2nd\", \"3rd\", \"Crew\", \"1s…\n$ Sex      &lt;chr&gt; \"Male\", \"Male\", \"Male\", \"Male\", \"Female\", \"Female\", \"Female\",…\n$ Age      &lt;chr&gt; \"Child\", \"Child\", \"Child\", \"Child\", \"Child\", \"Child\", \"Child\"…\n$ Survived &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1…\n\n\n\n Is Survived a categorical or numerical variable?\n\n\nR will read in numerical columns as “numbers” even though these numbers are supposed to represent “categories”.\n\n\nTo fix this we need to use the factor() function.\nTyping factor(Survived) would turn the variable into a “factor”."
   },
   {
     "objectID": "slides/lec04.html#ng5-barplots",
     "href": "slides/lec04.html#ng5-barplots",
     "title": "Data Visualization  Sections 2.7 - 2.9",
     "section": "5NG#5: Barplots",
-    "text": "5NG#5: Barplots\nA barplot is used to visualize the distribution (frequencies) of a single categorical variable.\n. . .\n\ngeom_bar() is used when we have the raw data and counting how many observations are in each category has to be done (list not yet counted).\n\n. . .\n\ngeom_col() is used when we directly have counts of each category in our dataset (pre-counted).\n\n. . .\nBarplot syntax in R:\n\nggplot(data= my_data, aes(x = var1)) +\n  geom_bar()"
+    "text": "5NG#5: Barplots\nA barplot is used to visualize the distribution (frequencies) of a single categorical variable.\n\n\ngeom_bar() is used when we have the raw data and counting how many observations are in each category has to be done (list not yet counted).\n\n\n\n\ngeom_col() is used when we directly have counts of each category in our dataset (pre-counted).\n\n\n\nBarplot syntax in R:\n\nggplot(data= my_data, aes(x = var1)) +\n  geom_bar()"
   },
   {
     "objectID": "slides/lec04.html#ng5-barplots-continued",
