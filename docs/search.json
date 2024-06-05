@@ -998,14 +998,14 @@
     "href": "course-project.html",
     "title": "Final Project",
     "section": "",
-    "text": "The final project is to be completed in groups of 3-6. Why? 1) Group work and collaboration is a good life skill. 2) There is no possible way we can grade 150 projects by the time grades are due.\nThe final project is due on Sunday March 10th 11:59pm. Groups are expected to submit their project electronically to Canvas, similar to how you submit your work for daily activities. You will type your project directly into a qmd file and render an html document. You should submit your .html file (and dataset if you chose one other than the one I provided). Only ONE person from the group needs to submit the project. Make sure everyone’s name is on the project. Look at your rendered document before submitting - your project will be graded as it appears in the submission.\nThis should read as a report! The project should be in paragraphs and complete sentences within the context of your dataset when appropriate. Do not bold or italicize your entire paper. Do not begin a section with code, you should introduce context before showing graphics/code. Students are expected to also show their work (i.e., include your R code). Your target audience is the grader and myself, we want to see your code and the output of your code."
+    "text": "The final project is to be completed in groups of 3-6. Why? 1) Group work and collaboration is a good life skill. 2) There is no possible way we can grade 150 projects by the time grades are due.\nThe final project is due on Sunday June 2nd 11:59pm. Groups are expected to submit their project electronically to Canvas, similar to how you submit your work for daily activities. You will type your project directly into a qmd file and render an html document. You should submit your .html file (and dataset if you chose one other than the one I provided). Only ONE person from the group needs to submit the project. Make sure everyone’s name is on the project. Look at your rendered document before submitting - your project will be graded as it appears in the submission.\nThis should read as a report! The project should be in paragraphs and complete sentences within the context of your dataset when appropriate. Do not bold or italicize your entire paper. Do not begin a section with code, you should introduce context before showing graphics/code. Students are expected to also show their work (i.e., include your R code). Your target audience is the grader and myself, we want to see your code and the output of your code."
   },
   {
     "objectID": "course-project.html#choose-a-group",
     "href": "course-project.html#choose-a-group",
     "title": "Final Project",
     "section": "Choose a Group",
-    "text": "Choose a Group\nYou must join your group on Canvas! Grades are linked to these groups - I will not hunt you down. To get a grade you must be in a group. This is 10% of your grade, you do not want a 0 for the project. On Canvas go to the People tab, and select Final Project Group to add yourself to a group.\nEveryone in your group must agree to be in your group. I should not be getting emails stating “Jane Doe is in my group and we don’t know who that is”. If you do not know anyone in the class, Groups 1 - 5 are titled “Random Join”. Anyone can join them. You can communicate with your group through the Canvas group, make a group on Campuswire, or exchange email.\nThe most effective ways groups have found to work together is by creating a Google drive document that members can copy/paste code into to share and jointly edit the report. It is very obvious when groups have a single student take a section of the project rather than working collaboratively, those groups tend to do poorly on the project."
+    "text": "Choose a Group\nYou must join your group on Canvas! Grades are linked to these groups - I will not hunt you down. To get a grade you must be in a group. This is 10% of your grade, you do not want a 0 for the project. On Canvas go to the People tab, and select Final Project Group to add yourself to a group.\nEveryone in your group must agree to be in your group. I should not be getting emails stating “Jane Doe is in my group and we don’t know who that is”. If you do not know anyone in the class, Groups 1 - 8 are titled “Random Join”. Anyone can join them. You can communicate with your group through the Canvas group, make a group on Campuswire, or exchange email.\nThe most effective ways groups have found to work together is by creating a Google drive document that members can copy/paste code into to share and jointly edit the report. It is very obvious when groups have a single student take a section of the project rather than working collaboratively, those groups tend to do poorly on the project."
   },
   {
     "objectID": "course-project.html#choose-a-dataset",
@@ -2076,7 +2076,7 @@
     "href": "index.html#take-exam",
     "title": "Today’s Agenda",
     "section": "Take Exam",
-    "text": "Take Exam\nYou can either take the exam Tuesday 3/12 at 5:30pm central (exam must be submitted before 6:30pm or your ANU time or it will not be graded) or Friday 3/15 at 9am central (exam must be submitted before 10am or your ANU time or it will not be graded)\n\n\nRetake Exam 1\nRetake Exam 2\nRetake Exam 3"
+    "text": "Take Exam\nWednesday 6/5 at 12pm central (exam must be submitted before 1pm or your ANU time or it will not be graded)\n\n\nRetake Exam 1\nRetake Exam 2\nRetake Exam 3"
   },
   {
     "objectID": "index.html#submit-exam",
@@ -2118,7 +2118,7 @@
     "href": "index-main.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda"
+    "text": "Agenda\n\n\n\n\n\n\n  \n  \n    Daily activity: Remote on Zoom"
   },
   {
     "objectID": "index-main.html#homework-due-mon-mar-11-1159pm",
@@ -2224,5 +2224,19 @@
     "title": "Today’s Agenda",
     "section": "Homework Due Tue Apr 30 11:59pm",
     "text": "Homework Due Tue Apr 30 11:59pm\n\n\n\n\n\n\n  \n  \n    Read Sections 9.0 - 9.1"
+  },
+  {
+    "objectID": "index-main.html#class-wed-jun-05",
+    "href": "index-main.html#class-wed-jun-05",
+    "title": "Today’s Agenda",
+    "section": "Class: Wed Jun 05",
+    "text": "Class: Wed Jun 05"
+  },
+  {
+    "objectID": "index-main.html#homework-due-thu-jun-06-1159pm",
+    "href": "index-main.html#homework-due-thu-jun-06-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Thu Jun 06 11:59pm",
+    "text": "Homework Due Thu Jun 06 11:59pm"
   }
 ]

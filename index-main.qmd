@@ -1,0 +1,165 @@
+---
+title: "Today's Agenda"
+editor_options: 
+  chunk_output_type: console
+execute:
+  message: false
+  warning: false
+  echo: false
+  
+from: markdown+emoji
+---
+
+<!-- ::: callout-important -->
+<!-- [Practice Exam 2](https://posit.cloud/spaces/321338/content/5176503) and [solution](/course-solutions.html) video are posted. (Solution video might have some questions from Section 9.1 that you can ignore). -->
+
+<!-- Exam 2 is Friday Feb 9th during class. -->
+
+<!-- ::: -->
+
+<!-- ::: callout-important -->
+<!-- Please complete [Course Survey 3](https://canvas.northwestern.edu/courses/204767/quizzes/225307) by Friday March 8th. It is worth 1 participation point. -->
+
+<!-- ::: -->
+
+```{r}
+#library(tidyverse)
+library(dplyr)
+library(purrr)
+library(fontawesome)
+library(gt)
+
+fontawesome::fa_html_dependency()
+
+today_ymd <- Sys.Date()
+today <- format(today_ymd,"%a %b %d")
+
+
+agenda_final <- read.csv("documents/agenda_final.csv")%>% 
+  mutate(time = today_ymd - as.Date(date_ymd) )
+
+val <- ifelse(max(agenda_final$time)<0,
+              max(agenda_final$time),
+              min(agenda_final$time[agenda_final$time>=0]) )
+
+
+agenda_today <- agenda_final %>% filter(time == val)
+
+```
+
+## [Class: `r agenda_today$Date`]{style="color: #4E2A84;"}
+
+```{r}
+agenda_today %>% 
+  select(callout) %>% 
+  mutate(callout = ifelse(callout != "", map(paste0(callout), glue::glue), "NA")) %>% 
+  t() %>% 
+  as.data.frame() %>% 
+  filter(V1 != "NA") %>% 
+  filter(V1 != "") %>% 
+  gt() %>% 
+  fmt_markdown(columns = c(V1) )%>%
+  cols_align(align = "left") %>% 
+  tab_options(column_labels.hidden = TRUE,
+              table.align = "left",
+              table_body.border.top.color = "white",
+              table_body.border.bottom.color = "white",
+              table_body.hlines.color = "white",
+              table.width = pct(100))
+```
+
+## Prepare
+
+```{r}
+agenda_today %>% 
+  select(Reading) %>% 
+  mutate(Reading = ifelse(Reading!= "", map(paste0("Read ", Reading), glue::glue), "NA")) %>% 
+  t() %>% 
+  as.data.frame() %>% 
+  filter(V1 != "NA") %>% 
+  filter(V1 != "") %>% 
+  gt() %>% 
+  fmt_markdown(columns = c(V1) )%>%
+  cols_align(align = "left") %>% 
+  tab_options(column_labels.hidden = TRUE,
+              table.align = "left",
+              table_body.border.top.color = "white",
+              table_body.border.bottom.color = "white",
+              table_body.hlines.color = "white",
+              table.width = pct(100),
+              quarto.disable_processing = TRUE)
+```
+
+<br>
+
+## Participate
+
+::: columns
+::: {.column width="50%"}
+<!-- **Section 20: 9am** -->
+
+<https://ahaslides.com/SASS>
+
+![](images/qr_SASS.png){height="1in"}
+:::
+
+:::
+<br>
+
+## Agenda
+
+```{r}
+agenda_today %>% 
+  select(agenda1, agenda2, agenda3, agenda4, agenda5, Slides, Activity) %>% 
+  mutate(Slides = ifelse(Slides != "", map(paste0("Section notes: ", Slides), glue::glue), "NA"),
+         Activity = ifelse(Activity != "", map(paste0("Daily activity: ", Activity), glue::glue), "NA"),
+         agenda1 = map(agenda1, glue::glue),
+         agenda2 = map(agenda2, glue::glue),
+         agenda3 = map(agenda3, glue::glue),
+         agenda4 = map(agenda4, glue::glue),
+         agenda5 = map(agenda5, glue::glue)) %>% 
+  t() %>% 
+  as.data.frame() %>% 
+  filter(V1 != "NA") %>% 
+  filter(V1 != "") %>% 
+  gt() %>% 
+  fmt_markdown(columns = c(V1) )%>%
+  cols_align(align = "left") %>% 
+  tab_options(column_labels.hidden = TRUE,
+              table.align = "left",
+              table_body.border.top.color = "white",
+              table_body.border.bottom.color = "white",
+              table_body.hlines.color = "white",
+              table.width = pct(100))
+
+```
+
+## Homework Due `r agenda_today$due` 11:59pm
+
+```{r}
+agenda_today %>% 
+  select(submit_act,reading_hw, Tutorial) %>% 
+  mutate(submit_act = ifelse(submit_act !="", map(paste0("Complete and submit ", submit_act), glue::glue), "NA"), 
+         reading_hw = ifelse(reading_hw != "", map(paste0("Read ", reading_hw), glue::glue), "NA"),
+         Tutorial = ifelse(Tutorial != "", map(paste0("Complete and submit ", Tutorial), glue::glue), "NA") ) %>% 
+  t() %>% 
+  as.data.frame() %>% 
+  filter(V1 != "NA") %>% 
+  filter(V1 != "") %>% 
+  gt() %>% 
+  fmt_markdown(columns = c(V1) )%>%
+  cols_align(align = "left") %>% 
+  tab_options(column_labels.hidden = TRUE,
+              table.align = "left",
+              table_body.border.top.color = "white",
+              table_body.border.bottom.color = "white",
+              table_body.hlines.color = "white",
+              table.width = pct(100))
+
+```
+
+<br><br>
+
+```{r echo = FALSE}
+knitr::knit_exit()
+```
