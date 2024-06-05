@@ -1116,7 +1116,7 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 39.651, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4172.257 4617.743\nsample estimates:\nmean of x \n     4395"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 35.859, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3930.171 4396.829\nsample estimates:\nmean of x \n   4163.5"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
@@ -1738,51 +1738,41 @@
     ]
   },
   {
-    "objectID": "index.html#class-wed-jun-05",
-    "href": "index.html#class-wed-jun-05",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Today’s Agenda",
-    "section": "Class: Wed Jun 05",
-    "text": "Class: Wed Jun 05",
+    "section": "",
+    "text": "The exam retake is online via Zoom https://northwestern.zoom.us/j/99863923813\n\nYou must have your camera on and appropriately positioned or you will receive a 0.\nYour submission time on Canvas must be prior to logging off Zoom.\nANU students attend at same time and location (your end time will be adjusted for your accommodation)\nStrongly suggest arriving a few minutes early - if you are late due to technical issues that is your exam time.\n\nYou must have a Northwestern Zoom account to join https://northwestern.zoom.us/ You cannot be logged into a personal account or an account through a different university.",
     "crumbs": [
       "Daily agenda"
     ]
   },
   {
-    "objectID": "index.html#prepare",
-    "href": "index.html#prepare",
+    "objectID": "index.html#class-finals-week",
+    "href": "index.html#class-finals-week",
     "title": "Today’s Agenda",
-    "section": "Prepare",
-    "text": "Prepare",
+    "section": "",
+    "text": "The exam retake is online via Zoom https://northwestern.zoom.us/j/99863923813\n\nYou must have your camera on and appropriately positioned or you will receive a 0.\nYour submission time on Canvas must be prior to logging off Zoom.\nANU students attend at same time and location (your end time will be adjusted for your accommodation)\nStrongly suggest arriving a few minutes early - if you are late due to technical issues that is your exam time.\n\nYou must have a Northwestern Zoom account to join https://northwestern.zoom.us/ You cannot be logged into a personal account or an account through a different university.",
     "crumbs": [
       "Daily agenda"
     ]
   },
   {
-    "objectID": "index.html#participate",
-    "href": "index.html#participate",
+    "objectID": "index.html#take-exam",
+    "href": "index.html#take-exam",
     "title": "Today’s Agenda",
-    "section": "Participate",
-    "text": "Participate\n\n\n\nhttps://ahaslides.com/SASS",
+    "section": "Take Exam",
+    "text": "Take Exam\nWednesday 6/5 at 12pm central (exam must be submitted before 1pm or your ANU time or it will not be graded)\n\n\nRetake Exam 1\nRetake Exam 2\nRetake Exam 3",
     "crumbs": [
       "Daily agenda"
     ]
   },
   {
-    "objectID": "index.html#agenda",
-    "href": "index.html#agenda",
+    "objectID": "index.html#submit-exam",
+    "href": "index.html#submit-exam",
     "title": "Today’s Agenda",
-    "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n\n\n\n\n\nDaily activity: Remote on Zoom",
-    "crumbs": [
-      "Daily agenda"
-    ]
-  },
-  {
-    "objectID": "index.html#homework-due-thu-jun-06-1159pm",
-    "href": "index.html#homework-due-thu-jun-06-1159pm",
-    "title": "Today’s Agenda",
-    "section": "Homework Due Thu Jun 06 11:59pm",
-    "text": "Homework Due Thu Jun 06 11:59pm",
+    "section": "Submit Exam",
+    "text": "Submit Exam\n\nSubmit Exam 1 Retake\nSubmit Exam 2 Retake\nSubmit Exam 3 Retake",
     "crumbs": [
       "Daily agenda"
     ]
@@ -1960,32 +1950,39 @@
     ]
   },
   {
-    "objectID": "index-final.html",
-    "href": "index-final.html",
+    "objectID": "index-main.html#class-wed-jun-05",
+    "href": "index-main.html#class-wed-jun-05",
     "title": "Today’s Agenda",
-    "section": "",
-    "text": "The exam retake is online via Zoom https://northwestern.zoom.us/j/99863923813\n\nYou must have your camera on and appropriately positioned or you will receive a 0.\nYour submission time on Canvas must be prior to logging off Zoom.\nANU students attend at same time and location (your end time will be adjusted for your accommodation)\nStrongly suggest arriving a few minutes early - if you are late due to technical issues that is your exam time.\n\nYou must have a Northwestern Zoom account to join https://northwestern.zoom.us/ You cannot be logged into a personal account or an account through a different university."
+    "section": "Class: Wed Jun 05",
+    "text": "Class: Wed Jun 05"
   },
   {
-    "objectID": "index-final.html#class-finals-week",
-    "href": "index-final.html#class-finals-week",
+    "objectID": "index-main.html#prepare",
+    "href": "index-main.html#prepare",
     "title": "Today’s Agenda",
-    "section": "",
-    "text": "The exam retake is online via Zoom https://northwestern.zoom.us/j/99863923813\n\nYou must have your camera on and appropriately positioned or you will receive a 0.\nYour submission time on Canvas must be prior to logging off Zoom.\nANU students attend at same time and location (your end time will be adjusted for your accommodation)\nStrongly suggest arriving a few minutes early - if you are late due to technical issues that is your exam time.\n\nYou must have a Northwestern Zoom account to join https://northwestern.zoom.us/ You cannot be logged into a personal account or an account through a different university."
+    "section": "Prepare",
+    "text": "Prepare"
   },
   {
-    "objectID": "index-final.html#take-exam",
-    "href": "index-final.html#take-exam",
+    "objectID": "index-main.html#participate",
+    "href": "index-main.html#participate",
     "title": "Today’s Agenda",
-    "section": "Take Exam",
-    "text": "Take Exam\nYou can either take the exam Tuesday 3/12 at 5:30pm central (exam must be submitted before 6:30pm or your ANU time or it will not be graded) or Friday 3/15 at 9am central (exam must be submitted before 10am or your ANU time or it will not be graded)\n\n\nRetake Exam 1\nRetake Exam 2\nRetake Exam 3"
+    "section": "Participate",
+    "text": "Participate\n\n\n\nhttps://ahaslides.com/SASS"
   },
   {
-    "objectID": "index-final.html#submit-exam",
-    "href": "index-final.html#submit-exam",
+    "objectID": "index-main.html#agenda",
+    "href": "index-main.html#agenda",
     "title": "Today’s Agenda",
-    "section": "Submit Exam",
-    "text": "Submit Exam\n\nSubmit Exam 1 Retake\nSubmit Exam 2 Retake\nSubmit Exam 3 Retake"
+    "section": "Agenda",
+    "text": "Agenda\n\n\n\n\n\n\n\n\n\n\n\nDaily activity: Remote on Zoom"
+  },
+  {
+    "objectID": "index-main.html#homework-due-thu-jun-06-1159pm",
+    "href": "index-main.html#homework-due-thu-jun-06-1159pm",
+    "title": "Today’s Agenda",
+    "section": "Homework Due Thu Jun 06 11:59pm",
+    "text": "Homework Due Thu Jun 06 11:59pm"
   },
   {
     "objectID": "course-anu.html",

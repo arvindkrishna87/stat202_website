@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.555">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -44,7 +44,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -53,6 +59,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -70,12 +77,12 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Today’s Agenda</li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Today’s Agenda</li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
@@ -85,14 +92,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation docked overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="./index.html" class="sidebar-logo-link">
       <img src="./images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main">
-    <a href="https://campuswire.com/c/G94567F0C" rel="" title="Campuswire" class="quarto-navigation-tool px-1" aria-label="Campuswire"><i class="bi bi-person-fill"></i></a>
-    <a href="https://northwestern.zoom.us/j/99863923813" rel="" title="Zoom" class="quarto-navigation-tool px-1" aria-label="Zoom"><i class="bi bi-laptop"></i></a>
+    <a href="https://campuswire.com/c/G94567F0C" title="Campuswire" class="quarto-navigation-tool px-1" aria-label="Campuswire"><i class="bi bi-person-fill"></i></a>
+    <a href="https://northwestern.zoom.us/j/99863923813" title="Zoom" class="quarto-navigation-tool px-1" aria-label="Zoom"><i class="bi bi-laptop"></i></a>
 </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -124,6 +131,12 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="./course-anu.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Accessible NU</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./course-regrade.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Re-grade Requests</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -182,20 +195,20 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#class-sun-mar-10" id="toc-class-sun-mar-10" class="nav-link active" data-scroll-target="#class-sun-mar-10"><span style="color: #4E2A84;">Class: Sun Mar 10</span></a></li>
+  <li><a href="#class-wed-jun-05" id="toc-class-wed-jun-05" class="nav-link active" data-scroll-target="#class-wed-jun-05"><span style="color: #4E2A84;">Class: Wed Jun 05</span></a></li>
   <li><a href="#prepare" id="toc-prepare" class="nav-link" data-scroll-target="#prepare">Prepare</a></li>
   <li><a href="#participate" id="toc-participate" class="nav-link" data-scroll-target="#participate">Participate</a></li>
   <li><a href="#agenda" id="toc-agenda" class="nav-link" data-scroll-target="#agenda">Agenda</a></li>
-  <li><a href="#homework-due-mon-mar-11-1159pm" id="toc-homework-due-mon-mar-11-1159pm" class="nav-link" data-scroll-target="#homework-due-mon-mar-11-1159pm">Homework Due Mon Mar 11 11:59pm</a></li>
+  <li><a href="#homework-due-thu-jun-06-1159pm" id="toc-homework-due-thu-jun-06-1159pm" class="nav-link" data-scroll-target="#homework-due-thu-jun-06-1159pm">Homework Due Thu Jun 06 11:59pm</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/dsass1/stat202_website/edit/main/index-main.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/dsass1/stat202_website/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/dsass1/stat202_website/edit/main/index-main.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/dsass1/stat202_website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -215,52 +228,43 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <!-- ::: callout-important -->
 <!-- [Practice Exam 2](https://posit.cloud/spaces/321338/content/5176503) and [solution](/course-solutions.html) video are posted. (Solution video might have some questions from Section 9.1 that you can ignore). -->
 <!-- Exam 2 is Friday Feb 9th during class. -->
 <!-- ::: -->
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Please complete <a href="https://canvas.northwestern.edu/courses/204767/quizzes/225307">Course Survey 3</a> by Friday March 8th. It is worth 1 participation point.</p>
-</div>
-</div>
+<!-- ::: callout-important -->
+<!-- Please complete [Course Survey 3](https://canvas.northwestern.edu/courses/204767/quizzes/225307) by Friday March 8th. It is worth 1 participation point. -->
+<!-- ::: -->
 <div class="cell">
 <div class="cell-output-display">
 
 </div>
 </div>
-<section id="class-sun-mar-10" class="level2">
-<h2 class="anchored" data-anchor-id="class-sun-mar-10"><span style="color: #4E2A84;">Class: Sun Mar 10</span></h2>
+<section id="class-wed-jun-05" class="level2">
+<h2 class="anchored" data-anchor-id="class-wed-jun-05"><span style="color: #4E2A84;">Class: Wed Jun 05</span></h2>
 <div class="cell">
 <div class="cell-output-display">
-
-<div id="ujrkpwponh" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#ujrkpwponh table {
+<div id="ppijenofhh" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#ppijenofhh table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#ujrkpwponh thead, #ujrkpwponh tbody, #ujrkpwponh tfoot, #ujrkpwponh tr, #ujrkpwponh td, #ujrkpwponh th {
+#ppijenofhh thead, #ppijenofhh tbody, #ppijenofhh tfoot, #ppijenofhh tr, #ppijenofhh td, #ppijenofhh th {
   border-style: none;
 }
 
-#ujrkpwponh p {
+#ppijenofhh p {
   margin: 0;
   padding: 0;
 }
 
-#ujrkpwponh .gt_table {
+#ppijenofhh .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -286,12 +290,12 @@ Important
   border-left-color: #D3D3D3;
 }
 
-#ujrkpwponh .gt_caption {
+#ppijenofhh .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#ujrkpwponh .gt_title {
+#ppijenofhh .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -303,7 +307,7 @@ Important
   border-bottom-width: 0;
 }
 
-#ujrkpwponh .gt_subtitle {
+#ppijenofhh .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -315,7 +319,7 @@ Important
   border-top-width: 0;
 }
 
-#ujrkpwponh .gt_heading {
+#ppijenofhh .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -327,13 +331,13 @@ Important
   border-right-color: #D3D3D3;
 }
 
-#ujrkpwponh .gt_bottom_border {
+#ppijenofhh .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#ujrkpwponh .gt_col_headings {
+#ppijenofhh .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -348,7 +352,7 @@ Important
   border-right-color: #D3D3D3;
 }
 
-#ujrkpwponh .gt_col_heading {
+#ppijenofhh .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -368,7 +372,7 @@ Important
   overflow-x: hidden;
 }
 
-#ujrkpwponh .gt_column_spanner_outer {
+#ppijenofhh .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -380,15 +384,15 @@ Important
   padding-right: 4px;
 }
 
-#ujrkpwponh .gt_column_spanner_outer:first-child {
+#ppijenofhh .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#ujrkpwponh .gt_column_spanner_outer:last-child {
+#ppijenofhh .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#ujrkpwponh .gt_column_spanner {
+#ppijenofhh .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -400,11 +404,11 @@ Important
   width: 100%;
 }
 
-#ujrkpwponh .gt_spanner_row {
+#ppijenofhh .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#ujrkpwponh .gt_group_heading {
+#ppijenofhh .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -430,7 +434,7 @@ Important
   text-align: left;
 }
 
-#ujrkpwponh .gt_empty_group_heading {
+#ppijenofhh .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -445,15 +449,15 @@ Important
   vertical-align: middle;
 }
 
-#ujrkpwponh .gt_from_md > :first-child {
+#ppijenofhh .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ujrkpwponh .gt_from_md > :last-child {
+#ppijenofhh .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ujrkpwponh .gt_row {
+#ppijenofhh .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -472,7 +476,7 @@ Important
   overflow-x: hidden;
 }
 
-#ujrkpwponh .gt_stub {
+#ppijenofhh .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -485,7 +489,7 @@ Important
   padding-right: 5px;
 }
 
-#ujrkpwponh .gt_stub_row_group {
+#ppijenofhh .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -499,15 +503,15 @@ Important
   vertical-align: top;
 }
 
-#ujrkpwponh .gt_row_group_first td {
+#ppijenofhh .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#ujrkpwponh .gt_row_group_first th {
+#ppijenofhh .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#ujrkpwponh .gt_summary_row {
+#ppijenofhh .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -517,16 +521,16 @@ Important
   padding-right: 5px;
 }
 
-#ujrkpwponh .gt_first_summary_row {
+#ppijenofhh .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#ujrkpwponh .gt_first_summary_row.thick {
+#ppijenofhh .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#ujrkpwponh .gt_last_summary_row {
+#ppijenofhh .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -536,7 +540,7 @@ Important
   border-bottom-color: #D3D3D3;
 }
 
-#ujrkpwponh .gt_grand_summary_row {
+#ppijenofhh .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -546,7 +550,7 @@ Important
   padding-right: 5px;
 }
 
-#ujrkpwponh .gt_first_grand_summary_row {
+#ppijenofhh .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -556,7 +560,7 @@ Important
   border-top-color: #D3D3D3;
 }
 
-#ujrkpwponh .gt_last_grand_summary_row_top {
+#ppijenofhh .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -566,11 +570,11 @@ Important
   border-bottom-color: #D3D3D3;
 }
 
-#ujrkpwponh .gt_striped {
+#ppijenofhh .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#ujrkpwponh .gt_table_body {
+#ppijenofhh .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #FFFFFF;
@@ -579,7 +583,7 @@ Important
   border-bottom-color: #FFFFFF;
 }
 
-#ujrkpwponh .gt_footnotes {
+#ppijenofhh .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -593,7 +597,7 @@ Important
   border-right-color: #D3D3D3;
 }
 
-#ujrkpwponh .gt_footnote {
+#ppijenofhh .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -602,7 +606,7 @@ Important
   padding-right: 5px;
 }
 
-#ujrkpwponh .gt_sourcenotes {
+#ppijenofhh .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -616,7 +620,7 @@ Important
   border-right-color: #D3D3D3;
 }
 
-#ujrkpwponh .gt_sourcenote {
+#ppijenofhh .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -624,63 +628,63 @@ Important
   padding-right: 5px;
 }
 
-#ujrkpwponh .gt_left {
+#ppijenofhh .gt_left {
   text-align: left;
 }
 
-#ujrkpwponh .gt_center {
+#ppijenofhh .gt_center {
   text-align: center;
 }
 
-#ujrkpwponh .gt_right {
+#ppijenofhh .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ujrkpwponh .gt_font_normal {
+#ppijenofhh .gt_font_normal {
   font-weight: normal;
 }
 
-#ujrkpwponh .gt_font_bold {
+#ppijenofhh .gt_font_bold {
   font-weight: bold;
 }
 
-#ujrkpwponh .gt_font_italic {
+#ppijenofhh .gt_font_italic {
   font-style: italic;
 }
 
-#ujrkpwponh .gt_super {
+#ppijenofhh .gt_super {
   font-size: 65%;
 }
 
-#ujrkpwponh .gt_footnote_marks {
+#ppijenofhh .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#ujrkpwponh .gt_asterisk {
+#ppijenofhh .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#ujrkpwponh .gt_indent_1 {
+#ppijenofhh .gt_indent_1 {
   text-indent: 5px;
 }
 
-#ujrkpwponh .gt_indent_2 {
+#ppijenofhh .gt_indent_2 {
   text-indent: 10px;
 }
 
-#ujrkpwponh .gt_indent_3 {
+#ppijenofhh .gt_indent_3 {
   text-indent: 15px;
 }
 
-#ujrkpwponh .gt_indent_4 {
+#ppijenofhh .gt_indent_4 {
   text-indent: 20px;
 }
 
-#ujrkpwponh .gt_indent_5 {
+#ppijenofhh .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -698,24 +702,23 @@ Important
 <h2 class="anchored" data-anchor-id="prepare">Prepare</h2>
 <div class="cell">
 <div class="cell-output-display">
-
-<div id="cfisgulnrl" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#cfisgulnrl table {
+<div id="ybgrgafauu" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#ybgrgafauu table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#cfisgulnrl thead, #cfisgulnrl tbody, #cfisgulnrl tfoot, #cfisgulnrl tr, #cfisgulnrl td, #cfisgulnrl th {
+#ybgrgafauu thead, #ybgrgafauu tbody, #ybgrgafauu tfoot, #ybgrgafauu tr, #ybgrgafauu td, #ybgrgafauu th {
   border-style: none;
 }
 
-#cfisgulnrl p {
+#ybgrgafauu p {
   margin: 0;
   padding: 0;
 }
 
-#cfisgulnrl .gt_table {
+#ybgrgafauu .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -741,12 +744,12 @@ Important
   border-left-color: #D3D3D3;
 }
 
-#cfisgulnrl .gt_caption {
+#ybgrgafauu .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#cfisgulnrl .gt_title {
+#ybgrgafauu .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -758,7 +761,7 @@ Important
   border-bottom-width: 0;
 }
 
-#cfisgulnrl .gt_subtitle {
+#ybgrgafauu .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -770,7 +773,7 @@ Important
   border-top-width: 0;
 }
 
-#cfisgulnrl .gt_heading {
+#ybgrgafauu .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -782,13 +785,13 @@ Important
   border-right-color: #D3D3D3;
 }
 
-#cfisgulnrl .gt_bottom_border {
+#ybgrgafauu .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#cfisgulnrl .gt_col_headings {
+#ybgrgafauu .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -803,7 +806,7 @@ Important
   border-right-color: #D3D3D3;
 }
 
-#cfisgulnrl .gt_col_heading {
+#ybgrgafauu .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -823,7 +826,7 @@ Important
   overflow-x: hidden;
 }
 
-#cfisgulnrl .gt_column_spanner_outer {
+#ybgrgafauu .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -835,15 +838,15 @@ Important
   padding-right: 4px;
 }
 
-#cfisgulnrl .gt_column_spanner_outer:first-child {
+#ybgrgafauu .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#cfisgulnrl .gt_column_spanner_outer:last-child {
+#ybgrgafauu .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#cfisgulnrl .gt_column_spanner {
+#ybgrgafauu .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -855,11 +858,11 @@ Important
   width: 100%;
 }
 
-#cfisgulnrl .gt_spanner_row {
+#ybgrgafauu .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#cfisgulnrl .gt_group_heading {
+#ybgrgafauu .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -885,7 +888,7 @@ Important
   text-align: left;
 }
 
-#cfisgulnrl .gt_empty_group_heading {
+#ybgrgafauu .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -900,15 +903,15 @@ Important
   vertical-align: middle;
 }
 
-#cfisgulnrl .gt_from_md > :first-child {
+#ybgrgafauu .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#cfisgulnrl .gt_from_md > :last-child {
+#ybgrgafauu .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#cfisgulnrl .gt_row {
+#ybgrgafauu .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -927,7 +930,7 @@ Important
   overflow-x: hidden;
 }
 
-#cfisgulnrl .gt_stub {
+#ybgrgafauu .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -940,7 +943,7 @@ Important
   padding-right: 5px;
 }
 
-#cfisgulnrl .gt_stub_row_group {
+#ybgrgafauu .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -954,15 +957,15 @@ Important
   vertical-align: top;
 }
 
-#cfisgulnrl .gt_row_group_first td {
+#ybgrgafauu .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#cfisgulnrl .gt_row_group_first th {
+#ybgrgafauu .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#cfisgulnrl .gt_summary_row {
+#ybgrgafauu .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -972,16 +975,16 @@ Important
   padding-right: 5px;
 }
 
-#cfisgulnrl .gt_first_summary_row {
+#ybgrgafauu .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#cfisgulnrl .gt_first_summary_row.thick {
+#ybgrgafauu .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#cfisgulnrl .gt_last_summary_row {
+#ybgrgafauu .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -991,7 +994,7 @@ Important
   border-bottom-color: #D3D3D3;
 }
 
-#cfisgulnrl .gt_grand_summary_row {
+#ybgrgafauu .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1001,7 +1004,7 @@ Important
   padding-right: 5px;
 }
 
-#cfisgulnrl .gt_first_grand_summary_row {
+#ybgrgafauu .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1011,7 +1014,7 @@ Important
   border-top-color: #D3D3D3;
 }
 
-#cfisgulnrl .gt_last_grand_summary_row_top {
+#ybgrgafauu .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1021,11 +1024,11 @@ Important
   border-bottom-color: #D3D3D3;
 }
 
-#cfisgulnrl .gt_striped {
+#ybgrgafauu .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#cfisgulnrl .gt_table_body {
+#ybgrgafauu .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #FFFFFF;
@@ -1034,7 +1037,7 @@ Important
   border-bottom-color: #FFFFFF;
 }
 
-#cfisgulnrl .gt_footnotes {
+#ybgrgafauu .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1048,7 +1051,7 @@ Important
   border-right-color: #D3D3D3;
 }
 
-#cfisgulnrl .gt_footnote {
+#ybgrgafauu .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1057,7 +1060,7 @@ Important
   padding-right: 5px;
 }
 
-#cfisgulnrl .gt_sourcenotes {
+#ybgrgafauu .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1071,7 +1074,7 @@ Important
   border-right-color: #D3D3D3;
 }
 
-#cfisgulnrl .gt_sourcenote {
+#ybgrgafauu .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1079,63 +1082,63 @@ Important
   padding-right: 5px;
 }
 
-#cfisgulnrl .gt_left {
+#ybgrgafauu .gt_left {
   text-align: left;
 }
 
-#cfisgulnrl .gt_center {
+#ybgrgafauu .gt_center {
   text-align: center;
 }
 
-#cfisgulnrl .gt_right {
+#ybgrgafauu .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#cfisgulnrl .gt_font_normal {
+#ybgrgafauu .gt_font_normal {
   font-weight: normal;
 }
 
-#cfisgulnrl .gt_font_bold {
+#ybgrgafauu .gt_font_bold {
   font-weight: bold;
 }
 
-#cfisgulnrl .gt_font_italic {
+#ybgrgafauu .gt_font_italic {
   font-style: italic;
 }
 
-#cfisgulnrl .gt_super {
+#ybgrgafauu .gt_super {
   font-size: 65%;
 }
 
-#cfisgulnrl .gt_footnote_marks {
+#ybgrgafauu .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#cfisgulnrl .gt_asterisk {
+#ybgrgafauu .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#cfisgulnrl .gt_indent_1 {
+#ybgrgafauu .gt_indent_1 {
   text-indent: 5px;
 }
 
-#cfisgulnrl .gt_indent_2 {
+#ybgrgafauu .gt_indent_2 {
   text-indent: 10px;
 }
 
-#cfisgulnrl .gt_indent_3 {
+#ybgrgafauu .gt_indent_3 {
   text-indent: 15px;
 }
 
-#cfisgulnrl .gt_indent_4 {
+#ybgrgafauu .gt_indent_4 {
   text-indent: 20px;
 }
 
-#cfisgulnrl .gt_indent_5 {
+#ybgrgafauu .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -1165,24 +1168,23 @@ Important
 <h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
 <div class="cell">
 <div class="cell-output-display">
-
-<div id="rcisbnpvzo" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#rcisbnpvzo table {
+<div id="jorxxcfanv" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#jorxxcfanv table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#rcisbnpvzo thead, #rcisbnpvzo tbody, #rcisbnpvzo tfoot, #rcisbnpvzo tr, #rcisbnpvzo td, #rcisbnpvzo th {
+#jorxxcfanv thead, #jorxxcfanv tbody, #jorxxcfanv tfoot, #jorxxcfanv tr, #jorxxcfanv td, #jorxxcfanv th {
   border-style: none;
 }
 
-#rcisbnpvzo p {
+#jorxxcfanv p {
   margin: 0;
   padding: 0;
 }
 
-#rcisbnpvzo .gt_table {
+#jorxxcfanv .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1208,12 +1210,12 @@ Important
   border-left-color: #D3D3D3;
 }
 
-#rcisbnpvzo .gt_caption {
+#jorxxcfanv .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#rcisbnpvzo .gt_title {
+#jorxxcfanv .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1225,7 +1227,7 @@ Important
   border-bottom-width: 0;
 }
 
-#rcisbnpvzo .gt_subtitle {
+#jorxxcfanv .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1237,7 +1239,7 @@ Important
   border-top-width: 0;
 }
 
-#rcisbnpvzo .gt_heading {
+#jorxxcfanv .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1249,13 +1251,13 @@ Important
   border-right-color: #D3D3D3;
 }
 
-#rcisbnpvzo .gt_bottom_border {
+#jorxxcfanv .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#rcisbnpvzo .gt_col_headings {
+#jorxxcfanv .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1270,7 +1272,7 @@ Important
   border-right-color: #D3D3D3;
 }
 
-#rcisbnpvzo .gt_col_heading {
+#jorxxcfanv .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1290,7 +1292,7 @@ Important
   overflow-x: hidden;
 }
 
-#rcisbnpvzo .gt_column_spanner_outer {
+#jorxxcfanv .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1302,15 +1304,15 @@ Important
   padding-right: 4px;
 }
 
-#rcisbnpvzo .gt_column_spanner_outer:first-child {
+#jorxxcfanv .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#rcisbnpvzo .gt_column_spanner_outer:last-child {
+#jorxxcfanv .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#rcisbnpvzo .gt_column_spanner {
+#jorxxcfanv .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1322,11 +1324,11 @@ Important
   width: 100%;
 }
 
-#rcisbnpvzo .gt_spanner_row {
+#jorxxcfanv .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#rcisbnpvzo .gt_group_heading {
+#jorxxcfanv .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1352,7 +1354,7 @@ Important
   text-align: left;
 }
 
-#rcisbnpvzo .gt_empty_group_heading {
+#jorxxcfanv .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1367,15 +1369,15 @@ Important
   vertical-align: middle;
 }
 
-#rcisbnpvzo .gt_from_md > :first-child {
+#jorxxcfanv .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#rcisbnpvzo .gt_from_md > :last-child {
+#jorxxcfanv .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#rcisbnpvzo .gt_row {
+#jorxxcfanv .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1394,7 +1396,7 @@ Important
   overflow-x: hidden;
 }
 
-#rcisbnpvzo .gt_stub {
+#jorxxcfanv .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1407,7 +1409,7 @@ Important
   padding-right: 5px;
 }
 
-#rcisbnpvzo .gt_stub_row_group {
+#jorxxcfanv .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1421,15 +1423,15 @@ Important
   vertical-align: top;
 }
 
-#rcisbnpvzo .gt_row_group_first td {
+#jorxxcfanv .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#rcisbnpvzo .gt_row_group_first th {
+#jorxxcfanv .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#rcisbnpvzo .gt_summary_row {
+#jorxxcfanv .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1439,16 +1441,16 @@ Important
   padding-right: 5px;
 }
 
-#rcisbnpvzo .gt_first_summary_row {
+#jorxxcfanv .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#rcisbnpvzo .gt_first_summary_row.thick {
+#jorxxcfanv .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#rcisbnpvzo .gt_last_summary_row {
+#jorxxcfanv .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1458,7 +1460,7 @@ Important
   border-bottom-color: #D3D3D3;
 }
 
-#rcisbnpvzo .gt_grand_summary_row {
+#jorxxcfanv .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1468,7 +1470,7 @@ Important
   padding-right: 5px;
 }
 
-#rcisbnpvzo .gt_first_grand_summary_row {
+#jorxxcfanv .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1478,7 +1480,7 @@ Important
   border-top-color: #D3D3D3;
 }
 
-#rcisbnpvzo .gt_last_grand_summary_row_top {
+#jorxxcfanv .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1488,11 +1490,11 @@ Important
   border-bottom-color: #D3D3D3;
 }
 
-#rcisbnpvzo .gt_striped {
+#jorxxcfanv .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#rcisbnpvzo .gt_table_body {
+#jorxxcfanv .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #FFFFFF;
@@ -1501,7 +1503,7 @@ Important
   border-bottom-color: #FFFFFF;
 }
 
-#rcisbnpvzo .gt_footnotes {
+#jorxxcfanv .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1515,7 +1517,7 @@ Important
   border-right-color: #D3D3D3;
 }
 
-#rcisbnpvzo .gt_footnote {
+#jorxxcfanv .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1524,7 +1526,7 @@ Important
   padding-right: 5px;
 }
 
-#rcisbnpvzo .gt_sourcenotes {
+#jorxxcfanv .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1538,7 +1540,7 @@ Important
   border-right-color: #D3D3D3;
 }
 
-#rcisbnpvzo .gt_sourcenote {
+#jorxxcfanv .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1546,98 +1548,103 @@ Important
   padding-right: 5px;
 }
 
-#rcisbnpvzo .gt_left {
+#jorxxcfanv .gt_left {
   text-align: left;
 }
 
-#rcisbnpvzo .gt_center {
+#jorxxcfanv .gt_center {
   text-align: center;
 }
 
-#rcisbnpvzo .gt_right {
+#jorxxcfanv .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#rcisbnpvzo .gt_font_normal {
+#jorxxcfanv .gt_font_normal {
   font-weight: normal;
 }
 
-#rcisbnpvzo .gt_font_bold {
+#jorxxcfanv .gt_font_bold {
   font-weight: bold;
 }
 
-#rcisbnpvzo .gt_font_italic {
+#jorxxcfanv .gt_font_italic {
   font-style: italic;
 }
 
-#rcisbnpvzo .gt_super {
+#jorxxcfanv .gt_super {
   font-size: 65%;
 }
 
-#rcisbnpvzo .gt_footnote_marks {
+#jorxxcfanv .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#rcisbnpvzo .gt_asterisk {
+#jorxxcfanv .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#rcisbnpvzo .gt_indent_1 {
+#jorxxcfanv .gt_indent_1 {
   text-indent: 5px;
 }
 
-#rcisbnpvzo .gt_indent_2 {
+#jorxxcfanv .gt_indent_2 {
   text-indent: 10px;
 }
 
-#rcisbnpvzo .gt_indent_3 {
+#jorxxcfanv .gt_indent_3 {
   text-indent: 15px;
 }
 
-#rcisbnpvzo .gt_indent_4 {
+#jorxxcfanv .gt_indent_4 {
   text-indent: 20px;
 }
 
-#rcisbnpvzo .gt_indent_5 {
+#jorxxcfanv .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
-<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
-  
-  <tbody class="gt_table_body"></tbody>
-  
-  
+
+<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<colgroup>
+<col style="width: 100%">
+</colgroup>
+<tbody class="gt_table_body">
+<tr class="odd">
+<td class="gt_row gt_left" headers="V1"><p>Daily activity: Remote on Zoom</p></td>
+</tr>
+</tbody>
 </table>
+
 </div>
 </div>
 </div>
 </section>
-<section id="homework-due-mon-mar-11-1159pm" class="level2">
-<h2 class="anchored" data-anchor-id="homework-due-mon-mar-11-1159pm">Homework Due Mon Mar 11 11:59pm</h2>
+<section id="homework-due-thu-jun-06-1159pm" class="level2">
+<h2 class="anchored" data-anchor-id="homework-due-thu-jun-06-1159pm">Homework Due Thu Jun 06 11:59pm</h2>
 <div class="cell">
 <div class="cell-output-display">
-
-<div id="mxoskvyiiq" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#mxoskvyiiq table {
+<div id="afkmwlioay" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#afkmwlioay table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#mxoskvyiiq thead, #mxoskvyiiq tbody, #mxoskvyiiq tfoot, #mxoskvyiiq tr, #mxoskvyiiq td, #mxoskvyiiq th {
+#afkmwlioay thead, #afkmwlioay tbody, #afkmwlioay tfoot, #afkmwlioay tr, #afkmwlioay td, #afkmwlioay th {
   border-style: none;
 }
 
-#mxoskvyiiq p {
+#afkmwlioay p {
   margin: 0;
   padding: 0;
 }
 
-#mxoskvyiiq .gt_table {
+#afkmwlioay .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1663,12 +1670,12 @@ Important
   border-left-color: #D3D3D3;
 }
 
-#mxoskvyiiq .gt_caption {
+#afkmwlioay .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#mxoskvyiiq .gt_title {
+#afkmwlioay .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1680,7 +1687,7 @@ Important
   border-bottom-width: 0;
 }
 
-#mxoskvyiiq .gt_subtitle {
+#afkmwlioay .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1692,7 +1699,7 @@ Important
   border-top-width: 0;
 }
 
-#mxoskvyiiq .gt_heading {
+#afkmwlioay .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1704,13 +1711,13 @@ Important
   border-right-color: #D3D3D3;
 }
 
-#mxoskvyiiq .gt_bottom_border {
+#afkmwlioay .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#mxoskvyiiq .gt_col_headings {
+#afkmwlioay .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1725,7 +1732,7 @@ Important
   border-right-color: #D3D3D3;
 }
 
-#mxoskvyiiq .gt_col_heading {
+#afkmwlioay .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1745,7 +1752,7 @@ Important
   overflow-x: hidden;
 }
 
-#mxoskvyiiq .gt_column_spanner_outer {
+#afkmwlioay .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1757,15 +1764,15 @@ Important
   padding-right: 4px;
 }
 
-#mxoskvyiiq .gt_column_spanner_outer:first-child {
+#afkmwlioay .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#mxoskvyiiq .gt_column_spanner_outer:last-child {
+#afkmwlioay .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#mxoskvyiiq .gt_column_spanner {
+#afkmwlioay .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1777,11 +1784,11 @@ Important
   width: 100%;
 }
 
-#mxoskvyiiq .gt_spanner_row {
+#afkmwlioay .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#mxoskvyiiq .gt_group_heading {
+#afkmwlioay .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1807,7 +1814,7 @@ Important
   text-align: left;
 }
 
-#mxoskvyiiq .gt_empty_group_heading {
+#afkmwlioay .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1822,15 +1829,15 @@ Important
   vertical-align: middle;
 }
 
-#mxoskvyiiq .gt_from_md > :first-child {
+#afkmwlioay .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#mxoskvyiiq .gt_from_md > :last-child {
+#afkmwlioay .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#mxoskvyiiq .gt_row {
+#afkmwlioay .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1849,7 +1856,7 @@ Important
   overflow-x: hidden;
 }
 
-#mxoskvyiiq .gt_stub {
+#afkmwlioay .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1862,7 +1869,7 @@ Important
   padding-right: 5px;
 }
 
-#mxoskvyiiq .gt_stub_row_group {
+#afkmwlioay .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1876,15 +1883,15 @@ Important
   vertical-align: top;
 }
 
-#mxoskvyiiq .gt_row_group_first td {
+#afkmwlioay .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#mxoskvyiiq .gt_row_group_first th {
+#afkmwlioay .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#mxoskvyiiq .gt_summary_row {
+#afkmwlioay .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1894,16 +1901,16 @@ Important
   padding-right: 5px;
 }
 
-#mxoskvyiiq .gt_first_summary_row {
+#afkmwlioay .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#mxoskvyiiq .gt_first_summary_row.thick {
+#afkmwlioay .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#mxoskvyiiq .gt_last_summary_row {
+#afkmwlioay .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1913,7 +1920,7 @@ Important
   border-bottom-color: #D3D3D3;
 }
 
-#mxoskvyiiq .gt_grand_summary_row {
+#afkmwlioay .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1923,7 +1930,7 @@ Important
   padding-right: 5px;
 }
 
-#mxoskvyiiq .gt_first_grand_summary_row {
+#afkmwlioay .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1933,7 +1940,7 @@ Important
   border-top-color: #D3D3D3;
 }
 
-#mxoskvyiiq .gt_last_grand_summary_row_top {
+#afkmwlioay .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1943,11 +1950,11 @@ Important
   border-bottom-color: #D3D3D3;
 }
 
-#mxoskvyiiq .gt_striped {
+#afkmwlioay .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#mxoskvyiiq .gt_table_body {
+#afkmwlioay .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #FFFFFF;
@@ -1956,7 +1963,7 @@ Important
   border-bottom-color: #FFFFFF;
 }
 
-#mxoskvyiiq .gt_footnotes {
+#afkmwlioay .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1970,7 +1977,7 @@ Important
   border-right-color: #D3D3D3;
 }
 
-#mxoskvyiiq .gt_footnote {
+#afkmwlioay .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1979,7 +1986,7 @@ Important
   padding-right: 5px;
 }
 
-#mxoskvyiiq .gt_sourcenotes {
+#afkmwlioay .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1993,7 +2000,7 @@ Important
   border-right-color: #D3D3D3;
 }
 
-#mxoskvyiiq .gt_sourcenote {
+#afkmwlioay .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -2001,63 +2008,63 @@ Important
   padding-right: 5px;
 }
 
-#mxoskvyiiq .gt_left {
+#afkmwlioay .gt_left {
   text-align: left;
 }
 
-#mxoskvyiiq .gt_center {
+#afkmwlioay .gt_center {
   text-align: center;
 }
 
-#mxoskvyiiq .gt_right {
+#afkmwlioay .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#mxoskvyiiq .gt_font_normal {
+#afkmwlioay .gt_font_normal {
   font-weight: normal;
 }
 
-#mxoskvyiiq .gt_font_bold {
+#afkmwlioay .gt_font_bold {
   font-weight: bold;
 }
 
-#mxoskvyiiq .gt_font_italic {
+#afkmwlioay .gt_font_italic {
   font-style: italic;
 }
 
-#mxoskvyiiq .gt_super {
+#afkmwlioay .gt_super {
   font-size: 65%;
 }
 
-#mxoskvyiiq .gt_footnote_marks {
+#afkmwlioay .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#mxoskvyiiq .gt_asterisk {
+#afkmwlioay .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#mxoskvyiiq .gt_indent_1 {
+#afkmwlioay .gt_indent_1 {
   text-indent: 5px;
 }
 
-#mxoskvyiiq .gt_indent_2 {
+#afkmwlioay .gt_indent_2 {
   text-indent: 10px;
 }
 
-#mxoskvyiiq .gt_indent_3 {
+#afkmwlioay .gt_indent_3 {
   text-indent: 15px;
 }
 
-#mxoskvyiiq .gt_indent_4 {
+#afkmwlioay .gt_indent_4 {
   text-indent: 20px;
 }
 
-#mxoskvyiiq .gt_indent_5 {
+#afkmwlioay .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -2155,10 +2162,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/dsass1\.github\.io\/stat202_website\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -2168,8 +2197,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -2181,7 +2219,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -2225,6 +2386,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -2250,6 +2412,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -2307,20 +2495,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var filterRegex = new RegExp("https:\/\/dsass1\.github\.io\/stat202_website\/");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-      }
-    }
 });
 </script>
 </div> <!-- /content -->
@@ -2331,10 +2505,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>   
     <div class="nav-footer-center">
       &nbsp;
-    </div>
-    <div class="nav-footer-right">This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>.</div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/dsass1/stat202_website/edit/main/index-main.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/dsass1/stat202_website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>This page is built with ❤️ and <a href="https://quarto.org/">Quarto</a>.</p>
+</div>
   </div>
 </footer>
+
 
 
 
