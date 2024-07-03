@@ -261,7 +261,7 @@
     "href": "slides/lec03.html#todays-goals",
     "title": "Data Visualization  Sections 2.4 - 2.6",
     "section": "Today’s goals",
-    "text": "Today’s goals\n\n\n\n\nCreate a linegraph\nCreate a histogram\nProperly describe a linegraph and histogram\nFacet graphs based on subgroups\n\n\n\n\n\nArtwork by @allison_horst"
+    "text": "Today’s goals\n\n\n\n\nCreate a linegraph\nCreate a histogram\nProperly describe a linegraph and histogram\nFacet graphs based on subgroups\n\n\n\n\nArtwork by @allison_horst"
   },
   {
     "objectID": "slides/lec03.html#ng2-linegraphs",
@@ -394,7 +394,7 @@
     "href": "slides/lec08.html#todays-goals",
     "title": "Regression  Chapter 5.0 - 5.1",
     "section": "Today’s goals",
-    "text": "Today’s goals\n\n\n\n\nFind the correlation between two variables\nBuild and interpret a linear regression model\nMake predictions using a linear regression model\nPlot the line of best fit on a scatterplot\n\n\n\n\n\nArtwork by @allison_horst"
+    "text": "Today’s goals\n\n\n\n\nFind the correlation between two variables\nBuild and interpret a linear regression model\nMake predictions using a linear regression model\nPlot the line of best fit on a scatterplot\n\n\n\n\nArtwork by @allison_horst"
   },
   {
     "objectID": "slides/lec08.html#a-note-about-regression",
@@ -520,7 +520,7 @@
     "href": "slides/lec01.html#todays-goals",
     "title": "Introducing R Studio  Preface - Chapter 1",
     "section": "Today’s goals",
-    "text": "Today’s goals\n\n\n\n\nChange the yaml heading on a document\nCreate your first code chunk!\nLearn the code chunk settings\nAssign values to a variable\n\n\n\n\n\nArtwork by @allison_horst"
+    "text": "Today’s goals\n\n\n\n\nChange the yaml heading on a document\nCreate your first code chunk!\nLearn the code chunk settings\nAssign values to a variable\n\n\n\n\nArtwork by @allison_horst"
   },
   {
     "objectID": "slides/lec01.html#agenda",
@@ -541,21 +541,21 @@
     "href": "slides/lec01.html#useful-buttons",
     "title": "Introducing R Studio  Preface - Chapter 1",
     "section": "Useful Buttons",
-    "text": "Useful Buttons\n\n\n\n\n\n\nChange view output settings\n\n\n\n\n\n\n\nExport html to submit"
+    "text": "Useful Buttons\n\n\n\n\n\n\n\n\n\nChange view output settings\n\n\n\n\n\n\n\nExport html to submit"
   },
   {
     "objectID": "slides/lec01.html#useful-code-chunk-settings",
     "href": "slides/lec01.html#useful-code-chunk-settings",
     "title": "Introducing R Studio  Preface - Chapter 1",
     "section": "Useful code chunk settings",
-    "text": "Useful code chunk settings\n\n\n``` {{r}}\n#| message: false\n#| warning: false\n#| eval: false\n#| echo: false\n#| include: false\n```\n\n\nmessage: false prevents messages from appearing in knitted doc\nwarning: false prevents warnings from appearing in knitted doc\n\n\n\n\neval: false includes the code chunk in the knitted document but prevents the code chunk from being run\necho: false prevents code itself from printing but includes the results of the code\ninclude: false prevents code and its results from printing but still runs the code when knitted"
+    "text": "Useful code chunk settings\n\n\n``` {{r}}\n#| message: false\n#| warning: false\n#| eval: false\n#| echo: false\n#| include: false\n```\n\n\nmessage: false prevents messages from appearing in knitted doc\nwarning: false prevents warnings from appearing in knitted doc\n\n\n\neval: false includes the code chunk in the knitted document but prevents the code chunk from being run\necho: false prevents code itself from printing but includes the results of the code\ninclude: false prevents code and its results from printing but still runs the code when knitted"
   },
   {
     "objectID": "slides/lec05.html#todays-goals",
     "href": "slides/lec05.html#todays-goals",
     "title": "Data Wrangling  Chapter 3.0 - 3.3",
     "section": "Today’s goals",
-    "text": "Today’s goals\n\n\n\n\nUnderstand the pipe operator\nSubset rows of a dataset based on conditions\nCalculate summary statistics of a variable\n\n\n\n\n\nArtwork by @allison_horst"
+    "text": "Today’s goals\n\n\n\n\nUnderstand the pipe operator\nSubset rows of a dataset based on conditions\nCalculate summary statistics of a variable\n\n\n\n\nArtwork by @allison_horst"
   },
   {
     "objectID": "slides/lec05.html#data-wrangling",
@@ -653,7 +653,7 @@
     "href": "slides/lec04.html#todays-goals",
     "title": "Data Visualization  Sections 2.7 - 2.9",
     "section": "Today’s goals",
-    "text": "Today’s goals\n\n\n\n\nCreate a boxplot\nCreate a barplot\nProperly describe a boxplot and barplot\nDisplay barplots in various ways by category\n\n\n\n\n\nArtwork by @allison_horst"
+    "text": "Today’s goals\n\n\n\n\nCreate a boxplot\nCreate a barplot\nProperly describe a boxplot and barplot\nDisplay barplots in various ways by category\n\n\n\n\nArtwork by @allison_horst"
   },
   {
     "objectID": "slides/lec04.html#ng4-boxplots",
@@ -863,7 +863,7 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 34.277, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3943.881 4435.119\nsample estimates:\nmean of x \n   4189.5"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 32.856, df = 47, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3833.313 4333.354\nsample estimates:\nmean of x \n 4083.333"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
@@ -1089,14 +1089,14 @@
     "href": "slides/lec14.html#the-standard-normal-distribution",
     "title": "Distributions  Section 9.1",
     "section": "The Standard Normal Distribution",
-    "text": "The Standard Normal Distribution\n\n\n\n\n\nProperties\n\n\nThe area under the curve is 1 (or 100%)\nThe mean of the distribution is 0\nThe standard deviation of the distribution is 1\n\n\n\n\n\nCan use the normal distribution in R or at https://homepage.divms.uiowa.edu/~mbognar/applets/normal.html"
+    "text": "The Standard Normal Distribution\n\n\n\n\n\nProperties\n\n\nThe area under the curve is 1 (or 100%)\nThe mean of the distribution is 0\nThe standard deviation of the distribution is 1\n\n\n\n\nCan use the normal distribution in R or at https://homepage.divms.uiowa.edu/~mbognar/applets/normal.html"
   },
   {
     "objectID": "slides/lec14.html#empirical-rule",
     "href": "slides/lec14.html#empirical-rule",
     "title": "Distributions  Section 9.1",
     "section": "Empirical Rule",
-    "text": "Empirical Rule\n\n\n\n\n\n\nAround 68% of values are within one standard deviation from the mean.\nAround 95% of values are within two standard deviations from the mean.\nAround 99.7% of values are within three standard deviations from the mean.\n\n\n\n\n\nWhy is this useful? If we know the mean and standard deviation of a variable that follows the normal distribution, we can calculate the probability of an event occurring.\n\n\nHow is this applicable? We can transform any normally distributed variable into a standard normal distribution with standardization.\n\n\n\\[\\hbox{STAT} = \\frac{X - mean(X)}{sd(X)}\\]"
+    "text": "Empirical Rule\n\n\n\n\n\n\nAround 68% of values are within one standard deviation from the mean.\nAround 95% of values are within two standard deviations from the mean.\nAround 99.7% of values are within three standard deviations from the mean.\n\n\n\n\nWhy is this useful? If we know the mean and standard deviation of a variable that follows the normal distribution, we can calculate the probability of an event occurring.\n\n\nHow is this applicable? We can transform any normally distributed variable into a standard normal distribution with standardization.\n\n\n\\[\\hbox{STAT} = \\frac{X - mean(X)}{sd(X)}\\]"
   },
   {
     "objectID": "slides/lec14.html#the-normal-distribution",
@@ -1138,7 +1138,7 @@
     "href": "slides/lec14.html#example-3",
     "title": "Distributions  Section 9.1",
     "section": "Example 3",
-    "text": "Example 3\n\n\n\nThe amount of money spent buying weekly groceries follows a normal distribution. We are lucky enough to know the population mean is $150 and the population standard deviation is $20. Find the probability an individual spent less than $120.\n\nUsing dataStandardize\n\n\n\n\n\n\n\n\n# Standardize\npnorm(q = 120, mean = 150, sd = 20)\n\n[1] 0.0668072\n\n\n\n\n\n\n\n\n\n\n\n\n\n# Standardize\npnorm(q = -1.5)\n\n[1] 0.0668072\n\n\n You can transform any normally distributed variable onto a standardized scale."
+    "text": "Example 3\n\n\n\nThe amount of money spent buying weekly groceries follows a normal distribution. We are lucky enough to know the population mean is $150 and the population standard deviation is $20. Find the probability an individual spent less than $120.\n\nUsing dataStandardize\n\n\n\n\n\n\n\n\n# Standardize\npnorm(q = 120, mean = 150, sd = 20)\n\n[1] 0.0668072\n\n\n\n\n\n\n\n\n\n\n\n\n# Standardize\npnorm(q = -1.5)\n\n[1] 0.0668072\n\n\n You can transform any normally distributed variable onto a standardized scale."
   },
   {
     "objectID": "slides/lec14.html#t-distribution-in-r",
@@ -1215,7 +1215,7 @@
     "href": "slides/lec06.html#todays-goals",
     "title": "Data Wrangling  Chapter 3.4 - 3.9",
     "section": "Today’s goals",
-    "text": "Today’s goals\n\n\n\n\nMore piping!\ngroup data based on variables\ncreate a new variable using mutate\nsubset a dataset based on columns\narrange data in both ascending and descending order\n\n\n\n\n\nArtwork by @allison_horst"
+    "text": "Today’s goals\n\n\n\n\nMore piping!\ngroup data based on variables\ncreate a new variable using mutate\nsubset a dataset based on columns\narrange data in both ascending and descending order\n\n\n\n\nArtwork by @allison_horst"
   },
   {
     "objectID": "slides/lec06.html#data-wrangling",
@@ -1341,14 +1341,14 @@
     "href": "slides/lec02.html#todays-goals",
     "title": "Data Visualization  Sections 2.0 - 2.3",
     "section": "Today’s goals",
-    "text": "Today’s goals\n\n\n\n\nCreate a scatterplot\nProperly describe a scatterplot\nChange aesthetics such as color and shape in your plot\nSolve overplotting issues\n\n\n\n\n\nArtwork by @allison_horst"
+    "text": "Today’s goals\n\n\n\n\nCreate a scatterplot\nProperly describe a scatterplot\nChange aesthetics such as color and shape in your plot\nSolve overplotting issues\n\n\n\n\nArtwork by @allison_horst"
   },
   {
     "objectID": "slides/lec02.html#the-grammar-of-graphics",
     "href": "slides/lec02.html#the-grammar-of-graphics",
     "title": "Data Visualization  Sections 2.0 - 2.3",
     "section": "The Grammar of Graphics",
-    "text": "The Grammar of Graphics\n\n\n\n\n\nDefines a set of rules for constructing statistical graphics by combining different types of layers.\n\n\n\n\n\n\n\n\nLayer\nFunction\nExplanation\n\n\n\n\nData\nggplot( )\ninitialize plot and define dataset first\n\n\nAesthetics\naes( )\nhow variables are mapped\n\n\nGeometries\ngeom_*( )\nhow data is conveyed\n\n\nFacets\nfacet_*( )\nseparates plots by categories\n\n\nStatistics\nstat_*( )\nstatistical transformations\n\n\nCoordinates\ncoord_*( )\ncustomize coord system\n\n\nTheme\ntheme( )\ncustomize non-data components\n\n\n\n\n\n\n\n\n\n\nOnly the first three layers are essential components that must be defined when building a graphic."
+    "text": "The Grammar of Graphics\n\n\n\n\n\nDefines a set of rules for constructing statistical graphics by combining different types of layers.\n\n\n\n\n\n\n\n\nLayer\nFunction\nExplanation\n\n\n\n\nData\nggplot( )\ninitialize plot and define dataset first\n\n\nAesthetics\naes( )\nhow variables are mapped\n\n\nGeometries\ngeom_*( )\nhow data is conveyed\n\n\nFacets\nfacet_*( )\nseparates plots by categories\n\n\nStatistics\nstat_*( )\nstatistical transformations\n\n\nCoordinates\ncoord_*( )\ncustomize coord system\n\n\nTheme\ntheme( )\ncustomize non-data components\n\n\n\n\n\n\n\n\n\nOnly the first three layers are essential components that must be defined when building a graphic."
   },
   {
     "objectID": "slides/lec02.html#ng1-scatterplots",
@@ -1418,7 +1418,7 @@
     "href": "slides/lec07.html#todays-goals",
     "title": "Tidy Data  Chapter 4",
     "section": "Today’s goals",
-    "text": "Today’s goals\n\n\n\n\nImport datasets\nCan you determine if a dataset is tidy or messy?\nConduct an EDA\n\n\n\n\n\nArtwork by @allison_horst"
+    "text": "Today’s goals\n\n\n\n\nImport datasets\nCan you determine if a dataset is tidy or messy?\nConduct an EDA\n\n\n\n\nArtwork by @allison_horst"
   },
   {
     "objectID": "slides/lec07.html#importing-data",
@@ -1439,7 +1439,7 @@
     "href": "slides/lec07.html#tidy-data-continued",
     "title": "Tidy Data  Chapter 4",
     "section": "Tidy Data (continued)",
-    "text": "Tidy Data (continued)\nWhich of the following are tidy?\n\n\n\n\n\na)\n\n\n\n\n\n\n\nb)"
+    "text": "Tidy Data (continued)\nWhich of the following are tidy?\n\n\n\n\n\n\n\n\na)\n\n\n\n\n\n\n\nb)"
   },
   {
     "objectID": "slides/lec07.html#eda",
@@ -1523,7 +1523,7 @@
     "href": "slides/lec19.html#writing-hypotheses-examples",
     "title": "P-values  Chapter 11",
     "section": "Writing hypotheses examples",
-    "text": "Writing hypotheses examples\n\n\n\\(H_0\\): \\(\\mu=5\\)\n\\(H_A\\): \\(\\mu\\ne5\\)\n\n\\(H_0\\): \\(\\pi=0.5\\)\n\\(H_A\\): \\(\\pi\\ne0.5\\)\n\n\n\n\n\n\\(H_0\\): \\(\\mu_1-\\mu_2=0\\)\n\\(H_A\\): \\(\\mu_1-\\mu_2\\ne0\\)\n\n\\(H_0\\): \\(\\beta_1=0\\)\n\\(H_A\\): \\(\\beta_1\\ne0\\)\n\n\n\n\nThese are called two-sided tests. There also exists one-sided tests ex: \\(H_0: \\pi \\geq 0.5\\) vs \\(H_A: \\pi &lt; 0.5\\) but they are NOT necessary. We can (and should) ALWAYS use a two-sided test."
+    "text": "Writing hypotheses examples\n\n\n\\(H_0\\): \\(\\mu=5\\)\n\\(H_A\\): \\(\\mu\\ne5\\)\n\n\\(H_0\\): \\(\\pi=0.5\\)\n\\(H_A\\): \\(\\pi\\ne0.5\\)\n\n\n\n\n\\(H_0\\): \\(\\mu_1-\\mu_2=0\\)\n\\(H_A\\): \\(\\mu_1-\\mu_2\\ne0\\)\n\n\\(H_0\\): \\(\\beta_1=0\\)\n\\(H_A\\): \\(\\beta_1\\ne0\\)\n\n\n\nThese are called two-sided tests. There also exists one-sided tests ex: \\(H_0: \\pi \\geq 0.5\\) vs \\(H_A: \\pi &lt; 0.5\\) but they are NOT necessary. We can (and should) ALWAYS use a two-sided test."
   },
   {
     "objectID": "slides/lec19.html#p-values",

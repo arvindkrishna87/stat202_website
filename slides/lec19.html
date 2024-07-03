@@ -8,9 +8,9 @@
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.557">
+  <meta name="generator" content="quarto-1.5.53">
 
-  <title>STAT 202 - P-values  Chapter 11</title>
+  <title>STAT 202 – P-values   Chapter 11</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -69,7 +69,7 @@
     code span.at { color: #657422; } /* Attribute */
     code span.bn { color: #ad0000; } /* BaseN */
     code span.bu { } /* BuiltIn */
-    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
     code span.ch { color: #20794d; } /* Char */
     code span.cn { color: #8f5902; } /* Constant */
     code span.co { color: #5e5e5e; } /* Comment */
@@ -83,7 +83,7 @@
     code span.fu { color: #4758ab; } /* Function */
     code span.im { color: #00769e; } /* Import */
     code span.in { color: #5e5e5e; } /* Information */
-    code span.kw { color: #003b4f; } /* Keyword */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
     code span.op { color: #5e5e5e; } /* Operator */
     code span.ot { color: #003b4f; } /* Other */
     code span.pp { color: #ad0000; } /* Preprocessor */
@@ -426,8 +426,7 @@
 </div><div class="column" style="width:40%;">
 <p><span class="math inline">\(H_0\)</span>: <span class="math inline">\(\pi=0.5\)</span></p>
 <p><span class="math inline">\(H_A\)</span>: <span class="math inline">\(\pi\ne0.5\)</span></p>
-</div>
-</div>
+</div></div>
 <p><br></p>
 <div class="columns">
 <div class="column" style="width:40%;">
@@ -436,8 +435,7 @@
 </div><div class="column" style="width:40%;">
 <p><span class="math inline">\(H_0\)</span>: <span class="math inline">\(\beta_1=0\)</span></p>
 <p><span class="math inline">\(H_A\)</span>: <span class="math inline">\(\beta_1\ne0\)</span></p>
-</div>
-</div>
+</div></div>
 <div class="fragment">
 <p><br></p>
 <p>These are called two-sided tests. There also exists one-sided tests ex: <span class="math inline">\(H_0: \pi \geq 0.5\)</span> vs <span class="math inline">\(H_A: \pi &lt; 0.5\)</span> but they are NOT necessary. We can (and should) <strong>ALWAYS</strong> use a two-sided test.</p>
@@ -634,8 +632,7 @@
 <li><p><span class="math display">\[H_0: \mu_{weight} = 4250\]</span> <span class="math display">\[H_A: \mu_{weight} \ne 4250\]</span></p></li>
 <li><p><span class="math display">\[H_0: \bar{x}_{weight} \geq 4250\]</span> <span class="math display">\[H_A: \bar{x}_{weight} &lt; 4250\]</span></p></li>
 </ol>
-</div>
-</div>
+</div></div>
 </section>
 <section id="example-1-1" class="slide level2 smaller">
 <h2>Example 1</h2>
@@ -663,8 +660,7 @@ mean of x
  4201.754 </code></pre>
 </div>
 </div>
-</div>
-</div>
+</div></div>
 </section>
 <section id="example-2" class="slide level2 smaller">
 <h2>Example 2</h2>
@@ -702,8 +698,7 @@ sample estimates:
 0.4447674 </code></pre>
 </div>
 </div>
-</div>
-</div>
+</div></div>
 
 <div class="quarto-auto-generated-content">
 <p><img src="nu_logo.png" class="slide-logo"></p>
@@ -994,18 +989,7 @@ sample estimates:
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -1037,7 +1021,29 @@ sample estimates:
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
         var mailtoRegex = new RegExp(/^mailto:/);
           var filterRegex = new RegExp("https:\/\/dsass1\.github\.io\/stat202_website\/");
@@ -1045,7 +1051,7 @@ sample estimates:
             return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
         }
         // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
         for (var i=0; i<links.length; i++) {
           const link = links[i];
           if (!isInternal(link.href)) {
