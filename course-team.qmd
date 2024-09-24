@@ -12,20 +12,16 @@ title: "Course Team"
 
 ## Teaching assistants
 
-All of our TA office hours will be held on-line via [Zoom 998 6392 3813](https://northwestern.zoom.us/j/99863923813) on
+All of our TA office hours will be held on-line via [Zoom 998 6392 3813](https://northwestern.zoom.us/j/99863923813) on times to be announced.
 
--   Tuesdays 2pm - 6pm
-
--   Thursdays 2pm - 6pm
-
-| Name                  | Email                                 | Office hours    |
-|-----------------------|---------------------------------------|-----------------|
-| Molly Chou (grader)   | hway-minchou2026@u.northwestern.edu   | By Appointment  |
-| Zizheng Wang (grader) | zizhengwang2025@u.northwestern.edu    | By Appointment  |
-| Sarah Sajjad          | sarahsajjad2025@u.northwestern.edu    | TBA             |
-| Krupal Patel          | krupalpatel2025@u.northwestern.edu    | TBA             |
-| Maggie Johnson        | maggiejohnson2025@u.northwestern.edu  | TBA             |
-| Jordan Popoola        | jordanpopoola2026@u.northwestern.edu  | TBA             |
+| Name                  | Email                                 | Office hours   |
+|---------------------|----------------------------------|-----------------|
+| Molly Chou (grader)   | hway-minchou2026\@u.northwestern.edu  | By Appointment |
+| Zizheng Wang (grader) | zizhengwang2025\@u.northwestern.edu   | By Appointment |
+| Sarah Sajjad          | sarahsajjad2025\@u.northwestern.edu   | TBA            |
+| Krupal Patel          | krupalpatel2025\@u.northwestern.edu   | TBA            |
+| Maggie Johnson        | maggiejohnson2025\@u.northwestern.edu | TBA            |
+| Jordan Popoola        | jordanpopoola2026\@u.northwestern.edu | TBA            |
 
 ## Instructors
 
@@ -39,7 +35,7 @@ Making appointments: **Include STAT202 in the subject line!** Please provide you
 
 Office hours: **After class** or **by appointment**
 
-Email: danielle.sass\@northwestern.edu
+Email: krish\@northwestern.edu
 :::
 
 ::: {.column width="20%"}
