@@ -1,0 +1,104 @@
+---
+title: "Today's Agenda"
+editor_options: 
+  chunk_output_type: console
+execute:
+  
+  message: false
+  warning: false
+  echo: false
+from: markdown+emoji
+---
+
+```{r}
+#library(tidyverse)
+library(dplyr)
+library(purrr)
+library(gt)
+today_ymd <- Sys.Date()
+today <- format(today_ymd,"%a %b %d")
+
+
+agenda_final <- read.csv("documents/agenda_final.csv")%>% 
+  mutate(time = today_ymd - as.Date(date_ymd) )
+
+val <- ifelse(max(agenda_final$time)<0,
+              max(agenda_final$time),
+              min(agenda_final$time[agenda_final$time>=0]) )
+
+
+agenda_today <- agenda_final %>% filter(time == val)
+
+```
+
+## [Class: Finals Week]{style="color: #4E2A84;"}
+
+<!-- ```{r} -->
+
+<!-- agenda_today %>%  -->
+
+<!--   select(callout) %>%  -->
+
+<!--   mutate(callout = ifelse(callout != "", map(paste0({fontawesome::fa('triangle-exclamation')}, callout), glue::glue), "NA")) %>%  -->
+
+<!--   t() %>%  -->
+
+<!--   as.data.frame() %>%  -->
+
+<!--   filter(V1 != "NA") %>%  -->
+
+<!--   gt() %>%  -->
+
+<!--   fmt_markdown(columns = c(V1) )%>% -->
+
+<!--   cols_align(align = "left") %>%  -->
+
+<!--   tab_options(column_labels.hidden = TRUE, -->
+
+<!--               table.align = "left", -->
+
+<!--               table_body.border.top.color = "white", -->
+
+<!--               table_body.border.bottom.color = "white", -->
+
+<!--               table_body.hlines.color = "white", -->
+
+<!--               table.width = pct(100)) -->
+
+<!-- ``` -->
+
+The exam retake is online via Zoom <https://northwestern.zoom.us/j/99863923813>
+
+-   You must have your camera **on and appropriately positioned** or you will receive a 0.
+
+-   Your submission time on Canvas must be **prior** to logging off Zoom.
+
+-   ANU students attend at same time and location (your end time will be adjusted for your accommodation)
+
+-   Strongly suggest arriving a few minutes early - if you are late due to technical issues **that is your exam time**.
+
+You must have a Northwestern Zoom account to join <https://northwestern.zoom.us/> You cannot be logged into a personal account or an account through a different university.
+
+## Take Exam
+
+**TBD at 12pm central** (exam must be submitted before 1pm or your ANU time *or it will not be graded*)
+
+<br>
+
+-   [Retake Exam 1](https://posit.cloud/spaces/321338/content/7970638)
+-   [Retake Exam 2](https://posit.cloud/spaces/321338/content/8094280)
+-   [Retake Exam 3](https://posit.cloud/spaces/321338/content/8221160)
+
+<br>
+
+## Submit Exam
+
+-   [Submit Exam 1 Retake](https://canvas.northwestern.edu/courses/209545/assignments/1382358)
+-   [Submit Exam 2 Retake](https://canvas.northwestern.edu/courses/209545/assignments/1382360)
+-   [Submit Exam 3 Retake](https://canvas.northwestern.edu/courses/209545/assignments/1382362)
+
+<br><br>
+
+```{r echo = FALSE}
+knitr::knit_exit()
+```

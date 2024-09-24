@@ -20,11 +20,12 @@ All of our TA office hours will be held on-line via [Zoom 998 6392 3813](https:/
 
 | Name                  | Email                                 | Office hours    |
 |-----------------------|---------------------------------------|-----------------|
-| Yicheng Zhou (grader) | YichengZhou2025\@u.northwestern.edu   | By Appointment  |
-| Chelsea               | chelseanelson2025\@u.northwestern.edu | Tue 2pm - 4pm   |
-| Hannah                | hannahli2025.1\@u.northwestern.edu    | Tues 4pm - 6pm  |
-| Jules Wathieu         | juleswathieu2024\@u.northwestern.edu  | Thurs 2pm - 4pm |
-| Yaelle                | yaellepierre2025\@u.northwestern.edu  | Thurs 4pm - 6pm |
+| Molly Chou (grader)   | hway-minchou2026@u.northwestern.edu   | By Appointment  |
+| Zizheng Wang (grader) | zizhengwang2025@u.northwestern.edu    | By Appointment  |
+| Sarah Sajjad          | sarahsajjad2025@u.northwestern.edu    | TBA             |
+| Krupal Patel          | krupalpatel2025@u.northwestern.edu    | TBA             |
+| Maggie Johnson        | maggiejohnson2025@u.northwestern.edu  | TBA             |
+| Jordan Popoola        | jordanpopoola2026@u.northwestern.edu  | TBA             |
 
 ## Instructors
 
@@ -34,7 +35,7 @@ Making appointments: **Include STAT202 in the subject line!** Please provide you
 
 ::: columns
 ::: {.column width="80%"}
-**Section 20: Dr. Danielle Sass** is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. She received her Ph.D in Statistics from the University of Illinois at Urbana-Champaign. Her passion and focus is curriculum and content development for undergraduate students.
+**Section 20: Krish** is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. He received his Ph.D in Industrial Engineering with a specialization in Statistics from Georgia Institute of Technology. Currently, his focus is on developing new statistical modeling methods, and application.
 
 Office hours: **Fridays 12pm - 1pm in 2010 Sheridan Rm 205** or **by appointment**
 
