@@ -90,7 +90,7 @@
     "href": "course-team.html#instructors",
     "title": "Course Team",
     "section": "Instructors",
-    "text": "Instructors\nMaking appointments: Include STAT202 in the subject line! Please provide your full availability for the day(s) you are available to meet.\nDo NOT expect a reply in the evenings or on weekends.\n\n\nSection 20: Krish is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. He received his Ph.D in Industrial Engineering with a specialization in Statistics from Georgia Institute of Technology. Currently, his focus is on developing new statistical modeling methods, and applications.\nOffice hours: After class or by appointment\nEmail: krish@northwestern.edu",
+    "text": "Instructors\nMaking appointments: Include STAT202 in the subject line! Please provide your full availability for the day(s) you are available to meet.\nDo NOT expect a reply in the evenings or on weekends.\n\n\nSection 20: Krish is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. He received his Ph.D in Industrial Engineering with a specialization in Statistics from Georgia Institute of Technology. Currently, his focus is on developing new statistical modeling methods, and applications.\nOffice hours: After class or by appointment (Use zoom link for virtual appointments)\nEmail: krish@northwestern.edu",
     "crumbs": [
       "Additional Resources",
       "Office hours"
@@ -909,7 +909,7 @@
     "href": "course-lectures.html",
     "title": "Lecture Videos",
     "section": "",
-    "text": "Lecture videos are posted here.",
+    "text": "Lecture videos are posted here.\n\n\n\n\n\n\n\n\n\n\n\nLecture 1: No Video",
     "crumbs": [
       "Additional Resources",
       "Lecture videos"
@@ -1568,7 +1568,7 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 36.872, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4049.573 4516.427\nsample estimates:\nmean of x \n     4283"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 33.125, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4029.27 4549.73\nsample estimates:\nmean of x \n   4289.5"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
@@ -1610,7 +1610,7 @@
     "href": "course-syllabus.html#course-info",
     "title": "Syllabus",
     "section": "Course info",
-    "text": "Course info\n\n\n\n\nDay\nTime\nLocation\n\n\n\n\nSection 20\nMWF\n9:00 am - 9:50 am\nHarris Hall 107\n\n\n\nPrerequisite: High School Algebra\nPlease note that the specifics of this course syllabus are subject to change in the case of unforeseen circumstances. Instructors will notify students of any changes as soon as possible. Students will be responsible for abiding by the changes.",
+    "text": "Course info\n\n\n\n\nDay\nTime\nLocation\n\n\n\n\nSection 20\nMWF\n9:00 am - 9:50 am\nLutkin Hall\n\n\n\nPrerequisite: High School Algebra\nPlease note that the specifics of this course syllabus are subject to change in the case of unforeseen circumstances. Instructors will notify students of any changes as soon as possible. Students will be responsible for abiding by the changes.",
     "crumbs": [
       "Additional Resources",
       "Syllabus"
@@ -1632,7 +1632,7 @@
     "href": "course-syllabus.html#course-structure",
     "title": "Syllabus",
     "section": "Course Structure",
-    "text": "Course Structure\nThe bulk of this course will follow a flipped or active learning design. Meaning the majority of each lecture will be dedicated to working on activities. A lot of what you do in this course will involve writing code, and coding is a skill that is best learned by doing. A typical class will devote 10-15 minutes to discussion/lecture with the remainder of the class devoted to working on activities where students will either work by themselves or in groups. Throughout the class we will discuss and review the work on the activities. In many cases we may come together to work on parts of an activity as a class.",
+    "text": "Course Structure\nA part of the class time will be dedicated to discussion/lecture, while another part will be dedicated to working on activities. A lot of what you do in this course will involve writing code, and coding is a skill that is best learned by doing. Throughout the class we will discuss and review the work on the activities. In many cases we may come together to work on parts of an activity as a class.",
     "crumbs": [
       "Additional Resources",
       "Syllabus"
@@ -1709,128 +1709,29 @@
     "href": "course-syllabus.html#asking-questions-course-communication",
     "title": "Syllabus",
     "section": "Asking Questions & Course Communication",
-    "text": "Asking Questions & Course Communication\nThis term we will be using Campuswire (see website for access) as our preferred platform for questions about activities, reading checks, and general course questions. The system is highly catered to getting you help quickly and efficiently from classmates and the instructional team. Rather than emailing questions to the instructional team, you should post your questions on Campuswire.\nThe instructional team will check Campuswire periodically and answer questions, but we strongly encourage students to answer each other’s questions. To this end, student will be able to earn bonus points — see Canvas for details.\nPlease do not expect answers during weekends and evenings.",
+    "text": "Asking Questions & Course Communication\nThis term we will be using Ed (see website for access) as our preferred platform for questions about activities, reading checks, and general course questions. The system is highly catered to getting you help quickly and efficiently from classmates and the instructional team. Rather than emailing questions to the instructional team, you should post your questions on Ed.\nThe instructional team will check Ed periodically and answer questions, but we strongly encourage students to answer each other’s questions.\nPlease do not expect answers during weekends and evenings.\n\nDrop-In Support (No Appointment Needed)\nDrop-In Peer Tutoring is set up such that students can drop in to study alone or with others and ask questions of a peer leader who has done well in the class. Tutoring is provided for many of the introductory courses in Biology, Chemistry, Economics, Engineering, Mathematics, Physics, and Statistics. Check their website for a complete list of supported courses.\nContact Valerie Wolf (valerie.wolf@northwestern.edu) with any questions.\n\n\nAttendance Expectation/Policy\nWhile we do not collect formal attendance, implicit in the course design it is expected that you attend class to benefit from working with others — either by helping others or by helping others learn.",
     "crumbs": [
       "Additional Resources",
       "Syllabus"
     ]
   },
   {
-    "objectID": "course-syllabus.html#academic-resources",
-    "href": "course-syllabus.html#academic-resources",
+    "objectID": "course-syllabus.html#syllabus-statements-generative-ai-and-academic-integrity",
+    "href": "course-syllabus.html#syllabus-statements-generative-ai-and-academic-integrity",
     "title": "Syllabus",
-    "section": "Academic Resources",
-    "text": "Academic Resources\nQuarter-Long Study Groups offers peer-led academic support in a small-group setting for students enrolled in this course. If you join the program, you will meet weekly with about 5 to 8 other students and a peer facilitator. During sessions, students review concepts, work through practice problems, raise questions, and work together to develop answers. Students register for the full quarter on CAESAR and weekly attendance is expected. Study Groups sessions are listed below course lecture and discussion sections (e.g., STAT 202-SG Peer-Guided Study Group: Introduction to Statistics).\nContact Borislava Miltcheva (pgsg@northwestern.edu) with any questions.\n\nDrop-In Support (No Appointment Needed)\nDrop-In Peer Tutoring is set up such that students can drop in to study alone or with others and ask questions of a peer leader who has done well in the class. Tutoring is provided for many of the introductory courses in Biology, Chemistry, Economics, Engineering, Mathematics, Physics, and Statistics. Check their website for a complete list of supported courses.\nContact Valerie Wolf (valerie.wolf@northwestern.edu) with any questions.",
+    "section": "Syllabus statements, generative AI, and academic integrity}",
+    "text": "Syllabus statements, generative AI, and academic integrity}\nThis course follows the Northwestern University Syllabus Standards. Students are responsible for familiarizing themselves with this information.\nIn addition to the aforementioned standards, if you copy code, idea, or text from someone, or from some online resource without citing it, you will fail the course. Plagiarism will result in the F grade.",
     "crumbs": [
       "Additional Resources",
       "Syllabus"
     ]
   },
   {
-    "objectID": "course-syllabus.html#accessibility-accommodations",
-    "href": "course-syllabus.html#accessibility-accommodations",
+    "objectID": "course-syllabus.html#academic-work-and-classes-missed-for-medical-reasons",
+    "href": "course-syllabus.html#academic-work-and-classes-missed-for-medical-reasons",
     "title": "Syllabus",
-    "section": "Accessibility & Accommodations",
-    "text": "Accessibility & Accommodations\nNorthwestern University is committed to providing the most accessible learning environment as possible for students with disabilities. Should you anticipate or experience disability-related barriers in the academic setting, please contact AccessibleNU to move forward with the university’s established accommodation process1. If you already have established accommodations with AccessibleNU, please let me know as soon as possible, preferably within the first two weeks of the term, so we can work together to implement your disability accommodations. Disability information, including academic accommodations, is confidential under the Family Educational Rights and Privacy Act.",
-    "crumbs": [
-      "Additional Resources",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#covid-19-policies",
-    "href": "course-syllabus.html#covid-19-policies",
-    "title": "Syllabus",
-    "section": "COVID-19 Policies",
-    "text": "COVID-19 Policies\n\nClassroom Expectations\n with University expectations regarding appropriate classroom behavior, including those outlined below and in the COVID-19 Expectations for Students. With respect to classroom procedures, this includes:\n\nPolicies regarding masking, social distancing and other public health measures evolve as the situation changes. Students are responsible for understanding and complying with current University, state and city requirements.\nIn some classes, masking and/or social distancing may be required as a result of an Americans with Disabilities Act (ADA) accommodation for the instructor or a student in the class even when not generally required on campus. In such cases, the instructor will notify the class.\n\n with the COVID-19 Expectations for Students or other University expectations related to COVID-19, the instructor may ask the student to leave the class. The instructor is asked to report the incident to the Office of Community Standards for additional follow-up.",
-    "crumbs": [
-      "Additional Resources",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#exceptions-to-class-modality",
-    "href": "course-syllabus.html#exceptions-to-class-modality",
-    "title": "Syllabus",
-    "section": "Exceptions to Class Modality",
-    "text": "Exceptions to Class Modality\n will occur in person. Individual students will not be granted permission to attend remotely except as the result of an Americans with Disabilities Act (ADA) accommodation as determined by AccessibleNU.\n of the community remains our priority. If you are experiencing any symptoms of COVID and update your Symptom Tracker application right away to connect with Northwestern’s Case Management Team for guidance on next steps. Also contact the instructor as soon as possible to arrange to complete coursework. We plan to record sessions for students that miss to to COVID-19 related issues.\n a personal emergency should contact the instructor as soon as possible to arrange to complete coursework.\n recommendations prevent in person class from being held on a given day, the instructor or the university will notify students.",
-    "crumbs": [
-      "Additional Resources",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#prohibition-of-recording-of-class-sessions-by-students",
-    "href": "course-syllabus.html#prohibition-of-recording-of-class-sessions-by-students",
-    "title": "Syllabus",
-    "section": "Prohibition of Recording of Class Sessions by Students",
-    "text": "Prohibition of Recording of Class Sessions by Students\n of classroom or other academic activities is prohibited.2 Unauthorized recording is unethical and may also be a violation of University policy and state law.\nStudents requesting the use of assistive technology as an accommodation should contact AccessibleNU. Unauthorized use of classroom recordings — including distributing or posting them — is also prohibited.\nUnder the University’s Copyright Policy, faculty own the copyright to instructional materials — including those resources created specifically for the purposes of instruction, such as syllabi, lectures and lecture notes, and presentations. Students cannot copy, reproduce, display, or distribute these materials. Students who engage in unauthorized recording, unauthorized use of a recording, or unauthorized distribution of instructional materials will be referred to the appropriate University office for follow-up.\nThis class or portions of this class will be recorded by the instructor for educational purposes. Your instructor will communicate how members of the class can access the recordings. Portions of the course that contain images, questions or commentary/discussion by students will be edited out of any recordings that are saved beyond the current term.",
-    "crumbs": [
-      "Additional Resources",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#academic-integrity",
-    "href": "course-syllabus.html#academic-integrity",
-    "title": "Syllabus",
-    "section": "Academic Integrity",
-    "text": "Academic Integrity\n to comply with the policies found in the booklet, “Academic Integrity at Northwestern University: A Basic Guide”. All papers submitted for credit in this course must be submitted electronically unless otherwise instructed by the professor. Your written work may be tested for plagiarized content. For details regarding academic integrity at Northwestern or to download the guide, visit: https://www.northwestern.edu/provost/policies-procedures/academic-integrity/index.html",
-    "crumbs": [
-      "Additional Resources",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#diversity-equity-and-inclusion",
-    "href": "course-syllabus.html#diversity-equity-and-inclusion",
-    "title": "Syllabus",
-    "section": "Diversity, Equity, and Inclusion",
-    "text": "Diversity, Equity, and Inclusion\nThis course strives to be an inclusive learning community, respecting those of differing backgrounds and beliefs. As a community, we aim to be respectful to all students in this class, regardless of race, ethnicity, socio-economic status, religion, gender identity or sexual orientation.",
-    "crumbs": [
-      "Additional Resources",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#sexual-misconduct-reporting",
-    "href": "course-syllabus.html#sexual-misconduct-reporting",
-    "title": "Syllabus",
-    "section": "Sexual Misconduct & Reporting",
-    "text": "Sexual Misconduct & Reporting\n to fostering an environment where students are safe and free from sexual misconduct. Confidential resources are available to those who have experienced sexual misconduct.3\nFaculty, instructors, and TAs are not confidential resources and are required to report incidents of sexual misconduct, whether discussed in your assignments or in person, to the Title IX Coordinator, who can provide information about resources and options.\nWe encourage students who have experienced sexual misconduct to talk with someone to get support. For more information visit the Get Help4.",
-    "crumbs": [
-      "Additional Resources",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#discrimination-sexual-harassment",
-    "href": "course-syllabus.html#discrimination-sexual-harassment",
-    "title": "Syllabus",
-    "section": "Discrimination & Sexual Harassment",
-    "text": "Discrimination & Sexual Harassment\nNorthwestern University’s policies on Discrimination, Harassment, and Sexual Harassment apply to all members of the University community, including students, staff, and faculty. Any student, staff, or faculty member who believes that they have been discriminated against or harassed on the basis of his or her race, color, religion, national origin, sex, sexual orientation, gender identity, gender expression, parental status, marital status, age, disability, citizenship, veteran status, genetic information or any other classification protected by law, should contact the Office of Equal Opportunity and Access5 or the Sexual Harassment Prevention Office6.\nAdditional information about the University’s discrimination and harassment policies, including the campus resources available to assist individuals with discrimination or harassment concerns, is available online on the Human Resources Equal Opportunity and Access website7.\nNorthwestern strictly prohibits retaliation against any member of its community for reporting or inquiring about wrongful or unlawful activity. For more details see https://policies.northwestern.edu/docs/non-retaliation-policy-FINAL.pdf.",
-    "crumbs": [
-      "Additional Resources",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#wellness-mental-health-resources",
-    "href": "course-syllabus.html#wellness-mental-health-resources",
-    "title": "Syllabus",
-    "section": "Wellness & Mental Health Resources",
-    "text": "Wellness & Mental Health Resources\nNorthwestern University is committed to supporting the wellness of our students. Student Affairs has multiple resources to support student wellness and mental health. If you are feeling distressed or overwhelmed, please reach out for help. Students can access confidential resources through the Counseling and Psychological Services (CAPS), Religious and Spiritual Life (RSL) and the Center for Awareness, Response and Education (CARE). Additional information on all of the resources mentioned above can be found here:\n\nhttps://www.northwestern.edu/counseling/\nhttps://www.northwestern.edu/religious-life/\nhttps://www.northwestern.edu/care/",
-    "crumbs": [
-      "Additional Resources",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#student-resources",
-    "href": "course-syllabus.html#student-resources",
-    "title": "Syllabus",
-    "section": "Student Resources",
-    "text": "Student Resources\n with FGLI students – pronounced figly – who are first-generation, lower-income, and/or DACA/Undocumented. SES works with these students to foster identity development, navigate campus resources, and build community. Through campus-wide partnerships and advocacy, SES strives to build an inclusive Northwestern community that is welcoming, supportive, and accessible for all students. SES can connect you to a number of resources (emergency aid assistance, books, supplies, laptops, food accessibility and much more!) both within the SES office and across campus. For more information please visit https://www.northwestern.edu/enrichment.",
+    "section": "Academic work and classes missed for medical reasons",
+    "text": "Academic work and classes missed for medical reasons\nIn partnership with Student Health (Northwestern Medicine), the undergraduate schools have devised a system for students to request an excuse note. Any student who becomes ill must make use of Northwestern Medicine’s process for missing academic work for medical reasons.",
     "crumbs": [
       "Additional Resources",
       "Syllabus"
@@ -1842,17 +1743,6 @@
     "title": "Syllabus",
     "section": "Important dates",
     "text": "Important dates\nClick here for the full academic calendar.",
-    "crumbs": [
-      "Additional Resources",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#footnotes",
-    "href": "course-syllabus.html#footnotes",
-    "title": "Syllabus",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nemail: accessiblenu@northwestern.edu; phoone: 847-467-5530↩︎\nIncluding advising sessions or office hours.↩︎\nSee http://www.northwestern.edu/sexual-misconduct/get-help/confidential-support.html for details.↩︎\nhttp://www.northwestern.edu/sexual-misconduct/get-help/index.html↩︎\n847.491.7458↩︎\n847.467.6571↩︎\nhttp://www.northwestern.edu/hr/equlopp-access/index.html↩︎",
     "crumbs": [
       "Additional Resources",
       "Syllabus"
@@ -2024,7 +1914,7 @@
     "href": "course-links.html",
     "title": "Course Links",
     "section": "",
-    "text": "Textbook\nIntroduction to Statistics and Data Science\n\n\nCampuswire\nPost questions here!\n\n\nPosit Cloud\nPosit Cloud\n\n\nLecture recordings\n🔗 on Panopto\n\n\nVirtual meetings\nZoom",
+    "text": "Textbook\nIntroduction to Statistics and Data Science\n\n\nEd Discussion\nPost questions here!\n\n\nPosit Cloud\nPosit Cloud\n\n\nLecture recordings\n🔗 on Panopto\n\n\nVirtual meetings\nZoom",
     "crumbs": [
       "Additional Resources",
       "Useful links"
