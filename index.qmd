@@ -11,6 +11,7 @@ from: markdown+emoji
 ---
 
 <!-- ::: callout-important -->
+
 <!-- [Practice Exam 2](https://posit.cloud/spaces/321338/content/5176503) and [solution](/course-solutions.html) video are posted. (Solution video might have some questions from Section 9.1 that you can ignore). -->
 
 <!-- Exam 2 is Friday Feb 9th during class. -->
@@ -18,6 +19,7 @@ from: markdown+emoji
 <!-- ::: -->
 
 <!-- ::: callout-important -->
+
 <!-- Please complete [Course Survey 3](https://canvas.northwestern.edu/courses/204767/quizzes/225307) by Friday March 8th. It is worth 1 participation point. -->
 
 <!-- ::: -->
@@ -90,20 +92,6 @@ agenda_today %>%
               quarto.disable_processing = TRUE)
 ```
 
-<br>
-
-## Participate
-
-::: columns
-::: {.column width="50%"}
-<!-- **Section 20: 9am** -->
-
-<https://ahaslides.com/SASS>
-
-![](images/qr_SASS.png){height="1in"}
-:::
-
-:::
 <br>
 
 ## Agenda
