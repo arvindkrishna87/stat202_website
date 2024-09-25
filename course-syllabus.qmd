@@ -2,13 +2,13 @@
 title: "Syllabus"
 ---
 
-[**Click here**](/documents/syllabus_stat202.pdf) **to download a PDF copy of the syllabus.**
+[**Click here**](/documents/STAT202_Fall2024_Syllabus.pdf) **to download a PDF copy of the syllabus.**
 
 ## Course info
 
 |            | Day | Time              | Location        |
 |------------|-----|-------------------|-----------------|
-| Section 20 | MWF | 9:00 am - 9:50 am | Harris Hall 107 |
+| Section 20 | MWF | 9:00 am - 9:50 am | Lutkin Hall     |
 
 **Prerequisite:** High School Algebra
 
@@ -34,7 +34,7 @@ knitr::include_graphics('images/cartoon3308.png', dpi = NA)
 
 ## Course Structure
 
-The bulk of this course will follow a flipped or active learning design. Meaning the majority of each lecture will be dedicated to working on activities. A lot of what you do in this course will involve writing code, and coding is a skill that is best learned by doing. A typical class will devote 10-15 minutes to discussion/lecture with the remainder of the class devoted to working on activities where students will either work by themselves or in groups. Throughout the class we will discuss and review the work on the activities. In many cases we may come together to work on parts of an activity as a class.
+A part of the class time will be dedicated to discussion/lecture, while another part will be dedicated to working on activities. A lot of what you do in this course will involve writing code, and coding is a skill that is best learned by doing. Throughout the class we will discuss and review the work on the activities. In many cases we may come together to work on parts of an activity as a class.
 
 ## Textbooks
 
@@ -121,17 +121,11 @@ There is NO curve to this course. Take advantage of the exam improvement policy 
 
 ## Asking Questions & Course Communication
 
-This term we will be using Campuswire (see website for access) as our preferred platform for questions about activities, reading checks, and general course questions. The system is highly catered to getting you help quickly and efficiently from classmates and the instructional team. Rather than emailing questions to the instructional team, you should post your questions on Campuswire.
+This term we will be using Ed (see website for access) as our preferred platform for questions about activities, reading checks, and general course questions. The system is highly catered to getting you help quickly and efficiently from classmates and the instructional team. Rather than emailing questions to the instructional team, you should post your questions on Ed.
 
-The instructional team will check Campuswire periodically and answer questions, but we strongly encourage students to answer each other's questions. To this end, student will be able to earn bonus points --- see Canvas for details.
+The instructional team will check Ed periodically and answer questions, but we strongly encourage students to answer each other's questions. 
 
 Please do not expect answers during weekends and evenings.
-
-## Academic Resources
-
-[Quarter-Long Study Groups](http://www.northwestern.edu/searle/programs-events/undergrad/group-study/peer-guided-study-groups/index.html) offers peer-led academic support in a small-group setting for students enrolled in this course. If you join the program, you will meet weekly with about 5 to 8 other students and a peer facilitator. During sessions, students review concepts, work through practice problems, raise questions, and work together to develop answers. Students register for the full quarter on CAESAR and weekly attendance is expected. Study Groups sessions are listed below course lecture and discussion sections (e.g., STAT 202-SG Peer-Guided Study Group: Introduction to Statistics).
-
-Contact Borislava Miltcheva (pgsg\@northwestern.edu) with any questions.
 
 ### Drop-In Support (No Appointment Needed)
 
@@ -139,96 +133,20 @@ Contact Borislava Miltcheva (pgsg\@northwestern.edu) with any questions.
 
 Contact Valerie Wolf (valerie.wolf\@northwestern.edu) with any questions.
 
-## Accessibility & Accommodations
+### Attendance Expectation/Policy
 
-Northwestern University is committed to providing the most accessible learning environment as possible for students with disabilities. Should you anticipate or experience disability-related barriers in the academic setting, please contact [AccessibleNU](https://www.northwestern.edu/accessiblenu/) to move forward with the university's established accommodation process[^1]. If you already have established accommodations with AccessibleNU, please let me know as soon as possible, preferably within the first two weeks of the term, so we can work together to implement your disability accommodations. Disability information, including academic accommodations, is confidential under the Family Educational Rights and Privacy Act.
+While we do not collect formal attendance, implicit in the course design it is expected that you attend class to benefit from working with others --- either by helping others or by helping others learn.
 
-[^1]: email: accessiblenu\@northwestern.edu; phoone: 847-467-5530
+## Syllabus statements, generative AI, and academic integrity}
 
-## COVID-19 Policies
+This course follows the [Northwestern University Syllabus Standards](https://www.registrar.northwestern.edu/registration-graduation/northwestern-university-syllabus-standards.html#academic-integrity). Students are responsible for familiarizing themselves with this information.
 
-### Classroom Expectations
+In addition to the aforementioned standards, **if you copy code, idea, or text from someone, or from some online resource without citing it, you will fail the course. Plagiarism will result in the F grade**.
 
-\textsc{Students, faculty, and staff must comply} with University expectations regarding appropriate classroom behavior, including those outlined below and in the [COVID-19 Expectations for Students](https://www.northwestern.edu/communitystandards/about-us/northwestern-university-student-expectations-covid-19.html). With respect to classroom procedures, this includes:
+## Academic work and classes missed for medical reasons
 
--   Policies regarding masking, social distancing and other public health measures evolve as the situation changes. Students are responsible for understanding and complying with current University, state and city requirements.
--   In some classes, masking and/or social distancing may be required as a result of an Americans with Disabilities Act (ADA) accommodation for the instructor or a student in the class even when not generally required on campus. In such cases, the instructor will notify the class.
+In partnership with Student Health (Northwestern Medicine), the undergraduate schools have devised a system for students to request an excuse note. Any student who becomes ill must make use of Northwestern Medicine’s [process for missing academic work for medical reasons](https://www.northwestern.edu/healthservice-evanston/medical-services/academic-work-missed-for-medical-reasons/).
 
-\noindent \textsc{If a student fails to comply} with the [COVID-19 Expectations for Students](https://www.northwestern.edu/communitystandards/about-us/northwestern-university-student-expectations-covid-19.html) or other University expectations related to COVID-19, the instructor may ask the student to leave the class. The instructor is asked to report the incident to the Office of Community Standards for additional follow-up.
-
-## Exceptions to Class Modality
-
-\textsc{Class sessions for this course} will occur in person. Individual students will not be granted permission to attend remotely except as the result of an Americans with Disabilities Act (ADA) accommodation as determined by AccessibleNU.
-
-\vspace{6pt}
-
-\noindent \textsc{Maintaining the health} of the community remains our priority. If you are experiencing any symptoms of COVID \textbf{do not attend class} and update your Symptom Tracker application right away to connect with Northwestern's Case Management Team for guidance on next steps. Also contact the instructor as soon as possible to arrange to complete coursework. We plan to record sessions for students that miss to to COVID-19 related issues.
-
-\vspace{6pt}
-
-\noindent \textsc{Students who experience} a personal emergency should contact the instructor as soon as possible to arrange to complete coursework.
-
-\vspace{6pt}
-
-\noindent \textsc{Should public health} recommendations prevent in person class from being held on a given day, the instructor or the university will notify students.
-
-## Prohibition of Recording of Class Sessions by Students
-
-\textsc{Unauthorized student recording} of classroom or other academic activities is prohibited.[^2] Unauthorized recording is unethical and may also be a violation of University policy and state law.
-
-[^2]: Including advising sessions or office hours.
-
-Students requesting the use of assistive technology as an accommodation should contact [AccessibleNU](https://www.northwestern.edu/accessiblenu/). Unauthorized use of classroom recordings --- including distributing or posting them --- is also prohibited.
-
-Under the University's [Copyright Policy](https://www.invo.northwestern.edu/invention-disclosure/policies-forms/copyright-policy/), faculty own the copyright to instructional materials --- including those resources created specifically for the purposes of instruction, such as syllabi, lectures and lecture notes, and presentations. Students cannot copy, reproduce, display, or distribute these materials. Students who engage in unauthorized recording, unauthorized use of a recording, or unauthorized distribution of instructional materials will be referred to the appropriate University office for follow-up.
-
-This class or portions of this class will be recorded by the instructor for educational purposes. Your instructor will communicate how members of the class can access the recordings. Portions of the course that contain images, questions or commentary/discussion by students will be edited out of any recordings that are saved beyond the current term.
-
-## Academic Integrity
-
-\textsc{Students in this course are required} to comply with the policies found in the booklet, "Academic Integrity at Northwestern University: A Basic Guide". All papers submitted for credit in this course must be submitted electronically unless otherwise instructed by the professor. Your written work may be tested for plagiarized content. For details regarding academic integrity at Northwestern or to download the guide, visit: <https://www.northwestern.edu/provost/policies-procedures/academic-integrity/index.html>
-
-## Diversity, Equity, and Inclusion
-
-This course strives to be an inclusive learning community, respecting those of differing backgrounds and beliefs. As a community, we aim to be respectful to all students in this class, regardless of race, ethnicity, socio-economic status, religion, gender identity or sexual orientation.
-
-## Sexual Misconduct & Reporting
-
-\textsc{Northwestern University is committed} to fostering an environment where students are safe and free from sexual misconduct. Confidential resources are available to those who have experienced sexual misconduct.[^3]
-
-[^3]: See <http://www.northwestern.edu/sexual-misconduct/get-help/confidential-support.html> for details.
-
-Faculty, instructors, and TAs are **not** confidential resources and are required to report incidents of sexual misconduct, whether discussed in your assignments or in person, to the Title IX Coordinator, who can provide information about resources and options.
-
-We encourage students who have experienced sexual misconduct to talk with someone to get support. For more information visit the [Get Help](http://www.northwestern.edu/sexual-misconduct/get-help/index.html)[^4].
-
-[^4]: <http://www.northwestern.edu/sexual-misconduct/get-help/index.html>
-
-## Discrimination & Sexual Harassment
-
-Northwestern University's policies on Discrimination, Harassment, and Sexual Harassment apply to all members of the University community, including students, staff, and faculty. Any student, staff, or faculty member who believes that they have been discriminated against or harassed on the basis of his or her race, color, religion, national origin, sex, sexual orientation, gender identity, gender expression, parental status, marital status, age, disability, citizenship, veteran status, genetic information or any other classification protected by law, should contact the Office of Equal Opportunity and Access[^5] or the Sexual Harassment Prevention Office[^6].
-
-[^5]: 847.491.7458
-
-[^6]: 847.467.6571
-
-Additional information about the University's discrimination and harassment policies, including the campus resources available to assist individuals with discrimination or harassment concerns, is available online on the [Human Resources Equal Opportunity and Access website](http://www.northwestern.edu/hr/equlopp-access/index.html)[^7].
-
-[^7]: <http://www.northwestern.edu/hr/equlopp-access/index.html>
-
-Northwestern strictly prohibits retaliation against any member of its community for reporting or inquiring about wrongful or unlawful activity. For more details see <https://policies.northwestern.edu/docs/non-retaliation-policy-FINAL.pdf>.
-
-## Wellness & Mental Health Resources
-
-Northwestern University is committed to supporting the wellness of our students. Student Affairs has multiple resources to support student wellness and mental health. If you are feeling distressed or overwhelmed, please reach out for help. Students can access confidential resources through the Counseling and Psychological Services (CAPS), Religious and Spiritual Life (RSL) and the Center for Awareness, Response and Education (CARE). Additional information on all of the resources mentioned above can be found here:
-
--   <https://www.northwestern.edu/counseling/>
--   <https://www.northwestern.edu/religious-life/>
--   <https://www.northwestern.edu/care/>
-
-## Student Resources
-
-\textsc{Student Enrichment Services (SES) partners} with FGLI students -- pronounced figly -- who are first-generation, lower-income, and/or DACA/Undocumented. SES works with these students to foster identity development, navigate campus resources, and build community. Through campus-wide partnerships and advocacy, SES strives to build an inclusive Northwestern community that is welcoming, supportive, and accessible for all students. SES can connect you to a number of resources (emergency aid assistance, books, supplies, laptops, food accessibility and much more!) both within the SES office and across campus. For more information please visit [https://www.northwestern.edu/enrichment](https://www.northwestern.edu/enrichment/).
 
 ## Important dates
 
