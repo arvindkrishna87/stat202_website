@@ -6,9 +6,9 @@ title: "Syllabus"
 
 ## Course info
 
-|            | Day | Time              | Location        |
-|------------|-----|-------------------|-----------------|
-| Section 20 | MWF | 9:00 am - 9:50 am | Lutkin Hall     |
+|            | Day | Time              | Location    |
+|------------|-----|-------------------|-------------|
+| Section 20 | MWF | 9:00 am - 9:50 am | Lutkin Hall |
 
 **Prerequisite:** High School Algebra
 
@@ -123,7 +123,7 @@ There is NO curve to this course. Take advantage of the exam improvement policy 
 
 This term we will be using Ed (see website for access) as our preferred platform for questions about activities, reading checks, and general course questions. The system is highly catered to getting you help quickly and efficiently from classmates and the instructional team. Rather than emailing questions to the instructional team, you should post your questions on Ed.
 
-The instructional team will check Ed periodically and answer questions, but we strongly encourage students to answer each other's questions. 
+The instructional team will check Ed periodically and answer questions, but we strongly encourage students to answer each other's questions.
 
 Please do not expect answers during weekends and evenings.
 
@@ -137,6 +137,12 @@ Contact Valerie Wolf (valerie.wolf\@northwestern.edu) with any questions.
 
 While we do not collect formal attendance, implicit in the course design it is expected that you attend class to benefit from working with others --- either by helping others or by helping others learn.
 
+If you are unable to attend class due to a legitimate reason, please make sure you ask your class-mates about any in-class announcements, and keep up with the deadlines on the course website / canvas. You don't need to tell me that you are not attending class (except in special cases, such as on exam days). 
+
+For students athletes travelling on exam days, please make sure I receive an email from your coach mentioning that they will proctor the exam on the exam day, and the NU document mentioning the dates you are travelling. If you are missing class on non-exam days, make sure you are keeping up with homework as per the course schedule on the website / canvas.
+
+For ANU students with extra time, your exam will start at 9 am on the exam day, and will end as per the time limit recommended by ANU. Exam location will be confirmed some time before the exam.
+
 ## Syllabus statements, generative AI, and academic integrity}
 
 This course follows the [Northwestern University Syllabus Standards](https://www.registrar.northwestern.edu/registration-graduation/northwestern-university-syllabus-standards.html#academic-integrity). Students are responsible for familiarizing themselves with this information.
@@ -146,7 +152,6 @@ In addition to the aforementioned standards, **if you copy code, idea, or text f
 ## Academic work and classes missed for medical reasons
 
 In partnership with Student Health (Northwestern Medicine), the undergraduate schools have devised a system for students to request an excuse note. Any student who becomes ill must make use of Northwestern Medicine’s [process for missing academic work for medical reasons](https://www.northwestern.edu/healthservice-evanston/medical-services/academic-work-missed-for-medical-reasons/).
-
 
 ## Important dates
 
