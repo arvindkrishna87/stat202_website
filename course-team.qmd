@@ -33,7 +33,7 @@ Making appointments: **Include STAT202 in the subject line!** Please provide you
 ::: {.column width="80%"}
 **Section 20: Krish** is an Assistant Professor of Instruction for the Department of Statistics and Data Science at Northwestern University. He received his Ph.D in Industrial Engineering with a specialization in Statistics from Georgia Institute of Technology. Currently, his focus is on developing new statistical modeling methods, and applications.
 
-Office hours: **After class** (for as long as students have questions) or **by appointment** (Use [zoom link](https://northwestern.zoom.us/j/4453742655) for virtual appointments)
+Office hours: **After class** (for as long as students have questions) or **by appointment** (Use [zoom link](https://northwestern.zoom.us/j/4453742655) for virtual appointments). You can directly block my calendar, whenever you need an appointment. If I am unavailable at that time, I will propose another time.
 
 Email: krish\@northwestern.edu
 :::
