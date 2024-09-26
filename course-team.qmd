@@ -14,14 +14,20 @@ title: "Course Team"
 
 All of our TA office hours will be held on-line via [Zoom 998 6392 3813](https://northwestern.zoom.us/j/99863923813) on times to be announced.
 
-| Name                  | Email                                 | Office hours   |
-|---------------------|---------------------------------|------------------|
-| Molly Chou (grader)   | hway-minchou2026\@u.northwestern.edu  | By Appointment |
-| Zizheng Wang (grader) | zizhengwang2025\@u.northwestern.edu   | By Appointment |
-| Sarah Sajjad          | sarahsajjad2025\@u.northwestern.edu   | TBA            |
-| Krupal Patel          | krupalpatel2025\@u.northwestern.edu   | TBA            |
-| Maggie Johnson        | maggiejohnson2025\@u.northwestern.edu | TBA            |
-| Jordan Popoola        | jordanpopoola2026\@u.northwestern.edu | TBA            |
+| Name                  | Email                                 |
+|---------------------|---------------------------------|
+| Molly Chou (grader)   | hway-minchou2026\@u.northwestern.edu  |
+| Zizheng Wang (grader) | zizhengwang2025\@u.northwestern.edu   |
+| Sarah Sajjad          | sarahsajjad2025\@u.northwestern.edu   |
+| Krupal Patel          | krupalpatel2025\@u.northwestern.edu   |
+| Maggie Johnson        | maggiejohnson2025\@u.northwestern.edu |
+| Jordan Popoola        | jordanpopoola2026\@u.northwestern.edu |
+
+Please connect with the relevant TA as follows:
+
+1. **All course-related questions, except grading**: Please attend UG TA office hours for all course-related questions, except grading. UG TAs are **not** supposed to know your grade or score on any home work. Please find their office hours in the [spreadsheet](https://docs.google.com/spreadsheets/d/11CRhOx_IYfyNOoI816QOUG6yTLPjOpeRtP0YoncGuOo/edit?usp=sharing)
+
+2. **Grading-related queries**: Set up appointment with the graders for grading related queries only, and no other questions.
 
 ## Instructors
 
