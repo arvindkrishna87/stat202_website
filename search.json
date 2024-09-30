@@ -779,11 +779,11 @@
     "text": "Example: EDA\n\nlibrary(skimr)\nskim(penguins)\n\n\nData summary\n\n\nName\npenguins\n\n\nNumber of rows\n344\n\n\nNumber of columns\n8\n\n\n_______________________\n\n\n\nColumn type frequency:\n\n\n\nfactor\n3\n\n\nnumeric\n5\n\n\n________________________\n\n\n\nGroup variables\nNone\n\n\n\nVariable type: factor\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nordered\nn_unique\ntop_counts\n\n\n\n\nspecies\n0\n1.00\nFALSE\n3\nAde: 152, Gen: 124, Chi: 68\n\n\nisland\n0\n1.00\nFALSE\n3\nBis: 168, Dre: 124, Tor: 52\n\n\nsex\n11\n0.97\nFALSE\n2\nmal: 168, fem: 165\n\n\n\nVariable type: numeric\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nskim_variable\nn_missing\ncomplete_rate\nmean\nsd\np0\np25\np50\np75\np100\nhist\n\n\n\n\nbill_length_mm\n2\n0.99\n43.92\n5.46\n32.1\n39.23\n44.45\n48.5\n59.6\n▃▇▇▆▁\n\n\nbill_depth_mm\n2\n0.99\n17.15\n1.97\n13.1\n15.60\n17.30\n18.7\n21.5\n▅▅▇▇▂\n\n\nflipper_length_mm\n2\n0.99\n200.92\n14.06\n172.0\n190.00\n197.00\n213.0\n231.0\n▂▇▃▅▂\n\n\nbody_mass_g\n2\n0.99\n4201.75\n801.95\n2700.0\n3550.00\n4050.00\n4750.0\n6300.0\n▃▇▆▃▂\n\n\nyear\n0\n1.00\n2008.03\n0.82\n2007.0\n2007.00\n2008.00\n2009.0\n2009.0\n▇▁▇▁▇"
   },
   {
-    "objectID": "index.html#class-fri-sep-27",
-    "href": "index.html#class-fri-sep-27",
+    "objectID": "index.html#class-mon-sep-30",
+    "href": "index.html#class-mon-sep-30",
     "title": "Today’s Agenda",
-    "section": "Class: Fri Sep 27",
-    "text": "Class: Fri Sep 27",
+    "section": "Class: Mon Sep 30",
+    "text": "Class: Mon Sep 30",
     "crumbs": [
       "Daily agenda"
     ]
@@ -793,7 +793,7 @@
     "href": "index.html#prepare",
     "title": "Today’s Agenda",
     "section": "Prepare",
-    "text": "Prepare\n\n\n\n\n\n  \n  \n    Read Preface & Ch 1",
+    "text": "Prepare\n\n\n\n\n\n  \n  \n    Read Sections 2.0 - 2.3",
     "crumbs": [
       "Daily agenda"
     ]
@@ -803,17 +803,17 @@
     "href": "index.html#agenda",
     "title": "Today’s Agenda",
     "section": "Agenda",
-    "text": "Agenda\n\n\n\n\n\n\n\n\n\n\n\nSection notes: Slides: Ch1\n\n\nDaily activity: Posit: act_01",
+    "text": "Agenda\n\n\n\n\n\n\n\n\n\n\n\nSection notes: Slides: Ch2a\n\n\nDaily activity: Posit: act_02",
     "crumbs": [
       "Daily agenda"
     ]
   },
   {
-    "objectID": "index.html#homework-due-sun-sep-29-1159pm",
-    "href": "index.html#homework-due-sun-sep-29-1159pm",
+    "objectID": "index.html#homework-due-tue-oct-01-1159pm",
+    "href": "index.html#homework-due-tue-oct-01-1159pm",
     "title": "Today’s Agenda",
-    "section": "Homework Due Sun Sep 29 11:59pm",
-    "text": "Homework Due Sun Sep 29 11:59pm\n\n\n\n\n\n\n\n\n\n\n\nComplete and submit Canvas: act_01\n\n\nRead Sections 2.0 - 2.3\n\n\nComplete and submit Canvas: RC_02",
+    "section": "Homework Due Tue Oct 01 11:59pm",
+    "text": "Homework Due Tue Oct 01 11:59pm\n\n\n\n\n\n\n\n\n\n\n\nComplete and submit Canvas: act_02\n\n\nRead Sections 2.4 - 2.6\n\n\nComplete and submit Canvas: RC_03",
     "crumbs": [
       "Daily agenda"
     ]
@@ -879,7 +879,7 @@
     "href": "course-lectures.html",
     "title": "Lecture Videos",
     "section": "",
-    "text": "Lecture videos are posted here.\n\n\n\n\n\n\n\n\n\n\n\nLecture 1: No Video\n\n\nLecture 2: Activity 01"
+    "text": "Lecture videos are posted here.\n\n\n\n\n\n\n\n\n\n\n\nLecture 1: No Video\n\n\nLecture 2: Activity 01\n\n\nLecture 3: Scatterplots"
   },
   {
     "objectID": "course-project.html",
@@ -1534,7 +1534,7 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 36.502, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4096.815 4574.185\nsample estimates:\nmean of x \n   4335.5"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 38.689, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3996.063 4433.937\nsample estimates:\nmean of x \n     4215"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
