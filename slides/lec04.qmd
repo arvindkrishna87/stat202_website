@@ -35,20 +35,20 @@ titanic <- Titanic |>
 
 <br/>
 
-::: columns
+:::: columns
 ::: {.column width="60%"}
 1.  Create a boxplot
 2.  Create a barplot
 3.  Properly describe a boxplot and barplot
 4.  Display barplots in various ways by category
 :::
-:::
+::::
 
-::: {.absolute top="85%" left="80%" width="500"}
+:::: {.absolute top="85%" left="80%" width="500"}
 ::: {style="opacity:0.75; font-size: 0.5em"}
 Artwork by @allison_horst
 :::
-:::
+::::
 
 ## 5NG#4: Boxplots
 
@@ -77,9 +77,9 @@ If you switch x and y, it will just change the orientation of the boxplot (perso
 
 ## 5NG#4: Boxplots
 
-::: columns
+::::: columns
 ::: {.column width="40%"}
-<img src="images_lecture/box_plot.png" style="float: left;"/>
+<img src="images_lecture/boxplot.jpg" style="float: left;"/>
 :::
 
 ::: {.column width="60%"}
@@ -89,7 +89,7 @@ There are 3 things that we typically focus on and describe/compare when inspecti
 -   spread
 -   shape and outliers
 :::
-:::
+:::::
 
 ## Binary Variables {.scrollable}
 
