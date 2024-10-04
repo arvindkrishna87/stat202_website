@@ -128,25 +128,11 @@ Type `colors()` in the **console** to view all possible colors.
 
 **Histogram syntax in R:**
 
-```{r histogram}
-#| echo: true
-#| eval: false
-ggplot(data= my_data, aes(x = var1)) +
-  geom_histogram(color = "white", fill = "blue", bins = 10)
-
-```
-
-<br>
-
 . . .
 
-<font size="6"> There are 3 things we look and describe when inspecting a histogram:
+<font size="6">Below are the formulae for the statistics introduced in the previous slide.
 
--   shape (skew and modality)
-
--   center (mean or median)
-
--   spread (range, IQR, or standard deviation)
+Let $X_1,...,X_n$ be a sample of data points, then:
 
 . . .
 
