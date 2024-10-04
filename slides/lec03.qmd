@@ -137,7 +137,12 @@ $$Mean(\bar{X}) = \frac{1}{n}\sum_{i=1}^n X_i$$
 Note that $\sum_{i=1}^n X_i = X_1 + ... + X_n$
 . . .
 
-Not all distributions have a simple recognizable shape!</font>
+if $n$ is odd,
+
+$$Median(X) = X_{\frac{n+1}{2}}$$, 
+
+
+</font>
 
 ::: footer
 Type `colors()` in the **console** to view all possible colors.
