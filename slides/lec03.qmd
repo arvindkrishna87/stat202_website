@@ -148,6 +148,21 @@ $$Median(X) = \frac{X_{\frac{n}{2}}+X_{\frac{n}{2}+1}}{2}$$
 
 </font>
 
+## Sample statistics (cont.)
+
+. . .
+
+<font size="6">
+$$Range = \max(X_1,...,X_n) - \min(X_1,...,X_n)$$
+
+$$IQR = Q_3 - Q_1$$,
+where $Q_3$ is the $75^{th}$ percentile of $X_1, ..., X_n$, and $Q_1$ is the $25^{th}$ percentile of $X_1, ..., X_n$
+
+$$Standard \ deviation = \sqrt{\frac{1}{n-1}\sum_{i=1}^n (X_i-\bar{X})^2}$$
+
+Note that the above formula holds when we only have a sample of data, and not all the datapoints, i.e., the population data
+
+</font>
 
 ## 5NG#3: Histograms
 
