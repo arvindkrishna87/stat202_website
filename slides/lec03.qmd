@@ -124,7 +124,7 @@ Not all distributions have a simple recognizable shape!</font>
 Type `colors()` in the **console** to view all possible colors.
 :::
 
-## 5NG#3: Histograms
+## Sample statistics
 
 . . .
 
