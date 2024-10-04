@@ -139,14 +139,15 @@ Note that $\sum_{i=1}^n X_i = X_1 + ... + X_n$
 
 if $n$ is odd,
 
-$$Median(X) = X_{\frac{n+1}{2}}$$, 
+$$Median(X) = X_{\frac{n+1}{2}},$$ 
+
+If $n$ is even,
+
+$$Median(X) = \frac{X_{\frac{n}{2}}+X_{\frac{n}{2}+1}}{2}$$
 
 
 </font>
 
-::: footer
-Type `colors()` in the **console** to view all possible colors.
-:::
 
 ## 5NG#3: Histograms
 
