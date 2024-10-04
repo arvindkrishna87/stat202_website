@@ -126,14 +126,15 @@ Type `colors()` in the **console** to view all possible colors.
 
 ## 5NG#3: Histograms
 
-**Histogram syntax in R:**
-
 . . .
 
 <font size="6">Below are the formulae for the statistics introduced in the previous slide.
 
 Let $X_1,...,X_n$ be a sample of data points, then:
 
+$$Mean(\bar{X}) = \frac{1}{n}\sum_{i=1}^n X_i$$
+
+Note that $\sum_{i=1}^n X_i = X_1 + ... + X_n$
 . . .
 
 Not all distributions have a simple recognizable shape!</font>
