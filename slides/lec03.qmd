@@ -124,34 +124,37 @@ Not all distributions have a simple recognizable shape!</font>
 Type `colors()` in the **console** to view all possible colors.
 :::
 
-## 5NG#3: Some sample statistics
+## 5NG#3: Histograms
 
-<font size="6">Below are the formulae for the statistics introduced in the previous slide.
+**Histogram syntax in R:**
 
-Let $X_1,...,X_n$ be a sample of data points, then:
+```{r histogram}
+#| echo: true
+#| eval: false
+ggplot(data= my_data, aes(x = var1)) +
+  geom_histogram(color = "white", fill = "blue", bins = 10)
 
-$$Mean(\bar{X}) = \frac{1}{n}\sum_{i=1}^n X_i$$
+```
 
-Note that $\sum_{i=1}^n X_i = X_1 + ... + X_n$
+<br>
 
-if $n$ is odd,
+. . .
 
-$$Median(X) = X_{\frac{n+1}{2}}$$, 
+<font size="6"> There are 3 things we look and describe when inspecting a histogram:
 
-If $n$ is even,
+-   shape (skew and modality)
 
-$$Median(X) = \frac{X_{\frac{n}{2}}+X_{\frac{n}{2}+1}}{2}$$ 
+-   center (mean or median)
 
-## 5NG#3: Some sample statistics (cont.)
+-   spread (range, IQR, or standard deviation)
 
-$$Range = \max(X_1,...,X_n) - \min(X_1,...,X_n)$$
+. . .
 
-$$IQR = Q_3 - Q_1$$,
-where $Q_3$ is the $75^{th}$ percentile of $X_1, ..., X_n$, and $Q_1$ is the $25^{th}$ percentile of $X_1, ..., X_n$
+Not all distributions have a simple recognizable shape!</font>
 
-$$Standard \ deviation = \sqrt{\frac{1}{n-1}\sum_{i=1}^n (X_i-\bar{X})^2}$$
-
-Note that the above formula holds when we only have a sample of data, and not all the datapoints, i.e., the population data
+::: footer
+Type `colors()` in the **console** to view all possible colors.
+:::
 
 ## 5NG#3: Histograms
 
