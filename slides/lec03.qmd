@@ -128,46 +128,34 @@ Type `colors()` in the **console** to view all possible colors.
 
 <font size="6">Below are the formulae for the statistics introduced in the previous slide.
 
-. . .
 
 Let $X_1,...,X_n$ be a sample of data points, then:
 
-. . .
 
 $$Mean(\bar{X}) = \frac{1}{n}\sum_{i=1}^n X_i$$
 
-. . .
 
 Note that $\sum_{i=1}^n X_i = X_1 + ... + X_n$
 
-. . .
 
 if $n$ is odd,
 
-. . .
 
 $$Median(X) = X_{\frac{n+1}{2}}$$, 
 
-. . .
 
 If $n$ is even,
 
-. . .
 
 $$Median(X) = \frac{X_{\frac{n}{2}}+X_{\frac{n}{2}+1}}{2}$$ 
 
-. . .
-
 $$Range = \max(X_1,...,X_n) - \min(X_1,...,X_n)$$
-. . .
 
 $$IQR = Q_3 - Q_1$$,
 where $Q_3$ is the $75^{th}$ percentile of $X_1, ..., X_n$, and $Q_1$ is the $25^{th}$ percentile of $X_1, ..., X_n$
 
-. . .
 
 $$Standard \ deviation = \sqrt{\frac{1}{n-1}\sum_{i=1}^n (X_i-\bar{X})^2}$$
-. . .
 
 Note that the above formula holds when we only have a sample of data, and not all the datapoints, i.e., the population data
 
