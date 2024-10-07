@@ -31,23 +31,25 @@ library(palmerpenguins)
 
 <br/>
 
-::: columns
+:::: columns
 ::: {.column width="60%"}
 1.  Understand the pipe operator
 2.  Subset rows of a dataset based on conditions
 3.  Calculate summary statistics of a variable
 :::
-:::
+::::
 
-::: {.absolute top="77%" left="85%" width="500"}
+:::: {.absolute top="77%" left="85%" width="500"}
 ::: {style="opacity:0.75; font-size: 0.5em"}
 Artwork by @allison_horst
 :::
-:::
+::::
 
 ## Data Wrangling
 
 In real data applications it is rare that data will be in the "perfect" form for us to use. We will typically need to manipulate or wrangle data into a form that is useful using the `dplyr` library.
+
+The 'd' stands for data frames, and the 'plyr' is the name of another package that the R developers called pliers. Think of it as a set of metaphorical pliers used for working with data sets and data frames.
 
 . . .
 
@@ -68,7 +70,7 @@ data %>%
 
 Operators for the `filter` Function
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 | **Operator** | **Definition**           |
 |--------------|--------------------------|
@@ -84,7 +86,7 @@ Operators for the `filter` Function
 | `<`          | less than             |
 | `<=`         | less than or equal to |
 :::
-:::
+:::::
 
 ## Example 1 {auto-animate="true"}
 
