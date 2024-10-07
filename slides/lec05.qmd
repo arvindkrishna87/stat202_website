@@ -49,7 +49,9 @@ Artwork by @allison_horst
 
 In real data applications it is rare that data will be in the "perfect" form for us to use. We will typically need to manipulate or wrangle data into a form that is useful using the `dplyr` library.
 
-The 'd' stands for data frames, and the 'plyr' is the name of another package that the R developers called pliers. Think of it as a set of metaphorical pliers used for working with data sets and data frames.
+. . .
+
+<font size="6">The 'd' stands for data frames, and the 'plyr' is the name of another package that the R developers called pliers. Think of it as a set of metaphorical pliers used for working with data sets and data frames.</font>
 
 . . .
 
