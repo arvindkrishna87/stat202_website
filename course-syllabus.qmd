@@ -97,16 +97,16 @@ The final letter grade will be rounded to nearest tenth of a percent and determi
 
 | Letter Grade | Final Course Grade |
 |--------------|--------------------|
-| A            | \>= 93             |
-| A-           | 90 - 92.9          |
-| B+           | 87 - 89.9          |
-| B            | 83 - 86.9          |
-| B-           | 80 - 82.9          |
-| C+           | 77 - 79.9          |
-| C            | 73 - 76.9          |
-| C-           | 70 - 72.9          |
-| D            | 60 - 69.9          |
-| F            | \< 59.9            |
+| A            | \>= 85             |
+| A-           | 85 - 80            |
+| B+           | 80 - 75            |
+| B            | 75 - 70            |
+| B-           | 70 - 65            |
+| C+           | 65 - 60            |
+| C            | 60 - 55            |
+| C-           | 55 - 50            |
+| D            | 50 - 45            |
+| F            | \< 45              |
 
 
 ## Tips for success
