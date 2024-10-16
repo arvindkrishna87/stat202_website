@@ -79,7 +79,7 @@ For this lessons example we will be using a subset of the `penguins` dataset tha
 
 The correlation coefficient ($r$) between a variable with values $x_1,...,x_n$, and a variable with values $y_1,...,y_n$ is defined as:
 
-$Correlation(r) = \frac{\sum_{i=1}^n(x_i-\bar{x})(y_i-\bar{y})}{\sqrt{\sum_{i=1}^n(x_i-\bar{x})^2(y_i-\bar{y})^2}},$
+$Correlation(r) = \frac{\sum_{i=1}^n(x_i-\bar{x})(y_i-\bar{y})}{\sqrt{\sum_{i=1}^n(x_i-\bar{x})^2\sum_{i=1}^n(y_i-\bar{y})^2}},$
 
 where $\bar{x}$ is the mean of $x_1,...,x_n$, and $\bar{y}$ is the mean of $y_1,...,y_n$
 
