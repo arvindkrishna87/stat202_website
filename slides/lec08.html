@@ -430,13 +430,23 @@
 <p>For this lessons example we will be using a subset of the <code>penguins</code> dataset that only includes <code>male</code> penguins from the <code>Chinstrap</code> species and <code>Dream</code> island. This is stored in <code>penguin_sub</code>.</p>
 </div>
 </section>
-<section id="correlation-coefficient-ex1" class="slide level2 scrollable">
+<section id="correlation-coefficient-ex1" class="slide level2">
 <h2>Correlation Coefficient (Ex1)</h2>
 <div class="absolute" style="top: 0%; left: 90%; width: 100px; ">
 <p><img data-src="images_lecture/participate_icon.png"></p>
 </div>
-<p><font size="6"> <strong>Correlation coefficient</strong>: a number between -1 and 1 indicating the strength of the linear relationship between two numerical variables.</font></p><font size="6">
-</font><p><font size="6">Match the following graphs with the most appropriate correlation coefficient: </font></p>
+<p><font size="6"> <strong>Correlation coefficient</strong>: a number between -1 and 1 indicating the strength of the linear relationship between two numerical variables.</font></p>
+<p>The correlation coefficient (<span class="math inline">\(r\)</span>) between a variable with values <span class="math inline">\(x_1,...,x_n\)</span>, and a variable with values <span class="math inline">\(y_1,...,y_n\)</span> is defined as:</p>
+<p><span class="math inline">\(Correlation(r) = \frac{\sum_{i=1}^n(x_i-\bar{x})(y_i-\bar{y})}{\sqrt{\sum_{i=1}^n(x_i-\bar{x})^2(y_i-\bar{y})^2}},\)</span></p>
+<p>where <span class="math inline">\(\bar{x}\)</span> is the mean of <span class="math inline">\(x_1,...,x_n\)</span>, and <span class="math inline">\(\bar{y}\)</span> is the mean of <span class="math inline">\(y_1,...,y_n\)</span></p>
+<p>Is correlation between two variables <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> the same as the correlation between <span class="math inline">\(Y\)</span> and <span class="math inline">\(X\)</span>?</p>
+</section>
+<section id="correlation-coefficient-ex1-1" class="slide level2 scrollable">
+<h2>Correlation Coefficient (Ex1)</h2>
+<div class="absolute" style="top: 0%; left: 90%; width: 100px; ">
+<p><img data-src="images_lecture/participate_icon.png"></p>
+</div>
+<p><font size="6">Match the following graphs with the most appropriate correlation coefficient: </font></p>
 <div class="fragment">
 <ol type="1">
 <li>&nbsp;&nbsp;&nbsp; a) -0.2 &nbsp;&nbsp;&nbsp; b) 0 &nbsp;&nbsp;&nbsp; c) 0.4 &nbsp;&nbsp;&nbsp; d) 0.7</li>
