@@ -36,20 +36,20 @@ penguin_sub <- penguins %>%
 
 <br/>
 
-::: columns
+:::: columns
 ::: {.column width="80%"}
 1.  Find the correlation between two variables
 2.  Build and interpret a linear regression model
 3.  Make predictions using a linear regression model
 4.  Plot the line of best fit on a scatterplot
 :::
-:::
+::::
 
-::: {.absolute top="80%" left="50%" width="500"}
+:::: {.absolute top="80%" left="50%" width="500"}
 ::: {style="opacity:0.75; font-size: 0.5em"}
 Artwork by @allison_horst
 :::
-:::
+::::
 
 ## A Note about Regression
 
@@ -116,6 +116,8 @@ Match the following graphs with the most appropriate correlation coefficient: </
     d . Between 0 and 1
 
     e . Exactly 1
+
+Correlation does not imply causation, as is evident from this example.
 
 ## Correlation Coefficient (continued) {.scrollable}
 
