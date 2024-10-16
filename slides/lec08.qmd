@@ -75,9 +75,22 @@ For this lessons example we will be using a subset of the `penguins` dataset tha
 ![](images_lecture/participate_icon.png)
 :::
 
-<font size="6"> **Correlation coefficient**: a number between -1 and 1 indicating the strength of the linear relationship between two numerical variables.
+<font size="6"> **Correlation coefficient**: a number between -1 and 1 indicating the strength of the linear relationship between two numerical variables.</font>
 
-Match the following graphs with the most appropriate correlation coefficient: </font>
+The correlation coefficient ($r$) between a variable with values $x_1,...,x_n$, and a variable with values $y_1,...,y_n$ is defined as:
+
+$Correlation(r) = \frac{\sum_{i=1}^n(x_i-\bar{x})(y_i-\bar{y})}{\sqrt{\sum_{i=1}^n(x_i-\bar{x})^2(y_i-\bar{y})^2}},$
+
+where $\bar{x}$ is the mean of $x_1,...,x_n$, and $\bar{y}$ is the mean of $y_1,...,y_n$
+
+
+## Correlation Coefficient (Ex1)
+
+::: {.absolute top="0%" left="90%" width="100"}
+![](images_lecture/participate_icon.png)
+:::
+
+<font size="6">Match the following graphs with the most appropriate correlation coefficient: </font>
 
 ::: fragment
 1.      a) -0.2     b) 0     c) 0.4     d) 0.7
