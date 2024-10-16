@@ -83,6 +83,7 @@ $Correlation(r) = \frac{\sum_{i=1}^n(x_i-\bar{x})(y_i-\bar{y})}{\sqrt{\sum_{i=1}
 
 where $\bar{x}$ is the mean of $x_1,...,x_n$, and $\bar{y}$ is the mean of $y_1,...,y_n$
 
+Is correlation between two variables $X$ and $Y$ the same as the correlation between $Y$ and $X$?
 
 ## Correlation Coefficient (Ex1)
 
