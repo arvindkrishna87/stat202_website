@@ -30,13 +30,13 @@ library(palmerpenguins)
 
 <br/>
 
-::: columns
+:::: columns
 ::: {.column width="60%"}
 1.  Regression with two numerical explanatory variables
 2.  Understand coefficient interpretation
 3.  Make predictions with a model
 :::
-:::
+::::
 
 ## Multiple Regression
 
@@ -105,8 +105,8 @@ $$\widehat{bodymass} = -5736.9 + 48.14*\text{flipper} + 6.05*\text{bill_length}$
 
 ::: incremental
 -   $b_0$ intercept; the **predicted/expected** body mass when a penguin has flipper length 0 and bill length 0
--   $b_1$ slope of flipper length; taking into account all other explanatory variables, for every 1 mm increase in flipper length, the **expected** body mass increases by $48.14$
--   $b_2$ slope of bill length; taking into account all other explanatory variables, for every 1 mm increase in bill length, the **expected** body mass increases by $6.05$
+-   $b_1$ slope of flipper length; holding all other explanatory variables constant, for every 1 mm increase in flipper length, the **expected** body mass increases by $48.14$
+-   $b_2$ slope of bill length; holding all other explanatory variables constant, for every 1 mm increase in bill length, the **expected** body mass increases by $6.05$
 :::
 
 ## Example: prediction
