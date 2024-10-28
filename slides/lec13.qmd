@@ -44,6 +44,11 @@ Use trends in a sample to make inference about a population.
 | Population | N    | $\pi$              | $\mu$     | $\sigma$           |
 | Sample     | n    | $p$ or $\hat{\pi}$ | $\bar{x}$ | $s$                |
 
+Let $X_1,...,X_n$ be a sample of data points from a population of $N$ data points, then:
+
+$$s = \sqrt{\frac{1}{n-1}\sum_{i=1}^n (X_i-\bar{X})^2}$$
+$$\sigma = \sqrt{\frac{1}{N}\sum_{i=1}^n (X_i-\mu)^2}$$
+
 ## Example 1 {.smaller}
 
 In a survey of 1,500 parents in the United States, 73% said they wanted to resume in person school for their children for 2021.
@@ -110,7 +115,7 @@ d)  no causal conclusions (correlation only) only applicable to the sample
 
 <!-- ::: {layout="[20,20,20,20]"} -->
 
-::: columns
+::::::: columns
 ::: {.column width="25%"}
 a)  ![](images_lecture/sample_strata.png)
 :::
@@ -126,7 +131,7 @@ c)  ![](images_lecture/sample_systematic.png)
 ::: {.column width="25%"}
 d)  ![](images_lecture/sample_cluster.png)
 :::
-:::
+:::::::
 
 ## Example 3 {.smaller}
 
