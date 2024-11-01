@@ -20,16 +20,42 @@ execute:
   echo: true
 ---
 
+## The Normal Distribution
+
+:::::: columns
+::: {.column width="50%"}
+<br>
+
+<img src="images_lecture/normal.jpeg" style="float: center;"/>
+:::
+
+:::: {.column width="50%"}
+**Properties**
+
+A normal distribution or Gaussian distribution is a type of continuous probability distribution for a real-valued random variable. 
+
+The probability density function of a normal distribution is:
+
+$$f(x) = \frac{1}{\sqrt(2\pi\sigma^2)}\exp\bigg[-\frac{(x-\mu)^2}{2\sigma^2}\bigg]$$
+:::
+::::
+::::::
+
+
+
+
+
+
 ## The Standard Normal Distribution
 
-::: columns
+:::::: columns
 ::: {.column width="50%"}
 <br>
 
 <img src="images_lecture/standard_normal.png" style="float: center;"/>
 :::
 
-::: {.column width="50%"}
+:::: {.column width="50%"}
 **Properties**
 
 ::: incremental
@@ -37,8 +63,8 @@ execute:
 -   The mean of the distribution is 0
 -   The standard deviation of the distribution is 1
 :::
-:::
-:::
+::::
+::::::
 
 ::: footer
 Can use the normal distribution in R or at https://homepage.divms.uiowa.edu/\~mbognar/applets/normal.html
@@ -46,19 +72,19 @@ Can use the normal distribution in R or at https://homepage.divms.uiowa.edu/\~mb
 
 ## Empirical Rule {.smaller}
 
-::: columns
+:::::: columns
 ::: {.column width="48%"}
 <img src="images_lecture/standard_normal.png" style="float: left;"/>
 :::
 
-::: {.column width="52%"}
+:::: {.column width="52%"}
 ::: incremental
 -   Around **68%** of values are within **one** standard deviation from the mean.
 -   Around **95%** of values are within **two** standard deviations from the mean.
 -   Around **99.7%** of values are within **three** standard deviations from the mean.
 :::
-:::
-:::
+::::
+::::::
 
 . . .
 
@@ -96,19 +122,19 @@ The t-distribution is similar in shape to a normal distribution.
 
 <br>
 
-::: columns
+:::::: columns
 ::: {.column width="48%"}
 <center>![](images_lecture/t-dist.png)</center>
 :::
 
-::: {.column width="52%"}
+:::: {.column width="52%"}
 ::: incremental
 -   Completely characterized by it's degrees of freedom (df). A parameter defined based on the sample size $n$.
 -   As we make the degrees of freedom ($df$) larger the t-distribution is getting closer to the standard normal distribution.
 -   The normal distribution assumes that you know the population standard deviation, $\sigma$. The t-distribution is used if you only know the sample standard deviation, $s$ (ie: $\sigma$ unknown).
 :::
-:::
-:::
+::::
+::::::
 
 ## Normal Distribution in R
 
@@ -149,12 +175,12 @@ qnorm(p = .025, mean = 10, sd = 2, lower.tail = FALSE)
 
 For a standard normal distribution, what is the probability of being less than one standard deviation below the mean?
 
-::: columns
+:::::: columns
 ::: {.column width="40%"}
 <img src="images_lecture/standard_normal.png" style="float: center;"/>
 :::
 
-::: {.column width="60%"}
+:::: {.column width="60%"}
 <br>
 
 ::: fragment
@@ -162,19 +188,19 @@ For a standard normal distribution, what is the probability of being less than o
 pnorm(q = -1)
 ```
 :::
-:::
-:::
+::::
+::::::
 
 ## Example 2
 
 For a standard normal distribution, find the STAT (CV) for being in the highest 30%.
 
-::: columns
+:::::: columns
 ::: {.column width="40%"}
 <img src="images_lecture/standard_normal.png" style="float: center;"/>
 :::
 
-::: {.column width="60%"}
+:::: {.column width="60%"}
 <br>
 
 ::: fragment
@@ -186,8 +212,8 @@ qnorm(p = 0.3, lower.tail = FALSE)
 qnorm(p = 0.7)
 ```
 :::
-:::
-:::
+::::
+::::::
 
 ## Example 3 {.smaller}
 
@@ -197,32 +223,32 @@ qnorm(p = 0.7)
 
 The amount of money spent buying weekly groceries follows a normal distribution. We are lucky enough to know the population mean is \$150 and the population standard deviation is \$20. Find the probability an individual spent less than \$120.
 
-::: panel-tabset
+::::::::::: panel-tabset
 ## Using data
 
-::: columns
+:::::: columns
 ::: {.column width="40%"}
 <img src="images_lecture/normal_dist.png" style="float: center;"/>
 :::
 
-::: {.column width="60%"}
+:::: {.column width="60%"}
 ::: fragment
 ```{r}
 # Standardize
 pnorm(q = 120, mean = 150, sd = 20)
 ```
 :::
-:::
-:::
+::::
+::::::
 
 ## Standardize
 
-::: columns
+:::::: columns
 ::: {.column width="40%"}
 <img src="images_lecture/standard_normal.png" style="float: center;"/>
 :::
 
-::: {.column width="60%"}
+:::: {.column width="60%"}
 ::: fragment
 ```{r}
 # Standardize
@@ -231,9 +257,9 @@ pnorm(q = -1.5)
 
 <br> You can transform any normally distributed variable onto a standardized scale.
 :::
-:::
-:::
-:::
+::::
+::::::
+:::::::::::
 
 ## T-distribution in R
 
