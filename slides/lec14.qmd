@@ -32,9 +32,7 @@ execute:
 :::: {.column width="50%"}
 **Properties**
 
-A normal distribution or Gaussian distribution is a type of continuous probability distribution for a real-valued random variable. 
-
-The probability density function of a normal distribution is:
+A normal distribution is a continuous probability distribution for a real-valued random variable, with the probability density function as:
 
 $$f(x) = \frac{1}{\sqrt(2\pi\sigma^2)}\exp\bigg[-\frac{(x-\mu)^2}{2\sigma^2}\bigg]$$
 :::
