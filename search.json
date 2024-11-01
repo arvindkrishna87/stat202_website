@@ -45,6 +45,13 @@
     "text": "Useful code chunk settings\n\n\n``` {{r}}\n#| message: false\n#| warning: false\n#| eval: false\n#| echo: false\n#| include: false\n```\n\n\nmessage: false prevents messages from appearing in knitted doc\nwarning: false prevents warnings from appearing in knitted doc\n\n\n\neval: false includes the code chunk in the knitted document but prevents the code chunk from being run\necho: false prevents code itself from printing but includes the results of the code\ninclude: false prevents code and its results from printing but still runs the code when knitted"
   },
   {
+    "objectID": "slides/lec14.html#the-normal-distribution",
+    "href": "slides/lec14.html#the-normal-distribution",
+    "title": "Distributions  Section 9.1",
+    "section": "The Normal Distribution",
+    "text": "The Normal Distribution\n\n\n\n\n\nProperties\nA normal distribution or Gaussian distribution is a type of continuous probability distribution for a real-valued random variable.\nThe probability density function of a normal distribution is:\n\\[f(x) = \\frac{1}{\\sqrt(2\\pi\\sigma^2)}\\exp\\bigg[-\\frac{(x-\\mu)^2}{2\\sigma^2}\\bigg]\\]\n\n::::::"
+  },
+  {
     "objectID": "slides/lec14.html#the-standard-normal-distribution",
     "href": "slides/lec14.html#the-standard-normal-distribution",
     "title": "Distributions  Section 9.1",
@@ -59,8 +66,8 @@
     "text": "Empirical Rule\n\n\n\n\n\n\nAround 68% of values are within one standard deviation from the mean.\nAround 95% of values are within two standard deviations from the mean.\nAround 99.7% of values are within three standard deviations from the mean.\n\n\n\n\nWhy is this useful? If we know the mean and standard deviation of a variable that follows the normal distribution, we can calculate the probability of an event occurring.\n\n\nHow is this applicable? We can transform any normally distributed variable into a standard normal distribution with standardization.\n\n\n\\[\\hbox{STAT} = \\frac{X - mean(X)}{sd(X)}\\]"
   },
   {
-    "objectID": "slides/lec14.html#the-normal-distribution",
-    "href": "slides/lec14.html#the-normal-distribution",
+    "objectID": "slides/lec14.html#the-normal-distribution-1",
+    "href": "slides/lec14.html#the-normal-distribution-1",
     "title": "Distributions  Section 9.1",
     "section": "The Normal Distribution",
     "text": "The Normal Distribution\n\n\nChanging \\(\\mu\\) (mu, the mean), changes where the center (peak) of the distribution is located.\nChanging \\(\\sigma\\) (sigma, the standard deviation), changes the spread of the distribution.\nThe shape of the distribution never changes. It is always unimodal and symmetric (no skew)."
@@ -1842,7 +1849,7 @@
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 41.067, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3759.562 4146.438\nsample estimates:\nmean of x \n     3953"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 39.549, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4035.949 4468.051\nsample estimates:\nmean of x \n     4252"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
