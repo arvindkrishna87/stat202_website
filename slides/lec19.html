@@ -417,8 +417,8 @@
 <p><br></p>
 <p><span class="math inline">\(H_A\)</span> (Alternative Hypothesis): There is a reason besides chance that explains the sample data.</p>
 </section>
-<section id="writing-hypotheses-examples" class="slide level2">
-<h2>Writing hypotheses examples</h2>
+<section id="writing-hypotheses-examples-two-sided" class="slide level2">
+<h2>Writing hypotheses examples (two-sided)</h2>
 <div class="columns">
 <div class="column" style="width:40%;">
 <p><span class="math inline">\(H_0\)</span>: <span class="math inline">\(\mu=5\)</span></p>
@@ -438,7 +438,41 @@
 </div></div>
 <div class="fragment">
 <p><br></p>
-<p>These are called two-sided tests. There also exists one-sided tests ex: <span class="math inline">\(H_0: \pi \geq 0.5\)</span> vs <span class="math inline">\(H_A: \pi &lt; 0.5\)</span> but they are NOT necessary. We can (and should) <strong>ALWAYS</strong> use a two-sided test.</p>
+<p>These are called two-sided tests. There also exists one-sided tests ex: <span class="math inline">\(H_0: \pi \geq 0.5\)</span> vs <span class="math inline">\(H_A: \pi &lt; 0.5\)</span> but should generally not be used unless you have a very strong reason to only be interested in the effect occurring in one specific direction, and are completely unconcerned about the possibility of an effect in the opposite direction.</p>
+</div>
+</section>
+<section id="writing-hypotheses-examples-one-sided" class="slide level2">
+<h2>Writing hypotheses examples (One-sided)</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><span class="math inline">\(H_0\)</span>: <span class="math inline">\(\mu=5\)</span></p>
+<p><span class="math inline">\(H_A\)</span>: <span class="math inline">\(\mu&gt;5\)</span></p>
+</div><div class="column" style="width:40%;">
+<p><span class="math inline">\(H_0\)</span>: <span class="math inline">\(\pi=0.5\)</span></p>
+<p><span class="math inline">\(H_A\)</span>: <span class="math inline">\(\pi&lt;0.5\)</span></p>
+</div></div>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><span class="math inline">\(H_0\)</span>: <span class="math inline">\(\mu_1-\mu_2=0\)</span></p>
+<p><span class="math inline">\(H_A\)</span>: <span class="math inline">\(\mu_1-\mu_2&gt;0\)</span></p>
+</div><div class="column" style="width:40%;">
+<p><span class="math inline">\(H_0\)</span>: <span class="math inline">\(\beta_1=0\)</span></p>
+<p><span class="math inline">\(H_A\)</span>: <span class="math inline">\(\beta_1&lt;0\)</span></p>
+</div></div>
+<div class="fragment">
+<p><br></p>
+<p>These are called one-sided tests.</p>
+</div>
+</section>
+<section id="potential-pitfalls-of-one-sided-tests" class="slide level2">
+<h2>Potential pitfalls of one-sided tests</h2>
+<div>
+<ul>
+<li class="fragment"><p><strong>Data fishing</strong>: If you choose the direction of the one-sided test after looking at the data, it can lead to misleading results.</p></li>
+<li class="fragment"><p><strong>Missing important information</strong>: If a significant effect occurs in the “wrong” direction, a one-sided test might miss it completely.</p></li>
+<li class="fragment"><p>Use them only if you are certain about that there is only one possible direction of values for the random variable, before conducting the test.</p></li>
+</ul>
 </div>
 </section>
 <section id="p-values" class="slide level2">
