@@ -49,9 +49,9 @@ $H_0$ (Null Hypothesis): The population parameter is a particular value and any 
 
 $H_A$ (Alternative Hypothesis): There is a reason besides chance that explains the sample data.
 
-## Writing hypotheses examples
+## Writing hypotheses examples (two-sided)
 
-::: columns
+::::: columns
 ::: {.column width="40%"}
 $H_0$: $\mu=5$
 
@@ -63,11 +63,11 @@ $H_0$: $\pi=0.5$
 
 $H_A$: $\pi\ne0.5$
 :::
-:::
+:::::
 
 <br>
 
-::: columns
+::::: columns
 ::: {.column width="40%"}
 $H_0$: $\mu_1-\mu_2=0$
 
@@ -79,13 +79,61 @@ $H_0$: $\beta_1=0$
 
 $H_A$: $\beta_1\ne0$
 :::
-:::
+:::::
 
 . . .
 
 <br>
 
-These are called two-sided tests. There also exists one-sided tests ex: $H_0: \pi \geq 0.5$ vs $H_A: \pi < 0.5$ but they are NOT necessary. We can (and should) **ALWAYS** use a two-sided test.
+These are called two-sided tests. There also exists one-sided tests ex: $H_0: \pi \geq 0.5$ vs $H_A: \pi < 0.5$ but should generally not be used unless you have a very strong reason to only be interested in the effect occurring in one specific direction, and are completely unconcerned about the possibility of an effect in the opposite direction.
+
+## Writing hypotheses examples (One-sided)
+
+::::: columns
+::: {.column width="40%"}
+$H_0$: $\mu=5$
+
+$H_A$: $\mu>5$
+:::
+
+::: {.column width="40%"}
+$H_0$: $\pi=0.5$
+
+$H_A$: $\pi<0.5$
+:::
+:::::
+
+<br>
+
+::::: columns
+::: {.column width="40%"}
+$H_0$: $\mu_1-\mu_2=0$
+
+$H_A$: $\mu_1-\mu_2>0$
+:::
+
+::: {.column width="40%"}
+$H_0$: $\beta_1=0$
+
+$H_A$: $\beta_1<0$
+:::
+:::::
+
+. . .
+
+<br>
+
+These are called one-sided tests.    
+
+## Potential pitfalls of one-sided tests
+
+::: incremental
+-   **Data fishing**: If you choose the direction of the one-sided test after looking at the data, it can lead to misleading results.
+
+-   **Missing important information**: If a significant effect occurs in the "wrong" direction, a one-sided test might miss it completely.
+
+-   Use them only if you are certain about that there is only one possible direction of values for the random variable, before conducting the test.
+:::
 
 ## P-values
 
@@ -105,10 +153,10 @@ These are called two-sided tests. There also exists one-sided tests ex: $H_0: \p
 
  
 
-| Statistic  | $H_0$         | $H_A$            | Test Statistic (STAT)                                              | Distribution |
+| Statistic | $H_0$ | $H_A$ | Test Statistic (STAT) | Distribution |
 |---------------|---------------|---------------|---------------|---------------|
-| Mean       | $\mu= \mu_0$  | $\mu \neq \mu_0$ | \Large $\frac{\bar{x} - \mu_0}{s/\sqrt{n}}$                        | t(df=n-1)    |
-| Proportion | $\pi = \pi_0$ | $\pi \neq \pi_0$ | \Large $\frac{\hat{\pi}-\pi_0}{\sqrt{\frac{\pi_0(1-\pi_0)}{n} } }$ | N(0,1)       |
+| Mean | $\mu= \mu_0$ | $\mu \neq \mu_0$ | \Large $\frac{\bar{x} - \mu_0}{s/\sqrt{n}}$ | t(df=n-1) |
+| Proportion | $\pi = \pi_0$ | $\pi \neq \pi_0$ | \Large $\frac{\hat{\pi}-\pi_0}{\sqrt{\frac{\pi_0(1-\pi_0)}{n} } }$ | N(0,1) |
 
 ## Two-sample (two-sided) tests
 
@@ -119,17 +167,17 @@ For two-sample tests there are 2 ways to calculate the SE
 
 ## Two-sided tests for Pooled (equal) Variances {.smaller}
 
-| Statistic            | $H_0$             | $H_A$                | Test Statistic                                                                                                                          | Distribution         |
+| Statistic | $H_0$ | $H_A$ | Test Statistic | Distribution |
 |---------------|---------------|---------------|---------------|---------------|
-| Diff. in means       | $\mu_1-\mu_2 = d$ | $\mu_1-\mu_2 \neq d$ | $\frac{\bar{x_1} - \bar{x_2}-d}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}$                                                                 | $t(df=n_1 + n_2 -2)$ |
-| Diff. in proportions | $\pi_1-\pi_2 = 0$ | $\pi_1-\pi_2 \neq 0$ | \Large $\frac{(\hat{\pi_1}-\hat{\pi_2}) - 0}{\sqrt{\frac{\hat{\pi_0}(1-\hat{\pi_0})}{n_1} + \frac{\hat{\pi_0}(1-\hat{\pi_0})}{n_2} } }$ | $N(0,1)$             |
+| Diff. in means | $\mu_1-\mu_2 = d$ | $\mu_1-\mu_2 \neq d$ | $\frac{\bar{x_1} - \bar{x_2}-d}{s_p\sqrt{\frac{1}{n_1}+\frac{1}{n_2}}}$ | $t(df=n_1 + n_2 -2)$ |
+| Diff. in proportions | $\pi_1-\pi_2 = 0$ | $\pi_1-\pi_2 \neq 0$ | \Large $\frac{(\hat{\pi_1}-\hat{\pi_2}) - 0}{\sqrt{\frac{\hat{\pi_0}(1-\hat{\pi_0})}{n_1} + \frac{\hat{\pi_0}(1-\hat{\pi_0})}{n_2} } }$ | $N(0,1)$ |
 
 ## Two-sided tests for Unpooled (unequal) Variances {.smaller}
 
-| Statistic            | $H_0$             | $H_A$                | Test Statistic                                                                                                                          | Distribution               |
+| Statistic | $H_0$ | $H_A$ | Test Statistic | Distribution |
 |---------------|---------------|---------------|---------------|---------------|
-| Diff. in means       | $\mu_1-\mu_2 = d$ | $\mu_1-\mu_2 \neq d$ | $\frac{\bar{x_1}-\bar{x_2}-d}{\sqrt{\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}}}$                                                              | $t(df=min(n_1-1, n_2-1) )$ |
-| Diff. in proportions | $\pi_1-\pi_2 = d$ | $\pi_1-\pi_2 \neq d$ | \Large $\frac{(\hat{\pi_1}-\hat{\pi_2}) - d}{\sqrt{\frac{\hat{\pi_1}(1-\hat{\pi_1})}{n_1} + \frac{\hat{\pi_2}(1-\hat{\pi_2})}{n_2} } }$ | $N(0,1)$                   |
+| Diff. in means | $\mu_1-\mu_2 = d$ | $\mu_1-\mu_2 \neq d$ | $\frac{\bar{x_1}-\bar{x_2}-d}{\sqrt{\frac{s_1^2}{n_1}+\frac{s_2^2}{n_2}}}$ | $t(df=min(n_1-1, n_2-1) )$ |
+| Diff. in proportions | $\pi_1-\pi_2 = d$ | $\pi_1-\pi_2 \neq d$ | \Large $\frac{(\hat{\pi_1}-\hat{\pi_2}) - d}{\sqrt{\frac{\hat{\pi_1}(1-\hat{\pi_1})}{n_1} + \frac{\hat{\pi_2}(1-\hat{\pi_2})}{n_2} } }$ | $N(0,1)$ |
 
 ## R Code to obtain p-value {.smaller}
 
@@ -155,31 +203,21 @@ You want to test this claim so you collect a random sample of penguins and measu
 
 What is the null and alternative hypothesis?
 
-
-::: columns
+::::: columns
 ::: {.column width="50%"}
+a)  $$H_0: \pi_{weight} = 4250$$ $$H_A: \pi_{weight} \ne 4250$$
 
-a) $$H_0: \pi_{weight} = 4250$$
-$$H_A: \pi_{weight} \ne 4250$$
+b)  $$H_0: \mu_{weight} > 4250$$ $$H_A: \mu_{weight} \leq 4250$$
 
-b) $$H_0: \mu_{weight} > 4250$$
-$$H_A: \mu_{weight} \leq 4250$$
-
-c) $$H_0: \bar{x}_{weight} = 4250$$
-$$H_A: \bar{x}_{weight} \ne 4250$$
+c)  $$H_0: \bar{x}_{weight} = 4250$$ $$H_A: \bar{x}_{weight} \ne 4250$$
 :::
 
 ::: {.column width="50%"}
+d)  $$H_0: \mu_{weight} = 4250$$ $$H_A: \mu_{weight} \ne 4250$$
 
-d) $$H_0: \mu_{weight} = 4250$$
-  $$H_A: \mu_{weight} \ne 4250$$
-
-e) $$H_0: \bar{x}_{weight} \geq 4250$$
-$$H_A: \bar{x}_{weight} < 4250$$
-
+e)  $$H_0: \bar{x}_{weight} \geq 4250$$ $$H_A: \bar{x}_{weight} < 4250$$
 :::
-:::
-
+:::::
 
 ## Example 1 {.smaller}
 
@@ -187,7 +225,7 @@ You heard a zoologist claim the average weight of penguins is at least 4250 g.
 
 You want to test this claim so you collect a random sample of penguins and measure their weight, stored in the `penguins` dataset from the `palmerpenguins` package.
 
-::: columns
+::::: columns
 ::: {.column width="40%"}
 <img src="images_lecture/normal_dist.png" style="float: center;"/>
 :::
@@ -201,7 +239,7 @@ $H_A:$
 t.test(x = penguins$body_mass_g, mu = 4250)
 ```
 :::
-:::
+:::::
 
 ## Example 2 {.smaller}
 
@@ -209,7 +247,7 @@ You think that 33% of penguins belong to the Adelie species.
 
 You want to test this claim so you collect a random sample of penguins and count how many are of the Adelie species, stored in the `penguins` dataset from the `palmerpenguins` package.
 
-::: columns
+::::: columns
 ::: {.column width="40%"}
 <img src="images_lecture/normal_dist.png" style="float: center;"/>
 :::
@@ -226,4 +264,4 @@ penguins %>%
 prop.test(x = 153, n = 344, p = 0.33)
 ```
 :::
-:::
+:::::
