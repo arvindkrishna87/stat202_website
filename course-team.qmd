@@ -4,7 +4,7 @@ title: "Course Team"
 
 ## Office hours
 
-[Drop-In Peer Tutoring](https://www.northwestern.edu/academic-support-learning/course-support/drop-in-peer-tutoring.html). 
+[Drop-In Peer Tutoring](https://www.northwestern.edu/academic-support-learning/course-support/drop-in-peer-tutoring.html).
 
 -   Sundays 8-10 pm, Schapiro Hall, 104
 
@@ -12,7 +12,7 @@ title: "Course Team"
 
 ## Teaching assistants
 
-All of our TA office hours (except Krupal's) will be held on-line via [Zoom 998 6392 3813](https://northwestern.zoom.us/j/99863923813). Krupal's office hours will be in-person at Univeristy Hall 318.
+All of our TA office hours (except Krupal's & Jordan's) will be held on-line via [Zoom 998 6392 3813](https://northwestern.zoom.us/j/99863923813). Krupal's office hours will be in-person at University Hall 318. Jordan's Tuesday office hours will be held at Harris Hall L05, and Friday office hours will be held at Tech Institute M349.
 
 | Name                  | Email                                 |
 |-----------------------|---------------------------------------|
