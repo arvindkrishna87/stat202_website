@@ -85,7 +85,7 @@ $H_A$: $\beta_1\ne0$
 
 <br>
 
-These are called two-sided tests. There also exists one-sided tests ex: $H_0: \pi \geq 0.5$ vs $H_A: \pi < 0.5$ but should generally not be used unless you have a very strong reason to only be interested in the effect occurring in one specific direction, and are completely unconcerned about the possibility of an effect in the opposite direction.
+These are called two-sided tests. There also exists one-sided tests ex: $H_0: \pi = 0.5$ vs $H_A: \pi < 0.5$ but should generally not be used unless you have a very strong reason to only be interested in the effect occurring in one specific direction, and are completely unconcerned about the possibility of an effect in the opposite direction.
 
 ## Writing hypotheses examples (One-sided)
 
