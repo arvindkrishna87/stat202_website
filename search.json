@@ -426,7 +426,7 @@
     "href": "slides/lec18_old.html#why-do-we-need-cis",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Why do we need CIs?",
-    "text": "Why do we need CIs?\nReporting a range of values via a confidence interval takes into account the uncertainty (sampling variation) associated with the fact that we are observing a single random sample.\n\n\nWe know a sampling distribution (thousands of replicate samples) center around the population parameter.\nWe don’t know the true value of the population parameter.\nWe know a sampling distribution is normally distributed (CLT)\nWe have no idea where our single sample falls in the sampling distribution (close to the population parameter or far away)."
+    "text": "Why do we need CIs?\nReporting a range of values via a confidence interval takes into account the uncertainty (sampling variation) associated with the fact that we are observing a single random sample.\n\nWe know a sampling distribution (thousands of replicate samples) center around the population parameter.\nWe don’t know the true value of the population parameter.\nWe know a sampling distribution is normally distributed (CLT)\nWe have no idea where our single sample falls in the sampling distribution (close to the population parameter or far away)."
   },
   {
     "objectID": "slides/lec18_old.html#check-your-understanding",
@@ -440,14 +440,14 @@
     "href": "slides/lec18_old.html#width-of-an-interval-margin-of-error",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Width of an Interval (Margin of Error)",
-    "text": "Width of an Interval (Margin of Error)\n\\[\\mathbf{\\hbox{Margin of Error}} = \\hbox{Critical  Value} * SE(\\hbox{Estimator})\\]\n\nThere is a trade-off between the width of an interval and the level of confidence (critical value).\n\n\nUsing a lower CI (ex: 90% vs 95%) decreases the margin of error (narrower interval), but a narrower CI increase the chance that your interval will not capture the true mean.\nA 99% CI has a higher chance of capturing the true mean than a 95% CI, but it might be too wide of an interval to be practically useful.\nYou can also decrease the margin of error by increasing sample size."
+    "text": "Width of an Interval (Margin of Error)\n\\[\\mathbf{\\hbox{Margin of Error}} = \\hbox{Critical  Value} * SE(\\hbox{Estimator})\\]\n\nThere is a trade-off between the width of an interval and the level of confidence (critical value).\n\nUsing a lower CI (ex: 90% vs 95%) decreases the margin of error (narrower interval), but a narrower CI increase the chance that your interval will not capture the true mean.\nA 99% CI has a higher chance of capturing the true mean than a 95% CI, but it might be too wide of an interval to be practically useful.\nYou can also decrease the margin of error by increasing sample size."
   },
   {
     "objectID": "slides/lec18_old.html#example",
     "href": "slides/lec18_old.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\n\nBaselineLower CILarger n\n\n\nYou sample 80 newborn babies and calculate a mean weight of 7.5 pounds and standard deviation of 0.7 pounds.\nWe want to construct a 95% confidence interval for the population mean.\n\n\nGiven values: \\(\\bar{x} = 7.5\\), \\(s = 0.7\\)\nCalculate SE: \\(SE = \\frac{0.7}{\\sqrt{80}} = 0.078\\)\nCalculate Critical Value: qt(p=0.025, df=79) \\(= -1.99\\)\nResulting CI: \\(7.5 \\pm 1.99*0.078 = [7.34, 7.66]\\)\n\n\n\n\nConstruct a 90% confidence interval instead. The sample mean weight is still 7.5 pounds and sample standard deviation is 0.7 pounds and n = 80.\n\n\nGiven values: \\(\\bar{x} = 7.5\\), \\(s = 0.7\\)\nCalculate SE: \\(SE = \\frac{0.7}{\\sqrt{80}} = 0.078\\)\nCalculate Critical Value: qt(p=0.05, df=79) \\(= -1.66\\)\nResulting CI: \\(7.5 \\pm 1.66*0.078 = [7.37, 7.62]\\)\n\n\n\n\nIncrease the sample size to 200 newborn babies. The sample mean weight is still 7.5 pounds and sample standard deviation is 0.7 pounds.\nConstruct a 95% confidence interval for the population mean.\n\n\nGiven values: \\(\\bar{x} = 7.5\\), \\(s = 0.7\\)\nCalculate SE: \\(SE = \\frac{0.7}{\\sqrt{200}} = 0.0495\\)\nCalculate Critical Value: qt(p=0.025,df=199) \\(= -1.97\\)\nResulting CI: \\(7.5 \\pm 1.97*0.0495 = [7.40, 7.60]\\)"
+    "text": "Example\n\nBaselineLower CILarger n\n\n\nYou sample 80 newborn babies and calculate a mean weight of 7.5 pounds and standard deviation of 0.7 pounds.\nWe want to construct a 95% confidence interval for the population mean.\n\nGiven values: \\(\\bar{x} = 7.5\\), \\(s = 0.7\\)\nCalculate SE: \\(SE = \\frac{0.7}{\\sqrt{80}} = 0.078\\)\nCalculate Critical Value: qt(p=0.025, df=79) \\(= -1.99\\)\nResulting CI: \\(7.5 \\pm 1.99*0.078 = [7.34, 7.66]\\)\n\n\n\nConstruct a 90% confidence interval instead. The sample mean weight is still 7.5 pounds and sample standard deviation is 0.7 pounds and n = 80.\n\nGiven values: \\(\\bar{x} = 7.5\\), \\(s = 0.7\\)\nCalculate SE: \\(SE = \\frac{0.7}{\\sqrt{80}} = 0.078\\)\nCalculate Critical Value: qt(p=0.05, df=79) \\(= -1.66\\)\nResulting CI: \\(7.5 \\pm 1.66*0.078 = [7.37, 7.62]\\)\n\n\n\nIncrease the sample size to 200 newborn babies. The sample mean weight is still 7.5 pounds and sample standard deviation is 0.7 pounds.\nConstruct a 95% confidence interval for the population mean.\n\nGiven values: \\(\\bar{x} = 7.5\\), \\(s = 0.7\\)\nCalculate SE: \\(SE = \\frac{0.7}{\\sqrt{200}} = 0.0495\\)\nCalculate Critical Value: qt(p=0.025,df=199) \\(= -1.97\\)\nResulting CI: \\(7.5 \\pm 1.97*0.0495 = [7.40, 7.60]\\)"
   },
   {
     "objectID": "slides/lec18_old.html#r-code-to-obtain-cis-from-data-sets",
@@ -482,7 +482,7 @@
     "href": "slides/lec11.html#same-slopes-model-output",
     "title": "Multiple Regression  Chapter 6.2 - 6.4",
     "section": "Same Slopes Model Output",
-    "text": "Same Slopes Model Output\n\n\n\nEquation: \\(\\widehat{bodymass} = -5410.3 + 46.98*flipper + 347.85*\\mathbb{1}_{male}(x)\\)\n\n\nWhat is the reference level (baseline) for sex?\nInterpretation of \\(b_0\\) : (intercept for female penguins) The expected body mass for female penguins (the baseline) when flipper length is 0 is -5410.3\nInterpretation of \\(b_1\\) : (slope of flipper length for both male and female penguins) For every 1mm increase in flipper length, we EXPECT body mass to increase by 46.98 g on average regardless of penguin gender.\nInterpretation of \\(b_2\\) : (offset in intercept for male penguins) On average, we expect male penguins to weight 347.85 g more than female penguins."
+    "text": "Same Slopes Model Output\n\n\n\nEquation: \\(\\widehat{bodymass} = -5410.3 + 46.98*flipper + 347.85*\\mathbb{1}_{male}(x)\\)\n\nWhat is the reference level (baseline) for sex?\nInterpretation of \\(b_0\\) : (intercept for female penguins) The expected body mass for female penguins (the baseline) when flipper length is 0 is -5410.3\nInterpretation of \\(b_1\\) : (slope of flipper length for both male and female penguins) For every 1mm increase in flipper length, we EXPECT body mass to increase by 46.98 g on average regardless of penguin gender.\nInterpretation of \\(b_2\\) : (offset in intercept for male penguins) On average, we expect male penguins to weight 347.85 g more than female penguins."
   },
   {
     "objectID": "slides/lec11.html#same-slopes-model-output-1",
@@ -580,14 +580,14 @@
     "href": "slides/lec15.html#overview",
     "title": "Repeated Sampling  Section 9.2 - 9.4",
     "section": "Overview",
-    "text": "Overview\nThe theory of repeated samples makes it possible for statisticians to take a random sample from a population and use it to make inference about that population’s parameters.\n\n\nDefinitions:\n\n\nRepeated Sampling: repeating the exact same random sampling procedure many times.\nSampling variability: some sample estimates are bigger and some smaller than the true population statistic\nStandard error: the standard deviation of a sampling distribution\nSampling Distribution: a probability distribution of a statistic (mean, proportion, or variation) obtained from repeated sampling. This distribution is visualized with a histogram."
+    "text": "Overview\nThe theory of repeated samples makes it possible for statisticians to take a random sample from a population and use it to make inference about that population’s parameters.\n\n\nDefinitions:\n\nRepeated Sampling: repeating the exact same random sampling procedure many times.\nSampling variability: some sample estimates are bigger and some smaller than the true population statistic\nStandard error: the standard deviation of a sampling distribution\nSampling Distribution: a probability distribution of a statistic (mean, proportion, or variation) obtained from repeated sampling. This distribution is visualized with a histogram."
   },
   {
     "objectID": "slides/lec15.html#simulations-in-r",
     "href": "slides/lec15.html#simulations-in-r",
     "title": "Repeated Sampling  Section 9.2 - 9.4",
     "section": "Simulations in R",
-    "text": "Simulations in R\nThe theory of repeated samples is quite straight forward:\n\n\nImagine repeating the exact same random sampling procedure where you sampled 50 people from the population, say 10,000 times.\n\nFor each of the 10,000 samples, each with 50 people in them, calculate a sample statistic, say the sample mean. That is, you now have 10,000 sample means.\nNow examine the distribution of the 10,000 sample means. This distribution of sample means is know as a sampling distribution. A distribution that is the result of repeated sampling.\n\n\n\nCode in R:\n\nsim_data &lt;- data %&gt;% \n  rep_sample_n(size = 50, reps = 10000)"
+    "text": "Simulations in R\nThe theory of repeated samples is quite straight forward:\n\nImagine repeating the exact same random sampling procedure where you sampled 50 people from the population, say 10,000 times.\n\nFor each of the 10,000 samples, each with 50 people in them, calculate a sample statistic, say the sample mean. That is, you now have 10,000 sample means.\nNow examine the distribution of the 10,000 sample means. This distribution of sample means is know as a sampling distribution. A distribution that is the result of repeated sampling.\n\n\nCode in R:\n\nsim_data &lt;- data %&gt;% \n  rep_sample_n(size = 50, reps = 10000)"
   },
   {
     "objectID": "slides/lec15.html#simple-example",
@@ -664,7 +664,7 @@
     "href": "slides/lec08.html#slr-continued",
     "title": "Regression  Chapter 5.0 - 5.1",
     "section": "SLR (continued)",
-    "text": "SLR (continued)\nEquation of a regression line: \\[\\hat{y} = b_0 + b_1*x\\]\n\n\n\n\\(b_0\\) : intercept; the expected value of \\(\\hat{y}\\) when \\(x = 0\\)\n\\(b_1\\) : slope; for every 1 unit increase in x, then \\(\\hat{y}\\) increases on average by \\(b_1\\)\nfitted values: \\(\\hat{y}\\); the predicted value on the regression line\nresiduals: \\(y - \\hat{y}\\); error in prediction"
+    "text": "SLR (continued)\nEquation of a regression line: \\[\\hat{y} = b_0 + b_1*x\\]\n\n\n\\(b_0\\) : intercept; the expected value of \\(\\hat{y}\\) when \\(x = 0\\)\n\\(b_1\\) : slope; for every 1 unit increase in x, then \\(\\hat{y}\\) increases on average by \\(b_1\\)\nfitted values: \\(\\hat{y}\\); the predicted value on the regression line\nresiduals: \\(y - \\hat{y}\\); error in prediction"
   },
   {
     "objectID": "slides/lec08.html#example-1-model",
@@ -734,7 +734,7 @@
     "href": "slides/lec21.html#two-tail-vs-one-tail-tests",
     "title": "Hypothesis Testing  Chapter 12  (Part 2)",
     "section": "Two-tail vs one-tail tests",
-    "text": "Two-tail vs one-tail tests\n\n\nOne-tailed tests provides more power to detect an effect. You may be tempted to use a one-tailed test whenever you have a hypothesis about the direction of an effect.\nBefore doing so, consider the consequences of missing an effect in the other direction and consider the consequences of increasing your type 1 error rate\nYou can and almost always should use a two-tailed test NO MATTER how the problem is worded.\nWe focus on two-tailed tests in this class because it is the safe option and we do NOT want to miss an effect in the opposite direction.\n\n\n\nhttps://stats.oarc.ucla.edu/other/mult-pkg/faq/general/faq-what-are-the-differences-between-one-tailed-and-two-tailed-tests/"
+    "text": "Two-tail vs one-tail tests\n\nOne-tailed tests provides more power to detect an effect. You may be tempted to use a one-tailed test whenever you have a hypothesis about the direction of an effect.\nBefore doing so, consider the consequences of missing an effect in the other direction and consider the consequences of increasing your type 1 error rate\nYou can and almost always should use a two-tailed test NO MATTER how the problem is worded.\nWe focus on two-tailed tests in this class because it is the safe option and we do NOT want to miss an effect in the opposite direction.\n\n\nhttps://stats.oarc.ucla.edu/other/mult-pkg/faq/general/faq-what-are-the-differences-between-one-tailed-and-two-tailed-tests/"
   },
   {
     "objectID": "slides/lec21.html#example",
@@ -762,7 +762,7 @@
     "href": "slides/lec21.html#deeper-understanding-continued-1",
     "title": "Hypothesis Testing  Chapter 12  (Part 2)",
     "section": "Deeper Understanding (continued)",
-    "text": "Deeper Understanding (continued)\nHow does sample size impact decision making?\n\n\nIncreasing the sample size decreases the p-value and the standard error while making the STAT more extreme\nAs a result, it is harder to detect statistical significance and reject the null with a smaller sample size\n\n\n\n\nNote: Just because something is statistically significant doesn’t mean it is practically significant."
+    "text": "Deeper Understanding (continued)\nHow does sample size impact decision making?\n\nIncreasing the sample size decreases the p-value and the standard error while making the STAT more extreme\nAs a result, it is harder to detect statistical significance and reject the null with a smaller sample size\n\n\n\nNote: Just because something is statistically significant doesn’t mean it is practically significant."
   },
   {
     "objectID": "slides/lec20.html#example",
@@ -790,7 +790,7 @@
     "href": "slides/lec18.html#why-do-we-need-cis",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Why do we need CIs?",
-    "text": "Why do we need CIs?\nReporting a range of values via a confidence interval takes into account the uncertainty (sampling variation) associated with the fact that we are observing a single random sample.\n\n\nWe know a sampling distribution (thousands of replicate samples) center around the population parameter.\nWe don’t know the true value of the population parameter.\nWe know a sampling distribution is normally distributed (CLT)\nWe have no idea where our single sample falls in the sampling distribution (close to the population parameter or far away)."
+    "text": "Why do we need CIs?\nReporting a range of values via a confidence interval takes into account the uncertainty (sampling variation) associated with the fact that we are observing a single random sample.\n\nWe know a sampling distribution (thousands of replicate samples) center around the population parameter.\nWe don’t know the true value of the population parameter.\nWe know a sampling distribution is normally distributed (CLT)\nWe have no idea where our single sample falls in the sampling distribution (close to the population parameter or far away)."
   },
   {
     "objectID": "slides/lec18.html#check-your-understanding",
@@ -804,14 +804,14 @@
     "href": "slides/lec18.html#width-of-an-interval-margin-of-error",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Width of an Interval (Margin of Error)",
-    "text": "Width of an Interval (Margin of Error)\n\\[\\mathbf{\\hbox{Margin of Error}} = \\hbox{Critical  Value} * SE(\\hbox{Estimator})\\]\n\nThere is a trade-off between the width of an interval and the level of confidence (critical value).\n\n\nUsing a lower CI (ex: 90% vs 95%) decreases the margin of error (narrower interval), but a narrower CI increase the chance that your interval will not capture the true mean.\nA 99% CI has a higher chance of capturing the true mean than a 95% CI, but it might be too wide of an interval to be practically useful.\nYou can also decrease the margin of error by increasing sample size."
+    "text": "Width of an Interval (Margin of Error)\n\\[\\mathbf{\\hbox{Margin of Error}} = \\hbox{Critical  Value} * SE(\\hbox{Estimator})\\]\n\nThere is a trade-off between the width of an interval and the level of confidence (critical value).\n\nUsing a lower CI (ex: 90% vs 95%) decreases the margin of error (narrower interval), but a narrower CI increase the chance that your interval will not capture the true mean.\nA 99% CI has a higher chance of capturing the true mean than a 95% CI, but it might be too wide of an interval to be practically useful.\nYou can also decrease the margin of error by increasing sample size."
   },
   {
     "objectID": "slides/lec18.html#example",
     "href": "slides/lec18.html#example",
     "title": "Confidence Intervals  Chapter 10  (Part 2)",
     "section": "Example",
-    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 34.717, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3871.151 4346.849\nsample estimates:\nmean of x \n     4109"
+    "text": "Example\nLet’s consider our example from last lecture. You are interested in the average weight of penguins in Antarctica. Let’s say we are able to obtain a random sample of penguins in Antarctica (for example purposes this random sample will be the penguins dataset from the palmerpenguins package.)\n\nBaselineLower CISmaller n\n\n\nConstruct a 95% confidence interval for the population mean.\n\nt.test(penguins$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 4116.458 4287.050\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nConstruct a 90% confidence interval instead.\n\nt.test(penguins$body_mass_g, conf.level = 0.90)\n\n\n    One Sample t-test\n\ndata:  penguins$body_mass_g\nt = 96.893, df = 341, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n90 percent confidence interval:\n 4130.231 4273.277\nsample estimates:\nmean of x \n 4201.754 \n\n\n\n\nWhat if we only had a sample size of 50? Construct a 95% confidence interval.\n\npenguins_sample &lt;- penguins %&gt;% \n  sample_n(size = 50)\n\nt.test(penguins_sample$body_mass_g, conf.level = 0.95)\n\n\n    One Sample t-test\n\ndata:  penguins_sample$body_mass_g\nt = 43.016, df = 49, p-value &lt; 2.2e-16\nalternative hypothesis: true mean is not equal to 0\n95 percent confidence interval:\n 3713.037 4076.963\nsample estimates:\nmean of x \n     3895"
   },
   {
     "objectID": "slides/lec18.html#extra-practice",
@@ -839,14 +839,14 @@
     "href": "slides/lec16.html#central-limit-theorem",
     "title": "Repeated Sampling  9.5 - 9.6",
     "section": "Central Limit Theorem",
-    "text": "Central Limit Theorem\n\n\nA sampling distribution of a mean (\\(\\bar{x})\\) will get closer and closer to the normal curve as the number of repetitions increases. This is true no matter the shape of the original data!\nThe mean of your sampling distribution is the same as the population mean. \\(mean(\\bar{x}) = \\mu\\).\nThe standard error of your sampling distribution is less than the spread of the population. \\(SE(\\bar{x}) = \\frac{\\sigma}{\\sqrt{n} }\\)\nStatistical representation: \\[\\bar{x} \\sim N\\left(\\mu_{\\bar{x}} = \\mu_x, SE(\\bar{x})= \\frac{\\sigma_x}{\\sqrt{n}}\\right)\\]"
+    "text": "Central Limit Theorem\n\nA sampling distribution of a mean (\\(\\bar{x})\\) will get closer and closer to the normal curve as the number of repetitions increases. This is true no matter the shape of the original data!\nThe mean of your sampling distribution is the same as the population mean. \\(mean(\\bar{x}) = \\mu\\).\nThe standard error of your sampling distribution is less than the spread of the population. \\(SE(\\bar{x}) = \\frac{\\sigma}{\\sqrt{n} }\\)\nStatistical representation: \\[\\bar{x} \\sim N\\left(\\mu_{\\bar{x}} = \\mu_x, SE(\\bar{x})= \\frac{\\sigma_x}{\\sqrt{n}}\\right)\\]"
   },
   {
     "objectID": "slides/lec16.html#what-makes-a-good-sample",
     "href": "slides/lec16.html#what-makes-a-good-sample",
     "title": "Repeated Sampling  9.5 - 9.6",
     "section": "What makes a good sample?",
-    "text": "What makes a good sample?\n\n\nrepresentative of the population\npicked at random (avoids bias)\nbig enough size to draw conclusions from (\\(n \\geq 30\\))\nException: If the population is already normal, the results hold for samples of any size \\(n\\)\n\n\n\nRequirement for CLT to hold true\n\nindependent samples - includes less than 10% of the population (too big of a sample \\(n\\) will create dependence between samples)"
+    "text": "What makes a good sample?\n\nrepresentative of the population\npicked at random (avoids bias)\nbig enough size to draw conclusions from (\\(n \\geq 30\\))\nException: If the population is already normal, the results hold for samples of any size \\(n\\)\n\n\nRequirement for CLT to hold true\n\nindependent samples - includes less than 10% of the population (too big of a sample \\(n\\) will create dependence between samples)"
   },
   {
     "objectID": "slides/lec07.html#todays-goals",
@@ -874,7 +874,7 @@
     "href": "slides/lec07.html#tidy-data-continued",
     "title": "Tidy Data  Chapter 4",
     "section": "Tidy Data (continued)",
-    "text": "Tidy Data (continued)\nWhich of the following are tidy?\n\n\n\n\n\n\n\n\na)\n\n\n\n\n\n\n\nb)"
+    "text": "Tidy Data (continued)\nWhich of the following are tidy?\n\n\n\n\n\na)\n\n\n\n\n\n\n\nb)"
   },
   {
     "objectID": "slides/lec07.html#eda",
@@ -909,7 +909,7 @@
     "href": "slides/lec06.html#group_by",
     "title": "Data Wrangling  Chapter 3.4 - 3.9",
     "section": "group_by()",
-    "text": "group_by()\ngroup_by(variable) takes an existing data frame and converts it into a grouped data frame\n\n\noperations are performed by group\nmust be used in conjunction with another operator, Ex: summarize()\ncan group by multiple criteria but must be included in the same function call"
+    "text": "group_by()\ngroup_by(variable) takes an existing data frame and converts it into a grouped data frame\n\noperations are performed by group\nmust be used in conjunction with another operator, Ex: summarize()\ncan group by multiple criteria but must be included in the same function call"
   },
   {
     "objectID": "slides/lec06.html#example-group_by",
@@ -1040,7 +1040,7 @@
     "href": "slides/lec04.html#ng5-barplots-continued",
     "title": "Data Visualization  Sections 2.7 - 2.9",
     "section": "5NG#5: Barplots continued",
-    "text": "5NG#5: Barplots continued\nWhen describing a barplot we look for…\n\n\nDisparities in the height of the bars.\nBar with the most observations.\nBar with the least observations.\nIf all the bars are about equal height, then the distribution is uniform."
+    "text": "5NG#5: Barplots continued\nWhen describing a barplot we look for…\n\nDisparities in the height of the bars.\nBar with the most observations.\nBar with the least observations.\nIf all the bars are about equal height, then the distribution is uniform."
   },
   {
     "objectID": "slides/lec04.html#example-1-barplots",
@@ -1236,7 +1236,7 @@
     "href": "slides/lec01.html#useful-buttons",
     "title": "Introducing R Studio  Preface - Chapter 1",
     "section": "Useful Buttons",
-    "text": "Useful Buttons\n\n\n\n\n\n\n\n\n\nChange view output settings\n\n\n\n\n\n\n\nExport html to submit"
+    "text": "Useful Buttons\n\n\n\n\n\n\nChange view output settings\n\n\n\n\n\n\n\nExport html to submit"
   },
   {
     "objectID": "slides/lec01.html#useful-code-chunk-settings",
@@ -1271,7 +1271,7 @@
     "href": "slides/lec02.html#ng1-scatterplots-1",
     "title": "Data Visualization  Sections 2.0 - 2.3",
     "section": "5NG#1: Scatterplots",
-    "text": "5NG#1: Scatterplots\nWhen describing scatterplots…\n\n\nLook for pattern going from left to right.\nClassify association as positive, negative, or no association.\nClassify strength of association: strong, moderate, weak.\nDescribe overall pattern: linear, nonlinear, etc.\nCheck for overplotting issues."
+    "text": "5NG#1: Scatterplots\nWhen describing scatterplots…\n\nLook for pattern going from left to right.\nClassify association as positive, negative, or no association.\nClassify strength of association: strong, moderate, weak.\nDescribe overall pattern: linear, nonlinear, etc.\nCheck for overplotting issues."
   },
   {
     "objectID": "slides/lec02.html#the-palmer-penguins-dataset",
@@ -1341,7 +1341,7 @@
     "href": "slides/lec03.html#ng2-linegraphs-1",
     "title": "Data Visualization  Sections 2.4 - 2.6",
     "section": "5NG#2: Linegraphs",
-    "text": "5NG#2: Linegraphs\nWhen describing linegraphs…\n\n\nLook for pattern going from left to right.\nClassify association as positive, negative, or no association.\nClassify relationship as linear or non linear.\nCheck x and y scales to make sure they are appropriate."
+    "text": "5NG#2: Linegraphs\nWhen describing linegraphs…\n\nLook for pattern going from left to right.\nClassify association as positive, negative, or no association.\nClassify relationship as linear or non linear.\nCheck x and y scales to make sure they are appropriate."
   },
   {
     "objectID": "slides/lec03.html#ng3-histograms",
@@ -1460,7 +1460,7 @@
     "href": "slides/lec10.html#example-interpretations",
     "title": "Multiple Regression  Chapter 6.0 - 6.1",
     "section": "Example: interpretations",
-    "text": "Example: interpretations\n\\[\\widehat{bodymass} = -5736.9 + 48.14*\\text{flipper} + 6.05*\\text{bill_length}\\]\n\n\n\\(b_0\\) intercept; the predicted/expected body mass when a penguin has flipper length 0 and bill length 0\n\\(b_1\\) slope of flipper length; holding all other explanatory variables constant, for every 1 mm increase in flipper length, the expected body mass increases by \\(48.14\\)\n\\(b_2\\) slope of bill length; holding all other explanatory variables constant, for every 1 mm increase in bill length, the expected body mass increases by \\(6.05\\)"
+    "text": "Example: interpretations\n\\[\\widehat{bodymass} = -5736.9 + 48.14*\\text{flipper} + 6.05*\\text{bill_length}\\]\n\n\\(b_0\\) intercept; the predicted/expected body mass when a penguin has flipper length 0 and bill length 0\n\\(b_1\\) slope of flipper length; holding all other explanatory variables constant, for every 1 mm increase in flipper length, the expected body mass increases by \\(48.14\\)\n\\(b_2\\) slope of bill length; holding all other explanatory variables constant, for every 1 mm increase in bill length, the expected body mass increases by \\(6.05\\)"
   },
   {
     "objectID": "slides/lec10.html#example-prediction",
@@ -1474,14 +1474,14 @@
     "href": "slides/lec12.html#key-definitions",
     "title": "Randomization and Causality  Chapter 7",
     "section": "Key Definitions",
-    "text": "Key Definitions\n\n\nObservational study: can show the correlation between two variables but difficult to show causation. This is because there could be a confounding variable causing both to happen (e.g. voluntary assignment).\nRandomized experiment (Gold Standard): avoids the issues with confounding variables by comparing two groups (treatment and control) that look on average the same.\nConfounders: alternative explanations for differences between the experimental groups. Confounding variables correlate with both the experimental groups and the outcome variable."
+    "text": "Key Definitions\n\nObservational study: can show the correlation between two variables but difficult to show causation. This is because there could be a confounding variable causing both to happen (e.g. voluntary assignment).\nRandomized experiment (Gold Standard): avoids the issues with confounding variables by comparing two groups (treatment and control) that look on average the same.\nConfounders: alternative explanations for differences between the experimental groups. Confounding variables correlate with both the experimental groups and the outcome variable."
   },
   {
     "objectID": "slides/lec12.html#example",
     "href": "slides/lec12.html#example",
     "title": "Randomization and Causality  Chapter 7",
     "section": "Example",
-    "text": "Example\nDoes eating ice cream cause drowning?\nExperiment:\n\nControl group: do not eat ice cream\nTreatment group: eat ice cream\n\n\nScenario 1Scenario 2\n\n\nWe randomly divide a population into the treatment and control groups and compare the number of drownings between groups.\n\n\nType of experiment: randomized experiment\nTypes of conclusions can we make: causal conclusions\n\n\n\n\nWe have survey data of the number of monthly ice cream sales and number of monthly drownings and calculate a correlation of 0.85.\n\n\nType of experiment: observational study\nTypes of conclusions can we make: correlation only conclusions (possible confounding variables)"
+    "text": "Example\nDoes eating ice cream cause drowning?\nExperiment:\n\nControl group: do not eat ice cream\nTreatment group: eat ice cream\n\n\nScenario 1Scenario 2\n\n\nWe randomly divide a population into the treatment and control groups and compare the number of drownings between groups.\n\nType of experiment: randomized experiment\nTypes of conclusions can we make: causal conclusions\n\n\n\nWe have survey data of the number of monthly ice cream sales and number of monthly drownings and calculate a correlation of 0.85.\n\nType of experiment: observational study\nTypes of conclusions can we make: correlation only conclusions (possible confounding variables)"
   },
   {
     "objectID": "slides/lec12.html#key-ideas",
@@ -1502,7 +1502,7 @@
     "href": "slides/lec19.html#overview",
     "title": "P-values  Chapter 11",
     "section": "Overview",
-    "text": "Overview\n\n\n\nWe have a claim about a population parameter and form competing hypothesis to test the claim.\nWe then determine which hypothesis is better supported by our sample data.\nWe are always forming the hypothesis about a population parameter."
+    "text": "Overview\n\n\nWe have a claim about a population parameter and form competing hypothesis to test the claim.\nWe then determine which hypothesis is better supported by our sample data.\nWe are always forming the hypothesis about a population parameter."
   },
   {
     "objectID": "slides/lec19.html#hypothesis-test",
@@ -1530,14 +1530,14 @@
     "href": "slides/lec19.html#potential-pitfalls-of-one-sided-tests",
     "title": "P-values  Chapter 11",
     "section": "Potential pitfalls of one-sided tests",
-    "text": "Potential pitfalls of one-sided tests\n\n\nData fishing: If you choose the direction of the one-sided test after looking at the data, it can lead to misleading results.\nMissing important information: If a significant effect occurs in the “wrong” direction, a one-sided test might miss it completely.\nUse them only if you are certain about that there is only one possible direction of values for the random variable, before conducting the test."
+    "text": "Potential pitfalls of one-sided tests\n\nData fishing: If you choose the direction of the one-sided test after looking at the data, it can lead to misleading results.\nMissing important information: If a significant effect occurs in the “wrong” direction, a one-sided test might miss it completely.\nUse them only if you are certain about that there is only one possible direction of values for the random variable, before conducting the test."
   },
   {
     "objectID": "slides/lec19.html#p-values",
     "href": "slides/lec19.html#p-values",
     "title": "P-values  Chapter 11",
     "section": "P-values",
-    "text": "P-values\n\n\nIn order to determine if the null hypothesis is likely to be true we calculate a p-value.\np-value: probability of observing an estimate as extreme as the one you observed from the data if the null was true.\nA small p-value means the observed sample data is unlikely to occur under the null hypothesis. ie: proof by contradiction. Reject the null hypothesis because it is probably not true.\n\n\n\nNote: For a two-sided test you need the probability in both tails"
+    "text": "P-values\n\nIn order to determine if the null hypothesis is likely to be true we calculate a p-value.\np-value: probability of observing an estimate as extreme as the one you observed from the data if the null was true.\nA small p-value means the observed sample data is unlikely to occur under the null hypothesis. ie: proof by contradiction. Reject the null hypothesis because it is probably not true.\n\n\nNote: For a two-sided test you need the probability in both tails"
   },
   {
     "objectID": "slides/lec19.html#one-sample-two-sided-tests",
@@ -1607,28 +1607,28 @@
     "href": "slides/lec14.html#the-standard-normal-distribution",
     "title": "Distributions  Section 9.1",
     "section": "The Standard Normal Distribution",
-    "text": "The Standard Normal Distribution\n\n\n\n\n\nProperties\n\n\nThe area under the curve is 1 (or 100%)\nThe mean of the distribution is 0\nThe standard deviation of the distribution is 1\n\n\n\n\nCan use the normal distribution in R or at https://homepage.divms.uiowa.edu/~mbognar/applets/normal.html"
+    "text": "The Standard Normal Distribution\n\n\n\n\n\nProperties\n\nThe area under the curve is 1 (or 100%)\nThe mean of the distribution is 0\nThe standard deviation of the distribution is 1\n\n\n\nCan use the normal distribution in R or at https://homepage.divms.uiowa.edu/~mbognar/applets/normal.html"
   },
   {
     "objectID": "slides/lec14.html#empirical-rule",
     "href": "slides/lec14.html#empirical-rule",
     "title": "Distributions  Section 9.1",
     "section": "Empirical Rule",
-    "text": "Empirical Rule\n\n\n\n\n\n\nAround 68% of values are within one standard deviation from the mean.\nAround 95% of values are within two standard deviations from the mean.\nAround 99.7% of values are within three standard deviations from the mean.\n\n\n\n\nWhy is this useful? If we know the mean and standard deviation of a variable that follows the normal distribution, we can calculate the probability of an event occurring.\n\n\nHow is this applicable? We can transform any normally distributed variable into a standard normal distribution with standardization.\n\n\n\\[\\hbox{STAT} = \\frac{X - mean(X)}{sd(X)}\\]"
+    "text": "Empirical Rule\n\n\n\n\n\nAround 68% of values are within one standard deviation from the mean.\nAround 95% of values are within two standard deviations from the mean.\nAround 99.7% of values are within three standard deviations from the mean.\n\n\n\nWhy is this useful? If we know the mean and standard deviation of a variable that follows the normal distribution, we can calculate the probability of an event occurring.\n\n\nHow is this applicable? We can transform any normally distributed variable into a standard normal distribution with standardization.\n\n\n\\[\\hbox{STAT} = \\frac{X - mean(X)}{sd(X)}\\]"
   },
   {
     "objectID": "slides/lec14.html#the-normal-distribution-1",
     "href": "slides/lec14.html#the-normal-distribution-1",
     "title": "Distributions  Section 9.1",
     "section": "The Normal Distribution",
-    "text": "The Normal Distribution\n\n\nChanging \\(\\mu\\) (mu, the mean), changes where the center (peak) of the distribution is located.\nChanging \\(\\sigma\\) (sigma, the standard deviation), changes the spread of the distribution.\nThe shape of the distribution never changes. It is always unimodal and symmetric (no skew)."
+    "text": "The Normal Distribution\n\nChanging \\(\\mu\\) (mu, the mean), changes where the center (peak) of the distribution is located.\nChanging \\(\\sigma\\) (sigma, the standard deviation), changes the spread of the distribution.\nThe shape of the distribution never changes. It is always unimodal and symmetric (no skew)."
   },
   {
     "objectID": "slides/lec14.html#the-t-distribution",
     "href": "slides/lec14.html#the-t-distribution",
     "title": "Distributions  Section 9.1",
     "section": "The T-Distribution",
-    "text": "The T-Distribution\nThe t-distribution is similar in shape to a normal distribution.\n\n\n\n\n\n\n\n\n\nCompletely characterized by it’s degrees of freedom (df). A parameter defined based on the sample size \\(n\\).\nAs we make the degrees of freedom (\\(df\\)) larger the t-distribution is getting closer to the standard normal distribution.\nThe normal distribution assumes that you know the population standard deviation, \\(\\sigma\\). The t-distribution is used if you only know the sample standard deviation, \\(s\\) (ie: \\(\\sigma\\) unknown)."
+    "text": "The T-Distribution\nThe t-distribution is similar in shape to a normal distribution.\n\n\n\n\n\n\n\n\nCompletely characterized by it’s degrees of freedom (df). A parameter defined based on the sample size \\(n\\).\nAs we make the degrees of freedom (\\(df\\)) larger the t-distribution is getting closer to the standard normal distribution.\nThe normal distribution assumes that you know the population standard deviation, \\(\\sigma\\). The t-distribution is used if you only know the sample standard deviation, \\(s\\) (ie: \\(\\sigma\\) unknown)."
   },
   {
     "objectID": "slides/lec14.html#normal-distribution-in-r",
@@ -1670,7 +1670,7 @@
     "href": "slides/lec13.html#overview",
     "title": "Populations and Generalizability  Chapter 8",
     "section": "Overview",
-    "text": "Overview\nDefinitions\n\n\nPopulation: collection of individuals (units) in which we are interested\nSample: collection of individuals (units) from the population\n\n\n\nGoal\nUse trends in a sample to make inference about a population."
+    "text": "Overview\nDefinitions\n\nPopulation: collection of individuals (units) in which we are interested\nSample: collection of individuals (units) from the population\n\n\nGoal\nUse trends in a sample to make inference about a population."
   },
   {
     "objectID": "slides/lec13.html#notation",
@@ -1684,7 +1684,7 @@
     "href": "slides/lec13.html#example-1",
     "title": "Populations and Generalizability  Chapter 8",
     "section": "Example 1",
-    "text": "Example 1\nIn a survey of 1,500 parents in the United States, 73% said they wanted to resume in person school for their children for 2021.\n\nWhat is the population?\n\nparents in the US\n\nWhat is the sample?\n\n1,500 parents surveyed\n\nWhat “notation” is used to represent 73%\n\n\\(p\\) because 73% is a sample statistic and proportion"
+    "text": "Example 1\nIn a survey of 1,500 parents in the United States, 73% said they wanted to resume in person school for their children for 2021.\nWhat is the population?\n\nparents in the US\n\nWhat is the sample?\n\n1,500 parents surveyed\n\nWhat “notation” is used to represent 73%\n\n\\(p\\) because 73% is a sample statistic and proportion"
   },
   {
     "objectID": "slides/lec13.html#random-sampling-and-assignment",
@@ -1705,7 +1705,7 @@
     "href": "slides/lec13.html#types-of-random-sampling",
     "title": "Populations and Generalizability  Chapter 8",
     "section": "Types of random sampling",
-    "text": "Types of random sampling\n\n\nSimple Random: observations are selected randomly from the population, each having an equal chance of being selected.\nCluster Sampling: first the population is divided into sub-groups, and then x sub-groups out of all groups are randomly selected.\nStratified Sampling: first the population is divided into sub-groups, and then within each sub-group x observations are randomly selected.\nSystematic Sampling: select some starting point, then every \\(k^{th}\\) observation of the population is selected."
+    "text": "Types of random sampling\n\nSimple Random: observations are selected randomly from the population, each having an equal chance of being selected.\nCluster Sampling: first the population is divided into sub-groups, and then x sub-groups out of all groups are randomly selected.\nStratified Sampling: first the population is divided into sub-groups, and then within each sub-group x observations are randomly selected.\nSystematic Sampling: select some starting point, then every \\(k^{th}\\) observation of the population is selected."
   },
   {
     "objectID": "slides/lec13.html#example-3",
@@ -1768,7 +1768,7 @@
     "href": "slides/lec09.html#interpretation",
     "title": "Regression  Chapter 5.2 - 5.4",
     "section": "Interpretation",
-    "text": "Interpretation\n\\[\\widehat{bodymass} = b_0 + b_1*\\mathbb{1}_{chinstrap}(x)+ b_2*\\mathbb{1}_{gentoo}(x)\\]\n\n\nInterpretation of \\(b_0\\): expected value of y for the baseline; the expected body mass for Adelie species is 3700.7\nInterpretation of \\(b_1\\) : offset in intercept; expected body mass for Chinstrap species is 32.4 more on average than Adelie species\nInterpretation of \\(b_2\\) : offset in intercept; expected body mass for Gentoo species is 1375.4 more on average than Adelie species.\nWhich penguin species weighs the least on average?\nWhich penguin species weighs the most on average?"
+    "text": "Interpretation\n\\[\\widehat{bodymass} = b_0 + b_1*\\mathbb{1}_{chinstrap}(x)+ b_2*\\mathbb{1}_{gentoo}(x)\\]\n\nInterpretation of \\(b_0\\): expected value of y for the baseline; the expected body mass for Adelie species is 3700.7\nInterpretation of \\(b_1\\) : offset in intercept; expected body mass for Chinstrap species is 32.4 more on average than Adelie species\nInterpretation of \\(b_2\\) : offset in intercept; expected body mass for Gentoo species is 1375.4 more on average than Adelie species.\nWhich penguin species weighs the least on average?\nWhich penguin species weighs the most on average?"
   },
   {
     "objectID": "slides/lec09.html#extra-information",
